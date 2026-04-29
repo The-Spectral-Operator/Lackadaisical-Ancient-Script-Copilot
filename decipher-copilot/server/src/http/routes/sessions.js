@@ -4,9 +4,12 @@ import { ulid } from '../../util/ids.js';
 export function createSessionsRoute(db, config, logger) {
   return {
     list(_req, res) {
-      const sessions = db.system.prepare(
-        'SELECT * FROM sessions ORDER BY updated_at DESC LIMIT 100'
-      ).all().catch?.(() => []) || [];
+      let sessions = [];
+      try {
+        sessions = db.system.prepare(
+          'SELECT * FROM sessions ORDER BY updated_at DESC LIMIT 100'
+        ).all();
+      } catch { /* db not ready */ }
       res.writeHead(200);
       res.end(JSON.stringify({ sessions }));
     },
