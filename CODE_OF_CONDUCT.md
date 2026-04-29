@@ -1,91 +1,42 @@
 # Code of Conduct
 
-## Our Pledge
+## Philosophy
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
+This project operates on **merit**. Your code, your research, your contributions — that's what matters. Not your identity, not your feelings, not your politics.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+## Rules
 
-## Our Standards
+1. **Ship code or ship out.** Contributions are judged solely on technical quality and correctness.
+2. **No gatekeeping, no hand-holding.** If you can't figure it out, read the docs. If the docs are wrong, fix them.
+3. **Argue with evidence.** Disagree on architecture? Show benchmarks. Disagree on decipherment? Cite sources. Opinions without receipts are noise.
+4. **Don't waste people's time.** No drive-by complaints without patches. No bike-shedding. No tone-policing.
+5. **Thick skin required.** Direct feedback is not hostility. If someone says your code is wrong, prove them wrong or fix it.
+6. **No politics.** This is a research tool for ancient scripts. Take your ideology elsewhere.
+7. **Attribution matters.** Don't claim others' work. Cite your sources. Academic integrity is non-negotiable.
 
-Examples of behavior that contributes to a positive environment:
+## What Gets You Banned
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
-  community
-* Sharing knowledge about ancient scripts, linguistics, and decipherment methods
+- Submitting malicious code or backdoors
+- Plagiarizing research or code without attribution
+- Deliberately wasting maintainer time with bad-faith issues
+- Doxing or publishing private information
+- Spam
 
-Examples of unacceptable behavior:
+## What Doesn't Get You Banned
 
-* The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information without explicit permission
-* Claiming others' decipherment work as your own without proper attribution
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
-
-## Scope
-
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
+- Blunt criticism of code quality
+- Disagreeing with maintainers (with evidence)
+- Being new (but read the docs first)
+- Having unpopular opinions about decipherment hypotheses
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the project maintainers at:
+Maintainers reserve the right to remove anyone acting in bad faith. Decisions are final. No appeals process, no committee, no bureaucracy.
 
-**lackadaisical-security@proton.me**
+## TL;DR
 
-All complaints will be reviewed and investigated promptly and fairly.
+Write good code. Do good research. Don't be a time-waster. Merit wins.
 
-## Enforcement Guidelines
+---
 
-### 1. Correction
-
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional.
-
-**Consequence**: A private, written warning providing clarity around the nature
-of the violation and an explanation of why the behavior was inappropriate.
-
-### 2. Warning
-
-**Community Impact**: A violation through a single incident or series of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved for a specified period. Violating these
-terms may lead to a temporary or permanent ban.
-
-### 3. Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period.
-
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment, or aggression.
-
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/),
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
+*Lackadaisical Security — Merit-based. Receipts over rhetoric.*

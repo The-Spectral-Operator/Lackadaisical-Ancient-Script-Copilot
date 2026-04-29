@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] — 2026-04-29
+## [1.0.0-alpha] — 2026-04-29
 
 ### Added
 
@@ -38,6 +38,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Security-hardened** — strict CSP, COEP/COOP/CORP headers, no eval(), local-only binding
 - **Dataset importer** — automatic JSON/CSV lexicon ingestion with script/sign/entry creation
 - **Cross-platform build system** — CMake 3.28 + NASM + MSVC/clang-cl + Node 22 LTS
+- **Embedding-based semantic search** — vector similarity search across all inscriptions via Ollama /api/embed
+- **Batch analysis mode** — run Zipf/entropy/frequency across multiple corpora in one request with comparative ranking
+- **Custom model creation** — create specialized decipherment models via Ollama Modelfile API with built-in presets
+- **Sign-form clustering** — group visually/structurally similar glyphs via structural, embedding, or vision analysis
+- **Export reports** — generate publication-ready Markdown or LaTeX reports from analysis results
+- **Analysis history** — persistent record of all analysis runs with query and replay
 
 ### Security
 
@@ -55,8 +61,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 
 - Multi-project workspace support with versioned hypothesis trees
-- Embedding-based semantic search across corpora
-- Batch analysis mode for large corpus processing
-- Custom model creation via Ollama Modelfile API
-- Sign-form clustering via vision model embeddings
-- Export analysis reports as PDF/LaTeX

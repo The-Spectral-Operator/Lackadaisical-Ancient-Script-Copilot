@@ -10,6 +10,11 @@ import { createLexiconRoute } from './routes/lexicon.js';
 import { createCorpusRoute } from './routes/corpus.js';
 import { createAnalysisRoute } from './routes/analysis.js';
 import { createSettingsRoute } from './routes/settings.js';
+import { createEmbedSearchRoute } from './routes/embedSearch.js';
+import { createBatchAnalysisRoute } from './routes/batchAnalysis.js';
+import { createModelFactoryRoute } from './routes/modelFactory.js';
+import { createSignClusterRoute } from './routes/signCluster.js';
+import { createExportRoute } from './routes/export.js';
 import { applyMiddleware } from './middleware.js';
 import { serveStatic } from './static.js';
 
@@ -40,6 +45,11 @@ export function createRouter(db, config, logger) {
     corpus: createCorpusRoute(db, config, logger),
     analysis: createAnalysisRoute(db, config, logger),
     settings: createSettingsRoute(db, config, logger),
+    embedSearch: createEmbedSearchRoute(db, config, logger),
+    batchAnalysis: createBatchAnalysisRoute(db, config, logger),
+    modelFactory: createModelFactoryRoute(db, config, logger),
+    signCluster: createSignClusterRoute(db, config, logger),
+    export: createExportRoute(db, config, logger),
   };
 
   return async (req, res) => {
@@ -100,6 +110,27 @@ export function createRouter(db, config, logger) {
         if (path === '/api/analysis/entropy' && method === 'POST') return routes.analysis.entropy(req, res);
         if (path === '/api/analysis/frequency' && method === 'POST') return routes.analysis.frequency(req, res);
         if (path === '/api/analysis/align' && method === 'POST') return routes.analysis.align(req, res);
+        if (path === '/api/analysis/batch' && method === 'POST') return routes.batchAnalysis.batch(req, res);
+        if (path === '/api/analysis/history' && method === 'GET') return routes.batchAnalysis.history(req, res);
+
+        // Semantic search (embedding-based)
+        if (path === '/api/search/semantic' && method === 'POST') return routes.embedSearch.semantic(req, res);
+        if (path === '/api/search/index' && method === 'POST') return routes.embedSearch.index(req, res);
+        if (path === '/api/search/status' && method === 'GET') return routes.embedSearch.status(req, res);
+
+        // Model factory (custom model creation)
+        if (path === '/api/models/create' && method === 'POST') return routes.modelFactory.create(req, res);
+        if (path === '/api/models/copy' && method === 'POST') return routes.modelFactory.copy(req, res);
+        if (path === '/api/models/presets' && method === 'GET') return routes.modelFactory.presets(req, res);
+
+        // Sign clustering
+        if (path === '/api/signs/cluster' && method === 'POST') return routes.signCluster.cluster(req, res);
+        if (path === '/api/signs/identify' && method === 'POST') return routes.signCluster.identify(req, res);
+        if (path.match(/^\/api\/signs\/clusters\/[^/]+$/) && method === 'GET') return routes.signCluster.getCluster(req, res, path);
+
+        // Export (reports)
+        if (path === '/api/export/report' && method === 'POST') return routes.export.report(req, res);
+        if (path === '/api/export/corpus' && method === 'POST') return routes.export.corpus(req, res);
 
         // Chat (non-stream fallback)
         if (path === '/api/chat' && method === 'POST') return routes.chat(req, res);
