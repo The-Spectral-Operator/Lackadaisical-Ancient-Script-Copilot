@@ -1,0 +1,122 @@
+/* Standardized font declarations for Lackadaisical Security */
+
+/* Font declarations */
+@font-face {
+    font-family: 'Lazer84';
+    src: url('../fonts/Lazer84.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('../fonts/VCROSDMono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Linear A';
+    src: url('NotoSansLinearA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Linear B';
+    src: url('NotoSansLinearB-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Font variables */
+:root {
+    --font-retro: 'VCR OSD Mono', 'Courier New', monospace;
+    --font-neon: 'Lazer84', sans-serif;
+    --font-linear-a: 'Noto Sans Linear A', serif;
+    --font-linear-b: 'Noto Sans Linear B', serif;
+}
+
+/* Base font assignments */
+body {
+    font-family: var(--font-retro);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, .cyber-text, .lackadaisical-text {
+    font-family: var(--font-neon);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sec-text, code, pre, .cyber-input, .address-bar, .terminal-text,
+.cyber-button, .nav-links a, .badge-text {
+    font-family: var(--font-retro);
+}
+
+/* Font smoothing for better rendering */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fallbacks for when fonts are still loading */
+.font-loading h1,
+.font-loading h2,
+.font-loading h3,
+.font-loading h4,
+.font-loading .cyber-text,
+.font-loading .lackadaisical-text {
+    /* Use a system font while custom fonts load */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.font-loading .sec-text,
+.font-loading code,
+.font-loading pre,
+.font-loading .cyber-input,
+.font-loading .address-bar,
+.font-loading .terminal-text,
+.font-loading .cyber-button,
+.font-loading .nav-links a,
+.font-loading .badge-text {
+    /* Use a system font while custom fonts load */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Linear script CSS classes */
+.linear-a {
+    font-family: var(--font-linear-a);
+    font-size: 1.2em;
+    line-height: 1.4;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+.linear-b {
+    font-family: var(--font-linear-b);
+    font-size: 1.2em;
+    line-height: 1.4;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Larger display sizes for showcasing scripts */
+.linear-a-large, .linear-b-large {
+    font-size: 2em;
+    line-height: 1.3;
+    display: block;
+    margin: 1em 0;
+}
+
+.linear-a-large {
+    font-family: var(--font-linear-a);
+}
+
+.linear-b-large {
+    font-family: var(--font-linear-b);
+}
