@@ -1,0 +1,195 @@
+{
+  "syntax_patterns": {
+    "word_order": {
+      "basic": "VOS",
+      "description": "Classical Maya follows Verb-Object-Subject order as primary pattern",
+      "evidence": "Stuart 2005, Houston et al. 2001",
+      "examples": [
+        {
+          "maya": "u-ch'am-Ø aj-k'uh-un",
+          "transliteration": "uch'am ajk'uhun",
+          "literal": "3ERG-take-3ABS priest",
+          "english": "the priest took (it)",
+          "source": "Palenque Palace Tablet"
+        }
+      ]
+    },
+    "ergative_absolutive": {
+      "description": "Maya uses ergative-absolutive alignment system",
+      "ergative_markers": {
+        "1sg": "in-/nu-",
+        "2sg": "a-/aw-",
+        "3sg": "u-/y-"
+      },
+      "absolutive_markers": {
+        "1sg": "-en",
+        "2sg": "-et",
+        "3sg": "-Ø"
+      },
+      "evidence": "Lacadena & Wichmann 2004",
+      "examples": [
+        {
+          "pattern": "u-VERB-Ø AGENT",
+          "description": "3rd person ergative agent with null absolutive object"
+        }
+      ]
+    }
+  },
+  "morphological_patterns": {
+    "verbal_inflection": {
+      "transitive": {
+        "pattern": "ERG-ROOT-ABS",
+        "description": "Transitive verbs take both ergative and absolutive marking",
+        "examples": [
+          {
+            "root": "ch'am",
+            "meaning": "take",
+            "inflected": "u-ch'am-Ø",
+            "gloss": "3ERG-take-3ABS"
+          }
+        ]
+      },
+      "intransitive": {
+        "pattern": "ROOT-ABS",
+        "description": "Intransitive verbs take only absolutive marking",
+        "examples": [
+          {
+            "root": "k'uch",
+            "meaning": "arrive",
+            "inflected": "k'uch-i",
+            "gloss": "arrive-3ABS"
+          }
+        ]
+      }
+    },
+    "nominal_possession": {
+      "pattern": "POSS-ROOT",
+      "description": "Possessed nouns take possessive prefixes",
+      "possessive_markers": {
+        "1sg": "in-/nu-",
+        "2sg": "a-/aw-",
+        "3sg": "u-/y-"
+      },
+      "examples": [
+        {
+          "root": "otot",
+          "meaning": "house",
+          "possessed": "u-otot",
+          "gloss": "3POSS-house",
+          "english": "his/her house"
+        }
+      ]
+    }
+  },
+  "phonological_rules": {
+    "vowel_harmony": {
+      "description": "Limited vowel harmony in some morphological processes",
+      "evidence": "Kaufman & Norman 1984"
+    },
+    "consonant_clusters": {
+      "allowed": ["tz'", "ch'", "k'", "p'", "t'"],
+      "description": "Ejective consonants are common in Maya languages"
+    },
+    "syllable_structure": {
+      "patterns": ["CV", "CVC", "V"],
+      "description": "Maya syllables follow these basic patterns"
+    }
+  },
+  "semantic_fields": {
+    "temporal_expressions": {
+      "calendar_rounds": {
+        "pattern": "DAY_SIGN + NUMERAL + MONTH_SIGN + NUMERAL",
+        "description": "Calendar Round dates combine tzolk'in and haab cycles"
+      },
+      "long_count": {
+        "pattern": "BAKTUN.KATUN.TUN.WINAL.K'IN",
+        "description": "Long Count absolute dating system"
+      }
+    },
+    "royal_titles": {
+      "common_epithets": [
+        {
+          "maya": "k'inich",
+          "english": "sun-faced lord",
+          "usage": "solar association for rulers"
+        },
+        {
+          "maya": "ajaw",
+          "english": "lord/ruler",
+          "usage": "primary royal title"
+        }
+      ]
+    }
+  },
+  "discourse_patterns": {
+    "narrative_markers": {
+      "temporal_sequence": [
+        {
+          "marker": "i u-tz'ihb-al",
+          "english": "and then it was written",
+          "function": "narrative continuation"
+        }
+      ]
+    },
+    "ceremonial_formulas": {
+      "dedication_texts": [
+        {
+          "pattern": "och-k'ak' + STRUCTURE + u-kab-ji + RULER",
+          "english": "fire entered [structure], under the auspices of [ruler]",
+          "function": "building dedication"
+        }
+      ]
+    }
+  },
+  "translation_templates": {
+    "simple_sentences": [
+      {
+        "pattern": "VERB + OBJECT + SUBJECT",
+        "example": "u-ch'am aj-k'uh-un",
+        "translation": "the priest took (it)"
+      }
+    ],
+    "complex_sentences": [
+      {
+        "pattern": "TEMPORAL + MAIN_CLAUSE + AGENT_PHRASE",
+        "description": "Complex sentences with temporal and agent information"
+      }
+    ],
+    "titles_and_epithets": [
+      {
+        "pattern": "TITLE + PERSONAL_NAME + TITLE",
+        "example": "k'inich janaab pakal k'uh ajaw",
+        "translation": "K'inich Janaab Pakal, Divine Lord"
+      }
+    ]
+  },
+  "confidence_factors": {
+    "high_confidence": [
+      "Common syllabic signs with single reading",
+      "Well-attested logograms",
+      "Standard royal titles"
+    ],
+    "medium_confidence": [
+      "Polysyllabic words with phonetic complements",
+      "Context-dependent readings",
+      "Regional spelling variants"
+    ],
+    "low_confidence": [
+      "Rare or damaged glyphs",
+      "Multiple possible readings",
+      "Reconstructed forms"
+    ]
+  },
+  "sources": {
+    "primary": [
+      "Stuart, David. 2005. The Inscriptions from Temple XIX at Palenque",
+      "Houston, Stephen, et al. 2001. The Language of Classic Maya Inscriptions",
+      "Lacadena, Alfonso & Søren Wichmann. 2004. On the Representation of the Glottal Stop"
+    ],
+    "secondary": [
+      "Boot, Erik. 2011. Classic Maya Phonetic Substitutions",
+      "Coe, Michael & Stephen Houston. 2015. The Maya",
+      "Kaufman, Terrence & William Norman. 1984. An Outline of Proto-Cholan Phonology"
+    ]
+  }
+}

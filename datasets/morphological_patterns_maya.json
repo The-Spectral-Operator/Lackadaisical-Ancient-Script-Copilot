@@ -1,0 +1,519 @@
+{
+  "morphological_patterns": {
+    "description": "Morphological analysis patterns for Classical Maya",
+    "version": "1.0.0",
+    "references": [
+      "Kaufman & Norman 1984: Maya morphological reconstruction",
+      "Robertson 1992: Maya morphosyntax",
+      "Lacadena 2010: Maya verbal morphology",
+      "Wichmann 2006: Maya historical linguistics"
+    ],
+    
+    "verbal_morphology": {
+      "description": "Maya verbal inflection patterns and morphological structure",
+      
+      "aspect_markers": {
+        "completive": {
+          "description": "Completed action (past perfective)",
+          "markers": [
+            {
+              "form": "∅",
+              "description": "Zero marking for completive",
+              "examples": ["mih", "k'am", "jul"]
+            },
+            {
+              "form": "ix-",
+              "description": "Completive prefix (some contexts)",
+              "examples": ["ix-mih", "ix-k'am"]
+            }
+          ]
+        },
+        "incompletive": {
+          "description": "Ongoing or habitual action",
+          "markers": [
+            {
+              "form": "u-",
+              "description": "Third person incompletive",
+              "examples": ["u-mih", "u-k'am", "u-jul"]
+            },
+            {
+              "form": "k-",
+              "description": "First person incompletive",
+              "examples": ["k-mih", "k-k'am"]
+            }
+          ]
+        },
+        "subjunctive": {
+          "description": "Subjunctive/irrealis mood",
+          "markers": [
+            {
+              "form": "ch-",
+              "description": "Subjunctive prefix",
+              "examples": ["ch-u-mih", "ch-u-k'am"]
+            }
+          ]
+        }
+      },
+      
+      "person_markers": {
+        "ergative": {
+          "description": "Ergative person markers (transitive subject, possessor)",
+          "set_a": [
+            {
+              "person": "1sg",
+              "forms": ["in-", "nu-"],
+              "examples": ["in-k'aba", "nu-k'aba"],
+              "gloss": "my name"
+            },
+            {
+              "person": "2sg", 
+              "forms": ["a-", "aw-"],
+              "examples": ["a-k'aba", "aw-k'aba"],
+              "gloss": "your name"
+            },
+            {
+              "person": "3sg",
+              "forms": ["u-", "y-"],
+              "examples": ["u-k'aba", "y-ich"],
+              "gloss": "his/her name, his/her face"
+            },
+            {
+              "person": "1pl",
+              "forms": ["k-", "ka-"],
+              "examples": ["k-k'aba", "ka-k'aba"],
+              "gloss": "our name"
+            },
+            {
+              "person": "2pl",
+              "forms": ["a-...-ex", "aw-...-ex"],
+              "examples": ["a-k'aba-ex", "aw-k'aba-ex"],
+              "gloss": "your (pl) name"
+            },
+            {
+              "person": "3pl",
+              "forms": ["u-...-ob", "y-...-ob"],
+              "examples": ["u-k'aba-ob", "y-ich-ob"],
+              "gloss": "their name, their faces"
+            }
+          ]
+        },
+        "absolutive": {
+          "description": "Absolutive person markers (intransitive subject, transitive object)",
+          "set_b": [
+            {
+              "person": "1sg",
+              "forms": ["-en", "-n"],
+              "examples": ["way-en", "k'am-en"],
+              "gloss": "I sleep, he takes me"
+            },
+            {
+              "person": "2sg",
+              "forms": ["-et", "-ech"],
+              "examples": ["way-et", "k'am-ech"],
+              "gloss": "you sleep, he takes you"
+            },
+            {
+              "person": "3sg",
+              "forms": ["∅", "-i", "-∅"],
+              "examples": ["way", "k'am-i"],
+              "gloss": "he sleeps, he takes him"
+            },
+            {
+              "person": "1pl",
+              "forms": ["-o'on", "-on"],
+              "examples": ["way-o'on", "k'am-o'on"],
+              "gloss": "we sleep, he takes us"
+            },
+            {
+              "person": "2pl",
+              "forms": ["-ex", "-e'ex"],
+              "examples": ["way-ex", "k'am-ex"],
+              "gloss": "you (pl) sleep, he takes you (pl)"
+            },
+            {
+              "person": "3pl",
+              "forms": ["-ob", "-o'ob"],
+              "examples": ["way-ob", "k'am-ob"],
+              "gloss": "they sleep, he takes them"
+            }
+          ]
+        }
+      },
+      
+      "derivational_morphology": {
+        "causatives": {
+          "description": "Morphemes that create causative verbs",
+          "suffixes": [
+            {
+              "form": "-s-",
+              "description": "Causative suffix",
+              "examples": [
+                {
+                  "base": "kim",
+                  "derived": "kim-s",
+                  "gloss": "die → kill"
+                },
+                {
+                  "base": "way",
+                  "derived": "way-s", 
+                  "gloss": "sleep → put to sleep"
+                }
+              ]
+            },
+            {
+              "form": "-tes-",
+              "description": "Extended causative",
+              "examples": [
+                {
+                  "base": "way",
+                  "derived": "way-tes",
+                  "gloss": "sleep → cause to sleep"
+                }
+              ]
+            }
+          ]
+        },
+        "passives": {
+          "description": "Passive and antipassive derivations",
+          "markers": [
+            {
+              "form": "-aj",
+              "description": "Passive participle suffix",
+              "examples": [
+                {
+                  "base": "tz'ib",
+                  "derived": "tz'ib-aj",
+                  "gloss": "write → written"
+                }
+              ]
+            },
+            {
+              "form": "-Vn",
+              "description": "Antipassive suffix (vowel varies)",
+              "examples": [
+                {
+                  "base": "k'am",
+                  "derived": "k'am-an",
+                  "gloss": "take → take (antipassive)"
+                }
+              ]
+            }
+          ]
+        },
+        "inchoatives": {
+          "description": "Inchoative (becoming) derivations",
+          "suffixes": [
+            {
+              "form": "-hal",
+              "description": "Inchoative suffix",
+              "examples": [
+                {
+                  "base": "sak",
+                  "derived": "sak-hal",
+                  "gloss": "white → become white"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    
+    "nominal_morphology": {
+      "description": "Maya nominal morphology patterns",
+      
+      "possession": {
+        "description": "Possessive morphology on nouns",
+        "possessed_forms": [
+          {
+            "person": "1sg",
+            "prefix": "in-/nu-",
+            "examples": ["in-na", "nu-na"],
+            "gloss": "my mother"
+          },
+          {
+            "person": "2sg",
+            "prefix": "a-/aw-",
+            "examples": ["a-na", "aw-na"],
+            "gloss": "your mother"
+          },
+          {
+            "person": "3sg",
+            "prefix": "u-/y-",
+            "examples": ["u-na", "y-ich"],
+            "gloss": "his/her mother, his/her face"
+          }
+        ],
+        "possession_classes": {
+          "inalienable": {
+            "description": "Body parts, kinship terms - obligatorily possessed",
+            "examples": ["na (mother)", "ich (face)", "ok (foot)", "k'ab (hand)"]
+          },
+          "alienable": {
+            "description": "Objects, tools - optionally possessed",
+            "examples": ["witzam (house)", "te' (wood)", "tun (stone)"]
+          }
+        }
+      },
+      
+      "plural_marking": {
+        "description": "Plural morphology on nouns",
+        "markers": [
+          {
+            "form": "-ob",
+            "description": "General plural suffix",
+            "examples": ["winik-ob (people)", "ajaw-ob (lords)"]
+          },
+          {
+            "form": "-tak",
+            "description": "Plural suffix (some dialects)",
+            "examples": ["winik-tak (people)"]
+          }
+        ]
+      },
+      
+      "diminutives": {
+        "description": "Diminutive morphology",
+        "suffixes": [
+          {
+            "form": "-al",
+            "description": "Diminutive suffix",
+            "examples": ["chan-al (small)", "itzam-al (little lizard)"]
+          }
+        ]
+      },
+      
+      "agentives": {
+        "description": "Agent noun formation",
+        "patterns": [
+          {
+            "form": "ah-",
+            "description": "Masculine agentive prefix",
+            "examples": ["ah-tz'ib (scribe)", "ah-kin (priest)"]
+          },
+          {
+            "form": "ix-",
+            "description": "Feminine agentive prefix",
+            "examples": ["ix-tz'ib (female scribe)", "ix-chel (female deity)"]
+          }
+        ]
+      }
+    },
+    
+    "word_formation": {
+      "description": "Patterns for forming complex words",
+      
+      "compounding": {
+        "description": "Rules for creating compound words",
+        "patterns": [
+          {
+            "type": "noun_noun",
+            "structure": "N1 + N2",
+            "examples": [
+              {
+                "compound": "k'in-ich",
+                "components": ["k'in (sun)", "ich (face)"],
+                "meaning": "sun-face (solar deity name)"
+              },
+              {
+                "compound": "yax-kin", 
+                "components": ["yax (first/green)", "k'in (sun)"],
+                "meaning": "first sun (month name)"
+              }
+            ]
+          },
+          {
+            "type": "adj_noun",
+            "structure": "Adj + N",
+            "examples": [
+              {
+                "compound": "sak-nab",
+                "components": ["sak (white)", "nab (lake)"],
+                "meaning": "white lake"
+              }
+            ]
+          }
+        ]
+      },
+      
+      "reduplication": {
+        "description": "Reduplication patterns in Maya",
+        "types": [
+          {
+            "type": "full_reduplication",
+            "function": "Intensification, plurality, repetition",
+            "examples": [
+              {
+                "base": "sak",
+                "reduplicated": "sak-sak",
+                "meaning": "very white, whitish"
+              }
+            ]
+          },
+          {
+            "type": "partial_reduplication",
+            "pattern": "CV-CVCV",
+            "examples": [
+              {
+                "base": "kalan",
+                "reduplicated": "ka-kalan",
+                "meaning": "drunk (intensified)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    "morphophonological_processes": {
+      "description": "Sound changes in morphological contexts",
+      
+      "vowel_harmony": {
+        "description": "Vowel harmony in affixation",
+        "rules": [
+          {
+            "context": "possessive_prefixes",
+            "rule": "Prefix vowel harmonizes with stem vowel",
+            "examples": [
+              "in-na vs. nu-na (vowel lowering)",
+              "a-witz vs. aw-ich (vowel backing)"
+            ]
+          }
+        ]
+      },
+      
+      "consonant_alternations": {
+        "description": "Consonant changes in morphological contexts",
+        "patterns": [
+          {
+            "type": "spirantization",
+            "rule": "Stops become fricatives in certain environments",
+            "examples": ["k → x / _V", "p → f / _V"]
+          },
+          {
+            "type": "glottal_stop_insertion",
+            "rule": "Glottal stop inserted to avoid vowel hiatus",
+            "examples": ["u-ichil → u-'ichil"]
+          }
+        ]
+      }
+    },
+    
+    "syntactic_categories": {
+      "description": "Morphological marking of syntactic categories",
+      
+      "word_classes": {
+        "nouns": {
+          "morphological_properties": [
+            "Can take possessive prefixes",
+            "Can take plural suffixes", 
+            "Can function as possessed or unpossessed"
+          ],
+          "subtypes": [
+            "inalienably_possessed",
+            "alienably_possessed", 
+            "proper_nouns",
+            "common_nouns"
+          ]
+        },
+        "verbs": {
+          "morphological_properties": [
+            "Must take aspect marking",
+            "Take person markers (ergative/absolutive)",
+            "Can take derivational morphology"
+          ],
+          "subtypes": [
+            "transitive",
+            "intransitive",
+            "ditransitive",
+            "positional"
+          ]
+        },
+        "adjectives": {
+          "morphological_properties": [
+            "Can take possessive marking when used predicatively",
+            "Can be incorporated into verbs",
+            "Can form inchoative verbs"
+          ]
+        }
+      }
+    },
+    
+    "analysis_algorithms": {
+      "description": "Computational approaches to Maya morphological analysis",
+      
+      "segmentation_rules": [
+        {
+          "step": 1,
+          "name": "prefix_identification",
+          "description": "Identify and segment prefixal morphemes",
+          "patterns": ["aspect_markers", "person_markers", "agentive_markers"]
+        },
+        {
+          "step": 2,
+          "name": "root_identification", 
+          "description": "Identify the root morpheme",
+          "method": "Longest match against root database"
+        },
+        {
+          "step": 3,
+          "name": "suffix_identification",
+          "description": "Identify and segment suffixal morphemes",
+          "patterns": ["plural_markers", "derivational_suffixes", "person_markers"]
+        },
+        {
+          "step": 4,
+          "name": "morphophonological_analysis",
+          "description": "Analyze sound changes at morpheme boundaries"
+        }
+      ],
+      
+      "ambiguity_resolution": {
+        "strategies": [
+          "Frequency-based ranking of analyses",
+          "Syntactic context constraints",
+          "Semantic plausibility scoring",
+          "Historical probability weighting"
+        ]
+      }
+    }
+  },
+  
+  "confidence_scoring": {
+    "description": "Methods for assigning confidence scores to morphological analyses",
+    
+    "factors": [
+      {
+        "factor": "morpheme_frequency",
+        "weight": 0.3,
+        "description": "How commonly the morpheme appears in corpus"
+      },
+      {
+        "factor": "phonological_regularity", 
+        "weight": 0.25,
+        "description": "How regular the morphophonological processes are"
+      },
+      {
+        "factor": "syntactic_compatibility",
+        "weight": 0.25,
+        "description": "How well the analysis fits syntactic context"
+      },
+      {
+        "factor": "historical_attestation",
+        "weight": 0.2,
+        "description": "How well attested the form is historically"
+      }
+    ],
+    
+    "scoring_algorithm": {
+      "formula": "weighted_sum(factors)",
+      "normalization": "scores normalized to 0.0-1.0 range",
+      "thresholds": {
+        "high_confidence": 0.8,
+        "medium_confidence": 0.6,
+        "low_confidence": 0.4,
+        "uncertain": "<0.4"
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "G01",
+    "visual": "𐌰",
+    "meaning": "ahsa",
+    "transliteration": "a",
+    "codepoint": "U+10330",
+    "phonetic": "a",
+    "category": "vowel",
+    "description": "Short 'a' vowel - first letter of Gothic alphabet"
+  },
+  {
+    "id": "G02",
+    "visual": "𐌱",
+    "meaning": "bairkan",
+    "transliteration": "b",
+    "codepoint": "U+10331",
+    "phonetic": "b",
+    "category": "consonant",
+    "description": "Voiced bilabial stop - represents 'birch'"
+  },
+  {
+    "id": "G03",
+    "visual": "𐌲",
+    "meaning": "giba",
+    "transliteration": "g",
+    "codepoint": "U+10332",
+    "phonetic": "g",
+    "category": "consonant",
+    "description": "Voiced velar stop - represents 'gift'"
+  },
+  {
+    "id": "G04",
+    "visual": "𐌳",
+    "meaning": "dags",
+    "transliteration": "d",
+    "codepoint": "U+10333",
+    "phonetic": "d",
+    "category": "consonant",
+    "description": "Voiced dental stop - represents 'day'"
+  },
+  {
+    "id": "G05",
+    "visual": "𐌴",
+    "meaning": "aihvus",
+    "transliteration": "e",
+    "codepoint": "U+10334",
+    "phonetic": "e",
+    "category": "vowel",
+    "description": "Short 'e' vowel - represents 'horse'"
+  },
+  {
+    "id": "G06",
+    "visual": "𐌵",
+    "meaning": "qairthra",
+    "transliteration": "q",
+    "codepoint": "U+10335",
+    "phonetic": "kʷ",
+    "category": "consonant",
+    "description": "Voiceless labiovelar stop - represents 'mill'"
+  },
+  {
+    "id": "G07",
+    "visual": "𐌶",
+    "meaning": "iuja",
+    "transliteration": "z",
+    "codepoint": "U+10336",
+    "phonetic": "z",
+    "category": "consonant",
+    "description": "Voiced alveolar fricative - represents 'yoke'"
+  },
+  {
+    "id": "G08",
+    "visual": "𐌷",
+    "meaning": "hagl",
+    "transliteration": "h",
+    "codepoint": "U+10337",
+    "phonetic": "h",
+    "category": "consonant",
+    "description": "Voiceless glottal fricative - represents 'hail'"
+  },
+  {
+    "id": "G09",
+    "visual": "𐌸",
+    "meaning": "thiuth",
+    "transliteration": "þ",
+    "codepoint": "U+10338",
+    "phonetic": "θ",
+    "category": "consonant",
+    "description": "Voiceless dental fricative (thorn) - represents 'good'"
+  },
+  {
+    "id": "G10",
+    "visual": "𐌹",
+    "meaning": "eis",
+    "transliteration": "i",
+    "codepoint": "U+10339",
+    "phonetic": "i",
+    "category": "vowel",
+    "description": "Short 'i' vowel - represents 'ice'"
+  },
+  {
+    "id": "G11",
+    "visual": "𐌺",
+    "meaning": "kusma",
+    "transliteration": "k",
+    "codepoint": "U+1033A",
+    "phonetic": "k",
+    "category": "consonant",
+    "description": "Voiceless velar stop - represents unknown meaning"
+  },
+  {
+    "id": "G12",
+    "visual": "𐌻",
+    "meaning": "lagus",
+    "transliteration": "l",
+    "codepoint": "U+1033B",
+    "phonetic": "l",
+    "category": "consonant",
+    "description": "Lateral approximant - represents 'lake'"
+  },
+  {
+    "id": "G13",
+    "visual": "𐌼",
+    "meaning": "manna",
+    "transliteration": "m",
+    "codepoint": "U+1033C",
+    "phonetic": "m",
+    "category": "consonant",
+    "description": "Bilabial nasal - represents 'man'"
+  },
+  {
+    "id": "G14",
+    "visual": "𐌽",
+    "meaning": "nauths",
+    "transliteration": "n",
+    "codepoint": "U+1033D",
+    "phonetic": "n",
+    "category": "consonant",
+    "description": "Alveolar nasal - represents 'need'"
+  },
+  {
+    "id": "G15",
+    "visual": "𐌾",
+    "meaning": "jer",
+    "transliteration": "j",
+    "codepoint": "U+1033E",
+    "phonetic": "j",
+    "category": "consonant",
+    "description": "Palatal approximant - represents 'year'"
+  },
+  {
+    "id": "G16",
+    "visual": "𐌿",
+    "meaning": "urus",
+    "transliteration": "u",
+    "codepoint": "U+1033F",
+    "phonetic": "u",
+    "category": "vowel",
+    "description": "Short 'u' vowel - represents 'aurochs'"
+  },
+  {
+    "id": "G17",
+    "visual": "𐍀",
+    "meaning": "pairtra",
+    "transliteration": "p",
+    "codepoint": "U+10340",
+    "phonetic": "p",
+    "category": "consonant",
+    "description": "Voiceless bilabial stop - represents 'pear tree'"
+  },
+  {
+    "id": "G18",
+    "visual": "𐍁",
+    "meaning": "ninety",
+    "transliteration": "90",
+    "codepoint": "U+10341",
+    "phonetic": "90",
+    "category": "numeral",
+    "description": "Gothic numeral for ninety"
+  },
+  {
+    "id": "G19",
+    "visual": "𐍂",
+    "meaning": "raida",
+    "transliteration": "r",
+    "codepoint": "U+10342",
+    "phonetic": "r",
+    "category": "consonant",
+    "description": "Alveolar trill - represents 'ride/journey'"
+  },
+  {
+    "id": "G20",
+    "visual": "𐍃",
+    "meaning": "sauil",
+    "transliteration": "s",
+    "codepoint": "U+10343",
+    "phonetic": "s",
+    "category": "consonant",
+    "description": "Voiceless alveolar fricative - represents 'sun'"
+  },
+  {
+    "id": "G21",
+    "visual": "𐍄",
+    "meaning": "teiws",
+    "transliteration": "t",
+    "codepoint": "U+10344",
+    "phonetic": "t",
+    "category": "consonant",
+    "description": "Voiceless dental stop - represents 'Tyr' (god)"
+  },
+  {
+    "id": "G22",
+    "visual": "𐍅",
+    "meaning": "winja",
+    "transliteration": "w",
+    "codepoint": "U+10345",
+    "phonetic": "w",
+    "category": "consonant",
+    "description": "Labio-velar approximant - represents 'meadow'"
+  },
+  {
+    "id": "G23",
+    "visual": "𐍆",
+    "meaning": "faihu",
+    "transliteration": "f",
+    "codepoint": "U+10346",
+    "phonetic": "f",
+    "category": "consonant",
+    "description": "Voiceless labiodental fricative - represents 'cattle/wealth'"
+  },
+  {
+    "id": "G24",
+    "visual": "𐍇",
+    "meaning": "iggws",
+    "transliteration": "x",
+    "codepoint": "U+10347",
+    "phonetic": "x",
+    "category": "consonant",
+    "description": "Voiceless velar fricative - represents unknown meaning"
+  },
+  {
+    "id": "G25",
+    "visual": "𐍈",
+    "meaning": "hwair",
+    "transliteration": "ƕ",
+    "codepoint": "U+10348",
+    "phonetic": "ʍ",
+    "category": "consonant",
+    "description": "Voiceless labio-velar fricative - represents 'cauldron'"
+  },
+  {
+    "id": "G26",
+    "visual": "𐍉",
+    "meaning": "othal",
+    "transliteration": "o",
+    "codepoint": "U+10349",
+    "phonetic": "o",
+    "category": "vowel",
+    "description": "Short 'o' vowel - represents 'inherited land'"
+  },
+  {
+    "id": "G27",
+    "visual": "𐍊",
+    "meaning": "nine-hundred",
+    "transliteration": "900",
+    "codepoint": "U+1034A",
+    "phonetic": "900",
+    "category": "numeral",
+    "description": "Gothic numeral for nine hundred"
+  }
+]

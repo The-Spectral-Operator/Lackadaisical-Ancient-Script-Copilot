@@ -1,0 +1,1040 @@
+[
+  {
+    "sign": "𒀀",
+    "name": "A",
+    "values": [
+      "a"
+    ]
+  },
+  {
+    "sign": "𒅆",
+    "name": "IM",
+    "values": [
+      "im",
+      "1000"
+    ]
+  },
+  {
+    "sign": "𒀊",
+    "name": "AB",
+    "values": [
+      "ab"
+    ]
+  },
+  {
+    "sign": "𒀸",
+    "name": "AŠ",
+    "values": [
+      "aš",
+      "1"
+    ]
+  },
+  {
+    "sign": "𒀜",
+    "name": "AT",
+    "values": [
+      "at"
+    ]
+  },
+  {
+    "sign": "𒀠",
+    "name": "AL",
+    "values": [
+      "al"
+    ]
+  },
+  {
+    "sign": "𒁀",
+    "name": "BA",
+    "values": [
+      "ba",
+      "pa"
+    ]
+  },
+  {
+    "sign": "𒁁",
+    "name": "BE",
+    "values": [
+      "be",
+      "pe"
+    ]
+  },
+  {
+    "sign": "𒄰",
+    "name": "ḪI",
+    "values": [
+      "ḫi"
+    ]
+  },
+  {
+    "sign": "𒄩",
+    "name": "ḪA",
+    "values": [
+      "ḫa"
+    ]
+  },
+  {
+    "sign": "𒀸",
+    "name": "ḪI",
+    "values": [
+      "ḫi"
+    ]
+  },
+  {
+    "sign": "𒄯",
+    "name": "ḪE",
+    "values": [
+      "ḫe"
+    ]
+  },
+  {
+    "sign": "𒄿",
+    "name": "I",
+    "values": [
+      "i"
+    ]
+  },
+  {
+    "sign": "𒁉",
+    "name": "BI",
+    "values": [
+      "bi",
+      "be"
+    ]
+  },
+  {
+    "sign": "𒁍",
+    "name": "BU",
+    "values": [
+      "bu",
+      "pu"
+    ]
+  },
+  {
+    "sign": "𒁕",
+    "name": "DA",
+    "values": [
+      "da",
+      "ta"
+    ]
+  },
+  {
+    "sign": "𒁺",
+    "name": "DU",
+    "values": [
+      "du",
+      "tu"
+    ]
+  },
+  {
+    "sign": "𒁾",
+    "name": "DUB",
+    "values": [
+      "dub",
+      "tup"
+    ]
+  },
+  {
+    "sign": "𒁹",
+    "name": "DI",
+    "values": [
+      "di",
+      "ti"
+    ]
+  },
+  {
+    "sign": "𒂊",
+    "name": "E",
+    "values": [
+      "e"
+    ]
+  },
+  {
+    "sign": "𒂍",
+    "name": "É",
+    "values": [
+      "é",
+      "house"
+    ]
+  },
+  {
+    "sign": "𒂗",
+    "name": "EN",
+    "values": [
+      "en",
+      "lord"
+    ]
+  },
+  {
+    "sign": "𒃊",
+    "name": "GAG",
+    "values": [
+      "gag",
+      "kak"
+    ]
+  },
+  {
+    "sign": "𒃲",
+    "name": "GAL",
+    "values": [
+      "gal",
+      "great"
+    ]
+  },
+  {
+    "sign": "𒄑",
+    "name": "GIŠ",
+    "values": [
+      "giš",
+      "wood"
+    ]
+  },
+  {
+    "sign": "𒄖",
+    "name": "GU",
+    "values": [
+      "gu",
+      "ku"
+    ]
+  },
+  {
+    "sign": "𒄿",
+    "name": "I",
+    "values": [
+      "i"
+    ]
+  },
+  {
+    "sign": "𒅈",
+    "name": "IR",
+    "values": [
+      "ir",
+      "er"
+    ]
+  },
+  {
+    "sign": "𒅗",
+    "name": "KA",
+    "values": [
+      "ka",
+      "mouth"
+    ]
+  },
+  {
+    "sign": "𒅠",
+    "name": "KAL",
+    "values": [
+      "kal",
+      "dan"
+    ]
+  },
+  {
+    "sign": "𒅔",
+    "name": "IN",
+    "values": [
+      "in"
+    ]
+  },
+  {
+    "sign": "𒆍",
+    "name": "KI",
+    "values": [
+      "ki",
+      "earth"
+    ]
+  },
+  {
+    "sign": "𒆗",
+    "name": "KAL",
+    "values": [
+      "kal",
+      "strong"
+    ]
+  },
+  {
+    "sign": "𒆠",
+    "name": "KI",
+    "values": [
+      "ki"
+    ]
+  },
+  {
+    "sign": "𒆪",
+    "name": "KU",
+    "values": [
+      "ku",
+      "qu"
+    ]
+  },
+  {
+    "sign": "𒆷",
+    "name": "LA",
+    "values": [
+      "la"
+    ]
+  },
+  {
+    "sign": "𒇇",
+    "name": "LI",
+    "values": [
+      "li"
+    ]
+  },
+  {
+    "sign": "𒇉",
+    "name": "LIM",
+    "values": [
+      "lim"
+    ]
+  },
+  {
+    "sign": "𒇷",
+    "name": "LI",
+    "values": [
+      "li"
+    ]
+  },
+  {
+    "sign": "𒇻",
+    "name": "LU",
+    "values": [
+      "lu",
+      "man"
+    ]
+  },
+  {
+    "sign": "𒈠",
+    "name": "MA",
+    "values": [
+      "ma"
+    ]
+  },
+  {
+    "sign": "𒈨",
+    "name": "ME",
+    "values": [
+      "me",
+      "100"
+    ]
+  },
+  {
+    "sign": "𒈪",
+    "name": "MI",
+    "values": [
+      "mi"
+    ]
+  },
+  {
+    "sign": "𒈬",
+    "name": "MU",
+    "values": [
+      "mu",
+      "name"
+    ]
+  },
+  {
+    "sign": "𒈾",
+    "name": "NA",
+    "values": [
+      "na"
+    ]
+  },
+  {
+    "sign": "𒉆",
+    "name": "NE",
+    "values": [
+      "ne"
+    ]
+  },
+  {
+    "sign": "𒉌",
+    "name": "NI",
+    "values": [
+      "ni"
+    ]
+  },
+  {
+    "sign": "𒉡",
+    "name": "NU",
+    "values": [
+      "nu"
+    ]
+  },
+  {
+    "sign": "𒉣",
+    "name": "NUN",
+    "values": [
+      "nun",
+      "fish"
+    ]
+  },
+  {
+    "sign": "𒉯",
+    "name": "PAP",
+    "values": [
+      "pap"
+    ]
+  },
+  {
+    "sign": "𒉺",
+    "name": "PA",
+    "values": [
+      "pa"
+    ]
+  },
+  {
+    "sign": "𒉿",
+    "name": "PI",
+    "values": [
+      "pi",
+      "pe",
+      "wa",
+      "we",
+      "wi",
+      "wu"
+    ]
+  },
+  {
+    "sign": "𒊍",
+    "name": "QA",
+    "values": [
+      "qa"
+    ]
+  },
+  {
+    "sign": "𒊏",
+    "name": "RA",
+    "values": [
+      "ra"
+    ]
+  },
+  {
+    "sign": "𒊑",
+    "name": "RI",
+    "values": [
+      "ri",
+      "re"
+    ]
+  },
+  {
+    "sign": "𒊒",
+    "name": "RU",
+    "values": [
+      "ru"
+    ]
+  },
+  {
+    "sign": "𒊓",
+    "name": "SA",
+    "values": [
+      "sa"
+    ]
+  },
+  {
+    "sign": "𒊕",
+    "name": "SAG",
+    "values": [
+      "sag",
+      "head"
+    ]
+  },
+  {
+    "sign": "𒊬",
+    "name": "SAR",
+    "values": [
+      "sar"
+    ]
+  },
+  {
+    "sign": "𒊭",
+    "name": "ŠA",
+    "values": [
+      "ša"
+    ]
+  },
+  {
+    "sign": "𒊮",
+    "name": "ŠE",
+    "values": [
+      "še",
+      "grain"
+    ]
+  },
+  {
+    "sign": "𒋗",
+    "name": "ŠU",
+    "values": [
+      "šu",
+      "hand"
+    ]
+  },
+  {
+    "sign": "𒋚",
+    "name": "GÌR",
+    "values": [
+      "gìr",
+      "foot"
+    ]
+  },
+  {
+    "sign": "𒋛",
+    "name": "SI",
+    "values": [
+      "si"
+    ]
+  },
+  {
+    "sign": "𒋢",
+    "name": "SU",
+    "values": [
+      "su"
+    ]
+  },
+  {
+    "sign": "𒊬",
+    "name": "ŠAR",
+    "values": [
+      "šar"
+    ]
+  },
+  {
+    "sign": "𒋫",
+    "name": "TA",
+    "values": [
+      "ta",
+      "da"
+    ]
+  },
+  {
+    "sign": "𒋾",
+    "name": "TE",
+    "values": [
+      "te"
+    ]
+  },
+  {
+    "sign": "𒋳",
+    "name": "TI",
+    "values": [
+      "ti",
+      "di"
+    ]
+  },
+  {
+    "sign": "𒌀",
+    "name": "TU",
+    "values": [
+      "tu",
+      "du"
+    ]
+  },
+  {
+    "sign": "𒌅",
+    "name": "TUR",
+    "values": [
+      "tur",
+      "small"
+    ]
+  },
+  {
+    "sign": "𒌈",
+    "name": "TUM",
+    "values": [
+      "tum",
+      "feminine"
+    ]
+  },
+  {
+    "sign": "𒌋",
+    "name": "U",
+    "values": [
+      "u",
+      "10",
+      "2"
+    ]
+  },
+  {
+    "sign": "𒌓",
+    "name": "UD",
+    "values": [
+      "ud",
+      "day",
+      "sun"
+    ]
+  },
+  {
+    "sign": "𒌑",
+    "name": "U",
+    "values": [
+      "u"
+    ]
+  },
+  {
+    "sign": "𒌝",
+    "name": "UM",
+    "values": [
+      "um",
+      "masculine"
+    ]
+  },
+  {
+    "sign": "𒌨",
+    "name": "UR",
+    "values": [
+      "ur"
+    ]
+  },
+  {
+    "sign": "𒍑",
+    "name": "UŠ",
+    "values": [
+      "uš"
+    ]
+  },
+  {
+    "sign": "𒍣",
+    "name": "ZI",
+    "values": [
+      "zi"
+    ]
+  },
+  {
+    "sign": "𒐊",
+    "name": "FOUR",
+    "values": [
+      "4",
+      "limmu"
+    ]
+  },
+  {
+    "sign": "𒌍",
+    "name": "THREE",
+    "values": [
+      "3",
+      "šalāš"
+    ]
+  },
+  {
+    "sign": "𒀭",
+    "name": "DINGIR",
+    "values": [
+      "an",
+      "god",
+      "sky"
+    ]
+  },
+  {
+    "sign": "𒁇",
+    "name": "ÌR",
+    "values": [
+      "ìr",
+      "slave"
+    ]
+  },
+  {
+    "sign": "𒁲",
+    "name": "DI",
+    "values": [
+      "di",
+      "judgment"
+    ]
+  },
+  {
+    "sign": "𒃻",
+    "name": "NANNA",
+    "values": [
+      "nanna",
+      "moon"
+    ]
+  },
+  {
+    "sign": "𒄣",
+    "name": "ḪUR",
+    "values": [
+      "ḫur"
+    ]
+  },
+  {
+    "sign": "𒇉",
+    "name": "LIM",
+    "values": [
+      "lim",
+      "1000"
+    ]
+  },
+  {
+    "sign": "𒌗",
+    "name": "ITI",
+    "values": [
+      "iti",
+      "month"
+    ]
+  },
+  {
+    "sign": "𒑳",
+    "name": "Ṣ",
+    "values": [
+      "ṣ"
+    ]
+  },
+  {
+    "sign": "𒈏",
+    "name": "MIN",
+    "values": [
+      "min",
+      "two"
+    ]
+  },
+  {
+    "sign": "𒀀𒀊",
+    "name": "A.AB",
+    "values": [
+      "sea"
+    ]
+  },
+  {
+    "sign": "𒀸𒈾",
+    "name": "AŠNAN",
+    "values": [
+      "grain goddess"
+    ]
+  },
+  {
+    "sign": "𒀭",
+    "name": "AN.BAR",
+    "values": [
+      "iron"
+    ]
+  },
+  {
+    "sign": "𒁾𒊬",
+    "name": "DUB.SAR",
+    "values": [
+      "scribe"
+    ]
+  },
+  {
+    "sign": "𒂍𒃲",
+    "name": "É.GAL",
+    "values": [
+      "palace"
+    ]
+  },
+  {
+    "sign": "𒄿𒑳",
+    "name": "GIŠ",
+    "values": [
+      "wood",
+      "tree"
+    ]
+  },
+  {
+    "sign": "𒋽𒁍",
+    "name": "KÙ.BABBAR",
+    "values": [
+      "silver"
+    ]
+  },
+  {
+    "sign": "𒋽𒄀",
+    "name": "KÙ.GI",
+    "values": [
+      "gold"
+    ]
+  },
+  {
+    "sign": "𒌓𒋢",
+    "name": "UTU",
+    "values": [
+      "sun god"
+    ]
+  },
+  {
+    "sign": "𒍑𒁀",
+    "name": "GE₆",
+    "values": [
+      "night"
+    ]
+  },
+  {
+    "sign": "𒈾𒊒",
+    "name": "NAR",
+    "values": [
+      "musician"
+    ]
+  },
+  {
+    "sign": "𒆠𒊒",
+    "name": "KIRI₆",
+    "values": [
+      "garden"
+    ]
+  },
+  {
+    "sign": "𒊺",
+    "name": "ŠE",
+    "values": [
+      "barley"
+    ]
+  },
+  {
+    "sign": "𒅆𒅗",
+    "name": "KAŠ",
+    "values": [
+      "beer"
+    ]
+  },
+  {
+    "sign": "𒀀𒅗",
+    "name": "DAM.GÀR",
+    "values": [
+      "merchant"
+    ]
+  },
+  {
+    "sign": "𒊭𒉡",
+    "name": "SANGA",
+    "values": [
+      "priest"
+    ]
+  },
+  {
+    "sign": "𒁕𒆪",
+    "name": "DI.KUD",
+    "values": [
+      "judge"
+    ]
+  },
+  {
+    "sign": "𒀀𒋢",
+    "name": "A.ZU",
+    "values": [
+      "physician"
+    ]
+  },
+  {
+    "sign": "𒌨",
+    "name": "SIPA",
+    "values": [
+      "shepherd"
+    ]
+  },
+  {
+    "sign": "𒄿𒅗",
+    "name": "ENGAR",
+    "values": [
+      "farmer"
+    ]
+  },
+  {
+    "sign": "𒀠𒁍",
+    "name": "GU₄",
+    "values": [
+      "ox"
+    ]
+  },
+  {
+    "sign": "𒇇𒈨",
+    "name": "UDU",
+    "values": [
+      "sheep"
+    ]
+  },
+  {
+    "sign": "𒅆𒅗",
+    "name": "ANŠE",
+    "values": [
+      "donkey"
+    ]
+  },
+  {
+    "sign": "𒅆𒆪",
+    "name": "ANŠE.KUR.RA",
+    "values": [
+      "horse"
+    ]
+  },
+  {
+    "sign": "�",
+    "name": "UR.GI₇",
+    "values": [
+      "dog"
+    ]
+  },
+  {
+    "sign": "𒌑𒈤",
+    "name": "UR.MAḪ",
+    "values": [
+      "lion"
+    ]
+  },
+  {
+    "sign": "𒄿𒑳𒌓",
+    "name": "MUŠEN",
+    "values": [
+      "bird"
+    ]
+  },
+  {
+    "sign": "𒆳",
+    "name": "KU₆",
+    "values": [
+      "fish"
+    ]
+  },
+  {
+    "sign": "𒈠",
+    "name": "MÁ",
+    "values": [
+      "boat"
+    ]
+  },
+  {
+    "sign": "𒄿𒍣",
+    "name": "IZI",
+    "values": [
+      "fire"
+    ]
+  },
+  {
+    "sign": "𒈾",
+    "name": "NA₄",
+    "values": [
+      "stone"
+    ]
+  },
+  {
+    "sign": "𒌑𒊒",
+    "name": "URUDU",
+    "values": [
+      "copper"
+    ]
+  },
+  {
+    "sign": "𒋢𒁀",
+    "name": "TÚG",
+    "values": [
+      "clothing"
+    ]
+  },
+  {
+    "sign": "𒄿𒋗",
+    "name": "GIŠ.TUKUL",
+    "values": [
+      "weapon"
+    ]
+  },
+  {
+    "sign": "𒄿𒋗𒁀",
+    "name": "GIŠ.BAN",
+    "values": [
+      "bow"
+    ]
+  },
+  {
+    "sign": "𒄿𒋗𒃊",
+    "name": "GIŠ.GAG",
+    "values": [
+      "arrow"
+    ]
+  },
+  {
+    "sign": "𒄿𒋗𒈠",
+    "name": "GIŠ.MÁ",
+    "values": [
+      "ship"
+    ]
+  },
+  {
+    "sign": "𒄿",
+    "name": "Ì",
+    "values": [
+      "oil"
+    ]
+  },
+  {
+    "sign": "𒉌𒁕",
+    "name": "NINDA",
+    "values": [
+      "bread"
+    ]
+  },
+  {
+    "sign": "𒀀𒊭",
+    "name": "A.ŠÀ",
+    "values": [
+      "field"
+    ]
+  },
+  {
+    "sign": "𒊭",
+    "name": "ŠÀ",
+    "values": [
+      "heart",
+      "interior"
+    ]
+  },
+  {
+    "sign": "𒄿𒄀",
+    "name": "IGI",
+    "values": [
+      "eye"
+    ]
+  },
+  {
+    "sign": "𒀀𒀊𒁀",
+    "name": "A.AB.BA",
+    "values": [
+      "sea"
+    ]
+  },
+  {
+    "sign": "𒆳",
+    "name": "KUR",
+    "values": [
+      "mountain"
+    ]
+  },
+  {
+    "sign": "𒈾",
+    "name": "ÍD",
+    "values": [
+      "river"
+    ]
+  },
+  {
+    "sign": "𒈠𒊒",
+    "name": "DUMU",
+    "values": [
+      "son"
+    ]
+  },
+  {
+    "sign": "𒈠𒊒𒊩",
+    "name": "DUMU.MUNUS",
+    "values": [
+      "daughter"
+    ]
+  },
+  {
+    "sign": "𒊩",
+    "name": "MUNUS",
+    "values": [
+      "woman"
+    ]
+  },
+  {
+    "sign": "𒊩𒋗",
+    "name": "MUNUS.LUGAL",
+    "values": [
+      "queen"
+    ]
+  },
+  {
+    "sign": "𒈗",
+    "name": "LUGAL",
+    "values": [
+      "king"
+    ]
+  }
+]

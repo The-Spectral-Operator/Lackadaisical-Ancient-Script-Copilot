@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "name": "Phoenician Alphabet Signs",
+    "version": "1.1.0",
+    "description": "Complete 23-character Phoenician alphabet with Unicode mappings and word separator",
+    "unicode_block": "U+10900–U+1091F",
+    "total_letters": 23,
+    "script_direction": "right-to-left",
+    "source": "Unicode Standard Phoenician block with historical attestations",
+    "last_updated": "2025-07-31"
+  },
+  "alphabet": [
+    {
+      "letter": "𐤀",
+      "name": "aleph",
+      "latin": "ʾ",
+      "codepoint": "U+10900",
+      "position": 1,
+      "meaning": "ox",
+      "notes": "Name from Semitic *ʾalp* meaning 'ox'; glottal stop sound"
+    },
+    {
+      "letter": "𐤁",
+      "name": "beth",
+      "latin": "b",
+      "codepoint": "U+10901",
+      "position": 2,
+      "meaning": "house",
+      "notes": "Name means 'house' (from Semitic *bayt*); voiced bilabial stop"
+    },
+    {
+      "letter": "𐤂",
+      "name": "gimel",
+      "latin": "g",
+      "codepoint": "U+10902",
+      "position": 3,
+      "meaning": "camel",
+      "notes": "Possibly from *gaml* 'camel'; voiced velar stop"
+    },
+    {
+      "letter": "𐤃",
+      "name": "daleth",
+      "latin": "d",
+      "codepoint": "U+10903",
+      "position": 4,
+      "meaning": "door",
+      "notes": "Means 'door'; voiced dental stop"
+    },
+    {
+      "letter": "𐤄",
+      "name": "he",
+      "latin": "h",
+      "codepoint": "U+10904",
+      "position": 5,
+      "meaning": "window",
+      "notes": "Means 'window'; voiceless glottal fricative"
+    },
+    {
+      "letter": "𐤅",
+      "name": "waw",
+      "latin": "w",
+      "codepoint": "U+10905",
+      "position": 6,
+      "meaning": "hook",
+      "notes": "Name means 'hook'; voiced labial-velar approximant"
+    },
+    {
+      "letter": "𐤆",
+      "name": "zayin",
+      "latin": "z",
+      "codepoint": "U+10906",
+      "position": 7,
+      "meaning": "weapon",
+      "notes": "Means 'weapon'; voiced alveolar fricative"
+    },
+    {
+      "letter": "𐤇",
+      "name": "heth",
+      "latin": "ḥ",
+      "codepoint": "U+10907",
+      "position": 8,
+      "meaning": "enclosure",
+      "notes": "Likely means 'enclosure' or 'wall'; voiceless pharyngeal fricative"
+    },
+    {
+      "letter": "𐤈",
+      "name": "teth",
+      "latin": "ṭ",
+      "codepoint": "U+10908",
+      "position": 9,
+      "meaning": "wheel",
+      "notes": "Name may mean 'wheel'; emphatic voiceless dental stop"
+    },
+    {
+      "letter": "𐤉",
+      "name": "yodh",
+      "latin": "y",
+      "codepoint": "U+10909",
+      "position": 10,
+      "meaning": "hand",
+      "notes": "Means 'hand/arm'; voiced palatal approximant"
+    },
+    {
+      "letter": "𐤊",
+      "name": "kaph",
+      "latin": "k",
+      "codepoint": "U+1090A",
+      "position": 11,
+      "meaning": "palm",
+      "notes": "Means 'palm (of hand)'; voiceless velar stop"
+    },
+    {
+      "letter": "𐤋",
+      "name": "lamedh",
+      "latin": "l",
+      "codepoint": "U+1090B",
+      "position": 12,
+      "meaning": "goad",
+      "notes": "Means 'goad' (cattle prod); voiced alveolar lateral"
+    },
+    {
+      "letter": "𐤌",
+      "name": "mem",
+      "latin": "m",
+      "codepoint": "U+1090C",
+      "position": 13,
+      "meaning": "water",
+      "notes": "Means 'water' (Semitic *mayim*); voiced bilabial nasal"
+    },
+    {
+      "letter": "𐤍",
+      "name": "nun",
+      "latin": "n",
+      "codepoint": "U+1090D",
+      "position": 14,
+      "meaning": "fish",
+      "notes": "Means 'fish'; voiced alveolar nasal"
+    },
+    {
+      "letter": "𐤎",
+      "name": "samekh",
+      "latin": "s",
+      "codepoint": "U+1090E",
+      "position": 15,
+      "meaning": "support",
+      "notes": "Possibly means 'fish' or 'support'; voiceless alveolar fricative"
+    },
+    {
+      "letter": "𐤏",
+      "name": "ayin",
+      "latin": "ʿ",
+      "codepoint": "U+1090F",
+      "position": 16,
+      "meaning": "eye",
+      "notes": "Means 'eye'; voiced pharyngeal fricative"
+    },
+    {
+      "letter": "𐤐",
+      "name": "pe",
+      "latin": "p",
+      "codepoint": "U+10910",
+      "position": 17,
+      "meaning": "mouth",
+      "notes": "Means 'mouth'; voiceless bilabial stop"
+    },
+    {
+      "letter": "𐤑",
+      "name": "tsade",
+      "latin": "ṣ",
+      "codepoint": "U+10911",
+      "position": 18,
+      "meaning": "plant",
+      "notes": "Likely named for a plant or hook; emphatic voiceless alveolar fricative"
+    },
+    {
+      "letter": "𐤒",
+      "name": "qoph",
+      "latin": "q",
+      "codepoint": "U+10912",
+      "position": 19,
+      "meaning": "needle eye",
+      "notes": "Name likely means 'needle eye'; emphatic voiceless uvular stop"
+    },
+    {
+      "letter": "𐤓",
+      "name": "resh",
+      "latin": "r",
+      "codepoint": "U+10913",
+      "position": 20,
+      "meaning": "head",
+      "notes": "Means 'head' (Semitic *raʾš*); voiced alveolar trill"
+    },
+    {
+      "letter": "𐤔",
+      "name": "shin",
+      "latin": "š",
+      "codepoint": "U+10914",
+      "position": 21,
+      "meaning": "tooth",
+      "notes": "Means 'tooth'; voiceless postalveolar fricative"
+    },
+    {
+      "letter": "𐤕",
+      "name": "taw",
+      "latin": "t",
+      "codepoint": "U+10915",
+      "position": 22,
+      "meaning": "mark",
+      "notes": "Means 'mark' or 'cross' (Semitic *taw*); voiceless dental stop"
+    },
+    {
+      "letter": "𐤟",
+      "name": "word-separator",
+      "latin": " ",
+      "codepoint": "U+1091F",
+      "position": 23,
+      "meaning": "word separator",
+      "notes": "Phoenician word separator character; used to separate words in inscriptions"
+    }
+  ]
+}
+
+ 

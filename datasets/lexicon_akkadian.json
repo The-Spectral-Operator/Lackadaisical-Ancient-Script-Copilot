@@ -1,0 +1,1210 @@
+[
+  {
+    "english": "father",
+    "akkadian": "abum",
+    "cuneiform": "𒀀𒁍𒌝",
+    "root": "ʾB",
+    "pos": "noun",
+    "notes": "masculine noun (also 'ancestor')"
+  },
+  {
+    "english": "house",
+    "akkadian": "bîtum",
+    "cuneiform": "𒁉𒄿𒌈",
+    "root": "B-Y-T",
+    "pos": "noun",
+    "notes": "feminine noun (household, building)"
+  },
+  {
+    "english": "king",
+    "akkadian": "šarrum",
+    "cuneiform": "𒊭𒊏𒌝",
+    "root": "Š-R-R",
+    "pos": "noun",
+    "notes": "masculine; title for a ruler (written with logogram LUGAL)"
+  },
+  {
+    "english": "queen",
+    "akkadian": "šarratum",
+    "cuneiform": "𒊭𒊏𒌈",
+    "root": "Š-R-R",
+    "pos": "noun",
+    "notes": "feminine of šarrum (often written with logogram MUNUS.LUGAL)"
+  },
+  {
+    "english": "god",
+    "akkadian": "ilum",
+    "cuneiform": "𒄿𒇻𒌝",
+    "root": "ʾ-L",
+    "pos": "noun",
+    "notes": "masculine; deity (prefixed with 𒀭 determinative in texts)"
+  },
+  {
+    "english": "city",
+    "akkadian": "âlum",
+    "cuneiform": "𒀀𒇻𒌝",
+    "root": "ʿ-L-M",
+    "pos": "noun",
+    "notes": "city, town (feminine)"
+  },
+  {
+    "english": "to eat",
+    "akkadian": "akalum",
+    "cuneiform": "𒀀𒅗𒇻𒌝",
+    "root": "ʾ-K-L",
+    "pos": "verb",
+    "notes": "G-stem infinitive ('to eat')"
+  },
+  {
+    "english": "big",
+    "akkadian": "rabûm",
+    "cuneiform": "𒊏𒁍𒌝",
+    "root": "R-B-B",
+    "pos": "adjective",
+    "notes": "masculine; feminine rabītum"
+  },
+  {
+    "english": "mother",
+    "akkadian": "ummum",
+    "cuneiform": "𒄿𒌝𒌝",
+    "root": "ʾ-M-M",
+    "pos": "noun",
+    "notes": "feminine noun (also 'ancestress')"
+  },
+  {
+    "english": "son",
+    "akkadian": "mârum",
+    "cuneiform": "𒈠𒊒𒌝",
+    "root": "M-ʾ-R",
+    "pos": "noun",
+    "notes": "masculine noun (often written DUMU)"
+  },
+  {
+    "english": "daughter",
+    "akkadian": "mârtum",
+    "cuneiform": "𒈠𒌓𒌈",
+    "root": "M-ʾ-R",
+    "pos": "noun",
+    "notes": "feminine noun (often written DUMU.MUNUS)"
+  },
+  {
+    "english": "brother",
+    "akkadian": "aḫum",
+    "cuneiform": "𒀀𒄩𒌝",
+    "root": "ʾ-Ḫ",
+    "pos": "noun",
+    "notes": "masculine noun (also 'ally, friend')"
+  },
+  {
+    "english": "sister",
+    "akkadian": "aḫātum",
+    "cuneiform": "𒀀𒄩𒌈",
+    "root": "ʾ-Ḫ-T",
+    "pos": "noun",
+    "notes": "feminine noun"
+  },
+  {
+    "english": "man",
+    "akkadian": "awīlum",
+    "cuneiform": "𒀀𒃾𒇻𒌝",
+    "root": "ʾ-W-L",
+    "pos": "noun",
+    "notes": "masculine; free man (social class)"
+  },
+  {
+    "english": "woman",
+    "akkadian": "sinništum",
+    "cuneiform": "𒊭𒈾𒌈",
+    "root": "S-N-Š",
+    "pos": "noun",
+    "notes": "feminine; adult woman (written MUNUS)"
+  },
+  {
+    "english": "water",
+    "akkadian": "mûm",
+    "cuneiform": "𒈬𒌝",
+    "root": "M-Y",
+    "pos": "noun",
+    "notes": "masculine; essential liquid"
+  },
+  {
+    "english": "land",
+    "akkadian": "mātum",
+    "cuneiform": "𒈠𒌓𒌝",
+    "root": "M-T-T",
+    "pos": "noun",
+    "notes": "feminine; country or territory"
+  },
+  {
+    "english": "to go",
+    "akkadian": "alākum",
+    "cuneiform": "𒀀𒆷𒆪𒌝",
+    "root": "ʾ-L-K",
+    "pos": "verb",
+    "notes": "G-stem infinitive; basic motion verb"
+  },
+  {
+    "english": "bread",
+    "akkadian": "aklum",
+    "cuneiform": "𒀀𒅗𒇻𒌝",
+    "root": "ʾ-K-L",
+    "pos": "noun",
+    "notes": "masculine; basic food (often written NINDA)"
+  },
+  {
+    "english": "field",
+    "akkadian": "eqlum",
+    "cuneiform": "𒂍𒅅𒇻𒌝",
+    "root": "ʿ-Q-L",
+    "pos": "noun",
+    "notes": "masculine; agricultural land (written A.ŠÀ)"
+  },
+  {
+    "english": "silver",
+    "akkadian": "kaspum",
+    "cuneiform": "𒋽𒁍𒌝",
+    "root": "K-S-P",
+    "pos": "noun",
+    "notes": "masculine; precious metal, money (written KÙ.BABBAR)"
+  },
+  {
+    "english": "gold",
+    "akkadian": "ḫurāṣum",
+    "cuneiform": "𒄣𒊏𒑳𒌝",
+    "root": "Ḫ-R-Ṣ",
+    "pos": "noun",
+    "notes": "masculine; precious metal (written KÙ.GI)"
+  },
+  {
+    "english": "slave",
+    "akkadian": "wardum",
+    "cuneiform": "𒁇𒉪𒌝",
+    "root": "W-R-D",
+    "pos": "noun",
+    "notes": "masculine; male slave (written ÌR)"
+  },
+  {
+    "english": "sun",
+    "akkadian": "šamšum",
+    "cuneiform": "𒌓𒋢𒌝",
+    "root": "Š-M-Š",
+    "pos": "noun",
+    "notes": "masculine; sun god Šamaš (written UD or UTU)"
+  },
+  {
+    "english": "moon",
+    "akkadian": "sînum",
+    "cuneiform": "𒃻𒈬𒌝",
+    "root": "S-ʾ-N",
+    "pos": "noun",
+    "notes": "masculine; also the god Sîn (written NANNA)"
+  },
+  {
+    "english": "heaven",
+    "akkadian": "šamûm",
+    "cuneiform": "𒀭𒈬𒌝",
+    "root": "Š-M-Y",
+    "pos": "noun",
+    "notes": "masculine; sky, heavens (written AN)"
+  },
+  {
+    "english": "earth",
+    "akkadian": "erṣetum",
+    "cuneiform": "𒆠𒂊𒌈",
+    "root": "ʾ-R-Ṣ",
+    "pos": "noun",
+    "notes": "feminine; land, earth (written KI)"
+  },
+  {
+    "english": "name",
+    "akkadian": "šumum",
+    "cuneiform": "𒈬𒌝",
+    "root": "Š-M",
+    "pos": "noun",
+    "notes": "masculine; personal name (written MU)"
+  },
+  {
+    "english": "word",
+    "akkadian": "awātum",
+    "cuneiform": "𒀀𒉿𒌈",
+    "root": "ʾ-W-T",
+    "pos": "noun",
+    "notes": "feminine; speech, matter (written INIM)"
+  },
+  {
+    "english": "heart",
+    "akkadian": "libbum",
+    "cuneiform": "𒆷𒉈𒌝",
+    "root": "L-B-B",
+    "pos": "noun",
+    "notes": "masculine; heart, interior (written ŠÀ)"
+  },
+  {
+    "english": "hand",
+    "akkadian": "qātum",
+    "cuneiform": "𒋗𒌈",
+    "root": "Q-Y-T",
+    "pos": "noun",
+    "notes": "feminine; hand, power (written ŠU)"
+  },
+  {
+    "english": "eye",
+    "akkadian": "īnum",
+    "cuneiform": "𒄿𒈬𒌝",
+    "root": "ʿ-Y-N",
+    "pos": "noun",
+    "notes": "masculine; eye, sight (written IGI)"
+  },
+  {
+    "english": "foot",
+    "akkadian": "šēpum",
+    "cuneiform": "𒋚𒁍𒌝",
+    "root": "Š-ʾ-P",
+    "pos": "noun",
+    "notes": "masculine; foot, base (written GÌR)"
+  },
+  {
+    "english": "head",
+    "akkadian": "rēšum",
+    "cuneiform": "𒊕𒌝",
+    "root": "R-ʾ-Š",
+    "pos": "noun",
+    "notes": "masculine; head, top (written SAG)"
+  },
+  {
+    "english": "day",
+    "akkadian": "ūmum",
+    "cuneiform": "𒌓𒌝",
+    "root": "Y-W-M",
+    "pos": "noun",
+    "notes": "masculine; day, time (written UD)"
+  },
+  {
+    "english": "night",
+    "akkadian": "mūšum",
+    "cuneiform": "𒈬𒍑𒌝",
+    "root": "M-W-Š",
+    "pos": "noun",
+    "notes": "masculine; night (written GE₆)"
+  },
+  {
+    "english": "year",
+    "akkadian": "šattum",
+    "cuneiform": "𒊭𒌓𒌈",
+    "root": "Š-N-T",
+    "pos": "noun",
+    "notes": "feminine; year (written MU)"
+  },
+  {
+    "english": "month",
+    "akkadian": "arḫum",
+    "cuneiform": "𒌗𒄩𒌝",
+    "root": "ʾ-R-Ḫ",
+    "pos": "noun",
+    "notes": "masculine; month (written ITI)"
+  },
+  {
+    "english": "to see",
+    "akkadian": "amārum",
+    "cuneiform": "𒀀𒈠𒊒𒌝",
+    "root": "ʾ-M-R",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to see, look"
+  },
+  {
+    "english": "to hear",
+    "akkadian": "šemûm",
+    "cuneiform": "𒊮𒈬𒌝",
+    "root": "Š-M-ʿ",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to hear, obey"
+  },
+  {
+    "english": "to speak",
+    "akkadian": "dabābum",
+    "cuneiform": "𒁕𒁀𒁍𒌝",
+    "root": "D-B-B",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to speak, litigate"
+  },
+  {
+    "english": "to write",
+    "akkadian": "šaṭārum",
+    "cuneiform": "𒊭𒌓𒊏𒌝",
+    "root": "Š-Ṭ-R",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to write, inscribe"
+  },
+  {
+    "english": "to give",
+    "akkadian": "nadānum",
+    "cuneiform": "𒈾𒁕𒈾𒌝",
+    "root": "N-D-N",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to give, place"
+  },
+  {
+    "english": "to take",
+    "akkadian": "leqûm",
+    "cuneiform": "𒇷𒆪𒌝",
+    "root": "L-Q-Ḫ",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to take, receive"
+  },
+  {
+    "english": "to come",
+    "akkadian": "atûm",
+    "cuneiform": "𒀀𒌓𒌝",
+    "root": "ʾ-T-Y",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to come, arrive"
+  },
+  {
+    "english": "to know",
+    "akkadian": "idûm",
+    "cuneiform": "𒄿𒁺𒌝",
+    "root": "Y-D-ʿ",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to know, recognize"
+  },
+  {
+    "english": "to make",
+    "akkadian": "epēšum",
+    "cuneiform": "𒄑𒁁𒋢𒌝",
+    "root": "ʿ-P-Š",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to make, do"
+  },
+  {
+    "english": "to send",
+    "akkadian": "šapārum",
+    "cuneiform": "𒊭𒉺𒊒𒌝",
+    "root": "Š-P-R",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to send, dispatch"
+  },
+  {
+    "english": "to kill",
+    "akkadian": "dâkum",
+    "cuneiform": "𒁕𒆪𒌝",
+    "root": "D-W-K",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to kill, defeat"
+  },
+  {
+    "english": "to live",
+    "akkadian": "balāṭum",
+    "cuneiform": "𒁄𒆷𒌓𒌝",
+    "root": "B-L-Ṭ",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to live, be healthy"
+  },
+  {
+    "english": "to buy",
+    "akkadian": "šâmum",
+    "cuneiform": "𒊭𒄠𒌝",
+    "root": "Š-ʾ-M",
+    "pos": "verb",
+    "notes": "G-stem infinitive; to buy, purchase"
+  },
+  {
+    "english": "to sell",
+    "akkadian": "nadānum",
+    "cuneiform": "𒈾𒁕𒈾𒌝",
+    "root": "N-D-N",
+    "pos": "verb",
+    "notes": "also 'to sell' (context dependent)"
+  },
+  {
+    "english": "good",
+    "akkadian": "ṭābum",
+    "cuneiform": "𒌓𒀊𒌝",
+    "root": "Ṭ-ʾ-B",
+    "pos": "adjective",
+    "notes": "masculine; good, pleasant (fem. ṭābtum)"
+  },
+  {
+    "english": "bad",
+    "akkadian": "lemnum",
+    "cuneiform": "𒇷𒅎𒌝",
+    "root": "L-M-N",
+    "pos": "adjective",
+    "notes": "masculine; bad, evil (fem. lemuttum)"
+  },
+  {
+    "english": "small",
+    "akkadian": "ṣeḫrum",
+    "cuneiform": "𒊨𒄯𒌝",
+    "root": "Ṣ-Ḫ-R",
+    "pos": "adjective",
+    "notes": "masculine; small, young (fem. ṣeḫertum)"
+  },
+  {
+    "english": "old",
+    "akkadian": "šībum",
+    "cuneiform": "𒋗𒁍𒌝",
+    "root": "Š-Y-B",
+    "pos": "adjective",
+    "notes": "masculine; old, elderly (fem. šībtum)"
+  },
+  {
+    "english": "new",
+    "akkadian": "eššum",
+    "cuneiform": "𒂊𒀸𒌝",
+    "root": "ʾ-Š-Š",
+    "pos": "adjective",
+    "notes": "masculine; new, fresh (fem. eššetum)"
+  },
+  {
+    "english": "strong",
+    "akkadian": "dannum",
+    "cuneiform": "𒆗𒌝",
+    "root": "D-N-N",
+    "pos": "adjective",
+    "notes": "masculine; strong, mighty (fem. dannat)"
+  },
+  {
+    "english": "weak",
+    "akkadian": "enšum",
+    "cuneiform": "𒂗𒋢𒌝",
+    "root": "ʾ-N-Š",
+    "pos": "adjective",
+    "notes": "masculine; weak, feeble (fem. enšetum)"
+  },
+  {
+    "english": "beautiful",
+    "akkadian": "banûm",
+    "cuneiform": "𒁀𒈾𒌝",
+    "root": "B-N-Y",
+    "pos": "adjective",
+    "notes": "masculine; beautiful, good (fem. banītum)"
+  },
+  {
+    "english": "door",
+    "akkadian": "daltum",
+    "cuneiform": "𒁕𒀠𒌈",
+    "root": "D-L-T",
+    "pos": "noun",
+    "notes": "feminine; door, gate (written KÁ)"
+  },
+  {
+    "english": "ox",
+    "akkadian": "alpum",
+    "cuneiform": "𒀠𒁍𒌝",
+    "root": "ʾ-L-P",
+    "pos": "noun",
+    "notes": "masculine; bull, ox (written GU₄)"
+  },
+  {
+    "english": "sheep",
+    "akkadian": "immērum",
+    "cuneiform": "𒇇𒈨𒊒𒌝",
+    "root": "ʾ-M-R",
+    "pos": "noun",
+    "notes": "masculine; male sheep (written UDU)"
+  },
+  {
+    "english": "barley",
+    "akkadian": "še'um",
+    "cuneiform": "𒊺𒌝",
+    "root": "Š-ʿ-Y",
+    "pos": "noun",
+    "notes": "masculine; grain, barley (written ŠE)"
+  },
+  {
+    "english": "oil",
+    "akkadian": "šamnum",
+    "cuneiform": "𒊭𒀀𒉌𒌝",
+    "root": "Š-M-N",
+    "pos": "noun",
+    "notes": "masculine; oil, fat (written Ì)"
+  },
+  {
+    "english": "wine",
+    "akkadian": "šīkārum",
+    "cuneiform": "𒅆𒅗𒊒𒌝",
+    "root": "Š-K-R",
+    "pos": "noun",
+    "notes": "masculine; beer, alcoholic drink (written KAŠ)"
+  },
+  {
+    "english": "judge",
+    "akkadian": "dayyānum",
+    "cuneiform": "𒁕𒉡𒌝",
+    "root": "D-Y-N",
+    "pos": "noun",
+    "notes": "masculine; judge, arbiter (written DI.KUD)"
+  },
+  {
+    "english": "merchant",
+    "akkadian": "tamkārum",
+    "cuneiform": "𒋫𒀀𒅗𒊒𒌝",
+    "root": "T-M-K",
+    "pos": "noun",
+    "notes": "masculine; trader, merchant (written DAM.GÀR)"
+  },
+  {
+    "english": "priest",
+    "akkadian": "šangûm",
+    "cuneiform": "𒊭𒉡𒌝",
+    "root": "Š-N-G",
+    "pos": "noun",
+    "notes": "masculine; temple priest (written SANGA)"
+  },
+  {
+    "english": "scribe",
+    "akkadian": "ṭupšarrum",
+    "cuneiform": "𒁾𒁹𒊬𒌝",
+    "root": "Ṭ-P-Š",
+    "pos": "noun",
+    "notes": "masculine; tablet writer (written DUB.SAR)"
+  },
+  {
+    "english": "palace",
+    "akkadian": "ēkallum",
+    "cuneiform": "𒂍𒃲𒇻𒌝",
+    "root": "ʾ-K-L",
+    "pos": "noun",
+    "notes": "masculine; royal residence (written É.GAL)"
+  },
+  {
+    "english": "temple",
+    "akkadian": "bītum",
+    "cuneiform": "𒂍",
+    "root": "B-Y-T",
+    "pos": "noun",
+    "notes": "when referring to temple; house of god (written É)"
+  },
+  {
+    "english": "law",
+    "akkadian": "dīnum",
+    "cuneiform": "𒁲𒈾𒌝",
+    "root": "D-Y-N",
+    "pos": "noun",
+    "notes": "masculine; legal case, judgment (written DI)"
+  },
+  {
+    "english": "contract",
+    "akkadian": "riksum",
+    "cuneiform": "𒌨𒊏𒅗𒌝",
+    "root": "R-K-S",
+    "pos": "noun",
+    "notes": "masculine; binding agreement"
+  },
+  {
+    "english": "debt",
+    "akkadian": "ḫubullum",
+    "cuneiform": "𒄷𒁍𒌨𒇻𒌝",
+    "root": "Ḫ-B-L",
+    "pos": "noun",
+    "notes": "masculine; financial obligation"
+  },
+  {
+    "english": "wisdom",
+    "akkadian": "nēmēqum",
+    "cuneiform": "𒉌𒈨𒆪𒌝",
+    "root": "N-M-Q",
+    "pos": "noun",
+    "notes": "masculine; wisdom, intelligence"
+  },
+  {
+    "english": "truth",
+    "akkadian": "kittum",
+    "cuneiform": "𒆠𒌅𒌝",
+    "root": "K-Y-N",
+    "pos": "noun",
+    "notes": "masculine; truth, reliability"
+  },
+  {
+    "english": "school",
+    "akkadian": "bīt ṭuppim",
+    "cuneiform": "𒂍𒁾𒉿𒅎",
+    "root": "B-Y-T Ṭ-P-P",
+    "pos": "noun",
+    "notes": "masculine; house of tablets, school"
+  },
+  {
+    "english": "student",
+    "akkadian": "ṭupšarru ṣeḫrum",
+    "cuneiform": "𒁾𒁹𒊬𒄑𒊑𒌝𒄑𒄭𒊑𒌝",
+    "root": "Ṭ-P-Š Ṣ-Ḫ-R",
+    "pos": "noun",
+    "notes": "masculine; young scribe, student"
+  },
+  {
+    "english": "teacher",
+    "akkadian": "ummânû",
+    "cuneiform": "𒄿𒌝𒈠𒉡𒌑",
+    "root": "ʾ-M-N",
+    "pos": "noun",
+    "notes": "masculine; expert, master craftsman, teacher"
+  },
+  {
+    "english": "learning",
+    "akkadian": "lamādum",
+    "cuneiform": "𒇴𒈠𒁺𒌝",
+    "root": "L-M-D",
+    "pos": "verb",
+    "notes": "to learn, to know"
+  },
+  {
+    "english": "writing",
+    "akkadian": "šaṭārum",
+    "cuneiform": "𒊭𒋻𒊑𒌝",
+    "root": "Š-Ṭ-R",
+    "pos": "verb",
+    "notes": "to write, to inscribe"
+  },
+  {
+    "english": "reading",
+    "akkadian": "šasûm",
+    "cuneiform": "𒊭𒋢𒌑𒌝",
+    "root": "Š-S-ʾ",
+    "pos": "verb",
+    "notes": "to read, to recite"
+  },
+  {
+    "english": "knowledge",
+    "akkadian": "mudûtum",
+    "cuneiform": "𒈬𒁺𒌑𒌈",
+    "root": "Y-D-ʿ",
+    "pos": "noun",
+    "notes": "feminine; knowledge, wisdom"
+  },
+  {
+    "english": "memory",
+    "akkadian": "ḫasāsum",
+    "cuneiform": "𒄩𒊓𒋢𒌝",
+    "root": "Ḫ-S-S",
+    "pos": "verb",
+    "notes": "to remember, to be mindful"
+  },
+  {
+    "english": "life",
+    "akkadian": "balāṭum",
+    "cuneiform": "𒁄𒆷𒌓𒌝",
+    "root": "B-L-Ṭ",
+    "pos": "noun",
+    "notes": "masculine; life, health"
+  },
+  {
+    "english": "death",
+    "akkadian": "mūtum",
+    "cuneiform": "𒈬𒌓𒌝",
+    "root": "M-W-T",
+    "pos": "noun",
+    "notes": "masculine; death"
+  },
+  {
+    "english": "peace",
+    "akkadian": "šulûm",
+    "cuneiform": "𒋗𒇻𒌝",
+    "root": "Š-L-M",
+    "pos": "noun",
+    "notes": "masculine; peace, well-being"
+  },
+  {
+    "english": "war",
+    "akkadian": "qablum",
+    "cuneiform": "𒋡𒁍𒇻𒌝",
+    "root": "Q-B-L",
+    "pos": "noun",
+    "notes": "masculine; battle, war"
+  },
+  {
+    "english": "love",
+    "akkadian": "râmum",
+    "cuneiform": "𒊏𒄠𒌝",
+    "root": "R-ʾ-M",
+    "pos": "noun",
+    "notes": "masculine; love, mercy"
+  },
+  {
+    "english": "anger",
+    "akkadian": "agūm",
+    "cuneiform": "𒀀𒄖𒌝",
+    "root": "ʾ-G-W",
+    "pos": "noun",
+    "notes": "masculine; anger, wrath"
+  },
+  {
+    "english": "fear",
+    "akkadian": "pulḫum",
+    "cuneiform": "𒁍𒄰𒄩𒌝",
+    "root": "P-L-Ḫ",
+    "pos": "noun",
+    "notes": "masculine; fear, reverence"
+  },
+  {
+    "english": "joy",
+    "akkadian": "ḫadûm",
+    "cuneiform": "𒄩𒁺𒌝",
+    "root": "Ḫ-D-Y",
+    "pos": "noun",
+    "notes": "masculine; joy, happiness"
+  },
+  {
+    "english": "child",
+    "akkadian": "ṣeḫrum",
+    "cuneiform": "𒊨𒄯𒌝",
+    "root": "Ṣ-Ḫ-R",
+    "pos": "noun",
+    "notes": "masculine; child, young person"
+  },
+  {
+    "english": "elder",
+    "akkadian": "šībum",
+    "cuneiform": "𒋗𒁍𒌝",
+    "root": "Š-Y-B",
+    "pos": "noun",
+    "notes": "masculine; elder, old man"
+  },
+  {
+    "english": "physician",
+    "akkadian": "asûm",
+    "cuneiform": "𒀀𒋢𒌝",
+    "root": "ʾ-S-Y",
+    "pos": "noun",
+    "notes": "masculine; healer, doctor (written A.ZU)"
+  },
+  {
+    "english": "soldier",
+    "akkadian": "ṣābum",
+    "cuneiform": "𒑳𒀊𒌝",
+    "root": "Ṣ-B-ʾ",
+    "pos": "noun",
+    "notes": "masculine; warrior, soldier"
+  },
+  {
+    "english": "shepherd",
+    "akkadian": "rē'ûm",
+    "cuneiform": "𒌨𒌝",
+    "root": "R-ʿ-Y",
+    "pos": "noun",
+    "notes": "masculine; shepherd (written SIPA)"
+  },
+  {
+    "english": "farmer",
+    "akkadian": "ikkārum",
+    "cuneiform": "𒄿𒅗𒊏𒌝",
+    "root": "ʾ-K-R",
+    "pos": "noun",
+    "notes": "masculine; field worker, farmer (written ENGAR)"
+  },
+  {
+    "english": "craftsman",
+    "akkadian": "ummânum",
+    "cuneiform": "𒌝𒈠𒈾𒌝",
+    "root": "ʾ-M-N",
+    "pos": "noun",
+    "notes": "masculine; artisan, skilled worker"
+  },
+  {
+    "english": "builder",
+    "akkadian": "bānûm",
+    "cuneiform": "𒁀𒈾𒌝",
+    "root": "B-N-Y",
+    "pos": "noun",
+    "notes": "masculine; constructor, builder"
+  },
+  {
+    "english": "musician",
+    "akkadian": "nārûm",
+    "cuneiform": "𒈾𒊒𒌝",
+    "root": "N-ʾ-R",
+    "pos": "noun",
+    "notes": "masculine; singer, musician (written NAR)"
+  },
+  {
+    "english": "boat",
+    "akkadian": "eleppum",
+    "cuneiform": "𒂍𒇷𒁍𒌝",
+    "root": "ʾ-L-P",
+    "pos": "noun",
+    "notes": "feminine; ship, boat (written GIŠ.MÁ)"
+  },
+  {
+    "english": "horse",
+    "akkadian": "sīsûm",
+    "cuneiform": "𒋗𒋢𒌝",
+    "root": "S-Y-S",
+    "pos": "noun",
+    "notes": "masculine; horse (written ANŠE.KUR.RA)"
+  },
+  {
+    "english": "donkey",
+    "akkadian": "imērum",
+    "cuneiform": "𒇇𒈨𒊒𒌝",
+    "root": "ʾ-M-R",
+    "pos": "noun",
+    "notes": "masculine; ass, donkey (written ANŠE)"
+  },
+  {
+    "english": "dog",
+    "akkadian": "kalbum",
+    "cuneiform": "𒆗𒁍𒌝",
+    "root": "K-L-B",
+    "pos": "noun",
+    "notes": "masculine; dog (written UR.GI₇)"
+  },
+  {
+    "english": "lion",
+    "akkadian": "nēšum",
+    "cuneiform": "𒉌𒋢𒌝",
+    "root": "N-Y-Š",
+    "pos": "noun",
+    "notes": "masculine; lion (written UR.MAḪ)"
+  },
+  {
+    "english": "bird",
+    "akkadian": "iṣṣūrum",
+    "cuneiform": "𒄿𒑳𒉯𒊒𒌝",
+    "root": "ʾ-Ṣ-R",
+    "pos": "noun",
+    "notes": "masculine; bird (written MUŠEN)"
+  },
+  {
+    "english": "fish",
+    "akkadian": "nūnum",
+    "cuneiform": "𒉣𒈾𒌝",
+    "root": "N-W-N",
+    "pos": "noun",
+    "notes": "masculine; fish (written KU₆)"
+  },
+  {
+    "english": "tree",
+    "akkadian": "iṣum",
+    "cuneiform": "𒄿𒑳𒌝",
+    "root": "ʾ-Ṣ",
+    "pos": "noun",
+    "notes": "masculine; tree, wood (written GIŠ)"
+  },
+  {
+    "english": "fruit",
+    "akkadian": "inbum",
+    "cuneiform": "𒄿𒅔𒁍𒌝",
+    "root": "ʾ-N-B",
+    "pos": "noun",
+    "notes": "masculine; fruit"
+  },
+  {
+    "english": "grain",
+    "akkadian": "ašnan",
+    "cuneiform": "𒀸𒈾",
+    "root": "ʾ-Š-N",
+    "pos": "noun",
+    "notes": "feminine; grain goddess, cereals"
+  },
+  {
+    "english": "garden",
+    "akkadian": "kirûm",
+    "cuneiform": "𒆠𒊒𒌝",
+    "root": "K-R-Y",
+    "pos": "noun",
+    "notes": "masculine; orchard, garden (written GIŠ.KIRI₆)"
+  },
+  {
+    "english": "mountain",
+    "akkadian": "šadûm",
+    "cuneiform": "𒊭𒁺𒌝",
+    "root": "Š-D-Y",
+    "pos": "noun",
+    "notes": "masculine; mountain, hill (written KUR)"
+  },
+  {
+    "english": "river",
+    "akkadian": "nārum",
+    "cuneiform": "𒈾𒊒𒌝",
+    "root": "N-ʾ-R",
+    "pos": "noun",
+    "notes": "masculine; river, stream (written ÍD)"
+  },
+  {
+    "english": "sea",
+    "akkadian": "tâmtum",
+    "cuneiform": "𒀀𒀊𒌈",
+    "root": "T-ʾ-M",
+    "pos": "noun",
+    "notes": "feminine; sea, ocean (written A.AB.BA)"
+  },
+  {
+    "english": "wind",
+    "akkadian": "šārum",
+    "cuneiform": "𒊭𒊒𒌝",
+    "root": "Š-ʾ-R",
+    "pos": "noun",
+    "notes": "masculine; wind, air"
+  },
+  {
+    "english": "fire",
+    "akkadian": "išātum",
+    "cuneiform": "𒄿𒊭𒌈",
+    "root": "ʾ-Š-T",
+    "pos": "noun",
+    "notes": "feminine; fire (written IZI)"
+  },
+  {
+    "english": "stone",
+    "akkadian": "abnum",
+    "cuneiform": "𒀀𒌓𒈾𒌝",
+    "root": "ʾ-B-N",
+    "pos": "noun",
+    "notes": "masculine; stone, rock (written NA₄)"
+  },
+  {
+    "english": "metal",
+    "akkadian": "siparrum",
+    "cuneiform": "𒋛𒉺𒌝",
+    "root": "S-P-R",
+    "pos": "noun",
+    "notes": "masculine; bronze, metal"
+  },
+  {
+    "english": "iron",
+    "akkadian": "parzillum",
+    "cuneiform": "𒁆𒍣𒇻𒌝",
+    "root": "P-R-Z",
+    "pos": "noun",
+    "notes": "masculine; iron (written AN.BAR)"
+  },
+  {
+    "english": "copper",
+    "akkadian": "erûm",
+    "cuneiform": "𒂊𒊒𒌝",
+    "root": "ʾ-R-Y",
+    "pos": "noun",
+    "notes": "masculine; copper (written URUDU)"
+  },
+  {
+    "english": "clothing",
+    "akkadian": "ṣubātum",
+    "cuneiform": "𒋢𒁀𒌈",
+    "root": "Ṣ-B-T",
+    "pos": "noun",
+    "notes": "feminine; garment, clothing (written TÚG)"
+  },
+  {
+    "english": "shoe",
+    "akkadian": "šēnum",
+    "cuneiform": "𒋚𒈾𒌝",
+    "root": "Š-ʾ-N",
+    "pos": "noun",
+    "notes": "masculine; sandal, shoe"
+  },
+  {
+    "english": "weapon",
+    "akkadian": "kakkum",
+    "cuneiform": "𒃊𒌝",
+    "root": "K-K",
+    "pos": "noun",
+    "notes": "masculine; weapon, tool (written GIŠ.TUKUL)"
+  },
+  {
+    "english": "sword",
+    "akkadian": "namṣārum",
+    "cuneiform": "𒉆𒑳𒊏𒌝",
+    "root": "N-Ṣ-R",
+    "pos": "noun",
+    "notes": "masculine; sword, blade"
+  },
+  {
+    "english": "bow",
+    "akkadian": "qašutum",
+    "cuneiform": "𒋳𒋢𒌈",
+    "root": "Q-Š-T",
+    "pos": "noun",
+    "notes": "feminine; bow, arch (written GIŠ.BAN)"
+  },
+  {
+    "english": "arrow",
+    "akkadian": "uṣṣum",
+    "cuneiform": "𒌑𒑳𒌝",
+    "root": "ʾ-Ṣ-Ṣ",
+    "pos": "noun",
+    "notes": "masculine; arrow (written GIŠ.GAG)"
+  },
+  {
+    "english": "shield",
+    "akkadian": "arrītum",
+    "cuneiform": "𒀀𒊑𒌈",
+    "root": "ʾ-R-Y",
+    "pos": "noun",
+    "notes": "feminine; shield, protection"
+  },
+  {
+    "english": "number",
+    "akkadian": "minûm",
+    "cuneiform": "𒈏𒌝",
+    "root": "M-N-Y",
+    "pos": "noun",
+    "notes": "masculine; number, count"
+  },
+  {
+    "english": "one",
+    "akkadian": "ištēn",
+    "cuneiform": "𒀸𒁺",
+    "root": "ʾ-Š-T",
+    "pos": "numeral",
+    "notes": "cardinal number 1 (masculine)"
+  },
+  {
+    "english": "two",
+    "akkadian": "šinā",
+    "cuneiform": "𒌋𒈾",
+    "root": "Š-N",
+    "pos": "numeral",
+    "notes": "cardinal number 2"
+  },
+  {
+    "english": "three",
+    "akkadian": "šalāšum",
+    "cuneiform": "𒌍𒋢𒌝",
+    "root": "Š-L-Š",
+    "pos": "numeral",
+    "notes": "cardinal number 3"
+  },
+  {
+    "english": "four",
+    "akkadian": "erbum",
+    "cuneiform": "𒐊𒁍𒌝",
+    "root": "ʾ-R-B",
+    "pos": "numeral",
+    "notes": "cardinal number 4"
+  },
+  {
+    "english": "five",
+    "akkadian": "ḫamšum",
+    "cuneiform": "𒄩𒄠𒋢𒌝",
+    "root": "Ḫ-M-Š",
+    "pos": "numeral",
+    "notes": "cardinal number 5"
+  },
+  {
+    "english": "ten",
+    "akkadian": "ešrum",
+    "cuneiform": "𒌋𒌓",
+    "root": "ʿ-Š-R",
+    "pos": "numeral",
+    "notes": "cardinal number 10"
+  },
+  {
+    "english": "hundred",
+    "akkadian": "me'atum",
+    "cuneiform": "𒈨𒀜𒌝",
+    "root": "M-ʾ-T",
+    "pos": "numeral",
+    "notes": "cardinal number 100"
+  },
+  {
+    "english": "thousand",
+    "akkadian": "līmum",
+    "cuneiform": "𒅆𒌝",
+    "root": "L-ʾ-M",
+    "pos": "numeral",
+    "notes": "cardinal number 1000"
+  },
+  {
+    "english": "white",
+    "akkadian": "peṣûm",
+    "cuneiform": "𒉺𒑳𒌝",
+    "root": "P-Ṣ-Y",
+    "pos": "adjective",
+    "notes": "masculine; white, bright (fem. peṣītum)"
+  },
+  {
+    "english": "black",
+    "akkadian": "ṣalmum",
+    "cuneiform": "𒑳𒀠𒌝",
+    "root": "Ṣ-L-M",
+    "pos": "adjective",
+    "notes": "masculine; black, dark (fem. ṣalmum)"
+  },
+  {
+    "english": "red",
+    "akkadian": "sāmum",
+    "cuneiform": "𒊓𒈬𒌝",
+    "root": "S-ʾ-M",
+    "pos": "adjective",
+    "notes": "masculine; red, reddish"
+  },
+  {
+    "english": "blue",
+    "akkadian": "uqnûm",
+    "cuneiform": "𒌑𒆪𒈾𒌝",
+    "root": "ʾ-Q-N",
+    "pos": "adjective",
+    "notes": "masculine; blue, lapis lazuli colored"
+  },
+  {
+    "english": "green",
+    "akkadian": "arqum",
+    "cuneiform": "𒀀𒅈𒌝",
+    "root": "ʾ-R-Q",
+    "pos": "adjective",
+    "notes": "masculine; green, yellow-green"
+  },
+  {
+    "english": "sweet",
+    "akkadian": "maṭûm",
+    "cuneiform": "𒈦𒌓𒌝",
+    "root": "M-Ṭ-Y",
+    "pos": "adjective",
+    "notes": "masculine; sweet, pleasant"
+  },
+  {
+    "english": "bitter",
+    "akkadian": "murrum",
+    "cuneiform": "𒈬𒌝",
+    "root": "M-R-R",
+    "pos": "adjective",
+    "notes": "masculine; bitter, harsh"
+  },
+  {
+    "english": "sharp",
+    "akkadian": "ḫaddūm",
+    "cuneiform": "𒄩𒁺𒌝",
+    "root": "Ḫ-D-D",
+    "pos": "adjective",
+    "notes": "masculine; sharp, pointed"
+  },
+  {
+    "english": "dull",
+    "akkadian": "passūm",
+    "cuneiform": "𒁀𒋢𒌝",
+    "root": "P-S-S",
+    "pos": "adjective",
+    "notes": "masculine; blunt, dull"
+  },
+  {
+    "english": "hot",
+    "akkadian": "emūm",
+    "cuneiform": "𒂊𒈬𒌝",
+    "root": "ʾ-M-M",
+    "pos": "adjective",
+    "notes": "masculine; hot, warm"
+  },
+  {
+    "english": "cold",
+    "akkadian": "kaṣûm",
+    "cuneiform": "𒋡𒑳𒌝",
+    "root": "K-Ṣ-Y",
+    "pos": "adjective",
+    "notes": "masculine; cold, chilly"
+  },
+  {
+    "english": "hard",
+    "akkadian": "kabtum",
+    "cuneiform": "𒋡𒌈",
+    "root": "K-B-T",
+    "pos": "adjective",
+    "notes": "masculine; hard, difficult, heavy"
+  },
+  {
+    "english": "soft",
+    "akkadian": "narkabum",
+    "cuneiform": "𒈾𒅈𒁀𒌝",
+    "root": "N-R-K",
+    "pos": "adjective",
+    "notes": "masculine; soft, tender"
+  }
+]
