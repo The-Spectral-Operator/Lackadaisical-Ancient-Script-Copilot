@@ -5,7 +5,13 @@ export function createLexiconRoute(db, config, logger) {
   return {
     list(_req, res) {
       try {
-        const lexicons = db.system.prepare('SELECT * FROM lexicons ORDER BY created_at DESC').all();
+        const lexicons = db.system.prepare(`
+          SELECT l.*, COUNT(le.id) AS entry_count
+          FROM lexicons l
+          LEFT JOIN lexicon_entries le ON le.lexicon_id = l.id
+          GROUP BY l.id
+          ORDER BY l.created_at DESC
+        `).all();
         res.writeHead(200);
         res.end(JSON.stringify({ lexicons }));
       } catch {

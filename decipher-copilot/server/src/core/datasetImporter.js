@@ -368,3 +368,81 @@ function parseCSVLine(line) {
 }
 
 export { parseJsonDataset, parseCsvDataset, inferScriptName };
+
+/**
+ * Seed all datasets into the system DB (idempotent — uses INSERT OR IGNORE).
+ * Creates one script, one lexicon, and bulk-inserts entries per dataset file.
+ * Returns counts of scripts/lexicons/entries inserted.
+ */
+import { createHash } from 'node:crypto';
+
+export function seedDatasetsToDb(db, datasetsDir, logger) {
+  const results = importAllDatasets(datasetsDir);
+  let totalEntries = 0;
+  let totalLexicons = 0;
+  let totalScripts = 0;
+
+  for (const dataset of results) {
+    if (!dataset.entries || dataset.entries.length === 0) continue;
+
+    const scriptId = dataset.script.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '').slice(0, 40);
+    const now = Date.now();
+
+    // Upsert script record
+    try {
+      db.system.prepare(
+        'INSERT OR IGNORE INTO scripts (id, display, era, region, notes) VALUES (?,?,?,?,?)'
+      ).run(scriptId, dataset.script, null, null, `Loaded from ${dataset.file}`);
+      totalScripts++;
+    } catch { /* ok */ }
+
+    // Upsert lexicon record
+    const lexiconId = `lex_${scriptId}`;
+    try {
+      db.system.prepare(
+        'INSERT OR IGNORE INTO lexicons (id, script_id, name, created_at) VALUES (?,?,?,?)'
+      ).run(lexiconId, scriptId, `${dataset.script} Lexicon`, now);
+      totalLexicons++;
+    } catch { /* ok */ }
+
+    // Bulk-insert entries using a transaction for speed
+    const stmt = db.system.prepare(`
+      INSERT OR IGNORE INTO lexicon_entries
+        (id, lexicon_id, token, gloss, pos, confidence, source, notes, created_at, updated_at)
+      VALUES (?,?,?,?,?,?,?,?,?,?)
+    `);
+
+    const insertMany = db.system.transaction((entries) => {
+      for (const e of entries) {
+        if (!e.token || !e.gloss) continue;
+        try {
+          // Deterministic ID from lexicon+token — makes re-seeding idempotent
+          const entryId = createHash('sha256')
+            .update(`${lexiconId}:${String(e.token)}`)
+            .digest('hex')
+            .slice(0, 26);
+          stmt.run(
+            entryId,
+            lexiconId,
+            String(e.token).slice(0, 500),
+            String(e.gloss).slice(0, 1000),
+            e.pos ? String(e.pos).slice(0, 50) : null,
+            typeof e.confidence === 'number' ? e.confidence : 0.7,
+            e.source ? String(e.source).slice(0, 500) : dataset.file,
+            e.notes ? String(e.notes).slice(0, 500) : null,
+            now, now,
+          );
+          totalEntries++;
+        } catch { /* skip invalid entry */ }
+      }
+    });
+
+    try {
+      insertMany(dataset.entries);
+    } catch (err) {
+      if (logger) logger.warn({ err: err.message, file: dataset.file }, 'entry batch insert error');
+    }
+  }
+
+  return { scripts: totalScripts, lexicons: totalLexicons, entries: totalEntries };
+}

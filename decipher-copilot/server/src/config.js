@@ -1,5 +1,10 @@
-import { resolve } from 'node:path';
+import { resolve, join, dirname } from 'node:path';
 import { existsSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
+// Reliable root — resolves to decipher-copilot/ (parent of server/)
+// config.js is at server/src/config.js → ../../ = decipher-copilot/
+const _projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 
 const env = process.env;
 
@@ -43,9 +48,9 @@ export const config = {
     allowAnyModel: true, // if true, any model from /api/tags is available
     keepAlive: '30m',    // keep swapped model loaded for 30 minutes
   },
-  dataDir: resolve(env.DECIPHER_DATA_DIR || './data'),
-  datasetsDir: resolve(env.DECIPHER_DATASETS_DIR || '../datasets'),
-  logDir: resolve(env.DECIPHER_LOG_DIR || './logs'),
+  dataDir: resolve(env.DECIPHER_DATA_DIR || join(_projectRoot, 'data')),
+  datasetsDir: resolve(env.DECIPHER_DATASETS_DIR || join(_projectRoot, 'datasets')),
+  logDir: resolve(env.DECIPHER_LOG_DIR || join(_projectRoot, 'logs')),
   logLevel: env.DECIPHER_LOG_LEVEL || 'info',
   bodyLimit: 32 * 1024 * 1024, // 32 MiB
   attachmentLimit: 100 * 1024 * 1024, // 100 MiB

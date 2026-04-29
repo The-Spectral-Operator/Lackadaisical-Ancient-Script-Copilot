@@ -1,66 +1,60 @@
 /**
- * Ancient Script Decipherment Copilot - Main Application
- * Vanilla ES2023, no frameworks
+ * Ancient Script Decipherment Copilot — Main Application
+ * Vanilla ES2023, no frameworks. All state in store.js.
  */
 import { createWsClient } from './ws.js';
 import { createApi } from './api.js';
+import { store } from './chat/store.js';
+import {
+  appendMessage, createStreamingEl, appendStreamingDelta,
+  finalizeStreamingEl, appendToolCall, appendToolResult, appendError, clearMessages,
+} from './chat/view.js';
+import { appendThinking, clearThinking, getThinkingText } from './chat/thinking.js';
+import { initLexiconPanel } from './lexicon/view.js';
+import { initCorpusPanel } from './corpus/view.js';
+import { initModelPicker } from './models/picker.js';
+import { initSettingsPanel } from './settings/view.js';
 
-const state = {
-  sessionId: null,
-  model: 'gemma4:e4b',
-  messages: [],
-  thinking: '',
-  isStreaming: false,
-  thinkEnabled: true,
-  toolsEnabled: true,
-  availableModels: [],
-};
-
+const api = createApi();
 let ws = null;
-let api = null;
+let pendingFiles = [];
+let streamingMsgId = null;
+let pendingContent = '';
 
+// ─── Boot ────────────────────────────────────────────────────────────────────
 async function init() {
-  api = createApi();
+  // Health check
+  checkHealth();
 
-  // Check health
-  try {
-    const health = await api.get('/api/health');
-    if (health.ollama?.reachable) {
-      document.getElementById('model-status').textContent = '✓';
-      document.getElementById('model-status').style.color = 'var(--color-success)';
-    } else {
-      document.getElementById('model-status').textContent = '✗';
-      document.getElementById('model-status').style.color = 'var(--color-danger)';
-    }
-  } catch {
-    document.getElementById('model-status').textContent = '✗';
-  }
+  // Load models
+  await initModelPicker();
 
-  // Load available models
-  try {
-    const data = await api.get('/api/models');
-    state.availableModels = data.models || [];
-    populateModelSelector(state.availableModels);
-  } catch { /* offline mode */ }
+  // Load scripts for selector
+  loadScripts();
 
-  // Connect WebSocket
+  // Load session list
+  loadSessions();
+
+  // Connect WS
   ws = createWsClient({
     url: `ws://${location.host}/ws`,
-    onThinking: (delta) => {
-      state.thinking += delta;
-      updateThinkingPanel();
+    onReady: (frame) => {
+      const statusEl = document.getElementById('ollama-status-text');
+      if (statusEl) statusEl.textContent = `Ollama ${frame.ollama_version || 'online'}`;
     },
+    onThinking: (delta) => { appendThinking(delta); },
     onContent: (delta) => {
-      appendAssistantDelta(delta);
+      if (streamingMsgId) {
+        pendingContent += delta;
+        appendStreamingDelta(streamingMsgId, delta);
+      }
     },
-    onToolCall: (name, args) => {
-      appendToolCall(name, args);
-    },
-    onDone: (stats) => {
-      finishStreaming(stats);
-    },
-    onError: (err) => {
-      appendError(err.message);
+    onToolCall: (name, args) => { appendToolCall(streamingMsgId, name, args); },
+    onToolResult: (name, result) => { appendToolResult(streamingMsgId, name, result); },
+    onDone: (msgId, model, stats) => { finishStreaming(stats, model); },
+    onCancelled: () => { finishStreaming(null, null, true); },
+    onError: (code, message) => {
+      appendError(`${code}: ${message}`);
       finishStreaming();
     },
   });
@@ -68,204 +62,355 @@ async function init() {
   // Event listeners
   document.getElementById('send-btn').addEventListener('click', sendMessage);
   document.getElementById('cancel-btn').addEventListener('click', cancelStream);
+  document.getElementById('attach-btn').addEventListener('click', () => document.getElementById('file-input').click());
+  document.getElementById('file-input').addEventListener('change', handleFileSelect);
   document.getElementById('chat-input').addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); sendMessage(); }
   });
   document.getElementById('model-select').addEventListener('change', (e) => {
-    state.model = e.target.value;
-    document.getElementById('active-model-display').textContent = state.model;
-    // Hotswap: notify WS
-    if (ws && ws.isConnected()) {
-      ws.send({ type: 'model.switch', model: state.model, session_id: state.sessionId });
+    const model = e.target.value;
+    store.set({ model });
+    document.getElementById('active-model-display').textContent = model;
+    if (ws && ws.isConnected() && store.get().sessionId) {
+      ws.send({ type: 'model.switch', model, session_id: store.get().sessionId });
     }
   });
   document.getElementById('think-toggle').addEventListener('click', () => {
-    state.thinkEnabled = !state.thinkEnabled;
-    document.getElementById('think-toggle').style.opacity = state.thinkEnabled ? '1' : '0.5';
+    const enabled = !store.get().thinkEnabled;
+    store.set({ thinkEnabled: enabled });
+    document.getElementById('think-toggle').style.opacity = enabled ? '1' : '0.45';
   });
   document.getElementById('tools-toggle').addEventListener('click', () => {
-    state.toolsEnabled = !state.toolsEnabled;
-    document.getElementById('tools-toggle').style.opacity = state.toolsEnabled ? '1' : '0.5';
+    const enabled = !store.get().toolsEnabled;
+    store.set({ toolsEnabled: enabled });
+    document.getElementById('tools-toggle').style.opacity = enabled ? '1' : '0.45';
   });
   document.getElementById('new-session-btn').addEventListener('click', newSession);
   document.getElementById('settings-btn').addEventListener('click', () => togglePanel('settings-panel'));
-  document.getElementById('lexicon-btn').addEventListener('click', () => togglePanel('lexicon-panel'));
-  document.getElementById('corpus-btn').addEventListener('click', () => togglePanel('corpus-panel'));
+  document.getElementById('lexicon-btn').addEventListener('click', async () => {
+    togglePanel('lexicon-panel');
+    if (!document.getElementById('lexicon-panel').classList.contains('hidden')) {
+      await initLexiconPanel();
+    }
+  });
+  document.getElementById('corpus-btn').addEventListener('click', async () => {
+    togglePanel('corpus-panel');
+    if (!document.getElementById('corpus-panel').classList.contains('hidden')) {
+      await initCorpusPanel();
+    }
+  });
+  document.getElementById('script-select').addEventListener('change', (e) => {
+    store.set({ activeScript: e.target.value });
+  });
 
-  // Quick actions
+  // Quick action buttons
   document.querySelectorAll('[data-action]').forEach(btn => {
     btn.addEventListener('click', () => {
-      const action = btn.dataset.action;
       const prompts = {
-        analyze: 'Perform a full statistical analysis of the active corpus including Zipf fit, Shannon entropy, and bigram frequencies.',
-        decipher: 'I have an inscription to decipher. Please analyze the following sign sequence: ',
-        translate: 'Translate the following ancient text into English, providing confidence levels for each reading: ',
-        compare: 'Compare the sign systems across the loaded scripts and identify potential cognates or shared structural patterns.',
+        analyze: 'Perform a full statistical analysis of the active corpus: run Zipf fit, Shannon entropy, and bigram frequency analysis. Use the frequency_report, entropy_report, and zipf_report tools.',
+        decipher: 'I have an inscription to decipher. Please analyze this sign sequence and propose a reading with confidence levels: ',
+        translate: 'Translate the following ancient text into English. Provide phonetic transcription, semantic gloss, and confidence level for each sign: ',
+        compare: 'Compare the sign systems across the loaded scripts. Identify structural patterns, frequency profiles, and potential cognate signs between Linear A, Indus Valley, and Proto-Elamite.',
       };
-      document.getElementById('chat-input').value = prompts[action] || '';
+      document.getElementById('chat-input').value = prompts[btn.dataset.action] || '';
       document.getElementById('chat-input').focus();
     });
   });
-}
 
-function populateModelSelector(models) {
-  const select = document.getElementById('model-select');
-  select.innerHTML = '';
-  for (const m of models) {
-    const opt = document.createElement('option');
-    opt.value = m.name;
-    opt.textContent = `${m.name}${m.is_running ? ' (loaded)' : ''}${m.is_default ? ' ★' : ''}`;
-    if (m.name === state.model) opt.selected = true;
-    select.appendChild(opt);
-  }
-  // Always include recommended even if not installed
-  const installed = new Set(models.map(m => m.name));
-  const recommended = ['gemma4:e4b', 'gemma4:e2b', 'gemma4:e12b', 'gemma4:e27b', 'gemma4:e4b-cloud', 'gemma4:e27b-cloud', 'gpt-oss:20b', 'gpt-oss:120b', 'gpt-oss:120b-cloud'];
-  for (const r of recommended) {
-    if (!installed.has(r)) {
-      const opt = document.createElement('option');
-      opt.value = r;
-      opt.textContent = `${r} (not installed)`;
-      select.appendChild(opt);
-    }
-  }
-}
+  // Panel close buttons
+  document.querySelectorAll('.panel-close').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const panelId = btn.dataset.close;
+      if (panelId) document.getElementById(panelId)?.classList.add('hidden');
+    });
+  });
 
-function sendMessage() {
-  const input = document.getElementById('chat-input');
-  const content = input.value.trim();
-  if (!content || state.isStreaming) return;
+  // Settings init
+  await initSettingsPanel();
 
-  // Add user message to UI
-  appendMessage('user', content);
-  state.messages.push({ role: 'user', content });
-
-  // Clear input
-  input.value = '';
-  state.thinking = '';
-  state.isStreaming = true;
-  updateStreamingUI(true);
-
-  // Start assistant message placeholder
-  const msgDiv = createMessageElement('assistant', '');
-  msgDiv.id = 'streaming-msg';
-  document.getElementById('chat-messages').appendChild(msgDiv);
-  scrollToBottom();
-
-  // Send via WebSocket
-  ws.send({
-    type: 'chat.start',
-    session_id: state.sessionId || 'default',
-    content,
-    model: state.model,
-    think: state.thinkEnabled,
-    tools: state.toolsEnabled ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report'] : [],
-    history: state.messages.slice(-20), // last 20 messages for context
-    options: { num_ctx: 32768, temperature: 0.7 },
+  // Pull model button
+  document.getElementById('pull-model-btn')?.addEventListener('click', () => {
+    const name = document.getElementById('pull-model-input')?.value?.trim();
+    if (!name || !ws?.isConnected()) return;
+    const prog = document.getElementById('pull-progress');
+    if (prog) { prog.textContent = `Pulling ${name}...`; prog.classList.remove('hidden'); }
+    ws.send({ type: 'pull.start', model: name });
   });
 }
 
-function appendAssistantDelta(delta) {
-  const el = document.getElementById('streaming-msg');
-  if (el) {
-    const contentEl = el.querySelector('.msg-content') || el;
-    contentEl.textContent += delta;
-    scrollToBottom();
+// ─── Health ──────────────────────────────────────────────────────────────────
+async function checkHealth() {
+  try {
+    const h = await api.get('/api/health');
+    const status = document.getElementById('model-status');
+    const statusText = document.getElementById('ollama-status-text');
+    if (h.ollama?.reachable) {
+      if (status) { status.textContent = '✓'; status.style.color = 'var(--color-success)'; status.title = `Ollama ${h.ollama.version}`; }
+      if (statusText) statusText.textContent = `Ollama ${h.ollama.version || 'online'}`;
+      store.set({ ollamaOnline: true, ollamaVersion: h.ollama.version });
+    } else {
+      if (status) { status.textContent = '✗'; status.style.color = 'var(--color-danger)'; status.title = 'Ollama offline — run: ollama serve'; }
+      if (statusText) statusText.textContent = 'Ollama offline — run: ollama serve';
+    }
+  } catch {
+    const status = document.getElementById('model-status');
+    if (status) { status.textContent = '✗'; status.style.color = 'var(--color-danger)'; }
   }
 }
 
-function appendMessage(role, content) {
-  const el = createMessageElement(role, content);
-  const container = document.getElementById('chat-messages');
-  // Remove welcome if present
-  const welcome = container.querySelector('.welcome-message');
-  if (welcome) welcome.remove();
-  container.appendChild(el);
-  scrollToBottom();
+// ─── Scripts selector ────────────────────────────────────────────────────────
+async function loadScripts() {
+  try {
+    const data = await api.get('/api/scripts');
+    const select = document.getElementById('script-select');
+    if (!select) return;
+    const scripts = data.scripts || [];
+    for (const s of scripts) {
+      const opt = document.createElement('option');
+      opt.value = s.id;
+      opt.textContent = s.display;
+      select.appendChild(opt);
+    }
+    store.set({ scripts });
+  } catch { /* offline */ }
 }
 
-function appendToolCall(name, args) {
-  const el = createMessageElement('tool', `🔧 ${name}(${JSON.stringify(args)})`);
-  document.getElementById('chat-messages').appendChild(el);
-  scrollToBottom();
+// ─── Session list ─────────────────────────────────────────────────────────────
+async function loadSessions() {
+  try {
+    const data = await api.get('/api/sessions');
+    const sessions = data.sessions || [];
+    store.set({ sessions });
+    renderSessionList(sessions);
+  } catch { /* offline */ }
 }
 
-function appendError(msg) {
-  const el = document.createElement('div');
-  el.className = 'message assistant';
-  el.style.borderColor = 'var(--color-danger)';
-  el.textContent = `⚠ Error: ${msg}`;
-  document.getElementById('chat-messages').appendChild(el);
-  scrollToBottom();
+function renderSessionList(sessions) {
+  const nav = document.getElementById('session-list');
+  if (!nav) return;
+  nav.innerHTML = '';
+  for (const s of sessions) {
+    const item = document.createElement('div');
+    item.className = 'session-item' + (s.id === store.get().sessionId ? ' active' : '');
+    item.dataset.sessionId = s.id;
+
+    const titleSpan = document.createElement('span');
+    titleSpan.className = 'session-title';
+    titleSpan.textContent = s.title || 'Session';
+
+    const delBtn = document.createElement('button');
+    delBtn.className = 'session-del btn btn-icon';
+    delBtn.textContent = '✕';
+    delBtn.title = 'Delete session';
+    delBtn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      await api.del(`/api/sessions/${s.id}`);
+      loadSessions();
+      if (store.get().sessionId === s.id) newSession();
+    });
+
+    item.appendChild(titleSpan);
+    item.appendChild(delBtn);
+    item.addEventListener('click', () => loadSession(s.id));
+    nav.appendChild(item);
+  }
 }
 
-function createMessageElement(role, content) {
-  const el = document.createElement('div');
-  el.className = `message ${role}`;
-  const contentEl = document.createElement('div');
-  contentEl.className = 'msg-content';
-  contentEl.textContent = content;
-  el.appendChild(contentEl);
-  return el;
+async function loadSession(id) {
+  store.set({ sessionId: id });
+  clearMessages();
+  clearThinking();
+
+  // Load messages
+  try {
+    const data = await api.get(`/api/sessions/${id}/messages`);
+    const messages = data.messages || [];
+    store.set({ messages });
+
+    for (const m of messages) {
+      if (m.role !== 'system') {
+        appendMessage({ role: m.role, content: m.content, id: m.id });
+      }
+    }
+
+    // Update session title
+    const session = store.get().sessions.find(s => s.id === id);
+    document.getElementById('session-title').textContent = session?.title || 'Session';
+
+    // Update active item
+    renderSessionList(store.get().sessions);
+  } catch { /* ok */ }
 }
 
-function finishStreaming(stats) {
-  state.isStreaming = false;
+// ─── New session ──────────────────────────────────────────────────────────────
+async function newSession() {
+  // Create via API for persistence
+  let sessionId = `sess_${Date.now().toString(36)}`;
+  try {
+    const resp = await api.post('/api/sessions', {
+      title: 'New Decipherment Session',
+      model: store.get().model,
+      script: store.get().activeScript || null,
+    });
+    sessionId = resp.id || sessionId;
+  } catch { /* use generated ID if offline */ }
+
+  store.set({ sessionId, messages: [], pendingContent: '' });
+  clearMessages();
+  clearThinking();
+
+  // Show welcome screen
+  const chatDiv = document.getElementById('chat-messages');
+  if (chatDiv && !chatDiv.querySelector('.welcome-message')) {
+    chatDiv.innerHTML = `
+      <div class="welcome-message">
+        <h2>𓂀 Ancient Script Decipherment Copilot</h2>
+        <p>New session started. Model: <code id="active-model-display">${store.get().model}</code></p>
+        <div class="quick-actions">
+          <button class="btn btn-outline" data-action="analyze">📊 Analyze Corpus</button>
+          <button class="btn btn-outline" data-action="decipher">🔍 Decipher Inscription</button>
+          <button class="btn btn-outline" data-action="translate">🌐 Translate Text</button>
+          <button class="btn btn-outline" data-action="compare">⚖️ Cross-script Compare</button>
+        </div>
+      </div>`;
+    // Re-bind quick actions
+    chatDiv.querySelectorAll('[data-action]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const prompts = {
+          analyze: 'Perform a full statistical analysis of the active corpus: Zipf fit, Shannon entropy, and bigram frequencies.',
+          decipher: 'I have an inscription to decipher. Analyze this sign sequence: ',
+          translate: 'Translate the following ancient text into English with phonetic transcription and confidence levels: ',
+          compare: 'Compare sign systems across loaded scripts: Linear A, Indus Valley, and Proto-Elamite.',
+        };
+        document.getElementById('chat-input').value = prompts[btn.dataset.action] || '';
+        document.getElementById('chat-input').focus();
+      });
+    });
+  }
+
+  document.getElementById('session-title').textContent = 'New Decipherment Session';
+  clearAttachmentPreview();
+
+  // Refresh session list
+  await loadSessions();
+}
+
+// ─── Send message ─────────────────────────────────────────────────────────────
+async function sendMessage() {
+  const input = document.getElementById('chat-input');
+  const content = input.value.trim();
+  if (!content && pendingFiles.length === 0) return;
+  if (store.get().isStreaming) return;
+
+  // Ensure we have a session ID
+  if (!store.get().sessionId) await newSession();
+
+  const fullContent = content;
+  input.value = '';
+
+  // Show user message
+  appendMessage({ role: 'user', content: fullContent });
+
+  // Create streaming placeholder
+  const msgId = `stream_${Date.now().toString(36)}`;
+  streamingMsgId = msgId;
+  pendingContent = '';
+  store.set({ isStreaming: true });
+  clearThinking();
+  createStreamingEl(msgId);
+  updateStreamingUI(true);
+
+  // Build history for context (last 20 turns)
+  const history = store.get().messages
+    .filter(m => m.role === 'user' || m.role === 'assistant')
+    .slice(-20)
+    .map(m => ({ role: m.role, content: m.content }));
+  history.push({ role: 'user', content: fullContent });
+
+  const s = store.get();
+  ws.send({
+    type: 'chat.start',
+    session_id: s.sessionId,
+    content: fullContent,
+    model: s.model,
+    think: s.thinkEnabled,
+    tools: s.toolsEnabled
+      ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report', 'add_lexicon_entry']
+      : [],
+    history,
+    script: s.activeScript || undefined,
+    options: { num_ctx: 32768, temperature: 0.7 },
+  });
+
+  // Add to local message history
+  store.set({ messages: [...s.messages, { role: 'user', content: fullContent }] });
+  clearAttachmentPreview();
+  pendingFiles = [];
+}
+
+// ─── Streaming finish ────────────────────────────────────────────────────────
+function finishStreaming(stats, model, cancelled = false) {
+  const msgId = streamingMsgId;
+  const content = pendingContent;
+
+  if (msgId) finalizeStreamingEl(msgId, content, stats, model || store.get().model);
+
+  // Update message history
+  if (content) {
+    const s = store.get();
+    store.set({ messages: [...s.messages, { role: 'assistant', content }] });
+  }
+
+  streamingMsgId = null;
+  pendingContent = '';
+  store.set({ isStreaming: false });
   updateStreamingUI(false);
 
-  const el = document.getElementById('streaming-msg');
-  if (el) {
-    el.removeAttribute('id');
-    const content = el.querySelector('.msg-content')?.textContent || '';
-    state.messages.push({ role: 'assistant', content });
-
-    // Add stats badge
-    if (stats) {
-      const meta = document.createElement('div');
-      meta.className = 'message-meta';
-      meta.textContent = `${state.model} · ${stats.eval_count || '?'} tokens · ${stats.done_reason || 'stop'}`;
-      el.appendChild(meta);
-    }
-  }
+  // Syntax highlight any new code blocks
+  if (typeof Prism !== 'undefined') Prism.highlightAll();
 }
 
 function cancelStream() {
-  ws.send({ type: 'chat.cancel', session_id: state.sessionId || 'default' });
-  finishStreaming();
+  ws.send({ type: 'chat.cancel', session_id: store.get().sessionId });
+  finishStreaming(null, null, true);
 }
 
+// ─── File attach ──────────────────────────────────────────────────────────────
+function handleFileSelect(e) {
+  const files = [...e.target.files];
+  pendingFiles = files;
+  renderAttachmentPreview(files);
+  e.target.value = '';
+}
+
+function renderAttachmentPreview(files) {
+  const preview = document.getElementById('attachment-preview');
+  if (!preview) return;
+  if (!files.length) { preview.classList.add('hidden'); preview.innerHTML = ''; return; }
+  preview.classList.remove('hidden');
+  preview.innerHTML = files.map(f =>
+    `<span class="attachment-chip">📎 ${esc(f.name)} (${(f.size / 1024).toFixed(0)} KB)</span>`
+  ).join('');
+}
+
+function clearAttachmentPreview() {
+  const preview = document.getElementById('attachment-preview');
+  if (preview) { preview.classList.add('hidden'); preview.innerHTML = ''; }
+}
+
+// ─── UI helpers ───────────────────────────────────────────────────────────────
 function updateStreamingUI(streaming) {
   document.getElementById('send-btn').classList.toggle('hidden', streaming);
   document.getElementById('cancel-btn').classList.toggle('hidden', !streaming);
 }
 
-function updateThinkingPanel() {
-  const panel = document.getElementById('thinking-panel');
-  const content = document.getElementById('thinking-content');
-  const tokens = document.getElementById('think-tokens');
-  panel.classList.remove('hidden');
-  content.textContent = state.thinking;
-  tokens.textContent = `${state.thinking.split(' ').length} tokens`;
-}
-
-function newSession() {
-  state.sessionId = null;
-  state.messages = [];
-  state.thinking = '';
-  document.getElementById('chat-messages').innerHTML = '';
-  document.getElementById('thinking-panel').classList.add('hidden');
-  document.getElementById('session-title').textContent = 'New Decipherment Session';
-}
-
 function togglePanel(id) {
-  const panel = document.getElementById(id);
-  panel.classList.toggle('hidden');
+  document.getElementById(id)?.classList.toggle('hidden');
 }
 
-function scrollToBottom() {
-  const container = document.getElementById('chat-messages');
-  container.scrollTop = container.scrollHeight;
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-// Boot
-init();
+// ─── Boot ────────────────────────────────────────────────────────────────────
+init().catch(console.error);
