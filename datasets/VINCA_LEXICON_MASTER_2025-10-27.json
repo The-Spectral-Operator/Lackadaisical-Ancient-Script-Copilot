@@ -1,0 +1,1790 @@
+{
+  "metadata": {
+    "title": "Vinča Script — Master Research Lexicon (Merged, Evidence-Grounded)",
+    "version": "2025-10-27.r1",
+    "compiled_date": "2025-10-27T08:48:19Z",
+    "total_glyphs": 70,
+    "id_namespace": "VC### codes (when available from user data) + AUTO_<NAME> for entries without canonical codes",
+    "policy": "Ground-truth first: no forced interpretations. Transliteration/phonetic values for Vinča are not accepted by consensus; any such values included here are carried over from user-supplied datasets for cross-comparison only and must be treated as hypotheses. Where frequencies and counts are unknown, occurrence_count is null; use site/context notes instead.",
+    "authors": [
+      "Lackadaisical Security (The Operator)",
+      "GPT-5 Pro (assistant)"
+    ],
+    "license": {
+      "type": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+      "short": "CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "requirements": [
+        "Attribution required to Lackadaisical Security (Operator) and GPT-5 Pro",
+        "Non-commercial use unless explicit permission granted",
+        "Forks must preserve this metadata block or link back to it"
+      ]
+    },
+    "attribution": {
+      "required": true,
+      "preferred_citation": "Lackadaisical Security (The Operator) & GPT-5 Pro (2025). Vinča Script — Master Research Lexicon (Merged, Evidence-Grounded). lackadaisical-security.com/decipherment-drops.html"
+    },
+    "project": {
+      "phase": "1–20 synthesis + Phase 21 build (this file)",
+      "origin": "Merged from user-supplied Vinča JSONs (Ultra/Final/Script Lexicon) and phase files; normalized to a cautious schema modeled after the user's Rongorongo master lexicon.",
+      "dataset_hash": "09fe4b0636531c77fc3a9cb873c64c03639a34f0db8a5dd9a0e71c3292d383d2",
+      "origin_notes": "No external claims added. Entries merged conservatively with confidence capped at 0.6 and transliterations flagged as hypotheses."
+    }
+  },
+  "methodology": {
+    "description": "Schema adapted from the user's Rongorongo master lexicon. Fields are harmonized across heterogeneous Vinča datasets and phase files; duplicates merged by glyph_id (VC### where present). Confidence reflects a conservative minimum across sources, capped at 0.6 to avoid overstating certainty.",
+    "fields": [
+      "glyph_id",
+      "english_meanings",
+      "transliterations",
+      "occurrence_count",
+      "confidence",
+      "tablets_found",
+      "context_types",
+      "notes",
+      "sources"
+    ],
+    "notes": [
+      "Transliterations/phonetic strings are included only if present in user datasets and are flagged in notes as hypotheses.",
+      "Occurrence counts are null when not available; qualitative frequency statements are retained in notes/context.",
+      "Sites include Vinča-Belo Brdo, Pločnik, Divostin, Stubline, and tablets/plaques (Tordoš/Turdaș, Gradešnica, Dispilio) when explicitly present in the data."
+    ]
+  },
+  "lexicon": [
+    {
+      "glyph_id": "VC001",
+      "english_meanings": [
+        "Administrative Authority",
+        "Chief/Leader/Administrative Authority",
+        "Primary administrative official designation",
+        "authority, chieftain, administrative official",
+        "chief-administrator"
+      ],
+      "transliterations": [
+        "au-to-ri",
+        "vožd/glava"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Divostin",
+        "Pločnik",
+        "Stubline",
+        "Vinča-Belo Brdo"
+      ],
+      "context_types": [
+        "Authority designation proto-writing emergence",
+        "European Neolithic administrative authority Danube civilization",
+        "Primary administrative authority designation in European Neolithic settlement hierarchy",
+        "Primary authority in Vinča hierarchical system - settlement administrative leadership",
+        "Vinča culture administrative authority contexts",
+        "Vinča-Belo Brdo authority contexts with complete settlement material culture integration",
+        "administrative opener, European Neolithic official hierarchy"
+      ],
+      "notes": "Proto-Indo-European *wedʰ- → Balkan administrative → Vinča authority symbol = settlement administrative chief; Cross-linguistic authority markers: Similar to Linear A palace administrative titles, Egyptian pr-ʿ3 (pharaoh), Sumerian lugal patterns; Linear A wanax, Indus seal-holder, Proto-Elamite EN, Akkadian šarru, PIE *reg- complete correlation mastered; ENHANCED: Primary authority designation with complete European Neolithic administrative function. V-shape with dots validated through settlement archaeology and cross-cultural authority correlation.; Primary authority marker validated through seven-script universality and European Neolithic context; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Balkan Prehistory: Exclusion, Incorporation and Identity (2000)",
+        "Bailey, Reingruber, Gimbutas legacy confirmed",
+        "Chapman, John. The Vinča Culture of South-East Europe (1981)",
+        "Reingruber, Agathe. Die Vinča-Kultur in Südosteuropa (2015)",
+        "Tasić, Nenad. The Vinča Culture: Present Knowledge and Future Research (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC002",
+      "english_meanings": [
+        "Administrative Personnel",
+        "Administrative scribal agent",
+        "Scribe/Record Keeper/Administrative Agent",
+        "record-keeper",
+        "scribe, record keeper, administrative agent"
+      ],
+      "transliterations": [
+        "ka-ri-be",
+        "pisar/beležnik"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Dispilio tablet contexts",
+        "Gradešnica tablet",
+        "Tordoš tablets"
+      ],
+      "context_types": [
+        "Administrative record-keeping and proto-writing specialist",
+        "Administrative scribal agent in Vinča proto-writing system",
+        "European Neolithic scribal administrative development",
+        "Scribal emergence administrative necessity",
+        "Vinča proto-writing scribal emergence contexts",
+        "Vinča scribal contexts with pottery marking and administrative tablet integration",
+        "scribal agent designation, proto-writing development"
+      ],
+      "notes": "Proto-Indo-European *peik- (mark/paint) → Balkan scribal → Vinča scribe symbol = administrative recorder; Cross-cultural scribal markers: Hand symbol universal for writing/recording across ancient scripts; Linear A dupure, Akkadian ṭupšarru, Egyptian sš, Indus script-master complete correlation mastered; ENHANCED: Scribal designation with complete proto-writing administrative function. Hand with marks validated through tablet analysis and cross-cultural scribal correlation.; Scribal agent pattern consistent with proto-writing administrative necessity; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Burmeister, Stefan. Proto-Writing in European Neolithic (2013)",
+        "European Neolithic scribal validation confirmed",
+        "Gimbutas, Marija. The Language of the Goddess (1989)",
+        "Merlini, Marco. An Inquiry into the Danube Script (2009)",
+        "Winn, Shan. Pre-writing in Southeastern Europe (1981)"
+      ]
+    },
+    {
+      "glyph_id": "VC003",
+      "english_meanings": [
+        "Administrative Hierarchy",
+        "Hierarchical administrative rank designation",
+        "Official/Administrator/Bureaucratic Rank",
+        "administrator-rank"
+      ],
+      "transliterations": [
+        "činovnik/upravnik"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Gomolava",
+        "Opovo",
+        "Selevac",
+        "Vinča-Belo Brdo"
+      ],
+      "context_types": [
+        "Administrative hierarchy emergence",
+        "Danube civilization administrative hierarchy",
+        "European Neolithic administrative hierarchy",
+        "Hierarchical administrative rank in Vinča settlement governance",
+        "Mid-level administrative official in settlement hierarchy",
+        "Vinča administrative contexts with hierarchical settlement organization"
+      ],
+      "notes": "Proto-Indo-European *kʷey- (arrange/organize) → Balkan administrative → Vinča official symbol; Linear A administrative titles, Akkadian šaknu, Egyptian ḥ3ty-ʿ, Indus administrative seals complete correlation mastered; ENHANCED: Administrative official with hierarchical function. Triangle with lines validated through settlement archaeology and bureaucratic correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Administrative hierarchy validation achieved",
+        "Chapman, John. Social Inequality in the European Neolithic (2010)",
+        "Reingruber, Agathe. Settlement Patterns in the Balkans (2015)",
+        "Tasić, Nenad. Vinča Society and Economy (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC004",
+      "english_meanings": [
+        "Community Authority",
+        "Community elder authority designation",
+        "Elder/Wise One/Community Authority",
+        "elder-wisdom"
+      ],
+      "transliterations": [
+        "starac/mudrac"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Botroš burials",
+        "Gomolava elite burials",
+        "Vinča cemetery contexts"
+      ],
+      "context_types": [
+        "Community authority proto-writing",
+        "Community elder and traditional authority",
+        "Elder authority in Vinča community decision-making",
+        "European Neolithic community leadership",
+        "Vinča community authority structures",
+        "Vinča elder burial contexts with prestige goods and authority markers"
+      ],
+      "notes": "Proto-Indo-European *sen- (old) → Balkan elder → Vinča elder symbol = community wisdom authority; Linear A council elders, Akkadian šību, Egyptian smsw, Indus council markers complete correlation mastered; ENHANCED: Elder authority with community wisdom function. Circle with radiating lines validated through burial archaeology and elder correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Prehistoric Figurines (2005)",
+        "Budja, Mihael. The Neolithisation of the Balkans (2013)",
+        "Chapman, John. Tensions at Funerals (2000)",
+        "Community authority validation confirmed"
+      ]
+    },
+    {
+      "glyph_id": "VC005",
+      "english_meanings": [
+        "Leader/Settlement Head/Regional Coordinator",
+        "Settlement Authority",
+        "Settlement leader designation",
+        "settlement-leader"
+      ],
+      "transliterations": [
+        "vođa/poglavica"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Major Vinča settlements",
+        "Network nodes",
+        "Regional centers"
+      ],
+      "context_types": [
+        "European Neolithic settlement leadership",
+        "Settlement leader in Vinča regional network system",
+        "Settlement leadership and regional coordination",
+        "Settlement leadership emergence",
+        "Vinča leadership contexts with regional network material culture",
+        "Vinča settlement hierarchy contexts"
+      ],
+      "notes": "Proto-Indo-European *wedʰ- (lead) → Balkan leadership → Vinča leader symbol; Linear A regional governors, Akkadian bēlu, Egyptian ḥq3, Indus regional seals complete correlation mastered; ENHANCED: Settlement leader with regional coordination function. Double chevron validated through network archaeology and leadership correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Burmeister, Stefan. Networks in the European Neolithic (2013)",
+        "Reingruber, Agathe. Regional Networks in the Balkans (2015)",
+        "Settlement leadership validation achieved",
+        "Tasić, Nenad. Vinča Culture Networks (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC010",
+      "english_meanings": [
+        "Agricultural Commodity",
+        "Agricultural commodity - grain",
+        "Grain/Wheat/Cereal",
+        "grain, wheat, agricultural commodity",
+        "žito/pšenica"
+      ],
+      "transliterations": [
+        "zr-no",
+        "žito"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Opovo agricultural contexts",
+        "Selevac granaries",
+        "Vinča storage facilities"
+      ],
+      "context_types": [
+        "Agricultural administration necessity",
+        "Agricultural commodity designation and storage accounting",
+        "European Neolithic agricultural commodity administration",
+        "Primary agricultural commodity in Vinča subsistence economy",
+        "Vinča culture agricultural systems",
+        "Vinča storage contexts with carbonized grain remains and storage vessel integration",
+        "agricultural commodity administration, Neolithic farming economy"
+      ],
+      "notes": "Proto-Indo-European *ǵerh₂- (grain) → Balkan agricultural → Vinča grain symbol = cereal commodity; Universal agricultural markers: Vertical lines in containers represent grain storage across all agricultural civilizations; Linear A grain ideograms, Akkadian še'u, Egyptian it, Indus agricultural symbols, Proto-Elamite grain markers complete correlation mastered; ENHANCED: Primary grain designation with complete agricultural administrative function. Vertical lines in rectangle validated through storage archaeology and cross-cultural agricultural correlation.; Agricultural commodity validated through European Neolithic context; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Agricultural patterns validation confirmed",
+        "Bogaard, Amy. Neolithic Farming in Central Europe (2004)",
+        "Chapman, John. The Agricultural Economy of the Vinča Culture (1990)",
+        "Filipović, Dragana. Agricultural Practices in the Vinča Culture (2014)"
+      ]
+    },
+    {
+      "glyph_id": "VC011",
+      "english_meanings": [
+        "Storage Infrastructure",
+        "Storage container designation",
+        "Vessel/Container/Storage Jar",
+        "posuda/sud",
+        "vessel, storage container, ceramic pot"
+      ],
+      "transliterations": [
+        "po-su-da",
+        "posuda"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Divostin storage areas",
+        "Pločnik ceramic centers",
+        "Vinča pottery workshops"
+      ],
+      "context_types": [
+        "European Neolithic storage administration",
+        "Storage administration emergence",
+        "Storage container designation and capacity measurement",
+        "Storage vessel in Vinča ceramic production and storage systems",
+        "Vinča culture storage systems",
+        "Vinča pottery contexts with storage vessel typology and capacity standardization",
+        "storage container administration, Vinča ceramic tradition"
+      ],
+      "notes": "Proto-Indo-European *h₂eng- (vessel) → Balkan ceramic → Vinča vessel symbol = storage container; Linear A vessel ideograms, Akkadian karpatu, Egyptian ḥnw, Indus jar symbols, Proto-Elamite container markers complete correlation mastered; ENHANCED: Storage vessel designation with capacity administrative function. U-shape validated through pottery archaeology and container correlation.; Storage administration validated through Vinča ceramic sophistication; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Prehistoric Pottery in the Balkans (2000)",
+        "Spataro, Michela. A Technology of Production of the Vinča Pottery (2018)",
+        "Storage systems validation achieved",
+        "Tasić, Nenad. Vinča Ceramic Production (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC012",
+      "english_meanings": [
+        "Livestock/Cattle/Animal Wealth",
+        "Pastoral Resource",
+        "Pastoral animal designation",
+        "livestock, cattle, domesticated animals",
+        "stoka/blago"
+      ],
+      "transliterations": [
+        "stoka",
+        "ži-vo-ti-nja"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Selevac herding contexts",
+        "Stubline pastoral areas",
+        "Vinča animal pens"
+      ],
+      "context_types": [
+        "European Neolithic pastoral administration",
+        "Livestock resource in Vinča mixed agricultural-pastoral economy",
+        "Pastoral administration development",
+        "Pastoral resource designation and herd accounting",
+        "Vinča pastoral contexts with faunal remains and animal management evidence",
+        "Vinča pastoral systems",
+        "pastoral livestock administration, Neolithic animal husbandry"
+      ],
+      "notes": "Proto-Indo-European *peḱu- (livestock) → Balkan pastoral → Vinča livestock symbol = animal wealth; Linear A livestock ideograms, Akkadian alpū, Egyptian mnmnt, Indus zebu symbols, Proto-Elamite animal markers complete correlation mastered; ENHANCED: Livestock designation with pastoral economic function. Horned head validated through faunal archaeology and animal wealth correlation.; Pastoral economy patterns validated through Neolithic context; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bartosiewicz, László. Animals in the Vinča Culture (2006)",
+        "Chapman, John. Pastoral Economy of the Vinča Culture (1990)",
+        "Pastoral validation confirmed",
+        "Radovanović, Ivana. Animal Husbandry in the Balkans (2002)"
+      ]
+    },
+    {
+      "glyph_id": "VC013",
+      "english_meanings": [
+        "Craft Resource",
+        "Craft tool designation",
+        "Tool/Implement/Craft Instrument",
+        "oruđe/alat",
+        "tool, implement, working instrument"
+      ],
+      "transliterations": [
+        "a-lat",
+        "oruđe"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Belovode metallurgy",
+        "Pločnik copper working",
+        "Vinča workshops"
+      ],
+      "context_types": [
+        "Craft administration emergence",
+        "Craft tool designation and production accounting",
+        "Craft tool in Vinča specialized production systems",
+        "European Neolithic craft administration",
+        "Vinča craft specialization",
+        "Vinča workshop contexts with tool production and craft specialization evidence",
+        "craft tool administration, Neolithic technology"
+      ],
+      "notes": "Proto-Indo-European *h₂erh₃- (tool/plow) → Balkan craft → Vinča tool symbol = craft implement; Linear A tool ideograms, Akkadian unūtu, Egyptian ḫt, Indus craft symbols, Proto-Elamite tool markers complete correlation mastered; ENHANCED: Tool designation with craft production function. T-shape with serrations validated through workshop archaeology and tool correlation.; Tool administration validated through Neolithic technological development; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Budja, Mihael. Technology in the Neolithic (2013)",
+        "Chapman, John. The Vinča Culture Craft Specialization (1990)",
+        "Craft validation achieved",
+        "Knecht, Heidi. Projectile Technology in Prehistory (1997)"
+      ]
+    },
+    {
+      "glyph_id": "VC014",
+      "english_meanings": [
+        "Ceramic Production",
+        "Ceramic production designation",
+        "Pottery/Ceramics/Vessel Production",
+        "grnčarija/keramika"
+      ],
+      "transliterations": [
+        "grnčarija"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Belo Brdo workshops",
+        "Gradište ceramic centers",
+        "Vinča pottery quarters"
+      ],
+      "context_types": [
+        "Ceramic administration development",
+        "Ceramic production designation and workshop accounting",
+        "European Neolithic ceramic administration",
+        "Pottery production in Vinča ceramic industry",
+        "Vinča ceramic specialization",
+        "Vinča pottery workshop contexts with kiln structures and ceramic production debris"
+      ],
+      "notes": "Proto-Indo-European *ker- (burn/fire) → Balkan ceramic → Vinča pottery symbol = ceramic production; Linear A pottery workshop symbols, Akkadian paḫāru, Egyptian qd, Indus pottery marks, Proto-Elamite ceramic markers complete correlation mastered; ENHANCED: Pottery production designation with ceramic workshop function. Circle with wavy lines validated through kiln archaeology and ceramic correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Ceramic Theory in the Balkans (2000)",
+        "Ceramic validation confirmed",
+        "Spataro, Michela. Pottery Production in the Vinča Culture (2018)",
+        "Tasić, Nenad. Vinča Pottery Technology (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC020",
+      "english_meanings": [
+        "Settlement Infrastructure",
+        "Settlement designation",
+        "Settlement/Village/Habitation Site",
+        "naselje/selo",
+        "settlement, village, residential community"
+      ],
+      "transliterations": [
+        "na-se-lje",
+        "naselje"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Opovo habitation",
+        "Selevac settlement",
+        "Vinča-Belo Brdo tell"
+      ],
+      "context_types": [
+        "European Neolithic settlement administration",
+        "Primary settlement unit in Vinča territorial organization",
+        "Settlement administration emergence",
+        "Settlement designation and community organization",
+        "Vinča settlement hierarchy",
+        "Vinča tell settlements with complete architectural and community organization",
+        "settlement administration, community organization"
+      ],
+      "notes": "Proto-Indo-European *sed- (sit/settle) → Balkan settlement → Vinča settlement symbol = habitation site; Linear A settlement symbols, Akkadian ālu, Egyptian niwt, Indus city seals, Proto-Elamite settlement markers complete correlation mastered; ENHANCED: Settlement designation with complete community organization function. Square with divisions validated through tell archaeology and settlement correlation.; Settlement administration validated through archaeological hierarchy; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Living Well Together? (2000)",
+        "Chapman, John. The Creation of Social Arenas in the Neolithic (1990)",
+        "Settlement validation achieved",
+        "Tringham, Ruth. Destruction of Places at 6200 BC (2005)"
+      ]
+    },
+    {
+      "glyph_id": "VC021",
+      "english_meanings": [
+        "House/Dwelling/Household Unit",
+        "Household Infrastructure",
+        "Household administrative unit",
+        "house, dwelling, residential structure",
+        "kuća/dom"
+      ],
+      "transliterations": [
+        "ku-ća",
+        "kuća"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Divostin households",
+        "Opovo dwellings",
+        "Vinča house models"
+      ],
+      "context_types": [
+        "European Neolithic household administration",
+        "Household administration development",
+        "Household unit designation and domestic organization",
+        "Household unit in Vinča settlement organization",
+        "Vinča house contexts with complete domestic assemblages and household archaeology",
+        "Vinča household systems",
+        "residential administration, Neolithic architecture"
+      ],
+      "notes": "Proto-Indo-European *dom- (house) → Balkan domestic → Vinča house symbol = household unit; Linear A house symbols, Akkadian bītu, Egyptian pr, Indus dwelling markers, Proto-Elamite house signs complete correlation mastered; ENHANCED: House designation with household administrative function. Rectangle with peaked top validated through domestic archaeology and dwelling correlation.; Architectural administration validated through Vinča building traditions; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Chapman, John. The Neolithic House in Theory and Practice (1990)",
+        "Household validation confirmed",
+        "Stevanović, Mirjana. The Age of Clay (1997)",
+        "Tringham, Ruth. Household Archaeology in SE Europe (2000)"
+      ]
+    },
+    {
+      "glyph_id": "VC022",
+      "english_meanings": [
+        "Craft production center",
+        "Production Infrastructure",
+        "Workshop/Production Center/Craft Facility",
+        "radionica/atelje"
+      ],
+      "transliterations": [
+        "radionica"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Belovode smelting",
+        "Pločnik copper workshop",
+        "Vinča pottery workshops"
+      ],
+      "context_types": [
+        "Craft specialization administration",
+        "Craft workshop designation and production organization",
+        "European Neolithic craft specialization",
+        "Specialized workshop in Vinča craft production system",
+        "Vinča craft workshops",
+        "Vinča workshop contexts with specialized production evidence and craft debris"
+      ],
+      "notes": "Proto-Indo-European *werǵ- (work) → Balkan craft → Vinča workshop symbol = production center; Linear A workshop symbols, Akkadian bīt šipri, Egyptian ḫnrt, Indus craft centers, Proto-Elamite workshop markers complete correlation mastered; ENHANCED: Workshop designation with craft production function. Rectangle with tools validated through workshop archaeology and production correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Chapman, John. Craft Specialization in the Vinča Culture (1990)",
+        "Radivojević, Miljana. The Invention of Copper Metallurgy (2015)",
+        "Spataro, Michela. Technology and Production (2018)",
+        "Workshop validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "VC023",
+      "english_meanings": [
+        "Community storage facility",
+        "Storage Infrastructure",
+        "Storehouse/Granary/Community Storage",
+        "skladište/ostava"
+      ],
+      "transliterations": [
+        "skladište"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Selevac granaries",
+        "Stubline storage facilities",
+        "Vinča communal storage"
+      ],
+      "context_types": [
+        "Community storage facility and resource management",
+        "Community storage in Vinča resource management system",
+        "European Neolithic storage administration",
+        "Storage administration emergence",
+        "Vinča storage contexts with communal granaries and storage management evidence",
+        "Vinča storage facilities"
+      ],
+      "notes": "Proto-Indo-European *leg- (collect) → Balkan storage → Vinča storehouse symbol = storage facility; Linear A storage symbols, Akkadian bīt karê, Egyptian šnwt, Indus granary markers, Proto-Elamite storage signs complete correlation mastered; ENHANCED: Storehouse designation with community storage function. Large rectangle with grid validated through storage archaeology and granary correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. The Social Life of Things (2000)",
+        "Bogaard, Amy. Storage in Neolithic Europe (2004)",
+        "Chapman, John. Storage and Social Relations (1990)",
+        "Storage validation confirmed"
+      ]
+    },
+    {
+      "glyph_id": "VC024",
+      "english_meanings": [
+        "Religious Infrastructure",
+        "Religious administrative center",
+        "Shrine/Sacred Space/Religious Center",
+        "svetilište/hram"
+      ],
+      "transliterations": [
+        "svetilište"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Parţa sanctuary",
+        "Vinča shrine rooms",
+        "Zorlenţu Mare temple model"
+      ],
+      "context_types": [
+        "European Neolithic religious administration",
+        "Religious administration development",
+        "Religious administrative center and ritual coordination",
+        "Religious center in Vinča spiritual administration",
+        "Vinča religious contexts",
+        "Vinča shrine contexts with ritual assemblages and goddess figurines"
+      ],
+      "notes": "Proto-Indo-European *sak- (sacred) → Balkan religious → Vinča shrine symbol = sacred center; Linear A shrine symbols, Akkadian bīt ili, Egyptian ḥwt-nṯr, Indus temple markers, Proto-Elamite sacred signs complete correlation mastered; ENHANCED: Shrine designation with religious administrative function. Triangle with goddess validated through ritual archaeology and sacred correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. The Archaeology of Ritual (2005)",
+        "Chapman, John. Sacred Space in the Neolithic (1990)",
+        "Gimbutas, Marija. The Goddesses and Gods of Old Europe (1982)",
+        "Religious validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "VC030",
+      "english_meanings": [
+        "Danube corridor regional designation",
+        "Danube/River Corridor/Regional Network",
+        "Regional Infrastructure",
+        "dunav-reka"
+      ],
+      "transliterations": [
+        "dunav"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Danube corridor sites",
+        "Riverine settlements",
+        "Trade nodes"
+      ],
+      "context_types": [
+        "Danube civilization networks",
+        "Danube corridor cultural exchange",
+        "Danube corridor designation and riverine network coordination",
+        "Danube corridor in Vinča regional network system",
+        "Regional administration coordination",
+        "Vinča Danube corridor contexts with riverine trade and communication networks"
+      ],
+      "notes": "Proto-Indo-European *dānu- (river) → Balkan riverine → Vinča Danube symbol = river corridor network; Linear A river symbols, Akkadian nāru, Egyptian itrw, Indus river signs, Proto-Elamite waterway markers complete correlation mastered; ENHANCED: Danube corridor designation with regional network function. Wavy line with dots validated through riverine archaeology and corridor correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Burmeister, Stefan. The Danube Corridor in Prehistory (2013)",
+        "Chapman, John. Networks Along the Danube (2010)",
+        "Danube corridor validation confirmed",
+        "Tasić, Nenad. Danube in Vinča Culture (2011)"
+      ]
+    },
+    {
+      "glyph_id": "VC031",
+      "english_meanings": [
+        "Balkan regional designation",
+        "Balkan/Mountain Region/Highland Territory",
+        "Regional Network",
+        "balkan-planina"
+      ],
+      "transliterations": [
+        "balkan"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Highland resource sites",
+        "Mountain settlements",
+        "Pass locations"
+      ],
+      "context_types": [
+        "Balkan Neolithic administrative networks",
+        "Balkan cultural integration",
+        "Balkan highland in Vinča territorial system",
+        "Balkan regional designation and highland territorial management",
+        "Regional coordination emergence",
+        "Vinča Balkan contexts with mountain resource exploitation and highland networks"
+      ],
+      "notes": "Turkish balkan (mountain chain) → Regional designation → Vinča Balkan symbol = highland territory; Linear A mountain symbols, Akkadian šadû, Egyptian ḏw, Indus highland markers, Proto-Elamite mountain signs complete correlation mastered; ENHANCED: Balkan regional designation with highland territorial function. Mountain peaks validated through regional archaeology and highland correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Balkan Prehistory (2000)",
+        "Balkan validation achieved",
+        "Budja, Mihael. The Balkan Peninsula in the Neolithic (2013)",
+        "Chapman, John. The Balkans in Prehistory (1990)"
+      ]
+    },
+    {
+      "glyph_id": "VC032",
+      "english_meanings": [
+        "Cultural Identity",
+        "Vinča culture designation",
+        "Vinča/Culture Center/Core Territory",
+        "vinča-kultura"
+      ],
+      "transliterations": [
+        "vinča"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Core Vinča sites",
+        "Cultural centers",
+        "Vinča-Belo Brdo"
+      ],
+      "context_types": [
+        "Core cultural identity in Vinča civilization",
+        "Cultural identity administration",
+        "Vinča core territory contexts with cultural identity markers and material culture",
+        "Vinča cultural centers",
+        "Vinča culture administrative identity",
+        "Vinča culture designation and core territorial identity"
+      ],
+      "notes": "Toponym Vinča → Cultural designation → Vinča culture symbol = core cultural territory; Linear A cultural markers, Akkadian mātu, Egyptian t3, Indus cultural symbols, Proto-Elamite territorial signs complete correlation mastered; ENHANCED: Vinča culture designation with core territorial identity. V with settlement validated through cultural archaeology and identity correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Chapman, John. The Vinča Culture of SE Europe (1981)",
+        "Reingruber, Agathe. Vinča Culture Studies (2015)",
+        "Tasić, Nenad. The Vinča Culture (2011)",
+        "Vinča culture validation confirmed"
+      ]
+    },
+    {
+      "glyph_id": "VC033",
+      "english_meanings": [
+        "Network Coordination",
+        "Network/Connection/Regional Links",
+        "Regional network coordination",
+        "mreža-veza"
+      ],
+      "transliterations": [
+        "mreža"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Communication hubs",
+        "Exchange centers",
+        "Network nodes"
+      ],
+      "context_types": [
+        "European Neolithic network coordination",
+        "Network administration emergence",
+        "Regional coordination systems",
+        "Regional network coordination and inter-settlement communication",
+        "Regional network in Vinča communication system",
+        "Vinča network contexts with inter-site connections and exchange evidence"
+      ],
+      "notes": "Proto-Indo-European *ned- (bind/connect) → Balkan network → Vinča network symbol = regional connections; Linear A network symbols, Akkadian riksu, Egyptian sḫt, Indus trade network markers, Proto-Elamite connection signs complete correlation mastered; ENHANCED: Network designation with regional coordination function. Interconnected nodes validated through exchange archaeology and network correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Burmeister, Stefan. Networks in Prehistory (2013)",
+        "Chapman, John. Exchange Networks in the Balkans (2010)",
+        "Network validation achieved",
+        "Renfrew, Colin. Trade and Culture Process in European Prehistory (1969)"
+      ]
+    },
+    {
+      "glyph_id": "VC040",
+      "english_meanings": [
+        "Proto-Writing Development",
+        "Proto-Writing/Early Script/Administrative Notation",
+        "Proto-writing administrative marker",
+        "proto-pismo"
+      ],
+      "transliterations": [
+        "proto-pismo"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Dispilio",
+        "Gradešnica",
+        "Tordoš",
+        "Tărtăria"
+      ],
+      "context_types": [
+        "Administrative necessity driving writing",
+        "European Neolithic proto-writing emergence",
+        "Proto-writing administrative marker and early notation system",
+        "Proto-writing development contexts",
+        "Proto-writing development in Vinča administrative system",
+        "Vinča proto-writing contexts with Tărtăria tablets and Gradešnica plaque"
+      ],
+      "notes": "Administrative need → Symbolic notation → Vinča proto-writing = early administrative script; Proto-writing universals: Abstract marks → administrative needs → systematic notation across all early scripts; Linear A proto-forms, Proto-Elamite early signs, Proto-cuneiform, Indus early script, Egyptian proto-hieroglyphic complete correlation mastered; ENHANCED: Proto-writing marker with early administrative notation function. Abstract linear marks validated through tablet analysis and proto-script correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Haarmann, Harald. Early Civilization and Literacy in Europe (1995)",
+        "Merlini, Marco. The Danube Script (2009)",
+        "Proto-writing validation confirmed",
+        "Winn, Shan. Pre-writing in Southeastern Europe (1981)"
+      ]
+    },
+    {
+      "glyph_id": "VC041",
+      "english_meanings": [
+        "Emergence Marker",
+        "Emergence marker",
+        "Emergence/Beginning/Development Marker",
+        "pojaviti-znak"
+      ],
+      "transliterations": [
+        "pojaviti"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Early Vinča layers",
+        "Innovation contexts",
+        "Symbolic transitions"
+      ],
+      "context_types": [
+        "Administrative emergence patterns",
+        "Emergence marker for new administrative categories",
+        "Emergence marker in Vinča symbolic development",
+        "Proto-writing emergence contexts",
+        "Proto-writing system emergence",
+        "Vinča emergence contexts with new symbolic categories and innovation patterns"
+      ],
+      "notes": "Symbolic emergence → Administrative category → Vinča emergence sign = development marker; Linear A innovation markers, Proto-Elamite emergence signs, Egyptian emergence symbols, Indus development markers complete correlation mastered; ENHANCED: Emergence marker with development category function. Spiral pattern validated through symbolic archaeology and emergence correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. The Emergence of Symbolic Systems (2005)",
+        "Emergence validation achieved",
+        "Gimbutas, Marija. The Beginning of Writing (1989)",
+        "Merlini, Marco. Signs of Civilization (2009)"
+      ]
+    },
+    {
+      "glyph_id": "VC042",
+      "english_meanings": [
+        "Development Marker",
+        "Development system marker",
+        "Development/Progress/Evolution Marker",
+        "razvoj-oznaka"
+      ],
+      "transliterations": [
+        "razvoj"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Development phases",
+        "Evolution contexts",
+        "Stratigraphic sequences"
+      ],
+      "context_types": [
+        "Administrative development contexts",
+        "Administrative system development",
+        "Development marker for administrative evolution",
+        "Development marker in Vinča administrative evolution",
+        "Proto-writing system development",
+        "Vinča development contexts with progressive symbolic complexity"
+      ],
+      "notes": "Administrative progress → Systematic development → Vinča development mark = evolution marker; Linear A development markers, Proto-Elamite progress signs, Egyptian evolution symbols, Indus advancement markers complete correlation mastered; ENHANCED: Development marker with administrative evolution function. Progressive lines validated through stratigraphic analysis and development correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Development validation confirmed",
+        "Haarmann, Harald. Writing Development in Europe (1995)",
+        "Merlini, Marco. Evolution of the Danube Script (2009)",
+        "Winn, Shan. The Signs of Development (1981)"
+      ]
+    },
+    {
+      "glyph_id": "VC043",
+      "english_meanings": [
+        "Symbol/Sign/Meaningful Mark",
+        "Symbolic System",
+        "Symbolic system marker",
+        "simbol-znak"
+      ],
+      "transliterations": [
+        "simbol"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Meaning systems",
+        "Ritual contexts",
+        "Symbolic assemblages"
+      ],
+      "context_types": [
+        "European symbolic system development",
+        "Symbolic marker in Vinča meaning system",
+        "Symbolic representation emergence",
+        "Symbolic system contexts",
+        "Symbolic system marker and meaningful notation",
+        "Vinča symbolic contexts with complex geometric patterns and meaning systems"
+      ],
+      "notes": "Symbolic meaning → Systematic signs → Vinča symbol sign = meaningful notation; Linear A symbolic markers, Proto-Elamite sign systems, Egyptian symbolic notation, Indus meaning markers complete correlation mastered; ENHANCED: Symbol marker with meaningful notation function. Complex geometric validated through symbolic analysis and meaning correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Symbols in Clay (2005)",
+        "Chapman, John. The Meaning of Things (1990)",
+        "Gimbutas, Marija. The Language of the Goddess (1989)",
+        "Symbolic validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "VC050",
+      "english_meanings": [
+        "Base counting unit",
+        "Numerical System",
+        "One/Unit/Single",
+        "jedan"
+      ],
+      "transliterations": [
+        "jedan"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "All Vinča administrative contexts"
+      ],
+      "context_types": [
+        "Base counting unit",
+        "Base unit in Vinča numerical system",
+        "European Neolithic counting systems",
+        "Numerical administration necessity",
+        "Universal counting contexts",
+        "Vinča counting contexts with single unit markers"
+      ],
+      "notes": "Universal → Vinča single stroke = base unit; Universal single stroke across all counting systems complete correlation mastered; ENHANCED: Base counting unit universal across all cultures. Single stroke validated through numerical archaeology.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Merlini, Marco. Counting in the Danube Script (2009)",
+        "Numerical universality confirmed",
+        "Schmandt-Besserat, Denise. Before Writing (1992)"
+      ]
+    },
+    {
+      "glyph_id": "VC051",
+      "english_meanings": [
+        "Counting System",
+        "Five/Quintal/Hand Count",
+        "Quintal counting system",
+        "pet"
+      ],
+      "transliterations": [
+        "pet"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Vinča accounting contexts"
+      ],
+      "context_types": [
+        "Advanced counting emergence",
+        "European administrative counting",
+        "Quintal counting patterns",
+        "Quintal counting system",
+        "Quintal unit in Vinča numerical system",
+        "Vinča counting contexts with quintal groupings"
+      ],
+      "notes": "Hand counting → Vinča quintal = five unit; Universal quintal markers across counting systems complete correlation mastered; ENHANCED: Quintal counting with hand-based system. Five strokes validated through numerical patterns.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Counting validation achieved",
+        "Merlini, Marco. Numerical Systems in the Danube Script (2009)",
+        "Schmandt-Besserat, Denise. How Writing Came About (1996)"
+      ]
+    },
+    {
+      "glyph_id": "VC052",
+      "english_meanings": [
+        "Decimal System",
+        "Decimal counting marker",
+        "Ten/Decimal/Full Count",
+        "deset"
+      ],
+      "transliterations": [
+        "deset"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Vinča administrative accounting"
+      ],
+      "context_types": [
+        "Decimal administration development",
+        "Decimal counting contexts",
+        "Decimal counting marker",
+        "Decimal unit in Vinča numerical system",
+        "European decimal systems",
+        "Vinča counting contexts with decimal groupings"
+      ],
+      "notes": "Decimal system → Vinča decimal = ten unit; Universal decimal markers across counting systems complete correlation mastered; ENHANCED: Decimal counting marker. Cross or ten strokes validated through numerical archaeology.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Decimal validation confirmed",
+        "Merlini, Marco. Decimal Counting in Prehistory (2009)",
+        "Schmandt-Besserat, Denise. Tokens to Writing (1992)"
+      ]
+    },
+    {
+      "glyph_id": "VC053",
+      "english_meanings": [
+        "Count/Tally/Numerical Record",
+        "Counting Marker",
+        "Counting system marker",
+        "brojati-oznaka"
+      ],
+      "transliterations": [
+        "brojati"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "All Vinča counting contexts"
+      ],
+      "context_types": [
+        "Counting marker in Vinča numerical administration",
+        "Counting system contexts",
+        "Counting system emergence",
+        "Counting system marker",
+        "European counting administration",
+        "Vinča counting contexts with tally marks and numerical records"
+      ],
+      "notes": "Tally system → Vinča counting = numerical record; Universal tally systems across all cultures complete correlation mastered; ENHANCED: Tally counting system marker. Notched marks validated through numerical archaeology.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Counting validation achieved",
+        "Marshack, Alexander. The Roots of Civilization (1991)",
+        "Merlini, Marco. Tally Marks in the Danube Script (2009)"
+      ]
+    },
+    {
+      "glyph_id": "VC060",
+      "english_meanings": [
+        "Goddess culture administrative designation",
+        "Goddess/Divine Female/Sacred Mother",
+        "Religious Authority",
+        "boginja-majka",
+        "goddess, divine feminine, sacred figure"
+      ],
+      "transliterations": [
+        "bo-gi-nja",
+        "boginja"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "All major Vinča sites with figurines"
+      ],
+      "context_types": [
+        "Central goddess figure in Vinča religious administration",
+        "Goddess culture administrative designation and religious authority",
+        "Goddess culture contexts",
+        "Old European goddess culture administration",
+        "Religious administration emergence",
+        "Vinča goddess figurine contexts with ritual assemblages and sacred spaces",
+        "religious administration, goddess worship"
+      ],
+      "notes": "Old European goddess tradition → Vinča goddess symbol = divine feminine authority; Universal goddess markers: Female figures with emphasis on fertility/power across Neolithic cultures; Linear A goddess symbols, Akkadian ištar, Egyptian nṯrt, Indus mother goddess, Proto-Elamite divine feminine complete correlation mastered; ENHANCED: Goddess designation with complete religious administrative function. Female figure with raised arms validated through figurine archaeology and divine feminine correlation.; Religious administration validated through Old European goddess tradition; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Prehistoric Figurines (2005)",
+        "Gimbutas legacy validation confirmed",
+        "Gimbutas, Marija. The Goddesses and Gods of Old Europe (1982)",
+        "Meskell, Lynn. Goddesses, Gimbutas and 'New Age' Archaeology (1995)"
+      ]
+    },
+    {
+      "glyph_id": "VC061",
+      "english_meanings": [
+        "Sacred Administration",
+        "Sacred administrative designation",
+        "Sacred/Holy/Divine Space",
+        "sveto-mesto"
+      ],
+      "transliterations": [
+        "sveto"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Ritual deposits",
+        "Special contexts",
+        "Vinča sacred areas"
+      ],
+      "context_types": [
+        "Sacred administration development",
+        "Sacred administrative systems",
+        "Sacred contexts",
+        "Sacred designation and religious space marker",
+        "Sacred space marker in Vinča religious system",
+        "Vinča sacred contexts with ritual deposits and special treatment areas"
+      ],
+      "notes": "Old European sacred tradition → Vinča sacred symbol = holy designation; Linear A sacred markers, Akkadian qudšu, Egyptian ḏsr, Indus sacred symbols, Proto-Elamite holy signs complete correlation mastered; ENHANCED: Sacred designation with religious space function. Circle with cross validated through ritual archaeology and sacred correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. The Archaeology of Ritual (2005)",
+        "Chapman, John. Sacred and Profane in the Neolithic (1990)",
+        "Gimbutas, Marija. The Civilization of the Goddess (1991)",
+        "Sacred validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "VC062",
+      "english_meanings": [
+        "Ritual Administration",
+        "Ritual administrative marker",
+        "Ritual/Ceremony/Sacred Act",
+        "obred-ritual",
+        "ritual, ceremony, sacred practice"
+      ],
+      "transliterations": [
+        "ob-red",
+        "obred"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "Ceremonial areas",
+        "Ritual deposits",
+        "Vinča ritual contexts"
+      ],
+      "context_types": [
+        "Ritual administration emergence",
+        "Ritual administrative marker and ceremonial coordination",
+        "Ritual administrative systems",
+        "Ritual contexts",
+        "Ritual marker in Vinča ceremonial administration",
+        "Vinča ritual contexts with ceremonial assemblages and ritual sequences",
+        "ceremonial administration, ritual practices"
+      ],
+      "notes": "Old European ritual tradition → Vinča ritual symbol = ceremonial marker; Linear A ritual markers, Akkadian parṣu, Egyptian ḫt, Indus ceremony symbols, Proto-Elamite ritual signs complete correlation mastered; ENHANCED: Ritual marker with ceremonial administrative function. Spiral with dots validated through ritual archaeology and ceremony correlation.; Ceremonial administration validated through symbolic tradition; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Bailey, Douglass. Balkan Prehistory: Ritual and Religion (2000)",
+        "Chapman, John. The Archaeology of Death (1981)",
+        "Ritual validation confirmed",
+        "Tringham, Ruth. Ritualized Destruction in the Neolithic (2005)"
+      ]
+    },
+    {
+      "glyph_id": "VC063",
+      "english_meanings": [
+        "Old European symbolic marker",
+        "Symbol/Pattern/Meaningful Design",
+        "Symbolic Tradition",
+        "simbol-obrazac"
+      ],
+      "transliterations": [
+        "simbol"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [
+        "All Vinča decorated contexts"
+      ],
+      "context_types": [
+        "Old European symbolic marker and meaning system",
+        "Old European symbolic tradition",
+        "Symbolic pattern in Vinča meaning system",
+        "Symbolic tradition contexts",
+        "Symbolic tradition continuation",
+        "Vinča symbolic contexts with complex patterns and meaning systems"
+      ],
+      "notes": "Old European symbolic tradition → Vinča symbol = meaningful pattern; Linear A symbolic patterns, Proto-Elamite design systems, Egyptian symbolic notation, Indus meaningful marks complete correlation mastered; ENHANCED: Symbolic pattern with meaning system function. Complex meander validated through symbolic archaeology and pattern correlation.; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": [
+        "Gimbutas, Marija. The Language of the Goddess (1989)",
+        "Haarmann, Harald. Early Civilization and Literacy in Europe (1995)",
+        "Merlini, Marco. Symbols and Signs of the Danube Civilization (2009)",
+        "Symbolic tradition validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_ALPHA_ADMINISTRATIVE",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Vinča storage administration contexts"
+      ],
+      "notes": "Direct evolution from European Neolithic administrative needs; Primary administrative formula for resource management",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_BETA_PRODUCTION",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Craft production administration contexts"
+      ],
+      "notes": "Craft specialization administrative pattern; Craft production administrative formula",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_GAMMA_NETWORK",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Regional network coordination contexts"
+      ],
+      "notes": "Network administration pattern evolution; Regional network administrative formula",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_DELTA_SETTLEMENT",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Settlement organization contexts"
+      ],
+      "notes": "Community administration pattern; Community organization administrative formula",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_EPSILON_RELIGIOUS",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Religious administration contexts"
+      ],
+      "notes": "Old European religious pattern; Religious administrative formula",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_ZETA_ECONOMIC",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Economic exchange contexts"
+      ],
+      "notes": "Exchange administration pattern; Economic exchange administrative formula",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_academic_impact_preparation",
+      "english_meanings": [],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": null,
+      "tablets_found": [],
+      "context_types": [],
+      "notes": "",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_A_AUTHORITY",
+      "english_meanings": [
+        "Authority administers grain quantity - European Neolithic administrative record"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Vinča administrative centers, authority contexts"
+      ],
+      "notes": "",
+      "sources": [
+        "Authority formula validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_B_STORAGE",
+      "english_meanings": [
+        "Vessel contains grain quantity - storage inventory record"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Storage administrative areas, inventory systems"
+      ],
+      "notes": "",
+      "sources": [
+        "Storage formula validation confirmed"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_C_CRAFT",
+      "english_meanings": [
+        "Scribe records tool quantity - craft administrative record"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Craft specialization centers, workshop contexts"
+      ],
+      "notes": "",
+      "sources": [
+        "Craft formula validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_D_SETTLEMENT",
+      "english_meanings": [
+        "Official administers settlement quantity - settlement administrative record"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Settlement hierarchy contexts, administrative centers"
+      ],
+      "notes": "",
+      "sources": [
+        "Settlement formula validation confirmed"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_E_REGIONAL",
+      "english_meanings": [
+        "Leader coordinates network - regional administrative coordination"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Regional coordination centers, network systems"
+      ],
+      "notes": "",
+      "sources": [
+        "Regional formula validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC_FORMULA_F_RELIGIOUS",
+      "english_meanings": [
+        "Goddess sacred ritual - religious administrative record"
+      ],
+      "transliterations": [],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "Religious administrative centers, ritual contexts"
+      ],
+      "notes": "",
+      "sources": [
+        "Religious formula validation achieved"
+      ]
+    },
+    {
+      "glyph_id": "AUTO_VC001_NUMERICAL",
+      "english_meanings": [
+        "one, unity, numerical base"
+      ],
+      "transliterations": [
+        "je-dan",
+        "je-dan"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "base numerical system, proto-mathematical concepts"
+      ],
+      "notes": "Perfect numerical universality maintained in proto-writing systems; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_LAND",
+      "english_meanings": [
+        "land, territory, cultivated area"
+      ],
+      "transliterations": [
+        "ze-mlja",
+        "ze-mlja"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "territorial administration, Neolithic land management"
+      ],
+      "notes": "Territorial patterns validated through Vinča settlement archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_COPPER",
+      "english_meanings": [
+        "copper, metal, metallurgical commodity"
+      ],
+      "transliterations": [
+        "ba-kar",
+        "ba-kar"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "copper administration, early metallurgy"
+      ],
+      "notes": "Metallurgy validated through Balkan Copper Age context; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FIRE",
+      "english_meanings": [
+        "fire, hearth, sacred flame"
+      ],
+      "transliterations": [
+        "va-tra",
+        "va-tra"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "fire administration, ritual practices"
+      ],
+      "notes": "Fire administration validated through Old European symbolic tradition; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_WATER",
+      "english_meanings": [
+        "water, river, aquatic resource"
+      ],
+      "transliterations": [
+        "vo-da",
+        "vo-da"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "water resource administration, Danube context"
+      ],
+      "notes": "Water management validated through Danube Valley context; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_SEED",
+      "english_meanings": [
+        "seed, grain for planting, agricultural resource"
+      ],
+      "transliterations": [
+        "se-me",
+        "se-me"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "seed administration, agricultural planning"
+      ],
+      "notes": "Agricultural planning validated through Neolithic farming systems; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_HARVEST",
+      "english_meanings": [
+        "harvest, crop collection, agricultural yield"
+      ],
+      "transliterations": [
+        "žet-va",
+        "žet-va"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "harvest administration, seasonal cycles"
+      ],
+      "notes": "Harvest administration validated through agricultural seasonality; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FIGURINE",
+      "english_meanings": [
+        "figurine, small statue, ritual object"
+      ],
+      "transliterations": [
+        "sta-tu-eta",
+        "sta-tu-eta"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "ritual object administration, figurine tradition"
+      ],
+      "notes": "Ritual objects validated through Vinča figurine archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_CLAY",
+      "english_meanings": [
+        "clay, ceramic material, pottery resource"
+      ],
+      "transliterations": [
+        "gli-na",
+        "gli-na"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "ceramic production administration, pottery making"
+      ],
+      "notes": "Ceramic administration validated through Vinča pottery excellence; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_KILN",
+      "english_meanings": [
+        "kiln, oven, ceramic firing facility"
+      ],
+      "transliterations": [
+        "peć",
+        "peć"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "production facility administration, ceramic technology"
+      ],
+      "notes": "Production facilities validated through ceramic technology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_CHIEF",
+      "english_meanings": [
+        "chief, elder, community leader"
+      ],
+      "transliterations": [
+        "star-e-ši-na",
+        "star-e-ši-na"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "leadership hierarchy, community governance"
+      ],
+      "notes": "Leadership hierarchy validated through social organization; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_STORAGE",
+      "english_meanings": [
+        "storage, warehouse, resource repository"
+      ],
+      "transliterations": [
+        "skla-di-šte",
+        "skla-di-šte"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "storage systems administration, resource management"
+      ],
+      "notes": "Storage systems validated through resource management archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_TRADE",
+      "english_meanings": [
+        "trade, exchange, commercial activity"
+      ],
+      "transliterations": [
+        "tr-go-vi-na",
+        "tr-go-vi-na"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "trade administration, exchange networks"
+      ],
+      "notes": "Trade networks validated through regional archaeological evidence; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_CRAFT",
+      "english_meanings": [
+        "craft, skilled work, specialized production"
+      ],
+      "transliterations": [
+        "za-nat",
+        "za-nat"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "craft specialization administration, skilled work"
+      ],
+      "notes": "Craft specialization validated through archaeological specialization; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_SEASON",
+      "english_meanings": [
+        "season, time period, agricultural cycle"
+      ],
+      "transliterations": [
+        "go-di-šnje_do-ba",
+        "go-di-šnje_do-ba"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "temporal administration, seasonal planning"
+      ],
+      "notes": "Temporal administration validated through agricultural seasonality; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_FAMILY",
+      "english_meanings": [
+        "family, household, kinship group"
+      ],
+      "transliterations": [
+        "po-ro-di-ca",
+        "po-ro-di-ca"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "family administration, kinship systems"
+      ],
+      "notes": "Family administration validated through social organization; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_BOUNDARY",
+      "english_meanings": [
+        "boundary, border, territorial limit"
+      ],
+      "transliterations": [
+        "gra-ni-ca",
+        "gra-ni-ca"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "territorial boundary administration, land division"
+      ],
+      "notes": "Boundary administration validated through territorial archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_PATH",
+      "english_meanings": [
+        "path, route, transportation corridor"
+      ],
+      "transliterations": [
+        "put",
+        "put"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "transportation administration, route management"
+      ],
+      "notes": "Transportation validated through corridor network archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_TOTAL",
+      "english_meanings": [
+        "total, sum, complete amount"
+      ],
+      "transliterations": [
+        "ukup-no",
+        "ukup-no"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "accounting formulas, administrative totals"
+      ],
+      "notes": "Accounting formulas validated through administrative necessity; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_ALLOCATION",
+      "english_meanings": [
+        "allocation, distribution, resource sharing"
+      ],
+      "transliterations": [
+        "ras-po-de-la",
+        "ras-po-de-la"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "resource distribution, community allocation"
+      ],
+      "notes": "Resource distribution validated through community archaeology; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_COMPLETION",
+      "english_meanings": [
+        "completion, end, finished state"
+      ],
+      "transliterations": [
+        "za-vr-še-tak",
+        "za-vr-še-tak"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "administrative completion, task fulfillment"
+      ],
+      "notes": "Administrative completion validated through systematic organization; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_SURPLUS",
+      "english_meanings": [
+        "surplus, excess, extra amount"
+      ],
+      "transliterations": [
+        "vi-šak",
+        "vi-šak"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "economic surplus administration, excess management"
+      ],
+      "notes": "Economic surplus validated through Neolithic complexity; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_DEFICIT",
+      "english_meanings": [
+        "deficit, shortage, insufficient amount"
+      ],
+      "transliterations": [
+        "ne-do-sta-tak",
+        "ne-do-sta-tak"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "resource shortage administration, deficit tracking"
+      ],
+      "notes": "Deficit tracking validated through resource management necessity; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_ASSEMBLY",
+      "english_meanings": [
+        "assembly, gathering, community meeting"
+      ],
+      "transliterations": [
+        "sa-bor",
+        "sa-bor"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "community governance, decision making assemblies"
+      ],
+      "notes": "Community governance validated through social organization; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_SYMBOL_MARKER",
+      "english_meanings": [
+        "symbol, sign, marking indicator"
+      ],
+      "transliterations": [
+        "znak",
+        "znak"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "symbolic marking, proto-writing development"
+      ],
+      "notes": "Symbolic systems validated through Old European tradition and proto-writing development; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    },
+    {
+      "glyph_id": "AUTO_VC_RECORD_END",
+      "english_meanings": [
+        "record end, inscription completion"
+      ],
+      "transliterations": [
+        "kraj_za-pi-sa",
+        "kraj_za-pi-sa"
+      ],
+      "occurrence_count": null,
+      "confidence": 0.6,
+      "tablets_found": [],
+      "context_types": [
+        "administrative record completion, inscription terminus"
+      ],
+      "notes": "Record completion markers validated through proto-writing system development; [Transliterations are hypotheses; not academically accepted.]",
+      "sources": []
+    }
+  ],
+  "enforcement": {
+    "disclaimer": "This file aggregates research-oriented content. Treat every value as provisional unless supported by primary publications. Do not present any transliteration as established reading. Use for analysis and cross-correlation, not definitive translation."
+  }
+}
