@@ -1,0 +1,18 @@
+{
+  "name": "decipher-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0 <23"
+  },
+  "scripts": {
+    "start": "node server/src/index.js",
+    "test": "node --test server/test/",
+    "lint": "eslint server/src server/test webui/js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.0"
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ancient Script Decipherment Copilot</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/chat.css">
+  <link rel="stylesheet" href="/css/theme-dark.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <h1 class="logo">𓂀 Ancient Script Copilot</h1>
+        <button id="new-session-btn" class="btn btn-primary" title="New Session">+ New</button>
+      </div>
+      <div id="model-picker" class="model-picker">
+        <label for="model-select">Model:</label>
+        <select id="model-select">
+          <option value="gemma4:e4b" selected>Gemma 4 E4B 🎯 Vision/Think/Tools/Audio</option>
+          <option value="gemma4:e2b">Gemma 4 E2B (compact)</option>
+          <option value="gemma4:e12b">Gemma 4 E12B</option>
+          <option value="gemma4:e27b">Gemma 4 E27B (full)</option>
+          <option value="gemma4:e4b-cloud">Gemma 4 E4B ☁️ Cloud</option>
+          <option value="gemma4:e27b-cloud">Gemma 4 E27B ☁️ Cloud</option>
+          <option value="gpt-oss:20b">GPT-OSS 20B</option>
+          <option value="gpt-oss:120b">GPT-OSS 120B</option>
+          <option value="gpt-oss:120b-cloud">GPT-OSS 120B ☁️ Cloud</option>
+        </select>
+        <span id="model-status" class="model-status">⏳</span>
+      </div>
+      <nav id="session-list" class="session-list"></nav>
+      <div class="sidebar-footer">
+        <button id="settings-btn" class="btn btn-ghost">⚙ Settings</button>
+        <button id="lexicon-btn" class="btn btn-ghost">📖 Lexicon</button>
+        <button id="corpus-btn" class="btn btn-ghost">📜 Corpus</button>
+      </div>
+    </aside>
+
+    <main id="main-content">
+      <header id="chat-header">
+        <h2 id="session-title">New Decipherment Session</h2>
+        <div class="header-controls">
+          <select id="script-select" title="Active Script">
+            <option value="">All Scripts</option>
+          </select>
+          <button id="think-toggle" class="btn btn-sm" title="Toggle Reasoning">🧠 Think</button>
+          <button id="tools-toggle" class="btn btn-sm" title="Toggle Tools">🔧 Tools</button>
+        </div>
+      </header>
+
+      <div id="chat-messages" class="chat-messages" role="log" aria-live="polite">
+        <div class="welcome-message">
+          <h2>𓂀 Ancient Script Decipherment Copilot</h2>
+          <p>Ready to decipher and translate ancient scripts. This model is <strong>abliterated</strong> — no refusals, no hedging, direct scholarly analysis.</p>
+          <p>Default model: <code id="active-model-display">gemma4:e4b</code></p>
+          <div class="quick-actions">
+            <button class="btn btn-outline" data-action="analyze">📊 Analyze Corpus</button>
+            <button class="btn btn-outline" data-action="decipher">🔍 Decipher Inscription</button>
+            <button class="btn btn-outline" data-action="translate">🌐 Translate Text</button>
+            <button class="btn btn-outline" data-action="compare">⚖️ Cross-script Compare</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="thinking-panel" class="thinking-panel hidden">
+        <details>
+          <summary>🧠 Model Reasoning <span id="think-tokens">0 tokens</span></summary>
+          <pre id="thinking-content"></pre>
+        </details>
+      </div>
+
+      <footer id="chat-input-area" class="chat-input-area">
+        <div class="input-wrapper">
+          <textarea id="chat-input" placeholder="Enter inscription, ask for decipherment, or describe a glyph..." rows="3" autofocus></textarea>
+          <div class="input-controls">
+            <button id="attach-btn" class="btn btn-icon" title="Attach Image/PDF">📎</button>
+            <button id="send-btn" class="btn btn-primary" title="Send (Ctrl+Enter)">Send ▶</button>
+            <button id="cancel-btn" class="btn btn-danger hidden" title="Cancel">✕ Cancel</button>
+          </div>
+        </div>
+        <input type="file" id="file-input" accept="image/*,.pdf" hidden multiple>
+      </footer>
+    </main>
+
+    <!-- Panels (hidden by default) -->
+    <aside id="lexicon-panel" class="side-panel hidden">
+      <h3>📖 Lexicon Browser</h3>
+      <div id="lexicon-content"></div>
+    </aside>
+
+    <aside id="corpus-panel" class="side-panel hidden">
+      <h3>📜 Corpus Explorer</h3>
+      <div id="corpus-content"></div>
+    </aside>
+
+    <aside id="settings-panel" class="side-panel hidden">
+      <h3>⚙ Settings</h3>
+      <div id="settings-content">
+        <label>Ollama Host: <input id="ollama-host" type="text" value="http://127.0.0.1:11434"></label>
+        <label>Default Model: <input id="default-model" type="text" value="gemma4:e4b"></label>
+        <label>Context Length: <input id="num-ctx" type="number" value="32768"></label>
+        <label>Temperature: <input id="temperature" type="number" step="0.1" value="0.7"></label>
+        <label><input id="abliteration-enabled" type="checkbox" checked> Abliteration (remove refusal)</label>
+        <button id="save-settings" class="btn btn-primary">Save Settings</button>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
