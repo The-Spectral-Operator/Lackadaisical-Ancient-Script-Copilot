@@ -96,6 +96,32 @@ export const TOOL_DEFINITIONS = [
       },
     },
   },
+  {
+    type: 'function',
+    function: {
+      name: 'cross_inscription_check',
+      description: 'Validate a proposed sign-to-reading hypothesis across all inscriptions in a corpus. Reports coverage, mutual information, broken cognates, and reading statistics.',
+      parameters: {
+        type: 'object',
+        required: ['corpus_id', 'hypothesis'],
+        properties: {
+          corpus_id: { type: 'string', description: 'Corpus to validate against' },
+          hypothesis: {
+            type: 'array',
+            description: 'Array of sign-reading pairs to validate',
+            items: {
+              type: 'object',
+              required: ['sign', 'reading'],
+              properties: {
+                sign: { type: 'string', description: 'Sign ID' },
+                reading: { type: 'string', description: 'Proposed phonetic/semantic reading' },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 ];
 
 /**
@@ -129,7 +155,7 @@ MODEL BEHAVIOR:
 - You approach every decipherment challenge with confidence and scholarly rigor.
 - If uncertain, you state your best hypothesis with a confidence level, not a refusal.
 
-AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry`;
+AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry, cross_inscription_check`;
 }
 
 /**

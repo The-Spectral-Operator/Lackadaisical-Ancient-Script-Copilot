@@ -13,6 +13,7 @@ import { corpusSearch } from '../tools/corpusSearch.js';
 import { frequencyReport } from '../tools/frequencyReport.js';
 import { entropyReport } from '../tools/entropyReport.js';
 import { zipfReport } from '../tools/zipfReport.js';
+import { crossInscriptionCheck } from '../tools/crossInscriptionCheck.js';
 
 const SERVER_VERSION = '1.0.0';
 const IDLE_TIMEOUT_MS = 60_000;
@@ -183,6 +184,7 @@ function dispatchTool(name, args, db, config, logger) {
       case 'frequency_report': return frequencyReport(db, args);
       case 'entropy_report': return entropyReport(db, args);
       case 'zipf_report': return zipfReport(db, args);
+      case 'cross_inscription_check': return crossInscriptionCheck(db, args);
       case 'add_lexicon_entry': {
         const { lexicon_id, token, gloss, confidence = 0.5, source = '' } = args;
         if (!token || !gloss) return { error: 'token and gloss required' };
