@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "[Language Name] Script Lexicon",
+    "description": "Comprehensive lexicon of [Language] script characters, phonetics, and meanings for ancient script cross-correlation research. Part of Lackadaisical Security's multi-script decipherment project.",
+    "version": "1.0.0",
+    "created": "2025-11-19",
+    "total_entries": 0,
+    "corpus_status": "in_development",
+    "sources": [
+      "Unicode Standard for [Script]",
+      "Classical [Language] Grammar References",
+      "Historical Inscriptional Records",
+      "Modern [Language] Dictionaries",
+      "Comparative Dravidian Studies"
+    ],
+    "linguistic_principles": {
+      "phonology": {
+        "consonants": "Description of consonant system",
+        "vowels": "Description of vowel system",
+        "clusters": "Consonant cluster rules",
+        "sandhi": "Phonetic transformation rules"
+      },
+      "morphology": {
+        "case_system": "Number and types of grammatical cases",
+        "verb_conjugation": "Verb tense and aspect system",
+        "noun_declension": "Noun inflection patterns",
+        "agglutination": "Morpheme combination rules"
+      },
+      "syntax": {
+        "word_order": "Typical sentence structure (SOV, SVO, etc.)",
+        "agreement": "Subject-verb agreement patterns",
+        "relative_clauses": "Subordination strategies"
+      },
+      "writing_system": {
+        "script_family": "Brahmic/Dravidian classification",
+        "directionality": "Left-to-right, top-to-bottom",
+        "conjuncts": "Consonant combination rules",
+        "diacritics": "Vowel marking system"
+      }
+    },
+    "script_type": "abugida",
+    "historical_significance": "Historical context, literary tradition, inscriptional records, and cultural importance of the script",
+    "cross_correlation_notes": "Notes on relationships to other Dravidian languages and potential Indus Valley connections"
+  },
+  "entries": [
+    {
+      "entry_id": "script_0001",
+      "glyph": "அ",
+      "unicode": "U+0B85",
+      "transliteration": "a",
+      "phonetic": "/ʌ/",
+      "meaning": "First vowel of the alphabet; standalone vowel sound",
+      "grammatical_category": "vowel",
+      "context": "Used as independent vowel at word beginning or as syllable nucleus",
+      "attestations": [
+        "Classical poetry examples",
+        "Inscriptional usage",
+        "Modern standard usage"
+      ],
+      "related_entries": [
+        "script_0002",
+        "script_0025"
+      ],
+      "etymology": "Proto-Dravidian reconstruction if available",
+      "variant_forms": [
+        {
+          "form": "Variant glyph if exists",
+          "context": "Regional or historical variant",
+          "period": "Time period of usage"
+        }
+      ],
+      "compound_usage": {
+        "with_consonants": "How this vowel combines with consonants",
+        "examples": ["க + அ = கா"]
+      },
+      "notes": "Additional linguistic or historical information relevant to cross-correlation analysis"
+    },
+    {
+      "entry_id": "script_0002",
+      "glyph": "ஆ",
+      "unicode": "U+0B86",
+      "transliteration": "ā",
+      "phonetic": "/aː/",
+      "meaning": "Long 'a' vowel; extended duration vowel sound",
+      "grammatical_category": "vowel",
+      "context": "Marks vowel length distinction critical to meaning",
+      "attestations": [
+        "Classical literature examples",
+        "Modern usage patterns"
+      ],
+      "related_entries": [
+        "script_0001",
+        "script_0003"
+      ],
+      "etymology": "Derived from short 'a' with length marker",
+      "variant_forms": [],
+      "compound_usage": {
+        "with_consonants": "Consonant + long a combinations",
+        "examples": ["க + ஆ = கா"]
+      },
+      "notes": "Vowel length is phonemic in Dravidian languages - critical distinction"
+    }
+  ],
+  "linguistic_features": {
+    "distinctive_features": [
+      "Retroflex consonants (unique to Dravidian/South Asian)",
+      "Gemination (consonant doubling)",
+      "Vowel length distinction (short/long pairs)",
+      "Lack of voiced aspirates",
+      "Rich agglutinative morphology"
+    ],
+    "phonotactic_constraints": [
+      "Rules about permissible sound sequences",
+      "Consonant cluster restrictions",
+      "Syllable structure patterns"
+    ],
+    "morphophonemic_alternations": [
+      "Sound changes in morphological contexts",
+      "Sandhi rules between morphemes"
+    ]
+  },
+  "cross_linguistic_data": {
+    "cognates": {
+      "tamil": {},
+      "malayalam": {},
+      "telugu": {},
+      "kannada": {},
+      "proto_dravidian": {}
+    },
+    "shared_features": [
+      "Common grammatical structures across Dravidian family",
+      "Phonological correspondences",
+      "Morphological patterns"
+    ],
+    "divergences": [
+      "Language-specific innovations",
+      "Historical sound changes",
+      "Script differences"
+    ]
+  },
+  "indus_valley_correlation": {
+    "potential_connections": [
+      "Phonetic patterns that might match Indus signs",
+      "Morphological structures relevant to sign sequences",
+      "Semantic fields present in both systems"
+    ],
+    "hypothesis_notes": "Specific theories about Dravidian-Indus connections for this language",
+    "test_cases": [
+      "Specific Indus sequences to test against this language",
+      "Pattern matching priorities"
+    ]
+  },
+  "methodology_notes": {
+    "compilation_process": "How this dataset was compiled",
+    "verification_standards": "Standards used to verify accuracy",
+    "cross_reference_protocol": "How entries cross-reference with other scripts",
+    "correlation_preparation": "How this dataset is structured for cross-correlation analysis"
+  }
+}
