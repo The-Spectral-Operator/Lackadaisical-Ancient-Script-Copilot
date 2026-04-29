@@ -1,5 +1,5 @@
 import { parseBody } from '../middleware.js';
-import { ulid } from 'ulid';
+import { ulid } from '../../util/ids.js';
 
 export function createMessagesRoute(db, config, logger) {
   return {

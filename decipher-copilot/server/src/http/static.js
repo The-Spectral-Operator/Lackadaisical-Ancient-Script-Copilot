@@ -22,7 +22,8 @@ const MIME_TYPES = {
 };
 
 export function serveStatic(req, res, config, logger) {
-  const webuiDir = resolve(join(config.dataDir, '..', 'webui'));
+  // Resolve webui relative to the server source directory (../../webui from server/src/http/)
+  const webuiDir = resolve(join(import.meta.dirname, '..', '..', '..', 'webui'));
   const url = new URL(req.url, `http://${req.headers.host}`);
   let filePath = url.pathname === '/' ? '/index.html' : url.pathname;
 

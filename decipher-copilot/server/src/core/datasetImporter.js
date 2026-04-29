@@ -53,8 +53,41 @@ export function importAllDatasets(datasetsDir) {
  * 5. Direct array of entries
  */
 function parseJsonDataset(filePath, filename) {
-  const raw = readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  let raw = readFileSync(filePath, 'utf-8');
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    // Sanitize: escape unescaped control characters within string values
+    raw = raw.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, ''); // remove non-printable control chars
+    // Fix unescaped newlines/tabs inside JSON strings by replacing them
+    raw = raw.replace(/(?<=":[\s]*"[^"]*)\n(?=[^"]*")/g, '\\n');
+    raw = raw.replace(/,\s*([}\]])/g, '$1'); // remove trailing commas
+    raw = raw.replace(/\/\/[^\n]*/g, ''); // remove single-line comments
+    raw = raw.replace(/\/\*[\s\S]*?\*\//g, ''); // remove block comments
+    // If there are multiple top-level objects concatenated, take just the first
+    let braceCount = 0;
+    let endPos = 0;
+    for (let i = 0; i < raw.length; i++) {
+      if (raw[i] === '{') braceCount++;
+      else if (raw[i] === '}') { braceCount--; if (braceCount === 0) { endPos = i + 1; break; } }
+    }
+    if (endPos > 0 && endPos < raw.length) raw = raw.slice(0, endPos);
+    try {
+      data = JSON.parse(raw);
+    } catch {
+      // Last resort: try line-by-line stripping problematic lines
+      const lines = raw.split('\n');
+      const cleaned = lines.filter(l => {
+        try { JSON.parse('{' + l + '}'); return true; } catch { return !l.includes('\t'); }
+      });
+      try {
+        data = JSON.parse(cleaned.join('\n'));
+      } catch (e3) {
+        throw new Error(`JSON parse failed: ${e3.message}`);
+      }
+    }
+  }
   const entries = [];
 
   // Type 1: entries array (aramaic, phoenician, coptic, gothic, etc.)

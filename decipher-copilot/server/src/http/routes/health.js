@@ -1,5 +1,3 @@
-import { ollamaFetch } from '../ollama/client.js';
-
 export function createHealthRoute(db, config, logger) {
   return async (_req, res) => {
     let ollamaStatus = { reachable: false, version: null };

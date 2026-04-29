@@ -2,7 +2,7 @@ import { WebSocketServer } from 'ws';
 import { ollamaChatStream } from '../ollama/client.js';
 import { ThinkParser } from '../ollama/thinkParser.js';
 import { buildSystemPrompt, TOOL_DEFINITIONS, getThinkMode } from '../ollama/tools.js';
-import { ulid } from 'ulid';
+import { ulid } from '../util/ids.js';
 
 export function createWsHub(server, db, config, logger) {
   const wss = new WebSocketServer({ server, path: '/ws' });
