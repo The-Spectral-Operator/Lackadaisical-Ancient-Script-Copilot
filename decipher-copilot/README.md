@@ -72,14 +72,27 @@ Web UI (HTML5/CSS3/ES2023)  ←→  Node.js Backend  ←→  Ollama (gemma4:e4b)
 
 ## Datasets
 
-50+ ancient script lexicon files automatically imported:
+70+ ancient script lexicon files automatically imported, plus user-uploaded datasets:
 - Indus Valley (8282 glyphs), Linear A, Linear B, Cretan Hieroglyphs
-- Meroitic, Voynich Manuscript, Phaistos Disc, Proto-Elamite
+- Meroitic, Voynich Manuscript, Phaistos Disc, Proto-Elamite, Rongorongo
 - Maya, Akkadian, Sumerian, Egyptian (Hieroglyphs, Hieratic, Demotic)
 - Phoenician, Aramaic, Ugaritic, Proto-Sinaitic, Byblos
-- Brahmi, Tamil, Telugu, Kannada, Malayalam
-- Gothic, Glagolitic, Ge'ez, Coptic
+- Brahmi, Tamil, Telugu, Kannada, Malayalam, Kharosthi
+- Gothic, Glagolitic, Ge'ez, Coptic, Ogham, Elder Futhark
 - Greek, Paleo-Hebrew, Cypro-Minoan, Tartaria, Vinča
+- 90+ scripts registered across 12 language families
+
+**Upload your own**: JSON/CSV datasets via the frontend Upload Dataset panel.
+
+## New Features
+
+- **Cross-Script Correlation** — compare structural properties between scripts via frequency, bigram, positional, and entropy analysis
+- **Glyph Chaining** — detect recurring multi-glyph sequences scored by PMI; single glyph profiling
+- **Pattern Detection** — identify formulaic expressions, compound signs, grammatical markers
+- **Dataset Upload** — import your own JSON/CSV from the frontend UI
+- **Real-Time Statistics** — live dashboard with system metrics and corpus analytics
+- **Script Families** — 90+ scripts organized into 12 families by region/era/writing type
+- **Custom Research Model** — create unfiltered decipherment models via Modelfile presets
 
 ## Security
 

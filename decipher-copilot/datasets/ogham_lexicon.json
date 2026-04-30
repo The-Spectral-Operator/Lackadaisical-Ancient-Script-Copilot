@@ -1,0 +1,45 @@
+{
+  "_metadata": {
+    "script": "ogham",
+    "language": "Primitive Irish / Old Irish",
+    "region": "Ireland, Britain, Isle of Man",
+    "era": "4th–7th century CE",
+    "status": "deciphered",
+    "description": "Ogham is an Early Medieval alphabet used primarily to write Primitive Irish. Consists of 20 base characters (feda) formed by strokes along a stemline, plus 5 forfeda (supplementary characters). Over 400 inscriptions survive, mostly on stone.",
+    "sign_inventory": 25,
+    "direction": "bottom-to-top (on stone) or left-to-right (in manuscripts)",
+    "references": [
+      "McManus 1991 - A Guide to Ogam",
+      "Macalister 1945 - Corpus Inscriptionum Insularum Celticarum",
+      "Swift 1997 - Ogam Stones and the Earliest Irish Christians"
+    ],
+    "version": "1.0.0"
+  },
+  "entries": [
+    { "token": "ᚁ", "gloss": "B (beith)", "phoneme": "b", "confidence": 1.0, "source": "McManus 1991", "notes": "Birch tree" },
+    { "token": "ᚂ", "gloss": "L (luis)", "phoneme": "l", "confidence": 1.0, "source": "McManus 1991", "notes": "Rowan tree" },
+    { "token": "ᚃ", "gloss": "F/V (fearn)", "phoneme": "f/v", "confidence": 1.0, "source": "McManus 1991", "notes": "Alder tree" },
+    { "token": "ᚄ", "gloss": "S (sail)", "phoneme": "s", "confidence": 1.0, "source": "McManus 1991", "notes": "Willow tree" },
+    { "token": "ᚅ", "gloss": "N (nion)", "phoneme": "n", "confidence": 1.0, "source": "McManus 1991", "notes": "Ash tree" },
+    { "token": "ᚆ", "gloss": "H (úath)", "phoneme": "h", "confidence": 1.0, "source": "McManus 1991", "notes": "Hawthorn" },
+    { "token": "ᚇ", "gloss": "D (dair)", "phoneme": "d", "confidence": 1.0, "source": "McManus 1991", "notes": "Oak tree" },
+    { "token": "ᚈ", "gloss": "T (tinne)", "phoneme": "t", "confidence": 1.0, "source": "McManus 1991", "notes": "Holly" },
+    { "token": "ᚉ", "gloss": "C (coll)", "phoneme": "k", "confidence": 1.0, "source": "McManus 1991", "notes": "Hazel" },
+    { "token": "ᚊ", "gloss": "Q (ceirt)", "phoneme": "kw", "confidence": 1.0, "source": "McManus 1991", "notes": "Apple tree" },
+    { "token": "ᚋ", "gloss": "M (muin)", "phoneme": "m", "confidence": 1.0, "source": "McManus 1991", "notes": "Vine" },
+    { "token": "ᚌ", "gloss": "G (gort)", "phoneme": "g", "confidence": 1.0, "source": "McManus 1991", "notes": "Ivy" },
+    { "token": "ᚍ", "gloss": "NG (ngétal)", "phoneme": "ŋ", "confidence": 1.0, "source": "McManus 1991", "notes": "Reed/broom" },
+    { "token": "ᚎ", "gloss": "Z/ST (straif)", "phoneme": "st/z", "confidence": 1.0, "source": "McManus 1991", "notes": "Blackthorn" },
+    { "token": "ᚏ", "gloss": "R (ruis)", "phoneme": "r", "confidence": 1.0, "source": "McManus 1991", "notes": "Elder tree" },
+    { "token": "ᚐ", "gloss": "A (ailm)", "phoneme": "a", "confidence": 1.0, "source": "McManus 1991", "notes": "Pine/fir" },
+    { "token": "ᚑ", "gloss": "O (onn)", "phoneme": "o", "confidence": 1.0, "source": "McManus 1991", "notes": "Gorse" },
+    { "token": "ᚒ", "gloss": "U (úr)", "phoneme": "u", "confidence": 1.0, "source": "McManus 1991", "notes": "Heather" },
+    { "token": "ᚓ", "gloss": "E (edad)", "phoneme": "e", "confidence": 1.0, "source": "McManus 1991", "notes": "Aspen" },
+    { "token": "ᚔ", "gloss": "I (idad)", "phoneme": "i", "confidence": 1.0, "source": "McManus 1991", "notes": "Yew" },
+    { "token": "ᚕ", "gloss": "EA (éabhadh)", "phoneme": "ea", "confidence": 0.9, "source": "McManus 1991", "notes": "Forfeda - supplementary" },
+    { "token": "ᚖ", "gloss": "OI (ór)", "phoneme": "oi", "confidence": 0.9, "source": "McManus 1991", "notes": "Forfeda - supplementary" },
+    { "token": "ᚗ", "gloss": "UI (uilleann)", "phoneme": "ui", "confidence": 0.9, "source": "McManus 1991", "notes": "Forfeda - supplementary" },
+    { "token": "ᚘ", "gloss": "IA/IO (ifín)", "phoneme": "ia", "confidence": 0.9, "source": "McManus 1991", "notes": "Forfeda - supplementary" },
+    { "token": "ᚙ", "gloss": "AE (eamhancholl)", "phoneme": "ae/x", "confidence": 0.85, "source": "McManus 1991", "notes": "Forfeda - supplementary" }
+  ]
+}

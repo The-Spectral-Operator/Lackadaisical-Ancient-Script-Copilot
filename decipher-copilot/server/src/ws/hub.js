@@ -14,6 +14,8 @@ import { frequencyReport } from '../tools/frequencyReport.js';
 import { entropyReport } from '../tools/entropyReport.js';
 import { zipfReport } from '../tools/zipfReport.js';
 import { crossInscriptionCheck } from '../tools/crossInscriptionCheck.js';
+import { crossScriptCorrelation, crossScriptMatrix } from '../tools/crossScriptCorrelation.js';
+import { singleGlyphAnalysis, glyphChainDetection, multiGlyphAnalysis } from '../tools/glyphChaining.js';
 
 const SERVER_VERSION = '1.0.0';
 const IDLE_TIMEOUT_MS = 60_000;
@@ -131,7 +133,7 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
   let fullContent = '', fullThinking = '', finalStats = null;
 
   try {
-    let currentMessages = [...messages];
+    const currentMessages = [...messages];
     for (let round = 0; round < 6; round++) {
       const thinkParser = new ThinkParser();
       const pendingToolCalls = [];
@@ -185,6 +187,11 @@ function dispatchTool(name, args, db, config, logger) {
       case 'entropy_report': return entropyReport(db, args);
       case 'zipf_report': return zipfReport(db, args);
       case 'cross_inscription_check': return crossInscriptionCheck(db, args);
+      case 'cross_script_correlation': return crossScriptCorrelation(db, args);
+      case 'cross_script_matrix': return crossScriptMatrix(db, args);
+      case 'single_glyph_analysis': return singleGlyphAnalysis(db, args);
+      case 'glyph_chain_detection': return glyphChainDetection(db, args);
+      case 'multi_glyph_analysis': return multiGlyphAnalysis(db, args);
       case 'add_lexicon_entry': {
         const { lexicon_id, token, gloss, confidence = 0.5, source = '' } = args;
         if (!token || !gloss) return { error: 'token and gloss required' };

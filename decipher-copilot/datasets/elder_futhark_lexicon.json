@@ -1,0 +1,44 @@
+{
+  "_metadata": {
+    "script": "elder_futhark",
+    "language": "Proto-Norse / Proto-Germanic",
+    "region": "Scandinavia, Northern Europe",
+    "era": "2nd–8th century CE",
+    "status": "deciphered",
+    "description": "The Elder Futhark is the oldest form of the runic alphabets, consisting of 24 runes. Named after the first six letters (F-U-Þ-A-R-K). Used for Proto-Norse and Proto-Germanic inscriptions. Over 350 objects with Elder Futhark inscriptions survive.",
+    "sign_inventory": 24,
+    "direction": "left-to-right or right-to-left (boustrophedon rare)",
+    "references": [
+      "Antonsen 1975 - A Concise Grammar of the Older Runic Inscriptions",
+      "Page 1999 - An Introduction to English Runes",
+      "Spurkland 2005 - Norwegian Runes and Runic Inscriptions"
+    ],
+    "version": "1.0.0"
+  },
+  "entries": [
+    { "token": "ᚠ", "gloss": "F (fehu) — wealth, cattle", "phoneme": "f", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚢ", "gloss": "U (ūruz) — aurochs, strength", "phoneme": "u", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚦ", "gloss": "Þ (þurisaz) — giant, thorn", "phoneme": "θ", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚨ", "gloss": "A (ansuz) — god (Odin)", "phoneme": "a", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚱ", "gloss": "R (raidō) — ride, journey", "phoneme": "r", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚲ", "gloss": "K (kaunan) — torch, ulcer", "phoneme": "k", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚷ", "gloss": "G (gebō) — gift", "phoneme": "g", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚹ", "gloss": "W (wunjō) — joy", "phoneme": "w", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚺ", "gloss": "H (hagalaz) — hail", "phoneme": "h", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᚾ", "gloss": "N (naudiz) — need, constraint", "phoneme": "n", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛁ", "gloss": "I (īsaz) — ice", "phoneme": "i", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛃ", "gloss": "J (jēra) — year, harvest", "phoneme": "j", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛇ", "gloss": "Ï (ī(h)waz) — yew tree", "phoneme": "iː", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛈ", "gloss": "P (perþō) — lot cup, mystery", "phoneme": "p", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛉ", "gloss": "Z (algiz) — elk, protection", "phoneme": "z", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛊ", "gloss": "S (sōwilō) — sun", "phoneme": "s", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛏ", "gloss": "T (tīwaz) — god Tyr", "phoneme": "t", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛒ", "gloss": "B (berkanan) — birch", "phoneme": "b", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛖ", "gloss": "E (ehwaz) — horse", "phoneme": "e", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛗ", "gloss": "M (mannaz) — man, human", "phoneme": "m", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛚ", "gloss": "L (laguz) — lake, water", "phoneme": "l", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛜ", "gloss": "NG (ingwaz) — god Ing (Freyr)", "phoneme": "ŋ", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛞ", "gloss": "D (dagaz) — day", "phoneme": "d", "confidence": 1.0, "source": "Antonsen 1975" },
+    { "token": "ᛟ", "gloss": "O (ōþala) — homeland, inheritance", "phoneme": "o", "confidence": 1.0, "source": "Antonsen 1975" }
+  ]
+}

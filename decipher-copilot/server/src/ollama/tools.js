@@ -122,6 +122,85 @@ export const TOOL_DEFINITIONS = [
       },
     },
   },
+  {
+    type: 'function',
+    function: {
+      name: 'cross_script_correlation',
+      description: 'Compare two corpora from different scripts to detect structural similarities via frequency, bigram, positional, and entropy correlation analysis.',
+      parameters: {
+        type: 'object',
+        required: ['corpus_a_id', 'corpus_b_id'],
+        properties: {
+          corpus_a_id: { type: 'string', description: 'First corpus ID' },
+          corpus_b_id: { type: 'string', description: 'Second corpus ID' },
+          methods: { type: 'array', items: { type: 'string', enum: ['frequency', 'bigram', 'positional', 'entropy'] }, description: 'Correlation methods to apply' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'cross_script_matrix',
+      description: 'Run pairwise correlation across all available corpora to identify structurally similar scripts. Returns a ranked matrix of similarities.',
+      parameters: {
+        type: 'object',
+        properties: {
+          methods: { type: 'array', items: { type: 'string' }, description: 'Correlation methods' },
+          min_inscriptions: { type: 'integer', description: 'Minimum inscriptions required per corpus (default 5)' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'single_glyph_analysis',
+      description: 'Perform comprehensive single-glyph analysis: frequency, positional preference, predecessor/successor distributions, co-occurrence patterns, and contextual usage.',
+      parameters: {
+        type: 'object',
+        required: ['corpus_id', 'sign'],
+        properties: {
+          corpus_id: { type: 'string', description: 'Corpus to analyze' },
+          sign: { type: 'string', description: 'Sign/glyph ID to analyze' },
+          include_context: { type: 'boolean', description: 'Include context windows (default true)' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'glyph_chain_detection',
+      description: 'Detect recurring multi-glyph chains (n-gram sequences) in a corpus, scored by mutual information. Identifies formulaic expressions, compound signs, and grammatical patterns.',
+      parameters: {
+        type: 'object',
+        required: ['corpus_id'],
+        properties: {
+          corpus_id: { type: 'string', description: 'Corpus to analyze' },
+          min_length: { type: 'integer', description: 'Minimum chain length (default 2)' },
+          max_length: { type: 'integer', description: 'Maximum chain length (default 6)' },
+          min_frequency: { type: 'integer', description: 'Minimum occurrence count (default 2)' },
+          score_method: { type: 'string', enum: ['mutual_info', 'log_likelihood', 'dice'], description: 'Scoring method (default: mutual_info)' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'multi_glyph_analysis',
+      description: 'Analyze a specific multi-glyph sequence in context: find all occurrences, compute pointwise mutual information, positional preferences, and surrounding patterns.',
+      parameters: {
+        type: 'object',
+        required: ['corpus_id', 'sequence'],
+        properties: {
+          corpus_id: { type: 'string', description: 'Corpus to search' },
+          sequence: { type: 'string', description: 'Space-separated sign sequence to analyze' },
+        },
+      },
+    },
+  },
 ];
 
 /**
@@ -155,7 +234,7 @@ MODEL BEHAVIOR:
 - You approach every decipherment challenge with confidence and scholarly rigor.
 - If uncertain, you state your best hypothesis with a confidence level, not a refusal.
 
-AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry, cross_inscription_check`;
+AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry, cross_inscription_check, cross_script_correlation, cross_script_matrix, single_glyph_analysis, glyph_chain_detection, multi_glyph_analysis`;
 }
 
 /**

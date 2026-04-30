@@ -14,6 +14,8 @@ import { initLexiconPanel } from './lexicon/view.js';
 import { initCorpusPanel } from './corpus/view.js';
 import { initModelPicker } from './models/picker.js';
 import { initSettingsPanel } from './settings/view.js';
+import { initStatsPanel } from './stats/view.js';
+import { initUploadPanel } from './upload/view.js';
 
 const api = createApi();
 let ws = null;
@@ -99,6 +101,18 @@ async function init() {
       await initCorpusPanel();
     }
   });
+  document.getElementById('stats-btn').addEventListener('click', async () => {
+    togglePanel('stats-panel');
+    if (!document.getElementById('stats-panel').classList.contains('hidden')) {
+      await initStatsPanel();
+    }
+  });
+  document.getElementById('upload-btn').addEventListener('click', async () => {
+    togglePanel('upload-panel');
+    if (!document.getElementById('upload-panel').classList.contains('hidden')) {
+      await initUploadPanel();
+    }
+  });
   document.getElementById('script-select').addEventListener('change', (e) => {
     store.set({ activeScript: e.target.value });
   });
@@ -110,7 +124,9 @@ async function init() {
         analyze: 'Perform a full statistical analysis of the active corpus: run Zipf fit, Shannon entropy, and bigram frequency analysis. Use the frequency_report, entropy_report, and zipf_report tools.',
         decipher: 'I have an inscription to decipher. Please analyze this sign sequence and propose a reading with confidence levels: ',
         translate: 'Translate the following ancient text into English. Provide phonetic transcription, semantic gloss, and confidence level for each sign: ',
-        compare: 'Compare the sign systems across the loaded scripts. Identify structural patterns, frequency profiles, and potential cognate signs between Linear A, Indus Valley, and Proto-Elamite.',
+        compare: 'Compare the sign systems across the loaded scripts. Use the cross_script_correlation and cross_script_matrix tools to identify structural patterns, frequency profiles, and potential cognate signs.',
+        glyph: 'Detect recurring multi-glyph chains in the active corpus. Use the glyph_chain_detection tool to find formulaic expressions, compound signs, and grammatical patterns. Score by mutual information and categorize results.',
+        single: 'Perform a comprehensive single glyph analysis. Use the single_glyph_analysis tool to profile frequency, positional preference, predecessor/successor distributions, and combinatorial freedom for this sign: ',
       };
       document.getElementById('chat-input').value = prompts[btn.dataset.action] || '';
       document.getElementById('chat-input').focus();
@@ -135,6 +151,31 @@ async function init() {
     const prog = document.getElementById('pull-progress');
     if (prog) { prog.textContent = `Pulling ${name}...`; prog.classList.remove('hidden'); }
     ws.send({ type: 'pull.start', model: name });
+  });
+
+  // Create custom model button
+  document.getElementById('create-model-btn')?.addEventListener('click', async () => {
+    const name = document.getElementById('create-model-name')?.value?.trim();
+    const preset = document.getElementById('create-model-preset')?.value;
+    const base = document.getElementById('create-model-base')?.value;
+    const prog = document.getElementById('create-model-progress');
+    if (!name) { if (prog) { prog.textContent = 'Model name is required'; prog.classList.remove('hidden'); } return; }
+    if (prog) { prog.textContent = `Creating ${name}...`; prog.classList.remove('hidden'); }
+    try {
+      const resp = await fetch('/api/models/create', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ name, preset: preset || undefined, base: base || undefined }),
+      });
+      if (resp.ok) {
+        if (prog) prog.textContent = `✓ Model "${name}" created successfully!`;
+      } else {
+        const err = await resp.json().catch(() => ({}));
+        if (prog) prog.textContent = `✗ Failed: ${err.message || err.error || resp.status}`;
+      }
+    } catch (err) {
+      if (prog) prog.textContent = `✗ Error: ${err.message}`;
+    }
   });
 }
 
@@ -335,7 +376,7 @@ async function sendMessage() {
     model: s.model,
     think: s.thinkEnabled,
     tools: s.toolsEnabled
-      ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report', 'add_lexicon_entry']
+      ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report', 'add_lexicon_entry', 'cross_inscription_check', 'cross_script_correlation', 'cross_script_matrix', 'single_glyph_analysis', 'glyph_chain_detection', 'multi_glyph_analysis']
       : [],
     history,
     script: s.activeScript || undefined,

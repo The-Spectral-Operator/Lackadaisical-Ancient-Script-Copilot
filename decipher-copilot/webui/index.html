@@ -46,6 +46,8 @@
       <button id="settings-btn" class="btn btn-ghost">⚙ Settings</button>
       <button id="lexicon-btn" class="btn btn-ghost">📖 Lexicon</button>
       <button id="corpus-btn" class="btn btn-ghost">📜 Corpus</button>
+      <button id="stats-btn" class="btn btn-ghost">📊 Statistics</button>
+      <button id="upload-btn" class="btn btn-ghost">⬆ Upload Dataset</button>
     </div>
   </aside>
 
@@ -71,6 +73,8 @@
           <button class="btn btn-outline" data-action="decipher">🔍 Decipher Inscription</button>
           <button class="btn btn-outline" data-action="translate">🌐 Translate Text</button>
           <button class="btn btn-outline" data-action="compare">⚖️ Cross-script Compare</button>
+          <button class="btn btn-outline" data-action="glyph">🔗 Glyph Chain Analysis</button>
+          <button class="btn btn-outline" data-action="single">🔬 Single Glyph Profile</button>
         </div>
       </div>
     </div>
@@ -129,6 +133,71 @@
       <label>Pull a Model<input id="pull-model-input" type="text" placeholder="e.g. gemma4:e4b" spellcheck="false"></label>
       <button id="pull-model-btn" class="btn btn-outline">⬇ Pull Model</button>
       <div id="pull-progress" class="hidden"></div>
+      <hr>
+      <h4>Create Research Model</h4>
+      <label>Model Name<input id="create-model-name" type="text" placeholder="decipher-research" spellcheck="false"></label>
+      <label>Base Model
+        <select id="create-model-base">
+          <option value="gemma4:e4b">gemma4:e4b (4B)</option>
+          <option value="gemma4:e2b">gemma4:e2b (2B)</option>
+          <option value="gemma4:e12b">gemma4:e12b (12B)</option>
+          <option value="mistral:7b">mistral:7b</option>
+          <option value="phi-4-reasoning:14b">phi-4-reasoning:14b</option>
+        </select>
+      </label>
+      <label>Preset
+        <select id="create-model-preset">
+          <option value="">Custom (use Modelfile)</option>
+          <option value="decipherment-general">Decipherment General</option>
+          <option value="glyph-ocr">Glyph OCR Specialist</option>
+          <option value="statistical-analyst">Statistical Analyst</option>
+          <option value="translation-engine">Translation Engine</option>
+          <option value="reasoning-deep">Deep Reasoning</option>
+        </select>
+      </label>
+      <button id="create-model-btn" class="btn btn-primary">🧪 Create Model</button>
+      <div id="create-model-progress" class="hidden"></div>
+    </div>
+  </aside>
+
+  <aside id="stats-panel" class="side-panel hidden" role="complementary" aria-label="Statistics">
+    <div class="panel-header">
+      <h3>📊 Real-Time Statistics</h3>
+      <button class="btn btn-icon panel-close" data-close="stats-panel">✕</button>
+    </div>
+    <div id="stats-content">
+      <div class="stats-loading">Loading statistics...</div>
+    </div>
+  </aside>
+
+  <aside id="upload-panel" class="side-panel hidden" role="complementary" aria-label="Dataset Upload">
+    <div class="panel-header">
+      <h3>⬆ Upload Dataset</h3>
+      <button class="btn btn-icon panel-close" data-close="upload-panel">✕</button>
+    </div>
+    <div id="upload-content">
+      <p class="panel-description">Upload your own JSON or CSV datasets for analysis.</p>
+      <label>Dataset File
+        <input id="dataset-file-input" type="file" accept=".json,.csv,.txt">
+      </label>
+      <label>Script Family
+        <select id="upload-script-select">
+          <option value="">Auto-detect</option>
+        </select>
+      </label>
+      <label>Target Type
+        <select id="upload-target-select">
+          <option value="auto">Auto-detect</option>
+          <option value="lexicon">Lexicon (sign→meaning entries)</option>
+          <option value="corpus">Corpus (inscriptions)</option>
+        </select>
+      </label>
+      <label>Dataset Name<input id="upload-name" type="text" placeholder="My Dataset" spellcheck="false"></label>
+      <button id="upload-dataset-btn" class="btn btn-primary" disabled>⬆ Upload & Import</button>
+      <div id="upload-status" class="hidden"></div>
+      <hr>
+      <h4>Recent Uploads</h4>
+      <div id="upload-history"></div>
     </div>
   </aside>
 </div>

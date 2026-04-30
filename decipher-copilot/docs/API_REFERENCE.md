@@ -322,6 +322,211 @@ Retrieve a previously computed cluster result.
 
 ---
 
+## Cross-Script Correlation
+
+### POST /api/analysis/correlate (via tool: `cross_script_correlation`)
+
+Compare two corpora from different scripts to detect structural similarities.
+
+```json
+{
+  "corpus_a_id": "...",
+  "corpus_b_id": "...",
+  "methods": ["frequency", "bigram", "positional", "entropy"]
+}
+```
+
+**Response:**
+```json
+{
+  "corpus_a": { "id": "...", "inscription_count": 150, "vocabulary": 87 },
+  "corpus_b": { "id": "...", "inscription_count": 200, "vocabulary": 120 },
+  "correlations": {
+    "frequency": { "score": 0.82, "cosine_similarity": 0.85, "interpretation": "..." },
+    "bigram": { "score": 0.71, "transition_entropy_a": 2.34 },
+    "positional": { "score": 0.65, "ks_distance": 0.35 },
+    "entropy": { "score": 0.78, "h1_a": 5.2, "h1_b": 5.5 }
+  },
+  "overall_score": 0.74,
+  "interpretation": "Notable structural similarity..."
+}
+```
+
+### Cross-Script Matrix (via tool: `cross_script_matrix`)
+
+Run pairwise correlation across all corpora.
+
+```json
+{ "methods": ["frequency", "bigram", "entropy"], "min_inscriptions": 5 }
+```
+
+Returns ranked pairs of structurally similar scripts.
+
+---
+
+## Glyph Chaining & Pattern Detection
+
+### Single Glyph Analysis (via tool: `single_glyph_analysis`)
+
+Comprehensive single-glyph profiling.
+
+```json
+{ "corpus_id": "...", "sign": "AB01", "include_context": true }
+```
+
+**Response includes:**
+- Frequency count and rank
+- Positional preference (initial/medial/final)
+- Top predecessors and successors with probabilities
+- Co-occurrence network
+- Context windows (±3 signs)
+- Interpretive summary
+
+### Glyph Chain Detection (via tool: `glyph_chain_detection`)
+
+Detect recurring multi-glyph sequences scored by mutual information.
+
+```json
+{
+  "corpus_id": "...",
+  "min_length": 2,
+  "max_length": 6,
+  "min_frequency": 2,
+  "score_method": "mutual_info"
+}
+```
+
+Score methods: `mutual_info`, `log_likelihood`, `dice`
+
+**Response includes:**
+- Ranked chains with PMI scores
+- Categories: formulaic, lexical, grammatical
+- Persisted to `glyph_chains` table
+
+### Multi-Glyph Analysis (via tool: `multi_glyph_analysis`)
+
+Analyze a specific sequence in context.
+
+```json
+{ "corpus_id": "...", "sequence": "AB01 AB02 AB03" }
+```
+
+**Response includes:**
+- All occurrences with context windows
+- Pointwise mutual information
+- Positional preference
+- Preceding/following patterns
+
+---
+
+## Dataset Upload
+
+### POST /api/datasets/upload
+
+Upload a JSON or CSV dataset file from the frontend.
+
+```json
+{
+  "filename": "my_lexicon.json",
+  "content": "{\"entries\": [{\"token\": \"A\", \"gloss\": \"water\"}]}",
+  "file_type": "json",
+  "target": "auto",
+  "script_id": "linear_a",
+  "name": "My Linear A Lexicon"
+}
+```
+
+Target: `auto` (detect), `lexicon`, `corpus`
+
+**Response:**
+```json
+{
+  "upload_id": "01JAX...",
+  "status": "completed",
+  "entry_count": 150,
+  "target": "lexicon",
+  "lexicon_id": "01JAX..."
+}
+```
+
+### GET /api/datasets
+
+List all uploaded datasets with status.
+
+### GET /api/datasets/:id
+
+Get upload details and status.
+
+### DELETE /api/datasets/:id
+
+Remove an uploaded dataset and its imported data.
+
+---
+
+## Script Families & Organization
+
+### GET /api/scripts/families
+
+List all script families (Semitic, Aegean, Indic, etc.).
+
+### POST /api/scripts/families
+
+Create a new script family.
+
+```json
+{
+  "name": "Proto-Writing",
+  "region": "Various",
+  "era_start": "-8000",
+  "era_end": "-3000",
+  "description": "Pre-literate symbol systems"
+}
+```
+
+### GET /api/scripts/organized
+
+Get all scripts organized hierarchically by family/region.
+
+### GET /api/scripts/stats
+
+Real-time statistics for all scripts: lexicon counts, corpus sizes, analysis coverage.
+
+---
+
+## Real-Time Statistics
+
+### GET /api/stats/realtime
+
+Full system statistics snapshot.
+
+```json
+{
+  "counts": {
+    "scripts": 63,
+    "lexicon_entries": 8606,
+    "corpora": 12,
+    "inscriptions": 1500,
+    "sessions": 5,
+    "messages": 42,
+    "analysis_runs": 18,
+    "glyph_chains": 350
+  },
+  "models": [...],
+  "recent_sessions": [...],
+  "recent_analyses": [...]
+}
+```
+
+### GET /api/stats/system
+
+System health metrics (memory, uptime, node version, DB sizes).
+
+### GET /api/stats/corpus/:id
+
+Live detailed statistics for a specific corpus (entropy, Zipf, hapax, bigrams).
+
+---
+
 ## Export
 
 ### POST /api/export/report
