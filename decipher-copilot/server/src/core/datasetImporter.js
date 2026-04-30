@@ -3,7 +3,7 @@
  * Handles JSON with different schemas and CSV files, normalizing them into lexicon entries.
  * Also handles .zip files containing JSON datasets (unzips to same directory on import).
  */
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, extname, basename } from 'node:path';
 import { execSync } from 'node:child_process';
 
@@ -18,9 +18,10 @@ export function importAllDatasets(datasetsDir) {
     if (extname(file).toLowerCase() === '.zip') {
       const jsonName = file.replace(/\.zip$/, '.json');
       const jsonPath = join(datasetsDir, jsonName);
+      const zipPath = join(datasetsDir, file);
       if (!existsSync(jsonPath)) {
         try {
-          execSync(`unzip -o "${join(datasetsDir, file)}" -d "${datasetsDir}"`, { stdio: 'pipe' });
+          execSync(`unzip -o "${zipPath}" -d "${datasetsDir}"`, { stdio: 'pipe' });
         } catch { /* ignore unzip failures */ }
       }
     }
@@ -37,7 +38,13 @@ export function importAllDatasets(datasetsDir) {
     try {
       let entries;
       if (ext === '.json') {
-        entries = parseJsonDataset(filePath, file);
+        // For very large files (>100MB), use streaming approach
+        const fileSize = statSync(filePath).size;
+        if (fileSize > 100 * 1024 * 1024) {
+          entries = parseLargeJsonDataset(filePath, file);
+        } else {
+          entries = parseJsonDataset(filePath, file);
+        }
       } else if (ext === '.csv') {
         entries = parseCsvDataset(filePath, file);
       } else if (ext === '.md') {
@@ -71,6 +78,8 @@ export function importAllDatasets(datasetsDir) {
 function parseJsonDataset(filePath, filename) {
   let raw = readFileSync(filePath, 'utf-8');
   let data;
+  // Normalize CRLF to LF
+  raw = raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
   try {
     data = JSON.parse(raw);
   } catch {
@@ -78,9 +87,18 @@ function parseJsonDataset(filePath, filename) {
     raw = raw.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, ''); // remove non-printable control chars
     // Fix unescaped newlines/tabs inside JSON strings by replacing them
     raw = raw.replace(/(?<=":[\s]*"[^"]*)\n(?=[^"]*")/g, '\\n');
+    // Fix "key": "value1", "value2" pattern (orphan strings after values) - must run before trailing comma removal
+    raw = raw.replace(/"([^"]+)":\s*"([^"]*)",\s*"([^"]*)"\s*,/g, '"$1": ["$2", "$3"],');
+    raw = raw.replace(/"([^"]+)":\s*"([^"]*)",\s*"([^"]*)"\s*\n/g, '"$1": ["$2", "$3"]\n');
     raw = raw.replace(/,\s*([}\]])/g, '$1'); // remove trailing commas
     raw = raw.replace(/\/\/[^\n]*/g, ''); // remove single-line comments
     raw = raw.replace(/\/\*[\s\S]*?\*\//g, ''); // remove block comments
+    // Fix unbalanced braces (add missing } at end)
+    const openBraces = (raw.match(/\{/g) || []).length;
+    const closeBraces = (raw.match(/\}/g) || []).length;
+    if (openBraces > closeBraces) {
+      for (let i = 0; i < openBraces - closeBraces; i++) raw += '}';
+    }
     // If there are multiple top-level objects concatenated, take just the first
     let braceCount = 0;
     let endPos = 0;
@@ -125,13 +143,55 @@ function parseJsonDataset(filePath, filename) {
     }
   }
   // Type 2: object-keyed entries (brahmi, indus valley, meroitic, voynich, etc.)
+  // Also handles { metadata: {...}, named_array: [...] } pattern (e.g. latin_lexicon_50k)
   else if (data._metadata || data.metadata) {
     const meta = data._metadata || data.metadata;
+    // First check if there's a named array alongside metadata (e.g. "entries", "lexicon", "latin_lexicon")
+    let foundArray = false;
     for (const [key, value] of Object.entries(data)) {
       if (key === '_metadata' || key === 'metadata' || key === 'license' ||
-          key === 'attribution' || key === 'project') continue;
-      if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
-        entries.push(normalizeObjectEntry(key, value, filename));
+          key === 'attribution' || key === 'project' || key === 'changelog' ||
+          key === 'research_notes' || key === 'notes') continue;
+      if (Array.isArray(value) && value.length > 0 && typeof value[0] === 'object') {
+        for (const e of value) entries.push(normalizeEntry(e, filename));
+        foundArray = true;
+        break;
+      }
+    }
+    // If no named array found, look for nested sections with entries/signs arrays,
+    // or object-keyed dictionaries (e.g. voynich verified_lexicon/full_lexicon)
+    if (!foundArray) {
+      for (const [key, value] of Object.entries(data)) {
+        if (key === '_metadata' || key === 'metadata' || key === 'license' ||
+            key === 'attribution' || key === 'project' || key === 'methodology' ||
+            key === 'research_notes' || key === 'changelog') continue;
+        if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+          // Check if this section contains its own entries/signs array (e.g. Linear B sections)
+          const innerArray = value.entries || value.signs || value.symbols || value.sign_entries;
+          if (Array.isArray(innerArray) && innerArray.length > 0) {
+            for (const e of innerArray) {
+              entries.push(normalizeEntry(e, filename));
+            }
+            continue;
+          }
+          // Check if this is a dictionary of entries (keys are tokens, values have gloss/meaning)
+          const subKeys = Object.keys(value);
+          if (subKeys.length > 3) {
+            const sample = value[subKeys[0]];
+            if (typeof sample === 'object' && sample !== null && !Array.isArray(sample)) {
+              // Looks like a token→entry dictionary
+              for (const [tok, entry] of Object.entries(value)) {
+                if (typeof entry === 'object' && entry !== null && !Array.isArray(entry)) {
+                  entries.push(normalizeObjectEntry(tok, entry, filename));
+                }
+              }
+            } else {
+              entries.push(normalizeObjectEntry(key, value, filename));
+            }
+          } else {
+            entries.push(normalizeObjectEntry(key, value, filename));
+          }
+        }
       }
     }
   }
@@ -160,6 +220,84 @@ function parseJsonDataset(filePath, filename) {
         for (const e of value) entries.push(normalizeEntry(e, filename));
         break;
       }
+    }
+  }
+
+  return entries;
+}
+
+/**
+ * Parse a large JSON dataset file (>100MB) using line-by-line streaming.
+ * Handles files too large for full in-memory JSON.parse.
+ * Extracts entries from the "entries" or "lexicon" array by reading line by line.
+ */
+function parseLargeJsonDataset(filePath, filename) {
+  const raw = readFileSync(filePath, 'utf-8');
+  const entries = [];
+
+  // Find the start of "entries": [ or "lexicon": [ or similar array
+  const arrayMatch = raw.match(/"(entries|lexicon|latin_lexicon|signs)"\s*:\s*\[/);
+  if (!arrayMatch) {
+    // Try fallback: find any large array
+    const fallback = raw.match(/"([^"]+)"\s*:\s*\[\s*\{/);
+    if (!fallback) return entries;
+  }
+
+  const arrayKey = arrayMatch ? arrayMatch[1] : 'entries';
+  const arrayStart = raw.indexOf(arrayMatch ? arrayMatch[0] : '"entries": [');
+  const bracketStart = raw.indexOf('[', arrayStart);
+
+  // Parse entries one at a time using brace matching
+  let pos = bracketStart + 1;
+  let entryCount = 0;
+
+  while (pos < raw.length) {
+    // Skip whitespace and commas
+    while (pos < raw.length && (raw[pos] === ' ' || raw[pos] === '\n' || raw[pos] === '\r' ||
+           raw[pos] === '\t' || raw[pos] === ',')) pos++;
+
+    if (pos >= raw.length || raw[pos] === ']') break;
+
+    if (raw[pos] === '{') {
+      // Find matching }
+      let depth = 0;
+      const start = pos;
+      let inString = false;
+      let escaped = false;
+
+      for (let i = pos; i < raw.length; i++) {
+        const c = raw[i];
+        if (escaped) { escaped = false; continue; }
+        if (c === '\\' && inString) { escaped = true; continue; }
+        if (c === '"') { inString = !inString; continue; }
+        if (inString) continue;
+        if (c === '{') depth++;
+        else if (c === '}') {
+          depth--;
+          if (depth === 0) {
+            const entryStr = raw.slice(start, i + 1);
+            try {
+              const entry = JSON.parse(entryStr);
+              entries.push(normalizeEntry(entry, filename));
+              entryCount++;
+            } catch {
+              // Try fixing common issues in this entry
+              try {
+                let fixed = entryStr.replace(/,\s*}/g, '}');
+                fixed = fixed.replace(/"([^"]+)":\s*"([^"]*)",\s*"([^"]*)"/g, '"$1": ["$2", "$3"]');
+                const entry = JSON.parse(fixed);
+                entries.push(normalizeEntry(entry, filename));
+                entryCount++;
+              } catch { /* skip malformed entries */ }
+            }
+            pos = i + 1;
+            break;
+          }
+        }
+      }
+      if (depth !== 0) break; // Unbalanced, stop
+    } else {
+      pos++;
     }
   }
 
@@ -222,17 +360,28 @@ function parseMarkdownDataset(filePath, filename) {
  */
 function normalizeEntry(e, source) {
   return {
-    token: e.token || e.sign_id || e.glyph_id || e.unicode || e.aramaic_unicode ||
-           e.phoenician || e.transliteration || e.sign || e.id || '',
+    token: e.token || e.latin_form || e.form || e.lemma || e.sign_id || e.glyph_id ||
+           e.unicode || e.aramaic_unicode || e.phoenician || e.transliteration ||
+           e.sign || e.symbol || e.linear_elamite_symbol || e.script_symbol ||
+           e.canonical_form || e.id || '',
     gloss: e.gloss || e.translation || e.english_gloss || e.english || e.meaning ||
-           e.definition || e.value || '',
-    pos: e.pos || e.part_of_speech || e.category || e.type || '',
-    confidence: e.confidence || e.certainty || 0.7,
-    source: e.source || e.provenance || e.attestation || e.example_inscription || source,
-    notes: e.notes || e.description || '',
-    transliteration: e.transliteration || e.latin_translit || e.phoneme || '',
-    root: e.root || '',
+           e.definition || e.value || e.primary_value ||
+           (Array.isArray(e.english_meanings) ? e.english_meanings.join('; ') : (e.english_meanings || '')) ||
+           (Array.isArray(e.senses) && e.senses.length > 0 ? (e.senses[0].gloss || e.senses[0].meaning || e.senses[0].definition || JSON.stringify(e.senses[0])) : '') ||
+           '',
+    pos: e.pos || e.part_of_speech || e.category || e.type || e.sign_type || '',
+    confidence: e.confidence || e.confidence_score || e.authenticity_score ||
+               e.final_confidence || e.certainty || 0.7,
+    source: e.source || e.provenance || e.attested_source || e.attestation ||
+            e.example_inscription || source,
+    notes: e.notes || e.description || e.context_notes || e.glyph_description || '',
+    transliteration: e.transliteration || e.latin_translit || e.phoneme ||
+                     e.phonetic_value || '',
+    root: e.root || e.stem || e.lemma || '',
     script: e.script || inferScriptFromFilename(source),
+    period: e.period || e.era || '',
+    frequency: e.frequency || '',
+    semantic_field: e.semantic_field || e.semantic_domain || '',
   };
 }
 

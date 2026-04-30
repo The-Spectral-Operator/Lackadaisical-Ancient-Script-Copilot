@@ -206,7 +206,7 @@ Import inscriptions into a corpus.
 
 ### GET /api/scripts
 
-List all registered script systems (36 total).
+List all registered script systems (75 total).
 
 ---
 

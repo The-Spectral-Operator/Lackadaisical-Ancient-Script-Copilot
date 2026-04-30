@@ -1,83 +1,20 @@
 {
   "metadata": {
-    "title": "Phaistos Disc Script Lexicon — Lackadaisical Security (Operator) + Spectre",
-    "version": "7.0.2025-08-25",
-    "compiled_date": "2025-08-25T00:00:00Z",
-    "total_glyphs": 45,
-    "id_namespace": "Phaistos Disc PD_### symbolic IDs + project composites",
-    "policy": "Do not list prior JSON filenames as sources; retain only human author attributions found in data or default author if absent.",
-    "authors": [
-      "Lackadaisical Security (The Operator) – Phaistos Disc Research",
-      "Spectre (GPT)",
-	  "Aurora (Sonnet)"
+    "title": "Phaistos Disc Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2025-01-28",
+    "script": "phaistos_disc",
+    "display": "Phaistos Disc",
+    "era": "c. 1700 BCE",
+    "region": "Minoan Crete",
+    "script_type": "Undeciphered (Syllabic/Logographic)",
+    "status": "Experimental decipherment",
+    "total_entries": 45,
+    "methodology": "Universal Methodology v7.0 - eight-script foundation with spiral structure analysis",
+    "sources": [
+      "Lackadaisical Security - Phaistos Disc Research"
     ],
-    "license": {
-      "type": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
-      "short": "CC BY-NC 4.0",
-      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "requirements": [
-        "Attribution required to Lackadaisical Security (Operator) and Spectre/Aurora",
-        "Non-commercial use only unless explicit permission granted",
-        "Forked work must include original metadata block or linked reference"
-      ]
-    },
-    "attribution": {
-      "required": true,
-      "preferred_citation": "Lackadaisical Security (The Operator) & Spectre/Aurora. 'Phaistos Disc Script Lexicon'. 2025-08-25 Release v7.0. https://lackadaisical-security.com/phaistos-disc-research/lexicon.html"
-    },
-    "project": {
-      "phase": "Deciphered - Eight-Script Foundation",
-      "origin": "Unique spiral-inscribed disc from Minoan Crete representing sophisticated administrative record-keeping system. Deciphered using Universal Methodology v7.0 with eight-script foundation, Minoan specialist validation, and revolutionary spiral structure analysis.",
-      "dataset_hash": "QmPhaistosDisc20250825",
-      "origin_notes": "Revolutionary spiral structure clockwise reading methodology. Eight-script foundation validates administrative universals. Complete Minoan palatial context integration. Not derived from third-party closed datasets; full methodology documented publicly.",
-      "historical_context": {
-        "period": "c. 1600 BCE (Middle Minoan III/Late Minoan I)",
-        "region": "Crete, Phaistos Palace",
-        "script_type": "Logographic-Syllabic Administrative - Spiral Structure",
-        "total_signs": 45,
-        "confidence": "98.5%",
-        "status": "Deciphered",
-        "unique_features": "Spiral structure clockwise/counter clockwise reading from center outwards - unique administrative format"
-      }
-    }
-  },
-
-  "methodology": {
-    "description": "Universal Methodology v7.0 combining eight-script foundation with revolutionary spiral structure analysis. Integrates Minoan palatial administrative patterns, Linear A same-civilization bridge, and complete cross-reference validation achieving 98.5% confidence.",
-    "source_policy": "Only human/primary sources, archaeological evidence, and specialist validations retained. Prior JSON filenames removed per Operator request.",
-    "fields": [
-      "symbol",
-      "transliteration",
-      "phonetic_value",
-      "meaning",
-      "semantic_field",
-      "morphology",
-      "frequency",
-      "context",
-      "linear_a_evolution",
-      "confidence",
-      "notes"
-    ],
-      "spiral_structure_methodology": {
-      "reading_direction": "Clockwise spiral from center to outer edge",
-      "spiral_segments": "Inner (authority) → Middle (content) → Outer (validation/closure)",
-      "notes": [
-        "Cluster numbering may be indexed outer→inner (e.g., A1…A31) while reading remains center→outward.",
-        "Clockwise/counterclockwise depends on image orientation; use a fixed reference marker (start gate/entry delimiter) if present."
-      ],
-    },
-  },
-    "eight_script_foundation": {
-      "foundation_scripts": "Eight-script administrative universality validation",
-      "linear_a_bridge": "Same Minoan civilization evolution (Linear A → Phaistos Disc)",
-      "palatial_context": "Phaistos Palace administrative system integration"
-    },
-    "notes": [
-      "Unique spiral-inscribed administrative record from Minoan Crete.",
-      "Revolutionary spiral structure reading methodology completely mastered.",
-      "Eight-script foundation validates cross-cultural administrative patterns.",
-      "Complete Minoan specialist validation achieved."
-    ]
+    "license": "CC BY-NC 4.0"
   },
   "entries": [
     {
@@ -129,7 +66,7 @@
       "frequency": "high",
       "context": "storage container administration, Minoan palatial systems",
       "linear_a_evolution": "LA_vessel → PD_VESSEL (storage continuity)",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "notes": "Storage administration validated through Minoan context"
     },
     {
@@ -347,7 +284,7 @@
       "morphology": "adjective",
       "frequency": "high",
       "context": "accounting formulas, Minoan administrative totals",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "notes": "Accounting formulas validated through Minoan administrative context"
     },
     {
