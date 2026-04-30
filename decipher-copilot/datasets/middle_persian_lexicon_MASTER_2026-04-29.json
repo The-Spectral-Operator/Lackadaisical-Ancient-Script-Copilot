@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "Middle Persian (Pahlavi) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "middle_persian",
+    "display": "Middle Persian (Pahlavi)",
+    "era": "3rd century BCE - 9th century CE",
+    "region": "Sasanian Iran",
+    "script_type": "Abjad (Pahlavi script, Aramaic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 45,
+    "sources": [
+      "MacKenzie - Concise Pahlavi Dictionary",
+      "Nyberg - Manual of Pahlavi"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "middle_persian_0001",
+      "token": "Y",
+      "gloss": "yazd/yazdān - god(s)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0002",
+      "token": "'whrmazd",
+      "gloss": "Ohrmazd - Ahura Mazda",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0003",
+      "token": "'hlmn",
+      "gloss": "Ahreman - Ahriman (evil spirit)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0004",
+      "token": "MNW",
+      "gloss": "kē - who, which (huzvarishn)",
+      "pos": "pronoun",
+      "semantic_field": "relative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0005",
+      "token": "YMRRWN",
+      "gloss": "gōwēd - says (huzvarishn)",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0006",
+      "token": "OD",
+      "gloss": "tā - until (huzvarishn)",
+      "pos": "conjunction",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0007",
+      "token": "MLK'",
+      "gloss": "šāh - king (huzvarishn)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0008",
+      "token": "šāh",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0009",
+      "token": "šāhān šāh",
+      "gloss": "king of kings",
+      "pos": "noun_phrase",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0010",
+      "token": "bānbišn",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0011",
+      "token": "wuzurg",
+      "gloss": "great, noble",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0012",
+      "token": "dahišn",
+      "gloss": "creation",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0013",
+      "token": "gyān",
+      "gloss": "life, soul",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0014",
+      "token": "tan",
+      "gloss": "body",
+      "pos": "noun",
+      "semantic_field": "anatomical",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0015",
+      "token": "ruwān",
+      "gloss": "soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0016",
+      "token": "mēnōg",
+      "gloss": "spiritual (world)",
+      "pos": "noun/adjective",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0017",
+      "token": "gētīg",
+      "gloss": "material (world)",
+      "pos": "noun/adjective",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0018",
+      "token": "dēn",
+      "gloss": "religion, conscience",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0019",
+      "token": "ātaxš",
+      "gloss": "fire",
+      "pos": "noun",
+      "semantic_field": "religious/natural",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0020",
+      "token": "āb",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0021",
+      "token": "zamīg",
+      "gloss": "earth",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0022",
+      "token": "wād",
+      "gloss": "wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0023",
+      "token": "xwaršēd",
+      "gloss": "sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0024",
+      "token": "māh",
+      "gloss": "moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0025",
+      "token": "star",
+      "gloss": "star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0026",
+      "token": "mard",
+      "gloss": "man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0027",
+      "token": "zan",
+      "gloss": "woman, wife",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0028",
+      "token": "pidar",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0029",
+      "token": "mād",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0030",
+      "token": "pus",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0031",
+      "token": "duxt",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0032",
+      "token": "brād",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0033",
+      "token": "xwāhar",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0034",
+      "token": "nēk",
+      "gloss": "good",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0035",
+      "token": "wad",
+      "gloss": "bad, evil",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0036",
+      "token": "rāst",
+      "gloss": "true, right",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0037",
+      "token": "drōzan",
+      "gloss": "liar, false",
+      "pos": "noun/adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0038",
+      "token": "ērānšahr",
+      "gloss": "Iran, realm of Aryans",
+      "pos": "noun",
+      "semantic_field": "geographic/political",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0039",
+      "token": "dādestān",
+      "gloss": "judgment, court",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0040",
+      "token": "xrad",
+      "gloss": "wisdom, reason",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0041",
+      "token": "nāmag",
+      "gloss": "book, letter",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0042",
+      "token": "fradom",
+      "gloss": "first",
+      "pos": "adjective",
+      "semantic_field": "ordinal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0043",
+      "token": "ēk",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0044",
+      "token": "dō",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    },
+    {
+      "entry_id": "middle_persian_0045",
+      "token": "sē",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "MacKenzie - Concise Pahlavi Dictionary"
+    }
+  ]
+}

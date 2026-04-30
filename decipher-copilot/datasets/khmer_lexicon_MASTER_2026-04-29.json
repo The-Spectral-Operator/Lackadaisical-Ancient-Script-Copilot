@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "title": "Khmer (Old Khmer/Angkorian) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "khmer",
+    "display": "Khmer (Old Khmer/Angkorian)",
+    "era": "7th century CE - present",
+    "region": "Cambodia, Southeast Asia",
+    "script_type": "Abugida (Indic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 50,
+    "sources": [
+      "Headley - Cambodian-English Dictionary",
+      "Jenner - Dictionary of Pre-Angkorian Khmer"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "khmer_0001",
+      "token": "ka",
+      "gloss": "ka",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0002",
+      "token": "kha",
+      "gloss": "kha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0003",
+      "token": "ko",
+      "gloss": "ko",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0004",
+      "token": "kho",
+      "gloss": "kho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0005",
+      "token": "ngo",
+      "gloss": "ngo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0006",
+      "token": "cha",
+      "gloss": "cha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0007",
+      "token": "chha",
+      "gloss": "chha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0008",
+      "token": "cho",
+      "gloss": "cho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0009",
+      "token": "chho",
+      "gloss": "chho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0010",
+      "token": "nyo",
+      "gloss": "nyo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0011",
+      "token": "da",
+      "gloss": "da",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0012",
+      "token": "tha",
+      "gloss": "tha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0013",
+      "token": "do",
+      "gloss": "do",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0014",
+      "token": "tho",
+      "gloss": "tho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0015",
+      "token": "no",
+      "gloss": "no",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0016",
+      "token": "ta",
+      "gloss": "ta",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0017",
+      "token": "tha2",
+      "gloss": "tha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0018",
+      "token": "to",
+      "gloss": "to",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0019",
+      "token": "tho2",
+      "gloss": "tho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0020",
+      "token": "no2",
+      "gloss": "no",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0021",
+      "token": "ba",
+      "gloss": "ba",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0022",
+      "token": "pha",
+      "gloss": "pha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0023",
+      "token": "po",
+      "gloss": "po",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0024",
+      "token": "pho",
+      "gloss": "pho",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0025",
+      "token": "mo",
+      "gloss": "mo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0026",
+      "token": "yo",
+      "gloss": "yo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0027",
+      "token": "ro",
+      "gloss": "ro",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0028",
+      "token": "lo",
+      "gloss": "lo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0029",
+      "token": "vo",
+      "gloss": "vo",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0030",
+      "token": "preah",
+      "gloss": "sacred, royal, holy",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0031",
+      "token": "vihear",
+      "gloss": "temple, sanctuary",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0032",
+      "token": "sdech",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0033",
+      "token": "neang",
+      "gloss": "queen, lady",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0034",
+      "token": "mnus",
+      "gloss": "person, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0035",
+      "token": "proh",
+      "gloss": "man, male",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0036",
+      "token": "srey",
+      "gloss": "woman, female",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0037",
+      "token": "owpuk",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0038",
+      "token": "mdai",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0039",
+      "token": "koun",
+      "gloss": "child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0040",
+      "token": "bong",
+      "gloss": "older sibling",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0041",
+      "token": "tuk",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0042",
+      "token": "phleung",
+      "gloss": "fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0043",
+      "token": "khyol",
+      "gloss": "wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0044",
+      "token": "dei",
+      "gloss": "earth, ground",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0045",
+      "token": "phnom",
+      "gloss": "mountain, hill",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0046",
+      "token": "tonle",
+      "gloss": "river, lake",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0047",
+      "token": "samut",
+      "gloss": "sea, ocean",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0048",
+      "token": "muoy",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0049",
+      "token": "pi",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    },
+    {
+      "entry_id": "khmer_0050",
+      "token": "bei",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Headley - Cambodian-English Dictionary"
+    }
+  ]
+}

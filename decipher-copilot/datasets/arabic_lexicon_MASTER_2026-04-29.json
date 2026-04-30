@@ -1,0 +1,994 @@
+{
+  "metadata": {
+    "title": "Arabic Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "arabic",
+    "display": "Arabic",
+    "era": "4th century CE - present",
+    "region": "Middle East, North Africa, Global",
+    "script_type": "Abjad (consonantal alphabet)",
+    "status": "Fully Deciphered",
+    "total_entries": 108,
+    "sources": [
+      "Hans Wehr - Arabic-English Dictionary",
+      "Lane - Arabic-English Lexicon",
+      "Cowan - Modern Literary Arabic"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "arabic_0001",
+      "token": "ا",
+      "gloss": "alif (glottal stop/long ā)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0002",
+      "token": "ب",
+      "gloss": "bā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0003",
+      "token": "ت",
+      "gloss": "tā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0004",
+      "token": "ث",
+      "gloss": "thā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0005",
+      "token": "ج",
+      "gloss": "jīm",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0006",
+      "token": "ح",
+      "gloss": "ḥā' (pharyngeal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0007",
+      "token": "خ",
+      "gloss": "khā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0008",
+      "token": "د",
+      "gloss": "dāl",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0009",
+      "token": "ذ",
+      "gloss": "dhāl",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0010",
+      "token": "ر",
+      "gloss": "rā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0011",
+      "token": "ز",
+      "gloss": "zāy",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0012",
+      "token": "س",
+      "gloss": "sīn",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0013",
+      "token": "ش",
+      "gloss": "shīn",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0014",
+      "token": "ص",
+      "gloss": "ṣād (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0015",
+      "token": "ض",
+      "gloss": "ḍād (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0016",
+      "token": "ط",
+      "gloss": "ṭā' (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0017",
+      "token": "ظ",
+      "gloss": "ẓā' (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0018",
+      "token": "ع",
+      "gloss": "'ayn (pharyngeal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0019",
+      "token": "غ",
+      "gloss": "ghayn",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0020",
+      "token": "ف",
+      "gloss": "fā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0021",
+      "token": "ق",
+      "gloss": "qāf (uvular)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0022",
+      "token": "ك",
+      "gloss": "kāf",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0023",
+      "token": "ل",
+      "gloss": "lām",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0024",
+      "token": "م",
+      "gloss": "mīm",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0025",
+      "token": "ن",
+      "gloss": "nūn",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0026",
+      "token": "ه",
+      "gloss": "hā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0027",
+      "token": "و",
+      "gloss": "wāw",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0028",
+      "token": "ي",
+      "gloss": "yā'",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0029",
+      "token": "الله",
+      "gloss": "Allāh - God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0030",
+      "token": "رسول",
+      "gloss": "rasūl - messenger, prophet",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0031",
+      "token": "قرآن",
+      "gloss": "qur'ān - recitation, the Quran",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0032",
+      "token": "إسلام",
+      "gloss": "islām - submission (to God)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0033",
+      "token": "إيمان",
+      "gloss": "īmān - faith, belief",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0034",
+      "token": "صلاة",
+      "gloss": "ṣalāt - prayer",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0035",
+      "token": "زكاة",
+      "gloss": "zakāt - alms, charity",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0036",
+      "token": "صوم",
+      "gloss": "ṣawm - fasting",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0037",
+      "token": "حج",
+      "gloss": "ḥajj - pilgrimage",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0038",
+      "token": "مسجد",
+      "gloss": "masjid - mosque (place of prostration)",
+      "pos": "noun",
+      "semantic_field": "religious/architecture",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0039",
+      "token": "كتاب",
+      "gloss": "kitāb - book",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0040",
+      "token": "علم",
+      "gloss": "'ilm - knowledge, science",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0041",
+      "token": "حكمة",
+      "gloss": "ḥikma - wisdom",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0042",
+      "token": "قلم",
+      "gloss": "qalam - pen, reed",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0043",
+      "token": "كلمة",
+      "gloss": "kalima - word",
+      "pos": "noun",
+      "semantic_field": "linguistic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0044",
+      "token": "لغة",
+      "gloss": "lugha - language",
+      "pos": "noun",
+      "semantic_field": "linguistic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0045",
+      "token": "حقّ",
+      "gloss": "ḥaqq - truth, right, reality",
+      "pos": "noun",
+      "semantic_field": "philosophical/legal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0046",
+      "token": "عدل",
+      "gloss": "'adl - justice",
+      "pos": "noun",
+      "semantic_field": "legal/moral",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0047",
+      "token": "سلام",
+      "gloss": "salām - peace",
+      "pos": "noun",
+      "semantic_field": "social/greeting",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0048",
+      "token": "حبّ",
+      "gloss": "ḥubb - love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0049",
+      "token": "قلب",
+      "gloss": "qalb - heart",
+      "pos": "noun",
+      "semantic_field": "anatomical/emotional",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0050",
+      "token": "روح",
+      "gloss": "rūḥ - spirit, soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0051",
+      "token": "عقل",
+      "gloss": "'aql - reason, intellect",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0052",
+      "token": "نفس",
+      "gloss": "nafs - self, soul, breath",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0053",
+      "token": "حياة",
+      "gloss": "ḥayāt - life",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0054",
+      "token": "موت",
+      "gloss": "mawt - death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0055",
+      "token": "ملك",
+      "gloss": "malik - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0056",
+      "token": "سلطان",
+      "gloss": "sulṭān - sultan, authority",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0057",
+      "token": "خليفة",
+      "gloss": "khalīfa - caliph, successor",
+      "pos": "noun",
+      "semantic_field": "political/religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0058",
+      "token": "أمير",
+      "gloss": "amīr - commander, prince",
+      "pos": "noun",
+      "semantic_field": "political/military",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0059",
+      "token": "وزير",
+      "gloss": "wazīr - vizier, minister",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0060",
+      "token": "قاضي",
+      "gloss": "qāḍī - judge",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0061",
+      "token": "شريعة",
+      "gloss": "sharī'a - Islamic law, path",
+      "pos": "noun",
+      "semantic_field": "legal/religious",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0062",
+      "token": "أب",
+      "gloss": "ab - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0063",
+      "token": "أم",
+      "gloss": "umm - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0064",
+      "token": "ابن",
+      "gloss": "ibn - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0065",
+      "token": "بنت",
+      "gloss": "bint - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0066",
+      "token": "أخ",
+      "gloss": "akh - brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0067",
+      "token": "أخت",
+      "gloss": "ukht - sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0068",
+      "token": "رجل",
+      "gloss": "rajul - man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0069",
+      "token": "امرأة",
+      "gloss": "imra'a - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0070",
+      "token": "بيت",
+      "gloss": "bayt - house, family",
+      "pos": "noun",
+      "semantic_field": "domestic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0071",
+      "token": "مدينة",
+      "gloss": "madīna - city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0072",
+      "token": "بحر",
+      "gloss": "baḥr - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0073",
+      "token": "جبل",
+      "gloss": "jabal - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0074",
+      "token": "نهر",
+      "gloss": "nahr - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0075",
+      "token": "صحراء",
+      "gloss": "ṣaḥrā' - desert",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0076",
+      "token": "شمس",
+      "gloss": "shams - sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0077",
+      "token": "قمر",
+      "gloss": "qamar - moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0078",
+      "token": "نجم",
+      "gloss": "najm - star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0079",
+      "token": "ماء",
+      "gloss": "mā' - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0080",
+      "token": "نار",
+      "gloss": "nār - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0081",
+      "token": "أرض",
+      "gloss": "arḍ - earth, land",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0082",
+      "token": "سماء",
+      "gloss": "samā' - sky, heaven",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0083",
+      "token": "ريح",
+      "gloss": "rīḥ - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0084",
+      "token": "يوم",
+      "gloss": "yawm - day",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0085",
+      "token": "ليل",
+      "gloss": "layl - night",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0086",
+      "token": "سنة",
+      "gloss": "sana - year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0087",
+      "token": "واحد",
+      "gloss": "wāḥid - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0088",
+      "token": "اثنان",
+      "gloss": "ithnān - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0089",
+      "token": "ثلاثة",
+      "gloss": "thalātha - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0090",
+      "token": "أربعة",
+      "gloss": "arba'a - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0091",
+      "token": "خمسة",
+      "gloss": "khamsa - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0092",
+      "token": "عشرة",
+      "gloss": "'ashara - ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0093",
+      "token": "مئة",
+      "gloss": "mi'a - hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0094",
+      "token": "ألف",
+      "gloss": "alf - thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0095",
+      "token": "كتب",
+      "gloss": "kataba - he wrote",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0096",
+      "token": "قرأ",
+      "gloss": "qara'a - he read/recited",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0097",
+      "token": "علم",
+      "gloss": "'alima - he knew",
+      "pos": "verb",
+      "semantic_field": "cognitive",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0098",
+      "token": "قال",
+      "gloss": "qāla - he said",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0099",
+      "token": "ذهب",
+      "gloss": "dhahaba - he went",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0100",
+      "token": "جاء",
+      "gloss": "jā'a - he came",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0101",
+      "token": "أكل",
+      "gloss": "akala - he ate",
+      "pos": "verb",
+      "semantic_field": "sustenance",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0102",
+      "token": "شرب",
+      "gloss": "shariba - he drank",
+      "pos": "verb",
+      "semantic_field": "sustenance",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0103",
+      "token": "كبير",
+      "gloss": "kabīr - big, great",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0104",
+      "token": "صغير",
+      "gloss": "ṣaghīr - small",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0105",
+      "token": "جديد",
+      "gloss": "jadīd - new",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0106",
+      "token": "قديم",
+      "gloss": "qadīm - old, ancient",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0107",
+      "token": "جميل",
+      "gloss": "jamīl - beautiful",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    },
+    {
+      "entry_id": "arabic_0108",
+      "token": "صحيح",
+      "gloss": "ṣaḥīḥ - correct, authentic",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Hans Wehr - Arabic-English Dictionary"
+    }
+  ]
+}

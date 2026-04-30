@@ -1,6 +1,9 @@
 node_modules/
 dist/
 build/
+
+# Large unzipped datasets (keep .zip in repo, unzip locally)
+datasets/latin_lexicon_enhanced_2025.json
 data/databases/*.db
 data/databases/*.db-wal
 data/databases/*.db-shm

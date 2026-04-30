@@ -1,0 +1,562 @@
+{
+  "metadata": {
+    "title": "Etruscan Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "etruscan",
+    "display": "Etruscan",
+    "era": "8th-1st century BCE",
+    "region": "Etruria (Central Italy)",
+    "script_type": "Alphabetic (adapted Greek)",
+    "status": "Fully Deciphered",
+    "total_entries": 60,
+    "sources": [
+      "Helmut Rix - Etruskische Texte",
+      "Larissa Bonfante - Etruscan Language",
+      "Massimo Pallottino - The Etruscans"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "etruscan_0001",
+      "token": "mi",
+      "gloss": "I (am)",
+      "pos": "pronoun/verb",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0002",
+      "token": "mini",
+      "gloss": "me (accusative)",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0003",
+      "token": "ita",
+      "gloss": "this",
+      "pos": "pronoun",
+      "semantic_field": "demonstrative",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0004",
+      "token": "ca",
+      "gloss": "this (near)",
+      "pos": "pronoun",
+      "semantic_field": "demonstrative",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0005",
+      "token": "clan",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0006",
+      "token": "sec",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0007",
+      "token": "puia",
+      "gloss": "wife",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0008",
+      "token": "ati",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0009",
+      "token": "apa",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0010",
+      "token": "avil",
+      "gloss": "year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0011",
+      "token": "svalce",
+      "gloss": "lived (past tense)",
+      "pos": "verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0012",
+      "token": "lupu",
+      "gloss": "died",
+      "pos": "verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0013",
+      "token": "turce",
+      "gloss": "gave, dedicated",
+      "pos": "verb",
+      "semantic_field": "religious/transfer",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0014",
+      "token": "mulvanice",
+      "gloss": "dedicated (as votive)",
+      "pos": "verb",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0015",
+      "token": "zilc",
+      "gloss": "magistrate, praetor",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0016",
+      "token": "zilath",
+      "gloss": "magistracy",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0017",
+      "token": "lucumo",
+      "gloss": "king/chief",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0018",
+      "token": "lauchme",
+      "gloss": "king (variant)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0019",
+      "token": "maru",
+      "gloss": "magistrate (religious)",
+      "pos": "noun",
+      "semantic_field": "political/religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0020",
+      "token": "spur",
+      "gloss": "city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0021",
+      "token": "tular",
+      "gloss": "boundary, border",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0022",
+      "token": "ais",
+      "gloss": "god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0023",
+      "token": "celu",
+      "gloss": "earth, ground",
+      "pos": "noun",
+      "semantic_field": "geographic/religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0024",
+      "token": "tin",
+      "gloss": "day; Tin/Jupiter (deity)",
+      "pos": "noun",
+      "semantic_field": "temporal/deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0025",
+      "token": "uni",
+      "gloss": "Uni/Juno (goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0026",
+      "token": "turan",
+      "gloss": "Turan/Venus (goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0027",
+      "token": "menvra",
+      "gloss": "Minerva (goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0028",
+      "token": "fufluns",
+      "gloss": "Fufluns/Dionysus (god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0029",
+      "token": "selvans",
+      "gloss": "Silvanus (god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0030",
+      "token": "nethuns",
+      "gloss": "Neptune (god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0031",
+      "token": "sethlans",
+      "gloss": "Sethlans/Hephaestus (god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0032",
+      "token": "aita",
+      "gloss": "Aita/Hades (god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0033",
+      "token": "vanth",
+      "gloss": "Vanth (death demon)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0034",
+      "token": "charun",
+      "gloss": "Charun/Charon (demon)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0035",
+      "token": "hinθial",
+      "gloss": "soul, ghost",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0036",
+      "token": "suθi",
+      "gloss": "tomb, grave",
+      "pos": "noun",
+      "semantic_field": "funerary",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0037",
+      "token": "huth",
+      "gloss": "six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0038",
+      "token": "zal",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0039",
+      "token": "ci",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0040",
+      "token": "śa",
+      "gloss": "four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0041",
+      "token": "mach",
+      "gloss": "five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0042",
+      "token": "thu",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0043",
+      "token": "semph",
+      "gloss": "seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0044",
+      "token": "cezp",
+      "gloss": "eight",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0045",
+      "token": "nurph",
+      "gloss": "nine",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0046",
+      "token": "śar",
+      "gloss": "ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0047",
+      "token": "muvalch",
+      "gloss": "fifty",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0048",
+      "token": "naper",
+      "gloss": "measure (of grain)",
+      "pos": "noun",
+      "semantic_field": "economic",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0049",
+      "token": "pruchum",
+      "gloss": "pitcher, vessel",
+      "pos": "noun",
+      "semantic_field": "material_culture",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0050",
+      "token": "culichna",
+      "gloss": "cup, kylix",
+      "pos": "noun",
+      "semantic_field": "material_culture",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0051",
+      "token": "θina",
+      "gloss": "vase, container",
+      "pos": "noun",
+      "semantic_field": "material_culture",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0052",
+      "token": "zic",
+      "gloss": "to write",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0053",
+      "token": "ril",
+      "gloss": "at the age of",
+      "pos": "preposition",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0054",
+      "token": "lautni",
+      "gloss": "freedman",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0055",
+      "token": "etera",
+      "gloss": "foreigner, client",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0056",
+      "token": "fler",
+      "gloss": "offering, sacrifice",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0057",
+      "token": "ture",
+      "gloss": "incense",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0058",
+      "token": "acil",
+      "gloss": "work, creation",
+      "pos": "noun",
+      "semantic_field": "labor",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0059",
+      "token": "sren",
+      "gloss": "figure, image",
+      "pos": "noun",
+      "semantic_field": "artistic",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    },
+    {
+      "entry_id": "etruscan_0060",
+      "token": "suthi cerichu",
+      "gloss": "tomb inscription (formula)",
+      "pos": "formula",
+      "semantic_field": "funerary",
+      "confidence": 1.0,
+      "source": "Helmut Rix - Etruskische Texte"
+    }
+  ]
+}

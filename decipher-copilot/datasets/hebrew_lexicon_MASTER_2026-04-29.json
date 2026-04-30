@@ -1,0 +1,985 @@
+{
+  "metadata": {
+    "title": "Hebrew (Biblical/Classical) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "hebrew",
+    "display": "Hebrew (Biblical/Classical)",
+    "era": "10th century BCE - present",
+    "region": "Ancient Israel/Judah, Diaspora",
+    "script_type": "Abjad (consonantal)",
+    "status": "Fully Deciphered",
+    "total_entries": 107,
+    "sources": [
+      "Brown-Driver-Briggs Hebrew Lexicon",
+      "Gesenius Hebrew Grammar",
+      "Koehler-Baumgartner HALOT"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "hebrew_0001",
+      "token": "א",
+      "gloss": "aleph (glottal stop)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0002",
+      "token": "ב",
+      "gloss": "bet",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0003",
+      "token": "ג",
+      "gloss": "gimel",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0004",
+      "token": "ד",
+      "gloss": "dalet",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0005",
+      "token": "ה",
+      "gloss": "he",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0006",
+      "token": "ו",
+      "gloss": "vav",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0007",
+      "token": "ז",
+      "gloss": "zayin",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0008",
+      "token": "ח",
+      "gloss": "chet (pharyngeal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0009",
+      "token": "ט",
+      "gloss": "tet (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0010",
+      "token": "י",
+      "gloss": "yod",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0011",
+      "token": "כ",
+      "gloss": "kaf",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0012",
+      "token": "ל",
+      "gloss": "lamed",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0013",
+      "token": "מ",
+      "gloss": "mem",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0014",
+      "token": "נ",
+      "gloss": "nun",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0015",
+      "token": "ס",
+      "gloss": "samekh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0016",
+      "token": "ע",
+      "gloss": "ayin (pharyngeal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0017",
+      "token": "פ",
+      "gloss": "pe",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0018",
+      "token": "צ",
+      "gloss": "tsade (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0019",
+      "token": "ק",
+      "gloss": "qof (uvular)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0020",
+      "token": "ר",
+      "gloss": "resh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0021",
+      "token": "ש",
+      "gloss": "shin/sin",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0022",
+      "token": "ת",
+      "gloss": "tav",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0023",
+      "token": "יהוה",
+      "gloss": "YHWH - the Lord (Tetragrammaton)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0024",
+      "token": "אלהים",
+      "gloss": "Elohim - God/gods",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0025",
+      "token": "אדני",
+      "gloss": "Adonai - my Lord",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0026",
+      "token": "אל",
+      "gloss": "El - God, deity",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0027",
+      "token": "שדי",
+      "gloss": "Shaddai - Almighty",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0028",
+      "token": "בראשית",
+      "gloss": "bereshit - in the beginning",
+      "pos": "phrase",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0029",
+      "token": "תורה",
+      "gloss": "torah - law, instruction, teaching",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0030",
+      "token": "מצוה",
+      "gloss": "mitzvah - commandment",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0031",
+      "token": "ברית",
+      "gloss": "berit - covenant",
+      "pos": "noun",
+      "semantic_field": "religious/legal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0032",
+      "token": "קדוש",
+      "gloss": "qadosh - holy, sacred",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0033",
+      "token": "שבת",
+      "gloss": "shabbat - sabbath, rest",
+      "pos": "noun",
+      "semantic_field": "religious/temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0034",
+      "token": "שלום",
+      "gloss": "shalom - peace, wholeness",
+      "pos": "noun",
+      "semantic_field": "social/spiritual",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0035",
+      "token": "אמת",
+      "gloss": "emet - truth",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0036",
+      "token": "חסד",
+      "gloss": "chesed - lovingkindness, mercy",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0037",
+      "token": "צדק",
+      "gloss": "tsedeq - righteousness, justice",
+      "pos": "noun",
+      "semantic_field": "moral/legal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0038",
+      "token": "משפט",
+      "gloss": "mishpat - judgment, justice",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0039",
+      "token": "חכמה",
+      "gloss": "chokmah - wisdom",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0040",
+      "token": "דעת",
+      "gloss": "da'at - knowledge",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0041",
+      "token": "בינה",
+      "gloss": "binah - understanding",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0042",
+      "token": "נפש",
+      "gloss": "nefesh - soul, life, breath",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0043",
+      "token": "רוח",
+      "gloss": "ruach - spirit, wind, breath",
+      "pos": "noun",
+      "semantic_field": "philosophical/natural",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0044",
+      "token": "לב",
+      "gloss": "lev - heart, mind",
+      "pos": "noun",
+      "semantic_field": "anatomical/emotional",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0045",
+      "token": "מלך",
+      "gloss": "melekh - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0046",
+      "token": "כהן",
+      "gloss": "kohen - priest",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0047",
+      "token": "נביא",
+      "gloss": "navi - prophet",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0048",
+      "token": "עם",
+      "gloss": "am - people, nation",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0049",
+      "token": "גוי",
+      "gloss": "goy - nation, gentile",
+      "pos": "noun",
+      "semantic_field": "political/ethnic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0050",
+      "token": "ארץ",
+      "gloss": "eretz - land, earth",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0051",
+      "token": "שמים",
+      "gloss": "shamayim - heavens, sky",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0052",
+      "token": "ים",
+      "gloss": "yam - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0053",
+      "token": "הר",
+      "gloss": "har - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0054",
+      "token": "נהר",
+      "gloss": "nahar - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0055",
+      "token": "מדבר",
+      "gloss": "midbar - wilderness, desert",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0056",
+      "token": "עיר",
+      "gloss": "ir - city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0057",
+      "token": "בית",
+      "gloss": "bayit - house",
+      "pos": "noun",
+      "semantic_field": "domestic",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0058",
+      "token": "היכל",
+      "gloss": "heikhal - temple, palace",
+      "pos": "noun",
+      "semantic_field": "religious/architecture",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0059",
+      "token": "אב",
+      "gloss": "av - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0060",
+      "token": "אם",
+      "gloss": "em - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0061",
+      "token": "בן",
+      "gloss": "ben - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0062",
+      "token": "בת",
+      "gloss": "bat - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0063",
+      "token": "אח",
+      "gloss": "ach - brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0064",
+      "token": "אחות",
+      "gloss": "achot - sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0065",
+      "token": "איש",
+      "gloss": "ish - man, husband",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0066",
+      "token": "אשה",
+      "gloss": "ishah - woman, wife",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0067",
+      "token": "אדם",
+      "gloss": "adam - human, Adam",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0068",
+      "token": "חיים",
+      "gloss": "chayyim - life (plural of intensity)",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0069",
+      "token": "מות",
+      "gloss": "mavet - death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0070",
+      "token": "יום",
+      "gloss": "yom - day",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0071",
+      "token": "לילה",
+      "gloss": "lailah - night",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0072",
+      "token": "שנה",
+      "gloss": "shanah - year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0073",
+      "token": "מים",
+      "gloss": "mayim - water (dual)",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0074",
+      "token": "אש",
+      "gloss": "esh - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0075",
+      "token": "אור",
+      "gloss": "or - light",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0076",
+      "token": "חשך",
+      "gloss": "choshekh - darkness",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0077",
+      "token": "אחד",
+      "gloss": "echad - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0078",
+      "token": "שנים",
+      "gloss": "shnayim - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0079",
+      "token": "שלוש",
+      "gloss": "shalosh - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0080",
+      "token": "ארבע",
+      "gloss": "arba - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0081",
+      "token": "חמש",
+      "gloss": "chamesh - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0082",
+      "token": "שש",
+      "gloss": "shesh - six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0083",
+      "token": "שבע",
+      "gloss": "sheva - seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0084",
+      "token": "עשר",
+      "gloss": "eser - ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0085",
+      "token": "מאה",
+      "gloss": "me'ah - hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0086",
+      "token": "אלף",
+      "gloss": "elef - thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0087",
+      "token": "אמר",
+      "gloss": "amar - to say",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0088",
+      "token": "דבר",
+      "gloss": "davar/diber - word/to speak",
+      "pos": "noun/verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0089",
+      "token": "ידע",
+      "gloss": "yada - to know",
+      "pos": "verb",
+      "semantic_field": "cognitive",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0090",
+      "token": "ראה",
+      "gloss": "ra'ah - to see",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0091",
+      "token": "שמע",
+      "gloss": "shama - to hear, obey",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0092",
+      "token": "הלך",
+      "gloss": "halakh - to go, walk",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0093",
+      "token": "בוא",
+      "gloss": "bo - to come, enter",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0094",
+      "token": "נתן",
+      "gloss": "natan - to give",
+      "pos": "verb",
+      "semantic_field": "transfer",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0095",
+      "token": "עשה",
+      "gloss": "asah - to do, make",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0096",
+      "token": "כתב",
+      "gloss": "katav - to write",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0097",
+      "token": "קרא",
+      "gloss": "qara - to call, read",
+      "pos": "verb",
+      "semantic_field": "communication/literary",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0098",
+      "token": "ברך",
+      "gloss": "barakh - to bless",
+      "pos": "verb",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0099",
+      "token": "שמר",
+      "gloss": "shamar - to keep, guard",
+      "pos": "verb",
+      "semantic_field": "protection",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0100",
+      "token": "עבד",
+      "gloss": "avad - to serve, work",
+      "pos": "verb",
+      "semantic_field": "labor/religious",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0101",
+      "token": "טוב",
+      "gloss": "tov - good",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0102",
+      "token": "רע",
+      "gloss": "ra - evil, bad",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0103",
+      "token": "גדול",
+      "gloss": "gadol - great, large",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0104",
+      "token": "קטן",
+      "gloss": "qatan - small",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0105",
+      "token": "חדש",
+      "gloss": "chadash - new",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0106",
+      "token": "ישן",
+      "gloss": "yashan - old",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    },
+    {
+      "entry_id": "hebrew_0107",
+      "token": "חי",
+      "gloss": "chai - alive, living",
+      "pos": "adjective",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Brown-Driver-Briggs Hebrew Lexicon"
+    }
+  ]
+}

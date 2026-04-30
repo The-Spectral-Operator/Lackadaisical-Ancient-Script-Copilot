@@ -1,0 +1,976 @@
+{
+  "metadata": {
+    "title": "Chinese (Classical/Oracle Bone to Literary) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "chinese_classical",
+    "display": "Chinese (Classical/Oracle Bone to Literary)",
+    "era": "14th century BCE - present",
+    "region": "China, East Asia",
+    "script_type": "Logographic",
+    "status": "Fully Deciphered",
+    "total_entries": 106,
+    "sources": [
+      "Shuowen Jiezi (Xu Shen, 100 CE)",
+      "Kangxi Dictionary",
+      "Mathews Chinese-English Dictionary"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "chinese_classical_0001",
+      "token": "甲骨文",
+      "gloss": "jiǎgǔwén - oracle bone script",
+      "pos": "noun",
+      "semantic_field": "writing_system",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0002",
+      "token": "卜",
+      "gloss": "bǔ - to divine, divination",
+      "pos": "verb/noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0003",
+      "token": "吉",
+      "gloss": "jí - auspicious, good fortune",
+      "pos": "adjective",
+      "semantic_field": "divination",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0004",
+      "token": "凶",
+      "gloss": "xiōng - inauspicious, bad fortune",
+      "pos": "adjective",
+      "semantic_field": "divination",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0005",
+      "token": "王",
+      "gloss": "wáng - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0006",
+      "token": "帝",
+      "gloss": "dì - supreme deity, emperor",
+      "pos": "noun",
+      "semantic_field": "political/religious",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0007",
+      "token": "天",
+      "gloss": "tiān - heaven, sky",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0008",
+      "token": "地",
+      "gloss": "dì - earth, ground",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0009",
+      "token": "日",
+      "gloss": "rì - sun, day",
+      "pos": "noun",
+      "semantic_field": "celestial/temporal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0010",
+      "token": "月",
+      "gloss": "yuè - moon, month",
+      "pos": "noun",
+      "semantic_field": "celestial/temporal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0011",
+      "token": "星",
+      "gloss": "xīng - star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0012",
+      "token": "山",
+      "gloss": "shān - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0013",
+      "token": "水",
+      "gloss": "shuǐ - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0014",
+      "token": "火",
+      "gloss": "huǒ - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0015",
+      "token": "木",
+      "gloss": "mù - tree, wood",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0016",
+      "token": "金",
+      "gloss": "jīn - gold, metal",
+      "pos": "noun",
+      "semantic_field": "material",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0017",
+      "token": "土",
+      "gloss": "tǔ - earth, soil",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0018",
+      "token": "人",
+      "gloss": "rén - person, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0019",
+      "token": "大",
+      "gloss": "dà - big, great",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0020",
+      "token": "小",
+      "gloss": "xiǎo - small",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0021",
+      "token": "上",
+      "gloss": "shàng - above, up",
+      "pos": "positional",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0022",
+      "token": "下",
+      "gloss": "xià - below, down",
+      "pos": "positional",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0023",
+      "token": "中",
+      "gloss": "zhōng - middle, center, China",
+      "pos": "positional/noun",
+      "semantic_field": "spatial/geographic",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0024",
+      "token": "一",
+      "gloss": "yī - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0025",
+      "token": "二",
+      "gloss": "èr - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0026",
+      "token": "三",
+      "gloss": "sān - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0027",
+      "token": "四",
+      "gloss": "sì - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0028",
+      "token": "五",
+      "gloss": "wǔ - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0029",
+      "token": "六",
+      "gloss": "liù - six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0030",
+      "token": "七",
+      "gloss": "qī - seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0031",
+      "token": "八",
+      "gloss": "bā - eight",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0032",
+      "token": "九",
+      "gloss": "jiǔ - nine",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0033",
+      "token": "十",
+      "gloss": "shí - ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0034",
+      "token": "百",
+      "gloss": "bǎi - hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0035",
+      "token": "千",
+      "gloss": "qiān - thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0036",
+      "token": "萬",
+      "gloss": "wàn - ten thousand, myriad",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0037",
+      "token": "龍",
+      "gloss": "lóng - dragon",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0038",
+      "token": "鳳",
+      "gloss": "fèng - phoenix",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0039",
+      "token": "龜",
+      "gloss": "guī - turtle (used in divination)",
+      "pos": "noun",
+      "semantic_field": "animal/religious",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0040",
+      "token": "馬",
+      "gloss": "mǎ - horse",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0041",
+      "token": "牛",
+      "gloss": "niú - ox, cow",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0042",
+      "token": "羊",
+      "gloss": "yáng - sheep, goat",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0043",
+      "token": "犬",
+      "gloss": "quǎn - dog",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0044",
+      "token": "鳥",
+      "gloss": "niǎo - bird",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0045",
+      "token": "魚",
+      "gloss": "yú - fish",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0046",
+      "token": "父",
+      "gloss": "fù - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0047",
+      "token": "母",
+      "gloss": "mǔ - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0048",
+      "token": "子",
+      "gloss": "zǐ - son, child, master (honorific)",
+      "pos": "noun",
+      "semantic_field": "kinship/honorific",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0049",
+      "token": "女",
+      "gloss": "nǚ - woman, daughter",
+      "pos": "noun",
+      "semantic_field": "anthropological/kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0050",
+      "token": "兄",
+      "gloss": "xiōng - elder brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0051",
+      "token": "弟",
+      "gloss": "dì - younger brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0052",
+      "token": "夫",
+      "gloss": "fū - husband, man",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0053",
+      "token": "妻",
+      "gloss": "qī - wife",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0054",
+      "token": "祖",
+      "gloss": "zǔ - ancestor, grandfather",
+      "pos": "noun",
+      "semantic_field": "kinship/religious",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0055",
+      "token": "道",
+      "gloss": "dào - way, path, Tao",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0056",
+      "token": "德",
+      "gloss": "dé - virtue, power",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0057",
+      "token": "仁",
+      "gloss": "rén - benevolence, humaneness",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0058",
+      "token": "義",
+      "gloss": "yì - righteousness, justice",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0059",
+      "token": "禮",
+      "gloss": "lǐ - ritual, propriety",
+      "pos": "noun",
+      "semantic_field": "philosophical/religious",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0060",
+      "token": "智",
+      "gloss": "zhì - wisdom",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0061",
+      "token": "信",
+      "gloss": "xìn - trust, faith",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0062",
+      "token": "忠",
+      "gloss": "zhōng - loyalty",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0063",
+      "token": "孝",
+      "gloss": "xiào - filial piety",
+      "pos": "noun",
+      "semantic_field": "moral/kinship",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0064",
+      "token": "氣",
+      "gloss": "qì - breath, vital energy, spirit",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0065",
+      "token": "陰",
+      "gloss": "yīn - yin (dark, feminine, passive)",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0066",
+      "token": "陽",
+      "gloss": "yáng - yang (light, masculine, active)",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0067",
+      "token": "命",
+      "gloss": "mìng - fate, life, mandate",
+      "pos": "noun",
+      "semantic_field": "philosophical/political",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0068",
+      "token": "心",
+      "gloss": "xīn - heart, mind",
+      "pos": "noun",
+      "semantic_field": "anatomical/philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0069",
+      "token": "言",
+      "gloss": "yán - speech, word",
+      "pos": "noun",
+      "semantic_field": "linguistic",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0070",
+      "token": "文",
+      "gloss": "wén - writing, culture, pattern",
+      "pos": "noun",
+      "semantic_field": "literary/cultural",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0071",
+      "token": "書",
+      "gloss": "shū - book, to write",
+      "pos": "noun/verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0072",
+      "token": "學",
+      "gloss": "xué - to study, learning",
+      "pos": "verb/noun",
+      "semantic_field": "education",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0073",
+      "token": "國",
+      "gloss": "guó - country, state",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0074",
+      "token": "民",
+      "gloss": "mín - people, citizens",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0075",
+      "token": "軍",
+      "gloss": "jūn - army",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0076",
+      "token": "戰",
+      "gloss": "zhàn - war, battle",
+      "pos": "noun/verb",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0077",
+      "token": "法",
+      "gloss": "fǎ - law, method, dharma",
+      "pos": "noun",
+      "semantic_field": "legal/philosophical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0078",
+      "token": "刑",
+      "gloss": "xíng - punishment",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0079",
+      "token": "年",
+      "gloss": "nián - year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0080",
+      "token": "春",
+      "gloss": "chūn - spring",
+      "pos": "noun",
+      "semantic_field": "seasonal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0081",
+      "token": "夏",
+      "gloss": "xià - summer; Xia dynasty",
+      "pos": "noun",
+      "semantic_field": "seasonal/historical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0082",
+      "token": "秋",
+      "gloss": "qiū - autumn",
+      "pos": "noun",
+      "semantic_field": "seasonal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0083",
+      "token": "冬",
+      "gloss": "dōng - winter",
+      "pos": "noun",
+      "semantic_field": "seasonal",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0084",
+      "token": "生",
+      "gloss": "shēng - life, to be born, to grow",
+      "pos": "noun/verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0085",
+      "token": "死",
+      "gloss": "sǐ - death, to die",
+      "pos": "noun/verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0086",
+      "token": "食",
+      "gloss": "shí - food, to eat",
+      "pos": "noun/verb",
+      "semantic_field": "sustenance",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0087",
+      "token": "酒",
+      "gloss": "jiǔ - wine, alcohol",
+      "pos": "noun",
+      "semantic_field": "food/culture",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0088",
+      "token": "田",
+      "gloss": "tián - field",
+      "pos": "noun",
+      "semantic_field": "agricultural",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0089",
+      "token": "禾",
+      "gloss": "hé - grain, cereal",
+      "pos": "noun",
+      "semantic_field": "agricultural",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0090",
+      "token": "車",
+      "gloss": "chē - chariot, vehicle",
+      "pos": "noun",
+      "semantic_field": "military/transport",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0091",
+      "token": "弓",
+      "gloss": "gōng - bow (weapon)",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0092",
+      "token": "劍",
+      "gloss": "jiàn - sword",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0093",
+      "token": "玉",
+      "gloss": "yù - jade",
+      "pos": "noun",
+      "semantic_field": "material/cultural",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0094",
+      "token": "鼎",
+      "gloss": "dǐng - tripod cauldron (ritual vessel)",
+      "pos": "noun",
+      "semantic_field": "religious/material",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0095",
+      "token": "樂",
+      "gloss": "yuè/lè - music/joy",
+      "pos": "noun",
+      "semantic_field": "artistic/emotional",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0096",
+      "token": "詩",
+      "gloss": "shī - poetry",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0097",
+      "token": "河",
+      "gloss": "hé - river (Yellow River)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0098",
+      "token": "海",
+      "gloss": "hǎi - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0099",
+      "token": "風",
+      "gloss": "fēng - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0100",
+      "token": "雨",
+      "gloss": "yǔ - rain",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0101",
+      "token": "雪",
+      "gloss": "xuě - snow",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0102",
+      "token": "花",
+      "gloss": "huā - flower",
+      "pos": "noun",
+      "semantic_field": "botanical",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0103",
+      "token": "白",
+      "gloss": "bái - white",
+      "pos": "adjective",
+      "semantic_field": "color",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0104",
+      "token": "黑",
+      "gloss": "hēi - black",
+      "pos": "adjective",
+      "semantic_field": "color",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0105",
+      "token": "紅",
+      "gloss": "hóng - red",
+      "pos": "adjective",
+      "semantic_field": "color",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    },
+    {
+      "entry_id": "chinese_classical_0106",
+      "token": "黃",
+      "gloss": "huáng - yellow (imperial color)",
+      "pos": "adjective",
+      "semantic_field": "color",
+      "confidence": 1.0,
+      "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+    }
+  ]
+}

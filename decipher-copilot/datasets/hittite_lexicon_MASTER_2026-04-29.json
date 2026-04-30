@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "title": "Hittite Cuneiform Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "hittite",
+    "display": "Hittite Cuneiform",
+    "era": "17th-12th century BCE",
+    "region": "Anatolia (modern Turkey)",
+    "script_type": "Cuneiform (Syllabic-Logographic)",
+    "status": "Fully Deciphered",
+    "total_entries": 71,
+    "sources": [
+      "Johannes Friedrich - Hethitisches Wörterbuch",
+      "Harry Hoffner & Craig Melchert - Grammar of the Hittite Language",
+      "Chicago Hittite Dictionary"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "hittite_0001",
+      "token": "watar",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0002",
+      "token": "pahhur",
+      "gloss": "fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0003",
+      "token": "tekan",
+      "gloss": "earth, ground",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0004",
+      "token": "nepis",
+      "gloss": "sky, heaven",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0005",
+      "token": "hassu",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0006",
+      "token": "hassussar",
+      "gloss": "kingship",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0007",
+      "token": "MUNUS.LUGAL",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0008",
+      "token": "antuhsas",
+      "gloss": "human, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0009",
+      "token": "LÚ",
+      "gloss": "man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0010",
+      "token": "SAL",
+      "gloss": "woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0011",
+      "token": "attas",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0012",
+      "token": "annas",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0013",
+      "token": "DUMU",
+      "gloss": "son, child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0014",
+      "token": "DUMU.SAL",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0015",
+      "token": "ses",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0016",
+      "token": "NIN",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0017",
+      "token": "DAM",
+      "gloss": "wife/spouse",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0018",
+      "token": "istanzana",
+      "gloss": "soul, mind",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0019",
+      "token": "wassiya",
+      "gloss": "to clothe",
+      "pos": "verb",
+      "semantic_field": "material",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0020",
+      "token": "ed-/ad-",
+      "gloss": "to eat",
+      "pos": "verb",
+      "semantic_field": "sustenance",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0021",
+      "token": "aku-",
+      "gloss": "to drink",
+      "pos": "verb",
+      "semantic_field": "sustenance",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0022",
+      "token": "pahs-",
+      "gloss": "to protect, guard",
+      "pos": "verb",
+      "semantic_field": "authority",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0023",
+      "token": "kuen-",
+      "gloss": "to kill, strike",
+      "pos": "verb",
+      "semantic_field": "violence",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0024",
+      "token": "dai-",
+      "gloss": "to put, place",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0025",
+      "token": "iya-",
+      "gloss": "to do, make",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0026",
+      "token": "ep-/app-",
+      "gloss": "to take, seize",
+      "pos": "verb",
+      "semantic_field": "acquisition",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0027",
+      "token": "pai-",
+      "gloss": "to go",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0028",
+      "token": "uwa-",
+      "gloss": "to come",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0029",
+      "token": "tiya-",
+      "gloss": "to stand, step",
+      "pos": "verb",
+      "semantic_field": "position",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0030",
+      "token": "es-/as-",
+      "gloss": "to be, sit",
+      "pos": "verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0031",
+      "token": "hark-",
+      "gloss": "to have, hold",
+      "pos": "verb",
+      "semantic_field": "possession",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0032",
+      "token": "tar-",
+      "gloss": "to say, speak",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0033",
+      "token": "sak-/sekk-",
+      "gloss": "to know",
+      "pos": "verb",
+      "semantic_field": "cognitive",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0034",
+      "token": "nah-",
+      "gloss": "to fear, respect",
+      "pos": "verb",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0035",
+      "token": "assu",
+      "gloss": "good",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0036",
+      "token": "idalu",
+      "gloss": "bad, evil",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0037",
+      "token": "sallis",
+      "gloss": "great, large",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0038",
+      "token": "suppis",
+      "gloss": "pure, sacred",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0039",
+      "token": "DINGIR",
+      "gloss": "god, deity",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0040",
+      "token": "sius",
+      "gloss": "god (Hittite native)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0041",
+      "token": "DINGIR.MEŠ",
+      "gloss": "gods (plural)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0042",
+      "token": "Tarhunna",
+      "gloss": "Storm God (chief deity)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0043",
+      "token": "Arinna",
+      "gloss": "Sun Goddess of Arinna",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0044",
+      "token": "Telipinu",
+      "gloss": "Telipinu (vegetation god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0045",
+      "token": "Kamrusepa",
+      "gloss": "Kamrusepa (healing goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0046",
+      "token": "EZEN",
+      "gloss": "festival, feast",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0047",
+      "token": "arkuwar",
+      "gloss": "prayer, plea",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0048",
+      "token": "huwaši",
+      "gloss": "sacred stele",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0049",
+      "token": "para handandatar",
+      "gloss": "divine providence",
+      "pos": "noun_phrase",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0050",
+      "token": "ishiul",
+      "gloss": "treaty, bond, obligation",
+      "pos": "noun",
+      "semantic_field": "political/legal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0051",
+      "token": "hulla-",
+      "gloss": "to defeat, destroy",
+      "pos": "verb",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0052",
+      "token": "sahhan",
+      "gloss": "feudal obligation",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0053",
+      "token": "luzzi",
+      "gloss": "corvée labor",
+      "pos": "noun",
+      "semantic_field": "political/economic",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0054",
+      "token": "pankus",
+      "gloss": "assembly (of nobles)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0055",
+      "token": "É.GAL",
+      "gloss": "palace",
+      "pos": "noun",
+      "semantic_field": "architecture",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0056",
+      "token": "URU",
+      "gloss": "city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0057",
+      "token": "KUR",
+      "gloss": "land, country",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0058",
+      "token": "Hattusa",
+      "gloss": "Hattusa (capital)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0059",
+      "token": "tuzzi",
+      "gloss": "army, camp",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0060",
+      "token": "GIŠ.TUKUL",
+      "gloss": "weapon",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0061",
+      "token": "ishā",
+      "gloss": "lord, master",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0062",
+      "token": "arahzena",
+      "gloss": "neighboring, bordering",
+      "pos": "adjective",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0063",
+      "token": "huitar",
+      "gloss": "wildlife, animals",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0064",
+      "token": "GU₄",
+      "gloss": "ox",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0065",
+      "token": "UDU",
+      "gloss": "sheep",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0066",
+      "token": "GIŠ",
+      "gloss": "tree, wood",
+      "pos": "noun",
+      "semantic_field": "botanical",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0067",
+      "token": "halki",
+      "gloss": "grain, barley",
+      "pos": "noun",
+      "semantic_field": "agricultural",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0068",
+      "token": "wiyana",
+      "gloss": "wine",
+      "pos": "noun",
+      "semantic_field": "food/culture",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0069",
+      "token": "1-as",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0070",
+      "token": "2-as",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    },
+    {
+      "entry_id": "hittite_0071",
+      "token": "3-as",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+    }
+  ]
+}

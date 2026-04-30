@@ -1,15 +1,31 @@
 /**
  * Dataset importer: parses the various dataset file structures from the datasets/ folder.
  * Handles JSON with different schemas and CSV files, normalizing them into lexicon entries.
+ * Also handles .zip files containing JSON datasets (unzips to same directory on import).
  */
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, extname, basename } from 'node:path';
+import { execSync } from 'node:child_process';
 
 /**
  * Import all datasets from the datasets directory.
  * Returns normalized entries grouped by script.
  */
 export function importAllDatasets(datasetsDir) {
+  // Auto-unzip any .zip files that have matching .json not yet extracted
+  const allFiles = readdirSync(datasetsDir);
+  for (const file of allFiles) {
+    if (extname(file).toLowerCase() === '.zip') {
+      const jsonName = file.replace(/\.zip$/, '.json');
+      const jsonPath = join(datasetsDir, jsonName);
+      if (!existsSync(jsonPath)) {
+        try {
+          execSync(`unzip -o "${join(datasetsDir, file)}" -d "${datasetsDir}"`, { stdio: 'pipe' });
+        } catch { /* ignore unzip failures */ }
+      }
+    }
+  }
+
   const files = readdirSync(datasetsDir).filter(f => f !== '.gitkeep');
   const results = [];
 

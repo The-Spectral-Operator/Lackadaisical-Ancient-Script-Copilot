@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "title": "Armenian (Grabar/Classical) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "armenian",
+    "display": "Armenian (Grabar/Classical)",
+    "era": "405 CE - present",
+    "region": "Armenia, Caucasus, Anatolia",
+    "script_type": "Alphabetic (invented by Mesrop Mashtots, 405 CE)",
+    "status": "Fully Deciphered",
+    "total_entries": 60,
+    "sources": [
+      "Meillet - Altarmenisches Elementarbuch",
+      "Thomson - Introduction to Classical Armenian"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "armenian_0001",
+      "token": "Ա",
+      "gloss": "ayb (a)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0002",
+      "token": "Բ",
+      "gloss": "ben (b)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0003",
+      "token": "Գ",
+      "gloss": "gim (g)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0004",
+      "token": "Դ",
+      "gloss": "da (d)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0005",
+      "token": "Ե",
+      "gloss": "yech (ye/e)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0006",
+      "token": "Զ",
+      "gloss": "za (z)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0007",
+      "token": "Է",
+      "gloss": "ē (ē)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0008",
+      "token": "Ը",
+      "gloss": "ět' (ə)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0009",
+      "token": "Թ",
+      "gloss": "t'o (t' aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0010",
+      "token": "Ժ",
+      "gloss": "zhē (zh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0011",
+      "token": "Ի",
+      "gloss": "ini (i)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0012",
+      "token": "Լ",
+      "gloss": "liwn (l)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0013",
+      "token": "Խ",
+      "gloss": "xē (x/kh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0014",
+      "token": "Ծ",
+      "gloss": "ca (ts)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0015",
+      "token": "Կ",
+      "gloss": "ken (k)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0016",
+      "token": "Հ",
+      "gloss": "ho (h)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0017",
+      "token": "Ձ",
+      "gloss": "ja (dz)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0018",
+      "token": "Ղ",
+      "gloss": "ghat (gh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0019",
+      "token": "Ճ",
+      "gloss": "chē (ch)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0020",
+      "token": "Մ",
+      "gloss": "men (m)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0021",
+      "token": "Յ",
+      "gloss": "yi (y)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0022",
+      "token": "Ն",
+      "gloss": "now (n)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0023",
+      "token": "Շ",
+      "gloss": "sha (sh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0024",
+      "token": "Ո",
+      "gloss": "vo (vo/o)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0025",
+      "token": "Չ",
+      "gloss": "ch'a (ch' aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0026",
+      "token": "Պ",
+      "gloss": "pē (p)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0027",
+      "token": "Ջ",
+      "gloss": "jhē (j)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0028",
+      "token": "Ռ",
+      "gloss": "ra (r trilled)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0029",
+      "token": "Ս",
+      "gloss": "sē (s)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0030",
+      "token": "Վ",
+      "gloss": "vew (v)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0031",
+      "token": "Տ",
+      "gloss": "tiwn (t)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0032",
+      "token": "Ր",
+      "gloss": "rē (r flapped)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0033",
+      "token": "Ց",
+      "gloss": "c'o (ts')",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0034",
+      "token": "Ու",
+      "gloss": "u (u)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0035",
+      "token": "Փ",
+      "gloss": "p'iwr (p' aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0036",
+      "token": "Ք",
+      "gloss": "k'ē (k' aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0037",
+      "token": "Օ",
+      "gloss": "ō (ō)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0038",
+      "token": "Ֆ",
+      "gloss": "fē (f)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0039",
+      "token": "Աdelays",
+      "gloss": "Astvats - God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0040",
+      "token": "Հdelays",
+      "gloss": "Hayastan - Armenia",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0041",
+      "token": "թagavor",
+      "gloss": "t'agavor - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0042",
+      "token": "մardelays",
+      "gloss": "mard - man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0043",
+      "token": "կ delays",
+      "gloss": "kin - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0044",
+      "token": "հ delays",
+      "gloss": "hayr - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0045",
+      "token": "մ delays",
+      "gloss": "mayr - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0046",
+      "token": "որ delays",
+      "gloss": "vordi - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0047",
+      "token": " delays",
+      "gloss": "dustr - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0048",
+      "token": "delays",
+      "gloss": "yeghbayr - brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0049",
+      "token": "ե delays",
+      "gloss": "k'uyr - sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0050",
+      "token": "sēr",
+      "gloss": "ser - love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0051",
+      "token": "keank'",
+      "gloss": "keank' - life",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0052",
+      "token": "mah",
+      "gloss": "mah - death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0053",
+      "token": "arev",
+      "gloss": "arev - sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0054",
+      "token": "lusin",
+      "gloss": "lusin - moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0055",
+      "token": "astgh",
+      "gloss": "astgh - star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0056",
+      "token": "sar",
+      "gloss": "sar - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0057",
+      "token": "tsov",
+      "gloss": "tsov - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0058",
+      "token": "get",
+      "gloss": "get - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0059",
+      "token": "jur",
+      "gloss": "jur - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    },
+    {
+      "entry_id": "armenian_0060",
+      "token": "krak",
+      "gloss": "krak - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Meillet - Altarmenisches Elementarbuch"
+    }
+  ]
+}

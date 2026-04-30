@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "title": "Tibetan Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "tibetan",
+    "display": "Tibetan",
+    "era": "7th century CE - present",
+    "region": "Tibet, Himalayan Region, Mongolia",
+    "script_type": "Abugida (Indic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 69,
+    "sources": [
+      "Jäschke - Tibetan-English Dictionary",
+      "Goldstein - Tibetan-English Dictionary of Modern Tibetan"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "tibetan_0001",
+      "token": "ཀ",
+      "gloss": "ka",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0002",
+      "token": "ཁ",
+      "gloss": "kha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0003",
+      "token": "ག",
+      "gloss": "ga",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0004",
+      "token": "ང",
+      "gloss": "nga (velar nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0005",
+      "token": "ཅ",
+      "gloss": "ca",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0006",
+      "token": "ཆ",
+      "gloss": "cha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0007",
+      "token": "ཇ",
+      "gloss": "ja",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0008",
+      "token": "ཉ",
+      "gloss": "nya (palatal nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0009",
+      "token": "ཏ",
+      "gloss": "ta",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0010",
+      "token": "ཐ",
+      "gloss": "tha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0011",
+      "token": "ད",
+      "gloss": "da",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0012",
+      "token": "ན",
+      "gloss": "na (dental nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0013",
+      "token": "པ",
+      "gloss": "pa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0014",
+      "token": "ཕ",
+      "gloss": "pha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0015",
+      "token": "བ",
+      "gloss": "ba",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0016",
+      "token": "མ",
+      "gloss": "ma (bilabial nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0017",
+      "token": "ཙ",
+      "gloss": "tsa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0018",
+      "token": "ཚ",
+      "gloss": "tsha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0019",
+      "token": "ཛ",
+      "gloss": "dza",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0020",
+      "token": "ཝ",
+      "gloss": "wa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0021",
+      "token": "ཞ",
+      "gloss": "zha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0022",
+      "token": "ཟ",
+      "gloss": "za",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0023",
+      "token": "འ",
+      "gloss": "'a (glottal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0024",
+      "token": "ཡ",
+      "gloss": "ya",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0025",
+      "token": "ར",
+      "gloss": "ra",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0026",
+      "token": "ལ",
+      "gloss": "la",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0027",
+      "token": "ཤ",
+      "gloss": "sha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0028",
+      "token": "ས",
+      "gloss": "sa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0029",
+      "token": "ཧ",
+      "gloss": "ha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0030",
+      "token": "ཨ",
+      "gloss": "a (vowel carrier)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0031",
+      "token": "སངས་རྒྱས",
+      "gloss": "sangs rgyas - Buddha (awakened one)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0032",
+      "token": "ཆོས",
+      "gloss": "chos - dharma, teaching, truth",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0033",
+      "token": "དགེ་འདུན",
+      "gloss": "dge 'dun - sangha, community",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0034",
+      "token": "བླ་མ",
+      "gloss": "bla ma - lama, guru",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0035",
+      "token": "རིན་པོ་ཆེ",
+      "gloss": "rin po che - precious one (honorific)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0036",
+      "token": "སྤྱན་རས་གཟིགས",
+      "gloss": "spyan ras gzigs - Avalokiteshvara (compassion)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0037",
+      "token": "འཇམ་དཔལ",
+      "gloss": "'jam dpal - Manjushri (wisdom)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0038",
+      "token": "སྒྲོལ་མ",
+      "gloss": "sgrol ma - Tara (savioress)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0039",
+      "token": "བྱང་ཆུབ",
+      "gloss": "byang chub - bodhi, enlightenment",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0040",
+      "token": "སྟོང་པ་ཉིད",
+      "gloss": "stong pa nyid - emptiness (śūnyatā)",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0041",
+      "token": "སྙིང་རྗེ",
+      "gloss": "snying rje - compassion",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0042",
+      "token": "ཤེས་རབ",
+      "gloss": "shes rab - wisdom (prajñā)",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0043",
+      "token": "བསམ་གཏན",
+      "gloss": "bsam gtan - meditation (dhyāna)",
+      "pos": "noun",
+      "semantic_field": "practice",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0044",
+      "token": "མཁའ",
+      "gloss": "mkha' - sky, space",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0045",
+      "token": "ས",
+      "gloss": "sa - earth, ground",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0046",
+      "token": "མེ",
+      "gloss": "me - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0047",
+      "token": "ཆུ",
+      "gloss": "chu - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0048",
+      "token": "རླུང",
+      "gloss": "rlung - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0049",
+      "token": "རི",
+      "gloss": "ri - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0050",
+      "token": "མཚོ",
+      "gloss": "mtsho - lake",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0051",
+      "token": "ཀླུང",
+      "gloss": "klung - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0052",
+      "token": "རྒྱལ་པོ",
+      "gloss": "rgyal po - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0053",
+      "token": "བཙུན་མོ",
+      "gloss": "btsun mo - queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0054",
+      "token": "དཔོན",
+      "gloss": "dpon - chief, lord",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0055",
+      "token": "མི",
+      "gloss": "mi - person, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0056",
+      "token": "ཕ",
+      "gloss": "pha - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0057",
+      "token": "མ",
+      "gloss": "ma - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0058",
+      "token": "བུ",
+      "gloss": "bu - son, child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0059",
+      "token": "བུ་མོ",
+      "gloss": "bu mo - daughter, girl",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0060",
+      "token": "གཅིག",
+      "gloss": "gcig - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0061",
+      "token": "གཉིས",
+      "gloss": "gnyis - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0062",
+      "token": "གསུམ",
+      "gloss": "gsum - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0063",
+      "token": "བཞི",
+      "gloss": "bzhi - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0064",
+      "token": "ལྔ",
+      "gloss": "lnga - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0065",
+      "token": "དྲུག",
+      "gloss": "drug - six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0066",
+      "token": "བདུན",
+      "gloss": "bdun - seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0067",
+      "token": "བརྒྱད",
+      "gloss": "brgyad - eight",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0068",
+      "token": "དགུ",
+      "gloss": "dgu - nine",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    },
+    {
+      "entry_id": "tibetan_0069",
+      "token": "བཅུ",
+      "gloss": "bcu - ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Jäschke - Tibetan-English Dictionary"
+    }
+  ]
+}

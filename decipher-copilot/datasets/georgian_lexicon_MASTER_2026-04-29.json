@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "title": "Georgian (Mkhedruli) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "georgian",
+    "display": "Georgian (Mkhedruli)",
+    "era": "5th century CE - present (Mkhedruli); 3rd century BCE (Asomtavruli)",
+    "region": "Georgia (Caucasus)",
+    "script_type": "Alphabetic (unique, non-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 60,
+    "sources": [
+      "Aronson - Georgian: A Reading Grammar",
+      "Hewitt - Georgian: A Structural Reference Grammar"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "georgian_0001",
+      "token": "ა",
+      "gloss": "ani (a)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0002",
+      "token": "ბ",
+      "gloss": "bani (b)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0003",
+      "token": "გ",
+      "gloss": "gani (g)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0004",
+      "token": "დ",
+      "gloss": "doni (d)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0005",
+      "token": "ე",
+      "gloss": "eni (e)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0006",
+      "token": "ვ",
+      "gloss": "vini (v)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0007",
+      "token": "ზ",
+      "gloss": "zeni (z)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0008",
+      "token": "თ",
+      "gloss": "tani (t aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0009",
+      "token": "ი",
+      "gloss": "ini (i)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0010",
+      "token": "კ",
+      "gloss": "kani (k ejective)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0011",
+      "token": "ლ",
+      "gloss": "lasi (l)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0012",
+      "token": "მ",
+      "gloss": "mani (m)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0013",
+      "token": "ნ",
+      "gloss": "nari (n)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0014",
+      "token": "ო",
+      "gloss": "oni (o)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0015",
+      "token": "პ",
+      "gloss": "pari (p ejective)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0016",
+      "token": "ჟ",
+      "gloss": "zhani (zh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0017",
+      "token": "რ",
+      "gloss": "rae (r)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0018",
+      "token": "ს",
+      "gloss": "sani (s)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0019",
+      "token": "ტ",
+      "gloss": "tari (t ejective)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0020",
+      "token": "უ",
+      "gloss": "uni (u)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0021",
+      "token": "ფ",
+      "gloss": "pari (p aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0022",
+      "token": "ქ",
+      "gloss": "kani (k aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0023",
+      "token": "ღ",
+      "gloss": "ghani (gh uvular)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0024",
+      "token": "ყ",
+      "gloss": "qari (q ejective uvular)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0025",
+      "token": "შ",
+      "gloss": "shini (sh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0026",
+      "token": "ჩ",
+      "gloss": "chini (ch aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0027",
+      "token": "ც",
+      "gloss": "tsani (ts aspirated)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0028",
+      "token": "ძ",
+      "gloss": "dzili (dz)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0029",
+      "token": "წ",
+      "gloss": "tsili (ts ejective)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0030",
+      "token": "ჭ",
+      "gloss": "chari (ch ejective)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0031",
+      "token": "ხ",
+      "gloss": "khani (kh)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0032",
+      "token": "ჯ",
+      "gloss": "jani (j)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0033",
+      "token": "ჰ",
+      "gloss": "hae (h)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0034",
+      "token": "საქართველო",
+      "gloss": "sakartvelo - Georgia (self-name)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0035",
+      "token": "ღმერთი",
+      "gloss": "ghmerti - God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0036",
+      "token": "მეფე",
+      "gloss": "mepe - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0037",
+      "token": "დედოფალი",
+      "gloss": "dedopali - queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0038",
+      "token": "ქვეყანა",
+      "gloss": "kveqana - country, world",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0039",
+      "token": "ადამიანი",
+      "gloss": "adamiani - human being",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0040",
+      "token": "კაცი",
+      "gloss": "katsi - man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0041",
+      "token": "ქალი",
+      "gloss": "kali - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0042",
+      "token": "მამა",
+      "gloss": "mama - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0043",
+      "token": "დედა",
+      "gloss": "deda - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0044",
+      "token": "შვილი",
+      "gloss": "shvili - child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0045",
+      "token": "ძმა",
+      "gloss": "dzma - brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0046",
+      "token": "და",
+      "gloss": "da - sister; and",
+      "pos": "noun/conjunction",
+      "semantic_field": "kinship/connective",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0047",
+      "token": "სიყვარული",
+      "gloss": "siqvaruli - love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0048",
+      "token": "სიცოცხლე",
+      "gloss": "sitsotskhle - life",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0049",
+      "token": "სიკვდილი",
+      "gloss": "sikvdili - death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0050",
+      "token": "მზე",
+      "gloss": "mze - sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0051",
+      "token": "მთვარე",
+      "gloss": "mtvare - moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0052",
+      "token": "ვარსკვლავი",
+      "gloss": "varskvlavi - star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0053",
+      "token": "მთა",
+      "gloss": "mta - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0054",
+      "token": "ზღვა",
+      "gloss": "zghva - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0055",
+      "token": "მდინარე",
+      "gloss": "mdinare - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0056",
+      "token": "წყალი",
+      "gloss": "tsqali - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0057",
+      "token": "ცეცხლი",
+      "gloss": "tsetskhli - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0058",
+      "token": "ქარი",
+      "gloss": "kari - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0059",
+      "token": "ღვინო",
+      "gloss": "ghvino - wine",
+      "pos": "noun",
+      "semantic_field": "food/culture",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    },
+    {
+      "entry_id": "georgian_0060",
+      "token": "პური",
+      "gloss": "puri - bread",
+      "pos": "noun",
+      "semantic_field": "food",
+      "confidence": 1.0,
+      "source": "Aronson - Georgian: A Reading Grammar"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "title": "Avestan Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "avestan",
+    "display": "Avestan",
+    "era": "c. 1500-500 BCE (oral); 3rd-7th century CE (written)",
+    "region": "Greater Iran / Central Asia",
+    "script_type": "Alphabetic (Avestan script from Pahlavi)",
+    "status": "Fully Deciphered",
+    "total_entries": 65,
+    "sources": [
+      "Bartholomae - Altiranisches Wörterbuch",
+      "Kellens & Pirart - Les textes vieil-avestiques"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "avestan_0001",
+      "token": "𐬀",
+      "gloss": "a",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0002",
+      "token": "𐬁",
+      "gloss": "ā",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0003",
+      "token": "𐬂",
+      "gloss": "å",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0004",
+      "token": "𐬃",
+      "gloss": "ā̊",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0005",
+      "token": "𐬄",
+      "gloss": "ą",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0006",
+      "token": "𐬅",
+      "gloss": "ą̇",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0007",
+      "token": "𐬆",
+      "gloss": "ə",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0008",
+      "token": "𐬇",
+      "gloss": "ə̄",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0009",
+      "token": "𐬈",
+      "gloss": "e",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0010",
+      "token": "𐬉",
+      "gloss": "ē",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0011",
+      "token": "𐬊",
+      "gloss": "o",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0012",
+      "token": "𐬋",
+      "gloss": "ō",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0013",
+      "token": "𐬌",
+      "gloss": "i",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0014",
+      "token": "𐬍",
+      "gloss": "ī",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0015",
+      "token": "𐬎",
+      "gloss": "u",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0016",
+      "token": "𐬏",
+      "gloss": "ū",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0017",
+      "token": "𐬐",
+      "gloss": "k",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0018",
+      "token": "𐬑",
+      "gloss": "x",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0019",
+      "token": "𐬒",
+      "gloss": "x́",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0020",
+      "token": "𐬓",
+      "gloss": "xᵛ",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0021",
+      "token": "𐬔",
+      "gloss": "g",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0022",
+      "token": "𐬕",
+      "gloss": "ġ",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0023",
+      "token": "𐬖",
+      "gloss": "γ",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0024",
+      "token": "𐬗",
+      "gloss": "c",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0025",
+      "token": "𐬘",
+      "gloss": "j",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0026",
+      "token": "𐬙",
+      "gloss": "t",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0027",
+      "token": "𐬚",
+      "gloss": "ϑ",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0028",
+      "token": "𐬛",
+      "gloss": "d",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0029",
+      "token": "𐬜",
+      "gloss": "δ",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0030",
+      "token": "ahura",
+      "gloss": "lord, divine being",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0031",
+      "token": "mazdā",
+      "gloss": "wisdom (Ahura Mazda)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0032",
+      "token": "Ahura Mazdā",
+      "gloss": "Wise Lord (supreme deity)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0033",
+      "token": "Zaraθuštra",
+      "gloss": "Zarathustra (prophet)",
+      "pos": "noun",
+      "semantic_field": "personal_name",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0034",
+      "token": "aṣ̌a",
+      "gloss": "truth, cosmic order (Asha)",
+      "pos": "noun",
+      "semantic_field": "philosophical/religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0035",
+      "token": "druj",
+      "gloss": "lie, falsehood, chaos",
+      "pos": "noun",
+      "semantic_field": "philosophical/religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0036",
+      "token": "vohu manah",
+      "gloss": "good mind/thought",
+      "pos": "noun_phrase",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0037",
+      "token": "xšaθra",
+      "gloss": "power, kingdom, dominion",
+      "pos": "noun",
+      "semantic_field": "political/religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0038",
+      "token": "spənta",
+      "gloss": "holy, bounteous, increasing",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0039",
+      "token": "mainyu",
+      "gloss": "spirit, mentality",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0040",
+      "token": "Angra Mainyu",
+      "gloss": "destructive spirit (Ahriman)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0041",
+      "token": "Spənta Mainyu",
+      "gloss": "holy/bounteous spirit",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0042",
+      "token": "ameṣ̌a spənta",
+      "gloss": "immortal holy ones (archangels)",
+      "pos": "noun_phrase",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0043",
+      "token": "yazata",
+      "gloss": "worthy of worship (angel)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0044",
+      "token": "daēva",
+      "gloss": "demon (false god)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0045",
+      "token": "gāθā",
+      "gloss": "hymn, song (Gathas of Zarathustra)",
+      "pos": "noun",
+      "semantic_field": "literary/religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0046",
+      "token": "yasna",
+      "gloss": "worship, sacrifice (liturgy)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0047",
+      "token": "haoma",
+      "gloss": "sacred plant/ritual drink",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0048",
+      "token": "ātar",
+      "gloss": "fire (sacred)",
+      "pos": "noun",
+      "semantic_field": "religious/natural",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0049",
+      "token": "ap",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0050",
+      "token": "zam",
+      "gloss": "earth",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0051",
+      "token": "vāta",
+      "gloss": "wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0052",
+      "token": "hvar",
+      "gloss": "sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0053",
+      "token": "māh",
+      "gloss": "moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0054",
+      "token": "star",
+      "gloss": "star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0055",
+      "token": "nar",
+      "gloss": "man, hero",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0056",
+      "token": "gənā",
+      "gloss": "woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0057",
+      "token": "pitar",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0058",
+      "token": "mātar",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0059",
+      "token": "puθra",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0060",
+      "token": "duγδar",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0061",
+      "token": "brātar",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0062",
+      "token": "uruuan",
+      "gloss": "soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0063",
+      "token": "cinuuant",
+      "gloss": "bridge (of judgment - Chinvat)",
+      "pos": "noun",
+      "semantic_field": "eschatological",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0064",
+      "token": "frashokereti",
+      "gloss": "final renovation (end times)",
+      "pos": "noun",
+      "semantic_field": "eschatological",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    },
+    {
+      "entry_id": "avestan_0065",
+      "token": "ušta",
+      "gloss": "happiness, bliss",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Bartholomae - Altiranisches Wörterbuch"
+    }
+  ]
+}

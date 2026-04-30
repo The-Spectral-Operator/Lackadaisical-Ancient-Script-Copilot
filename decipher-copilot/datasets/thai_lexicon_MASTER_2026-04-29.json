@@ -1,0 +1,534 @@
+{
+  "metadata": {
+    "title": "Thai Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "thai",
+    "display": "Thai",
+    "era": "1283 CE (Ram Khamhaeng inscription) - present",
+    "region": "Thailand, Southeast Asia",
+    "script_type": "Abugida (Indic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 57,
+    "sources": [
+      "Haas - Thai-English Student's Dictionary",
+      "Ram Khamhaeng Inscription (1283 CE)"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "thai_0001",
+      "token": "ก",
+      "gloss": "ko kai (k)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0002",
+      "token": "ข",
+      "gloss": "kho khai (kh)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0003",
+      "token": "ค",
+      "gloss": "kho khwai (kh)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0004",
+      "token": "ง",
+      "gloss": "ngo ngu (ng)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0005",
+      "token": "จ",
+      "gloss": "cho chan (ch)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0006",
+      "token": "ฉ",
+      "gloss": "cho ching (ch)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0007",
+      "token": "ช",
+      "gloss": "cho chang (ch)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0008",
+      "token": "ซ",
+      "gloss": "so so (s)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0009",
+      "token": "ด",
+      "gloss": "do chada (d)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0010",
+      "token": "ต",
+      "gloss": "to tao (t)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0011",
+      "token": "ถ",
+      "gloss": "tho thung (th)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0012",
+      "token": "ท",
+      "gloss": "tho thahan (th)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0013",
+      "token": "น",
+      "gloss": "no nu (n)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0014",
+      "token": "บ",
+      "gloss": "bo baimai (b)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0015",
+      "token": "ป",
+      "gloss": "po pla (p)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0016",
+      "token": "ผ",
+      "gloss": "pho phueng (ph)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0017",
+      "token": "พ",
+      "gloss": "pho phan (ph)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0018",
+      "token": "ฟ",
+      "gloss": "fo fan (f)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0019",
+      "token": "ม",
+      "gloss": "mo ma (m)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0020",
+      "token": "ย",
+      "gloss": "yo yak (y)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0021",
+      "token": "ร",
+      "gloss": "ro ruea (r)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0022",
+      "token": "ล",
+      "gloss": "lo ling (l)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0023",
+      "token": "ว",
+      "gloss": "wo waen (w)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0024",
+      "token": "ส",
+      "gloss": "so suea (s)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0025",
+      "token": "ห",
+      "gloss": "ho hip (h)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0026",
+      "token": "อ",
+      "gloss": "o ang (glottal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0027",
+      "token": "พระ",
+      "gloss": "phra - monk, holy, royal prefix",
+      "pos": "noun/prefix",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0028",
+      "token": "ธรรม",
+      "gloss": "tham - dharma, teachings",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0029",
+      "token": "พุทธ",
+      "gloss": "phut - Buddha",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0030",
+      "token": "วัด",
+      "gloss": "wat - temple, monastery",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0031",
+      "token": "กษัตริย์",
+      "gloss": "kasat - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0032",
+      "token": "เจ้า",
+      "gloss": "chao - lord, prince",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0033",
+      "token": "คน",
+      "gloss": "khon - person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0034",
+      "token": "ผู้ชาย",
+      "gloss": "phu chai - man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0035",
+      "token": "ผู้หญิง",
+      "gloss": "phu ying - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0036",
+      "token": "พ่อ",
+      "gloss": "pho - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0037",
+      "token": "แม่",
+      "gloss": "mae - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0038",
+      "token": "ลูก",
+      "gloss": "luk - child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0039",
+      "token": "พี่",
+      "gloss": "phi - older sibling",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0040",
+      "token": "น้อง",
+      "gloss": "nong - younger sibling",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0041",
+      "token": "น้ำ",
+      "gloss": "nam - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0042",
+      "token": "ไฟ",
+      "gloss": "fai - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0043",
+      "token": "ลม",
+      "gloss": "lom - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0044",
+      "token": "ดิน",
+      "gloss": "din - earth, soil",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0045",
+      "token": "ฟ้า",
+      "gloss": "fa - sky",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0046",
+      "token": "เขา",
+      "gloss": "khao - mountain; he/she",
+      "pos": "noun/pronoun",
+      "semantic_field": "geographic/personal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0047",
+      "token": "แม่น้ำ",
+      "gloss": "maenam - river (mother of water)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0048",
+      "token": "ทะเล",
+      "gloss": "thale - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0049",
+      "token": "หนึ่ง",
+      "gloss": "nueng - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0050",
+      "token": "สอง",
+      "gloss": "song - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0051",
+      "token": "สาม",
+      "gloss": "sam - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0052",
+      "token": "สี่",
+      "gloss": "si - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0053",
+      "token": "ห้า",
+      "gloss": "ha - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0054",
+      "token": "รัก",
+      "gloss": "rak - love",
+      "pos": "noun/verb",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0055",
+      "token": "ใจ",
+      "gloss": "jai - heart, mind",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0056",
+      "token": "สุข",
+      "gloss": "suk - happiness",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    },
+    {
+      "entry_id": "thai_0057",
+      "token": "ทุกข์",
+      "gloss": "thuk - suffering (dukkha)",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Haas - Thai-English Student's Dictionary"
+    }
+  ]
+}
