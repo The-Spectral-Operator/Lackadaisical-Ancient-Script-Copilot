@@ -15,6 +15,9 @@ import { createBatchAnalysisRoute } from './routes/batchAnalysis.js';
 import { createModelFactoryRoute } from './routes/modelFactory.js';
 import { createSignClusterRoute } from './routes/signCluster.js';
 import { createExportRoute } from './routes/export.js';
+import { createDatasetUploadRoute } from './routes/datasetUpload.js';
+import { createScriptFamilyRoute } from './routes/scriptFamily.js';
+import { createStatsRoute } from './routes/stats.js';
 import { applyMiddleware } from './middleware.js';
 import { serveStatic } from './static.js';
 
@@ -50,6 +53,9 @@ export function createRouter(db, config, logger) {
     modelFactory: createModelFactoryRoute(db, config, logger),
     signCluster: createSignClusterRoute(db, config, logger),
     export: createExportRoute(db, config, logger),
+    datasetUpload: createDatasetUploadRoute(db, config, logger),
+    scriptFamily: createScriptFamilyRoute(db, config, logger),
+    stats: createStatsRoute(db, config, logger),
   };
 
   return async (req, res) => {
@@ -135,6 +141,23 @@ export function createRouter(db, config, logger) {
         // Chat (non-stream fallback)
         if (path === '/api/chat' && method === 'POST') return routes.chat(req, res);
         if (path === '/api/embed' && method === 'POST') return routes.analysis.embed(req, res);
+
+        // Dataset upload
+        if (path === '/api/datasets/upload' && method === 'POST') return routes.datasetUpload.upload(req, res);
+        if (path === '/api/datasets' && method === 'GET') return routes.datasetUpload.list(req, res);
+        if (path.match(/^\/api\/datasets\/[^/]+$/) && method === 'GET') return routes.datasetUpload.get(req, res, path);
+        if (path.match(/^\/api\/datasets\/[^/]+$/) && method === 'DELETE') return routes.datasetUpload.remove(req, res, path);
+
+        // Script families & organization
+        if (path === '/api/scripts/families' && method === 'GET') return routes.scriptFamily.families(req, res);
+        if (path === '/api/scripts/families' && method === 'POST') return routes.scriptFamily.createFamily(req, res);
+        if (path === '/api/scripts/organized' && method === 'GET') return routes.scriptFamily.organized(req, res);
+        if (path === '/api/scripts/stats' && method === 'GET') return routes.scriptFamily.stats(req, res);
+
+        // Real-time statistics
+        if (path === '/api/stats/realtime' && method === 'GET') return routes.stats.realtime(req, res);
+        if (path === '/api/stats/system' && method === 'GET') return routes.stats.system(req, res);
+        if (path.match(/^\/api\/stats\/corpus\/[^/]+$/) && method === 'GET') return routes.stats.corpus(req, res, path);
 
         // Settings
         if (path === '/api/settings' && method === 'GET') return routes.settings.get(req, res);
