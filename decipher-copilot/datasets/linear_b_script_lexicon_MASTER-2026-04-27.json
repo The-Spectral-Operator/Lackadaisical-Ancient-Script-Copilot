@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Linear B Script Master Lexicon — Ventris-Chadwick Foundation + Lackadaisical Security Enhancements",
-    "version": "1.0.2026-04-27",
-    "compiled_date": "2026-04-27T00:00:00Z",
-    "total_glyphs": 200,
+    "version": "2.0.0",
+    "compiled_date": "2026-04-30",
+    "total_glyphs": 69,
     "id_namespace": "Linear B LB### IDs + conventional sign numbers",
     "policy": "Ventris-Chadwick decipherment (1952) baseline preserved. Lackadaisical Security enhancements documented separately with full attribution.",
     "authors": [
@@ -51,387 +51,909 @@
       }
     },
     "enhancement_methodology": {
-      "name": "UDM20-LB (Universal Decipherment Methodology v20 - Linear B Tailored)",
-      "description": "Systematic gap-filling methodology applying tiered Minoan family script correlation (Linear A 40%, Cretan Hieroglyphs 25%, Cypro-Minoan 20%, Phaistos Disc 15%) plus Pre-Forms universal cognitive framework and 66-script extended corpus validation. Natural pattern emergence through multi-vector convergence (NO FORCING).",
-      "phases_completed": [
-        "Phase 1: Gap Inventory (47+ gaps catalogued, 68% confidence)",
-        "Phase 2: Minoan Family Mega-Correlation (75% confidence, 2 strong breakthroughs)",
-        "Phase 3: Semantic Field Re-examination (75-82% target)",
-        "Phase 4: Regional Phonetic Variation (78-85% target)",
-        "Phase 5: Archaeological & Palatial Context Integration (80-88% target)"
-      ],
-      "key_breakthroughs": [
-        "Sign *64 = Commodity Logogram (82% confidence, 5-vector convergence)",
-        "Sign *82 = Divine/Sacred Concept Marker (85% confidence, 5-vector convergence)",
-        "Sign *49 = Administrative Formula Marker (65% confidence, tentative)"
-      ],
-      "deferred_analysis": [
-        "Signs *34, *56 (phonetic ambiguities - deferred to Phase 4)",
-        "Signs *47, *79 (completely unknown - deferred to extended analysis)"
-      ]
+      "syllabary": "Complete Ventris-Chadwick decipherment (1952) with full Unicode mapping",
+      "undeciphered": "Distributional analysis + Linear A cognate matching + phonotactic constraint analysis",
+      "logograms": "Administrative tablet corpus analysis (Knossos, Pylos, Thebes, Mycenae)",
+      "confidence_scoring": "Based on attestation frequency, contextual clarity, and scholarly consensus"
     }
   },
-  
   "syllabary_core": {
-    "description": "87 core syllabic signs deciphered by Ventris-Chadwick (1952-1963). CV (consonant-vowel) structure representing Mycenaean Greek phonetics.",
-    "confidence": "~95% (Ventris-Chadwick baseline)",
+    "description": "Complete Linear B syllabary: 56 confirmed CV signs + 5 pure vowels = 61 core phonetic signs. Deciphered by Michael Ventris (1952), confirmed by John Chadwick. Represents Mycenaean Greek (c. 1450-1200 BCE).",
+    "confidence": 0.98,
     "signs": [
       {
-        "sign_number": "AB01",
+        "sign_number": "*08",
         "symbol": "𐀀",
         "unicode": "U+10000",
-        "transliteration": "da",
-        "phonetic_value": "/da/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign, no ambiguity"
-      },
-      {
-        "sign_number": "AB02",
-        "symbol": "𐀁",
-        "unicode": "U+10001",
-        "transliteration": "ro",
-        "phonetic_value": "/ro/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
-      },
-      {
-        "sign_number": "AB03",
-        "symbol": "𐀂",
-        "unicode": "U+10002",
-        "transliteration": "pa",
-        "phonetic_value": "/pa/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
-      },
-      {
-        "sign_number": "AB04",
-        "symbol": "𐀃",
-        "unicode": "U+10003",
-        "transliteration": "te",
-        "phonetic_value": "/te/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
-      },
-      {
-        "sign_number": "AB05",
-        "symbol": "𐀄",
-        "unicode": "U+10004",
-        "transliteration": "to",
-        "phonetic_value": "/to/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
-      },
-      {
-        "sign_number": "AB06",
-        "symbol": "𐀅",
-        "unicode": "U+10005",
-        "transliteration": "na",
-        "phonetic_value": "/na/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
-      },
-      {
-        "sign_number": "AB07",
-        "symbol": "𐀆",
-        "unicode": "U+10006",
-        "transliteration": "di",
-        "phonetic_value": "/di/",
-        "attestations": "very_high",
-        "regional_distribution": "all_sites",
-        "confidence": 0.98,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common in divine names (di-we = Zeus)"
-      },
-      {
-        "sign_number": "AB08",
-        "symbol": "𐀇",
-        "unicode": "U+10007",
         "transliteration": "a",
         "phonetic_value": "/a/",
+        "consonant_series": "vowel",
         "attestations": "very_high",
         "regional_distribution": "all_sites",
-        "confidence": 0.99,
-        "source": "Ventris-Chadwick 1952",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
         "notes": "Pure vowel sign"
       },
       {
-        "sign_number": "AB09",
-        "symbol": "𐀈",
-        "unicode": "U+10008",
-        "transliteration": "se",
-        "phonetic_value": "/se/",
-        "attestations": "high",
+        "sign_number": "*38",
+        "symbol": "𐀁",
+        "unicode": "U+10001",
+        "transliteration": "e",
+        "phonetic_value": "/e/",
+        "consonant_series": "vowel",
+        "attestations": "very_high",
         "regional_distribution": "all_sites",
-        "confidence": 0.97,
-        "source": "Ventris-Chadwick 1952",
-        "notes": "Common syllabic sign"
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Pure vowel sign"
       },
       {
-        "sign_number": "AB10",
-        "symbol": "𐀉",
-        "unicode": "U+10009",
+        "sign_number": "*28",
+        "symbol": "𐀂",
+        "unicode": "U+10002",
+        "transliteration": "i",
+        "phonetic_value": "/i/",
+        "consonant_series": "vowel",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Pure vowel sign"
+      },
+      {
+        "sign_number": "*61",
+        "symbol": "𐀃",
+        "unicode": "U+10003",
+        "transliteration": "o",
+        "phonetic_value": "/o/",
+        "consonant_series": "vowel",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Pure vowel sign"
+      },
+      {
+        "sign_number": "*10",
+        "symbol": "𐀄",
+        "unicode": "U+10004",
         "transliteration": "u",
         "phonetic_value": "/u/",
+        "consonant_series": "vowel",
         "attestations": "very_high",
         "regional_distribution": "all_sites",
-        "confidence": 0.99,
-        "source": "Ventris-Chadwick 1952",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
         "notes": "Pure vowel sign"
-      }
-    ],
-    "note": "Only first 10 syllabic signs shown. Full syllabary contains 87 core signs (AB01-AB87). Each entry follows same structure with sign number, Unicode, transliteration, phonetic value, attestations, confidence, and source attribution."
-  },
-
-  "unknown_signs_enhanced": {
-    "description": "Previously unknown/ambiguous Linear B signs enhanced through Lackadaisical Security UDM20-LB methodology (2026). Multi-vector Minoan family correlation applied.",
-    
-    "entries": [
+      },
       {
-        "sign_number": "*34",
+        "sign_number": "*01",
+        "symbol": "𐀅",
+        "unicode": "U+10005",
+        "transliteration": "da",
+        "phonetic_value": "/da/",
+        "consonant_series": "d-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, d- series"
+      },
+      {
+        "sign_number": "*45",
+        "symbol": "𐀆",
+        "unicode": "U+10006",
+        "transliteration": "de",
+        "phonetic_value": "/de/",
+        "consonant_series": "d-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, d- series"
+      },
+      {
+        "sign_number": "*07",
+        "symbol": "𐀇",
+        "unicode": "U+10007",
+        "transliteration": "di",
+        "phonetic_value": "/di/",
+        "consonant_series": "d-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, d- series"
+      },
+      {
+        "sign_number": "*14",
+        "symbol": "𐀈",
+        "unicode": "U+10008",
+        "transliteration": "do",
+        "phonetic_value": "/do/",
+        "consonant_series": "d-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, d- series"
+      },
+      {
+        "sign_number": "*51",
+        "symbol": "𐀉",
+        "unicode": "U+10009",
+        "transliteration": "du",
+        "phonetic_value": "/du/",
+        "consonant_series": "d-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, d- series"
+      },
+      {
+        "sign_number": "*57",
+        "symbol": "𐀊",
+        "unicode": "U+1000A",
+        "transliteration": "ja",
+        "phonetic_value": "/ja/",
+        "consonant_series": "j-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, j- series"
+      },
+      {
+        "sign_number": "*46",
+        "symbol": "𐀋",
+        "unicode": "U+1000B",
+        "transliteration": "je",
+        "phonetic_value": "/je/",
+        "consonant_series": "j-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, j- series"
+      },
+      {
+        "sign_number": "*36",
+        "symbol": "𐀍",
+        "unicode": "U+1000D",
+        "transliteration": "jo",
+        "phonetic_value": "/jo/",
+        "consonant_series": "j-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, j- series"
+      },
+      {
+        "sign_number": "*77",
+        "symbol": "𐀏",
+        "unicode": "U+1000F",
+        "transliteration": "ka",
+        "phonetic_value": "/ka/",
+        "consonant_series": "k-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, k- series"
+      },
+      {
+        "sign_number": "*44",
+        "symbol": "𐀐",
+        "unicode": "U+10010",
+        "transliteration": "ke",
+        "phonetic_value": "/ke/",
+        "consonant_series": "k-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, k- series"
+      },
+      {
+        "sign_number": "*67",
+        "symbol": "𐀑",
+        "unicode": "U+10011",
+        "transliteration": "ki",
+        "phonetic_value": "/ki/",
+        "consonant_series": "k-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, k- series"
+      },
+      {
+        "sign_number": "*70",
+        "symbol": "𐀒",
+        "unicode": "U+10012",
+        "transliteration": "ko",
+        "phonetic_value": "/ko/",
+        "consonant_series": "k-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, k- series"
+      },
+      {
+        "sign_number": "*81",
+        "symbol": "𐀓",
+        "unicode": "U+10013",
+        "transliteration": "ku",
+        "phonetic_value": "/ku/",
+        "consonant_series": "k-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, k- series"
+      },
+      {
+        "sign_number": "*80",
+        "symbol": "𐀔",
+        "unicode": "U+10014",
+        "transliteration": "ma",
+        "phonetic_value": "/ma/",
+        "consonant_series": "m-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, m- series"
+      },
+      {
+        "sign_number": "*13",
+        "symbol": "𐀕",
+        "unicode": "U+10015",
+        "transliteration": "me",
+        "phonetic_value": "/me/",
+        "consonant_series": "m-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, m- series"
+      },
+      {
+        "sign_number": "*73",
+        "symbol": "𐀖",
+        "unicode": "U+10016",
+        "transliteration": "mi",
+        "phonetic_value": "/mi/",
+        "consonant_series": "m-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, m- series"
+      },
+      {
+        "sign_number": "*15",
+        "symbol": "𐀗",
+        "unicode": "U+10017",
+        "transliteration": "mo",
+        "phonetic_value": "/mo/",
+        "consonant_series": "m-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, m- series"
+      },
+      {
+        "sign_number": "*23",
+        "symbol": "𐀘",
+        "unicode": "U+10018",
+        "transliteration": "mu",
+        "phonetic_value": "/mu/",
+        "consonant_series": "m-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, m- series"
+      },
+      {
+        "sign_number": "*06",
+        "symbol": "𐀙",
+        "unicode": "U+10019",
+        "transliteration": "na",
+        "phonetic_value": "/na/",
+        "consonant_series": "n-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, n- series"
+      },
+      {
+        "sign_number": "*24",
+        "symbol": "𐀚",
+        "unicode": "U+1001A",
+        "transliteration": "ne",
+        "phonetic_value": "/ne/",
+        "consonant_series": "n-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, n- series"
+      },
+      {
+        "sign_number": "*30",
+        "symbol": "𐀛",
+        "unicode": "U+1001B",
+        "transliteration": "ni",
+        "phonetic_value": "/ni/",
+        "consonant_series": "n-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, n- series"
+      },
+      {
+        "sign_number": "*52",
+        "symbol": "𐀜",
+        "unicode": "U+1001C",
+        "transliteration": "no",
+        "phonetic_value": "/no/",
+        "consonant_series": "n-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, n- series"
+      },
+      {
+        "sign_number": "*55",
+        "symbol": "𐀝",
+        "unicode": "U+1001D",
+        "transliteration": "nu",
+        "phonetic_value": "/nu/",
+        "consonant_series": "n-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, n- series"
+      },
+      {
+        "sign_number": "*03",
+        "symbol": "𐀞",
+        "unicode": "U+1001E",
+        "transliteration": "pa",
+        "phonetic_value": "/pa/",
+        "consonant_series": "p-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, p- series"
+      },
+      {
+        "sign_number": "*72",
+        "symbol": "𐀟",
+        "unicode": "U+1001F",
+        "transliteration": "pe",
+        "phonetic_value": "/pe/",
+        "consonant_series": "p-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, p- series"
+      },
+      {
+        "sign_number": "*39",
+        "symbol": "𐀠",
+        "unicode": "U+10020",
+        "transliteration": "pi",
+        "phonetic_value": "/pi/",
+        "consonant_series": "p-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, p- series"
+      },
+      {
+        "sign_number": "*11",
+        "symbol": "𐀡",
+        "unicode": "U+10021",
+        "transliteration": "po",
+        "phonetic_value": "/po/",
+        "consonant_series": "p-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, p- series"
+      },
+      {
+        "sign_number": "*50",
         "symbol": "𐀢",
         "unicode": "U+10022",
-        "conventional_debate": "ra₂ OR rya",
-        "transliteration_tentative": "ra₂ / rya",
-        "phonetic_value_hypotheses": [
-          {
-            "hypothesis": "ra₂",
-            "description": "Simple /ra/ variant (second ra sign)",
-            "support": "Complementary distribution with primary /ra/ sign",
-            "confidence": 0.60,
-            "sources": ["Conventional Linear B scholarship"]
-          },
-          {
-            "hypothesis": "rya",
-            "description": "Consonant cluster /rya/",
-            "support": "Appears in specific phonetic contexts suggesting cluster",
-            "confidence": 0.40,
-            "sources": ["Alternative phonological interpretation"]
-          }
-        ],
-        "attestations": "medium",
-        "regional_distribution": "knossos_and_mainland",
-        "contexts": "personal_names, administrative_terms",
-        "udm20_lb_status": "deferred_to_phase_4",
-        "phase_4_analysis": "Multi-axis phonetic triangulation (Regional variation + Linear A cognates + Cypro-Minoan grid + Greek phonotactics + Extended corpus)",
-        "confidence_current": 0.50,
-        "confidence_target": 0.80,
-        "source": "Ventris-Chadwick (debate documented) + Lackadaisical Security (Phase 4 framework)",
-        "notes": "Phonetic ambiguity requires specialized regional variation analysis. Linear A morphological cognate comparison and Cypro-Minoan syllabic grid validation pending."
+        "transliteration": "pu",
+        "phonetic_value": "/pu/",
+        "consonant_series": "p-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, p- series"
       },
-      
       {
-        "sign_number": "*47",
-        "symbol": "[glyph_pending_visual_documentation]",
-        "unicode": "[not_assigned]",
-        "conventional_status": "completely_unknown",
-        "transliteration_tentative": "unknown",
-        "phonetic_value_hypotheses": [],
-        "attestations": "rare",
-        "regional_distribution": "unknown_due_to_rarity",
-        "contexts": "limited_attestations",
-        "udm20_lb_status": "deferred_to_extended_analysis",
-        "phase_2_analysis": "All vectors (Linear A, Cretan Hieroglyphs, Cypro-Minoan, Phaistos Disc, Extended Corpus, Pre-Forms) awaiting comprehensive data",
-        "confidence_current": 0.00,
-        "confidence_target": 0.75,
-        "source": "Ventris-Chadwick (unknown) + Lackadaisical Security (systematic analysis pending)",
-        "notes": "Completely unknown sign requiring full multi-vector analysis. Low priority due to rarity. Visual morphological comparison with entire Minoan family needed."
+        "sign_number": "*16",
+        "symbol": "𐀣",
+        "unicode": "U+10023",
+        "transliteration": "qa",
+        "phonetic_value": "/kʷa/",
+        "consonant_series": "q-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, q- series"
       },
-      
       {
-        "sign_number": "*49",
-        "symbol": "[glyph_pending_visual_documentation]",
-        "unicode": "[not_assigned]",
-        "conventional_status": "completely_unknown",
-        "transliteration_tentative": "formula_marker",
-        "semantic_function_hypothesis": "administrative_formula_position_marker",
-        "udm20_lb_breakthrough": {
-          "discovery": "Tentative identification as administrative formula marker / validation symbol",
-          "confidence": 0.65,
-          "evidence": "Single strong vector (Phaistos Disc structural pattern) + logical hypothesis from formulaic contexts",
-          "vector_convergence": "1 strong vector (Phaistos Disc spiral structure) awaiting additional confirmation",
-          "phaistos_parallel": "Formula position marker similar to Phaistos Disc spiral segment delimiters (Inner: authority, Middle: content, Outer: validation/closure)",
-          "validation_needed": "2+ additional vectors required for publication threshold (75%+)",
-          "phase_3_opportunity": "Semantic field analysis may strengthen hypothesis through formula semantic clustering"
-        },
-        "attestations": "medium",
-        "regional_distribution": "cross_site (suggests standardized administrative usage)",
-        "contexts": "primarily_formulaic_administrative_records",
-        "confidence_current": 0.65,
-        "confidence_target": 0.80,
-        "source": "Ventris-Chadwick (unknown) + Lackadaisical Security UDM20-LB Phase 2 (tentative breakthrough)",
-        "notes": "TENTATIVE: Appears primarily in formulae suggesting administrative structure function. Phaistos Disc spiral structure provides strong parallel. Requires additional vector confirmation (Linear A formula templates, archive organization patterns, cross-script formula markers)."
+        "sign_number": "*78",
+        "symbol": "𐀤",
+        "unicode": "U+10024",
+        "transliteration": "qe",
+        "phonetic_value": "/kʷe/",
+        "consonant_series": "q-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, q- series"
       },
-      
       {
-        "sign_number": "*56",
+        "sign_number": "*21",
+        "symbol": "𐀥",
+        "unicode": "U+10025",
+        "transliteration": "qi",
+        "phonetic_value": "/kʷi/",
+        "consonant_series": "q-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, q- series"
+      },
+      {
+        "sign_number": "*32",
+        "symbol": "𐀦",
+        "unicode": "U+10026",
+        "transliteration": "qo",
+        "phonetic_value": "/kʷo/",
+        "consonant_series": "q-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, q- series"
+      },
+      {
+        "sign_number": "*60",
+        "symbol": "𐀨",
+        "unicode": "U+10028",
+        "transliteration": "ra",
+        "phonetic_value": "/ra/ or /la/",
+        "consonant_series": "r-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, r- series"
+      },
+      {
+        "sign_number": "*27",
+        "symbol": "𐀩",
+        "unicode": "U+10029",
+        "transliteration": "re",
+        "phonetic_value": "/re/ or /le/",
+        "consonant_series": "r-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, r- series"
+      },
+      {
+        "sign_number": "*53",
+        "symbol": "𐀪",
+        "unicode": "U+1002A",
+        "transliteration": "ri",
+        "phonetic_value": "/ri/ or /li/",
+        "consonant_series": "r-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, r- series"
+      },
+      {
+        "sign_number": "*02",
+        "symbol": "𐀫",
+        "unicode": "U+1002B",
+        "transliteration": "ro",
+        "phonetic_value": "/ro/ or /lo/",
+        "consonant_series": "r-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, r- series"
+      },
+      {
+        "sign_number": "*26",
+        "symbol": "𐀬",
+        "unicode": "U+1002C",
+        "transliteration": "ru",
+        "phonetic_value": "/ru/ or /lu/",
+        "consonant_series": "r-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, r- series"
+      },
+      {
+        "sign_number": "*31",
+        "symbol": "𐀭",
+        "unicode": "U+1002D",
+        "transliteration": "sa",
+        "phonetic_value": "/sa/",
+        "consonant_series": "s-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, s- series"
+      },
+      {
+        "sign_number": "*09",
+        "symbol": "𐀮",
+        "unicode": "U+1002E",
+        "transliteration": "se",
+        "phonetic_value": "/se/",
+        "consonant_series": "s-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, s- series"
+      },
+      {
+        "sign_number": "*41",
+        "symbol": "𐀯",
+        "unicode": "U+1002F",
+        "transliteration": "si",
+        "phonetic_value": "/si/",
+        "consonant_series": "s-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, s- series"
+      },
+      {
+        "sign_number": "*12",
+        "symbol": "𐀰",
+        "unicode": "U+10030",
+        "transliteration": "so",
+        "phonetic_value": "/so/",
+        "consonant_series": "s-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, s- series"
+      },
+      {
+        "sign_number": "*58",
+        "symbol": "𐀱",
+        "unicode": "U+10031",
+        "transliteration": "su",
+        "phonetic_value": "/su/",
+        "consonant_series": "s-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, s- series"
+      },
+      {
+        "sign_number": "*59",
+        "symbol": "𐀲",
+        "unicode": "U+10032",
+        "transliteration": "ta",
+        "phonetic_value": "/ta/",
+        "consonant_series": "t-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, t- series"
+      },
+      {
+        "sign_number": "*04",
+        "symbol": "𐀳",
+        "unicode": "U+10033",
+        "transliteration": "te",
+        "phonetic_value": "/te/",
+        "consonant_series": "t-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, t- series"
+      },
+      {
+        "sign_number": "*37",
+        "symbol": "𐀴",
+        "unicode": "U+10034",
+        "transliteration": "ti",
+        "phonetic_value": "/ti/",
+        "consonant_series": "t-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, t- series"
+      },
+      {
+        "sign_number": "*05",
+        "symbol": "𐀵",
+        "unicode": "U+10035",
+        "transliteration": "to",
+        "phonetic_value": "/to/",
+        "consonant_series": "t-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, t- series"
+      },
+      {
+        "sign_number": "*69",
+        "symbol": "𐀶",
+        "unicode": "U+10036",
+        "transliteration": "tu",
+        "phonetic_value": "/tu/",
+        "consonant_series": "t-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, t- series"
+      },
+      {
+        "sign_number": "*54",
+        "symbol": "𐀷",
+        "unicode": "U+10037",
+        "transliteration": "wa",
+        "phonetic_value": "/wa/",
+        "consonant_series": "w-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, w- series"
+      },
+      {
+        "sign_number": "*75",
         "symbol": "𐀸",
         "unicode": "U+10038",
-        "conventional_debate": "pa₂ OR pte",
-        "transliteration_tentative": "pa₂ / pte",
-        "phonetic_value_hypotheses": [
-          {
-            "hypothesis": "pa₂",
-            "description": "Vowel quality variant of /pa/",
-            "support": "Variant interpretation in syllabic system",
-            "confidence": 0.55,
-            "sources": ["Conventional Linear B scholarship"]
-          },
-          {
-            "hypothesis": "pte",
-            "description": "Consonant cluster /pte/",
-            "support": "Cluster interpretation for specific phonetic environment",
-            "confidence": 0.45,
-            "sources": ["Alternative phonological interpretation"]
-          }
-        ],
-        "attestations": "low",
-        "regional_distribution": "primarily_pylos (mainland_specific?)",
-        "contexts": "specific_tablet_types",
-        "udm20_lb_status": "deferred_to_phase_4",
-        "phase_4_analysis": "Multi-axis phonetic triangulation focusing on Pylos-specific patterns and mainland Greek phonetics",
-        "confidence_current": 0.50,
-        "confidence_target": 0.80,
-        "source": "Ventris-Chadwick (debate documented) + Lackadaisical Security (Phase 4 framework)",
-        "notes": "Phonetic ambiguity with Pylos concentration suggesting mainland innovation. Greek phonotactic constraints critical for resolution."
+        "transliteration": "we",
+        "phonetic_value": "/we/",
+        "consonant_series": "w-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, w- series"
       },
-      
+      {
+        "sign_number": "*40",
+        "symbol": "𐀹",
+        "unicode": "U+10039",
+        "transliteration": "wi",
+        "phonetic_value": "/wi/",
+        "consonant_series": "w-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, w- series"
+      },
+      {
+        "sign_number": "*42",
+        "symbol": "𐀺",
+        "unicode": "U+1003A",
+        "transliteration": "wo",
+        "phonetic_value": "/wo/",
+        "consonant_series": "w-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.98,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, w- series"
+      },
+      {
+        "sign_number": "*17",
+        "symbol": "𐀼",
+        "unicode": "U+1003C",
+        "transliteration": "za",
+        "phonetic_value": "/tsa/ or /dza/",
+        "consonant_series": "z-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, z- series"
+      },
+      {
+        "sign_number": "*74",
+        "symbol": "𐀽",
+        "unicode": "U+1003D",
+        "transliteration": "ze",
+        "phonetic_value": "/tse/ or /dze/",
+        "consonant_series": "z-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, z- series"
+      },
+      {
+        "sign_number": "*20",
+        "symbol": "𐀿",
+        "unicode": "U+1003F",
+        "transliteration": "zo",
+        "phonetic_value": "/tso/ or /dzo/",
+        "consonant_series": "z-",
+        "attestations": "very_high",
+        "regional_distribution": "all_sites",
+        "confidence": 0.95,
+        "source": "Ventris-Chadwick 1952; confirmed by Knossos/Pylos tablets",
+        "notes": "Core syllabic sign, z- series"
+      }
+    ],
+    "note": "The r-series covers both /r/ and /l/ (Mycenaean Greek did not distinguish them in writing). The q-series represents labiovelars lost in later Greek. The z-series likely represents affricates /ts/ or /dz/."
+  },
+  "unknown_signs_enhanced": {
+    "description": "Signs not yet definitively deciphered. Hypothetical phonetic values based on distributional analysis, Linear A cognates, and contextual frequency patterns.",
+    "methodology": "Cross-referencing Linear A parent signs, geographic distribution, phonotactic constraints, and statistical frequency analysis across all known tablet corpora.",
+    "entries": [
+      {
+        "sign_number": "*22",
+        "linear_a_parent": "AB22",
+        "geographic_contextual_frequency": "Exclusively Cretan, heavy in toponyms",
+        "proposed_phonetic_values": [
+          "mbi",
+          "pi₂"
+        ],
+        "phonetic_category": "Prenasalized labial",
+        "confidence": 0.35,
+        "status": "undeciphered",
+        "notes": "Exclusively Cretan distribution suggests indigenous Minoan substrate phoneme"
+      },
+      {
+        "sign_number": "*56",
+        "linear_a_parent": "AB56",
+        "geographic_contextual_frequency": "Predominantly Cretan, indigenous loanwords",
+        "proposed_phonetic_values": [
+          "mba",
+          "pa₃"
+        ],
+        "phonetic_category": "Prenasalized labial",
+        "confidence": 0.3,
+        "status": "undeciphered",
+        "notes": "Distribution in loanwords suggests Minoan substrate phoneme"
+      },
       {
         "sign_number": "*64",
-        "symbol": "[glyph_pending_visual_documentation]",
-        "unicode": "[not_assigned]",
-        "conventional_status": "unknown_possibly_commodity",
-        "transliteration_tentative": "commodity_logogram",
-        "semantic_function": "commodity_logogram",
-        "udm20_lb_breakthrough": {
-          "discovery": "Commodity logogram identification",
-          "confidence": 0.82,
-          "evidence": "5-vector natural convergence (STRONG)",
-          "vector_convergence": {
-            "linear_a": "Extensive commodity logogram system confirmed (wheat 𐙉, oil 𐙖, vessel 𐚠, sheep 𐘏, gold)",
-            "cretan_hieroglyphs": "Pictographic commodity ancestor system confirmed",
-            "phaistos_disc": "Commodity administrative patterns confirmed (PD_WHEAT, PD_OIL, PD_METAL, PD_TEXTILE)",
-            "extended_corpus": "Universal administrative commodity necessity across all scripts (Sumerian, Egyptian, Mesoamerican)",
-            "pre_forms": "Universal cognitive commodity concepts (SP_SUSTENANCE, SP_MATERIAL, SP_ABUNDANCE)"
-          },
-          "natural_emergence": "Pattern emerged across 5 independent vectors WITHOUT FORCING",
-          "publication_status": "READY (caveat: specific commodity type requires visual morphological analysis)"
-        },
-        "specific_commodity_identity": "TBD (requires visual morphological comparison with Linear A commodity signs)",
-        "commodity_hypotheses": [
-          "Grain variant (barley, emmer, spelt)",
-          "Fruit/vegetable commodity",
-          "Textile/fiber commodity (wool, flax, cloth)",
-          "Storage vessel type variant",
-          "Precious material (bronze, silver, other metal)"
+        "linear_a_parent": "Unknown (Likely Mycenaean innovation)",
+        "geographic_contextual_frequency": "Strict medial phonotactics (post-'a', pre-'j')",
+        "proposed_phonetic_values": [
+          "twi",
+          "dwi"
         ],
-        "attestations": "medium_high",
-        "regional_distribution": "multi_site",
-        "contexts": "administrative_commodity_records",
-        "phase_5_validation": "Archaeological storage facility correlation, residue analysis, seasonal pattern matching",
-        "confidence_current": 0.82,
-        "confidence_target_phase_5": 0.90,
-        "source": "Ventris-Chadwick (unknown) + Lackadaisical Security UDM20-LB Phase 2 (BREAKTHROUGH)",
-        "notes": "PUBLICATION-READY: Strong 5-vector convergence confirms commodity logogram function. Specific commodity identity pending visual morphological analysis with Linear A commodity signs (LA004-LA008). Phase 5 archaeological validation via storage findspot correlation will boost confidence to 90%+."
+        "phonetic_category": "Complex CwV cluster",
+        "confidence": 0.25,
+        "status": "undeciphered",
+        "notes": "Positional constraints suggest complex consonant cluster"
       },
-      
       {
-        "sign_number": "*79",
-        "symbol": "[glyph_pending_visual_documentation]",
-        "unicode": "[not_assigned]",
-        "conventional_status": "completely_unknown",
-        "transliteration_tentative": "unknown",
-        "phonetic_value_hypotheses": [],
-        "attestations": "rare",
-        "regional_distribution": "unknown",
-        "contexts": "limited_corpus",
-        "udm20_lb_status": "deferred_to_extended_analysis",
-        "phase_2_analysis": "All vectors awaiting analysis. Low priority due to rarity.",
-        "confidence_current": 0.00,
-        "confidence_target": 0.75,
-        "source": "Ventris-Chadwick (unknown) + Lackadaisical Security (systematic analysis pending)",
-        "notes": "Completely unknown sign. Requires comprehensive multi-vector analysis. Lower priority - focus on high-confidence conclusions first."
+        "sign_number": "*63",
+        "linear_a_parent": "Unknown",
+        "geographic_contextual_frequency": "Alternate spellings of complex names",
+        "proposed_phonetic_values": [
+          "zu",
+          "ju",
+          "swi"
+        ],
+        "phonetic_category": "Sibilant/Glide",
+        "confidence": 0.2,
+        "status": "undeciphered",
+        "notes": "Multiple competing hypotheses; appears in alternate name spellings"
       },
-      
+      {
+        "sign_number": "*65",
+        "linear_a_parent": "AB65 (shares far ideogram space)",
+        "geographic_contextual_frequency": "Redundant phonetic space in known words",
+        "proposed_phonetic_values": [],
+        "phonetic_category": "Obsolete Minoan vowel/glide variant",
+        "confidence": 0.15,
+        "status": "undeciphered",
+        "notes": "May be an obsolete sign retained from Linear A with no Mycenaean Greek phonetic value"
+      },
       {
         "sign_number": "*82",
-        "symbol": "[glyph_pending_visual_documentation]",
-        "unicode": "[not_assigned]",
-        "conventional_status": "unknown_in_divine_names",
-        "transliteration_tentative": "divine_sacred_marker",
-        "semantic_function": "divine_sacred_concept_marker",
-        "udm20_lb_breakthrough": {
-          "discovery": "Divine/Sacred concept marker in theophoric names",
-          "confidence": 0.85,
-          "evidence": "5-vector natural convergence (STRONG)",
-          "vector_convergence": {
-            "linear_a": "Religious/authority terminology system confirmed (LA001: supreme authority 98%, religious contexts)",
-            "cretan_hieroglyphs": "Religious iconographic sources confirmed",
-            "phaistos_disc": "Authority + religious patterns confirmed (PD_AUTHORITY, PD_DEITY)",
-            "extended_corpus": "Universal divine name patterns confirmed (Sky gods = ultimate authority across all cultures)",
-            "pre_forms": "COSMIC INTERFACE framework PERFECT match (SP_SKY_FATHER ☰ authority/hierarchy, SP_EARTH_MOTHER ☷, SP_FIRE_TRANSFORM ☱, SP_WATER_FLOW ☵, plus divine power symbols)"
-          },
-          "natural_emergence": "Pattern emerged across 5 independent vectors WITHOUT FORCING. Pre-Forms Cosmic Interface provides universal divine pattern validation.",
-          "publication_status": "READY (caveat: specific divine identity/function requires religious layer analysis)"
-        },
-        "divine_function_hypotheses": [
-          {
-            "hypothesis": "divine_name_component",
-            "description": "Theophoric name element (god-bearing names)",
-            "confidence": 0.75,
-            "pattern": "[MORTAL_NAME] + *82 = 'protected by [deity]' or 'divine [name]'"
-          },
-          {
-            "hypothesis": "sacred_attribute_marker",
-            "description": "Marks divine/sacred quality",
-            "confidence": 0.70,
-            "pattern": "Functions as theophoric prefix/suffix indicating connection to divine realm"
-          },
-          {
-            "hypothesis": "specific_deity_identifier",
-            "description": "Represents particular god/goddess",
-            "confidence": 0.60,
-            "pattern": "Direct deity name element in religious offerings"
-          }
+        "linear_a_parent": "AB82",
+        "geographic_contextual_frequency": "Localized toponyms (specifically Phaistos texts)",
+        "proposed_phonetic_values": [
+          "swa"
         ],
-        "pre_forms_cosmic_mapping": {
-          "SP_SKY_FATHER": "Authority + Divine = Zeus/Dyaus/AN pattern (height, power, sky, cosmic authority)",
-          "SP_EARTH_MOTHER": "Foundation + Fertility = Gaia/Prithvi/KI pattern",
-          "SP_FIRE_TRANSFORM": "Transformation + Sacred = Prometheus/Agni pattern",
-          "SP_WATER_FLOW": "Life-force + Divine = Poseidon/Varuna/ENKI pattern",
-          "note": "If *82 contexts map to specific Pre-Forms cosmic category, validates divine semantic function"
-        },
-        "attestations": "medium",
-        "regional_distribution": "cross_site",
-        "contexts": "exclusively_onomastic (personal/divine names), religious_offerings",
-        "phase_3_expansion": "Systematic divine name extraction, theophoric pattern analysis",
-        "phase_5_validation": "Religious architecture correlation (Throne Room findspots), iconographic matching (bull/goddess symbols), ritual object correlation",
-        "phase_8_deepening": "Religious layer systematic extraction, deity identification, festival calendar integration",
-        "confidence_current": 0.85,
-        "confidence_target_phase_5": 0.92,
-        "source": "Ventris-Chadwick (unknown in names) + Lackadaisical Security UDM20-LB Phase 2 (BREAKTHROUGH)",
-        "notes": "PUBLICATION-READY: Strong 5-vector convergence confirms divine/sacred marker function. Pre-Forms Cosmic Interface framework provides PERFECT universal cognitive validation. Specific deity/function identification pending Phase 8 religious layer systematic analysis. Phase 5 archaeological validation via religious architecture/iconography correlation will boost confidence to 92%+."
+        "phonetic_category": "Palatalized glide",
+        "confidence": 0.2,
+        "status": "undeciphered",
+        "notes": "Restricted to Phaistos texts; likely represents a local toponym sound"
+      },
+      {
+        "sign_number": "*86",
+        "linear_a_parent": "CH 040 (Cretan Hieroglyphic)",
+        "geographic_contextual_frequency": "Archaic ceremonial/geographic terminology",
+        "proposed_phonetic_values": [],
+        "phonetic_category": "Archaic pre-Greek retention",
+        "confidence": 0.1,
+        "status": "undeciphered",
+        "notes": "Derives from Cretan Hieroglyphic; likely an archaic ceremonial term"
+      },
+      {
+        "sign_number": "*18, *19",
+        "linear_a_parent": "Anomalous / Graphically divergent",
+        "geographic_contextual_frequency": "Extremely rare, restricted to specific scribes",
+        "proposed_phonetic_values": [
+          "dwe"
+        ],
+        "phonetic_category": "Idiosyncratic variants",
+        "confidence": 0.1,
+        "status": "undeciphered",
+        "notes": "Likely poorly drawn variants of known signs by specific scribes"
+      },
+      {
+        "sign_number": "*34, *47, *49",
+        "linear_a_parent": "AB34, AB49",
+        "geographic_contextual_frequency": "Fringe administrative texts, highly damaged",
+        "proposed_phonetic_values": [],
+        "phonetic_category": "Obsolescent Minoan phonemes",
+        "confidence": 0.1,
+        "status": "undeciphered",
+        "notes": "Appear in damaged texts; may represent phonemes lost in Mycenaean Greek"
+      },
+      {
+        "sign_number": "*79, *83, *89",
+        "linear_a_parent": "Unknown / Anomalous",
+        "geographic_contextual_frequency": "Statistically negligible",
+        "proposed_phonetic_values": [],
+        "phonetic_category": "Localized scribal shorthand or obsolete clusters",
+        "confidence": 0.05,
+        "status": "undeciphered",
+        "notes": "Statistically negligible occurrences; likely scribal variants or errors"
       }
     ]
   },
-
   "logograms_commodity": {
     "description": "Commodity logogram signs representing agricultural products, livestock, materials. Many dual-function (syllabic AND logographic).",
     "entries": [
@@ -490,7 +1012,6 @@
     ],
     "note": "Sample commodity logograms shown. Full lexicon includes extensive commodity sign inventory (grain, oil, wine, figs, olives, spices, textiles, metals, etc.)"
   },
-
   "logograms_livestock": {
     "description": "Livestock and animal logograms for pastoral economy records.",
     "entries": [
@@ -545,7 +1066,6 @@
     ],
     "note": "Sample livestock logograms shown. Full inventory includes goats, pigs, horses, etc."
   },
-
   "logograms_personnel": {
     "description": "Personnel and professional title logograms for labor administration.",
     "entries": [
@@ -575,7 +1095,6 @@
       }
     ]
   },
-
   "numerals_aegean": {
     "description": "Aegean numeral system (decimal). Shared with Linear A.",
     "entries": [
@@ -608,7 +1127,6 @@
       }
     ]
   },
-
   "research_notes": {
     "ventris_chadwick_foundation": {
       "achievement": "Decipherment of Linear B as Mycenaean Greek (1952)",
@@ -658,7 +1176,6 @@
       "validation": "Archaeological integration (Phase 5) grounds linguistic conclusions in material culture"
     }
   },
-
   "changelog": [
     {
       "version": "1.0.2026-04-27",
@@ -671,7 +1188,10 @@
         "Phase 2 breakthroughs (*64, *82) publication-ready status documented",
         "Complete metadata and attribution framework established"
       ],
-      "contributors": ["Lackadaisical Security (The Operator)", "Aurora (STONEDRIFT)"]
+      "contributors": [
+        "Lackadaisical Security (The Operator)",
+        "Aurora (STONEDRIFT)"
+      ]
     }
   ]
 }

@@ -77,8 +77,11 @@ The system ships with **75 ancient and modern scripts** pre-loaded:
 |----------|---------|
 | Undeciphered | Linear A, Indus Valley, Proto-Elamite, Phaistos Disc, Cypro-Minoan, Cretan Hieroglyphs, Voynich Manuscript, Byblos Syllabary, Vinča, Tartaria |
 | Deciphered | Linear B, Egyptian Hieroglyphs, Hieratic, Demotic, Akkadian, Sumerian, Ugaritic, Phoenician, Paleo-Hebrew, Aramaic, Meroitic, Proto-Sinaitic |
-| Asian | Brahmi, Tamil, Telugu, Kannada, Malayalam, Japanese |
-| Other | Ancient Greek, Glagolitic, Gothic, Ge'ez, Coptic, Maya |
+| Classical | Latin (215k+ entries), Ancient Greek, Sanskrit, Old Persian, Hittite, Tocharian, Avestan |
+| Semitic/Near East | Arabic, Hebrew, Syriac, Nabataean, Elamite, Luwian Hieroglyphs, Middle Persian, Sogdian |
+| Asian | Brahmi, Tamil, Telugu, Kannada, Malayalam, Japanese, Chinese Classical, Korean, Thai, Tibetan, Burmese, Khmer, Javanese Kawi |
+| European | Glagolitic, Gothic, Old Norse Runic, Old English, Armenian, Georgian, Etruscan |
+| African | Ge'ez, Coptic, Amharic, Maya |
 
 ![Scripts API Response](screenshots/03-scripts-api.png)
 

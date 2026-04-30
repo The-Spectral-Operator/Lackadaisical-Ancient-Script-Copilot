@@ -139,12 +139,12 @@ PDFs are rasterized server-side (pdfjs-dist → node-canvas) at 150 DPI before s
 
 ## Script Coverage (April 2026)
 
-48 dataset files covering 36 unique scripts:
+75+ dataset files covering 75 unique scripts:
 
 | Script | Dataset | Notes |
 |--------|---------|-------|
 | Linear A | MASTER_SYMBOL_ENRICHED-2026-04-26 | Undeciphered Minoan |
-| Linear B | MASTER-2026-04-27 | Deciphered Mycenaean Greek |
+| Linear B | MASTER-2026-04-27 | Deciphered Mycenaean Greek (82 signs: 59 syllabary + 10 undeciphered + 13 logograms/numerals) |
 | Cypro-Minoan | MASTER-2025-09-11 | Undeciphered |
 | Cretan Hieroglyphs | 2025-09-11 | Undeciphered |
 | Indus Valley | v9.3 with IE/Dravidian | Undeciphered, 2025-01-04 |
@@ -179,6 +179,34 @@ PDFs are rasterized server-side (pdfjs-dist → node-canvas) at 150 DPI before s
 | Malayalam | Comprehensive | Deciphered |
 | Japanese | Full | Deciphered |
 | Dravidian | Template | Reference |
+| Latin | 50k holdover + Enhanced 2025 (215,981 entries) | Full lexicon: lemmas, morphology, manuscript variants, chronological evolution |
+| Sanskrit | MASTER_2026-04-29 | Classical |
+| Old Norse Runic | MASTER_2026-04-29 | Elder/Younger Futhark |
+| Old English | MASTER_2026-04-29 | Anglo-Saxon |
+| Arabic | MASTER_2026-04-29 | Classical |
+| Hebrew | MASTER_2026-04-29 | Biblical/Modern |
+| Tibetan | MASTER_2026-04-29 | Classical |
+| Korean | MASTER_2026-04-29 | Hangul |
+| Chinese Classical | MASTER_2026-04-29 | Literary Chinese |
+| Thai | MASTER_2026-04-29 | Thai script |
+| Armenian | MASTER_2026-04-29 | Classical/Modern |
+| Georgian | MASTER_2026-04-29 | Mkhedruli/Asomtavruli |
+| Etruscan | MASTER_2026-04-29 | Partially deciphered |
+| Tocharian | MASTER_2026-04-29 | Tocharian A/B |
+| Sogdian | MASTER_2026-04-29 | Silk Road script |
+| Avestan | MASTER_2026-04-29 | Zoroastrian liturgical |
+| Old Persian | MASTER_2026-04-29 | Cuneiform |
+| Hittite | MASTER_2026-04-29 | Anatolian cuneiform |
+| Nabataean | MASTER_2026-04-29 | Precursor to Arabic |
+| Syriac | MASTER_2026-04-29 | Aramaic branch |
+| Mycenaean Greek | MASTER_2026-04-29 | Vocabulary supplement to Linear B |
+| Luwian Hieroglyphs | MASTER_2026-04-29 | Anatolian hieroglyphic |
+| Middle Persian | MASTER_2026-04-29 | Pahlavi |
+| Elamite | MASTER_2026-04-29 | Cuneiform |
+| Burmese | MASTER_2026-04-29 | Myanmar script |
+| Khmer | MASTER_2026-04-29 | Cambodian |
+| Javanese Kawi | MASTER_2026-04-29 | Old Javanese |
+| Amharic | MASTER_2026-04-29 | Ethiopic |
 
 ---
 

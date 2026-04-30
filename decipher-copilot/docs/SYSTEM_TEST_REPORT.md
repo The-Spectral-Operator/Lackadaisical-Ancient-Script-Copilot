@@ -1,6 +1,6 @@
 # System Test Report
 
-**Date:** 2026-04-29  
+**Date:** 2026-04-30  
 **Version:** 1.0.0-alpha  
 **Environment:** Ubuntu Linux (CI), Node.js 20.20.2  
 
@@ -10,7 +10,7 @@
 
 ✅ Server starts cleanly  
 ✅ Auth token generated on first run  
-✅ Datasets auto-imported (75 scripts, 75 lexicons, 312,068 entries)  
+✅ Datasets auto-imported (75 scripts, 75 lexicons, 312,149 entries)  
 ✅ Data directories created automatically  
 ✅ Migrations run successfully  
 ✅ Graceful shutdown handlers registered  
@@ -46,7 +46,7 @@
 | Endpoint | Method | Status | Notes |
 |----------|--------|--------|-------|
 | `/api/scripts` | GET | ✅ | Returns 75 scripts |
-| `/api/lexicons` | GET | ✅ | Returns 75 lexicons, 312,068 total entries |
+| `/api/lexicons` | GET | ✅ | Returns 75 lexicons, 312,149 total entries |
 | `/api/lexicons/:id/entries` | GET | ✅ | Returns full entry list (tested: Indus Valley 2,502, Maya 597) |
 | `/api/lexicons/:id/entries` | POST | ✅ | Upsert entries |
 | `/api/lexicons/:id/import` | POST | ✅ | Bulk import |
@@ -160,7 +160,7 @@
 | Migrations applied | ✅ | 4 migration files |
 | Scripts seeded | ✅ | 75 scripts |
 | Lexicons seeded | ✅ | 75 lexicons |
-| Entries seeded | ✅ | 312,068 entries |
+| Entries seeded | ✅ | 312,149 entries |
 | Session CRUD | ✅ | Create/read/update/delete |
 | WAL mode | ✅ | Configured in pragmas |
 
