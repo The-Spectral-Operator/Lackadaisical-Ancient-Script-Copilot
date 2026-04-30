@@ -133,7 +133,7 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
   let fullContent = '', fullThinking = '', finalStats = null;
 
   try {
-    let currentMessages = [...messages];
+    const currentMessages = [...messages];
     for (let round = 0; round < 6; round++) {
       const thinkParser = new ThinkParser();
       const pendingToolCalls = [];

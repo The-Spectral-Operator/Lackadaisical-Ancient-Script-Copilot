@@ -10,15 +10,21 @@ A self-hosted AI copilot for ancient script decipherment, translation, and stati
 
 ## What It Does
 
-- **Decipher**: Feed it Linear A, Indus Valley, Voynich, Proto-Elamite, Phaistos Disc, or any of 36 supported scripts — get AI-powered sign-by-sign analysis with confidence scores
-- **Translate**: Full translation pipeline for all 36 attested and partially-attested scripts, including crossreference with 8,600+ lexicon entries
+- **Decipher**: Feed it Linear A, Indus Valley, Voynich, Proto-Elamite, Phaistos Disc, or any of 63 supported scripts — get AI-powered sign-by-sign analysis with confidence scores
+- **Translate**: Full translation pipeline for all attested and partially-attested scripts, including crossreference with 8,600+ lexicon entries
 - **Analyze**: Zipf law fit, Shannon entropy, conditional entropy, block entropy, Rényi entropy, Yule's K, unigram/bigram/trigram frequency, corpus-wide coherence checking
+- **Cross-Script Correlation**: Compare structural properties between scripts via frequency, bigram, positional, and entropy analysis — detect kinship between writing systems
+- **Glyph Chaining**: Detect recurring multi-glyph sequences scored by mutual information; single glyph profiling with positional/combinatorial analysis
+- **Pattern Detection**: Identify formulaic expressions, compound signs, and grammatical markers through PMI and log-likelihood scoring
 - **Stream**: Real-time WebSocket streaming with chain-of-thought reasoning visible in the collapsible thinking panel
 - **Vision**: Upload inscription photos or PDFs — vision models (gemma4, llama3.2-vision) analyze glyphs directly
-- **Tools**: LLM-callable tools for lexicon lookup, corpus search, frequency/entropy/Zipf reports, cross-inscription validation, lexicon entry addition
+- **Tools**: 12 LLM-callable tools for lexicon lookup, corpus search, frequency/entropy/Zipf reports, cross-inscription validation, cross-script correlation, glyph chaining, and more
+- **Upload Datasets**: Import your own JSON/CSV datasets from the frontend — auto-detected as lexicon or corpus entries
+- **Real-Time Statistics**: Live dashboard with system metrics, corpus analytics, and analysis history
+- **Script Families**: 63 scripts organized into 12 language families by region, era, and writing type
 - **Semantic Search**: Embedding-based vector similarity search across all inscriptions
 - **Batch Analysis**: Run multiple analysis types across all corpora with comparative linguistic ranking
-- **Model Factory**: Create custom decipherment-focused models from built-in presets via Ollama Modelfile API
+- **Model Factory**: Create custom unfiltered decipherment-focused models from built-in presets via Ollama Modelfile API
 - **Sign Clustering**: Group similar glyphs by structural, embedding, or vision-based similarity
 - **Export**: Generate publication-ready Markdown or LaTeX reports from any analysis
 
@@ -40,16 +46,26 @@ Zero telemetry. Verified by `scripts/verify_no_telemetry.ps1`.
 
 ---
 
-## Datasets (48 files, 36 scripts, 8,606+ lexicon entries)
+## Datasets (70+ files, 63 scripts, 8,606+ lexicon entries)
 
-All datasets seed automatically on first server start. Included:
+All datasets seed automatically on first server start. Scripts organized into 12 families:
 
-| Category | Scripts |
-|----------|---------|
-| Undeciphered | Linear A, Indus Valley (v9.3 IE/Dravidian), Proto-Elamite, Phaistos Disc, Cypro-Minoan, Cretan Hieroglyphs, Voynich Manuscript, Byblos Syllabary, Vinča, Tartaria, Linear Elamite |
-| Deciphered Ancient | Linear B, Egyptian Hieroglyphs, Hieratic, Demotic, Akkadian, Sumerian, Ugaritic, Phoenician, Paleo-Hebrew, Aramaic, Meroitic, Proto-Sinaitic, Ancient Greek, Glagolitic, Gothic, Ge'ez, Coptic |
-| South/East Asian | Brahmi, Tamil, Telugu, Kannada, Malayalam, Japanese |
-| Maya | Glyphs + grammar rules + phonetic rules + morphological patterns |
+| Family | Scripts |
+|--------|---------|
+| Undeciphered | Linear A, Indus Valley, Proto-Elamite, Phaistos Disc, Cypro-Minoan, Cretan Hieroglyphs, Voynich Manuscript, Byblos Syllabary, Vinča, Tartaria, Linear Elamite |
+| Aegean | Linear A, Linear B, Cretan Hieroglyphs, Cypro-Minoan, Phaistos Disc, Mycenaean Greek |
+| Semitic | Phoenician, Hebrew, Aramaic, Arabic, Nabataean, Syriac, Ugaritic, Akkadian, Musnad, Proto-Sinaitic, Byblos |
+| Northeast African | Egyptian Hieroglyphs, Hieratic, Demotic, Coptic, Meroitic, Ge'ez, Amharic |
+| Iranian | Old Persian, Middle Persian, Avestan, Sogdian, Proto-Elamite, Linear Elamite, Elamite |
+| Indic | Indus Valley, Brahmi, Sanskrit, Tamil, Telugu, Kannada, Malayalam, Tibetan |
+| East Asian | Classical Chinese, Japanese, Korean |
+| European | Greek, Latin, Etruscan, Gothic, Glagolitic, Old Norse Runic, Old English, Armenian, Georgian |
+| Southeast Asian | Thai, Khmer, Burmese, Javanese Kawi |
+| Anatolian | Hittite, Luwian Hieroglyphs |
+| Mesoamerican | Maya (glyphs + grammar + phonetics + morphology) |
+| Isolates | Sumerian, Tocharian |
+
+**Upload your own**: JSON/CSV datasets can be uploaded from the frontend UI.
 
 ---
 
@@ -107,15 +123,16 @@ decipher-copilot/
 │   │   ├── http/    # REST API routes (sessions, lexicon, corpus, analysis, search, export)
 │   │   ├── ws/      # WebSocket hub (streaming chat, tool dispatch)
 │   │   ├── ollama/  # Ollama NDJSON client, thinkParser, tool schemas
-│   │   ├── tools/   # LLM-callable: lexiconLookup, corpusSearch, zipf/entropy/freq, crossCheck
+│   │   ├── tools/   # LLM-callable: lexiconLookup, corpusSearch, zipf/entropy/freq, crossCheck, crossScriptCorrelation, glyphChaining
 │   │   ├── db/      # SQLite prepared statements, migrations, key derivation
 │   │   ├── auth/    # Bearer token + CSRF
 │   │   └── core/    # Dataset importer, FFI bridge to C engine (optional)
-│   └── migrations/  # SQL migrations (0001–0004)
+│   └── migrations/  # SQL migrations (0001–0005)
 ├── webui/           # Vanilla JS, zero frameworks, zero CDN
 │   ├── css/         # Tokens, layout, chat, inscription, dark theme
-│   ├── js/          # app.js + chat/lexicon/corpus/models/settings modules
+│   ├── js/          # app.js + chat/lexicon/corpus/models/settings/stats/upload modules
 │   └── vendor/      # prism-tiny.min.js (MIT, vendored)
+├── scripts/         # Modelfiles for custom unfiltered research models
 ├── core/            # C17/C++20/NASM native engine
 │   ├── asm/         # AVX2 SHA-256, base64, freq count, log2, secure memzero
 │   ├── src/         # dc_sha256, dc_align, dc_entropy, dc_zipf, dc_db, etc.
@@ -146,11 +163,20 @@ decipher-copilot/
 
 **Data:**
 `/api/lexicons` · `/api/lexicons/:id/entries` · `/api/corpora` · `/api/scripts`
-`/api/attachments` · `/api/settings`
+`/api/attachments` · `/api/settings` · `/api/datasets/upload` · `/api/datasets`
 
 **Analysis:**
 `/api/analysis/zipf` · `/api/analysis/entropy` · `/api/analysis/frequency` · `/api/analysis/align`
 `/api/analysis/batch` · `/api/analysis/history`
+
+**Cross-Script & Glyph Chaining (via LLM tools):**
+`cross_script_correlation` · `cross_script_matrix` · `single_glyph_analysis` · `glyph_chain_detection` · `multi_glyph_analysis`
+
+**Script Organization:**
+`/api/scripts/families` · `/api/scripts/organized` · `/api/scripts/stats`
+
+**Statistics:**
+`/api/stats/realtime` · `/api/stats/system` · `/api/stats/corpus/:id`
 
 **Search:**
 `/api/search/semantic` · `/api/search/index` · `/api/search/status`
@@ -191,14 +217,20 @@ See `docs/DECIPHERMENT_METHODS.md` for full details on:
 **v1.0.0-alpha — April 2026**
 
 - Full streaming chat with chain-of-thought reasoning display
-- 7 LLM-callable analysis tools wired into every chat session
-- 48 datasets auto-seeded at startup (8,600+ lexicon entries across 36 scripts)
+- 12 LLM-callable analysis tools wired into every chat session
+- 70+ datasets auto-seeded at startup (8,600+ lexicon entries across 63 scripts)
+- Cross-script correlation engine (frequency, bigram, positional, entropy methods)
+- Glyph chain detection with PMI scoring and categorization (formulaic/lexical/grammatical)
+- Single/multi glyph analysis with full sign profiling
+- Dataset upload from frontend (JSON/CSV) connected to backend
+- Real-time statistics dashboard with auto-refresh
+- Script family organization (12 families, 63 scripts with region/era/writing type)
+- Custom unfiltered research model creation via Modelfile presets
 - Model hotswap without session restart
 - Lexicon browser with JSON/CSV export
 - Corpus explorer with Zipf/entropy canvas charts
 - Embedding-based semantic search with batch indexing
 - Batch analysis mode with comparative linguistic ranking
-- Custom model creation from built-in decipherment presets
 - Sign-form clustering (structural, embedding, vision)
 - LaTeX/Markdown report export
 - Settings panel (Ollama host, model, context length, temperature)

@@ -1,0 +1,36 @@
+{
+  "_metadata": {
+    "script": "rongorongo",
+    "language": "Unknown (Rapanui substrate?)",
+    "region": "Easter Island (Rapa Nui)",
+    "era": "Pre-contact to 19th century",
+    "status": "undeciphered",
+    "description": "Rongorongo is a system of glyphs discovered on Easter Island in the 19th century. Only 26 objects bearing rongorongo survive, most heavily damaged. Whether it represents writing, proto-writing, or mnemonic devices remains debated.",
+    "corpus_size": "~14,000 glyphs across 26 objects",
+    "sign_inventory": "~120 basic elements combining into 500+ compound glyphs",
+    "direction": "reverse boustrophedon (alternating direction, rotated 180°)",
+    "references": [
+      "Fischer 1997 - Rongorongo: The Easter Island Script",
+      "Barthel 1958 - Grundlagen zur Entzifferung der Osterinselschrift",
+      "Pozdniakov & Pozdniakov 2007 - Rapanui Writing and the Rapanui Language",
+      "Horley 2011 - Structural Analysis of Rongorongo Inscriptions"
+    ],
+    "version": "1.0.0"
+  },
+  "entries": [
+    { "token": "001", "gloss": "anthropomorphic figure (seated)", "confidence": 0.3, "source": "Barthel 1958", "notes": "Most common glyph class" },
+    { "token": "002", "gloss": "anthropomorphic figure (standing)", "confidence": 0.3, "source": "Barthel 1958" },
+    { "token": "003", "gloss": "bird-man figure", "confidence": 0.4, "source": "Barthel 1958", "notes": "Related to tangata manu cult?" },
+    { "token": "004", "gloss": "fish/marine creature", "confidence": 0.35, "source": "Barthel 1958" },
+    { "token": "005", "gloss": "plant/vegetation", "confidence": 0.3, "source": "Barthel 1958" },
+    { "token": "006", "gloss": "hand/arm glyph", "confidence": 0.3, "source": "Barthel 1958" },
+    { "token": "007", "gloss": "vulva/fertility symbol", "confidence": 0.4, "source": "Fischer 1997", "notes": "Phallus interpretation disputed" },
+    { "token": "008", "gloss": "composite: seated figure + fish", "confidence": 0.2, "source": "Barthel 1958" },
+    { "token": "009", "gloss": "frigate bird", "confidence": 0.5, "source": "Barthel 1958", "notes": "Possibly related to manutara" },
+    { "token": "010", "gloss": "turtle", "confidence": 0.5, "source": "Barthel 1958" },
+    { "token": "200", "gloss": "crescent/moon", "confidence": 0.3, "source": "Barthel 1958" },
+    { "token": "380", "gloss": "double-headed figure", "confidence": 0.2, "source": "Barthel 1958" },
+    { "token": "600", "gloss": "rei miro (pectoral)", "confidence": 0.4, "source": "Fischer 1997" },
+    { "token": "700", "gloss": "ao (dance paddle)", "confidence": 0.35, "source": "Fischer 1997" }
+  ]
+}

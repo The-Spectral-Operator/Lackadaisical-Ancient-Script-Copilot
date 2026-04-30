@@ -105,7 +105,6 @@ export function crossScriptMatrix(db, args) {
       return { error: 'Need at least 2 corpora with sufficient inscriptions', corpora_found: corpora.length };
     }
 
-    const matrix = [];
     const pairs = [];
 
     for (let i = 0; i < corpora.length; i++) {
@@ -394,7 +393,7 @@ function computeTransitionEntropy(uniFreq, bigramFreq) {
 
   let totalEntropy = 0;
   let count = 0;
-  for (const [sign, succs] of Object.entries(successors)) {
+  for (const [, succs] of Object.entries(successors)) {
     const total = Object.values(succs).reduce((s, c) => s + c, 0);
     let h = 0;
     for (const c of Object.values(succs)) {

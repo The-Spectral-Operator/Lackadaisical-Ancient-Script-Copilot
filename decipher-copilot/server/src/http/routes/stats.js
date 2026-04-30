@@ -7,9 +7,7 @@
  * GET /api/stats/system      - System health and performance metrics
  * GET /api/stats/corpus/:id  - Live corpus statistics with analysis results
  */
-import { ulid } from '../../util/ids.js';
-
-export function createStatsRoute(db, config, logger) {
+export function createStatsRoute(db, config, _logger) {
   return {
     /**
      * GET /api/stats/realtime

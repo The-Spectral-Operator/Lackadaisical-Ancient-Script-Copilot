@@ -53,9 +53,11 @@ Navigate to **http://127.0.0.1:7340** in any Chromium-based browser.
 - **Model Picker** — Switch between available Ollama models instantly
 - **Session List** — All your decipherment sessions, click to resume
 - **+ New** — Start a fresh session
-- **Settings** — Configure Ollama host, model parameters, abliteration
+- **Settings** — Configure Ollama host, model parameters, abliteration, create custom models
 - **Lexicon** — Browse all loaded sign vocabularies
 - **Corpus** — Explore loaded inscription corpora
+- **Statistics** — Real-time system statistics dashboard (auto-refreshing)
+- **Upload Dataset** — Import your own JSON/CSV datasets
 
 ### Main Area (Center)
 - **Chat Messages** — Streaming conversation with the AI
@@ -126,7 +128,112 @@ With **🔧 Tools** enabled, the model can automatically:
 - `entropy_report` — Compute linguistic metrics
 - `zipf_report` — Check Zipf law compliance
 - `cross_inscription_check` — Validate hypotheses across corpus
+- `cross_script_correlation` — Compare two scripts structurally
+- `cross_script_matrix` — Pairwise comparison across all corpora
+- `single_glyph_analysis` — Comprehensive single sign profiling
+- `glyph_chain_detection` — Find recurring multi-glyph sequences
+- `multi_glyph_analysis` — Analyze specific sign sequences in context
 - `add_lexicon_entry` — Propose new readings
+
+---
+
+## Cross-Script Correlation
+
+Use the **⚖️ Cross-script Compare** quick action or ask:
+
+```
+Compare Linear A and Indus Valley structurally using frequency, bigram, and entropy correlation.
+```
+
+The engine compares:
+- **Frequency profiles** — Rank-frequency distribution similarity (cosine)
+- **Bigram structure** — Transition entropy and complexity ratios
+- **Positional patterns** — How signs distribute in initial/final positions
+- **Entropy profiles** — Information density comparison
+
+Results include an overall score (0–1) with interpretation.
+
+---
+
+## Glyph Chaining & Pattern Detection
+
+### Single Glyph Analysis
+
+Use the **🔬 Single Glyph Profile** quick action:
+
+```
+Analyze sign AB01 in the Linear A corpus. What is its positional preference and combinatorial freedom?
+```
+
+Returns: frequency, rank, positional preference, predecessor/successor distributions, co-occurrence networks.
+
+### Chain Detection
+
+Use the **🔗 Glyph Chain Analysis** quick action:
+
+```
+Detect all recurring multi-glyph chains in the Linear A corpus with minimum frequency 3.
+```
+
+Chains are scored by Pointwise Mutual Information (PMI) and categorized:
+- **Formulaic** — Appear primarily at inscription boundaries
+- **Lexical** — High PMI (likely compound words or logograms)
+- **Grammatical** — Moderate frequency with positional flexibility
+
+### Multi-Glyph Sequence Analysis
+
+```
+Analyze the sequence "AB01 AB02 AB03" in the Linear A corpus.
+```
+
+Returns: all occurrences, PMI score, positional preference, context patterns.
+
+---
+
+## Uploading Your Own Datasets
+
+Click **⬆ Upload Dataset** in the sidebar to import your own data:
+
+1. **Select a file** — JSON or CSV format
+2. **Choose script family** — Optional, auto-detected if omitted
+3. **Choose target type** — Lexicon (sign→meaning entries) or Corpus (inscriptions), or auto-detect
+4. **Name your dataset** — For display in the interface
+5. **Click Upload** — File is parsed client-side and imported server-side
+
+### Supported JSON Formats
+
+```json
+// Array of entries
+[{"token": "A", "gloss": "water", "confidence": 0.9}]
+
+// Object with entries array
+{"entries": [{"token": "A", "gloss": "water"}]}
+
+// Object-keyed dictionary
+{"A": {"gloss": "water", "phoneme": "a"}}
+```
+
+### Supported CSV Format
+
+```csv
+token,gloss,confidence,source
+A,water,0.9,Smith 2020
+B,house,0.8,Jones 2021
+```
+
+Uploaded datasets appear in the lexicon/corpus browsers immediately.
+
+---
+
+## Real-Time Statistics
+
+Click **📊 Statistics** in the sidebar for a live dashboard showing:
+- Total scripts, lexicon entries, corpora, inscriptions
+- Active sessions and message counts
+- Analysis run history
+- System metrics (memory, uptime, node version)
+- Available models
+- Auto-refreshes every 10 seconds
 
 ---
 

@@ -58,6 +58,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **Cross-script correlation engine** — compare structural properties between scripts via frequency, bigram, positional, and entropy analysis methods
+  - `cross_script_correlation` tool — pairwise corpus comparison with overall similarity score
+  - `cross_script_matrix` tool — run all pairwise correlations across available corpora
+- **Glyph chaining & pattern detection** — detect recurring multi-glyph sequences
+  - `single_glyph_analysis` tool — comprehensive single sign profiling (frequency, rank, positional preference, predecessors/successors, co-occurrence, context windows)
+  - `glyph_chain_detection` tool — extract n-grams scored by PMI/log-likelihood/Dice; categorize as formulaic/lexical/grammatical
+  - `multi_glyph_analysis` tool — deep analysis of specific sign sequences with context patterns
+- **Dataset upload from frontend** — upload JSON/CSV datasets via the UI
+  - `POST /api/datasets/upload` — parse, validate, and import as lexicon or corpus
+  - Auto-detect target type (lexicon vs corpus) from content structure
+  - Full CRUD: list, get, delete uploaded datasets
+- **Script family organization** — 63 scripts organized into 12 language families
+  - Families: Semitic, Aegean, Indic, East Asian, Iranian, Anatolian, Northeast African, European, Mesoamerican, Southeast Asian, Undeciphered, Isolates
+  - Each script: family_id, region, writing_type, decipherment status
+  - `GET /api/scripts/organized` — hierarchical family→scripts tree
+  - `GET /api/scripts/stats` — real-time per-script statistics
+- **Real-time statistics dashboard** — live system metrics panel
+  - `GET /api/stats/realtime` — full system snapshot (counts, models, recent activity)
+  - `GET /api/stats/system` — memory, uptime, node version, DB sizes
+  - `GET /api/stats/corpus/:id` — live per-corpus analytics (entropy, Zipf, hapax, bigrams)
+  - Frontend panel with auto-refresh every 10 seconds
+- **Custom unfiltered research model** — `scripts/Modelfile.decipher-research` for Ollama
+  - Fully abliterated system prompt optimized for decipherment
+  - Create from UI via Settings → Create Research Model
+- **Model creation UI** — create custom models from presets directly in settings panel
+- **Tool count expanded** from 7 to 12 LLM-callable tools
+- **New database migration** (0005) for glyph_chains, cross_script_correlations, dataset_uploads, script_families tables
+
 ### Planned
 
 - Multi-project workspace support with versioned hypothesis trees
