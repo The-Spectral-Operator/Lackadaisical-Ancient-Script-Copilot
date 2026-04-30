@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "title": "Syriac Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "syriac",
+    "display": "Syriac",
+    "era": "1st century CE - present",
+    "region": "Mesopotamia, Levant, Persia",
+    "script_type": "Abjad (Aramaic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 54,
+    "sources": [
+      "Payne Smith - Thesaurus Syriacus",
+      "Sokoloff - Syriac Lexicon"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "syriac_0001",
+      "token": "alap",
+      "gloss": "aleph (glottal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0002",
+      "token": "bet",
+      "gloss": "b",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0003",
+      "token": "gamal",
+      "gloss": "g",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0004",
+      "token": "dalat",
+      "gloss": "d",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0005",
+      "token": "he",
+      "gloss": "h",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0006",
+      "token": "waw",
+      "gloss": "w",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0007",
+      "token": "zayn",
+      "gloss": "z",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0008",
+      "token": "het",
+      "gloss": "h (pharyngeal)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0009",
+      "token": "tet",
+      "gloss": "t (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0010",
+      "token": "yod",
+      "gloss": "y",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0011",
+      "token": "kap",
+      "gloss": "k",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0012",
+      "token": "lamad",
+      "gloss": "l",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0013",
+      "token": "mim",
+      "gloss": "m",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0014",
+      "token": "nun",
+      "gloss": "n",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0015",
+      "token": "semkat",
+      "gloss": "s",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0016",
+      "token": "ayn",
+      "gloss": "pharyngeal fricative",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0017",
+      "token": "pe",
+      "gloss": "p",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0018",
+      "token": "sade",
+      "gloss": "ts (emphatic)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0019",
+      "token": "qop",
+      "gloss": "q (uvular)",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0020",
+      "token": "resh",
+      "gloss": "r",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0021",
+      "token": "shin",
+      "gloss": "sh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0022",
+      "token": "taw",
+      "gloss": "t",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0023",
+      "token": "alaha",
+      "gloss": "God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0024",
+      "token": "mshiha",
+      "gloss": "Messiah, Christ",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0025",
+      "token": "idta",
+      "gloss": "church",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0026",
+      "token": "qurbana",
+      "gloss": "eucharist, offering",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0027",
+      "token": "kashisha",
+      "gloss": "priest, elder",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0028",
+      "token": "episkopa",
+      "gloss": "bishop",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0029",
+      "token": "dayra",
+      "gloss": "monastery",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0030",
+      "token": "malka",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0031",
+      "token": "malkta",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0032",
+      "token": "atra",
+      "gloss": "land, country",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0033",
+      "token": "mdita",
+      "gloss": "city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0034",
+      "token": "bayta",
+      "gloss": "house",
+      "pos": "noun",
+      "semantic_field": "domestic",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0035",
+      "token": "nasha",
+      "gloss": "man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0036",
+      "token": "antta",
+      "gloss": "woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0037",
+      "token": "aba",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0038",
+      "token": "ema",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0039",
+      "token": "bra",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0040",
+      "token": "barta",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0041",
+      "token": "aha",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0042",
+      "token": "hata",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0043",
+      "token": "maya",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0044",
+      "token": "nura",
+      "gloss": "fire, light",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0045",
+      "token": "shmaya",
+      "gloss": "heaven, sky",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0046",
+      "token": "ara",
+      "gloss": "earth, ground",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0047",
+      "token": "ruha",
+      "gloss": "spirit, wind",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0048",
+      "token": "nafsha",
+      "gloss": "soul, self",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0049",
+      "token": "leba",
+      "gloss": "heart",
+      "pos": "noun",
+      "semantic_field": "anatomical/emotional",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0050",
+      "token": "hakmta",
+      "gloss": "wisdom",
+      "pos": "noun",
+      "semantic_field": "intellectual",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0051",
+      "token": "ktaba",
+      "gloss": "book, writing",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0052",
+      "token": "had",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0053",
+      "token": "tren",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    },
+    {
+      "entry_id": "syriac_0054",
+      "token": "tlata",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Payne Smith - Thesaurus Syriacus"
+    }
+  ]
+}

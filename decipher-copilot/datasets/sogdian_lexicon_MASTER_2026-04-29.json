@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "title": "Sogdian Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "sogdian",
+    "display": "Sogdian",
+    "era": "2nd century BCE - 11th century CE",
+    "region": "Sogdiana (Central Asia / Silk Road)",
+    "script_type": "Abjad (Aramaic-derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 36,
+    "sources": [
+      "Gharib - Sogdian Dictionary",
+      "Sims-Williams - Sogdian and other Iranian inscriptions"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "sogdian_0001",
+      "token": "'",
+      "gloss": "aleph",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0002",
+      "token": "β",
+      "gloss": "beth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0003",
+      "token": "γ",
+      "gloss": "gimel",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0004",
+      "token": "δ",
+      "gloss": "daleth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0005",
+      "token": "'xšywn'k",
+      "gloss": "axšēwanāk - king, ruler",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0006",
+      "token": "MLK'",
+      "gloss": "xšēd (Aramaic ideogram for king)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0007",
+      "token": "βγ",
+      "gloss": "bagh - god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0008",
+      "token": "'δwrmzt",
+      "gloss": "Adhurmazd - Ahura Mazda",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0009",
+      "token": "mtrk",
+      "gloss": "Mitrak - Mithra",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0010",
+      "token": "nnyδ",
+      "gloss": "Nanai - goddess Nanaia",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0011",
+      "token": "ZY",
+      "gloss": "of (Aramaic ideogram)",
+      "pos": "particle",
+      "semantic_field": "grammatical",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0012",
+      "token": "MN",
+      "gloss": "from (Aramaic ideogram)",
+      "pos": "particle",
+      "semantic_field": "grammatical",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0013",
+      "token": "'nk",
+      "gloss": "I",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0014",
+      "token": "xw",
+      "gloss": "self",
+      "pos": "pronoun",
+      "semantic_field": "reflexive",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0015",
+      "token": "pr-",
+      "gloss": "to, toward",
+      "pos": "preposition",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0016",
+      "token": "'p-",
+      "gloss": "from",
+      "pos": "preposition",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0017",
+      "token": "mrt",
+      "gloss": "mard - man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0018",
+      "token": "žn",
+      "gloss": "zan - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0019",
+      "token": "pt'r",
+      "gloss": "pidar - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0020",
+      "token": "m't",
+      "gloss": "mād - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0021",
+      "token": "psr",
+      "gloss": "pusar - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0022",
+      "token": "δwγt",
+      "gloss": "dukht - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0023",
+      "token": "'δw",
+      "gloss": "adhu - soul, self",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0024",
+      "token": "nm'k",
+      "gloss": "namāk - book, letter",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0025",
+      "token": "δyn",
+      "gloss": "dēn - religion, faith",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0026",
+      "token": "s'rt",
+      "gloss": "sārd - caravan",
+      "pos": "noun",
+      "semantic_field": "economic/travel",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0027",
+      "token": "smrqnδ",
+      "gloss": "Samarqand - Samarkand",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0028",
+      "token": "xwtw",
+      "gloss": "khutau - lord, master",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0029",
+      "token": "pr'mn",
+      "gloss": "farmān - command",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0030",
+      "token": "nβ'nt",
+      "gloss": "navānd - hope",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0031",
+      "token": "''β",
+      "gloss": "āb - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0032",
+      "token": "'tš",
+      "gloss": "ātash - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0033",
+      "token": "zmyk",
+      "gloss": "zamīk - earth",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0034",
+      "token": "w'δ",
+      "gloss": "wād - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0035",
+      "token": "rwnšn",
+      "gloss": "rōshn - light",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    },
+    {
+      "entry_id": "sogdian_0036",
+      "token": "t'ryk",
+      "gloss": "tārīk - dark",
+      "pos": "adjective",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Gharib - Sogdian Dictionary"
+    }
+  ]
+}

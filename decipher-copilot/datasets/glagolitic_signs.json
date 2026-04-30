@@ -1,0 +1,296 @@
+[
+  {
+    "letter": "Ⰰ",
+    "name": "az",
+    "transliteration": "a",
+    "codepoint": "U+2C00",
+    "notes": "First letter, means 'I'; used as pronoun and numeral 1"
+  },
+  {
+    "letter": "Ⰱ",
+    "name": "buky",
+    "transliteration": "b",
+    "codepoint": "U+2C01",
+    "notes": "Means 'letters' or 'books'; from Proto-Slavic *buky"
+  },
+  {
+    "letter": "Ⰲ",
+    "name": "vědě",
+    "transliteration": "v",
+    "codepoint": "U+2C02",
+    "notes": "Means 'to know'; from verb vědět"
+  },
+  {
+    "letter": "Ⰳ",
+    "name": "glagolĭ",
+    "transliteration": "g",
+    "codepoint": "U+2C03",
+    "notes": "Means 'speak' or 'word'; root of 'Glagolitic'"
+  },
+  {
+    "letter": "Ⰴ",
+    "name": "dobrě",
+    "transliteration": "d",
+    "codepoint": "U+2C04",
+    "notes": "Means 'good' or 'well'"
+  },
+  {
+    "letter": "Ⰵ",
+    "name": "jest",
+    "transliteration": "e",
+    "codepoint": "U+2C05",
+    "notes": "Means 'is'; copula verb"
+  },
+  {
+    "letter": "Ⰶ",
+    "name": "živěte",
+    "transliteration": "ž",
+    "codepoint": "U+2C06",
+    "notes": "Means 'live'; imperative of žiti"
+  },
+  {
+    "letter": "Ⰷ",
+    "name": "dzělo",
+    "transliteration": "dz",
+    "codepoint": "U+2C07",
+    "notes": "Means 'very' or 'much'"
+  },
+  {
+    "letter": "Ⰸ",
+    "name": "zemlja",
+    "transliteration": "z",
+    "codepoint": "U+2C08",
+    "notes": "Means 'earth' or 'land'"
+  },
+  {
+    "letter": "Ⰹ",
+    "name": "iže",
+    "transliteration": "i",
+    "codepoint": "U+2C09",
+    "notes": "Relative pronoun 'which' or 'who'"
+  },
+  {
+    "letter": "Ⰺ",
+    "name": "i",
+    "transliteration": "i",
+    "codepoint": "U+2C0A",
+    "notes": "Short i vowel"
+  },
+  {
+    "letter": "Ⰻ",
+    "name": "gervь",
+    "transliteration": "g'",
+    "codepoint": "U+2C0B",
+    "notes": "Palatalized g sound"
+  },
+  {
+    "letter": "Ⰼ",
+    "name": "kako",
+    "transliteration": "k",
+    "codepoint": "U+2C0C",
+    "notes": "Means 'how' or 'as'"
+  },
+  {
+    "letter": "Ⰽ",
+    "name": "ljudie",
+    "transliteration": "l",
+    "codepoint": "U+2C0D",
+    "notes": "Means 'people'"
+  },
+  {
+    "letter": "Ⰾ",
+    "name": "myslite",
+    "transliteration": "m",
+    "codepoint": "U+2C0E",
+    "notes": "Means 'think'; imperative of mysliti"
+  },
+  {
+    "letter": "Ⰿ",
+    "name": "našь",
+    "transliteration": "n",
+    "codepoint": "U+2C0F",
+    "notes": "Means 'our' or 'ours'"
+  },
+  {
+    "letter": "Ⱀ",
+    "name": "on",
+    "transliteration": "o",
+    "codepoint": "U+2C10",
+    "notes": "Means 'he' or 'it'"
+  },
+  {
+    "letter": "Ⱁ",
+    "name": "pokoi",
+    "transliteration": "p",
+    "codepoint": "U+2C11",
+    "notes": "Means 'peace' or 'rest'"
+  },
+  {
+    "letter": "Ⱂ",
+    "name": "rьci",
+    "transliteration": "r",
+    "codepoint": "U+2C12",
+    "notes": "Means 'speak' or 'say'"
+  },
+  {
+    "letter": "Ⱃ",
+    "name": "slovo",
+    "transliteration": "s",
+    "codepoint": "U+2C13",
+    "notes": "Means 'word' or 'letter'"
+  },
+  {
+    "letter": "Ⱄ",
+    "name": "tvrьdo",
+    "transliteration": "t",
+    "codepoint": "U+2C14",
+    "notes": "Means 'firmly' or 'hard'"
+  },
+  {
+    "letter": "Ⱅ",
+    "name": "ukь",
+    "transliteration": "u",
+    "codepoint": "U+2C15",
+    "notes": "Short u vowel"
+  },
+  {
+    "letter": "Ⱆ",
+    "name": "frьtь",
+    "transliteration": "f",
+    "codepoint": "U+2C16",
+    "notes": "Used for Greek phi in loanwords"
+  },
+  {
+    "letter": "Ⱇ",
+    "name": "xěrь",
+    "transliteration": "x",
+    "codepoint": "U+2C17",
+    "notes": "Used for Greek chi in loanwords"
+  },
+  {
+    "letter": "Ⱈ",
+    "name": "otь",
+    "transliteration": "ot",
+    "codepoint": "U+2C18",
+    "notes": "Ligature for 'from' or 'of'"
+  },
+  {
+    "letter": "Ⱉ",
+    "name": "šta",
+    "transliteration": "št",
+    "codepoint": "U+2C19",
+    "notes": "Ligature for št sound"
+  },
+  {
+    "letter": "Ⱊ",
+    "name": "ci",
+    "transliteration": "c",
+    "codepoint": "U+2C1A",
+    "notes": "Ts sound"
+  },
+  {
+    "letter": "Ⱋ",
+    "name": "črьvь",
+    "transliteration": "č",
+    "codepoint": "U+2C1B",
+    "notes": "Ch sound, means 'worm'"
+  },
+  {
+    "letter": "Ⱌ",
+    "name": "ša",
+    "transliteration": "š",
+    "codepoint": "U+2C1C",
+    "notes": "Sh sound"
+  },
+  {
+    "letter": "Ⱍ",
+    "name": "jerь",
+    "transliteration": "ъ",
+    "codepoint": "U+2C1D",
+    "notes": "Hard sign, back reduced vowel"
+  },
+  {
+    "letter": "Ⱎ",
+    "name": "jery",
+    "transliteration": "y",
+    "codepoint": "U+2C1E",
+    "notes": "Back high vowel"
+  },
+  {
+    "letter": "Ⱏ",
+    "name": "jerĭ",
+    "transliteration": "ĭ",
+    "codepoint": "U+2C1F",
+    "notes": "Soft sign, front reduced vowel"
+  },
+  {
+    "letter": "Ⱐ",
+    "name": "jatĭ",
+    "transliteration": "ě",
+    "codepoint": "U+2C20",
+    "notes": "Yat vowel, front mid vowel"
+  },
+  {
+    "letter": "Ⱑ",
+    "name": "jo",
+    "transliteration": "jo",
+    "codepoint": "U+2C21",
+    "notes": "Iotated o"
+  },
+  {
+    "letter": "Ⱒ",
+    "name": "ju",
+    "transliteration": "ju",
+    "codepoint": "U+2C22",
+    "notes": "Iotated u"
+  },
+  {
+    "letter": "Ⱓ",
+    "name": "ja",
+    "transliteration": "ja",
+    "codepoint": "U+2C23",
+    "notes": "Iotated a"
+  },
+  {
+    "letter": "Ⱔ",
+    "name": "je",
+    "transliteration": "je",
+    "codepoint": "U+2C24",
+    "notes": "Iotated e"
+  },
+  {
+    "letter": "Ⱕ",
+    "name": "jǫ",
+    "transliteration": "jǫ",
+    "codepoint": "U+2C25",
+    "notes": "Iotated big yus"
+  },
+  {
+    "letter": "Ⱖ",
+    "name": "jĭ",
+    "transliteration": "jĭ",
+    "codepoint": "U+2C26",
+    "notes": "Iotated soft sign"
+  },
+  {
+    "letter": "Ⱗ",
+    "name": "ję",
+    "transliteration": "ję",
+    "codepoint": "U+2C27",
+    "notes": "Iotated little yus"
+  },
+  {
+    "letter": "Ⱘ",
+    "name": "ǫ",
+    "transliteration": "ǫ",
+    "codepoint": "U+2C28",
+    "notes": "Big yus, back nasal vowel"
+  },
+  {
+    "letter": "Ⱙ",
+    "name": "ę",
+    "transliteration": "ę",
+    "codepoint": "U+2C29",
+    "notes": "Little yus, front nasal vowel"
+  }
+]

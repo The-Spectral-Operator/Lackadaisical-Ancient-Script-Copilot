@@ -1,0 +1,1007 @@
+{
+  "metadata": {
+    "title": "Byblos Script Master Lexicon — Consolidated v5.0 (Phase 6–10 Integrated)",
+    "version": "5.0.0.2025-11-11",
+    "compiled_date": "2025-11-11T00:00:00Z",
+    "id_namespace": "Byblos B### (B001–B999)",
+    "merge_policy": {
+      "baseline": "Phase 6/7 (ORIGINAL_ENHANCED entries from v4.2)",
+      "alternates": "Phase 8 kept under alternate_readings with confidence",
+      "phase_9": "Confirmations folded into notes/alternates; no new canonicals",
+      "phase_10": "Divergent proposals retained as alternates unless they increase internal consistency across texts"
+    },
+    "counts": {
+      "canonical_signs": 27,
+      "variant_entries": 20,
+      "total_entries": 47
+    },
+    "schema": {
+      "sign_id": "Canonical B### identifier or variant id (e.g., B028)",
+      "canonical_form": "For variants, the canonical sign they belong to; equals sign_id for canonicals",
+      "variant_of": "If this is a variant, which canonical sign it belongs to; null for canonicals",
+      "glyph_description": "Concise visual description",
+      "transliteration": "Scholarly transliteration or label",
+      "sign_type": "syllabic | logographic | determinative | mixed",
+      "primary_value": "Primary phonetic/semantic value",
+      "phonetic_value": "IPA or descriptive phonetic value (if applicable)",
+      "final_confidence": "0..1 baseline confidence after integration",
+      "alternate_readings": "Array of {phase, value, function, confidence, notes}",
+      "variants": "Array of variant ids that map to this canonical sign"
+    },
+    "change_log": [
+      "Phase 10 proposals that conflicted with Phase 6–8 baselines kept as alternate_readings with lower confidence (no forced reassignment).",
+      "B003 remains canonical Mem (/ma/); Phase‑10 suggestion to merge into B017 (liquid determinative) kept as low‑confidence alternate.",
+      "B006 retained as /wa/ (hook/waw); Phase‑10 emphatic /ṭa/ proposal left as alternate (ṯ/ṭ) with low–medium confidence.",
+      "B007 retained as /za/; Phase‑10 /gu/ hypothesis added as low‑confidence alternate tied to Gubal context.",
+      "B012 retained as /sa/ (Samekh); bird/logogram and /wi/ alternates preserved.",
+      "B014 retained as /pa/ with tree/feminine -t logographic alternate kept.",
+      "B015 retained as /ṣa/ (plant) with strong alternate as fish logogram in offerings contexts.",
+      "B016 retained as mixed (qa vs divine determinative); determinative usage emphasized in alternates; no forced switch.",
+      "B018 retained as /ta/ with mountain/land determinative alternate.",
+      "B019 retained as /da/ (fish) with eye/ʿayin alternate."
+    ]
+  },
+  "signs": [
+    {
+      "sign_id": "B001",
+      "canonical_form": "B001",
+      "variant_of": null,
+      "glyph_description": "Vertical line with short top bar",
+      "transliteration": "ʾa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "ʾa",
+      "phonetic_value": "/ʔa/ or determinative",
+      "final_confidence": 0.96,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ʾa",
+          "function": "phonetic & determinative",
+          "confidence": 0.9,
+          "notes": "divine/one marker"
+        }
+      ],
+      "variants": [
+        "B028"
+      ]
+    },
+    {
+      "sign_id": "B002",
+      "canonical_form": "B002",
+      "variant_of": null,
+      "glyph_description": "House plan with inner divider",
+      "transliteration": "ba",
+      "sign_type": "syllabic",
+      "primary_value": "ba",
+      "phonetic_value": "/ba/",
+      "final_confidence": 0.92,
+      "alternate_readings": [],
+      "variants": [
+        "B029"
+      ]
+    },
+    {
+      "sign_id": "B003",
+      "canonical_form": "B003",
+      "variant_of": null,
+      "glyph_description": "Three wavy lines (water)",
+      "transliteration": "ma",
+      "sign_type": "syllabic",
+      "primary_value": "ma",
+      "phonetic_value": "/ma/",
+      "final_confidence": 0.82,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ga",
+          "function": "phonetic (tentative)",
+          "confidence": 0.5,
+          "notes": "kept as alt"
+        },
+        {
+          "phase": "Phase10",
+          "value": "merge->B017",
+          "function": "merge proposal",
+          "confidence": 0.2,
+          "notes": "not adopted"
+        }
+      ],
+      "variants": [
+        "B030"
+      ]
+    },
+    {
+      "sign_id": "B004",
+      "canonical_form": "B004",
+      "variant_of": null,
+      "glyph_description": "Circle with central dot (sun/eye)",
+      "transliteration": "ra",
+      "sign_type": "syllabic",
+      "primary_value": "ra",
+      "phonetic_value": "/ra/",
+      "final_confidence": 0.94,
+      "alternate_readings": [],
+      "variants": [
+        "B031"
+      ]
+    },
+    {
+      "sign_id": "B005",
+      "canonical_form": "B005",
+      "variant_of": null,
+      "glyph_description": "Curved snake line",
+      "transliteration": "na",
+      "sign_type": "syllabic",
+      "primary_value": "na",
+      "phonetic_value": "/na/",
+      "final_confidence": 0.84,
+      "alternate_readings": [],
+      "variants": [
+        "B032"
+      ]
+    },
+    {
+      "sign_id": "B006",
+      "canonical_form": "B006",
+      "variant_of": null,
+      "glyph_description": "Hook/plus‑like (waw)",
+      "transliteration": "wa",
+      "sign_type": "syllabic",
+      "primary_value": "wa",
+      "phonetic_value": "/wa/",
+      "final_confidence": 0.78,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ta",
+          "function": "phonetic alt",
+          "confidence": 0.6,
+          "notes": "kept as alt"
+        }
+      ],
+      "variants": [
+        "B033"
+      ]
+    },
+    {
+      "sign_id": "B007",
+      "canonical_form": "B007",
+      "variant_of": null,
+      "glyph_description": "Weapon/triangle form",
+      "transliteration": "za",
+      "sign_type": "syllabic",
+      "primary_value": "za",
+      "phonetic_value": "/za/",
+      "final_confidence": 0.75,
+      "alternate_readings": [
+        {
+          "phase": "Phase10",
+          "value": "gu",
+          "function": "phonetic alt",
+          "confidence": 0.4,
+          "notes": "Gubal hypothesis"
+        }
+      ],
+      "variants": [
+        "B034"
+      ]
+    },
+    {
+      "sign_id": "B008",
+      "canonical_form": "B008",
+      "variant_of": null,
+      "glyph_description": "Rectangular enclosure/comb",
+      "transliteration": "ḥa",
+      "sign_type": "syllabic",
+      "primary_value": "ḥa",
+      "phonetic_value": "/ħa/",
+      "final_confidence": 0.8,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ša",
+          "function": "phonetic alt",
+          "confidence": 0.7,
+          "notes": "kept as alt"
+        }
+      ],
+      "variants": [
+        "B035"
+      ]
+    },
+    {
+      "sign_id": "B009",
+      "canonical_form": "B009",
+      "variant_of": null,
+      "glyph_description": "Twisted/cord motif (ṭeth‑like)",
+      "transliteration": "ṭa",
+      "sign_type": "syllabic",
+      "primary_value": "ṭa",
+      "phonetic_value": "/tˤa/",
+      "final_confidence": 0.7,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ḫa",
+          "function": "phonetic alt",
+          "confidence": 0.6,
+          "notes": "genitival nuance"
+        }
+      ],
+      "variants": [
+        "B036"
+      ]
+    },
+    {
+      "sign_id": "B010",
+      "canonical_form": "B010",
+      "variant_of": null,
+      "glyph_description": "Cupped palm/hand‑like",
+      "transliteration": "ka",
+      "sign_type": "syllabic",
+      "primary_value": "ka",
+      "phonetic_value": "/ka/",
+      "final_confidence": 0.82,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ḥu",
+          "function": "phonetic alt",
+          "confidence": 0.65,
+          "notes": "ta‑ḥu motif"
+        }
+      ],
+      "variants": [
+        "B037"
+      ]
+    },
+    {
+      "sign_id": "B011",
+      "canonical_form": "B011",
+      "variant_of": null,
+      "glyph_description": "Goad/staff",
+      "transliteration": "la",
+      "sign_type": "syllabic",
+      "primary_value": "la",
+      "phonetic_value": "/la/",
+      "final_confidence": 0.85,
+      "alternate_readings": [],
+      "variants": [
+        "B038"
+      ]
+    },
+    {
+      "sign_id": "B012",
+      "canonical_form": "B012",
+      "variant_of": null,
+      "glyph_description": "Support/bird motif",
+      "transliteration": "sa",
+      "sign_type": "syllabic",
+      "primary_value": "sa",
+      "phonetic_value": "/sa/",
+      "final_confidence": 0.68,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(bird)",
+          "function": "logogram/determinative",
+          "confidence": 0.5,
+          "notes": "fish & bird lists"
+        },
+        {
+          "phase": "Phase10",
+          "value": "wi",
+          "function": "phonetic alt",
+          "confidence": 0.5,
+          "notes": "semi‑vowel hypothesis"
+        }
+      ],
+      "variants": [
+        "B039"
+      ]
+    },
+    {
+      "sign_id": "B013",
+      "canonical_form": "B013",
+      "variant_of": null,
+      "glyph_description": "Human figure/torso",
+      "transliteration": "ʿa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "ʿa",
+      "phonetic_value": "/ʕa/",
+      "final_confidence": 0.88,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(man/king)",
+          "function": "determinative",
+          "confidence": 0.9,
+          "notes": "title classifier"
+        }
+      ],
+      "variants": [
+        "B040"
+      ]
+    },
+    {
+      "sign_id": "B014",
+      "canonical_form": "B014",
+      "variant_of": null,
+      "glyph_description": "Mouth/branching tree",
+      "transliteration": "pa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "pa",
+      "phonetic_value": "/pa/",
+      "final_confidence": 0.78,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(tree/wood)",
+          "function": "logogram/determinative",
+          "confidence": 0.7,
+          "notes": "Baalat/feminine -t"
+        }
+      ],
+      "variants": [
+        "B041"
+      ]
+    },
+    {
+      "sign_id": "B015",
+      "canonical_form": "B015",
+      "variant_of": null,
+      "glyph_description": "Plant/fish pictogram",
+      "transliteration": "ṣa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "ṣa",
+      "phonetic_value": "/sˤa/",
+      "final_confidence": 0.76,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(fish)",
+          "function": "logogram/determinative",
+          "confidence": 0.8,
+          "notes": "offerings"
+        }
+      ],
+      "variants": [
+        "B042"
+      ]
+    },
+    {
+      "sign_id": "B016",
+      "canonical_form": "B016",
+      "variant_of": null,
+      "glyph_description": "Sun/star",
+      "transliteration": "qa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "qa",
+      "phonetic_value": "/qa/",
+      "final_confidence": 0.72,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(divine/solar)",
+          "function": "determinative",
+          "confidence": 0.85,
+          "notes": "before deity names"
+        }
+      ],
+      "variants": [
+        "B043"
+      ]
+    },
+    {
+      "sign_id": "B017",
+      "canonical_form": "B017",
+      "variant_of": null,
+      "glyph_description": "Comb/teeth or water",
+      "transliteration": "ša",
+      "sign_type": "syllabic",
+      "primary_value": "ša",
+      "phonetic_value": "/ʃa/",
+      "final_confidence": 0.81,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ma",
+          "function": "phonetic/logogram",
+          "confidence": 0.8,
+          "notes": "water/libation context"
+        }
+      ],
+      "variants": [
+        "B044"
+      ]
+    },
+    {
+      "sign_id": "B018",
+      "canonical_form": "B018",
+      "variant_of": null,
+      "glyph_description": "Tri‑peaked mound",
+      "transliteration": "ta",
+      "sign_type": "syllabic",
+      "primary_value": "ta",
+      "phonetic_value": "/ta/",
+      "final_confidence": 0.84,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "(mountain)",
+          "function": "determinative",
+          "confidence": 0.6,
+          "notes": "sacred high‑place"
+        }
+      ],
+      "variants": [
+        "B045"
+      ]
+    },
+    {
+      "sign_id": "B019",
+      "canonical_form": "B019",
+      "variant_of": null,
+      "glyph_description": "Eye/fish‑like oval",
+      "transliteration": "da",
+      "sign_type": "syllabic",
+      "primary_value": "da",
+      "phonetic_value": "/da/",
+      "final_confidence": 0.83,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ʿa",
+          "function": "phonetic alt",
+          "confidence": 0.5,
+          "notes": "ʿayin hypothesis"
+        }
+      ],
+      "variants": [
+        "B046"
+      ]
+    },
+    {
+      "sign_id": "B020",
+      "canonical_form": "B020",
+      "variant_of": null,
+      "glyph_description": "Open hand/palm",
+      "transliteration": "ya / yad",
+      "sign_type": "syllabic/logographic",
+      "primary_value": "ya (also 'yad' hand)",
+      "phonetic_value": "/ja/ or logogram",
+      "final_confidence": 0.96,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "ya",
+          "function": "phonetic & logographic",
+          "confidence": 0.9,
+          "notes": "b‑yad formula"
+        }
+      ],
+      "variants": [
+        "B047"
+      ]
+    },
+    {
+      "sign_id": "B021",
+      "canonical_form": "B021",
+      "variant_of": null,
+      "glyph_description": "Seated official",
+      "transliteration": "admin‑official",
+      "sign_type": "logographic",
+      "primary_value": "administrative official",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.87,
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "value": "7",
+          "function": "numeral",
+          "confidence": 0.99,
+          "notes": "tally of seven marks"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B022",
+      "canonical_form": "B022",
+      "variant_of": null,
+      "glyph_description": "Figure in writing posture",
+      "transliteration": "scribe",
+      "sign_type": "logographic",
+      "primary_value": "scribe / recorder",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.89,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B023",
+      "canonical_form": "B023",
+      "variant_of": null,
+      "glyph_description": "Standing figure with staff",
+      "transliteration": "priest",
+      "sign_type": "logographic",
+      "primary_value": "priest / religious official",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.82,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B024",
+      "canonical_form": "B024",
+      "variant_of": null,
+      "glyph_description": "Tall conifer (cedar)",
+      "transliteration": "cedar",
+      "sign_type": "logographic",
+      "primary_value": "cedar (commodity)",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.79,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B025",
+      "canonical_form": "B025",
+      "variant_of": null,
+      "glyph_description": "Boat/ship outline",
+      "transliteration": "ship",
+      "sign_type": "logographic",
+      "primary_value": "ship / boat",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.81,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B026",
+      "canonical_form": "B026",
+      "variant_of": null,
+      "glyph_description": "Storage jar/amphora",
+      "transliteration": "vessel",
+      "sign_type": "logographic",
+      "primary_value": "storage vessel / container",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.78,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B027",
+      "canonical_form": "B027",
+      "variant_of": null,
+      "glyph_description": "Grain ear/bundle",
+      "transliteration": "grain",
+      "sign_type": "logographic",
+      "primary_value": "grain / cereal",
+      "phonetic_value": "logographic",
+      "final_confidence": 0.76,
+      "alternate_readings": [],
+      "variants": []
+    },
+    {
+      "sign_id": "B028",
+      "canonical_form": "B001",
+      "variant_of": "B001",
+      "glyph_description": "Aleph allograph: longer top bar; slight slant",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.88,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.88,
+          "notes": "same value ʾa"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B029",
+      "canonical_form": "B002",
+      "variant_of": "B002",
+      "glyph_description": "House allograph: rounded corners; divider offset",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.9,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.9,
+          "notes": "same value ba"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B030",
+      "canonical_form": "B003",
+      "variant_of": "B003",
+      "glyph_description": "Water allograph: tighter stacked chevrons",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.82,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.82,
+          "notes": "same value ma"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B031",
+      "canonical_form": "B004",
+      "variant_of": "B004",
+      "glyph_description": "Sun/eye allograph: thicker ring; small dot",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.86,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.86,
+          "notes": "same value ra"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B032",
+      "canonical_form": "B005",
+      "variant_of": "B005",
+      "glyph_description": "Snake allograph: more sinuous; head hook",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.92,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.92,
+          "notes": "same value na"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B033",
+      "canonical_form": "B006",
+      "variant_of": "B006",
+      "glyph_description": "Waw allograph: unequal cross arms; center tick",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.78,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.78,
+          "notes": "same value wa"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B034",
+      "canonical_form": "B007",
+      "variant_of": "B007",
+      "glyph_description": "Zayin allograph: base serif; flattened apex",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.74,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.74,
+          "notes": "same value za"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B035",
+      "canonical_form": "B008",
+      "variant_of": "B008",
+      "glyph_description": "Ḥeth allograph: 4 tines",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.84,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.84,
+          "notes": "same value ḥa"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B036",
+      "canonical_form": "B009",
+      "variant_of": "B009",
+      "glyph_description": "Ṭeth allograph: looped/spoked inner cross",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.8,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.8,
+          "notes": "same value ṭa"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B037",
+      "canonical_form": "B010",
+      "variant_of": "B010",
+      "glyph_description": "Kaph allograph: tighter hook; short tail",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.83,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.83,
+          "notes": "same value ka"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B038",
+      "canonical_form": "B011",
+      "variant_of": "B011",
+      "glyph_description": "Lamed allograph: longer shaft; shallow crook",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.89,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.89,
+          "notes": "same value la"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B039",
+      "canonical_form": "B012",
+      "variant_of": "B012",
+      "glyph_description": "Bird allograph: reversed profile; simplified wing",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.72,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.72,
+          "notes": "same value as parent"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B040",
+      "canonical_form": "B013",
+      "variant_of": "B013",
+      "glyph_description": "Person allograph: bent elbows; circular head",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.88,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.88,
+          "notes": "same determinative usage"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B041",
+      "canonical_form": "B014",
+      "variant_of": "B014",
+      "glyph_description": "Tree allograph: bifurcated crown; short trunk",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.81,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.81,
+          "notes": "same usage incl. feminine -t"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B042",
+      "canonical_form": "B015",
+      "variant_of": "B015",
+      "glyph_description": "Fish allograph: forked tail; elongated body",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.7,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.7,
+          "notes": "same determinative usage"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B043",
+      "canonical_form": "B016",
+      "variant_of": "B016",
+      "glyph_description": "Sun/divinity allograph: 6–8 short rays",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.87,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.87,
+          "notes": "same determinative usage"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B044",
+      "canonical_form": "B017",
+      "variant_of": "B017",
+      "glyph_description": "Shin allograph: closely spaced verticals",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.86,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.86,
+          "notes": "same value ša"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B045",
+      "canonical_form": "B018",
+      "variant_of": "B018",
+      "glyph_description": "Mountain allograph: double peak; shallow notch",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.79,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.79,
+          "notes": "same usage; often word‑final -t"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B046",
+      "canonical_form": "B019",
+      "variant_of": "B019",
+      "glyph_description": "Eye allograph: almond outline; off‑center pupil",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.77,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.77,
+          "notes": "same parent usage"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "sign_id": "B047",
+      "canonical_form": "B020",
+      "variant_of": "B020",
+      "glyph_description": "Hand allograph: bent fingers; wrist notch",
+      "transliteration": null,
+      "sign_type": "variant",
+      "primary_value": null,
+      "phonetic_value": null,
+      "final_confidence": 0.91,
+      "alternate_readings": [
+        {
+          "phase": "integration",
+          "value": "= canonical",
+          "function": "allograph",
+          "confidence": 0.91,
+          "notes": "same 'yad' usage"
+        }
+      ],
+      "variants": []
+    }
+  ]
+}

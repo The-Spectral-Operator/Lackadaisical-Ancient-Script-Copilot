@@ -1,0 +1,651 @@
+{
+  "metadata": {
+    "title": "Old Persian Cuneiform Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "old_persian",
+    "display": "Old Persian Cuneiform",
+    "era": "6th-4th century BCE",
+    "region": "Achaemenid Empire (Iran, Mesopotamia)",
+    "script_type": "Syllabic-Logographic",
+    "status": "Fully Deciphered",
+    "total_entries": 70,
+    "sources": [
+      "Roland Kent - Old Persian Grammar",
+      "Rüdiger Schmitt - Old Persian Inscriptions"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "old_persian_0001",
+      "token": "𐎠",
+      "gloss": "a (vowel)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0002",
+      "token": "𐎡",
+      "gloss": "i (vowel)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0003",
+      "token": "𐎢",
+      "gloss": "u (vowel)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0004",
+      "token": "𐎣",
+      "gloss": "ka",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0005",
+      "token": "𐎤",
+      "gloss": "ku",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0006",
+      "token": "𐎥",
+      "gloss": "ga",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0007",
+      "token": "𐎦",
+      "gloss": "gu",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0008",
+      "token": "𐎧",
+      "gloss": "xa",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0009",
+      "token": "𐎨",
+      "gloss": "ca",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0010",
+      "token": "𐎩",
+      "gloss": "ja",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0011",
+      "token": "𐎪",
+      "gloss": "ji",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0012",
+      "token": "𐎫",
+      "gloss": "ta",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0013",
+      "token": "𐎬",
+      "gloss": "tu",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0014",
+      "token": "𐎭",
+      "gloss": "da",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0015",
+      "token": "𐎮",
+      "gloss": "di",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0016",
+      "token": "𐎯",
+      "gloss": "du",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0017",
+      "token": "𐎰",
+      "gloss": "θa (tha)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0018",
+      "token": "𐎱",
+      "gloss": "pa",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0019",
+      "token": "𐎲",
+      "gloss": "ba",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0020",
+      "token": "𐎳",
+      "gloss": "fa",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0021",
+      "token": "𐎴",
+      "gloss": "na",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0022",
+      "token": "𐎵",
+      "gloss": "nu",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0023",
+      "token": "𐎶",
+      "gloss": "ma",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0024",
+      "token": "𐎷",
+      "gloss": "mi",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0025",
+      "token": "𐎸",
+      "gloss": "mu",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0026",
+      "token": "𐎹",
+      "gloss": "ya",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0027",
+      "token": "𐎺",
+      "gloss": "va",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0028",
+      "token": "𐎻",
+      "gloss": "vi",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0029",
+      "token": "𐎼",
+      "gloss": "ra",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0030",
+      "token": "𐎽",
+      "gloss": "ru",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0031",
+      "token": "𐎾",
+      "gloss": "la",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0032",
+      "token": "𐎿",
+      "gloss": "sa",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0033",
+      "token": "𐏀",
+      "gloss": "za",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0034",
+      "token": "𐏁",
+      "gloss": "ša",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0035",
+      "token": "𐏂",
+      "gloss": "ha",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0036",
+      "token": "𐏃",
+      "gloss": "Ahuramazda (logogram)",
+      "pos": "logogram",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0037",
+      "token": "𐏈",
+      "gloss": "king (XŠ)",
+      "pos": "logogram",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0038",
+      "token": "𐏋",
+      "gloss": "earth (BU)",
+      "pos": "logogram",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0039",
+      "token": "𐏌",
+      "gloss": "land/country (DH)",
+      "pos": "logogram",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0040",
+      "token": "𐏍",
+      "gloss": "word divider",
+      "pos": "punctuation",
+      "semantic_field": "structural",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0041",
+      "token": "xšāyaθiya",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0042",
+      "token": "xšāyaθiya xšāyaθiyānām",
+      "gloss": "king of kings",
+      "pos": "noun_phrase",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0043",
+      "token": "dahyāuš",
+      "gloss": "land, country, people",
+      "pos": "noun",
+      "semantic_field": "geographic/political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0044",
+      "token": "baga",
+      "gloss": "god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0045",
+      "token": "Auramazdā",
+      "gloss": "Ahura Mazda (supreme deity)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0046",
+      "token": "martiya",
+      "gloss": "man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0047",
+      "token": "vašna",
+      "gloss": "by the will/grace of",
+      "pos": "postposition",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0048",
+      "token": "adam",
+      "gloss": "I (first person)",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0049",
+      "token": "ima",
+      "gloss": "this",
+      "pos": "pronoun",
+      "semantic_field": "demonstrative",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0050",
+      "token": "ava",
+      "gloss": "that",
+      "pos": "pronoun",
+      "semantic_field": "demonstrative",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0051",
+      "token": "akunauš",
+      "gloss": "he made/did",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0052",
+      "token": "θātiy",
+      "gloss": "says, declares",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0053",
+      "token": "Dārayavauš",
+      "gloss": "Darius (proper name)",
+      "pos": "noun",
+      "semantic_field": "personal_name",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0054",
+      "token": "Xšayāršā",
+      "gloss": "Xerxes (proper name)",
+      "pos": "noun",
+      "semantic_field": "personal_name",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0055",
+      "token": "Pārsa",
+      "gloss": "Persia, Persian",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0056",
+      "token": "Bābiru",
+      "gloss": "Babylon",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0057",
+      "token": "Mudrāya",
+      "gloss": "Egypt",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0058",
+      "token": "Sparda",
+      "gloss": "Sardis/Lydia",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0059",
+      "token": "Yauna",
+      "gloss": "Ionia/Greeks",
+      "pos": "noun",
+      "semantic_field": "geographic/ethnic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0060",
+      "token": "Hagmatāna",
+      "gloss": "Ecbatana",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0061",
+      "token": "hamarana",
+      "gloss": "battle",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0062",
+      "token": "kāra",
+      "gloss": "army, people",
+      "pos": "noun",
+      "semantic_field": "military/political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0063",
+      "token": "drauga",
+      "gloss": "lie, falsehood",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0064",
+      "token": "arta",
+      "gloss": "truth, cosmic order",
+      "pos": "noun",
+      "semantic_field": "moral/religious",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0065",
+      "token": "bandaka",
+      "gloss": "servant, subject",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0066",
+      "token": "framānā",
+      "gloss": "command, decree",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0067",
+      "token": "taumā",
+      "gloss": "clan, family",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0068",
+      "token": "viθ",
+      "gloss": "house, clan",
+      "pos": "noun",
+      "semantic_field": "kinship/domestic",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0069",
+      "token": "gāθu",
+      "gloss": "place, throne",
+      "pos": "noun",
+      "semantic_field": "spatial/political",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    },
+    {
+      "entry_id": "old_persian_0070",
+      "token": "duvitāparanam",
+      "gloss": "far and wide",
+      "pos": "adverb",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Roland Kent - Old Persian Grammar"
+    }
+  ]
+}

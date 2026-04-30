@@ -1,0 +1,688 @@
+{
+  "metadata": {
+    "title": "Old Norse / Elder Futhark Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "old_norse_runic",
+    "display": "Old Norse / Elder Futhark",
+    "era": "2nd-8th century CE (Elder); 8th-11th CE (Younger)",
+    "region": "Scandinavia, Germanic Europe",
+    "script_type": "Runic (Alphabetic)",
+    "status": "Fully Deciphered",
+    "total_entries": 74,
+    "sources": [
+      "R.I. Page - Runes",
+      "Ralph Elliott - Runes: An Introduction",
+      "Orchard - Dictionary of Norse Myth and Legend"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "old_norse_runic_0001",
+      "token": "ᚠ",
+      "gloss": "f - fehu (wealth, cattle)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0002",
+      "token": "ᚢ",
+      "gloss": "u - ūruz (aurochs, strength)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0003",
+      "token": "ᚦ",
+      "gloss": "þ - þurisaz (giant, thorn)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0004",
+      "token": "ᚨ",
+      "gloss": "a - ansuz (god, Odin)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0005",
+      "token": "ᚱ",
+      "gloss": "r - raidō (ride, journey)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0006",
+      "token": "ᚲ",
+      "gloss": "k - kaunan (ulcer/torch)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0007",
+      "token": "ᚷ",
+      "gloss": "g - gebō (gift)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0008",
+      "token": "ᚹ",
+      "gloss": "w - wunjō (joy)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0009",
+      "token": "ᚺ",
+      "gloss": "h - hagalaz (hail)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0010",
+      "token": "ᚾ",
+      "gloss": "n - naudiz (need, distress)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0011",
+      "token": "ᛁ",
+      "gloss": "i - īsaz (ice)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0012",
+      "token": "ᛃ",
+      "gloss": "j - jēra (year, harvest)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0013",
+      "token": "ᛇ",
+      "gloss": "ï/ei - eihwaz (yew tree)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0014",
+      "token": "ᛈ",
+      "gloss": "p - perþō (fate/lot)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0015",
+      "token": "ᛉ",
+      "gloss": "z - algiz (elk, protection)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0016",
+      "token": "ᛊ",
+      "gloss": "s - sōwilō (sun)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0017",
+      "token": "ᛏ",
+      "gloss": "t - tīwaz (Tyr, god)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0018",
+      "token": "ᛒ",
+      "gloss": "b - berkanan (birch)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0019",
+      "token": "ᛖ",
+      "gloss": "e - ehwaz (horse)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0020",
+      "token": "ᛗ",
+      "gloss": "m - mannaz (man)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0021",
+      "token": "ᛚ",
+      "gloss": "l - laguz (water, lake)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0022",
+      "token": "ᛜ",
+      "gloss": "ŋ - ingwaz (Ing, fertility god)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0023",
+      "token": "ᛞ",
+      "gloss": "d - dagaz (day)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0024",
+      "token": "ᛟ",
+      "gloss": "o - ōþila (heritage, estate)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0025",
+      "token": "Óðinn",
+      "gloss": "Odin (All-Father)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0026",
+      "token": "Þórr",
+      "gloss": "Thor (thunder god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0027",
+      "token": "Freyr",
+      "gloss": "Freyr (fertility god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0028",
+      "token": "Freyja",
+      "gloss": "Freyja (love/war goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0029",
+      "token": "Loki",
+      "gloss": "Loki (trickster)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0030",
+      "token": "Baldr",
+      "gloss": "Baldr (god of light)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0031",
+      "token": "Heimdallr",
+      "gloss": "Heimdallr (watchman god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0032",
+      "token": "Týr",
+      "gloss": "Tyr (war/justice god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0033",
+      "token": "Valhǫll",
+      "gloss": "Valhalla (hall of the slain)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0034",
+      "token": "Ásgarðr",
+      "gloss": "Asgard (realm of gods)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0035",
+      "token": "Miðgarðr",
+      "gloss": "Midgard (human realm)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0036",
+      "token": "Yggdrasill",
+      "gloss": "Yggdrasil (world tree)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0037",
+      "token": "Ragnarǫk",
+      "gloss": "Ragnarök (end of world)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0038",
+      "token": "jarl",
+      "gloss": "earl, nobleman",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0039",
+      "token": "konungr",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0040",
+      "token": "karl",
+      "gloss": "free man, farmer",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0041",
+      "token": "þræll",
+      "gloss": "thrall, slave",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0042",
+      "token": "víkingr",
+      "gloss": "viking (raider/seafarer)",
+      "pos": "noun",
+      "semantic_field": "social/military",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0043",
+      "token": "skáld",
+      "gloss": "poet, bard",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0044",
+      "token": "blót",
+      "gloss": "sacrifice, offering",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0045",
+      "token": "rúnar",
+      "gloss": "runes, secrets, mysteries",
+      "pos": "noun",
+      "semantic_field": "writing/magical",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0046",
+      "token": "galdr",
+      "gloss": "magic chant, spell",
+      "pos": "noun",
+      "semantic_field": "magical",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0047",
+      "token": "seiðr",
+      "gloss": "sorcery, shamanism",
+      "pos": "noun",
+      "semantic_field": "magical",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0048",
+      "token": "einherjar",
+      "gloss": "warriors of Valhalla",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0049",
+      "token": "draugr",
+      "gloss": "undead, revenant",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0050",
+      "token": "norns",
+      "gloss": "Norns (fate goddesses)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0051",
+      "token": "valkyrie",
+      "gloss": "Valkyrie (chooser of slain)",
+      "pos": "noun",
+      "semantic_field": "mythological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0052",
+      "token": "skip",
+      "gloss": "ship",
+      "pos": "noun",
+      "semantic_field": "maritime",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0053",
+      "token": "sverð",
+      "gloss": "sword",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0054",
+      "token": "skjǫldr",
+      "gloss": "shield",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0055",
+      "token": "øx",
+      "gloss": "axe",
+      "pos": "noun",
+      "semantic_field": "military/tool",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0056",
+      "token": "holmganga",
+      "gloss": "duel (island-going)",
+      "pos": "noun",
+      "semantic_field": "legal/military",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0057",
+      "token": "þing",
+      "gloss": "assembly, parliament",
+      "pos": "noun",
+      "semantic_field": "political/legal",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0058",
+      "token": "lǫg",
+      "gloss": "law",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0059",
+      "token": "saga",
+      "gloss": "story, history, saga",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0060",
+      "token": "edda",
+      "gloss": "great-grandmother; Edda (texts)",
+      "pos": "noun",
+      "semantic_field": "literary/kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0061",
+      "token": "kenning",
+      "gloss": "kenning (poetic metaphor)",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0062",
+      "token": "hǫll",
+      "gloss": "hall, great house",
+      "pos": "noun",
+      "semantic_field": "architecture",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0063",
+      "token": "fjǫrðr",
+      "gloss": "fjord",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0064",
+      "token": "ey",
+      "gloss": "island",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0065",
+      "token": "heim",
+      "gloss": "home, world",
+      "pos": "noun",
+      "semantic_field": "domestic/cosmological",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0066",
+      "token": "dauði",
+      "gloss": "death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0067",
+      "token": "líf",
+      "gloss": "life",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0068",
+      "token": "ek",
+      "gloss": "I",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0069",
+      "token": "fáðir",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0070",
+      "token": "móðir",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0071",
+      "token": "sonr",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0072",
+      "token": "dóttir",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0073",
+      "token": "bróðir",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    },
+    {
+      "entry_id": "old_norse_runic_0074",
+      "token": "systir",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "R.I. Page - Runes"
+    }
+  ]
+}

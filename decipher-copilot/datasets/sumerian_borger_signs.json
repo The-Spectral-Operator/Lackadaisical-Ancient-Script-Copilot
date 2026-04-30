@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-29",
+    "source": "Borger, Rykle. Mesopotamisches Zeichenlexikon (MZL). 2nd ed. Münster: Ugarit-Verlag, 2010.",
+    "description": "Mapping between Borger sign numbers and Unicode cuneiform characters",
+    "license": "CC-BY-NC-SA",
+    "total_signs": 50,
+    "unicode_block": "U+12000–U+123FF (Cuneiform)"
+  },
+  "signs": {
+    "001": {
+      "borger_number": "001",
+      "unicode_codepoint": "U+12000",
+      "cuneiform": "𒀀",
+      "sign_name": "A",
+      "transliteration_values": ["a"],
+      "logographic_values": ["A"],
+      "semantic_field": "water",
+      "frequency": "very_high",
+      "notes": "Basic water sign, also phonetic /a/"
+    },
+    "013": {
+      "borger_number": "013", 
+      "unicode_codepoint": "U+1200C",
+      "cuneiform": "𒀭",
+      "sign_name": "AN",
+      "transliteration_values": ["an"],
+      "logographic_values": ["DINGIR", "AN"],
+      "semantic_field": "divine",
+      "frequency": "very_high",
+      "notes": "Sky/god sign, determinative for divine names"
+    },
+    "097": {
+      "borger_number": "097",
+      "unicode_codepoint": "U+12056",
+      "cuneiform": "𒂊",
+      "sign_name": "E2",
+      "transliteration_values": ["e₂"],
+      "logographic_values": ["E₂", "BITU"],
+      "semantic_field": "architecture",
+      "frequency": "very_high",
+      "notes": "House/temple sign"
+    },
+    "098": {
+      "borger_number": "098",
+      "unicode_codepoint": "U+1207C", 
+      "cuneiform": "𒈬",
+      "sign_name": "MU",
+      "transliteration_values": ["mu"],
+      "logographic_values": ["MU", "ŠUMU"],
+      "semantic_field": "temporal",
+      "frequency": "very_high",
+      "notes": "Year/name sign"
+    },
+    "099": {
+      "borger_number": "099",
+      "unicode_codepoint": "U+12097",
+      "cuneiform": "𒂗",
+      "sign_name": "EN",
+      "transliteration_values": ["en"],
+      "logographic_values": ["EN", "BELU"],
+      "semantic_field": "authority",
+      "frequency": "very_high",
+      "notes": "Lord/priest sign"
+    },
+    "151": {
+      "borger_number": "151",
+      "unicode_codepoint": "U+120D7",
+      "cuneiform": "𒈗",
+      "sign_name": "LUGAL", 
+      "transliteration_values": ["lugal"],
+      "logographic_values": ["LUGAL", "ŠARRU"],
+      "semantic_field": "royal",
+      "frequency": "very_high",
+      "notes": "King sign, compound of LU₂ + GAL"
+    },
+    "208": {
+      "borger_number": "208",
+      "unicode_codepoint": "U+1073B",
+      "cuneiform": "𒃻",
+      "sign_name": "DUMU",
+      "transliteration_values": ["dumu"],
+      "logographic_values": ["DUMU", "MARU"],
+      "semantic_field": "familial",
+      "frequency": "high",
+      "notes": "Child/son sign"
+    },
+    "240": {
+      "borger_number": "240",
+      "unicode_codepoint": "U+1223A",
+      "cuneiform": "𒈾",
+      "sign_name": "NA", 
+      "transliteration_values": ["na"],
+      "logographic_values": ["NA", "ABNU"],
+      "semantic_field": "material",
+      "frequency": "high",
+      "notes": "Stone sign, also person in some contexts"
+    },
+    "381": {
+      "borger_number": "381",
+      "unicode_codepoint": "U+12313",
+      "cuneiform": "𒌓",
+      "sign_name": "UD",
+      "transliteration_values": ["ud", "u₄", "utu", "babbar"],
+      "logographic_values": ["UD", "UTU", "ŠAMŠU"],
+      "semantic_field": "temporal",
+      "frequency": "very_high", 
+      "notes": "Day/sun sign, also solar deity UTU"
+    },
+    "514": {
+      "borger_number": "514",
+      "unicode_codepoint": "U+121FB",
+      "cuneiform": "𒇽",
+      "sign_name": "LU2",
+      "transliteration_values": ["lu₂"],
+      "logographic_values": ["LU₂", "AWILU"],
+      "semantic_field": "human",
+      "frequency": "very_high",
+      "notes": "Person/man sign"
+    },
+    "737": {
+      "borger_number": "737",
+      "unicode_codepoint": "U+121A0",
+      "cuneiform": "𒆠",
+      "sign_name": "KI",
+      "transliteration_values": ["ki"],
+      "logographic_values": ["KI", "ERṢETU"],
+      "semantic_field": "geographic", 
+      "frequency": "very_high",
+      "notes": "Earth/place sign, determinative for place names"
+    },
+    "312": {
+      "borger_number": "312",
+      "unicode_codepoint": "U+12313",
+      "cuneiform": "𒌌",
+      "sign_name": "UTU",
+      "transliteration_values": ["utu"],
+      "logographic_values": ["UTU", "ŠAMŠU"],
+      "semantic_field": "divine", 
+      "frequency": "high",
+      "notes": "Solar deity UTU/Shamash"
+    },
+    "382": {
+      "borger_number": "382",
+      "unicode_codepoint": "U+12305",
+      "cuneiform": "𒌅",
+      "sign_name": "UD",
+      "transliteration_values": ["ud", "u₄"],
+      "logographic_values": ["UD", "UTU"],
+      "semantic_field": "temporal", 
+      "frequency": "very_high",
+      "notes": "Day/sun sign"
+    }
+  },
+  "unicode_ranges": {
+    "cuneiform_block": {
+      "start": "U+12000",
+      "end": "U+123FF", 
+      "name": "Cuneiform",
+      "total_characters": 1024
+    },
+    "cuneiform_numbers": {
+      "start": "U+12400",
+      "end": "U+1247F",
+      "name": "Cuneiform Numbers and Punctuation", 
+      "total_characters": 128
+    }
+  },
+  "references": {
+    "borger_mzl": "Borger, Rykle. Mesopotamisches Zeichenlexikon. 2nd ed. Münster: Ugarit-Verlag, 2010.",
+    "unicode_standard": "The Unicode Consortium. The Unicode Standard, Version 15.0 – Core Specification. 2022.",
+    "labat": "Labat, René. Manuel d'épigraphie akkadienne. 6th ed. Paris: Geuthner, 1988."
+  }
+}

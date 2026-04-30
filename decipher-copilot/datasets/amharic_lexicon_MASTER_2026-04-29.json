@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "Amharic (Ethiopic Script) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "amharic",
+    "display": "Amharic (Ethiopic Script)",
+    "era": "14th century CE - present",
+    "region": "Ethiopia",
+    "script_type": "Abugida (Ge-ez derived)",
+    "status": "Fully Deciphered",
+    "total_entries": 45,
+    "sources": [
+      "Kane - Amharic-English Dictionary",
+      "Leslau - Concise Amharic Dictionary"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "amharic_0001",
+      "token": "ha",
+      "gloss": "ha (1st order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0002",
+      "token": "hu",
+      "gloss": "hu (2nd order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0003",
+      "token": "hi",
+      "gloss": "hi (3rd order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0004",
+      "token": "le",
+      "gloss": "le (1st order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0005",
+      "token": "me",
+      "gloss": "me (1st order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0006",
+      "token": "se",
+      "gloss": "se (1st order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0007",
+      "token": "re",
+      "gloss": "re (1st order)",
+      "pos": "syllable",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0008",
+      "token": "egziabher",
+      "gloss": "God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0009",
+      "token": "negus",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0010",
+      "token": "nigist",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0011",
+      "token": "sew",
+      "gloss": "person, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0012",
+      "token": "wend",
+      "gloss": "man, male",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0013",
+      "token": "set",
+      "gloss": "woman, female",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0014",
+      "token": "abbat",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0015",
+      "token": "ennat",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0016",
+      "token": "lij",
+      "gloss": "child, prince",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0017",
+      "token": "wendim",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0018",
+      "token": "ihit",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0019",
+      "token": "wuha",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0020",
+      "token": "isat",
+      "gloss": "fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0021",
+      "token": "nifas",
+      "gloss": "wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0022",
+      "token": "meret",
+      "gloss": "earth, land",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0023",
+      "token": "tsehay",
+      "gloss": "sun",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0024",
+      "token": "chereka",
+      "gloss": "moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0025",
+      "token": "kokeb",
+      "gloss": "star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0026",
+      "token": "teraara",
+      "gloss": "mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0027",
+      "token": "wenz",
+      "gloss": "river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0028",
+      "token": "baher",
+      "gloss": "sea, lake",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0029",
+      "token": "and",
+      "gloss": "one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0030",
+      "token": "hulet",
+      "gloss": "two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0031",
+      "token": "sost",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0032",
+      "token": "arat",
+      "gloss": "four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0033",
+      "token": "amist",
+      "gloss": "five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0034",
+      "token": "asir",
+      "gloss": "ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0035",
+      "token": "meto",
+      "gloss": "hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0036",
+      "token": "shi",
+      "gloss": "thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0037",
+      "token": "feqir",
+      "gloss": "love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0038",
+      "token": "selam",
+      "gloss": "peace",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0039",
+      "token": "iqinet",
+      "gloss": "justice",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0040",
+      "token": "timhirt",
+      "gloss": "education, learning",
+      "pos": "noun",
+      "semantic_field": "education",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0041",
+      "token": "tarik",
+      "gloss": "history, story",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0042",
+      "token": "fidel",
+      "gloss": "letter, script",
+      "pos": "noun",
+      "semantic_field": "writing",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0043",
+      "token": "metsihaf",
+      "gloss": "book",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0044",
+      "token": "hiwot",
+      "gloss": "life",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    },
+    {
+      "entry_id": "amharic_0045",
+      "token": "mot",
+      "gloss": "death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Kane - Amharic-English Dictionary"
+    }
+  ]
+}

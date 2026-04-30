@@ -1,0 +1,275 @@
+{
+  "phonetic_transformations": {
+    "description": "Phonetic transformation rules for Classical Maya transliteration normalization",
+    "version": "1.0.0",
+    "references": [
+      "Lacadena & Wichmann 2004: Syllabic analysis of Maya writing",
+      "Stuart 2005: Maya decipherment breakthroughs",
+      "Boot 2011: Phonetic complementation patterns"
+    ],
+    
+    "consonant_clusters": {
+      "description": "Rules for handling consonant clusters in Maya syllabic writing",
+      "rules": [
+        {
+          "pattern": "CVCV",
+          "description": "Standard CV-CV syllabic pattern",
+          "examples": ["ma-ma", "ka-ka", "la-la"]
+        },
+        {
+          "pattern": "CVC-CV",
+          "description": "Consonant cluster bridging pattern",
+          "examples": ["ajaw", "k'inich", "yaxkin"]
+        }
+      ]
+    },
+    
+    "vowel_harmony": {
+      "description": "Maya vowel harmony and disharmony patterns",
+      "rules": {
+        "harmonic_pairs": [
+          ["a", "a"],
+          ["e", "e"], 
+          ["i", "i"],
+          ["o", "o"],
+          ["u", "u"]
+        ],
+        "disharmonic_substitutions": {
+          "rule": "In disharmonic contexts, second vowel often elided or modified",
+          "examples": {
+            "ki-na": "k'in",
+            "yu-xu-lu": "yuxul",
+            "pa-ka-la": "pakal"
+          }
+        }
+      }
+    },
+    
+    "glottal_stops": {
+      "description": "Rules for glottal stop representation and elision",
+      "orthographic_variants": {
+        "apostrophe": "'",
+        "saltillo": "h",
+        "zero": ""
+      },
+      "contexts": {
+        "word_initial": {
+          "rule": "Glottal stops often implicit word-initially",
+          "examples": ["ajaw", "ak'bal", "ix"]
+        },
+        "intervocalic": {
+          "rule": "Intervocalic glottal stops usually marked",
+          "examples": ["k'u'ul", "cha'ak", "k'a'an"]
+        },
+        "word_final": {
+          "rule": "Final glottal stops often elided in writing",
+          "examples": ["winik", "k'in", "wak"]
+        }
+      }
+    },
+    
+    "ejectives": {
+      "description": "Ejective consonant representation in Maya script",
+      "phonemes": {
+        "k'": {
+          "description": "Ejective velar stop",
+          "common_syllables": ["k'a", "k'e", "k'i", "k'o", "k'u"],
+          "examples": ["k'inich", "k'awil", "k'uh"]
+        },
+        "p'": {
+          "description": "Ejective bilabial stop", 
+          "common_syllables": ["p'a", "p'e", "p'i", "p'o", "p'u"],
+          "examples": ["p'ik", "p'ol"]
+        },
+        "t'": {
+          "description": "Ejective alveolar stop",
+          "common_syllables": ["t'a", "t'e", "t'i", "t'o", "t'u"],
+          "examples": ["t'ab", "t'ol"]
+        },
+        "tz'": {
+          "description": "Ejective affricate",
+          "common_syllables": ["tz'a", "tz'e", "tz'i", "tz'o", "tz'u"],
+          "examples": ["tz'ak", "tz'ib"]
+        },
+        "ch'": {
+          "description": "Ejective postalveolar affricate",
+          "common_syllables": ["ch'a", "ch'e", "ch'i", "ch'o", "ch'u"],
+          "examples": ["ch'ak", "ch'ol"]
+        }
+      }
+    },
+    
+    "liquid_consonants": {
+      "description": "Liquid consonant (l/r) variation in Maya dialects",
+      "variation_patterns": {
+        "l_r_alternation": {
+          "rule": "Some Maya languages show l/r variation",
+          "examples": {
+            "classical": "yaxhal",
+            "modern_variants": ["yaxhar", "yaxhal"]
+          }
+        },
+        "liquid_syllables": {
+          "l_syllables": ["la", "le", "li", "lo", "lu"],
+          "r_syllables": ["ra", "re", "ri", "ro", "ru"]
+        }
+      }
+    },
+    
+    "nasal_consonants": {
+      "description": "Nasal consonant patterns and assimilation",
+      "phonemes": {
+        "m": {
+          "syllables": ["ma", "me", "mi", "mo", "mu"],
+          "common_words": ["maax", "muyal", "mam"]
+        },
+        "n": {
+          "syllables": ["na", "ne", "ni", "no", "nu"],
+          "common_words": ["nab", "nal", "nin"]
+        }
+      },
+      "assimilation_rules": {
+        "place_assimilation": {
+          "rule": "Nasals assimilate to following consonant place",
+          "examples": {
+            "mp": "before bilabials",
+            "nk": "before velars",
+            "nt": "before alveolars"
+          }
+        }
+      }
+    },
+    
+    "fricatives": {
+      "description": "Fricative consonants in Maya script",
+      "phonemes": {
+        "s": {
+          "syllables": ["sa", "se", "si", "so", "su"],
+          "notes": "Often written with TZE glyph complex"
+        },
+        "x": {
+          "syllables": ["xa", "xe", "xi", "xo", "xu"], 
+          "pronunciation": "voiceless postalveolar fricative [ʃ]"
+        },
+        "j": {
+          "syllables": ["ja", "je", "ji", "jo", "ju"],
+          "pronunciation": "voiceless glottal fricative [h]",
+          "variants": ["ha", "he", "hi", "ho", "hu"]
+        }
+      }
+    },
+    
+    "morphophonemic_processes": {
+      "description": "Sound changes at morpheme boundaries",
+      "vowel_elision": {
+        "rule": "Vowels may be elided in rapid speech or compound words",
+        "examples": {
+          "k'inich": "k'in + ich → k'inich",
+          "yaxkin": "yax + k'in → yaxkin"
+        }
+      },
+      "consonant_assimilation": {
+        "rule": "Consonants may assimilate across morpheme boundaries",
+        "examples": {
+          "place_assimilation": "alveolar + velar → velar",
+          "voice_assimilation": "voiceless + voiced → voiced"
+        }
+      },
+      "epenthesis": {
+        "rule": "Vowels inserted to break up consonant clusters",
+        "examples": {
+          "consonant_cluster_breaking": "CCC → CVCV pattern"
+        }
+      }
+    },
+    
+    "standardization_rules": {
+      "description": "Rules for converting various transcription systems to T1 standard",
+      "transcription_systems": {
+        "thompson": {
+          "description": "J. Eric S. Thompson catalog system",
+          "conversion_notes": "T-numbers to phonetic values"
+        },
+        "macri_looper": {
+          "description": "Macri & Looper (2003) three-digit system",
+          "conversion_notes": "Three-digit codes to Unicode"
+        },
+        "polyglot": {
+          "description": "Contemporary polyglot transcription",
+          "conversion_notes": "Multiple orthographic variants"
+        }
+      },
+      "normalization_steps": [
+        "Convert all glottal stop variants to apostrophe",
+        "Standardize ejective notation with apostrophe",
+        "Normalize vowel length markers",
+        "Resolve orthographic variants",
+        "Apply morphophonemic processes",
+        "Generate confidence scores for ambiguous cases"
+      ]
+    },
+    
+    "phonotactics": {
+      "description": "Syllable structure constraints in Classical Maya",
+      "allowed_syllable_types": [
+        "V (vowel)",
+        "CV (consonant + vowel)",
+        "CVC (consonant + vowel + consonant)"
+      ],
+      "constraints": {
+        "onset_clusters": "Generally not permitted in Maya syllables",
+        "coda_restrictions": "Limited consonants allowed in syllable-final position",
+        "vowel_sequences": "Hiatus generally avoided or resolved by epenthesis"
+      },
+      "common_patterns": {
+        "word_shapes": [
+          "CV",
+          "CVC", 
+          "CVCV",
+          "CVCVC",
+          "CVCVCV"
+        ],
+        "stress_patterns": {
+          "rule": "Stress generally falls on final syllable",
+          "exceptions": "Some compounds and borrowed words"
+        }
+      }
+    }
+  },
+  
+  "transformation_functions": {
+    "description": "Computational rules for applying phonetic transformations",
+    "normalization_pipeline": [
+      {
+        "step": 1,
+        "name": "grapheme_parsing",
+        "description": "Parse input into graphemic units"
+      },
+      {
+        "step": 2,
+        "name": "syllable_identification", 
+        "description": "Identify syllable boundaries"
+      },
+      {
+        "step": 3,
+        "name": "phonetic_mapping",
+        "description": "Map graphemes to phonetic values"
+      },
+      {
+        "step": 4,
+        "name": "morphophonemic_processing",
+        "description": "Apply morphophonemic rules"
+      },
+      {
+        "step": 5,
+        "name": "standardization",
+        "description": "Convert to T1 standard form"
+      },
+      {
+        "step": 6,
+        "name": "validation",
+        "description": "Validate against phonotactic constraints"
+      }
+    ]
+  }
+}

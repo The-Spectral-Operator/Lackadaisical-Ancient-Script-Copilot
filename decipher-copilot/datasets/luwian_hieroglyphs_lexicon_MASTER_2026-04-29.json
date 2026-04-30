@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "title": "Luwian Hieroglyphs Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "luwian",
+    "display": "Luwian Hieroglyphs",
+    "era": "16th-7th century BCE",
+    "region": "Anatolia, Northern Syria",
+    "script_type": "Hieroglyphic (Syllabic-Logographic)",
+    "status": "Fully Deciphered",
+    "total_entries": 41,
+    "sources": [
+      "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions",
+      "Annick Payne - Hieroglyphic Luwian"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "luwian_0001",
+      "token": "DEUS",
+      "gloss": "god (logogram)",
+      "pos": "logogram",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0002",
+      "token": "REX",
+      "gloss": "king (logogram)",
+      "pos": "logogram",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0003",
+      "token": "REGIO",
+      "gloss": "land, country (logogram)",
+      "pos": "logogram",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0004",
+      "token": "URBS",
+      "gloss": "city (logogram)",
+      "pos": "logogram",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0005",
+      "token": "BONUS",
+      "gloss": "good (logogram)",
+      "pos": "logogram",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0006",
+      "token": "MAGNUS",
+      "gloss": "great (logogram)",
+      "pos": "logogram",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0007",
+      "token": "á",
+      "gloss": "a (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0008",
+      "token": "i",
+      "gloss": "i (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0009",
+      "token": "u",
+      "gloss": "u (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0010",
+      "token": "ha",
+      "gloss": "ha (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0011",
+      "token": "ta",
+      "gloss": "ta (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0012",
+      "token": "ti",
+      "gloss": "ti (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0013",
+      "token": "tu",
+      "gloss": "tu (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0014",
+      "token": "na",
+      "gloss": "na (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0015",
+      "token": "ni",
+      "gloss": "ni (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0016",
+      "token": "nu",
+      "gloss": "nu (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0017",
+      "token": "pa",
+      "gloss": "pa (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0018",
+      "token": "pi",
+      "gloss": "pi (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0019",
+      "token": "ra/i",
+      "gloss": "ra/i (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0020",
+      "token": "ru",
+      "gloss": "ru (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0021",
+      "token": "sa",
+      "gloss": "sa (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0022",
+      "token": "si",
+      "gloss": "si (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0023",
+      "token": "su",
+      "gloss": "su (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0024",
+      "token": "wa/i",
+      "gloss": "wa/i (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0025",
+      "token": "za",
+      "gloss": "za (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0026",
+      "token": "zi",
+      "gloss": "zi (syllabogram)",
+      "pos": "syllabogram",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0027",
+      "token": "tatis",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0028",
+      "token": "nani",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0029",
+      "token": "nimuwiza",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0030",
+      "token": "tati",
+      "gloss": "father (oblique)",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0031",
+      "token": "hassu",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0032",
+      "token": "hassusara",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0033",
+      "token": "tarwana",
+      "gloss": "judge, justice",
+      "pos": "noun",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0034",
+      "token": "warpiya",
+      "gloss": "to wash ritually",
+      "pos": "verb",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0035",
+      "token": "massani",
+      "gloss": "god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0036",
+      "token": "Tarhunta",
+      "gloss": "Storm God",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0037",
+      "token": "Kubaba",
+      "gloss": "Kubaba (goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0038",
+      "token": "Karhuha",
+      "gloss": "Karhuha (war god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0039",
+      "token": "ura",
+      "gloss": "great",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0040",
+      "token": "wasu",
+      "gloss": "good",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    },
+    {
+      "entry_id": "luwian_0041",
+      "token": "ziti",
+      "gloss": "man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "John David Hawkins - Corpus of Hieroglyphic Luwian Inscriptions"
+    }
+  ]
+}

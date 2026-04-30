@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "title": "Mycenaean Greek (Linear B readings) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "mycenaean_greek",
+    "display": "Mycenaean Greek (Linear B readings)",
+    "era": "c. 1450-1200 BCE",
+    "region": "Mycenaean Greece (Crete, Peloponnese)",
+    "script_type": "Syllabic (Linear B)",
+    "status": "Fully Deciphered",
+    "total_entries": 50,
+    "sources": [
+      "Ventris & Chadwick - Documents in Mycenaean Greek",
+      "Aura Jorro - Diccionario Micénico",
+      "Morpurgo Davies - Mycenaean Greek Lexicon"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "mycenaean_greek_0001",
+      "token": "wa-na-ka",
+      "gloss": "wanax - king, lord",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0002",
+      "token": "ra-wa-ke-ta",
+      "gloss": "lawagetas - leader of the people (military)",
+      "pos": "noun",
+      "semantic_field": "political/military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0003",
+      "token": "qa-si-re-u",
+      "gloss": "basileus - chief (local leader)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0004",
+      "token": "e-qe-ta",
+      "gloss": "hequetas - follower, companion (knight)",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0005",
+      "token": "da-mo",
+      "gloss": "damos - district, people",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0006",
+      "token": "te-me-no",
+      "gloss": "temenos - royal estate",
+      "pos": "noun",
+      "semantic_field": "economic/political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0007",
+      "token": "ko-re-te",
+      "gloss": "koreter - governor (of district)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0008",
+      "token": "po-ro-ko-re-te",
+      "gloss": "prokoreter - vice-governor",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0009",
+      "token": "ke-ro-si-ja",
+      "gloss": "gerousia - council of elders",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0010",
+      "token": "di-wi-jo",
+      "gloss": "Diwios - of Zeus",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0011",
+      "token": "po-se-da-o",
+      "gloss": "Poseidaon - Poseidon",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0012",
+      "token": "a-ta-na-po-ti-ni-ja",
+      "gloss": "Athana Potnia - Lady Athena",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0013",
+      "token": "e-ra",
+      "gloss": "Hera",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0014",
+      "token": "a-re",
+      "gloss": "Ares",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0015",
+      "token": "di-wo-nu-so",
+      "gloss": "Dionysos",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0016",
+      "token": "pa-ja-wo-ne",
+      "gloss": "Paianon - healer deity",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0017",
+      "token": "po-ti-ni-ja",
+      "gloss": "potnia - mistress, lady",
+      "pos": "noun",
+      "semantic_field": "religious/political",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0018",
+      "token": "i-je-ro",
+      "gloss": "hieron - sacred, holy",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0019",
+      "token": "te-o",
+      "gloss": "theos - god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0020",
+      "token": "do-e-ro",
+      "gloss": "doelos - slave, servant",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0021",
+      "token": "do-e-ra",
+      "gloss": "doela - female slave",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0022",
+      "token": "ka-ko",
+      "gloss": "khalkos - bronze",
+      "pos": "noun",
+      "semantic_field": "material",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0023",
+      "token": "ku-ru-so",
+      "gloss": "khrusos - gold",
+      "pos": "noun",
+      "semantic_field": "material",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0024",
+      "token": "a-re-ku-tu-ru-wo",
+      "gloss": "aleiktruon - unguent boiler",
+      "pos": "noun",
+      "semantic_field": "occupation",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0025",
+      "token": "ka-ke-u",
+      "gloss": "khalkeus - bronze-smith",
+      "pos": "noun",
+      "semantic_field": "occupation",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0026",
+      "token": "ke-ra-me-u",
+      "gloss": "kerameus - potter",
+      "pos": "noun",
+      "semantic_field": "occupation",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0027",
+      "token": "to-ko-so-wo-ko",
+      "gloss": "toxoworkos - bow-maker",
+      "pos": "noun",
+      "semantic_field": "occupation",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0028",
+      "token": "si-to",
+      "gloss": "sitos - grain, wheat",
+      "pos": "noun",
+      "semantic_field": "agricultural",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0029",
+      "token": "wo-no",
+      "gloss": "woinos - wine",
+      "pos": "noun",
+      "semantic_field": "food",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0030",
+      "token": "e-ra-wo",
+      "gloss": "elaiwon - olive oil",
+      "pos": "noun",
+      "semantic_field": "food/economic",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0031",
+      "token": "me-ri",
+      "gloss": "meli - honey",
+      "pos": "noun",
+      "semantic_field": "food",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0032",
+      "token": "su-ko",
+      "gloss": "sukon - fig",
+      "pos": "noun",
+      "semantic_field": "food",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0033",
+      "token": "o-pe-ro",
+      "gloss": "ophelos - debt, obligation",
+      "pos": "noun",
+      "semantic_field": "economic",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0034",
+      "token": "ko-wo",
+      "gloss": "kowos - boy",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0035",
+      "token": "ko-wa",
+      "gloss": "kowa - girl",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0036",
+      "token": "pa-te",
+      "gloss": "pater - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0037",
+      "token": "ma-te",
+      "gloss": "mater - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0038",
+      "token": "da-pu2-ri-to-jo",
+      "gloss": "laburinthoio - of the labyrinth",
+      "pos": "noun",
+      "semantic_field": "architectural",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0039",
+      "token": "to-pe-za",
+      "gloss": "torpeza - table",
+      "pos": "noun",
+      "semantic_field": "furniture",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0040",
+      "token": "ti-ri-po",
+      "gloss": "tripos - tripod (cauldron)",
+      "pos": "noun",
+      "semantic_field": "vessel",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0041",
+      "token": "di-pa",
+      "gloss": "dipas - cup, goblet",
+      "pos": "noun",
+      "semantic_field": "vessel",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0042",
+      "token": "pa-ka-na",
+      "gloss": "phasgana - swords",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0043",
+      "token": "to-ra-ke",
+      "gloss": "thorakes - corslets (armor)",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0044",
+      "token": "a-mo-ta",
+      "gloss": "harmota - chariot wheels",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0045",
+      "token": "i-qi-ja",
+      "gloss": "hiqquia - chariot (horse-drawn)",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0046",
+      "token": "e-ke-a",
+      "gloss": "enkhea - spears",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0047",
+      "token": "pa-ra-jo",
+      "gloss": "palaios - old",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0048",
+      "token": "ne-wo",
+      "gloss": "newos - new",
+      "pos": "adjective",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0049",
+      "token": "me-zo",
+      "gloss": "mezos - greater",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    },
+    {
+      "entry_id": "mycenaean_greek_0050",
+      "token": "me-wi-jo",
+      "gloss": "mewios - lesser",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Ventris & Chadwick - Documents in Mycenaean Greek"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+/* inscription.css — canvas viewer and glyph display styles */
+
+.inscription-viewer {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inscription-viewer h4 {
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+  font-size: 0.85rem;
+}
+
+.glyph-canvas {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  background: #000;
+  border-radius: var(--radius-sm);
+  cursor: crosshair;
+}
+
+.glyph-canvas:focus { outline: 2px solid var(--color-primary); }
+
+/* Ancient script glyph display in messages */
+.ancient-script {
+  font-family:
+    'Noto Sans Egyptian Hieroglyphs',
+    'Noto Sans Cuneiform',
+    'Noto Sans Linear A',
+    'Noto Sans Linear B',
+    'Noto Sans Meroitic',
+    'Noto Sans Imperial Aramaic',
+    'Noto Sans Old Persian',
+    'Noto Sans Ugaritic',
+    'Noto Sans Anatolian Hieroglyphs',
+    'Noto Sans Cypriot',
+    'Noto Sans Glagolitic',
+    'Noto Sans Lycian',
+    'Noto Sans Runic',
+    'Noto Sans Telugu',
+    var(--font-sans);
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+/* Message content — ensure wrapping for long tokens */
+.msg-content {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.msg-content p { margin: 0.4rem 0; }
+.msg-content h1, .msg-content h2, .msg-content h3 { margin: 0.8rem 0 0.4rem; color: var(--color-accent); }
+.msg-content h4, .msg-content h5, .msg-content h6 { margin: 0.6rem 0 0.3rem; }
+.msg-content ul, .msg-content ol { margin: 0.4rem 0 0.4rem 1.5rem; }
+.msg-content li { margin: 0.2rem 0; }
+.msg-content blockquote { border-left: 3px solid var(--color-border); margin: 0.5rem 0; padding: 0.25rem 0.75rem; color: var(--color-text-dim); }
+.msg-content table { border-collapse: collapse; width: 100%; margin: 0.5rem 0; font-size: 0.85em; }
+.msg-content th, .msg-content td { border: 1px solid var(--color-border); padding: 0.3rem 0.5rem; text-align: left; }
+.msg-content th { background: var(--color-surface-2); font-weight: 600; }
+.msg-content hr { border: none; border-top: 1px solid var(--color-border); margin: 0.75rem 0; }
+
+/* Code highlighting (Prism tokens) */
+.token.keyword { color: #c792ea; }
+.token.string  { color: #c3e88d; }
+.token.comment { color: #546e7a; font-style: italic; }
+.token.number  { color: #f78c6c; }
+.token.operator { color: #89ddff; }
+.token.punctuation { color: #89ddff; }
+
+/* Tool call/result cards */
+.tool-call-header { font-weight: 600; margin-bottom: 0.25rem; color: var(--color-accent); font-size: 0.85rem; }
+.tool-args { font-family: var(--font-mono); font-size: 0.75rem; color: var(--color-text-dim); white-space: pre-wrap; word-break: break-word; margin: 0; background: var(--color-bg); padding: 0.5rem; border-radius: var(--radius-sm); }
+.tool-inline { font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-accent); }
+.tool-result { opacity: 0.85; }
+
+/* Error message */
+.error-msg { color: var(--color-danger); font-size: 0.85rem; }
+
+/* Streaming cursor */
+.streaming-cursor { animation: blink 1s step-end infinite; color: var(--color-accent); }
+@keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
+
+/* Stats charts */
+.stats-canvas { display: block; border-radius: var(--radius-sm); margin: 0.5rem 0; }
+.stats-info { font-size: 0.8rem; color: var(--color-text-dim); padding: 0.4rem 0; line-height: 1.5; }
+
+/* Lexicon table */
+.entry-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 0.5rem; }
+.entry-table th { background: var(--color-surface-2); padding: 0.3rem 0.4rem; text-align: left; color: var(--color-text-dim); font-size: 0.75rem; }
+.entry-table td { padding: 0.25rem 0.4rem; border-bottom: 1px solid var(--color-border); }
+.conf-cell { color: var(--color-success); font-family: var(--font-mono); font-size: 0.75rem; }
+
+/* Corpus / lexicon sections */
+.corpus-section, .lexicon-section { margin-bottom: 0.75rem; }
+.corpus-header, .lexicon-header { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; padding: 0.5rem; background: var(--color-surface-2); border-radius: var(--radius-sm); }
+.lexicon-count { font-size: 0.75rem; }
+.lexicon-summary { color: var(--color-text-dim); font-size: 0.8rem; margin-bottom: 0.5rem; }
+.lexicon-entries { max-height: 300px; overflow-y: auto; margin-top: 0.5rem; }
+
+/* Loading state */
+.loading { color: var(--color-text-dim); font-size: 0.85rem; padding: 1rem 0; }
+
+/* Dim helper */
+.dim { color: var(--color-text-dim); }
+
+/* Session list items */
+.session-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.45rem 0.5rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--color-text-dim);
+  transition: background var(--transition);
+  gap: 0.25rem;
+}
+.session-item:hover { background: var(--color-surface-2); color: var(--color-text); }
+.session-item.active { background: var(--color-primary); color: white; }
+.session-item .session-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.session-item .session-del { opacity: 0; font-size: 0.7rem; padding: 0 0.2rem; }
+.session-item:hover .session-del { opacity: 0.6; }

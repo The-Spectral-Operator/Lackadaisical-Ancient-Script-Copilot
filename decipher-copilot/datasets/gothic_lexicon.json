@@ -1,0 +1,814 @@
+[
+  {
+    "english": "and",
+    "gothic": "𐌾𐌰𐌷",
+    "translit": "jah",
+    "pos": "conjunction",
+    "notes": "coordinating particle - extremely frequent"
+  },
+  {
+    "english": "angel",
+    "gothic": "𐌰𐌲𐌲𐌹𐌻𐌿𐍃",
+    "translit": "aggilus",
+    "pos": "noun",
+    "notes": "masc.; divine messenger - attested in Luke 1:11"
+  },
+  {
+    "english": "anger",
+    "gothic": "𐌼𐍉𐌳𐌰𐌲𐍃",
+    "translit": "modags",
+    "pos": "adjective",
+    "notes": "angry, wrathful - attested in Matthew 5:22"
+  },
+  {
+    "english": "be",
+    "gothic": "𐍃𐌹𐌾𐌰𐌽",
+    "translit": "sijan",
+    "pos": "verb",
+    "notes": "infinitive; to be, exist - frequently attested throughout Gothic Bible"
+  },
+  {
+    "english": "black",
+    "gothic": "𐍃𐍅𐌰𐍂𐍄𐍃",
+    "translit": "swarts",
+    "pos": "adjective",
+    "notes": "dark colored - attested in Matthew 5:36"
+  },
+  {
+    "english": "blood",
+    "gothic": "𐌱𐌻𐍉𐌸",
+    "translit": "bloþ",
+    "pos": "noun",
+    "notes": "neut.; blood - attested in Matthew 26:28"
+  },
+  {
+    "english": "book",
+    "gothic": "𐌱𐍉𐌺𐍉𐍃",
+    "translit": "bokos",
+    "pos": "noun",
+    "notes": "fem.; book, scroll - attested in Luke 4:17"
+  },
+  {
+    "english": "bread",
+    "gothic": "𐌷𐌻𐌰𐌹𐍆𐍃",
+    "translit": "hlaifs",
+    "pos": "noun",
+    "notes": "masc.; bread, loaf - attested in Matthew 6:11"
+  },
+  {
+    "english": "brother",
+    "gothic": "𐌱𐍂𐍉𐌸𐌰𐍂",
+    "translit": "broþar",
+    "pos": "noun",
+    "notes": "masc.; sibling - attested in Matthew 4:18"
+  },
+  {
+    "english": "call",
+    "gothic": "𐌷𐌰𐌹𐍄𐌰𐌽",
+    "translit": "haitan",
+    "pos": "verb",
+    "notes": "infinitive; to call, name - attested in Matthew 1:21"
+  },
+  {
+    "english": "christ",
+    "gothic": "𐍇𐍂𐌹𐍃𐍄𐌿𐍃",
+    "translit": "xristus",
+    "pos": "noun",
+    "notes": "masc.; the anointed one - Greek loanword, frequently attested"
+  },
+  {
+    "english": "church",
+    "gothic": "𐌰𐌹𐌺𐌺𐌻𐌴𐍃𐌾𐍉",
+    "translit": "aikklesjo",
+    "pos": "noun",
+    "notes": "fem.; assembly, congregation - attested in Matthew 16:18"
+  },
+  {
+    "english": "clean",
+    "gothic": "𐌷𐍂𐌰𐌹𐌽𐍃",
+    "translit": "hrains",
+    "pos": "adjective",
+    "notes": "pure, clean - attested in Matthew 23:26"
+  },
+  {
+    "english": "come",
+    "gothic": "𐌵𐌹𐌼𐌰𐌽",
+    "translit": "qiman",
+    "pos": "verb",
+    "notes": "infinitive; to come - attested in Matthew 3:11"
+  },
+  {
+    "english": "darkness",
+    "gothic": "𐍂𐌹𐌵𐌹𐍃",
+    "translit": "riqis",
+    "pos": "noun",
+    "notes": "neut.; darkness - attested in John 1:5"
+  },
+  {
+    "english": "day",
+    "gothic": "𐌳𐌰𐌲𐍃",
+    "translit": "dags",
+    "pos": "noun",
+    "notes": "masc.; day - attested in Genesis 1:5"
+  },
+  {
+    "english": "dead",
+    "gothic": "𐌳𐌰𐌿𐌸𐍃",
+    "translit": "dauþs",
+    "pos": "adjective",
+    "notes": "lifeless, dead - attested in Matthew 22:31"
+  },
+  {
+    "english": "death",
+    "gothic": "𐌳𐌰𐌿𐌸𐌿𐍃",
+    "translit": "dauþus",
+    "pos": "noun",
+    "notes": "masc.; end of life - attested in Romans 6:23"
+  },
+  {
+    "english": "disciple",
+    "gothic": "𐍃𐌹𐍀𐍉𐌽𐌴𐌹𐍃",
+    "translit": "siponeis",
+    "pos": "noun",
+    "notes": "masc.; student, follower - Greek loanword, attested in Matthew 10:1"
+  },
+  {
+    "english": "do",
+    "gothic": "𐍄𐌰𐌿𐌾𐌰𐌽",
+    "translit": "taujan",
+    "pos": "verb",
+    "notes": "infinitive; to do, make - attested in Luke 3:10"
+  },
+  {
+    "english": "ear",
+    "gothic": "𐌰𐌿𐍃𐍉",
+    "translit": "auso",
+    "pos": "noun",
+    "notes": "neut.; ear - attested in Mark 7:33"
+  },
+  {
+    "english": "earth",
+    "gothic": "𐌰𐌹𐍂𐌸𐌰",
+    "translit": "airþa",
+    "pos": "noun",
+    "notes": "fem.; earth, ground - attested in Genesis 1:1"
+  },
+  {
+    "english": "evil",
+    "gothic": "𐌿𐌱𐌹𐌻𐍃",
+    "translit": "ubils",
+    "pos": "adjective",
+    "notes": "bad, wicked - attested in Matthew 6:13"
+  },
+  {
+    "english": "eye",
+    "gothic": "𐌰𐌿𐌲𐍉",
+    "translit": "augo",
+    "pos": "noun",
+    "notes": "neut.; organ of sight - attested in Matthew 6:22"
+  },
+  {
+    "english": "father",
+    "gothic": "𐌰𐍄𐍄𐌰",
+    "translit": "atta",
+    "pos": "noun",
+    "notes": "masc.; parent - attested in Luke 11:11 (Codex Argenteus)"
+  },
+  {
+    "english": "fear",
+    "gothic": "𐌰𐌲𐌹𐍃",
+    "translit": "agis",
+    "pos": "noun",
+    "notes": "neut.; fear, terror - attested in Luke 1:12"
+  },
+  {
+    "english": "field",
+    "gothic": "𐌰𐌺𐍂𐍃",
+    "translit": "akrs",
+    "pos": "noun",
+    "notes": "masc.; field, acre - attested in Matthew 13:24"
+  },
+  {
+    "english": "find",
+    "gothic": "𐌱𐌹𐌲𐌹𐍄𐌰𐌽",
+    "translit": "bigitan",
+    "pos": "verb",
+    "notes": "infinitive; to find, obtain - attested in Matthew 7:7"
+  },
+  {
+    "english": "fire",
+    "gothic": "𐍆𐍉𐌽",
+    "translit": "fon",
+    "pos": "noun",
+    "notes": "neut.; flame - attested in Luke 12:49"
+  },
+  {
+    "english": "fish",
+    "gothic": "𐍆𐌹𐍃𐌺𐍃",
+    "translit": "fisks",
+    "pos": "noun",
+    "notes": "masc.; aquatic animal - attested in Matthew 4:19"
+  },
+  {
+    "english": "five",
+    "gothic": "𐍆𐌹𐌼𐍆",
+    "translit": "fimf",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Matthew 14:17"
+  },
+  {
+    "english": "foot",
+    "gothic": "𐍆𐍉𐍄𐌿𐍃",
+    "translit": "fotus",
+    "pos": "noun",
+    "notes": "masc.; extremity - attested in Luke 7:38"
+  },
+  {
+    "english": "four",
+    "gothic": "𐍆𐌹𐌳𐍅𐍉𐍂",
+    "translit": "fidwor",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Mark 2:3"
+  },
+  {
+    "english": "garment",
+    "gothic": "𐌲𐌰𐍅𐌰𐍃𐍃𐌹",
+    "translit": "gawassi",
+    "pos": "noun",
+    "notes": "neut.; clothing - attested in Matthew 9:16"
+  },
+  {
+    "english": "give",
+    "gothic": "𐌲𐌹𐌱𐌰𐌽",
+    "translit": "giban",
+    "pos": "verb",
+    "notes": "infinitive; to give - attested in Matthew 5:42"
+  },
+  {
+    "english": "go",
+    "gothic": "𐌲𐌰𐌲𐌲𐌰𐌽",
+    "translit": "gaggan",
+    "pos": "verb",
+    "notes": "infinitive; to go, walk - attested in Mark 16:15"
+  },
+  {
+    "english": "god",
+    "gothic": "𐌲𐌿𐌸",
+    "translit": "guþ",
+    "pos": "noun",
+    "notes": "masc.; deity - frequently attested throughout Wulfila's Bible"
+  },
+  {
+    "english": "gold",
+    "gothic": "𐌲𐌿𐌻𐌸",
+    "translit": "gulþ",
+    "pos": "noun",
+    "notes": "neut.; gold - attested in Matthew 2:11"
+  },
+  {
+    "english": "good",
+    "gothic": "𐌲𐍉𐌸𐍃",
+    "translit": "goþs",
+    "pos": "adjective",
+    "notes": "good, virtuous - attested in Mark 10:18"
+  },
+  {
+    "english": "great",
+    "gothic": "𐌼𐌹𐌺𐌹𐌻𐍃",
+    "translit": "mikils",
+    "pos": "adjective",
+    "notes": "great, large - attested in Matthew 2:10"
+  },
+  {
+    "english": "hand",
+    "gothic": "𐌷𐌰𐌽𐌳𐌿𐍃",
+    "translit": "handus",
+    "pos": "noun",
+    "notes": "fem.; hand - attested in Mark 3:1"
+  },
+  {
+    "english": "have",
+    "gothic": "𐌷𐌰𐌱𐌰𐌽",
+    "translit": "haban",
+    "pos": "verb",
+    "notes": "infinitive; to have, possess - attested in Matthew 19:22"
+  },
+  {
+    "english": "head",
+    "gothic": "𐌷𐌰𐌿𐌱𐌹𐌸",
+    "translit": "haubiþ",
+    "pos": "noun",
+    "notes": "neut.; top part of body - attested in Matthew 14:8"
+  },
+  {
+    "english": "hear",
+    "gothic": "𐌷𐌰𐌿𐍃𐌾𐌰𐌽",
+    "translit": "hausjan",
+    "pos": "verb",
+    "notes": "infinitive; to hear, listen - attested in Matthew 11:15"
+  },
+  {
+    "english": "heart",
+    "gothic": "𐌷𐌰𐌹𐍂𐍄𐍉",
+    "translit": "hairto",
+    "pos": "noun",
+    "notes": "neut.; heart - attested in Matthew 5:8"
+  },
+  {
+    "english": "heaven",
+    "gothic": "𐌷𐌹𐌼𐌹𐌽𐍃",
+    "translit": "himins",
+    "pos": "noun",
+    "notes": "masc.; heaven, sky - attested in Matthew 5:3"
+  },
+  {
+    "english": "holy",
+    "gothic": "𐍅𐌴𐌹𐌷𐍃",
+    "translit": "weihs",
+    "pos": "adjective",
+    "notes": "holy, sacred - attested in Matthew 1:18"
+  },
+  {
+    "english": "hope",
+    "gothic": "𐍅𐌴𐌽𐍃",
+    "translit": "wens",
+    "pos": "noun",
+    "notes": "fem.; expectation - attested in Romans 8:24"
+  },
+  {
+    "english": "hour",
+    "gothic": "𐍈𐌴𐌹𐌻𐌰",
+    "translit": "hweila",
+    "pos": "noun",
+    "notes": "fem.; hour, time - attested in Matthew 20:12"
+  },
+  {
+    "english": "house",
+    "gothic": "𐌲𐌰𐍂𐌳𐍃",
+    "translit": "gards",
+    "pos": "noun",
+    "notes": "masc.; dwelling, house - attested in Matthew 7:25"
+  },
+  {
+    "english": "hundred",
+    "gothic": "𐌷𐌿𐌽𐌳",
+    "translit": "hund",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Matthew 13:8"
+  },
+  {
+    "english": "in",
+    "gothic": "𐌹𐌽",
+    "translit": "in",
+    "pos": "preposition",
+    "notes": "location marker - extremely frequent throughout texts"
+  },
+  {
+    "english": "joy",
+    "gothic": "𐍆𐌰𐌷𐌴𐌸𐍃",
+    "translit": "faheþs",
+    "pos": "noun",
+    "notes": "fem.; happiness - attested in Luke 2:10"
+  },
+  {
+    "english": "king",
+    "gothic": "𐌸𐌹𐌿𐌳𐌰𐌽𐍃",
+    "translit": "þiudans",
+    "pos": "noun",
+    "notes": "masc.; ruler, king - attested in Mark 15:2"
+  },
+  {
+    "english": "kingdom",
+    "gothic": "𐌸𐌹𐌿𐌳𐌰𐌽𐌲𐌰𐍂𐌳𐌹",
+    "translit": "þiudangardi",
+    "pos": "noun",
+    "notes": "fem.; realm, kingdom - compound of þiudan + gards, frequently attested"
+  },
+  {
+    "english": "know",
+    "gothic": "𐌺𐌿𐌽𐌽𐌰𐌽",
+    "translit": "kunnan",
+    "pos": "verb",
+    "notes": "infinitive; to know, understand - attested in John 8:55"
+  },
+  {
+    "english": "letter",
+    "gothic": "𐌰𐌹𐍀𐌹𐍃𐍄𐌿𐌻𐌴",
+    "translit": "aipistule",
+    "pos": "noun",
+    "notes": "fem.; epistle, letter - Greek loanword"
+  },
+  {
+    "english": "life",
+    "gothic": "𐌻𐌹𐌱𐌰𐌹𐌽𐍃",
+    "translit": "libains",
+    "pos": "noun",
+    "notes": "fem.; life - attested in John 3:16"
+  },
+  {
+    "english": "light",
+    "gothic": "𐌻𐌹𐌿𐌷𐌰𐌸",
+    "translit": "liuhaþ",
+    "pos": "noun",
+    "notes": "neut.; light, illumination - attested in John 1:4"
+  },
+  {
+    "english": "lord",
+    "gothic": "𐍆𐍂𐌰𐌿𐌾𐌰",
+    "translit": "frauja",
+    "pos": "noun",
+    "notes": "masc.; master, lord - frequently attested as 'frauja' throughout Wulfila's Bible"
+  },
+  {
+    "english": "love",
+    "gothic": "𐍆𐍂𐌹𐌾𐍉𐌽",
+    "translit": "frijon",
+    "pos": "verb",
+    "notes": "infinitive; to love - attested in John 3:16"
+  },
+  {
+    "english": "man",
+    "gothic": "𐌼𐌰𐌽𐌽𐌰",
+    "translit": "manna",
+    "pos": "noun",
+    "notes": "masc.; human being - well attested in biblical texts"
+  },
+  {
+    "english": "meat",
+    "gothic": "𐌼𐌹𐌼𐌶",
+    "translit": "mimz",
+    "pos": "noun",
+    "notes": "neut.; meat, flesh - attested in Romans 14:21"
+  },
+  {
+    "english": "mercy",
+    "gothic": "𐌰𐍂𐌼𐌰𐌷𐌰𐌹𐍂𐍄𐌴𐌹",
+    "translit": "armahairtei",
+    "pos": "noun",
+    "notes": "fem.; compassion - compound word, attested in Matthew 9:13"
+  },
+  {
+    "english": "month",
+    "gothic": "𐌼𐌴𐌽𐍉𐌸𐍃",
+    "translit": "menoþs",
+    "pos": "noun",
+    "notes": "masc.; month - attested in Luke 1:24"
+  },
+  {
+    "english": "mother",
+    "gothic": "𐌰𐌹𐌸𐌴𐌹",
+    "translit": "aiþei",
+    "pos": "noun",
+    "notes": "fem.; parent - attested in Mark 3:31"
+  },
+  {
+    "english": "mountain",
+    "gothic": "𐍆𐌰𐌹𐍂𐌲𐌿𐌽𐌹",
+    "translit": "fairguni",
+    "pos": "noun",
+    "notes": "neut.; mountain, hill - attested in Matthew 5:1"
+  },
+  {
+    "english": "mouth",
+    "gothic": "𐌼𐌿𐌽𐌸𐍃",
+    "translit": "munþs",
+    "pos": "noun",
+    "notes": "masc.; mouth, opening - attested in Matthew 15:11"
+  },
+  {
+    "english": "name",
+    "gothic": "𐌽𐌰𐌼𐍉",
+    "translit": "namo",
+    "pos": "noun",
+    "notes": "neut.; name - attested in Matthew 1:21"
+  },
+  {
+    "english": "new",
+    "gothic": "𐌽𐌹𐌿𐌾𐌹𐍃",
+    "translit": "niujis",
+    "pos": "adjective",
+    "notes": "fresh, new - attested in Matthew 9:17"
+  },
+  {
+    "english": "night",
+    "gothic": "𐌽𐌰𐌷𐍄𐍃",
+    "translit": "nahts",
+    "pos": "noun",
+    "notes": "fem.; night - attested in Genesis 1:5"
+  },
+  {
+    "english": "oil",
+    "gothic": "𐌰𐌻𐌴𐍅",
+    "translit": "alew",
+    "pos": "noun",
+    "notes": "neut.; olive oil - attested in Matthew 25:3"
+  },
+  {
+    "english": "old",
+    "gothic": "𐌰𐌻𐌸𐌴𐌹𐍃",
+    "translit": "alþeis",
+    "pos": "adjective",
+    "notes": "aged, old - attested in Luke 5:36"
+  },
+  {
+    "english": "one",
+    "gothic": "𐌰𐌹𐌽𐍃",
+    "translit": "ains",
+    "pos": "numeral",
+    "notes": "cardinal number - frequently attested"
+  },
+  {
+    "english": "peace",
+    "gothic": "𐌲𐌰𐍅𐌰𐌹𐍂𐌸𐌹",
+    "translit": "gawairþi",
+    "pos": "noun",
+    "notes": "neut.; tranquility - attested in Luke 2:14"
+  },
+  {
+    "english": "people",
+    "gothic": "𐌸𐌹𐌿𐌳𐌰",
+    "translit": "þiuda",
+    "pos": "noun",
+    "notes": "fem.; people, nation - attested in Matthew 1:21"
+  },
+  {
+    "english": "priest",
+    "gothic": "𐌲𐌿𐌳𐌾𐌰",
+    "translit": "gudja",
+    "pos": "noun",
+    "notes": "masc.; religious leader - attested in Luke 1:5"
+  },
+  {
+    "english": "prophet",
+    "gothic": "𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌴𐍃",
+    "translit": "praufetes",
+    "pos": "noun",
+    "notes": "masc.; prophet - Greek loanword, attested in Matthew 1:22"
+  },
+  {
+    "english": "righteousness",
+    "gothic": "𐌲𐌰𐍂𐌰𐌹𐌷𐍄𐌴𐌹",
+    "translit": "garaihtei",
+    "pos": "noun",
+    "notes": "fem.; justice, righteousness - attested in Matthew 5:6"
+  },
+  {
+    "english": "say",
+    "gothic": "𐌵𐌹𐌸𐌰𐌽",
+    "translit": "qiþan",
+    "pos": "verb",
+    "notes": "infinitive; to say, speak - extremely frequent in Wulfila's Bible"
+  },
+  {
+    "english": "sea",
+    "gothic": "𐌼𐌰𐍂𐌴𐌹",
+    "translit": "marei",
+    "pos": "noun",
+    "notes": "fem.; sea, lake - attested in Mark 1:16"
+  },
+  {
+    "english": "see",
+    "gothic": "𐍃𐌰𐌹𐍈𐌰𐌽",
+    "translit": "saihwan",
+    "pos": "verb",
+    "notes": "infinitive; to see - attested in Matthew 5:8"
+  },
+  {
+    "english": "seed",
+    "gothic": "𐍆𐍂𐌰𐌹𐍅",
+    "translit": "fraiw",
+    "pos": "noun",
+    "notes": "neut.; seed - attested in Mark 4:31"
+  },
+  {
+    "english": "seven",
+    "gothic": "𐍃𐌹𐌱𐌿𐌽",
+    "translit": "sibun",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Matthew 15:34"
+  },
+  {
+    "english": "silver",
+    "gothic": "𐍃𐌹𐌻𐌿𐌱𐍂",
+    "translit": "silubr",
+    "pos": "noun",
+    "notes": "neut.; silver - attested in Matthew 10:9"
+  },
+  {
+    "english": "sin",
+    "gothic": "𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐍃",
+    "translit": "frawaurhts",
+    "pos": "noun",
+    "notes": "fem.; sin, transgression - attested in Matthew 1:21"
+  },
+  {
+    "english": "sister",
+    "gothic": "𐍃𐍅𐌹𐍃𐍄𐌰𐍂",
+    "translit": "swistar",
+    "pos": "noun",
+    "notes": "fem.; sibling - attested in Mark 3:32"
+  },
+  {
+    "english": "six",
+    "gothic": "𐍃𐌰𐌹𐌷𐍃",
+    "translit": "saihs",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in John 2:6"
+  },
+  {
+    "english": "small",
+    "gothic": "𐌻𐌴𐌹𐍄𐌹𐌻𐍃",
+    "translit": "leitils",
+    "pos": "adjective",
+    "notes": "little, minor - attested in Luke 7:28"
+  },
+  {
+    "english": "son",
+    "gothic": "𐍃𐌿𐌽𐌿𐍃",
+    "translit": "sunus",
+    "pos": "noun",
+    "notes": "masc.; son - attested in Matthew 1:1"
+  },
+  {
+    "english": "soul",
+    "gothic": "𐍃𐌰𐌹𐍅𐌰𐌻𐌰",
+    "translit": "saiwala",
+    "pos": "noun",
+    "notes": "fem.; spirit - attested in Matthew 10:28"
+  },
+  {
+    "english": "speak",
+    "gothic": "𐍂𐍉𐌳𐌾𐌰𐌽",
+    "translit": "rodjan",
+    "pos": "verb",
+    "notes": "infinitive; to speak, talk - attested in Luke 24:14"
+  },
+  {
+    "english": "spirit",
+    "gothic": "𐌰𐌷𐌼𐌰",
+    "translit": "ahma",
+    "pos": "noun",
+    "notes": "masc.; spirit, breath - attested in Matthew 3:16 'ahma gudis'"
+  },
+  {
+    "english": "stone",
+    "gothic": "𐍃𐍄𐌰𐌹𐌽𐍃",
+    "translit": "stains",
+    "pos": "noun",
+    "notes": "masc.; rock - attested in Matthew 4:3"
+  },
+  {
+    "english": "strong",
+    "gothic": "𐍃𐍅𐌹𐌽𐌸𐍃",
+    "translit": "swinþs",
+    "pos": "adjective",
+    "notes": "strong, mighty - attested in Luke 11:21"
+  },
+  {
+    "english": "sun",
+    "gothic": "𐍃𐌿𐌽𐌽𐍉",
+    "translit": "sunno",
+    "pos": "noun",
+    "notes": "fem.; celestial body - attested in Matthew 13:43"
+  },
+  {
+    "english": "take",
+    "gothic": "𐌽𐌹𐌼𐌰𐌽",
+    "translit": "niman",
+    "pos": "verb",
+    "notes": "infinitive; to take, receive - attested in Matthew 20:14"
+  },
+  {
+    "english": "ten",
+    "gothic": "𐍄𐌰𐌹𐌷𐌿𐌽",
+    "translit": "taihun",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Luke 15:8"
+  },
+  {
+    "english": "three",
+    "gothic": "𐌸𐍂𐌴𐌹𐍃",
+    "translit": "þreis",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Matthew 12:40"
+  },
+  {
+    "english": "time",
+    "gothic": "𐌼𐌴𐌻",
+    "translit": "mel",
+    "pos": "noun",
+    "notes": "neut.; temporal duration - attested in Galatians 4:4"
+  },
+  {
+    "english": "tomorrow",
+    "gothic": "𐌰𐌿𐍂",
+    "translit": "aur",
+    "pos": "adverb",
+    "notes": "early, tomorrow - attested in Matthew 6:34"
+  },
+  {
+    "english": "tree",
+    "gothic": "𐌱𐌰𐌲𐌼𐍃",
+    "translit": "bagms",
+    "pos": "noun",
+    "notes": "masc.; woody plant - attested in Luke 3:9"
+  },
+  {
+    "english": "truth",
+    "gothic": "𐍃𐌿𐌽𐌾𐌰",
+    "translit": "sunja",
+    "pos": "noun",
+    "notes": "fem.; reality - attested in John 14:6"
+  },
+  {
+    "english": "twelve",
+    "gothic": "𐍄𐍅𐌰𐌻𐌹𐍆",
+    "translit": "twalif",
+    "pos": "numeral",
+    "notes": "cardinal number - compound, attested in Matthew 10:1"
+  },
+  {
+    "english": "two",
+    "gothic": "𐍄𐍅𐌰𐌹",
+    "translit": "twai",
+    "pos": "numeral",
+    "notes": "cardinal number - attested in Mark 6:7"
+  },
+  {
+    "english": "voice",
+    "gothic": "𐍃𐍄𐌹𐌱𐌽𐌰",
+    "translit": "stibna",
+    "pos": "noun",
+    "notes": "fem.; voice, sound - attested in Matthew 3:3"
+  },
+  {
+    "english": "water",
+    "gothic": "𐍅𐌰𐍄𐍉",
+    "translit": "wato",
+    "pos": "noun",
+    "notes": "neut.; liquid - attested in John 2:7"
+  },
+  {
+    "english": "weak",
+    "gothic": "𐌿𐌽𐌼𐌰𐌷𐍄𐌴𐌹𐌲𐍃",
+    "translit": "unmahteigs",
+    "pos": "adjective",
+    "notes": "powerless, weak - compound word"
+  },
+  {
+    "english": "white",
+    "gothic": "𐍈𐌴𐌹𐍄𐍃",
+    "translit": "hweits",
+    "pos": "adjective",
+    "notes": "light colored - attested in Mark 9:3"
+  },
+  {
+    "english": "wind",
+    "gothic": "𐍅𐌹𐌽𐌳𐍃",
+    "translit": "winds",
+    "pos": "noun",
+    "notes": "masc.; air movement - attested in Mark 4:37"
+  },
+  {
+    "english": "wine",
+    "gothic": "𐍅𐌴𐌹𐌽",
+    "translit": "wein",
+    "pos": "noun",
+    "notes": "neut.; wine - attested in John 2:3"
+  },
+  {
+    "english": "with",
+    "gothic": "𐌼𐌹𐌸",
+    "translit": "miþ",
+    "pos": "preposition",
+    "notes": "accompaniment - attested in Mark 1:13"
+  },
+  {
+    "english": "woman",
+    "gothic": "𐌵𐌹𐌽𐍉",
+    "translit": "qino",
+    "pos": "noun",
+    "notes": "fem.; adult female - attested in John 2:4"
+  },
+  {
+    "english": "word",
+    "gothic": "𐍅𐌰𐌿𐍂𐌳",
+    "translit": "waurd",
+    "pos": "noun",
+    "notes": "neut.; speech, utterance - attested in John 1:1 'In anastodeins was waurd'"
+  },
+  {
+    "english": "world",
+    "gothic": "𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃",
+    "translit": "manaseþs",
+    "pos": "noun",
+    "notes": "fem.; humanity, world - attested in John 3:16"
+  },
+  {
+    "english": "year",
+    "gothic": "𐌾𐌴𐍂",
+    "translit": "jer",
+    "pos": "noun",
+    "notes": "neut.; year - attested in Luke 3:1"
+  }
+]

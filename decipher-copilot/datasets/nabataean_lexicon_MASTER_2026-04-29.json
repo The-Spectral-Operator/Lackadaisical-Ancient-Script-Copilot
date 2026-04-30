@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "title": "Nabataean Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "nabataean",
+    "display": "Nabataean",
+    "era": "2nd century BCE - 4th century CE",
+    "region": "Nabataea (Jordan, Sinai, NW Arabia)",
+    "script_type": "Abjad (Proto-Arabic ancestor)",
+    "status": "Fully Deciphered",
+    "total_entries": 43,
+    "sources": [
+      "Cantineau - Le Nabatéen",
+      "Healey - The Religion of the Nabataeans"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "nabataean_0001",
+      "token": "𐢀",
+      "gloss": "aleph",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0002",
+      "token": "𐢁",
+      "gloss": "beth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0003",
+      "token": "𐢂",
+      "gloss": "gimel",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0004",
+      "token": "𐢃",
+      "gloss": "daleth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0005",
+      "token": "𐢄",
+      "gloss": "he",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0006",
+      "token": "𐢅",
+      "gloss": "waw",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0007",
+      "token": "𐢆",
+      "gloss": "zayin",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0008",
+      "token": "𐢇",
+      "gloss": "heth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0009",
+      "token": "𐢈",
+      "gloss": "teth",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0010",
+      "token": "𐢉",
+      "gloss": "yodh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0011",
+      "token": "𐢊",
+      "gloss": "kaph",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0012",
+      "token": "𐢋",
+      "gloss": "lamedh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0013",
+      "token": "𐢌",
+      "gloss": "mem",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0014",
+      "token": "𐢍",
+      "gloss": "nun",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0015",
+      "token": "𐢎",
+      "gloss": "samekh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0016",
+      "token": "𐢏",
+      "gloss": "ayin",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0017",
+      "token": "𐢐",
+      "gloss": "pe",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0018",
+      "token": "𐢑",
+      "gloss": "tsade",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0019",
+      "token": "𐢒",
+      "gloss": "qoph",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0020",
+      "token": "𐢓",
+      "gloss": "resh",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0021",
+      "token": "𐢔",
+      "gloss": "shin",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0022",
+      "token": "𐢕",
+      "gloss": "taw",
+      "pos": "letter",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0023",
+      "token": "mlk",
+      "gloss": "malik - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0024",
+      "token": "mlkt",
+      "gloss": "malkat - queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0025",
+      "token": "rb",
+      "gloss": "rab - chief, great",
+      "pos": "noun/adjective",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0026",
+      "token": "'lh",
+      "gloss": "ilāh - god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0027",
+      "token": "dšr'",
+      "gloss": "Dushara - chief deity of Nabataeans",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0028",
+      "token": "'lt",
+      "gloss": "Allat - goddess",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0029",
+      "token": "'lʿz'",
+      "gloss": "al-ʿUzzā - goddess of power",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0030",
+      "token": "mnt",
+      "gloss": "Manat - goddess of fate",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0031",
+      "token": "br",
+      "gloss": "bar - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0032",
+      "token": "brt",
+      "gloss": "barat - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0033",
+      "token": "'b",
+      "gloss": "ab - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0034",
+      "token": "'m",
+      "gloss": "em - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0035",
+      "token": "nps",
+      "gloss": "nafs - soul, memorial stele",
+      "pos": "noun",
+      "semantic_field": "funerary",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0036",
+      "token": "qbr",
+      "gloss": "qabr - grave, tomb",
+      "pos": "noun",
+      "semantic_field": "funerary",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0037",
+      "token": "šlm",
+      "gloss": "shalam - peace; completion",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0038",
+      "token": "byt",
+      "gloss": "bayt - house, temple",
+      "pos": "noun",
+      "semantic_field": "domestic/religious",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0039",
+      "token": "my'",
+      "gloss": "mayya - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0040",
+      "token": "šnt",
+      "gloss": "shanat - year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0041",
+      "token": "yrh",
+      "gloss": "yarah - month",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0042",
+      "token": "'rq'",
+      "gloss": "Arqa (Petra region)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    },
+    {
+      "entry_id": "nabataean_0043",
+      "token": "rqm",
+      "gloss": "Raqmu - Petra (the carved city)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Cantineau - Le Nabatéen"
+    }
+  ]
+}

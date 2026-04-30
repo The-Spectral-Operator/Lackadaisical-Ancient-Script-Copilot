@@ -1,0 +1,1030 @@
+{
+  "metadata": {
+    "title": "Sanskrit (Devanagari) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "sanskrit",
+    "display": "Sanskrit (Devanagari)",
+    "era": "1500 BCE - present (liturgical)",
+    "region": "Indian Subcontinent",
+    "script_type": "Abugida (Devanagari script)",
+    "status": "Fully Deciphered",
+    "total_entries": 112,
+    "sources": [
+      "Monier-Williams Sanskrit-English Dictionary",
+      "Whitney - Sanskrit Grammar",
+      "Macdonell - Vedic Grammar"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "sanskrit_0001",
+      "token": "अ",
+      "gloss": "a (vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0002",
+      "token": "आ",
+      "gloss": "ā (long vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0003",
+      "token": "इ",
+      "gloss": "i (vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0004",
+      "token": "उ",
+      "gloss": "u (vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0005",
+      "token": "ए",
+      "gloss": "e (vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0006",
+      "token": "ओ",
+      "gloss": "o (vowel)",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0007",
+      "token": "क",
+      "gloss": "ka (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0008",
+      "token": "ख",
+      "gloss": "kha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0009",
+      "token": "ग",
+      "gloss": "ga (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0010",
+      "token": "घ",
+      "gloss": "gha (aspirated)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0011",
+      "token": "च",
+      "gloss": "ca (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0012",
+      "token": "ज",
+      "gloss": "ja (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0013",
+      "token": "ट",
+      "gloss": "ṭa (retroflex)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0014",
+      "token": "ड",
+      "gloss": "ḍa (retroflex)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0015",
+      "token": "त",
+      "gloss": "ta (dental)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0016",
+      "token": "द",
+      "gloss": "da (dental)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0017",
+      "token": "न",
+      "gloss": "na (nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0018",
+      "token": "प",
+      "gloss": "pa (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0019",
+      "token": "ब",
+      "gloss": "ba (consonant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0020",
+      "token": "म",
+      "gloss": "ma (nasal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0021",
+      "token": "य",
+      "gloss": "ya (semivowel)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0022",
+      "token": "र",
+      "gloss": "ra (liquid)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0023",
+      "token": "ल",
+      "gloss": "la (liquid)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0024",
+      "token": "व",
+      "gloss": "va (semivowel)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0025",
+      "token": "श",
+      "gloss": "śa (sibilant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0026",
+      "token": "ष",
+      "gloss": "ṣa (retroflex sibilant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0027",
+      "token": "स",
+      "gloss": "sa (sibilant)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0028",
+      "token": "ह",
+      "gloss": "ha (aspirate)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0029",
+      "token": "ॐ",
+      "gloss": "om/aum (sacred syllable)",
+      "pos": "syllable",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0030",
+      "token": "देव",
+      "gloss": "deva - god, deity",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0031",
+      "token": "देवी",
+      "gloss": "devī - goddess",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0032",
+      "token": "ब्रह्मन्",
+      "gloss": "brahman - the absolute, cosmic principle",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0033",
+      "token": "आत्मन्",
+      "gloss": "ātman - self, soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0034",
+      "token": "धर्म",
+      "gloss": "dharma - law, duty, righteousness, cosmic order",
+      "pos": "noun",
+      "semantic_field": "philosophical/religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0035",
+      "token": "कर्म",
+      "gloss": "karma - action, deed, consequence",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0036",
+      "token": "मोक्ष",
+      "gloss": "mokṣa - liberation, release",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0037",
+      "token": "संसार",
+      "gloss": "saṃsāra - cycle of rebirth",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0038",
+      "token": "योग",
+      "gloss": "yoga - union, discipline",
+      "pos": "noun",
+      "semantic_field": "philosophical/practice",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0039",
+      "token": "मन्त्र",
+      "gloss": "mantra - sacred utterance, hymn",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0040",
+      "token": "वेद",
+      "gloss": "veda - knowledge, sacred text",
+      "pos": "noun",
+      "semantic_field": "religious/literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0041",
+      "token": "ऋग्वेद",
+      "gloss": "ṛgveda - Rig Veda (hymns)",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0042",
+      "token": "उपनिषद्",
+      "gloss": "upaniṣad - mystic teaching, Upanishad",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0043",
+      "token": "सूत्र",
+      "gloss": "sūtra - thread, aphorism, rule",
+      "pos": "noun",
+      "semantic_field": "literary/technical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0044",
+      "token": "श्लोक",
+      "gloss": "śloka - verse, stanza",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0045",
+      "token": "राजन्",
+      "gloss": "rājan - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0046",
+      "token": "क्षत्रिय",
+      "gloss": "kṣatriya - warrior class",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0047",
+      "token": "ब्राह्मण",
+      "gloss": "brāhmaṇa - priest, Brahmin",
+      "pos": "noun",
+      "semantic_field": "social/religious",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0048",
+      "token": "वैश्य",
+      "gloss": "vaiśya - merchant/farmer class",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0049",
+      "token": "शूद्र",
+      "gloss": "śūdra - laborer class",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0050",
+      "token": "गुरु",
+      "gloss": "guru - teacher, heavy, venerable",
+      "pos": "noun",
+      "semantic_field": "education",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0051",
+      "token": "शिष्य",
+      "gloss": "śiṣya - student, disciple",
+      "pos": "noun",
+      "semantic_field": "education",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0052",
+      "token": "विद्या",
+      "gloss": "vidyā - knowledge, learning",
+      "pos": "noun",
+      "semantic_field": "education",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0053",
+      "token": "सत्य",
+      "gloss": "satya - truth",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0054",
+      "token": "अहिंसा",
+      "gloss": "ahiṃsā - non-violence",
+      "pos": "noun",
+      "semantic_field": "ethical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0055",
+      "token": "प्रेम",
+      "gloss": "prema - love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0056",
+      "token": "शान्ति",
+      "gloss": "śānti - peace",
+      "pos": "noun",
+      "semantic_field": "emotional/spiritual",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0057",
+      "token": "अग्नि",
+      "gloss": "agni - fire, fire god",
+      "pos": "noun",
+      "semantic_field": "natural_world/deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0058",
+      "token": "इन्द्र",
+      "gloss": "indra - Indra (king of gods)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0059",
+      "token": "वरुण",
+      "gloss": "varuṇa - Varuna (cosmic order god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0060",
+      "token": "विष्णु",
+      "gloss": "viṣṇu - Vishnu (preserver god)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0061",
+      "token": "शिव",
+      "gloss": "śiva - Shiva (destroyer/transformer)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0062",
+      "token": "सरस्वती",
+      "gloss": "sarasvatī - Saraswati (knowledge goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0063",
+      "token": "लक्ष्मी",
+      "gloss": "lakṣmī - Lakshmi (prosperity goddess)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0064",
+      "token": "गणेश",
+      "gloss": "gaṇeśa - Ganesha (remover of obstacles)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0065",
+      "token": "सूर्य",
+      "gloss": "sūrya - sun, sun god",
+      "pos": "noun",
+      "semantic_field": "celestial/deity",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0066",
+      "token": "चन्द्र",
+      "gloss": "candra - moon",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0067",
+      "token": "नक्षत्र",
+      "gloss": "nakṣatra - star, constellation",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0068",
+      "token": "पृथ्वी",
+      "gloss": "pṛthvī - earth",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0069",
+      "token": "आकाश",
+      "gloss": "ākāśa - sky, space, ether",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0070",
+      "token": "वायु",
+      "gloss": "vāyu - wind, air",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0071",
+      "token": "जल",
+      "gloss": "jala - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0072",
+      "token": "वन",
+      "gloss": "vana - forest",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0073",
+      "token": "नदी",
+      "gloss": "nadī - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0074",
+      "token": "पर्वत",
+      "gloss": "parvata - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0075",
+      "token": "समुद्र",
+      "gloss": "samudra - ocean",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0076",
+      "token": "नगर",
+      "gloss": "nagara - city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0077",
+      "token": "गृह",
+      "gloss": "gṛha - house, home",
+      "pos": "noun",
+      "semantic_field": "domestic",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0078",
+      "token": "पुत्र",
+      "gloss": "putra - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0079",
+      "token": "पुत्री",
+      "gloss": "putrī - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0080",
+      "token": "पितृ",
+      "gloss": "pitṛ - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0081",
+      "token": "मातृ",
+      "gloss": "mātṛ - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0082",
+      "token": "भ्रातृ",
+      "gloss": "bhrātṛ - brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0083",
+      "token": "पति",
+      "gloss": "pati - husband, lord",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0084",
+      "token": "पत्नी",
+      "gloss": "patnī - wife",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0085",
+      "token": "मनुष्य",
+      "gloss": "manuṣya - human being",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0086",
+      "token": "जीव",
+      "gloss": "jīva - living being, soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0087",
+      "token": "मृत्यु",
+      "gloss": "mṛtyu - death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0088",
+      "token": "जन्म",
+      "gloss": "janma - birth",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0089",
+      "token": "अस्",
+      "gloss": "as - to be",
+      "pos": "verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0090",
+      "token": "भू",
+      "gloss": "bhū - to become, be",
+      "pos": "verb",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0091",
+      "token": "गम्",
+      "gloss": "gam - to go",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0092",
+      "token": "आ-गम्",
+      "gloss": "ā-gam - to come",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0093",
+      "token": "दा",
+      "gloss": "dā - to give",
+      "pos": "verb",
+      "semantic_field": "transfer",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0094",
+      "token": "कृ",
+      "gloss": "kṛ - to do, make",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0095",
+      "token": "वद्",
+      "gloss": "vad - to speak, say",
+      "pos": "verb",
+      "semantic_field": "communication",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0096",
+      "token": "श्रु",
+      "gloss": "śru - to hear",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0097",
+      "token": "दृश्",
+      "gloss": "dṛś - to see",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0098",
+      "token": "ज्ञा",
+      "gloss": "jñā - to know",
+      "pos": "verb",
+      "semantic_field": "cognitive",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0099",
+      "token": "पठ्",
+      "gloss": "paṭh - to read, recite",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0100",
+      "token": "लिख्",
+      "gloss": "likh - to write",
+      "pos": "verb",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0101",
+      "token": "एक",
+      "gloss": "eka - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0102",
+      "token": "द्वि",
+      "gloss": "dvi - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0103",
+      "token": "त्रि",
+      "gloss": "tri - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0104",
+      "token": "चतुर्",
+      "gloss": "catur - four",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0105",
+      "token": "पञ्च",
+      "gloss": "pañca - five",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0106",
+      "token": "षष्",
+      "gloss": "ṣaṣ - six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0107",
+      "token": "सप्त",
+      "gloss": "sapta - seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0108",
+      "token": "अष्ट",
+      "gloss": "aṣṭa - eight",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0109",
+      "token": "नव",
+      "gloss": "nava - nine",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0110",
+      "token": "दश",
+      "gloss": "daśa - ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0111",
+      "token": "शत",
+      "gloss": "śata - hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    },
+    {
+      "entry_id": "sanskrit_0112",
+      "token": "सहस्र",
+      "gloss": "sahasra - thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Monier-Williams Sanskrit-English Dictionary"
+    }
+  ]
+}

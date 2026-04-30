@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "title": "Elamite (Cuneiform) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "elamite",
+    "display": "Elamite (Cuneiform)",
+    "era": "3rd millennium - 4th century BCE",
+    "region": "Elam (southwestern Iran)",
+    "script_type": "Cuneiform (Sumero-Akkadian adapted)",
+    "status": "Fully Deciphered",
+    "total_entries": 33,
+    "sources": [
+      "Hinz & Koch - Elamisches Woerterbuch",
+      "Stolper - Texts from Tall-i Malyan"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "elamite_0001",
+      "token": "sunki",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0002",
+      "token": "sunkik",
+      "gloss": "kingdom, kingship",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0003",
+      "token": "sunki-me",
+      "gloss": "royal (adj)",
+      "pos": "adjective",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0004",
+      "token": "nap",
+      "gloss": "god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0005",
+      "token": "napir",
+      "gloss": "gods (collective)",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0006",
+      "token": "Inshushinak",
+      "gloss": "patron god of Susa",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0007",
+      "token": "Napirisha",
+      "gloss": "great god",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0008",
+      "token": "Humban",
+      "gloss": "supreme god",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0009",
+      "token": "Pinikir",
+      "gloss": "goddess (love/war)",
+      "pos": "noun",
+      "semantic_field": "deity",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0010",
+      "token": "siyan",
+      "gloss": "temple",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0011",
+      "token": "kuten",
+      "gloss": "to build, construct",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0012",
+      "token": "ir",
+      "gloss": "to make, do",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0013",
+      "token": "hali",
+      "gloss": "to protect, save",
+      "pos": "verb",
+      "semantic_field": "protection",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0014",
+      "token": "hish",
+      "gloss": "name",
+      "pos": "noun",
+      "semantic_field": "identity",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0015",
+      "token": "hatamti",
+      "gloss": "Elam (self-name)",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0016",
+      "token": "shu",
+      "gloss": "man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0017",
+      "token": "lika",
+      "gloss": "great, chief",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0018",
+      "token": "ruh",
+      "gloss": "person, man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0019",
+      "token": "amma",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0020",
+      "token": "atta",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0021",
+      "token": "ruhusak",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0022",
+      "token": "pakri",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0023",
+      "token": "kik",
+      "gloss": "heaven, sky",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0024",
+      "token": "kiri",
+      "gloss": "earth, land",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0025",
+      "token": "ap",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0026",
+      "token": "husa",
+      "gloss": "fire (?)",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0027",
+      "token": "li",
+      "gloss": "to swear, take oath",
+      "pos": "verb",
+      "semantic_field": "legal",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0028",
+      "token": "hih",
+      "gloss": "this",
+      "pos": "pronoun",
+      "semantic_field": "demonstrative",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0029",
+      "token": "u",
+      "gloss": "I",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0030",
+      "token": "ni",
+      "gloss": "he/she/it",
+      "pos": "pronoun",
+      "semantic_field": "personal",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0031",
+      "token": "kutur",
+      "gloss": "high, exalted",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0032",
+      "token": "shari",
+      "gloss": "year",
+      "pos": "noun",
+      "semantic_field": "temporal",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    },
+    {
+      "entry_id": "elamite_0033",
+      "token": "tepti",
+      "gloss": "lord, master",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Hinz & Koch - Elamisches Woerterbuch"
+    }
+  ]
+}

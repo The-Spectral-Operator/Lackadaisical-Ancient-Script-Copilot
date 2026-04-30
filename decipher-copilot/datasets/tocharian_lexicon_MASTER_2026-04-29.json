@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "Tocharian (A & B) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "tocharian",
+    "display": "Tocharian (A & B)",
+    "era": "5th-8th century CE",
+    "region": "Tarim Basin (Xinjiang, Central Asia)",
+    "script_type": "Brahmi-derived Abugida",
+    "status": "Fully Deciphered",
+    "total_entries": 45,
+    "sources": [
+      "Adams - Dictionary of Tocharian B",
+      "Krause & Thomas - Tocharisches Elementarbuch"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "tocharian_0001",
+      "token": "ñäkciye",
+      "gloss": "divine",
+      "pos": "adjective",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0002",
+      "token": "ñäkci",
+      "gloss": "god",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0003",
+      "token": "pudñäkt",
+      "gloss": "Buddha",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0004",
+      "token": "ṣamāne",
+      "gloss": "monk",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0005",
+      "token": "walo",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0006",
+      "token": "lāñc",
+      "gloss": "queen",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0007",
+      "token": "yärke",
+      "gloss": "honor, worship",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0008",
+      "token": "palsko",
+      "gloss": "mind, thought",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0009",
+      "token": "wamer",
+      "gloss": "jewel",
+      "pos": "noun",
+      "semantic_field": "material",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0010",
+      "token": "okso",
+      "gloss": "ox",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0011",
+      "token": "yakwe",
+      "gloss": "horse",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0012",
+      "token": "ko",
+      "gloss": "cow",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0013",
+      "token": "ku",
+      "gloss": "dog",
+      "pos": "noun",
+      "semantic_field": "animal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0014",
+      "token": "se",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0015",
+      "token": "pācer",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0016",
+      "token": "mācer",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0017",
+      "token": "procer",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0018",
+      "token": "ṣer",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0019",
+      "token": "oṅk",
+      "gloss": "man, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0020",
+      "token": "śana",
+      "gloss": "wife, woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0021",
+      "token": "kälymine",
+      "gloss": "direction, way",
+      "pos": "noun",
+      "semantic_field": "spatial",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0022",
+      "token": "ysār",
+      "gloss": "blood",
+      "pos": "noun",
+      "semantic_field": "anatomical",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0023",
+      "token": "āke",
+      "gloss": "end, death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0024",
+      "token": "srukalñe",
+      "gloss": "dying, death",
+      "pos": "noun",
+      "semantic_field": "existential",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0025",
+      "token": "tsain",
+      "gloss": "arrow",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0026",
+      "token": "kerciye",
+      "gloss": "palace",
+      "pos": "noun",
+      "semantic_field": "architecture",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0027",
+      "token": "riye",
+      "gloss": "city",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0028",
+      "token": "meñe",
+      "gloss": "moon, month",
+      "pos": "noun",
+      "semantic_field": "celestial/temporal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0029",
+      "token": "swāñco",
+      "gloss": "sun-ray",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0030",
+      "token": "war",
+      "gloss": "water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0031",
+      "token": "por",
+      "gloss": "fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0032",
+      "token": "trai",
+      "gloss": "three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0033",
+      "token": "ṣkas",
+      "gloss": "six",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0034",
+      "token": "ṣukt",
+      "gloss": "seven",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0035",
+      "token": "okt",
+      "gloss": "eight",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0036",
+      "token": "ñu",
+      "gloss": "nine",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0037",
+      "token": "śak",
+      "gloss": "ten",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0038",
+      "token": "kante",
+      "gloss": "hundred",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0039",
+      "token": "tmāne",
+      "gloss": "ten thousand",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0040",
+      "token": "yām-",
+      "gloss": "to do, make",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0041",
+      "token": "i-/y-",
+      "gloss": "to go",
+      "pos": "verb",
+      "semantic_field": "motion",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0042",
+      "token": "käl-",
+      "gloss": "to lead, carry",
+      "pos": "verb",
+      "semantic_field": "action",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0043",
+      "token": "klāw-",
+      "gloss": "to be called, named",
+      "pos": "verb",
+      "semantic_field": "identity",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0044",
+      "token": "klyaus-",
+      "gloss": "to hear, listen",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    },
+    {
+      "entry_id": "tocharian_0045",
+      "token": "läk-",
+      "gloss": "to see",
+      "pos": "verb",
+      "semantic_field": "perception",
+      "confidence": 1.0,
+      "source": "Adams - Dictionary of Tocharian B"
+    }
+  ]
+}

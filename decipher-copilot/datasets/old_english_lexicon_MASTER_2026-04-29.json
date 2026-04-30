@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "title": "Old English (Anglo-Saxon) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "old_english",
+    "display": "Old English (Anglo-Saxon)",
+    "era": "5th-11th century CE",
+    "region": "England, Germanic territories",
+    "script_type": "Runic (Futhorc) + Latin Alphabet",
+    "status": "Fully Deciphered",
+    "total_entries": 60,
+    "sources": [
+      "Clark Hall - Concise Anglo-Saxon Dictionary",
+      "Bosworth-Toller Anglo-Saxon Dictionary"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "old_english_0001",
+      "token": "ᚠ",
+      "gloss": "feoh (wealth)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0002",
+      "token": "ᚢ",
+      "gloss": "ūr (aurochs)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0003",
+      "token": "ᚦ",
+      "gloss": "þorn (thorn)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0004",
+      "token": "ᚩ",
+      "gloss": "ōs (god/mouth)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0005",
+      "token": "ᚱ",
+      "gloss": "rād (ride)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0006",
+      "token": "ᚳ",
+      "gloss": "cēn (torch)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0007",
+      "token": "ᚷ",
+      "gloss": "gyfu (gift)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0008",
+      "token": "ᚹ",
+      "gloss": "wynn (joy)",
+      "pos": "rune",
+      "semantic_field": "phonetic/semantic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0009",
+      "token": "cyning",
+      "gloss": "king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0010",
+      "token": "ealdorman",
+      "gloss": "alderman, chief",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0011",
+      "token": "þegn",
+      "gloss": "thane, retainer",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0012",
+      "token": "ceorl",
+      "gloss": "freeman, peasant",
+      "pos": "noun",
+      "semantic_field": "social",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0013",
+      "token": "hlāford",
+      "gloss": "lord (loaf-ward)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0014",
+      "token": "hlǣfdige",
+      "gloss": "lady (loaf-kneader)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0015",
+      "token": "wītan",
+      "gloss": "wise men, council",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0016",
+      "token": "dōm",
+      "gloss": "judgment, glory, doom",
+      "pos": "noun",
+      "semantic_field": "legal/evaluative",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0017",
+      "token": "wyrd",
+      "gloss": "fate, destiny",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0018",
+      "token": "mōd",
+      "gloss": "mind, spirit, courage",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0019",
+      "token": "sāwol",
+      "gloss": "soul",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0020",
+      "token": "God",
+      "gloss": "God",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0021",
+      "token": "heofen",
+      "gloss": "heaven",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0022",
+      "token": "hell",
+      "gloss": "hell",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0023",
+      "token": "engel",
+      "gloss": "angel",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0024",
+      "token": "dēofol",
+      "gloss": "devil, demon",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0025",
+      "token": "sweord",
+      "gloss": "sword",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0026",
+      "token": "scield",
+      "gloss": "shield",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0027",
+      "token": "helm",
+      "gloss": "helmet",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0028",
+      "token": "here",
+      "gloss": "army, host",
+      "pos": "noun",
+      "semantic_field": "military",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0029",
+      "token": "beorn",
+      "gloss": "warrior, man",
+      "pos": "noun",
+      "semantic_field": "military/social",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0030",
+      "token": "dryhten",
+      "gloss": "lord, ruler",
+      "pos": "noun",
+      "semantic_field": "political/religious",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0031",
+      "token": "ēorl",
+      "gloss": "earl, nobleman",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0032",
+      "token": "mēad",
+      "gloss": "mead",
+      "pos": "noun",
+      "semantic_field": "food/culture",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0033",
+      "token": "heall",
+      "gloss": "hall",
+      "pos": "noun",
+      "semantic_field": "architecture",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0034",
+      "token": "scip",
+      "gloss": "ship",
+      "pos": "noun",
+      "semantic_field": "maritime",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0035",
+      "token": "sǣ",
+      "gloss": "sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0036",
+      "token": "ēa",
+      "gloss": "river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0037",
+      "token": "feld",
+      "gloss": "field",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0038",
+      "token": "wudu",
+      "gloss": "wood, forest",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0039",
+      "token": "mann",
+      "gloss": "man, person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0040",
+      "token": "wīf",
+      "gloss": "woman, wife",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0041",
+      "token": "cild",
+      "gloss": "child",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0042",
+      "token": "fæder",
+      "gloss": "father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0043",
+      "token": "mōdor",
+      "gloss": "mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0044",
+      "token": "sunu",
+      "gloss": "son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0045",
+      "token": "dohtor",
+      "gloss": "daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0046",
+      "token": "brōþor",
+      "gloss": "brother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0047",
+      "token": "sweostor",
+      "gloss": "sister",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0048",
+      "token": "lēof",
+      "gloss": "dear, beloved",
+      "pos": "adjective",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0049",
+      "token": "gōd",
+      "gloss": "good",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0050",
+      "token": "yfel",
+      "gloss": "evil, bad",
+      "pos": "adjective",
+      "semantic_field": "evaluative",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0051",
+      "token": "micel",
+      "gloss": "great, large",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0052",
+      "token": "lytel",
+      "gloss": "little, small",
+      "pos": "adjective",
+      "semantic_field": "dimensional",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0053",
+      "token": "bōc",
+      "gloss": "book",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0054",
+      "token": "rūn",
+      "gloss": "rune, secret, mystery",
+      "pos": "noun",
+      "semantic_field": "writing/magical",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0055",
+      "token": "word",
+      "gloss": "word",
+      "pos": "noun",
+      "semantic_field": "linguistic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0056",
+      "token": "spell",
+      "gloss": "story, message",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0057",
+      "token": "lēoð",
+      "gloss": "poem, song",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0058",
+      "token": "wēalh",
+      "gloss": "foreigner, Briton, slave",
+      "pos": "noun",
+      "semantic_field": "ethnic/social",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0059",
+      "token": "Engla",
+      "gloss": "English, of the Angles",
+      "pos": "adjective",
+      "semantic_field": "ethnic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    },
+    {
+      "entry_id": "old_english_0060",
+      "token": "Seaxe",
+      "gloss": "Saxons",
+      "pos": "noun",
+      "semantic_field": "ethnic",
+      "confidence": 1.0,
+      "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+    }
+  ]
+}

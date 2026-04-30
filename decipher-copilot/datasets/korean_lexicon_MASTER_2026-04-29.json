@@ -1,0 +1,633 @@
+{
+  "metadata": {
+    "title": "Korean (Hangul) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "korean",
+    "display": "Korean (Hangul)",
+    "era": "1443 CE (creation) - present",
+    "region": "Korean Peninsula",
+    "script_type": "Featural Alphabetic",
+    "status": "Fully Deciphered",
+    "total_entries": 68,
+    "sources": [
+      "Samuel Martin - Reference Grammar of Korean",
+      "Sejong the Great - Hunminjeongeum Haerye (1446)"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "korean_0001",
+      "token": "ㄱ",
+      "gloss": "giyeok (g/k)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0002",
+      "token": "ㄴ",
+      "gloss": "nieun (n)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0003",
+      "token": "ㄷ",
+      "gloss": "digeut (d/t)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0004",
+      "token": "ㄹ",
+      "gloss": "rieul (r/l)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0005",
+      "token": "ㅁ",
+      "gloss": "mieum (m)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0006",
+      "token": "ㅂ",
+      "gloss": "bieup (b/p)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0007",
+      "token": "ㅅ",
+      "gloss": "siot (s)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0008",
+      "token": "ㅇ",
+      "gloss": "ieung (ng/silent)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0009",
+      "token": "ㅈ",
+      "gloss": "jieut (j)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0010",
+      "token": "ㅊ",
+      "gloss": "chieut (ch)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0011",
+      "token": "ㅋ",
+      "gloss": "kieuk (k)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0012",
+      "token": "ㅌ",
+      "gloss": "tieut (t)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0013",
+      "token": "ㅍ",
+      "gloss": "pieup (p)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0014",
+      "token": "ㅎ",
+      "gloss": "hieut (h)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0015",
+      "token": "ㅏ",
+      "gloss": "a",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0016",
+      "token": "ㅓ",
+      "gloss": "eo",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0017",
+      "token": "ㅗ",
+      "gloss": "o",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0018",
+      "token": "ㅜ",
+      "gloss": "u",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0019",
+      "token": "ㅡ",
+      "gloss": "eu",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0020",
+      "token": "ㅣ",
+      "gloss": "i",
+      "pos": "vowel",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0021",
+      "token": "한글",
+      "gloss": "hangul - Korean script",
+      "pos": "noun",
+      "semantic_field": "writing_system",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0022",
+      "token": "훈민정음",
+      "gloss": "hunminjeongeum - correct sounds for instructing people",
+      "pos": "noun",
+      "semantic_field": "writing_system",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0023",
+      "token": "임금",
+      "gloss": "imgeum - king (native Korean)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0024",
+      "token": "왕",
+      "gloss": "wang - king (Sino-Korean)",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0025",
+      "token": "나라",
+      "gloss": "nara - country",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0026",
+      "token": "백성",
+      "gloss": "baekseong - common people",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0027",
+      "token": "하늘",
+      "gloss": "haneul - sky, heaven",
+      "pos": "noun",
+      "semantic_field": "cosmological",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0028",
+      "token": "땅",
+      "gloss": "ttang - earth, ground",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0029",
+      "token": "물",
+      "gloss": "mul - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0030",
+      "token": "불",
+      "gloss": "bul - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0031",
+      "token": "바람",
+      "gloss": "baram - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0032",
+      "token": "해",
+      "gloss": "hae - sun, year",
+      "pos": "noun",
+      "semantic_field": "celestial/temporal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0033",
+      "token": "달",
+      "gloss": "dal - moon, month",
+      "pos": "noun",
+      "semantic_field": "celestial/temporal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0034",
+      "token": "별",
+      "gloss": "byeol - star",
+      "pos": "noun",
+      "semantic_field": "celestial",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0035",
+      "token": "산",
+      "gloss": "san - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0036",
+      "token": "바다",
+      "gloss": "bada - sea, ocean",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0037",
+      "token": "강",
+      "gloss": "gang - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0038",
+      "token": "사람",
+      "gloss": "saram - person, human",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0039",
+      "token": "남자",
+      "gloss": "namja - man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0040",
+      "token": "여자",
+      "gloss": "yeoja - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0041",
+      "token": "아버지",
+      "gloss": "abeoji - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0042",
+      "token": "어머니",
+      "gloss": "eomeoni - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0043",
+      "token": "아들",
+      "gloss": "adeul - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0044",
+      "token": "딸",
+      "gloss": "ttal - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0045",
+      "token": "형",
+      "gloss": "hyeong - older brother (male speaking)",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0046",
+      "token": "누나",
+      "gloss": "nuna - older sister (male speaking)",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0047",
+      "token": "오빠",
+      "gloss": "oppa - older brother (female speaking)",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0048",
+      "token": "언니",
+      "gloss": "eonni - older sister (female speaking)",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0049",
+      "token": "하나",
+      "gloss": "hana - one (native)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0050",
+      "token": "둘",
+      "gloss": "dul - two (native)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0051",
+      "token": "셋",
+      "gloss": "set - three (native)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0052",
+      "token": "넷",
+      "gloss": "net - four (native)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0053",
+      "token": "다섯",
+      "gloss": "daseot - five (native)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0054",
+      "token": "일",
+      "gloss": "il - one (Sino-Korean)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0055",
+      "token": "이",
+      "gloss": "i - two (Sino-Korean)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0056",
+      "token": "삼",
+      "gloss": "sam - three (Sino-Korean)",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0057",
+      "token": "마음",
+      "gloss": "ma-eum - heart, mind",
+      "pos": "noun",
+      "semantic_field": "philosophical",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0058",
+      "token": "사랑",
+      "gloss": "sarang - love",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0059",
+      "token": "정",
+      "gloss": "jeong - affection, attachment",
+      "pos": "noun",
+      "semantic_field": "emotional",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0060",
+      "token": "효",
+      "gloss": "hyo - filial piety",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0061",
+      "token": "충",
+      "gloss": "chung - loyalty",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0062",
+      "token": "예",
+      "gloss": "ye - propriety, manners",
+      "pos": "noun",
+      "semantic_field": "moral",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0063",
+      "token": "글",
+      "gloss": "geul - writing, text",
+      "pos": "noun",
+      "semantic_field": "literary",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0064",
+      "token": "말",
+      "gloss": "mal - speech, language, horse",
+      "pos": "noun",
+      "semantic_field": "linguistic/animal",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0065",
+      "token": "집",
+      "gloss": "jip - house, home",
+      "pos": "noun",
+      "semantic_field": "domestic",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0066",
+      "token": "밥",
+      "gloss": "bap - cooked rice, meal",
+      "pos": "noun",
+      "semantic_field": "food",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0067",
+      "token": "김치",
+      "gloss": "gimchi - kimchi",
+      "pos": "noun",
+      "semantic_field": "food/culture",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    },
+    {
+      "entry_id": "korean_0068",
+      "token": "차",
+      "gloss": "cha - tea, car",
+      "pos": "noun",
+      "semantic_field": "food/transport",
+      "confidence": 1.0,
+      "source": "Samuel Martin - Reference Grammar of Korean"
+    }
+  ]
+}

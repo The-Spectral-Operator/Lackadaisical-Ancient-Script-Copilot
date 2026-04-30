@@ -1,0 +1,183 @@
+/* Ancient Script Fonts - Google Noto Sans families for glyph rendering */
+/* These fonts enable proper display of ancient script Unicode blocks */
+
+@font-face {
+  font-family: 'Noto Sans Anatolian Hieroglyphs';
+  src: url('/fonts/NotoSansAnatolianHieroglyphs-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+14400-1467F; /* Anatolian Hieroglyphs block */
+}
+
+@font-face {
+  font-family: 'Noto Sans Canadian Aboriginal';
+  src: url('/fonts/NotoSansCanadianAboriginal-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+1400-167F, U+18B0-18FF; /* Canadian Syllabics */
+}
+
+@font-face {
+  font-family: 'Noto Sans Cherokee';
+  src: url('/fonts/NotoSansCherokee-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+13A0-13FF, U+AB70-ABBF; /* Cherokee */
+}
+
+@font-face {
+  font-family: 'Noto Sans Cuneiform';
+  src: url('/fonts/NotoSansCuneiform-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+12000-123FF, U+12400-1247F, U+12480-1254F; /* Cuneiform, numbers, early dynastic */
+}
+
+@font-face {
+  font-family: 'Noto Sans Cypriot';
+  src: url('/fonts/NotoSansCypriot-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10800-1083F; /* Cypriot Syllabary */
+}
+
+@font-face {
+  font-family: 'Noto Sans Egyptian Hieroglyphs';
+  src: url('/fonts/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+13000-1342F, U+13430-1345F; /* Egyptian Hieroglyphs + format controls */
+}
+
+@font-face {
+  font-family: 'Noto Sans Glagolitic';
+  src: url('/fonts/NotoSansGlagolitic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+2C00-2C5F, U+1E000-1E02F; /* Glagolitic + supplement */
+}
+
+@font-face {
+  font-family: 'Noto Sans Imperial Aramaic';
+  src: url('/fonts/NotoSansImperialAramaic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10840-1085F; /* Imperial Aramaic */
+}
+
+@font-face {
+  font-family: 'Noto Sans Linear A';
+  src: url('/fonts/NotoSansLinearA-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10600-1077F; /* Linear A */
+}
+
+@font-face {
+  font-family: 'Noto Sans Linear B';
+  src: url('/fonts/NotoSansLinearB-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10000-1007F, U+10080-100FF; /* Linear B syllabary + ideograms */
+}
+
+@font-face {
+  font-family: 'Noto Sans Lycian';
+  src: url('/fonts/NotoSansLycian-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10280-1029F; /* Lycian */
+}
+
+@font-face {
+  font-family: 'Noto Sans Meroitic';
+  src: url('/fonts/NotoSansMeroitic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10980-1099F, U+109A0-109FF; /* Meroitic Hieroglyphs + Cursive */
+}
+
+@font-face {
+  font-family: 'Noto Sans Old Persian';
+  src: url('/fonts/NotoSansOldPersian-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+103A0-103DF; /* Old Persian */
+}
+
+@font-face {
+  font-family: 'Noto Sans Runic';
+  src: url('/fonts/NotoSansRunic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+16A0-16FF; /* Runic */
+}
+
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  src: url('/fonts/NotoSansTelugu_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F; /* Telugu */
+}
+
+@font-face {
+  font-family: 'Noto Sans Ugaritic';
+  src: url('/fonts/NotoSansUgaritic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+10380-1039F; /* Ugaritic */
+}
+
+/* Combined ancient script font stack for the chat/decipherment display */
+.ancient-script,
+.message code,
+.message pre,
+.glyph-display {
+  font-family:
+    'Noto Sans Egyptian Hieroglyphs',
+    'Noto Sans Cuneiform',
+    'Noto Sans Linear A',
+    'Noto Sans Linear B',
+    'Noto Sans Meroitic',
+    'Noto Sans Anatolian Hieroglyphs',
+    'Noto Sans Imperial Aramaic',
+    'Noto Sans Ugaritic',
+    'Noto Sans Cypriot',
+    'Noto Sans Old Persian',
+    'Noto Sans Glagolitic',
+    'Noto Sans Lycian',
+    'Noto Sans Runic',
+    'Noto Sans Cherokee',
+    'Noto Sans Canadian Aboriginal',
+    'Noto Sans Telugu',
+    var(--font-mono),
+    monospace;
+}
+
+/* Large glyph display for individual sign analysis */
+.glyph-large {
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+  padding: 1rem;
+}
+
+.glyph-medium {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Inscription display - preserves reading order */
+.inscription-display {
+  font-size: 1.2rem;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+}
+
+/* RTL script support (Aramaic, Phoenician, etc.) */
+.script-rtl {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}

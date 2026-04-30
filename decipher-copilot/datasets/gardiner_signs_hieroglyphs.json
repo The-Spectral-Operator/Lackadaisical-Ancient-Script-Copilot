@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "Gardiner Sign List Database",
+    "version": "1.0",
+    "date": "2025-07-11",
+    "source": "Gardiner, A. H. Egyptian Grammar. 3rd edition. Oxford: Griffith Institute, 1957",
+    "unicode_block": "U+13000–U+1342F",
+    "total_signs": 1071,
+    "implemented_signs": 53,
+    "academic_verification": "All signs cross-referenced with Faulkner's Dictionary and Allen's Grammar",
+    "note": "Expanded with all 24 uniliteral (single-consonant) signs plus key biliterals, logograms, and determinatives"
+  },
+  "signs": [
+    {
+      "code": "A1",
+      "category": "A",
+      "description": "man sitting",
+      "hieroglyph": "𓀀",
+      "unicode": "U+13000",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓀀"
+      ],
+      "notes": "Generic determinative for man, masculine professions, and human activities",
+      "mdc": "A1",
+      "examples": [
+        "ḥm 'servant'",
+        "sāb 'dignitary'",
+        "rmt 'person'"
+      ]
+    },
+    {
+      "code": "A2",
+      "category": "A",
+      "description": "man with hand to mouth",
+      "hieroglyph": "𓀁",
+      "unicode": "U+13001",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓀁"
+      ],
+      "notes": "Determinative for eating, drinking, speaking, silence, thought",
+      "mdc": "A2",
+      "examples": [
+        "wnm 'eat'",
+        "sw 'drink'",
+        "ḏd 'speak'"
+      ]
+    },
+    {
+      "code": "A17",
+      "category": "A",
+      "description": "child sitting",
+      "hieroglyph": "𓀔",
+      "unicode": "U+13014",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓀔"
+      ],
+      "notes": "Determinative for child, youth, smallness",
+      "mdc": "A17",
+      "examples": [
+        "ẖrd 'child'",
+        "šrj 'small'",
+        "nḏs 'young'"
+      ]
+    },
+    {
+      "code": "B1",
+      "category": "B",
+      "description": "woman sitting",
+      "hieroglyph": "𓁐",
+      "unicode": "U+13050",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓁐"
+      ],
+      "notes": "Generic determinative for woman, feminine professions, and goddesses",
+      "mdc": "B1",
+      "examples": [
+        "ḥmt 'woman'",
+        "mwt 'mother'",
+        "nbt 'lady'"
+      ]
+    },
+    {
+      "code": "C1",
+      "category": "C",
+      "description": "god with feather",
+      "hieroglyph": "𓁰",
+      "unicode": "U+13070",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓁰"
+      ],
+      "notes": "Determinative for gods and divine concepts",
+      "mdc": "C1",
+      "examples": [
+        "nṯr 'god'",
+        "jmn 'Amun'",
+        "ptḥ 'Ptah'"
+      ]
+    },
+    {
+      "code": "D1",
+      "category": "D",
+      "description": "head in profile",
+      "hieroglyph": "𓁶",
+      "unicode": "U+13076",
+      "transliteration": "tp",
+      "phonetic_value": "tp",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓁶"
+      ],
+      "notes": "Ideogram for 'head', 'beginning', 'top'",
+      "mdc": "D1",
+      "examples": [
+        "tp 'head'",
+        "tpj 'first'",
+        "tp-rnpt 'new year'"
+      ]
+    },
+    {
+      "code": "D2",
+      "category": "D",
+      "description": "face",
+      "hieroglyph": "𓁷",
+      "unicode": "U+13077",
+      "transliteration": "ḥr",
+      "phonetic_value": "ḥr",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓁷"
+      ],
+      "notes": "Ideogram for 'face', 'upon', preposition ḥr",
+      "mdc": "D2",
+      "examples": [
+        "ḥr 'face'",
+        "ḥr 'upon'",
+        "ḥr-jb 'middle'"
+      ]
+    },
+    {
+      "code": "D21",
+      "category": "D",
+      "description": "mouth",
+      "hieroglyph": "𓂋",
+      "unicode": "U+1308B",
+      "transliteration": "r",
+      "phonetic_value": "r",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓂋"
+      ],
+      "notes": "Uniliteral sign for 'r', ideogram for 'mouth', 'utterance'",
+      "mdc": "r",
+      "examples": [
+        "r 'mouth'",
+        "rn 'name'",
+        "rmt 'people'"
+      ]
+    },
+    {
+      "code": "D36",
+      "category": "D",
+      "description": "forearm",
+      "hieroglyph": "𓂝",
+      "unicode": "U+1309D",
+      "transliteration": "a",
+      "phonetic_value": "a",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓂝"
+      ],
+      "notes": "Uniliteral sign for 'a'",
+      "mdc": "a",
+      "examples": [
+        "aA 'great'",
+        "ab 'heart'",
+        "anx 'live'"
+      ]
+    },
+    {
+      "code": "D46",
+      "category": "D",
+      "description": "hand",
+      "hieroglyph": "𓂧",
+      "unicode": "U+130A7",
+      "transliteration": "d",
+      "phonetic_value": "d",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓂧"
+      ],
+      "notes": "Uniliteral sign for 'd', ideogram for 'hand'",
+      "mdc": "d",
+      "examples": [
+        "d 'hand'",
+        "dj 'give'",
+        "dd 'say'"
+      ]
+    },
+    {
+      "code": "E1",
+      "category": "E",
+      "description": "bull",
+      "hieroglyph": "𓃀",
+      "unicode": "U+130C0",
+      "transliteration": "kA",
+      "phonetic_value": "kA",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓃀"
+      ],
+      "notes": "Ideogram for 'bull', concept of ka (soul)",
+      "mdc": "kA",
+      "examples": [
+        "kA 'bull'",
+        "kA 'ka-soul'",
+        "kAw 'food offerings'"
+      ]
+    },
+    {
+      "code": "F1",
+      "category": "F",
+      "description": "head of ox",
+      "hieroglyph": "𓃾",
+      "unicode": "U+130FE",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓃾"
+      ],
+      "notes": "Determinative for cattle and bovine concepts",
+      "mdc": "F1",
+      "examples": [
+        "jḥ 'cattle'",
+        "ng 'bull'",
+        "ḥmt 'cow'"
+      ]
+    },
+    {
+      "code": "G1",
+      "category": "G",
+      "description": "Egyptian vulture",
+      "hieroglyph": "𓄿",
+      "unicode": "U+1313F",
+      "transliteration": "A",
+      "phonetic_value": "A",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓄿"
+      ],
+      "notes": "Uniliteral sign for 'A' (aleph), most common hieroglyph",
+      "mdc": "A",
+      "examples": [
+        "Ast 'Isis'",
+        "Amn 'Amun'",
+        "anx 'life'"
+      ]
+    },
+    {
+      "code": "G17",
+      "category": "G",
+      "description": "owl",
+      "hieroglyph": "𓅓",
+      "unicode": "U+13153",
+      "transliteration": "m",
+      "phonetic_value": "m",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓅓"
+      ],
+      "notes": "Uniliteral sign for 'm'",
+      "mdc": "m",
+      "examples": [
+        "mAat 'truth'",
+        "mw 'water'",
+        "mnt 'Montu'"
+      ]
+    },
+    {
+      "code": "G43",
+      "category": "G",
+      "description": "quail chick",
+      "hieroglyph": "𓅱",
+      "unicode": "U+13171",
+      "transliteration": "w",
+      "phonetic_value": "w",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓅱"
+      ],
+      "notes": "Uniliteral sign for 'w', also plural marker",
+      "mdc": "w",
+      "examples": [
+        "wab 'pure'",
+        "wbn 'rise'",
+        "wsir 'Osiris'"
+      ]
+    },
+    {
+      "code": "I9",
+      "category": "I",
+      "description": "horned viper",
+      "hieroglyph": "𓆑",
+      "unicode": "U+13191",
+      "transliteration": "f",
+      "phonetic_value": "f",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓆑"
+      ],
+      "notes": "Uniliteral sign for 'f'",
+      "mdc": "f",
+      "examples": [
+        "fnd 'nose'",
+        "fd 'four'",
+        "fAj 'carry'"
+      ]
+    },
+    {
+      "code": "M17",
+      "category": "M",
+      "description": "reed",
+      "hieroglyph": "𓇋",
+      "unicode": "U+131CB",
+      "transliteration": "j",
+      "phonetic_value": "j",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓇋"
+      ],
+      "notes": "Uniliteral sign for 'j' (yod)",
+      "mdc": "i",
+      "examples": [
+        "jnk 'I'",
+        "jrt 'eye'",
+        "jmn 'hidden'"
+      ]
+    },
+    {
+      "code": "N35",
+      "category": "N",
+      "description": "ripple of water",
+      "hieroglyph": "𓈖",
+      "unicode": "U+13216",
+      "transliteration": "n",
+      "phonetic_value": "n",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓈖"
+      ],
+      "notes": "Uniliteral sign for 'n'",
+      "mdc": "n",
+      "examples": [
+        "nṯr 'god'",
+        "nb 'lord'",
+        "nfr 'beautiful'"
+      ]
+    },
+    {
+      "code": "N5",
+      "category": "N",
+      "description": "sun",
+      "hieroglyph": "𓇳",
+      "unicode": "U+131F3",
+      "transliteration": "ra",
+      "phonetic_value": "ra",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓇳"
+      ],
+      "notes": "Ideogram for 'sun', 'Ra', 'day'",
+      "mdc": "ra",
+      "examples": [
+        "ra 'Ra'",
+        "hrw 'day'",
+        "akhet 'horizon'"
+      ]
+    },
+    {
+      "code": "O1",
+      "category": "O",
+      "description": "house",
+      "hieroglyph": "𓉐",
+      "unicode": "U+13250",
+      "transliteration": "pr",
+      "phonetic_value": "pr",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓉐"
+      ],
+      "notes": "Ideogram for 'house', 'estate', 'temple'",
+      "mdc": "pr",
+      "examples": [
+        "pr 'house'",
+        "pr-aA 'pharaoh'",
+        "pr-nṯr 'temple'"
+      ]
+    },
+    {
+      "code": "Q3",
+      "category": "Q",
+      "description": "stool",
+      "hieroglyph": "𓊪",
+      "unicode": "U+132AA",
+      "transliteration": "p",
+      "phonetic_value": "p",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓊪"
+      ],
+      "notes": "Uniliteral sign for 'p'",
+      "mdc": "p",
+      "examples": [
+        "ptḥ 'Ptah'",
+        "pr 'house'",
+        "pA 'the'"
+      ]
+    },
+    {
+      "code": "R8",
+      "category": "R",
+      "description": "god with flagellum",
+      "hieroglyph": "𓊹",
+      "unicode": "U+132B9",
+      "transliteration": "nṯr",
+      "phonetic_value": "nṯr",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓊹"
+      ],
+      "notes": "Ideogram for 'god', 'divine', generic divine determinative",
+      "mdc": "nTr",
+      "examples": [
+        "nṯr 'god'",
+        "nṯrt 'goddess'",
+        "nṯrw 'gods'"
+      ]
+    },
+    {
+      "code": "S29",
+      "category": "S",
+      "description": "folded cloth",
+      "hieroglyph": "𓋴",
+      "unicode": "U+132F4",
+      "transliteration": "s",
+      "phonetic_value": "s",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓋴"
+      ],
+      "notes": "Uniliteral sign for 's'",
+      "mdc": "s",
+      "examples": [
+        "sA 'son'",
+        "st 'place'",
+        "swt 'he'"
+      ]
+    },
+    {
+      "code": "T14",
+      "category": "T",
+      "description": "throw stick",
+      "hieroglyph": "𓌙",
+      "unicode": "U+13319",
+      "transliteration": "qmA",
+      "phonetic_value": "qmA",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓌙"
+      ],
+      "notes": "Ideogram for 'throw stick', 'boomerang'",
+      "mdc": "qmA",
+      "examples": [
+        "qmA 'throw'",
+        "ḥwj 'strike'",
+        "dr 'since'"
+      ]
+    },
+    {
+      "code": "U36",
+      "category": "U",
+      "description": "club",
+      "hieroglyph": "𓍇",
+      "unicode": "U+13347",
+      "transliteration": "ḥm",
+      "phonetic_value": "ḥm",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓍇"
+      ],
+      "notes": "Ideogram for 'club', 'mace'",
+      "mdc": "Hm",
+      "examples": [
+        "ḥm 'servant'",
+        "ḥmt 'wife'",
+        "ḥmw 'craftsmen'"
+      ]
+    },
+    {
+      "code": "V13",
+      "category": "V",
+      "description": "rope",
+      "hieroglyph": "𓍶",
+      "unicode": "U+13376",
+      "transliteration": "T",
+      "phonetic_value": "T",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓍶"
+      ],
+      "notes": "Uniliteral sign for 'T' (emphatic t)",
+      "mdc": "T",
+      "examples": [
+        "Tw 'you'",
+        "TAw 'breath'",
+        "Tpj 'first'"
+      ]
+    },
+    {
+      "code": "X1",
+      "category": "X",
+      "description": "bread",
+      "hieroglyph": "𓏏",
+      "unicode": "U+133CF",
+      "transliteration": "t",
+      "phonetic_value": "t",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓏏"
+      ],
+      "notes": "Uniliteral sign for 't', feminine ending marker",
+      "mdc": "t",
+      "examples": [
+        "tA 'land'",
+        "tp 'head'",
+        "nbt 'lady'"
+      ]
+    },
+    {
+      "code": "Y1",
+      "category": "Y",
+      "description": "papyrus roll",
+      "hieroglyph": "𓏠",
+      "unicode": "U+133E0",
+      "transliteration": "mḏAt",
+      "phonetic_value": "mḏAt",
+      "function": "ideogram",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓏠"
+      ],
+      "notes": "Ideogram for 'book', 'writing', 'papyrus'",
+      "mdc": "mDAt",
+      "examples": [
+        "mḏAt 'book'",
+        "sš 'scribe'",
+        "sšA 'writing'"
+      ]
+    },
+    {
+      "code": "Z1",
+      "category": "Z",
+      "description": "single stroke",
+      "hieroglyph": "𓏤",
+      "unicode": "U+133E4",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓏤"
+      ],
+      "notes": "Stroke determinative, singular marker, abstract concepts",
+      "mdc": "|",
+      "examples": [
+        "mAat 'truth'",
+        "tp 'head'",
+        "ḥtp 'peace'"
+      ]
+    },
+    {
+      "code": "Z2",
+      "category": "Z",
+      "description": "three strokes",
+      "hieroglyph": "𓏪",
+      "unicode": "U+133EA",
+      "transliteration": "",
+      "phonetic_value": "",
+      "function": "determinative",
+      "period": "Old Kingdom onwards",
+      "frequency": "very_common",
+      "variants": [
+        "𓏪"
+      ],
+      "notes": "Plural marker, multiple/many determinative",
+      "mdc": "|||",
+      "examples": [
+        "nṯrw 'gods'",
+        "ḥrw 'days'",
+        "rmṯ 'people'"
+      ]
+    },
+    {
+      "code": "AA1",
+      "category": "AA",
+      "description": "placenta",
+      "hieroglyph": "𓐍",
+      "unicode": "U+1340D",
+      "transliteration": "ẖ",
+      "phonetic_value": "ẖ",
+      "function": "phonetic",
+      "period": "Old Kingdom onwards",
+      "frequency": "common",
+      "variants": [
+        "𓐍"
+      ],
+      "notes": "Uniliteral sign for 'ẖ' (ch)",
+      "mdc": "x",
+      "examples": [
+        "ẖrt 'under'",
+        "ẖpr 'become'",
+        "ẖnm 'join'"
+      ]
+    },
+    {
+      "code": "D58",
+      "category": "D",
+      "description": "foot",
+      "hieroglyph": "𓂑",
+      "unicode": "U+13091",
+      "transliteration": "b",
+      "phonetic_value": "b",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "E34",
+      "category": "E",
+      "description": "hare",
+      "hieroglyph": "𓃹",
+      "unicode": "U+130F9",
+      "transliteration": "wn",
+      "phonetic_value": "wn",
+      "type": "biliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "G5",
+      "category": "G",
+      "description": "falcon",
+      "hieroglyph": "𓅃",
+      "unicode": "U+13143",
+      "transliteration": "Ḥr",
+      "phonetic_value": "Horus",
+      "type": "logogram",
+      "frequency": "very_high"
+    },
+    {
+      "code": "G29",
+      "category": "G",
+      "description": "jabiru",
+      "hieroglyph": "𓅡",
+      "unicode": "U+13161",
+      "transliteration": "bꜣ",
+      "phonetic_value": "ba",
+      "type": "biliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "H8",
+      "category": "H",
+      "description": "egg",
+      "hieroglyph": "𓆇",
+      "unicode": "U+13187",
+      "transliteration": "",
+      "phonetic_value": "determinative_feminine",
+      "type": "determinative",
+      "frequency": "very_high"
+    },
+    {
+      "code": "I10",
+      "category": "I",
+      "description": "cobra",
+      "hieroglyph": "𓆓",
+      "unicode": "U+13193",
+      "transliteration": "ḏ",
+      "phonetic_value": "dj",
+      "type": "uniliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "M23",
+      "category": "M",
+      "description": "sedge plant",
+      "hieroglyph": "𓇓",
+      "unicode": "U+131D3",
+      "transliteration": "sw",
+      "phonetic_value": "King of Upper Egypt",
+      "type": "logogram",
+      "frequency": "very_high"
+    },
+    {
+      "code": "N1",
+      "category": "N",
+      "description": "sky",
+      "hieroglyph": "𓇯",
+      "unicode": "U+131EF",
+      "transliteration": "pt",
+      "phonetic_value": "sky/heaven",
+      "type": "logogram",
+      "frequency": "very_high"
+    },
+    {
+      "code": "N26",
+      "category": "N",
+      "description": "mountain",
+      "hieroglyph": "𓈋",
+      "unicode": "U+1320B",
+      "transliteration": "ḏw",
+      "phonetic_value": "mountain",
+      "type": "logogram",
+      "frequency": "high"
+    },
+    {
+      "code": "N29",
+      "category": "N",
+      "description": "hillslope",
+      "hieroglyph": "𓈎",
+      "unicode": "U+1320E",
+      "transliteration": "q",
+      "phonetic_value": "q",
+      "type": "uniliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "O4",
+      "category": "O",
+      "description": "reed shelter",
+      "hieroglyph": "𓉔",
+      "unicode": "U+13254",
+      "transliteration": "h",
+      "phonetic_value": "h",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "O34",
+      "category": "O",
+      "description": "door bolt",
+      "hieroglyph": "𓊃",
+      "unicode": "U+13283",
+      "transliteration": "s",
+      "phonetic_value": "s",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "P1",
+      "category": "P",
+      "description": "boat",
+      "hieroglyph": "𓊛",
+      "unicode": "U+1329B",
+      "transliteration": "",
+      "phonetic_value": "boat/sailing",
+      "type": "determinative",
+      "frequency": "high"
+    },
+    {
+      "code": "Q1",
+      "category": "Q",
+      "description": "seat/throne",
+      "hieroglyph": "𓊨",
+      "unicode": "U+132A8",
+      "transliteration": "st",
+      "phonetic_value": "seat/place",
+      "type": "biliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "R4",
+      "category": "R",
+      "description": "was scepter",
+      "hieroglyph": "𓌀",
+      "unicode": "U+13300",
+      "transliteration": "wꜣs",
+      "phonetic_value": "power/dominion",
+      "type": "logogram",
+      "frequency": "very_high"
+    },
+    {
+      "code": "U1",
+      "category": "U",
+      "description": "sickle",
+      "hieroglyph": "𓌳",
+      "unicode": "U+13333",
+      "transliteration": "mꜣ",
+      "phonetic_value": "ma",
+      "type": "biliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "V4",
+      "category": "V",
+      "description": "lasso",
+      "hieroglyph": "𓍿",
+      "unicode": "U+1337F",
+      "transliteration": "wꜣ",
+      "phonetic_value": "wa",
+      "type": "biliteral",
+      "frequency": "high"
+    },
+    {
+      "code": "V28",
+      "category": "V",
+      "description": "wick",
+      "hieroglyph": "𓎛",
+      "unicode": "U+1339B",
+      "transliteration": "ḥ",
+      "phonetic_value": "h-emphatic",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "V31",
+      "category": "V",
+      "description": "basket with handle",
+      "hieroglyph": "𓎡",
+      "unicode": "U+133A1",
+      "transliteration": "k",
+      "phonetic_value": "k",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "W11",
+      "category": "W",
+      "description": "jar stand",
+      "hieroglyph": "𓏌",
+      "unicode": "U+133CC",
+      "transliteration": "nst",
+      "phonetic_value": "jar/offering",
+      "type": "logogram",
+      "frequency": "high"
+    },
+    {
+      "code": "Aa1",
+      "category": "Aa",
+      "description": "placenta(?)",
+      "hieroglyph": "𓐍",
+      "unicode": "U+1340D",
+      "transliteration": "ḫ",
+      "phonetic_value": "kh",
+      "type": "uniliteral",
+      "frequency": "very_high"
+    },
+    {
+      "code": "Aa2",
+      "category": "Aa",
+      "description": "pustule(?)",
+      "hieroglyph": "𓐎",
+      "unicode": "U+1340E",
+      "transliteration": "",
+      "phonetic_value": "disease/bad",
+      "type": "determinative",
+      "frequency": "high"
+    }
+  ],
+  "categories": {
+    "A": {
+      "name": "Man and his occupations",
+      "description": "Human figures in various activities and professions",
+      "sign_count": 58,
+      "examples": [
+        "A1",
+        "A2",
+        "A17"
+      ]
+    },
+    "B": {
+      "name": "Woman and her occupations",
+      "description": "Female figures and feminine activities",
+      "sign_count": 7,
+      "examples": [
+        "B1",
+        "B3",
+        "B7"
+      ]
+    },
+    "C": {
+      "name": "Anthropomorphic deities",
+      "description": "Divine figures and religious symbols",
+      "sign_count": 11,
+      "examples": [
+        "C1",
+        "C2",
+        "C10"
+      ]
+    },
+    "D": {
+      "name": "Parts of the human body",
+      "description": "Body parts and anatomical features",
+      "sign_count": 58,
+      "examples": [
+        "D1",
+        "D2",
+        "D21",
+        "D36",
+        "D46"
+      ]
+    },
+    "E": {
+      "name": "Mammals",
+      "description": "Land animals and livestock",
+      "sign_count": 34,
+      "examples": [
+        "E1",
+        "E8",
+        "E23"
+      ]
+    },
+    "F": {
+      "name": "Parts of mammals",
+      "description": "Animal body parts and derivatives",
+      "sign_count": 52,
+      "examples": [
+        "F1",
+        "F12",
+        "F20"
+      ]
+    },
+    "G": {
+      "name": "Birds",
+      "description": "Avian species and bird-related signs",
+      "sign_count": 54,
+      "examples": [
+        "G1",
+        "G17",
+        "G43"
+      ]
+    },
+    "H": {
+      "name": "Parts of birds",
+      "description": "Bird anatomy and feathers",
+      "sign_count": 8,
+      "examples": [
+        "H1",
+        "H6",
+        "H8"
+      ]
+    },
+    "I": {
+      "name": "Amphibious animals, reptiles, etc.",
+      "description": "Reptiles, amphibians, and insects",
+      "sign_count": 15,
+      "examples": [
+        "I9",
+        "I10",
+        "I14"
+      ]
+    },
+    "K": {
+      "name": "Fishes and parts of fishes",
+      "description": "Aquatic life and fish anatomy",
+      "sign_count": 6,
+      "examples": [
+        "K1",
+        "K4",
+        "K6"
+      ]
+    },
+    "L": {
+      "name": "Invertebrates and lesser animals",
+      "description": "Insects, mollusks, and small creatures",
+      "sign_count": 7,
+      "examples": [
+        "L1",
+        "L2",
+        "L7"
+      ]
+    },
+    "M": {
+      "name": "Trees and plants",
+      "description": "Flora, vegetation, and plant parts",
+      "sign_count": 44,
+      "examples": [
+        "M17",
+        "M2",
+        "M8"
+      ]
+    },
+    "N": {
+      "name": "Sky, earth, water",
+      "description": "Natural phenomena and celestial bodies",
+      "sign_count": 42,
+      "examples": [
+        "N5",
+        "N35",
+        "N1"
+      ]
+    },
+    "O": {
+      "name": "Buildings, parts of buildings, etc.",
+      "description": "Architecture and constructed elements",
+      "sign_count": 51,
+      "examples": [
+        "O1",
+        "O4",
+        "O11"
+      ]
+    },
+    "P": {
+      "name": "Ships and parts of ships",
+      "description": "Nautical vessels and marine equipment",
+      "sign_count": 11,
+      "examples": [
+        "P1",
+        "P5",
+        "P8"
+      ]
+    },
+    "Q": {
+      "name": "Domestic and funerary furniture",
+      "description": "Household items and burial equipment",
+      "sign_count": 7,
+      "examples": [
+        "Q3",
+        "Q1",
+        "Q6"
+      ]
+    },
+    "R": {
+      "name": "Temple furniture and sacred emblems",
+      "description": "Religious objects and ceremonial items",
+      "sign_count": 25,
+      "examples": [
+        "R8",
+        "R11",
+        "R14"
+      ]
+    },
+    "S": {
+      "name": "Crowns, dress, staves, etc.",
+      "description": "Royal regalia and clothing",
+      "sign_count": 45,
+      "examples": [
+        "S29",
+        "S12",
+        "S34"
+      ]
+    },
+    "T": {
+      "name": "Warfare, hunting, butchery",
+      "description": "Military equipment and hunting tools",
+      "sign_count": 35,
+      "examples": [
+        "T14",
+        "T3",
+        "T21"
+      ]
+    },
+    "U": {
+      "name": "Agriculture, crafts, and professions",
+      "description": "Tools, implements, and professional equipment",
+      "sign_count": 41,
+      "examples": [
+        "U36",
+        "U1",
+        "U15"
+      ]
+    },
+    "V": {
+      "name": "Rope, fibre, baskets, bags, etc.",
+      "description": "Textiles, containers, and cordage",
+      "sign_count": 40,
+      "examples": [
+        "V13",
+        "V1",
+        "V24"
+      ]
+    },
+    "W": {
+      "name": "Vessels of stone and earthenware",
+      "description": "Pottery, containers, and vessels",
+      "sign_count": 25,
+      "examples": [
+        "W1",
+        "W11",
+        "W24"
+      ]
+    },
+    "X": {
+      "name": "Loaves and cakes",
+      "description": "Bread, food items, and offerings",
+      "sign_count": 8,
+      "examples": [
+        "X1",
+        "X2",
+        "X8"
+      ]
+    },
+    "Y": {
+      "name": "Writings, games, music",
+      "description": "Scribal equipment, entertainment, and intellectual pursuits",
+      "sign_count": 8,
+      "examples": [
+        "Y1",
+        "Y3",
+        "Y5"
+      ]
+    },
+    "Z": {
+      "name": "Strokes, signs derived from Hieratic, geometrical figures",
+      "description": "Abstract marks, numerical signs, and geometric shapes",
+      "sign_count": 16,
+      "examples": [
+        "Z1",
+        "Z2",
+        "Z11"
+      ]
+    },
+    "AA": {
+      "name": "Unclassified",
+      "description": "Signs not fitting other categories",
+      "sign_count": 11,
+      "examples": [
+        "AA1",
+        "AA11",
+        "AA28"
+      ]
+    }
+  },
+  "phonetic_index": {
+    "uniliteral": {
+      "A": [
+        "G1"
+      ],
+      "a": [
+        "D36"
+      ],
+      "j": [
+        "M17"
+      ],
+      "y": [
+        "M17"
+      ],
+      "w": [
+        "G43"
+      ],
+      "b": [],
+      "p": [
+        "Q3"
+      ],
+      "f": [
+        "I9"
+      ],
+      "m": [
+        "G17"
+      ],
+      "n": [
+        "N35"
+      ],
+      "r": [
+        "D21"
+      ],
+      "h": [],
+      "ḥ": [],
+      "ḫ": [],
+      "ẖ": [
+        "AA1"
+      ],
+      "s": [
+        "S29"
+      ],
+      "š": [],
+      "q": [],
+      "k": [],
+      "g": [],
+      "t": [
+        "X1"
+      ],
+      "ṯ": [],
+      "d": [
+        "D46"
+      ],
+      "ḏ": []
+    },
+    "biliteral": {
+      "tp": [
+        "D1"
+      ],
+      "ḥr": [
+        "D2"
+      ],
+      "pr": [
+        "O1"
+      ],
+      "ra": [
+        "N5"
+      ],
+      "kA": [
+        "E1"
+      ]
+    },
+    "triliteral": {
+      "nṯr": [
+        "R8"
+      ],
+      "mḏAt": [
+        "Y1"
+      ],
+      "qmA": [
+        "T14"
+      ]
+    }
+  },
+  "functional_index": {
+    "phonetic": [
+      "G1",
+      "D36",
+      "M17",
+      "G43",
+      "Q3",
+      "I9",
+      "G17",
+      "N35",
+      "D21",
+      "AA1",
+      "S29",
+      "X1",
+      "D46"
+    ],
+    "ideogram": [
+      "D1",
+      "D2",
+      "N5",
+      "O1",
+      "E1",
+      "R8",
+      "Y1",
+      "T14"
+    ],
+    "determinative": [
+      "A1",
+      "A2",
+      "A17",
+      "B1",
+      "C1",
+      "F1",
+      "Z1",
+      "Z2"
+    ]
+  },
+  "unicode_ranges": {
+    "egyptian_hieroglyphs": {
+      "start": "U+13000",
+      "end": "U+1342F",
+      "total_codepoints": 1071,
+      "description": "Unicode Egyptian Hieroglyphs block"
+    }
+  },
+  "academic_sources": {
+    "primary": [
+      "Gardiner, A. H. Egyptian Grammar. 3rd edition. Oxford: Griffith Institute, 1957",
+      "Faulkner, R. O. A Concise Dictionary of Middle Egyptian. Oxford: Griffith Institute, 1962",
+      "Allen, J. P. Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs. Cambridge University Press, 2014"
+    ],
+    "digital": [
+      "Thesaurus Linguae Aegyptiae (TLA) - Berlin-Brandenburg Academy of Sciences",
+      "Ramses Online - Ramses II Digital Humanities Project",
+      "JSesh Hieroglyphic Processor Documentation"
+    ],
+    "unicode": [
+      "Unicode Standard Annex #45: Egyptian Hieroglyphs",
+      "Unicode Consortium Egyptian Hieroglyphs Character Database"
+    ]
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "title": "Burmese (Myanmar) Comprehensive Lexicon MASTER",
+    "version": "1.0.0",
+    "compiled_date": "2026-04-29T00:00:00Z",
+    "script": "burmese",
+    "display": "Burmese (Myanmar)",
+    "era": "11th century CE (Myazedi inscription) - present",
+    "region": "Myanmar (Burma), Southeast Asia",
+    "script_type": "Abugida (Indic-derived, rounded forms)",
+    "status": "Fully Deciphered",
+    "total_entries": 50,
+    "sources": [
+      "Myanmar-English Dictionary (MLC)",
+      "Okell - Burmese: An Introduction"
+    ],
+    "license": "CC BY-NC 4.0"
+  },
+  "entries": [
+    {
+      "entry_id": "burmese_0001",
+      "token": "က",
+      "gloss": "ka",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0002",
+      "token": "ခ",
+      "gloss": "kha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0003",
+      "token": "ဂ",
+      "gloss": "ga",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0004",
+      "token": "ဃ",
+      "gloss": "gha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0005",
+      "token": "င",
+      "gloss": "nga",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0006",
+      "token": "စ",
+      "gloss": "sa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0007",
+      "token": "ဆ",
+      "gloss": "hsa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0008",
+      "token": "ဇ",
+      "gloss": "za",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0009",
+      "token": "ည",
+      "gloss": "nya",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0010",
+      "token": "ဋ",
+      "gloss": "ta (retroflex)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0011",
+      "token": "ဌ",
+      "gloss": "hta (retroflex)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0012",
+      "token": "တ",
+      "gloss": "ta",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0013",
+      "token": "ထ",
+      "gloss": "hta",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0014",
+      "token": "ဒ",
+      "gloss": "da",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0015",
+      "token": "န",
+      "gloss": "na",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0016",
+      "token": "ပ",
+      "gloss": "pa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0017",
+      "token": "ဖ",
+      "gloss": "hpa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0018",
+      "token": "ဗ",
+      "gloss": "ba",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0019",
+      "token": "ဘ",
+      "gloss": "bha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0020",
+      "token": "မ",
+      "gloss": "ma",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0021",
+      "token": "ယ",
+      "gloss": "ya",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0022",
+      "token": "ရ",
+      "gloss": "ra/ya",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0023",
+      "token": "လ",
+      "gloss": "la",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0024",
+      "token": "ဝ",
+      "gloss": "wa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0025",
+      "token": "သ",
+      "gloss": "tha/sa",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0026",
+      "token": "ဟ",
+      "gloss": "ha",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0027",
+      "token": "အ",
+      "gloss": "a (glottal)",
+      "pos": "consonant",
+      "semantic_field": "phonetic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0028",
+      "token": "ဗုဒ္ဓ",
+      "gloss": "buddha - the Buddha",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0029",
+      "token": "ဓမ္မ",
+      "gloss": "dhamma - teachings, dharma",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0030",
+      "token": "ဘုရား",
+      "gloss": "phaya - Buddha/god/king",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0031",
+      "token": "ဘုန်းကြီး",
+      "gloss": "hpongyi - monk",
+      "pos": "noun",
+      "semantic_field": "religious",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0032",
+      "token": "ဘုရင်",
+      "gloss": "bhuyin - king",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0033",
+      "token": "မင်းသား",
+      "gloss": "min tha - prince",
+      "pos": "noun",
+      "semantic_field": "political",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0034",
+      "token": "လူ",
+      "gloss": "lu - person",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0035",
+      "token": "ယောက်ျား",
+      "gloss": "yauk kya - man",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0036",
+      "token": "မိန်းမ",
+      "gloss": "mein ma - woman",
+      "pos": "noun",
+      "semantic_field": "anthropological",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0037",
+      "token": "အဖေ",
+      "gloss": "a hpe - father",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0038",
+      "token": "အမေ",
+      "gloss": "a me - mother",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0039",
+      "token": "သား",
+      "gloss": "tha - son",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0040",
+      "token": "သမီး",
+      "gloss": "tha mi - daughter",
+      "pos": "noun",
+      "semantic_field": "kinship",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0041",
+      "token": "ရေ",
+      "gloss": "ye - water",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0042",
+      "token": "မီး",
+      "gloss": "mi - fire",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0043",
+      "token": "လေ",
+      "gloss": "le - wind",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0044",
+      "token": "မြေ",
+      "gloss": "mye - earth",
+      "pos": "noun",
+      "semantic_field": "natural_world",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0045",
+      "token": "တောင်",
+      "gloss": "taung - mountain",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0046",
+      "token": "မြစ်",
+      "gloss": "myit - river",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0047",
+      "token": "ပင်လယ်",
+      "gloss": "pinle - sea",
+      "pos": "noun",
+      "semantic_field": "geographic",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0048",
+      "token": "တစ်",
+      "gloss": "tit - one",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0049",
+      "token": "နှစ်",
+      "gloss": "hnit - two",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    },
+    {
+      "entry_id": "burmese_0050",
+      "token": "သုံး",
+      "gloss": "thon - three",
+      "pos": "numeral",
+      "semantic_field": "cardinal",
+      "confidence": 1.0,
+      "source": "Myanmar-English Dictionary (MLC)"
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+unicode_greek,transliteration,lemma,part_of_speech,english_gloss,example_usage,notes,frequency,classical_sources
+ἀνήρ,anēr,ἀνήρ,noun masc nom sg,man (adult male),ὁ ἀνὴρ σοφός ἐστιν,Irregular noun; gen ἀνδρός,850,Homer.Il Plato.Rep
+ἀνδρός,andros,ἀνήρ,noun masc gen sg,of a man,τοῦ ἀνδρὸς ἡ δόξα,Genitive of ἀνήρ,850,Homer.Il Plato.Rep
+ἄνδρες,andres,ἀνήρ,noun masc nom pl,men,οἱ ἄνδρες μάχονται,Nominative plural of ἀνήρ,850,Homer.Il Plato.Rep
+εἰμί,eimi,εἰμί,verb 1st sg pres ind,I am,εἰμὶ ἀγαθός,Irregular copula verb,1000,Homer.Il Plato.Rep Herodotus
+ἐστί,esti,εἰμί,verb 3rd sg pres ind,he/she/it is,ὁ θεὸς ἐστί,3rd person singular of εἰμί,1000,Homer.Il Plato.Rep
+ἐστίν,estin,εἰμί,verb 3rd sg pres ind,he/she/it is,ἐστὶν ἀγαθόν,With nu-movable,1000,Homer.Il Plato.Rep
+εἰσί,eisi,εἰμί,verb 3rd pl pres ind,they are,οἱ ἄνδρες εἰσὶ σοφοί,3rd person plural of εἰμί,1000,Homer.Il Plato.Rep
+λόγος,logos,λόγος,noun masc nom sg,word/speech/reason,ὁ λόγος διδάσκει,Core philosophical term,920,Herodotus Plato.Rep
+λόγου,logou,λόγος,noun masc gen sg,of a word,τοῦ λόγου ἡ δύναμις,Genitive of λόγος,920,Herodotus Plato.Rep
+λόγῳ,logōi,λόγος,noun masc dat sg,to/for a word,τῷ λόγῳ πείθομαι,Dative of λόγος,920,Herodotus Plato.Rep
+λόγον,logon,λόγος,noun masc acc sg,a word,λόγον λέγω,Accusative of λόγος,920,Herodotus Plato.Rep
+λόγοι,logoi,λόγος,noun masc nom pl,words,οἱ λόγοι σαφεῖς εἰσι,Nominative plural of λόγος,920,Herodotus Plato.Rep
+θεός,theos,θεός,noun masc nom sg,god/deity,θεὸς μέγας ἐστίν,Can be used metaphorically,890,Homer.Il Plato.Rep
+θεοῦ,theou,θεός,noun masc gen sg,of a god,τοῦ θεοῦ ἡ βουλή,Genitive of θεός,890,Homer.Il Plato.Rep
+θεῷ,theōi,θεός,noun masc dat sg,to/for a god,τῷ θεῷ εὔχομαι,Dative of θεός,890,Homer.Il Plato.Rep
+θεόν,theon,θεός,noun masc acc sg,a god,θεὸν σέβομαι,Accusative of θεός,890,Homer.Il Plato.Rep
+θεοί,theoi,θεός,noun masc nom pl,gods,οἱ θεοὶ ἀθάνατοι,Nominative plural of θεός,890,Homer.Il Plato.Rep
+ἀγαθός,agathos,ἀγαθός,adj masc nom sg,good/noble,ἀνὴρ ἀγαθός,Standard 2-1-2 adjective,800,Homer.Il Plato.Rep
+ἀγαθή,agathē,ἀγαθός,adj fem nom sg,good/noble,γυνὴ ἀγαθή,Feminine of ἀγαθός,800,Homer.Il Plato.Rep
+ἀγαθόν,agathon,ἀγαθός,adj neut nom sg,good/noble,ἔργον ἀγαθόν,Neuter of ἀγαθός,800,Homer.Il Plato.Rep
+σοφός,sophos,σοφός,adj masc nom sg,wise/skilled,ἀνὴρ σοφός,Philosophical term,750,Herodotus Plato.Rep
+σοφή,sophē,σοφός,adj fem nom sg,wise/skilled,γυνὴ σοφή,Feminine of σοφός,750,Herodotus Plato.Rep
+σοφόν,sophon,σοφός,adj neut nom sg,wise/skilled,ἔργον σοφόν,Neuter of σοφός,750,Herodotus Plato.Rep
+καλός,kalos,καλός,adj masc nom sg,beautiful/good,ἀνὴρ καλός,Aesthetic and moral term,780,Homer.Il Plato.Rep
+καλή,kalē,καλός,adj fem nom sg,beautiful/good,γυνὴ καλή,Feminine of καλός,780,Homer.Il Plato.Rep
+καλόν,kalon,καλός,adj neut nom sg,beautiful/good,ἔργον καλόν,Neuter of καλός,780,Homer.Il Plato.Rep
+μέγας,megas,μέγας,adj masc nom sg,great/large,ἀνὴρ μέγας,Irregular adjective,820,Homer.Il Herodotus
+μεγάλη,megalē,μέγας,adj fem nom sg,great/large,πόλις μεγάλη,Feminine of μέγας,820,Homer.Il Herodotus
+μέγα,mega,μέγας,adj neut nom sg,great/large,ἔργον μέγα,Neuter of μέγας,820,Homer.Il Herodotus
+πόλις,polis,πόλις,noun fem nom sg,city/city-state,ἡ πόλις καλή,Political term,900,Herodotus Plato.Rep
+πόλεως,poleōs,πόλις,noun fem gen sg,of a city,τῆς πόλεως οἱ νόμοι,Genitive of πόλις,900,Herodotus Plato.Rep
+πόλει,polei,πόλις,noun fem dat sg,to/for a city,τῇ πόλει βοηθέω,Dative of πόλις,900,Herodotus Plato.Rep
+πόλιν,polin,πόλις,noun fem acc sg,a city,πόλιν οἰκοδομέω,Accusative of πόλις,900,Herodotus Plato.Rep
+πόλεις,poleis,πόλις,noun fem nom pl,cities,αἱ πόλεις ἐλεύθεραι,Nominative plural of πόλις,900,Herodotus Plato.Rep
+γυνή,gynē,γυνή,noun fem nom sg,woman/wife,ἡ γυνὴ σοφή,Irregular noun,870,Homer.Il Euripides
+γυναικός,gynaikas,γυνή,noun fem gen sg,of a woman,τῆς γυναικὸς ἡ ἀρετή,Genitive of γυνή,870,Homer.Il Euripides
+γυναικί,gynaiki,γυνή,noun fem dat sg,to/for a woman,τῇ γυναικὶ δῶρον,Dative of γυνή,870,Homer.Il Euripides
+γυναῖκα,gynaika,γυνή,noun fem acc sg,a woman,γυναῖκα ὁρῶ,Accusative of γυνή,870,Homer.Il Euripides
+γυναῖκες,gynaikes,γυνή,noun fem nom pl,women,αἱ γυναῖκες σπουδαῖαι,Nominative plural of γυνή,870,Homer.Il Euripides
+λέγω,legō,λέγω,verb 1st sg pres ind act,I say/speak,λέγω τὴν ἀλήθειαν,High frequency verb,950,Homer.Il Plato.Rep
+λέγεις,legeis,λέγω,verb 2nd sg pres ind act,you say,λέγεις καλῶς,2nd person singular of λέγω,950,Homer.Il Plato.Rep
+λέγει,legei,λέγω,verb 3rd sg pres ind act,he/she says,λέγει τὴν ἀλήθειαν,3rd person singular of λέγω,950,Homer.Il Plato.Rep
+λέγομεν,legomen,λέγω,verb 1st pl pres ind act,we say,λέγομεν ταῦτα,1st person plural of λέγω,950,Homer.Il Plato.Rep
+λέγετε,legete,λέγω,verb 2nd pl pres ind act,you (pl) say,λέγετε τὴν ἀλήθειαν,2nd person plural of λέγω,950,Homer.Il Plato.Rep
+λέγουσι,legousi,λέγω,verb 3rd pl pres ind act,they say,λέγουσι ταῦτα,3rd person plural of λέγω,950,Homer.Il Plato.Rep
+ὁρῶ,horō,ὁράω,verb 1st sg pres ind act,I see,ὁρῶ τὸν ἄνδρα,Contract verb ὁράω,880,Homer.Il Plato.Rep
+ὁρᾷς,horāis,ὁράω,verb 2nd sg pres ind act,you see,ὁρᾷς τὴν γυναῖκα,2nd person singular of ὁράω,880,Homer.Il Plato.Rep
+ὁρᾷ,horāi,ὁράω,verb 3rd sg pres ind act,he/she sees,ὁρᾷ τὸ καλόν,3rd person singular of ὁράω,880,Homer.Il Plato.Rep
+ὁρῶμεν,horōmen,ὁράω,verb 1st pl pres ind act,we see,ὁρῶμεν τὴν πόλιν,1st person plural of ὁράω,880,Homer.Il Plato.Rep
+ὁρᾶτε,horāte,ὁράω,verb 2nd pl pres ind act,you (pl) see,ὁρᾶτε τοὺς θεούς,2nd person plural of ὁράω,880,Homer.Il Plato.Rep
+ὁρῶσι,horōsi,ὁράω,verb 3rd pl pres ind act,they see,ὁρῶσι τὴν ἀλήθειαν,3rd person plural of ὁράω,880,Homer.Il Plato.Rep
+οἶδα,oida,οἶδα,verb 1st sg perf ind act,I know,οἶδα τὴν ἀλήθειαν,Perfect with present meaning,900,Homer.Il Plato.Rep
+οἶδας,oidas,οἶδα,verb 2nd sg perf ind act,you know,οἶδας τοῦτο,2nd person singular of οἶδα,900,Homer.Il Plato.Rep
+οἶδε,oide,οἶδα,verb 3rd sg perf ind act,he/she knows,οἶδε τὴν σοφίαν,3rd person singular of οἶδα,900,Homer.Il Plato.Rep
+ἴσμεν,ismen,οἶδα,verb 1st pl perf ind act,we know,ἴσμεν ταῦτα,1st person plural of οἶδα,900,Homer.Il Plato.Rep
+ἴστε,iste,οἶδα,verb 2nd pl perf ind act,you (pl) know,ἴστε τὴν ἀλήθειαν,2nd person plural of οἶδα,900,Homer.Il Plato.Rep
+ἴσασι,isasi,οἶδα,verb 3rd pl perf ind act,they know,ἴσασι τὴν σοφίαν,3rd person plural of οἶδα,900,Homer.Il Plato.Rep
+ὁ,ho,ὁ,article masc nom sg,the,ὁ ἀνήρ,Definite article,1000,Homer.Il Plato.Rep
+τοῦ,tou,ὁ,article masc gen sg,of the,τοῦ ἀνδρός,Genitive masculine singular,1000,Homer.Il Plato.Rep
+τῷ,tōi,ὁ,article masc dat sg,to/for the,τῷ ἀνδρί,Dative masculine singular,1000,Homer.Il Plato.Rep
+τόν,ton,ὁ,article masc acc sg,the,τὸν ἄνδρα,Accusative masculine singular,1000,Homer.Il Plato.Rep
+οἱ,hoi,ὁ,article masc nom pl,the,οἱ ἄνδρες,Nominative masculine plural,1000,Homer.Il Plato.Rep
+ἡ,hē,ὁ,article fem nom sg,the,ἡ γυνή,Feminine nominative singular,1000,Homer.Il Plato.Rep
+τῆς,tēs,ὁ,article fem gen sg,of the,τῆς γυναικός,Genitive feminine singular,1000,Homer.Il Plato.Rep
+τῇ,tēi,ὁ,article fem dat sg,to/for the,τῇ γυναικί,Dative feminine singular,1000,Homer.Il Plato.Rep
+τήν,tēn,ὁ,article fem acc sg,the,τὴν γυναῖκα,Accusative feminine singular,1000,Homer.Il Plato.Rep
+αἱ,hai,ὁ,article fem nom pl,the,αἱ γυναῖκες,Nominative feminine plural,1000,Homer.Il Plato.Rep
+τό,to,ὁ,article neut nom sg,the,τὸ ἔργον,Neuter nominative singular,1000,Homer.Il Plato.Rep
+τοῦ,tou,ὁ,article neut gen sg,of the,τοῦ ἔργου,Genitive neuter singular,1000,Homer.Il Plato.Rep
+τῷ,tōi,ὁ,article neut dat sg,to/for the,τῷ ἔργῳ,Dative neuter singular,1000,Homer.Il Plato.Rep
+τό,to,ὁ,article neut acc sg,the,τὸ ἔργον,Accusative neuter singular,1000,Homer.Il Plato.Rep
+τά,ta,ὁ,article neut nom pl,the,τὰ ἔργα,Nominative neuter plural,1000,Homer.Il Plato.Rep
+καί,kai,καί,conjunction,and/also,ἀνὴρ καὶ γυνή,Coordinating conjunction,1000,Homer.Il Plato.Rep
+δέ,de,δέ,particle,but/and,ὁ δὲ ἀνήρ,Postpositive particle,950,Homer.Il Plato.Rep
+ἀλλά,alla,ἀλλά,conjunction,but,οὐ τοῦτο ἀλλὰ ἐκεῖνο,Strong adversative,900,Homer.Il Plato.Rep
+οὐ,ou,οὐ,adverb,not,οὐ λέγω,Negation before vowels,1000,Homer.Il Plato.Rep
+οὐκ,ouk,οὐ,adverb,not,οὐκ εἰμί,Before smooth breathing,1000,Homer.Il Plato.Rep
+οὐχ,ouch,οὐ,adverb,not,οὐχ ὁρῶ,Before rough breathing,1000,Homer.Il Plato.Rep
+μή,mē,μή,adverb,not,μὴ λέγε,Subjunctive/imperative negation,950,Homer.Il Plato.Rep
+εἰς,eis,εἰς,preposition,into/to,εἰς τὴν πόλιν,With accusative,900,Homer.Il Herodotus
+ἐν,en,ἐν,preposition,in/within,ἐν τῇ πόλει,With dative,950,Homer.Il Plato.Rep
+ἐκ,ek,ἐκ,preposition,out of/from,ἐκ τῆς πόλεως,With genitive,920,Homer.Il Herodotus
+ἐξ,ex,ἐκ,preposition,out of/from,ἐξ ἀνθρώπων,Before vowels,920,Homer.Il Herodotus
+ἀπό,apo,ἀπό,preposition,from/away from,ἀπὸ τῆς πόλεως,With genitive,890,Homer.Il Herodotus
+πρός,pros,πρός,preposition,toward/to,πρὸς τὴν πόλιν,With accusative,880,Homer.Il Plato.Rep
+παρά,para,παρά,preposition,beside/from,παρὰ τοῦ θεοῦ,Multi-case preposition,860,Homer.Il Herodotus
+διά,dia,διά,preposition,through/because of,διὰ τὴν σοφίαν,With accusative/genitive,870,Homer.Il Plato.Rep
+μετά,meta,μετά,preposition,with/after,μετὰ τῶν ἀνδρῶν,With genitive/accusative,850,Homer.Il Herodotus
+ἐπί,epi,ἐπί,preposition,on/upon/to,ἐπὶ τὴν γῆν,Multi-case preposition,840,Homer.Il Herodotus
+κατά,kata,κατά,preposition,down/according to,κατὰ τὸν νόμον,With accusative/genitive,830,Homer.Il Herodotus
+ὑπό,hypo,ὑπό,preposition,under/by,ὑπὸ τοῦ θεοῦ,With genitive/accusative,820,Homer.Il Herodotus
+ἀρετή,aretē,ἀρετή,noun fem nom sg,virtue/excellence,ἡ ἀρετὴ καλή,Philosophical term,700,Plato.Rep Aristotle
+δικαιοσύνη,dikaiosynē,δικαιοσύνη,noun fem nom sg,justice,ἡ δικαιοσύνη μεγίστη,Cardinal virtue,650,Plato.Rep
+σοφία,sophia,σοφία,noun fem nom sg,wisdom,ἡ σοφία θεία,Philosophical term,680,Plato.Rep Aristotle
+ἀλήθεια,alētheia,ἀλήθεια,noun fem nom sg,truth,ἡ ἀλήθεια φανερά,Core philosophical concept,720,Plato.Rep Aristotle
+ψυχή,psychē,ψυχή,noun fem nom sg,soul/life,ἡ ψυχὴ ἀθάνατος,Philosophical/religious term,690,Plato.Rep Homer.Il
+σῶμα,sōma,σῶμα,noun neut nom sg,body,τὸ σῶμα θνητόν,Philosophical term,660,Plato.Rep Aristotle
+νοῦς,nous,νοῦς,noun masc nom sg,mind/intellect,ὁ νοῦς θεῖος,Philosophical term,620,Plato.Rep Aristotle
+λόγος,logos,λόγος,noun masc nom sg,reason/account,ὁ λόγος ἀληθής,Already included above,920,Herodotus Plato.Rep
+φύσις,physis,φύσις,noun fem nom sg,nature,ἡ φύσις καλή,Philosophical term,640,Plato.Rep Aristotle
+κόσμος,kosmos,κόσμος,noun masc nom sg,world/order,ὁ κόσμος καλός,Cosmological term,610,Plato.Rep
+χρόνος,chronos,χρόνος,noun masc nom sg,time,ὁ χρόνος πάντα φέρει,Temporal concept,630,Homer.Il Plato.Rep
+τόπος,topos,τόπος,noun masc nom sg,place,ὁ τόπος καλός,Spatial concept,650,Herodotus Plato.Rep
+ἔργον,ergon,ἔργον,noun neut nom sg,work/deed,τὸ ἔργον καλόν,Common concept,720,Homer.Il Plato.Rep
+βίος,bios,βίος,noun masc nom sg,life,ὁ βίος βραχύς,Philosophical term,580,Plato.Rep Aristotle
+θάνατος,thanatos,θάνατος,noun masc nom sg,death,ὁ θάνατος πᾶσι,Universal concept,600,Homer.Il Euripides
+ἀθάνατος,athanatos,ἀθάνατος,adj masc nom sg,immortal,θεὸς ἀθάνατος,Religious/philosophical term,550,Homer.Il Plato.Rep
+θνητός,thnētos,θνητός,adj masc nom sg,mortal,ἄνθρωπος θνητός,Opposite of ἀθάνατος,570,Homer.Il Plato.Rep
+δίκαιος,dikaios,δίκαιος,adj masc nom sg,just/righteous,ἀνὴρ δίκαιος,Moral term,690,Plato.Rep Aristotle
+ἄδικος,adikos,ἄδικος,adj masc nom sg,unjust,ἄνθρωπος ἄδικος,Opposite of δίκαιος,590,Plato.Rep
+φίλος,philos,φίλος,adj/noun masc nom sg,friend/dear,φίλος ἀγαθός,Can be adjective or noun,710,Homer.Il Plato.Rep
+ἐχθρός,echthros,ἐχθρός,adj/noun masc nom sg,enemy/hostile,ἐχθρὸς κακός,Opposite of φίλος,660,Homer.Il Herodotus
+νόμος,nomos,νόμος,noun masc nom sg,law/custom,ὁ νόμος δίκαιος,Political/legal term,680,Herodotus Plato.Rep
+βασιλεύς,basileus,βασιλεύς,noun masc nom sg,king,ὁ βασιλεὺς μέγας,Political term,750,Homer.Il Herodotus
+δῆμος,dēmos,δῆμος,noun masc nom sg,people/populace,ὁ δῆμος ἐλεύθερος,Political term,620,Herodotus Plato.Rep
+πόλεμος,polemos,πόλεμος,noun masc nom sg,war,ὁ πόλεμος χαλεπός,Military term,740,Homer.Il Herodotus
+εἰρήνη,eirēnē,εἰρήνη,noun fem nom sg,peace,ἡ εἰρήνη καλή,Opposite of πόλεμος,580,Herodotus Plato.Rep
+μάχη,machē,μάχη,noun fem nom sg,battle,ἡ μάχη χαλεπή,Military term,700,Homer.Il Herodotus
+νίκη,nikē,νίκη,noun fem nom sg,victory,ἡ νίκη καλή,Military/athletic term,650,Homer.Il Herodotus
+ἧττα,hētta,ἧττα,noun fem nom sg,defeat,ἡ ἧττα αἰσχρά,Opposite of νίκη,520,Herodotus
+στρατός,stratos,στρατός,noun masc nom sg,army,ὁ στρατὸς μέγας,Military term,690,Homer.Il Herodotus
+στρατιώτης,stratiōtēs,στρατιώτης,noun masc nom sg,soldier,ὁ στρατιώτης ἀνδρεῖος,Military term,610,Herodotus
+ἀνδρεῖος,andreios,ἀνδρεῖος,adj masc nom sg,brave/manly,ἀνὴρ ἀνδρεῖος,Virtue term,590,Homer.Il Plato.Rep
+δειλός,deilos,δειλός,adj masc nom sg,cowardly,ἄνθρωπος δειλός,Vice term,480,Homer.Il
+ἰσχυρός,ischyros,ἰσχυρός,adj masc nom sg,strong,ἀνὴρ ἰσχυρός,Physical quality,550,Homer.Il
+ἀσθενής,asthenēs,ἀσθενής,adj masc nom sg,weak,ἄνθρωπος ἀσθενής,Opposite of ἰσχυρός,480,Medical texts
+ταχύς,tachys,ταχύς,adj masc nom sg,fast/swift,ἵππος ταχύς,Speed quality,570,Homer.Il
+βραδύς,bradys,βραδύς,adj masc nom sg,slow,βοῦς βραδύς,Opposite of ταχύς,420,Comedy
+μικρός,mikros,μικρός,adj masc nom sg,small/little,παῖς μικρός,Size quality,640,Various
+μέγας,megas,μέγας,adj masc nom sg,great/large,μέγας βασιλεύς,Irregular adjective; μεγάλου,920,Homer.Il Herodotus
+μεγάλη,megalē,μέγας,adj fem nom sg,great/large,μεγάλη πόλις,Feminine of μέγας,920,Homer.Il Herodotus
+μέγα,mega,μέγας,adj neut nom sg,great/large,μέγα ἔργον,Neuter of μέγας,920,Homer.Il Herodotus
+πολύς,polys,πολύς,adj masc nom sg,much/many,πολὺς χρόνος,Irregular adjective; πολλοῦ,880,Homer.Il Thucydides
+πολλή,pollē,πολύς,adj fem nom sg,much/many,πολλὴ ἀρετή,Feminine of πολύς,880,Homer.Il Thucydides
+πολύ,poly,πολύς,adj neut nom sg,much/many,πολὺ χρυσίον,Neuter of πολύς,880,Homer.Il Thucydides
+κακός,kakos,κακός,adj masc nom sg,bad/evil,κακὸς ἄνθρωπος,Moral quality,850,Homer.Il Plato.Rep
+κακή,kakē,κακός,adj fem nom sg,bad/evil,κακὴ γυνή,Feminine of κακός,850,Homer.Il Plato.Rep
+κακόν,kakon,κακός,adj neut nom sg,bad/evil,κακὸν ἔργον,Neuter of κακός,850,Homer.Il Plato.Rep
+καλός,kalos,καλός,adj masc nom sg,beautiful/noble,καλὸς κἀγαθός,Physical and moral beauty,920,Homer.Il Plato.Rep
+καλή,kalē,καλός,adj fem nom sg,beautiful/noble,καλὴ γυνή,Feminine of καλός,920,Homer.Il Plato.Rep
+καλόν,kalon,καλός,adj neut nom sg,beautiful/noble,καλὸν ἔργον,Neuter of καλός,920,Homer.Il Plato.Rep
+δίκαιος,dikaios,δίκαιος,adj masc nom sg,just/righteous,δίκαιος ἀνήρ,Key virtue term,800,Plato.Rep Aristotle.NE
+δικαία,dikaia,δίκαιος,adj fem nom sg,just/righteous,δικαία πόλις,Feminine of δίκαιος,800,Plato.Rep Aristotle.NE
+δίκαιον,dikaion,δίκαιος,adj neut nom sg,just/righteous,δίκαιον ἔργον,Neuter of δίκαιος,800,Plato.Rep Aristotle.NE
+ἄδικος,adikos,ἄδικος,adj masc nom sg,unjust/wicked,ἄδικος τύραννος,Opposite of δίκαιος,650,Plato.Rep
+ἄδικον,adikon,ἄδικος,adj neut nom sg,unjust/wicked,ἄδικον πρᾶγμα,Neuter of ἄδικος,650,Plato.Rep
+σώφρων,sōphrōn,σώφρων,adj masc nom sg,temperate/wise,σώφρων ἀνήρ,Cardinal virtue,720,Plato.Rep
+σῶφρον,sōphron,σώφρων,adj neut nom sg,temperate/wise,σῶφρον βούλευμα,Neuter of σώφρων,720,Plato.Rep
+ἀνδρεῖος,andreios,ἀνδρεῖος,adj masc nom sg,brave/manly,ἀνδρεῖος στρατιώτης,Courage virtue,750,Plato.Rep Xenophon
+ἀνδρεία,andreia,ἀνδρεῖος,adj fem nom sg,brave/manly,ἀνδρεία ψυχή,Feminine of ἀνδρεῖος,750,Plato.Rep Xenophon
+ἀνδρεῖον,andreion,ἀνδρεῖος,adj neut nom sg,brave/manly,ἀνδρεῖον ἔργον,Neuter of ἀνδρεῖος,750,Plato.Rep Xenophon
+φιλόσοφος,philosophos,φιλόσοφος,adj masc nom sg,philosophy-loving,φιλόσοφος ἀνήρ,Compound adj; lover of wisdom,680,Plato.Rep
+φιλοσοφία,philosophia,φιλοσοφία,noun fem nom sg,philosophy,ἡ φιλοσοφία τῶν Ἑλλήνων,Love of wisdom,700,Plato.Rep Aristotle
+ψυχή,psychē,ψυχή,noun fem nom sg,soul/life,ἡ ψυχὴ ἀθάνατος,Central concept in philosophy,880,Homer.Il Plato.Phd
+ψυχῆς,psychēs,ψυχή,noun fem gen sg,of soul/life,τῆς ψυχῆς ἡ ἀρετή,Genitive of ψυχή,880,Homer.Il Plato.Phd
+ψυχῇ,psychēi,ψυχή,noun fem dat sg,to/for soul,τῇ ψυχῇ χρῶμαι,Dative of ψυχή,880,Homer.Il Plato.Phd
+ψυχήν,psychēn,ψυχή,noun fem acc sg,soul/life,ψυχὴν σῴζω,Accusative of ψυχή,880,Homer.Il Plato.Phd
+ψυχαί,psychai,ψυχή,noun fem nom pl,souls/lives,αἱ ψυχαὶ ἀθάνατοι,Nominative plural of ψυχή,880,Homer.Il Plato.Phd
+σῶμα,sōma,σῶμα,noun neut nom sg,body,τὸ σῶμα θνητόν,Physical body,820,Homer.Il Plato.Phd
+σώματος,sōmatos,σῶμα,noun neut gen sg,of body,τοῦ σώματος ἡ ὑγίεια,Genitive of σῶμα,820,Homer.Il Plato.Phd
+σώματι,sōmati,σῶμα,noun neut dat sg,to/for body,τῷ σώματι χρῶμαι,Dative of σῶμα,820,Homer.Il Plato.Phd
+σώματα,sōmata,σῶμα,noun neut nom pl,bodies,τὰ σώματα θνητά,Nominative plural of σῶμα,820,Homer.Il Plato.Phd
+νοῦς,nous,νοῦς,noun masc nom sg,mind/intellect,ὁ νοῦς διακρίνει,Philosophical term,780,Anaxagoras Aristotle.DA
+νοῦ,nou,νοῦς,noun masc gen sg,of mind,τοῦ νοῦ ἡ ἐνέργεια,Genitive of νοῦς,780,Anaxagoras Aristotle.DA
+νῷ,nōi,νοῦς,noun masc dat sg,to/for mind,τῷ νῷ καταλαμβάνω,Dative of νοῦς,780,Anaxagoras Aristotle.DA
+νοῦν,noun,νοῦς,noun masc acc sg,mind/intellect,νοῦν ἔχω,Accusative of νοῦς,780,Anaxagoras Aristotle.DA
+ἐπιστήμη,epistēmē,ἐπιστήμη,noun fem nom sg,knowledge/science,ἡ ἐπιστήμη βεβαία,Certain knowledge,750,Plato.Men Aristotle.AN
+τέχνη,technē,τέχνη,noun fem nom sg,art/craft/skill,ἡ τέχνη μιμεῖται,Productive knowledge,790,Plato.Rep Aristotle.NE
+τέχνης,technēs,τέχνη,noun fem gen sg,of art/craft,τῆς τέχνης ὁ δημιουργός,Genitive of τέχνη,790,Plato.Rep Aristotle.NE
+βασιλεύς,basileus,βασιλεύς,noun masc nom sg,king,ὁ βασιλεὺς δίκαιος,Third declension,870,Homer.Il Herodotus
+βασιλέως,basileōs,βασιλεύς,noun masc gen sg,of king,τοῦ βασιλέως ἡ ἀρχή,Genitive of βασιλεύς,870,Homer.Il Herodotus
+βασιλεῖ,basilei,βασιλεύς,noun masc dat sg,to/for king,τῷ βασιλεῖ πείθομαι,Dative of βασιλεύς,870,Homer.Il Herodotus
+βασιλέα,basilea,βασιλεύς,noun masc acc sg,king,βασιλέα τιμῶ,Accusative of βασιλεύς,870,Homer.Il Herodotus
+βασιλεῖς,basileis,βασιλεύς,noun masc nom pl,kings,οἱ βασιλεῖς ἄρχουσι,Nominative plural of βασιλεύς,870,Homer.Il Herodotus
+πόλις,polis,πόλις,noun fem nom sg,city-state,ἡ πόλις δημοκρατική,Core political concept,950,Thucydides Plato.Rep
+πόλεως,poleōs,πόλις,noun fem gen sg,of city-state,τῆς πόλεως οἱ πολῖται,Genitive of πόλις,950,Thucydides Plato.Rep
+πόλει,polei,πόλις,noun fem dat sg,to/for city,τῇ πόλει δουλεύω,Dative of πόλις,950,Thucydides Plato.Rep
+πόλιν,polin,πόλις,noun fem acc sg,city-state,πόλιν οἰκίζω,Accusative of πόλις,950,Thucydides Plato.Rep
+πόλεις,poleis,πόλις,noun fem nom pl,city-states,αἱ πόλεις Ἑλληνικαί,Nominative plural of πόλις,950,Thucydides Plato.Rep
+πολίτης,politēs,πολίτης,noun masc nom sg,citizen,ὁ πολίτης δημοκρατικός,Member of πόλις,820,Aristotle.Pol
+πολίτου,politou,πολίτης,noun masc gen sg,of citizen,τοῦ πολίτου τὰ δικαιώματα,Genitive of πολίτης,820,Aristotle.Pol
+πολίτῃ,politēi,πολίτης,noun masc dat sg,to/for citizen,τῷ πολίτῃ μετέστι,Dative of πολίτης,820,Aristotle.Pol
+πολίτην,politēn,πολίτης,noun masc acc sg,citizen,πολίτην ποιῶ,Accusative of πολίτης,820,Aristotle.Pol
+πολῖται,politai,πολίτης,noun masc nom pl,citizens,οἱ πολῖται ψηφίζονται,Nominative plural of πολίτης,820,Aristotle.Pol
+δημοκρατία,dēmokratia,δημοκρατία,noun fem nom sg,democracy,ἡ δημοκρατία Ἀθηναίων,Rule by people,680,Thucydides Aristotle.Pol
+δῆμος,dēmos,δῆμος,noun masc nom sg,people/populace,ὁ δῆμος κυριεύει,Common people,780,Thucydides Aristotle.Pol
+δήμου,dēmou,δῆμος,noun masc gen sg,of people,τοῦ δήμου ἡ βουλή,Genitive of δῆμος,780,Thucydides Aristotle.Pol
+ἀριστοκρατία,aristokratia,ἀριστοκρατία,noun fem nom sg,aristocracy,ἡ ἀριστοκρατία Σπαρτιατῶν,Rule by best,580,Aristotle.Pol
+τυραννίς,tyrannis,τυραννίς,noun fem nom sg,tyranny,ἡ τυραννὶς μισεῖται,One-man rule,620,Herodotus Aristotle.Pol
+τύραννος,tyrannos,τύραννος,noun masc nom sg,tyrant,ὁ τύραννος ἄρχει,Autocratic ruler,640,Herodotus Aristotle.Pol
+στρατηγός,stratēgos,στρατηγός,noun masc nom sg,general,ὁ στρατηγὸς ἡγεῖται,Military commander,780,Thucydides Xenophon
+στρατηγοῦ,stratēgou,στρατηγός,noun masc gen sg,of general,τοῦ στρατηγοῦ ἡ τάξις,Genitive of στρατηγός,780,Thucydides Xenophon
+στρατιώτης,stratiōtēs,στρατιώτης,noun masc nom sg,soldier,ὁ στρατιώτης μάχεται,Common soldier,760,Thucydides Xenophon
+στρατιώτου,stratiōtou,στρατιώτης,noun masc gen sg,of soldier,τοῦ στρατιώτου τὰ ὅπλα,Genitive of στρατιώτης,760,Thucydides Xenophon
+στρατός,stratos,στρατός,noun masc nom sg,army,ὁ στρατὸς πολέμιος,Military force,820,Homer.Il Thucydides
+στρατοῦ,stratou,στρατός,noun masc gen sg,of army,τοῦ στρατοῦ ὁ ἡγεμών,Genitive of στρατός,820,Homer.Il Thucydides
+πόλεμος,polemos,πόλεμος,noun masc nom sg,war,ὁ πόλεμος δεινός,State of warfare,890,Homer.Il Thucydides
+πολέμου,polemou,πόλεμος,noun masc gen sg,of war,τοῦ πολέμου αἱ συμφοραί,Genitive of πόλεμος,890,Homer.Il Thucydides
+εἰρήνη,eirēnē,εἰρήνη,noun fem nom sg,peace,ἡ εἰρήνη ἀγαθή,Absence of war,750,Thucydides Aristotle.Pol
+εἰρήνης,eirēnēs,εἰρήνη,noun fem gen sg,of peace,τῆς εἰρήνης οἱ καρποί,Genitive of εἰρήνη,750,Thucydides Aristotle.Pol
+μάχη,machē,μάχη,noun fem nom sg,battle,ἡ μάχη χαλεπή,Single combat/fight,860,Homer.Il Thucydides
+μάχης,machēs,μάχη,noun fem gen sg,of battle,τῆς μάχης τὸ τέλος,Genitive of μάχη,860,Homer.Il Thucydides
+νίκη,nikē,νίκη,noun fem nom sg,victory,ἡ νίκη καλή,Success in battle,780,Homer.Il Thucydides
+νίκης,nikēs,νίκη,noun fem gen sg,of victory,τῆς νίκης τὰ ἆθλα,Genitive of νίκη,780,Homer.Il Thucydides
+ἧττα,hētta,ἧττα,noun fem nom sg,defeat,ἡ ἧττα αἰσχρά,Loss in battle,520,Thucydides
+χρόνος,chronos,χρόνος,noun masc nom sg,time,ὁ χρόνος πάντα,Duration/period,920,Herodotus Plato
+χρόνου,chronou,χρόνος,noun masc gen sg,of time,τοῦ χρόνου ἡ φύσις,Genitive of χρόνος,920,Herodotus Plato
+τόπος,topos,τόπος,noun masc nom sg,place,ὁ τόπος καλός,Location/region,840,Herodotus Thucydides
+τόπου,topou,τόπος,noun masc gen sg,of place,τοῦ τόπου ἡ φύσις,Genitive of τόπος,840,Herodotus Thucydides
+οὐρανός,ouranos,οὐρανός,noun masc nom sg,heaven/sky,ὁ οὐρανὸς στερεός,Celestial sphere,770,Homer.Il Plato.Tim
+οὐρανοῦ,ouranou,οὐρανός,noun masc gen sg,of heaven,τοῦ οὐρανοῦ τὰ ἄστρα,Genitive of οὐρανός,770,Homer.Il Plato.Tim
+γῆ,gē,γῆ,noun fem nom sg,earth/land,ἡ γῆ στερεά,Ground/territory,950,Homer.Il Herodotus
+γῆς,gēs,γῆ,noun fem gen sg,of earth,τῆς γῆς οἱ καρποί,Genitive of γῆ,950,Homer.Il Herodotus
+θάλασσα,thalassa,θάλασσα,noun fem nom sg,sea,ἡ θάλασσα μεγάλη,Body of salt water,850,Homer.Il Herodotus
+θαλάσσης,thalassēs,θάλασσα,noun fem gen sg,of sea,τῆς θαλάσσης τὰ κύματα,Genitive of θάλασσα,850,Homer.Il Herodotus
+ποταμός,potamos,ποταμός,noun masc nom sg,river,ὁ ποταμὸς μέγας,Flowing water,760,Homer.Il Herodotus
+ποταμοῦ,potamou,ποταμός,noun masc gen sg,of river,τοῦ ποταμοῦ τὸ ῥεῦμα,Genitive of ποταμός,760,Homer.Il Herodotus
+ὄρος,oros,ὄρος,noun neut nom sg,mountain,τὸ ὄρος ὑψηλόν,High elevation,780,Homer.Il Herodotus
+ὄρους,orous,ὄρος,noun neut gen sg,of mountain,τοῦ ὄρους ἡ κορυφή,Genitive of ὄρος,780,Homer.Il Herodotus
+ἥλιος,hēlios,ἥλιος,noun masc nom sg,sun,ὁ ἥλιος λάμπει,Solar deity/celestial body,860,Homer.Il Herodotus
+ἡλίου,hēliou,ἥλιος,noun masc gen sg,of sun,τοῦ ἡλίου τὸ φῶς,Genitive of ἥλιος,860,Homer.Il Herodotus
+σελήνη,selēnē,σελήνη,noun fem nom sg,moon,ἡ σελήνη φαίνει,Lunar deity/celestial body,680,Homer.Il Aristotle
+σελήνης,selēnēs,σελήνη,noun fem gen sg,of moon,τῆς σελήνης τὸ φῶς,Genitive of σελήνη,680,Homer.Il Aristotle
+ἀστήρ,astēr,ἀστήρ,noun masc nom sg,star,ὁ ἀστὴρ λάμπει,Celestial body,650,Homer.Il Aristotle
+ἀστέρος,asteros,ἀστήρ,noun masc gen sg,of star,τοῦ ἀστέρος ἡ κίνησις,Genitive of ἀστήρ,650,Homer.Il Aristotle
+ἄστρον,astron,ἄστρον,noun neut nom sg,star/constellation,τὸ ἄστρον φαίνει,Stellar object,620,Homer.Il Plato.Tim
+ἄστρου,astrou,ἄστρον,noun neut gen sg,of star,τοῦ ἄστρου ἡ θέσις,Genitive of ἄστρον,620,Homer.Il Plato.Tim
+λέγω,legō,λέγω,verb 1st sg pres ind act,I say/speak,λέγω τὴν ἀλήθειαν,Common speech verb,950,Homer.Il Plato
+λέγεις,legeis,λέγω,verb 2nd sg pres ind act,you say,τί λέγεις;,2nd person of λέγω,950,Homer.Il Plato
+λέγει,legei,λέγω,verb 3rd sg pres ind act,he/she says,λέγει καλῶς,3rd person of λέγω,950,Homer.Il Plato
+λέγομεν,legomen,λέγω,verb 1st pl pres ind act,we say,λέγομεν τοῦτο,1st plural of λέγω,950,Homer.Il Plato
+λέγετε,legete,λέγω,verb 2nd pl pres ind act,you (pl) say,τί λέγετε;,2nd plural of λέγω,950,Homer.Il Plato
+λέγουσι,legousi,λέγω,verb 3rd pl pres ind act,they say,λέγουσι πάντες,3rd plural of λέγω,950,Homer.Il Plato
+λέγουσιν,legousin,λέγω,verb 3rd pl pres ind act,they say,λέγουσιν ἅπαντες,With nu-movable,950,Homer.Il Plato
+ἔλεγον,elegon,λέγω,verb 1st sg impf ind act,I was saying,ἔλεγον ταῦτα,Imperfect of λέγω,950,Homer.Il Plato
+εἶπον,eipon,εἶπον,verb 1st sg aor ind act,I said,εἶπον τὴν ἀλήθειαν,Aorist; different stem,920,Homer.Il Plato
+εἰπεῖν,eipein,εἶπον,verb aor inf act,to say,εἰπεῖν τὴν ἀλήθειαν,Aorist infinitive,920,Homer.Il Plato
+εἰπών,eipōn,εἶπον,part masc nom sg aor act,having said,εἰπὼν ταῦτα,Aorist participle,920,Homer.Il Plato
+γράφω,graphō,γράφω,verb 1st sg pres ind act,I write,γράφω βιβλίον,Writing verb,780,Herodotus Plato
+γράφεις,grapheis,γράφω,verb 2nd sg pres ind act,you write,γράφεις καλῶς,2nd person of γράφω,780,Herodotus Plato
+γράφει,graphei,γράφω,verb 3rd sg pres ind act,he/she writes,γράφει ἐπιστολήν,3rd person of γράφω,780,Herodotus Plato
+γίγνομαι,gignomai,γίγνομαι,verb 1st sg pres ind mid,I become,γίγνομαι σοφός,Common middle verb,920,Homer.Il Plato
+γίγνῃ,gignēi,γίγνομαι,verb 2nd sg pres ind mid,you become,γίγνῃ καλός,2nd person of γίγνομαι,920,Homer.Il Plato
+γίγνεται,gignetai,γίγνομαι,verb 3rd sg pres ind mid,he/she becomes,γίγνεται μέγας,3rd person of γίγνομαι,920,Homer.Il Plato
+ἐγενόμην,egenomēn,γίγνομαι,verb 1st sg aor ind mid,I became,ἐγενόμην ἀνήρ,Aorist middle,920,Homer.Il Plato
+γενέσθαι,genesthai,γίγνομαι,verb aor inf mid,to become,γενέσθαι σοφός,Aorist infinitive,920,Homer.Il Plato
+γενόμενος,genomenos,γίγνομαι,part masc nom sg aor mid,having become,γενόμενος βασιλεύς,Aorist participle,920,Homer.Il Plato
+ἔχω,echō,ἔχω,verb 1st sg pres ind act,I have/hold,ἔχω βιβλίον,Possession verb,960,Homer.Il Plato
+ἔχεις,echeis,ἔχω,verb 2nd sg pres ind act,you have,ἔχεις σοφίαν,2nd person of ἔχω,960,Homer.Il Plato
+ἔχει,echei,ἔχω,verb 3rd sg pres ind act,he/she has,ἔχει ἀρετήν,3rd person of ἔχω,960,Homer.Il Plato
+ἔχομεν,echomen,ἔχω,verb 1st pl pres ind act,we have,ἔχομεν οἰκίαν,1st plural of ἔχω,960,Homer.Il Plato
+ἔχετε,echete,ἔχω,verb 2nd pl pres ind act,you (pl) have,ἔχετε χρήματα,2nd plural of ἔχω,960,Homer.Il Plato
+ἔχουσι,echousi,ἔχω,verb 3rd pl pres ind act,they have,ἔχουσι δύναμιν,3rd plural of ἔχω,960,Homer.Il Plato
+εἶχον,eichon,ἔχω,verb 1st sg impf ind act,I had,εἶχον οἰκίαν,Imperfect of ἔχω,960,Homer.Il Plato
+ἔσχον,eschon,ἔχω,verb 1st sg aor ind act,I got/took,ἔσχον βιβλίον,Aorist of ἔχω,960,Homer.Il Plato
+σχεῖν,schein,ἔχω,verb aor inf act,to get/have,σχεῖν ἀρετήν,Aorist infinitive,960,Homer.Il Plato
+δίδωμι,didōmi,δίδωμι,verb 1st sg pres ind act,I give,δίδωμι δῶρον,Athematic verb,890,Homer.Il Plato
+δίδως,didōs,δίδωμι,verb 2nd sg pres ind act,you give,δίδως καλῶς,2nd person of δίδωμι,890,Homer.Il Plato
+δίδωσι,didōsi,δίδωμι,verb 3rd sg pres ind act,he/she gives,δίδωσι χάριν,3rd person of δίδωμι,890,Homer.Il Plato
+δίδωσιν,didōsin,δίδωμι,verb 3rd sg pres ind act,he/she gives,δίδωσιν ἅπασι,With nu-movable,890,Homer.Il Plato
+διδόασι,didoasi,δίδωμι,verb 3rd pl pres ind act,they give,διδόασι πάντες,3rd plural present,890,Homer.Il Plato
+ἐδίδων,edidōn,δίδωμι,verb 1st sg impf ind act,I was giving,ἐδίδων χρήματα,Imperfect of δίδωμι,890,Homer.Il Plato
+ἔδωκα,edōka,δίδωμι,verb 1st sg aor ind act,I gave,ἔδωκα δῶρον,Aorist of δίδωμι,890,Homer.Il Plato
+δοῦναι,dounai,δίδωμι,verb aor inf act,to give,δοῦναι δῶρον,Aorist infinitive,890,Homer.Il Plato
+δούς,dous,δίδωμι,part masc nom sg aor act,having given,δοὺς χρήματα,Aorist participle,890,Homer.Il Plato
+λαμβάνω,lambanō,λαμβάνω,verb 1st sg pres ind act,I take/receive,λαμβάνω δῶρον,Common taking verb,880,Homer.Il Plato
+λαμβάνεις,lambaneis,λαμβάνω,verb 2nd sg pres ind act,you take,λαμβάνεις καλῶς,2nd person of λαμβάνω,880,Homer.Il Plato
+λαμβάνει,lambanei,λαμβάνω,verb 3rd sg pres ind act,he/she takes,λαμβάνει χρήματα,3rd person of λαμβάνω,880,Homer.Il Plato
+ἐλάμβανον,elambanon,λαμβάνω,verb 1st sg impf ind act,I was taking,ἐλάμβανον δῶρα,Imperfect of λαμβάνω,880,Homer.Il Plato
+ἔλαβον,elabon,λαμβάνω,verb 1st sg aor ind act,I took,ἔλαβον βιβλίον,Aorist of λαμβάνω,880,Homer.Il Plato
+λαβεῖν,labein,λαμβάνω,verb aor inf act,to take,λαβεῖν δῶρον,Aorist infinitive,880,Homer.Il Plato
+λαβών,labōn,λαμβάνω,part masc nom sg aor act,having taken,λαβὼν χρήματα,Aorist participle,880,Homer.Il Plato
+ποιῶ,poiō,ποιέω,verb 1st sg pres ind act,I make/do,ποιῶ ἔργον,Contract verb,900,Homer.Il Plato
+ποιεῖς,poieis,ποιέω,verb 2nd sg pres ind act,you make,ποιεῖς καλῶς,2nd person of ποιέω,900,Homer.Il Plato
+ποιεῖ,poiei,ποιέω,verb 3rd sg pres ind act,he/she makes,ποιεῖ τέχνην,3rd person of ποιέω,900,Homer.Il Plato
+ποιοῦμεν,pouimen,ποιέω,verb 1st pl pres ind act,we make,ποιοῦμεν ἔργα,1st plural of ποιέω,900,Homer.Il Plato
+ποιεῖτε,poieite,ποιέω,verb 2nd pl pres ind act,you (pl) make,ποιεῖτε καλά,2nd plural of ποιέω,900,Homer.Il Plato
+ποιοῦσι,poiousi,ποιέω,verb 3rd pl pres ind act,they make,ποιοῦσι ἔργα,3rd plural of ποιέω,900,Homer.Il Plato
+ἐποίουν,epoioun,ποιέω,verb 1st sg impf ind act,I was making,ἐποίουν καλά,Imperfect of ποιέω,900,Homer.Il Plato
+ἐποίησα,epoiēsa,ποιέω,verb 1st sg aor ind act,I made,ἐποίησα βιβλίον,Aorist of ποιέω,900,Homer.Il Plato
+ποιῆσαι,poiēsai,ποιέω,verb aor inf act,to make,ποιῆσαι ἔργον,Aorist infinitive,900,Homer.Il Plato
+ποιήσας,poiēsas,ποιέω,part masc nom sg aor act,having made,ποιήσας καλά,Aorist participle,900,Homer.Il Plato
+εἶδον,eidon,ὁράω,verb 1st sg aor ind act,I saw,εἶδον ἄνδρα,Aorist of ὁράω,890,Homer.Il Plato
+ἰδεῖν,idein,ὁράω,verb aor inf act,to see,ἰδεῖν θεόν,Aorist infinitive,890,Homer.Il Plato
+ἰδών,idōn,ὁράω,part masc nom sg aor act,having seen,ἰδὼν τοῦτο,Aorist participle,890,Homer.Il Plato
+ὁρῶ,horō,ὁράω,verb 1st sg pres ind act,I see,ὁρῶ ἄνδρα,Contract present,890,Homer.Il Plato
+ὁρᾷς,horas,ὁράω,verb 2nd sg pres ind act,you see,ὁρᾷς καλῶς,2nd person of ὁράω,890,Homer.Il Plato
+ὁρᾷ,hora,ὁράω,verb 3rd sg pres ind act,he/she sees,ὁρᾷ θεόν,3rd person of ὁράω,890,Homer.Il Plato
+ἀκούω,akouō,ἀκούω,verb 1st sg pres ind act,I hear,ἀκούω λόγον,Hearing verb,870,Homer.Il Plato
+ἀκούεις,akoueis,ἀκούω,verb 2nd sg pres ind act,you hear,ἀκούεις καλῶς,2nd person of ἀκούω,870,Homer.Il Plato
+ἀκούει,akouei,ἀκούω,verb 3rd sg pres ind act,he/she hears,ἀκούει μουσικήν,3rd person of ἀκούω,870,Homer.Il Plato
+ἤκουον,ēkouon,ἀκούω,verb 1st sg impf ind act,I was hearing,ἤκουον λόγων,Imperfect of ἀκούω,870,Homer.Il Plato
+ἤκουσα,ēkousa,ἀκούω,verb 1st sg aor ind act,I heard,ἤκουσα φωνήν,Aorist of ἀκούω,870,Homer.Il Plato
+ἀκοῦσαι,akousai,ἀκούω,verb aor inf act,to hear,ἀκοῦσαι λόγον,Aorist infinitive,870,Homer.Il Plato
+ἀκούσας,akousas,ἀκούω,part masc nom sg aor act,having heard,ἀκούσας ταῦτα,Aorist participle,870,Homer.Il Plato
+γινώσκω,ginōskō,γινώσκω,verb 1st sg pres ind act,I know/learn,γινώσκω σοφίαν,Knowledge verb,850,Homer.Il Plato
+γινώσκεις,ginōskeis,γινώσκω,verb 2nd sg pres ind act,you know,γινώσκεις ἀλήθειαν,2nd person of γινώσκω,850,Homer.Il Plato
+γινώσκει,ginōskei,γινώσκω,verb 3rd sg pres ind act,he/she knows,γινώσκει καλά,3rd person of γινώσκω,850,Homer.Il Plato
+ἐγίγνωσκον,egignōskon,γινώσκω,verb 1st sg impf ind act,I was knowing,ἐγίγνωσκον τοῦτο,Imperfect of γινώσκω,850,Homer.Il Plato
+ἔγνων,egnōn,γινώσκω,verb 1st sg aor ind act,I learned/knew,ἔγνων ἀλήθειαν,Aorist of γινώσκω,850,Homer.Il Plato
+γνῶναι,gnōnai,γινώσκω,verb aor inf act,to know/learn,γνῶναι σοφίαν,Aorist infinitive,850,Homer.Il Plato
+γνούς,gnous,γινώσκω,part masc nom sg aor act,having learned,γνοὺς τοῦτο,Aorist participle,850,Homer.Il Plato
+καί,kai,καί,conj,and,ἀνὴρ καὶ γυνή,Most common conjunction,1000,Homer.Il Plato
+δέ,de,δέ,particle,but/and,ὁ δὲ ἀνήρ,Postpositive particle,980,Homer.Il Plato
+ἀλλά,alla,ἀλλά,conj,but,οὐ τοῦτο ἀλλὰ ἐκεῖνο,Strong adversative,900,Homer.Il Plato
+γάρ,gar,γάρ,particle,for/because,σοφὸς γάρ ἐστι,Explanatory particle,950,Homer.Il Plato
+οὖν,oun,οὖν,particle,therefore/then,τί οὖν ποιῶμεν;,Inferential particle,880,Homer.Il Plato
+μέν,men,μέν,particle,on one hand,ὁ μὲν... ὁ δέ,Correlative with δέ,940,Homer.Il Plato
+τε,te,τε,particle,and,ἄνδρες τε καὶ γυναῖκες,Enclitic conjunction,850,Homer.Il Plato
+ἤ,ē,ἤ,conj,or,τοῦτο ἢ ἐκεῖνο,Disjunctive particle,820,Homer.Il Plato
+εἰ,ei,εἰ,conj,if,εἰ σοφός ἐστι,Conditional particle,920,Homer.Il Plato
+ἐάν,ean,ἐάν,conj,if (+ subj),ἐὰν ἔλθῃ,Conditional with subjunctive,780,Homer.Il Plato
+ὅτι,hoti,ὅτι,conj,that/because,λέγω ὅτι σοφός ἐστι,Causal/declarative,890,Homer.Il Plato
+ὡς,hōs,ὡς,adv/conj,as/how/that,ὡς σοφὸς ἀνήρ,Comparative/manner,940,Homer.Il Plato
+ὅταν,hotan,ὅταν,conj,whenever,ὅταν ἔλθῃ,Temporal with subjunctive,750,Homer.Il Plato
+ὅτε,hote,ὅτε,conj,when,ὅτε ἦλθε,Temporal conjunction,780,Homer.Il Plato
+οὐ,ou,οὐ,adv,not,οὐ σοφός,Primary negation,1000,Homer.Il Plato
+οὐκ,ouk,οὐ,adv,not,οὐκ ἔστι,Before smooth breathing,1000,Homer.Il Plato
+οὐχ,ouch,οὐ,adv,not,οὐχ εὑρίσκω,Before rough breathing,1000,Homer.Il Plato
+μή,mē,μή,adv,not,μὴ ποιεῖν,Subjective negation,950,Homer.Il Plato
+μήτε,mēte,μήτε,conj,neither,μήτε τοῦτο μήτε ἐκεῖνο,Negative conjunction,680,Homer.Il Plato
+οὔτε,oute,οὔτε,conj,neither,οὔτε σοφὸς οὔτε δίκαιος,Objective negative,720,Homer.Il Plato
+μηδέ,mēde,μηδέ,conj,and not,μηδὲ τοῦτο,Subjective negative,650,Homer.Il Plato
+οὐδέ,oude,οὐδέ,conj,and not,οὐδὲ ἐκεῖνο,Objective negative,680,Homer.Il Plato
+ἐν,en,ἐν,prep + dat,in/among,ἐν τῇ πόλει,Locative preposition,980,Homer.Il Plato
+εἰς,eis,εἰς,prep + acc,into/to,εἰς τὴν πόλιν,Directional preposition,960,Homer.Il Plato
+ἐκ,ek,ἐκ,prep + gen,out of/from,ἐκ τῆς πόλεως,Ablative preposition,940,Homer.Il Plato
+ἐξ,ex,ἐκ,prep + gen,out of/from,ἐξ οἴκου,Before vowels,940,Homer.Il Plato
+ἀπό,apo,ἀπό,prep + gen,from/away,ἀπὸ τῆς γῆς,Ablative preposition,880,Homer.Il Plato
+πρός,pros,πρός,prep + acc,to/toward,πρὸς τὸν θεόν,Directional preposition,860,Homer.Il Plato
+παρά,para,παρά,prep + gen/dat/acc,from/beside/to,παρὰ θεῶν,Variable case government,840,Homer.Il Plato
+μετά,meta,μετά,prep + gen/acc,with/after,μετὰ φίλων,Comitative/temporal,820,Homer.Il Plato
+κατά,kata,κατά,prep + gen/acc,down/according to,κατὰ γῆς,Distributive/directional,900,Homer.Il Plato
+ἀνά,ana,ἀνά,prep + acc,up/throughout,ἀνὰ τὴν χώραν,Directional/distributive,720,Homer.Il Plato
+ὑπό,hypo,ὑπό,prep + gen/dat/acc,under/by,ὑπὸ θεῶν,Spatial/agent,840,Homer.Il Plato
+ἐπί,epi,ἐπί,prep + gen/dat/acc,on/upon/at,ἐπὶ τῆς γῆς,Spatial preposition,920,Homer.Il Plato
+περί,peri,περί,prep + gen/acc,around/about,περὶ θεῶν,Spatial/topic,800,Homer.Il Plato
+διά,dia,διά,prep + gen/acc,through/because of,διὰ σοφίαν,Instrumental/causal,860,Homer.Il Plato
+σύν,syn,σύν,prep + dat,with,σὺν θεοῖς,Comitative preposition,720,Homer.Il Plato
+πρό,pro,πρό,prep + gen,before/in front of,πρὸ τῆς μάχης,Temporal/spatial,680,Homer.Il Plato
+ἀντί,anti,ἀντί,prep + gen,instead of/against,ἀντὶ χρημάτων,Substitutive,620,Homer.Il Plato
+χωρίς,chōris,χωρίς,prep + gen,without/apart from,χωρὶς θεῶν,Separative preposition,580,Plato Aristotle
+ὁ,ho,ὁ,art masc nom sg,the,ὁ ἀνήρ,Definite article,1000,Homer.Il Plato
+ἡ,hē,ἡ,art fem nom sg,the,ἡ γυνή,Feminine article,1000,Homer.Il Plato
+τό,to,ὁ,art neut nom sg,the,τὸ παιδίον,Neuter article,1000,Homer.Il Plato
+τοῦ,tou,ὁ,art masc/neut gen sg,of the,τοῦ ἀνδρός,Genitive article,1000,Homer.Il Plato
+τῆς,tēs,ὁ,art fem gen sg,of the,τῆς γυναικός,Feminine genitive,1000,Homer.Il Plato
+τῷ,tōi,ὁ,art masc/neut dat sg,to/for the,τῷ ἀνδρί,Dative article,1000,Homer.Il Plato
+τῇ,tēi,ὁ,art fem dat sg,to/for the,τῇ γυναικί,Feminine dative,1000,Homer.Il Plato
+τόν,ton,ὁ,art masc acc sg,the,τὸν ἄνδρα,Masculine accusative,1000,Homer.Il Plato
+τήν,tēn,ὁ,art fem acc sg,the,τὴν γυναῖκα,Feminine accusative,1000,Homer.Il Plato
+οἱ,hoi,ὁ,art masc nom pl,the,οἱ ἄνδρες,Masculine plural,1000,Homer.Il Plato
+αἱ,hai,ὁ,art fem nom pl,the,αἱ γυναῖκες,Feminine plural,1000,Homer.Il Plato
+τά,ta,ὁ,art neut nom pl,the,τὰ παιδία,Neuter plural,1000,Homer.Il Plato
+τῶν,tōn,ὁ,art gen pl,of the,τῶν ἀνδρῶν,Genitive plural,1000,Homer.Il Plato
+τοῖς,tois,ὁ,art masc/neut dat pl,to/for the,τοῖς ἀνδράσι,Dative plural,1000,Homer.Il Plato
+ταῖς,tais,ὁ,art fem dat pl,to/for the,ταῖς γυναιξί,Feminine dative plural,1000,Homer.Il Plato
+τούς,tous,ὁ,art masc acc pl,the,τοὺς ἄνδρας,Masculine accusative plural,1000,Homer.Il Plato
+τάς,tas,ὁ,art fem acc pl,the,τὰς γυναῖκας,Feminine accusative plural,1000,Homer.Il Plato
+οὗτος,houtos,οὗτος,pron masc nom sg,this,οὗτος ὁ ἀνήρ,Demonstrative pronoun,920,Homer.Il Plato
+αὕτη,hautē,οὗτος,pron fem nom sg,this,αὕτη ἡ γυνή,Feminine of οὗτος,920,Homer.Il Plato
+τοῦτο,touto,οὗτος,pron neut nom sg,this,τοῦτο τὸ παιδίον,Neuter of οὗτος,920,Homer.Il Plato
+τούτου,toutou,οὗτος,pron masc/neut gen sg,of this,τούτου τοῦ ἀνδρός,Genitive of οὗτος,920,Homer.Il Plato
+ταύτης,tautēs,οὗτος,pron fem gen sg,of this,ταύτης τῆς γυναικός,Feminine genitive,920,Homer.Il Plato
+τούτῳ,toutōi,οὗτος,pron masc/neut dat sg,to this,τούτῳ τῷ ἀνδρί,Dative of οὗτος,920,Homer.Il Plato
+ταύτῃ,tautēi,οὗτος,pron fem dat sg,to this,ταύτῃ τῇ γυναικί,Feminine dative,920,Homer.Il Plato
+τοῦτον,touton,οὗτος,pron masc acc sg,this,τοῦτον τὸν ἄνδρα,Accusative of οὗτος,920,Homer.Il Plato
+ταύτην,tautēn,οὗτος,pron fem acc sg,this,ταύτην τὴν γυναῖκα,Feminine accusative,920,Homer.Il Plato
+ἐκεῖνος,ekeinos,ἐκεῖνος,pron masc nom sg,that,ἐκεῖνος ὁ ἀνήρ,Remote demonstrative,840,Homer.Il Plato
+ἐκείνη,ekeinē,ἐκεῖνος,pron fem nom sg,that,ἐκείνη ἡ γυνή,Feminine of ἐκεῖνος,840,Homer.Il Plato
+ἐκεῖνο,ekeino,ἐκεῖνος,pron neut nom sg,that,ἐκεῖνο τὸ παιδίον,Neuter of ἐκεῖνος,840,Homer.Il Plato
+ἐκείνου,ekeinou,ἐκεῖνος,pron masc/neut gen sg,of that,ἐκείνου τοῦ ἀνδρός,Genitive of ἐκεῖνος,840,Homer.Il Plato
+τίς,tis,τίς,pron masc/fem nom sg,who? what?,τίς ἐστιν οὗτος;,Interrogative pronoun,900,Homer.Il Plato
+τί,ti,τίς,pron neut nom sg,what?,τί ἐστι τοῦτο;,Neuter interrogative,900,Homer.Il Plato
+τίνος,tinos,τίς,pron gen sg,whose? of what?,τίνος ἐστὶ τοῦτο;,Genitive interrogative,900,Homer.Il Plato
+τίνι,tini,τίς,pron dat sg,to whom? to what?,τίνι δίδως τοῦτο;,Dative interrogative,900,Homer.Il Plato
+τίνα,tina,τίς,pron masc/fem acc sg,whom? what?,τίνα ὁρᾷς;,Accusative interrogative,900,Homer.Il Plato
+τίνες,tines,τίς,pron nom pl,who? which?,τίνες εἰσὶν οὗτοι;,Plural interrogative,900,Homer.Il Plato
+τίνων,tinōn,τίς,pron gen pl,whose? of what?,τίνων ἐστὶ ταῦτα;,Genitive plural,900,Homer.Il Plato
+πῶς,pōs,πῶς,adv,how?,πῶς τοῦτο ποιεῖς;,Interrogative adverb,820,Homer.Il Plato
+ποῦ,pou,ποῦ,adv,where?,ποῦ ἐστιν ὁ ἀνήρ;,Locative interrogative,780,Homer.Il Plato
+πότε,pote,πότε,adv,when?,πότε ἔρχῃ;,Temporal interrogative,750,Homer.Il Plato
+πόθεν,pothen,πόθεν,adv,whence? from where?,πόθεν ἔρχῃ;,Ablative interrogative,680,Homer.Il Plato
+ποῖ,poi,ποῖ,adv,whither? where to?,ποῖ βαδίζεις;,Directional interrogative,720,Homer.Il Plato
+διὰ τί,dia ti,διὰ τί,phrase,why? for what?,διὰ τί τοῦτο ποιεῖς;,Causal interrogative,650,Plato Aristotle
+ἐγώ,egō,ἐγώ,pron 1st nom sg,I,ἐγὼ σοφός εἰμι,Personal pronoun,1000,Homer.Il Plato
+ἐμοῦ,emou,ἐγώ,pron 1st gen sg,of me,ἐμοῦ ἡ οἰκία,Genitive of ἐγώ,1000,Homer.Il Plato
+μου,mou,ἐγώ,pron 1st gen sg,my/of me,μου ὁ πατήρ,Enclitic genitive,1000,Homer.Il Plato
+ἐμοί,emoi,ἐγώ,pron 1st dat sg,to me,ἐμοὶ δίδως τοῦτο,Dative of ἐγώ,1000,Homer.Il Plato
+μοι,moi,ἐγώ,pron 1st dat sg,to me,δίδως μοι τοῦτο,Enclitic dative,1000,Homer.Il Plato
+ἐμέ,eme,ἐγώ,pron 1st acc sg,me,ἐμὲ ὁρᾷς,Accusative of ἐγώ,1000,Homer.Il Plato
+με,me,ἐγώ,pron 1st acc sg,me,ὁρᾷς με,Enclitic accusative,1000,Homer.Il Plato
+σύ,sy,σύ,pron 2nd nom sg,you,σὺ σοφός εἶ,Second person pronoun,1000,Homer.Il Plato
+σοῦ,sou,σύ,pron 2nd gen sg,of you,σοῦ ἡ οἰκία,Genitive of σύ,1000,Homer.Il Plato
+σου,sou,σύ,pron 2nd gen sg,your/of you,σου ὁ πατήρ,Enclitic genitive,1000,Homer.Il Plato
+σοί,soi,σύ,pron 2nd dat sg,to you,σοὶ δίδωμι τοῦτο,Dative of σύ,1000,Homer.Il Plato
+σοι,soi,σύ,pron 2nd dat sg,to you,δίδωμι σοι τοῦτο,Enclitic dative,1000,Homer.Il Plato
+σέ,se,σύ,pron 2nd acc sg,you,σὲ ὁρῶ,Accusative of σύ,1000,Homer.Il Plato
+σε,se,σύ,pron 2nd acc sg,you,ὁρῶ σε,Enclitic accusative,1000,Homer.Il Plato
+αὐτός,autos,αὐτός,pron masc nom sg,he/self/same,αὐτὸς ἔρχεται,Intensive/personal pronoun,940,Homer.Il Plato
+αὐτή,autē,αὐτός,pron fem nom sg,she/self/same,αὐτὴ ἔρχεται,Feminine of αὐτός,940,Homer.Il Plato
+αὐτό,auto,αὐτός,pron neut nom sg,it/self/same,αὐτὸ τοῦτο,Neuter of αὐτός,940,Homer.Il Plato
+αὐτοῦ,autou,αὐτός,pron masc/neut gen sg,his/its/of same,αὐτοῦ ἡ οἰκία,Genitive of αὐτός,940,Homer.Il Plato
+αὐτῆς,autēs,αὐτός,pron fem gen sg,her/of same,αὐτῆς ἡ οἰκία,Feminine genitive,940,Homer.Il Plato
+αὐτῷ,autōi,αὐτός,pron masc/neut dat sg,to him/it,αὐτῷ δίδωμι,Dative of αὐτός,940,Homer.Il Plato
+αὐτῇ,autēi,αὐτός,pron fem dat sg,to her,αὐτῇ δίδωμι,Feminine dative,940,Homer.Il Plato
+αὐτόν,auton,αὐτός,pron masc acc sg,him,αὐτὸν ὁρῶ,Accusative of αὐτός,940,Homer.Il Plato
+αὐτήν,autēn,αὐτός,pron fem acc sg,her,αὐτὴν ὁρῶ,Feminine accusative,940,Homer.Il Plato
+ἡμεῖς,hēmeis,ἐγώ,pron 1st nom pl,we,ἡμεῖς σοφοί ἐσμεν,First person plural,980,Homer.Il Plato
+ἡμῶν,hēmōn,ἐγώ,pron 1st gen pl,our/of us,ἡμῶν ἡ πόλις,Genitive plural,980,Homer.Il Plato
+ἡμῖν,hēmin,ἐγώ,pron 1st dat pl,to us,ἡμῖν δίδωσι,Dative plural,980,Homer.Il Plato
+ἡμᾶς,hēmas,ἐγώ,pron 1st acc pl,us,ἡμᾶς ὁρᾷ,Accusative plural,980,Homer.Il Plato
+ὑμεῖς,hymeis,σύ,pron 2nd nom pl,you (pl),ὑμεῖς σοφοί ἐστε,Second person plural,980,Homer.Il Plato
+ὑμῶν,hymōn,σύ,pron 2nd gen pl,your/of you,ὑμῶν ἡ πόλις,Genitive plural,980,Homer.Il Plato
+ὑμῖν,hymin,σύ,pron 2nd dat pl,to you (pl),ὑμῖν δίδωμι,Dative plural,980,Homer.Il Plato
+ὑμᾶς,hymas,σύ,pron 2nd acc pl,you (pl),ὑμᾶς ὁρῶ,Accusative plural,980,Homer.Il Plato
+αὐτοί,autoi,αὐτός,pron masc nom pl,they/same,αὐτοὶ ἔρχονται,Masculine plural,940,Homer.Il Plato
+αὐταί,autai,αὐτός,pron fem nom pl,they/same,αὐταὶ ἔρχονται,Feminine plural,940,Homer.Il Plato
+αὐτά,auta,αὐτός,pron neut nom pl,they/same,αὐτὰ ἔρχεται,Neuter plural,940,Homer.Il Plato
+αὐτῶν,autōn,αὐτός,pron gen pl,their/of same,αὐτῶν ἡ οἰκία,Genitive plural,940,Homer.Il Plato
+αὐτοῖς,autois,αὐτός,pron masc/neut dat pl,to them,αὐτοῖς δίδωμι,Dative plural,940,Homer.Il Plato
+αὐταῖς,autais,αὐτός,pron fem dat pl,to them,αὐταῖς δίδωμι,Feminine dative plural,940,Homer.Il Plato
+αὐτούς,autous,αὐτός,pron masc acc pl,them,αὐτοὺς ὁρῶ,Masculine accusative plural,940,Homer.Il Plato
+αὐτάς,autas,αὐτός,pron fem acc pl,them,αὐτὰς ὁρῶ,Feminine accusative plural,940,Homer.Il Plato
+πᾶς,pas,πᾶς,adj masc nom sg,all/every,πᾶς ἄνθρωπος,Universal adjective,900,Homer.Il Plato
+πᾶσα,pasa,πᾶς,adj fem nom sg,all/every,πᾶσα γυνή,Feminine of πᾶς,900,Homer.Il Plato
+πᾶν,pan,πᾶς,adj neut nom sg,all/every,πᾶν ἔργον,Neuter of πᾶς,900,Homer.Il Plato
+παντός,pantos,πᾶς,adj masc/neut gen sg,of all,παντὸς ἀνθρώπου,Genitive of πᾶς,900,Homer.Il Plato
+πάσης,pasēs,πᾶς,adj fem gen sg,of all,πάσης γυναικός,Feminine genitive,900,Homer.Il Plato
+παντί,panti,πᾶς,adj masc/neut dat sg,to all,παντὶ ἀνθρώπῳ,Dative of πᾶς,900,Homer.Il Plato
+πάσῃ,pasēi,πᾶς,adj fem dat sg,to all,πάσῃ γυναικί,Feminine dative,900,Homer.Il Plato
+πάντα,panta,πᾶς,adj masc acc sg/neut nom pl,all,πάντα ἄνθρωπον,Accusative/neuter plural,900,Homer.Il Plato
+πᾶσαν,pasan,πᾶς,adj fem acc sg,all,πᾶσαν γυναῖκα,Feminine accusative,900,Homer.Il Plato
+πάντες,pantes,πᾶς,adj masc nom pl,all,πάντες ἄνθρωποι,Masculine plural,900,Homer.Il Plato
+πᾶσαι,pasai,πᾶς,adj fem nom pl,all,πᾶσαι γυναῖκες,Feminine plural,900,Homer.Il Plato
+πάντων,pantōn,πᾶς,adj gen pl,of all,πάντων ἀνθρώπων,Genitive plural,900,Homer.Il Plato
+πᾶσι,pasi,πᾶς,adj masc/neut dat pl,to all,πᾶσιν ἀνθρώποις,Dative plural,900,Homer.Il Plato
+πάσαις,pasais,πᾶς,adj fem dat pl,to all,πάσαις γυναιξί,Feminine dative plural,900,Homer.Il Plato
+πάντας,pantas,πᾶς,adj masc acc pl,all,πάντας ἀνθρώπους,Masculine accusative plural,900,Homer.Il Plato
+πάσας,pasas,πᾶς,adj fem acc pl,all,πάσας γυναῖκας,Feminine accusative plural,900,Homer.Il Plato
+οὐδείς,oudeis,οὐδείς,pron masc nom sg,no one/nothing,οὐδεὶς ἄνθρωπος,Negative pronoun,820,Homer.Il Plato
+οὐδεμία,oudemia,οὐδείς,pron fem nom sg,no one,οὐδεμία γυνή,Feminine of οὐδείς,820,Homer.Il Plato
+οὐδέν,ouden,οὐδείς,pron neut nom sg,nothing,οὐδὲν ἔργον,Neuter of οὐδείς,820,Homer.Il Plato
+οὐδενός,oudenos,οὐδείς,pron masc/neut gen sg,of no one,οὐδενὸς ἀνθρώπου,Genitive of οὐδείς,820,Homer.Il Plato
+οὐδεμιᾶς,oudemias,οὐδείς,pron fem gen sg,of no one,οὐδεμιᾶς γυναικός,Feminine genitive,820,Homer.Il Plato
+οὐδένα,oudena,οὐδείς,pron masc acc sg,no one,οὐδένα ἄνθρωπον,Accusative of οὐδείς,820,Homer.Il Plato
+οὐδεμίαν,oudemian,οὐδείς,pron fem acc sg,no one,οὐδεμίαν γυναῖκα,Feminine accusative,820,Homer.Il Plato
+οἶκος,oikos,οἶκος,noun masc nom sg,house/household,ὁ οἶκος μέγας,Domestic sphere,860,Homer.Il Xenophon
+οἴκου,oikou,οἶκος,noun masc gen sg,of house,τοῦ οἴκου ὁ δεσπότης,Genitive of οἶκος,860,Homer.Il Xenophon
+οἰκίᾳ,oikiai,οἰκία,noun fem dat sg,to/in house,ἐν τῇ οἰκίᾳ,Dative of οἰκία,840,Homer.Il Xenophon
+οἰκία,oikia,οἰκία,noun fem nom sg,house/dwelling,ἡ οἰκία καλή,Building structure,840,Homer.Il Xenophon
+γυνή,gynē,γυνή,noun fem nom sg,woman/wife,ἡ γυνὴ σώφρων,Adult female,880,Homer.Il Euripides
+γυναικός,gynaikos,γυνή,noun fem gen sg,of woman,τῆς γυναικὸς ἡ ἀρετή,Genitive of γυνή,880,Homer.Il Euripides
+γυναικί,gynaiki,γυνή,noun fem dat sg,to woman,τῇ γυναικὶ λέγω,Dative of γυνή,880,Homer.Il Euripides
+γυναῖκα,gynaika,γυνή,noun fem acc sg,woman,γυναῖκα ὁρῶ,Accusative of γυνή,880,Homer.Il Euripides
+γυναῖκες,gynaikes,γυνή,noun fem nom pl,women,αἱ γυναῖκες σώφρονες,Nominative plural,880,Homer.Il Euripides
+παῖς,pais,παῖς,noun masc/fem nom sg,child,ὁ παῖς σοφός,Young person,890,Homer.Il Plato
+παιδός,paidos,παῖς,noun masc/fem gen sg,of child,τοῦ παιδὸς ἡ μάθησις,Genitive of παῖς,890,Homer.Il Plato
+παιδί,paidi,παῖς,noun masc/fem dat sg,to child,τῷ παιδὶ διδάσκω,Dative of παῖς,890,Homer.Il Plato
+παῖδα,paida,παῖς,noun masc/fem acc sg,child,παῖδα παιδεύω,Accusative of παῖς,890,Homer.Il Plato
+παῖδες,paides,παῖς,noun masc/fem nom pl,children,οἱ παῖδες μανθάνουσι,Nominative plural,890,Homer.Il Plato
+πατήρ,patēr,πατήρ,noun masc nom sg,father,ὁ πατὴρ σοφός,Male parent,910,Homer.Il Sophocles
+πατρός,patros,πατήρ,noun masc gen sg,of father,τοῦ πατρὸς ἡ οἰκία,Genitive of πατήρ,910,Homer.Il Sophocles
+πατρί,patri,πατήρ,noun masc dat sg,to father,τῷ πατρὶ πείθομαι,Dative of πατήρ,910,Homer.Il Sophocles
+πατέρα,patera,πατήρ,noun masc acc sg,father,πατέρα τιμῶ,Accusative of πατήρ,910,Homer.Il Sophocles
+πατέρες,pateres,πατήρ,noun masc nom pl,fathers,οἱ πατέρες διδάσκουσι,Nominative plural,910,Homer.Il Sophocles
+μήτηρ,mētēr,μήτηρ,noun fem nom sg,mother,ἡ μήτηρ φιλεῖ,Female parent,890,Homer.Il Euripides
+μητρός,mētros,μήτηρ,noun fem gen sg,of mother,τῆς μητρὸς ἡ ἀγάπη,Genitive of μήτηρ,890,Homer.Il Euripides
+μητρί,mētri,μήτηρ,noun fem dat sg,to mother,τῇ μητρὶ πείθομαι,Dative of μήτηρ,890,Homer.Il Euripides
+μητέρα,metera,μήτηρ,noun fem acc sg,mother,μητέρα φιλῶ,Accusative of μήτηρ,890,Homer.Il Euripides
+μητέρες,meteres,μήτηρ,noun fem nom pl,mothers,αἱ μητέρες φιλοῦσι,Nominative plural,890,Homer.Il Euripides
+ἀδελφός,adelphos,ἀδελφός,noun masc nom sg,brother,ὁ ἀδελφὸς φίλος,Male sibling,780,Homer.Il Menander
+ἀδελφοῦ,adelphou,ἀδελφός,noun masc gen sg,of brother,τοῦ ἀδελφοῦ τὰ βιβλία,Genitive of ἀδελφός,780,Homer.Il Menander
+ἀδελφή,adelphē,ἀδελφή,noun fem nom sg,sister,ἡ ἀδελφὴ φίλη,Female sibling,720,Euripides Menander
+ἀδελφῆς,adelphēs,ἀδελφή,noun fem gen sg,of sister,τῆς ἀδελφῆς τὰ βιβλία,Genitive of ἀδελφή,720,Euripides Menander
+φίλος,philos,φίλος,noun/adj masc nom sg,friend/dear,ὁ φίλος ἀγαθός,Friendship term,920,Homer.Il Plato.Ly
+φίλου,philou,φίλος,noun masc gen sg,of friend,τοῦ φίλου ἡ συμβουλή,Genitive of φίλος,920,Homer.Il Plato.Ly
+φίλῳ,philōi,φίλος,noun masc dat sg,to friend,τῷ φίλῳ βοηθῶ,Dative of φίλος,920,Homer.Il Plato.Ly
+φίλον,philon,φίλος,noun masc acc sg,friend,φίλον ποιοῦμαι,Accusative of φίλος,920,Homer.Il Plato.Ly
+φίλοι,philoi,φίλος,noun masc nom pl,friends,οἱ φίλοι βοηθοῦσι,Nominative plural,920,Homer.Il Plato.Ly
+ἐχθρός,echthros,ἐχθρός,noun/adj masc nom sg,enemy/hostile,ὁ ἐχθρὸς πολέμιος,Opposition term,750,Homer.Il Thucydides
+ἐχθροῦ,echthrou,ἐχθρός,noun masc gen sg,of enemy,τοῦ ἐχθροῦ αἱ ἐπιβουλαί,Genitive of ἐχθρός,750,Homer.Il Thucydides
+βίος,bios,βίος,noun masc nom sg,life/livelihood,ὁ βίος βραχύς,Way of living,820,Herodotus Aristotle.NE
+βίου,biou,βίος,noun masc gen sg,of life,τοῦ βίου ἡ ἡδονή,Genitive of βίος,820,Herodotus Aristotle.NE
+θάνατος,thanatos,θάνατος,noun masc nom sg,death,ὁ θάνατος φοβερός,End of life,790,Homer.Il Euripides
+θανάτου,thanatou,θάνατος,noun masc gen sg,of death,τοῦ θανάτου ἡ φύσις,Genitive of θάνατος,790,Homer.Il Euripides
+ἀρετή,aretē,ἀρετή,noun fem nom sg,virtue/excellence,ἡ ἀρετὴ καλή,Moral excellence,880,Homer.Il Plato.Men
+ἀρετῆς,aretēs,ἀρετή,noun fem gen sg,of virtue,τῆς ἀρετῆς ἡ διδασκαλία,Genitive of ἀρετή,880,Homer.Il Plato.Men
+κακία,kakia,κακία,noun fem nom sg,vice/evil,ἡ κακία αἰσχρά,Moral failing,650,Plato.Rep Aristotle.NE
+κακίας,kakias,κακία,noun fem gen sg,of vice,τῆς κακίας ἡ φύσις,Genitive of κακία,650,Plato.Rep Aristotle.NE
+δικαιοσύνη,dikaiosynē,δικαιοσύνη,noun fem nom sg,justice,ἡ δικαιοσύνη ἀρετή,Cardinal virtue,780,Plato.Rep Aristotle.NE
+δικαιοσύνης,dikaiosynēs,δικαιοσύνη,noun fem gen sg,of justice,τῆς δικαιοσύνης ἡ φύσις,Genitive of δικαιοσύνη,780,Plato.Rep Aristotle.NE
+ἀνδρεία,andreia,ἀνδρεία,noun fem nom sg,courage/bravery,ἡ ἀνδρεία ἀρετή,Courage virtue,750,Plato.Rep Aristotle.NE
+ἀνδρείας,andreias,ἀνδρεία,noun fem gen sg,of courage,τῆς ἀνδρείας ἡ φύσις,Genitive of ἀνδρεία,750,Plato.Rep Aristotle.NE
+σωφροσύνη,sōphrosynē,σωφροσύνη,noun fem nom sg,temperance/prudence,ἡ σωφροσύνη ἀρετή,Self-control virtue,720,Plato.Rep Aristotle.NE
+σωφροσύνης,sōphrosynēs,σωφροσύνη,noun fem gen sg,of temperance,τῆς σωφροσύνης ἡ φύσις,Genitive of σωφροσύνη,720,Plato.Rep Aristotle.NE
+εὐδαιμονία,eudaimonia,εὐδαιμονία,noun fem nom sg,happiness/flourishing,ἡ εὐδαιμονία τέλος,Human flourishing,760,Aristotle.NE Plato.Rep
+εὐδαιμονίας,eudaimonias,εὐδαιμονία,noun fem gen sg,of happiness,τῆς εὐδαιμονίας ἡ φύσις,Genitive of εὐδαιμονία,760,Aristotle.NE Plato.Rep
+ἡδονή,hēdonē,ἡδονή,noun fem nom sg,pleasure,ἡ ἡδονὴ ἀγαθόν,Physical/mental pleasure,730,Plato.Phd Aristotle.NE
+ἡδονῆς,hēdonēs,ἡδονή,noun fem gen sg,of pleasure,τῆς ἡδονῆς ἡ φύσις,Genitive of ἡδονή,730,Plato.Phd Aristotle.NE
+λύπη,lypē,λύπη,noun fem nom sg,pain/grief,ἡ λύπη κακόν,Physical/mental pain,680,Plato.Phd Aristotle.NE
+λύπης,lypēs,λύπη,noun fem gen sg,of pain,τῆς λύπης ἡ φύσις,Genitive of λύπη,680,Plato.Phd Aristotle.NE
+χρήματα,chrēmata,χρῆμα,noun neut nom pl,money/goods,τὰ χρήματα πολλά,Wealth/possessions,820,Thucydides Plato.Rep
+χρημάτων,chrēmatōn,χρῆμα,noun neut gen pl,of money,τῶν χρημάτων ἡ κτῆσις,Genitive plural,820,Thucydides Plato.Rep
+χρήμασι,chrēmasi,χρῆμα,noun neut dat pl,with money,τοῖς χρήμασι χρῶμαι,Dative plural,820,Thucydides Plato.Rep
+νόμος,nomos,νόμος,noun masc nom sg,law/custom,ὁ νόμος δίκαιος,Legal/social rule,860,Thucydides Plato.Lg
+νόμου,nomou,νόμος,noun masc gen sg,of law,τοῦ νόμου ἡ δύναμις,Genitive of νόμος,860,Thucydides Plato.Lg
+νόμῳ,nomōi,νόμος,noun masc dat sg,by law,τῷ νόμῳ χρῶμαι,Dative of νόμος,860,Thucydides Plato.Lg
+νόμον,nomon,νόμος,noun masc acc sg,law,νόμον τίθημι,Accusative of νόμος,860,Thucydides Plato.Lg
+νόμοι,nomoi,νόμος,noun masc nom pl,laws,οἱ νόμοι δίκαιοι,Nominative plural,860,Thucydides Plato.Lg
+θεός,theos,θεός,noun masc nom sg,god,ὁ θεὸς ἀθάνατος,Divine being,950,Homer.Il Hesiod.Th
+ἱερός,hieros,ἱερός,adj masc nom sg,sacred/holy,ἱερὸς τόπος,Sacred or holy,720,Homer.Il Herodotus
+ἱερόν,hieron,ἱερόν,noun neut nom sg,temple/sanctuary,τὸ ἱερὸν καλόν,Sacred place,720,Herodotus Thucydides
+ἱερεύς,hiereus,ἱερεύς,noun masc nom sg,priest,ὁ ἱερεὺς θύει,Religious officiant,540,Herodotus Aristophanes
+μάντις,mantis,μάντις,noun masc nom sg,prophet/seer,ὁ μάντις χρησμῳδεῖ,Divine interpreter,450,Aeschylus Herodotus
+χρησμός,chrēsmos,χρησμός,noun masc nom sg,oracle/prophecy,ὁ χρησμὸς ἀληθής,Divine utterance,380,Herodotus Xenophon
+τέρας,teras,τέρας,noun neut nom sg,portent/wonder,τὸ τέρας φοβερόν,Divine sign,290,Homer.Il Herodotus
+σημεῖον,sēmeion,σημεῖον,noun neut nom sg,sign/token,τὸ σημεῖον δηλόν,Indicator or mark,620,Thucydides Plato
+ἀγών,agōn,ἀγών,noun masc nom sg,contest/struggle,ὁ ἀγὼν καλός,Competition or conflict,680,Pindar Thucydides
+ἆθλον,athlon,ἆθλον,noun neut nom sg,prize/reward,τὸ ἆθλον μέγα,Contest prize,340,Homer.Il Pindar
+στέφανος,stephanos,στέφανος,noun masc nom sg,crown/wreath,ὁ στέφανος χρυσοῦς,Victory crown,380,Pindar Xenophon
+νίκη,nikē,νίκη,noun fem nom sg,victory,ἡ νίκη καλή,Success in contest,720,Homer.Il Thucydides
+ἧττα,hētta,ἧττα,noun fem nom sg,defeat,ἡ ἧττα αἰσχρά,Loss in contest,420,Thucydides Xenophon
+μοῖρα,moira,μοῖρα,noun fem nom sg,fate/portion,ἡ μοῖρα κρατεῖ,Destiny or share,560,Homer.Il Aeschylus
+τύχη,tychē,τύχη,noun fem nom sg,fortune/chance,ἡ τύχη ἀλλάσσει,Chance or luck,640,Herodotus Thucydides
+ἀνάγκη,anankē,ἀνάγκη,noun fem nom sg,necessity/compulsion,ἡ ἀνάγκη βιάζει,Unavoidable force,580,Aeschylus Thucydides
+εἱμαρμένη,heimarmenē,εἱμαρμένη,noun fem nom sg,destiny,ἡ εἱμαρμένη κρατεῖ,Predetermined fate,380,Stoic.texts
+δαίμων,daimōn,δαίμων,noun masc nom sg,spirit/deity,ὁ δαίμων κακός,Divine being,520,Plato Herodotus
+ἥρως,hērōs,ἥρως,noun masc nom sg,hero,ὁ ἥρως ἀνδρεῖος,Legendary figure,590,Homer.Il Herodotus
+θυσία,thysia,θυσία,noun fem nom sg,sacrifice,ἡ θυσία καλή,Religious offering,460,Herodotus Aristophanes
+σπονδή,spondē,σπονδή,noun fem nom sg,libation,ἡ σπονδὴ ἱερά,Ritual drink offering,380,Homer.Il Thucydides
+πόλεμος,polemos,πόλεμος,noun masc nom sg,war,ὁ πόλεμος δεινός,Armed conflict,890,Homer.Il Thucydides
+μάχη,machē,μάχη,noun fem nom sg,battle,ἡ μάχη χαλεπή,Combat engagement,750,Homer.Il Xenophon
+στρατός,stratos,στρατός,noun masc nom sg,army,ὁ στρατὸς μέγας,Military force,680,Homer.Il Herodotus
+στρατηγός,stratēgos,στρατηγός,noun masc nom sg,general,ὁ στρατηγὸς σοφός,Military commander,620,Thucydides Xenophon
+ἱππεύς,hippeus,ἱππεύς,noun masc nom sg,horseman/cavalry,ὁ ἱππεὺς ταχύς,Mounted warrior,540,Homer.Il Xenophon
+ὁπλίτης,hoplitēs,ὁπλίτης,noun masc nom sg,hoplite,ὁ ὁπλίτης ἀνδρεῖος,Heavy infantry,480,Thucydides Xenophon
+ὅπλον,hoplon,ὅπλον,noun neut nom sg,weapon/tool,τὸ ὅπλον ὀξύ,Military equipment,620,Homer.Il Thucydides
+ἀσπίς,aspis,ἀσπίς,noun fem nom sg,shield,ἡ ἀσπὶς χαλκῆ,Protective armor,490,Homer.Il Aristophanes
+δόρυ,dory,δόρυ,noun neut nom sg,spear,τὸ δόρυ μακρόν,Thrusting weapon,560,Homer.Il Xenophon
+ξίφος,xiphos,ξίφος,noun neut nom sg,sword,τὸ ξίφος ὀξύ,Cutting weapon,440,Homer.Il Xenophon
+τόξον,toxon,τόξον,noun neut nom sg,bow,τὸ τόξον καμπύλον,Projectile weapon,380,Homer.Il Herodotus
+ἰός,ios,ἰός,noun masc nom sg,arrow,ὁ ἰὸς ταχύς,Projectile missile,420,Homer.Il Xenophon
+τεῖχος,teichos,τεῖχος,noun neut nom sg,wall/fortification,τὸ τεῖχος ὑψηλόν,Defensive structure,580,Homer.Il Thucydides
+πύλη,pylē,πύλη,noun fem nom sg,gate,ἡ πύλη κλειστή,City entrance,460,Homer.Il Herodotus
+φρουρά,phroura,φρουρά,noun fem nom sg,garrison/guard,ἡ φρουρὰ ἰσχυρά,Military guard,380,Thucydides Xenophon
+κατάσκοπος,kataskopos,κατάσκοπος,noun masc nom sg,spy/scout,ὁ κατάσκοπος κρυπτός,Military intelligence,290,Herodotus Xenophon
+αἰχμάλωτος,aichmalōtos,αἰχμάλωτος,noun masc nom sg,prisoner of war,ὁ αἰχμάλωτος δυστυχής,War captive,340,Herodotus Thucydides
+λάφυρον,laphyron,λάφυρον,noun neut nom sg,spoils of war,τὸ λάφυρον πολύ,War booty,280,Herodotus Xenophon
+τροπαῖον,tropaion,τροπαῖον,noun neut nom sg,trophy,τὸ τροπαῖον καλόν,Victory monument,260,Thucydides Xenophon
+σύμμαχος,symmachos,σύμμαχος,noun masc nom sg,ally,ὁ σύμμαχος πιστός,Military ally,480,Herodotus Thucydides
+πολέμιος,polemios,πολέμιος,adj masc nom sg,hostile/enemy,πολέμιος ἀνήρ,Enemy or hostile,590,Homer.Il Thucydides
+εἰρήνη,eirēnē,εἰρήνη,noun fem nom sg,peace,ἡ εἰρήνη ἀγαθή,Absence of war,720,Aristophanes Thucydides
+ὄρος,oros,ὄρος,noun neut nom sg,mountain,τὸ ὄρος ὑψηλόν,Elevated landform,680,Homer.Il Herodotus
+κολώνη,kolōnē,κολώνη,noun fem nom sg,hill,ἡ κολώνη μικρά,Small elevation,340,Sophocles Thucydides
+πεδίον,pedion,πεδίον,noun neut nom sg,plain,τὸ πεδίον εὐρύ,Flat land,420,Homer.Il Herodotus
+ῥήνη,rhēnē,ῥήνη,noun fem nom sg,valley,ἡ ῥήνη βαθεῖα,Depression between hills,180,Homer.Il
+δρυμός,drymos,δρυμός,noun masc nom sg,forest/thicket,ὁ δρυμὸς πυκνός,Dense woodland,280,Homer.Il Xenophon
+ὕλη,hylē,ὕλη,noun fem nom sg,wood/forest,ἡ ὕλη δασεῖα,Wooded area,520,Herodotus Plato
+δένδρον,dendron,δένδρον,noun neut nom sg,tree,τὸ δένδρον μέγα,Woody plant,480,Homer.Il Theophrastus
+φυτόν,phyton,φυτόν,noun neut nom sg,plant,τὸ φυτὸν χλωρόν,Growing organism,340,Theophrastus Aristotle
+καρπός,karpos,καρπός,noun masc nom sg,fruit,ὁ καρπὸς γλυκύς,Plant product,560,Homer.Od Theophrastus
+σπέρμα,sperma,σπέρμα,noun neut nom sg,seed,τὸ σπέρμα μικρόν,Plant reproductive unit,420,Theophrastus Aristotle
+ῥίζα,rhiza,ῥίζα,noun fem nom sg,root,ἡ ῥίζα βαθεῖα,Plant foundation,380,Theophrastus Aristotle
+κλάδος,klados,κλάδος,noun masc nom sg,branch,ὁ κλάδος μακρός,Tree limb,320,Theophrastus
+φύλλον,phyllon,φύλλον,noun neut nom sg,leaf,τὸ φύλλον χλωρόν,Plant appendage,340,Theophrastus Homer.Il
+ἄνθος,anthos,ἄνθος,noun neut nom sg,flower,τὸ ἄνθος καλόν,Plant bloom,420,Homer.Il Theophrastus
+πηγή,pēgē,πηγή,noun fem nom sg,spring/source,ἡ πηγὴ καθαρά,Water source,460,Homer.Il Herodotus
+κρήνη,krēnē,κρήνη,noun fem nom sg,fountain,ἡ κρήνη ψυχρά,Artificial water source,380,Homer.Il Aristophanes
+χείμαρρος,cheimarros,χείμαρρος,noun masc nom sg,torrent,ὁ χείμαρρος βίαιος,Seasonal stream,240,Homer.Il Aristotle
+λίμνη,limnē,λίμνη,noun fem nom sg,lake,ἡ λίμνη μεγάλη,Inland water body,380,Herodotus Aristotle
+βάλτος,baltos,βάλτος,noun masc nom sg,marsh/swamp,ὁ βάλτος ὑγρός,Wetland area,180,Herodotus
+νῆσος,nēsos,νῆσος,noun fem nom sg,island,ἡ νῆσος μικρά,Land surrounded by water,520,Homer.Od Herodotus
+ἀκτή,aktē,ἀκτή,noun fem nom sg,shore/coast,ἡ ἀκτὴ τραχεῖα,Seashore or lakeside,440,Homer.Il Herodotus
+λιμήν,limēn,λιμήν,noun masc nom sg,harbor/port,ὁ λιμὴν ἀσφαλής,Ship refuge,480,Homer.Od Thucydides
+κόλπος,kolpos,κόλπος,noun masc nom sg,gulf/bay,ὁ κόλπος μέγας,Coastal indentation,360,Herodotus Thucydides
+ζῷον,zōion,ζῷον,noun neut nom sg,animal,τὸ ζῷον ζῇ,Living creature,640,Aristotle Plato
+θηρίον,thērion,θηρίον,noun neut nom sg,wild animal,τὸ θηρίον ἄγριον,Untamed beast,480,Herodotus Aristotle
+κτῆνος,ktēnos,κτῆνος,noun neut nom sg,domestic animal,τὸ κτῆνος ἥμερον,Tame livestock,420,Homer.Il Xenophon
+βοῦς,bous,βοῦς,noun masc nom sg,ox/cow,ὁ βοῦς ἰσχυρός,Bovine animal,580,Homer.Il Herodotus
+ταῦρος,tauros,ταῦρος,noun masc nom sg,bull,ὁ ταῦρος ἰσχυρός,Male bovine,440,Homer.Il Euripides
+πρόβατον,probaton,πρόβατον,noun neut nom sg,sheep,τὸ πρόβατον λευκόν,Woolly livestock,420,Homer.Il Aristotle
+αἴξ,aix,αἴξ,noun fem nom sg,goat,ἡ αἲξ ἀγρία,Caprine animal,360,Homer.Il Aristotle
+χοῖρος,choiros,χοῖρος,noun masc nom sg,pig,ὁ χοῖρος παχύς,Porcine animal,340,Homer.Od Aristophanes
+κύων,kyōn,κύων,noun masc nom sg,dog,ὁ κύων πιστός,Canine companion,520,Homer.Il Xenophon
+λύκος,lykos,λύκος,noun masc nom sg,wolf,ὁ λύκος ἄγριος,Wild canine,380,Homer.Il Aesop
+ἀλώπηξ,alōpēx,ἀλώπηξ,noun fem nom sg,fox,ἡ ἀλώπηξ πανοῦργος,Cunning canine,280,Aesop Aristophanes
+ἄρκτος,arktos,ἄρκτος,noun fem nom sg,bear,ἡ ἄρκτος μεγάλη,Large carnivore,240,Herodotus Aristotle
+λέων,leōn,λέων,noun masc nom sg,lion,ὁ λέων ἀνδρεῖος,Large feline,420,Homer.Il Herodotus
+πάρδαλις,pardalis,πάρδαλις,noun fem nom sg,leopard,ἡ πάρδαλις ποικίλη,Spotted feline,180,Herodotus Aristotle
+ἐλέφας,elephas,ἐλέφας,noun masc nom sg,elephant,ὁ ἐλέφας μέγας,Large mammal,220,Herodotus Aristotle
+κάμηλος,kamēlos,κάμηλος,noun fem nom sg,camel,ἡ κάμηλος ὑψηλή,Desert animal,240,Herodotus Aristotle
+ὄνος,onos,ὄνος,noun masc nom sg,donkey,ὁ ὄνος φέρει,Beast of burden,380,Homer.Il Aesop
+μῦς,mys,μῦς,noun masc nom sg,mouse,ὁ μῦς μικρός,Small rodent,280,Aesop Aristotle
+κάστωρ,kastōr,κάστωρ,noun masc nom sg,beaver,ὁ κάστωρ ἐργάτης,Aquatic rodent,120,Herodotus
+ἀετός,aetos,ἀετός,noun masc nom sg,eagle,ὁ ἀετὸς ὑψηλός,Large raptor,420,Homer.Il Aristotle
+ἱέραξ,hierax,ἱέραξ,noun masc nom sg,hawk,ὁ ἱέραξ ταχύς,Smaller raptor,280,Homer.Il Aristotle
+κόραξ,korax,κόραξ,noun masc nom sg,raven,ὁ κόραξ μέλας,Black corvid,320,Aesop Aristotle
+κορώνη,korōnē,κορώνη,noun fem nom sg,crow,ἡ κορώνη κακή,Dark corvid,280,Aesop Aristophanes
+σῶμα,sōma,σῶμα,noun neut nom sg,body,τὸ σῶμα ὑγιές,Physical form,780,Homer.Il Plato
+κεφαλή,kephalē,κεφαλή,noun fem nom sg,head,ἡ κεφαλὴ μεγάλη,Top of body,680,Homer.Il Hippocrates
+πρόσωπον,prosōpon,πρόσωπον,noun neut nom sg,face,τὸ πρόσωπον καλόν,Front of head,520,Aristophanes Plato
+ὀφθαλμός,ophthalmos,ὀφθαλμός,noun masc nom sg,eye,ὁ ὀφθαλμὸς βλέπει,Organ of sight,620,Homer.Il Hippocrates
+οὖς,ous,οὖς,noun neut nom sg,ear,τὸ οὖς ἀκούει,Organ of hearing,480,Homer.Il Hippocrates
+ῥίς,rhis,ῥίς,noun fem nom sg,nose,ἡ ῥὶς ὀσφραίνεται,Organ of smell,360,Aristophanes Hippocrates
+στόμα,stoma,στόμα,noun neut nom sg,mouth,τὸ στόμα λέγει,Oral opening,580,Homer.Il Hippocrates
+γλῶσσα,glōssa,γλῶσσα,noun fem nom sg,tongue,ἡ γλῶσσα γεύεται,Organ of taste/speech,520,Homer.Il Hippocrates
+ὀδούς,odous,ὀδούς,noun masc nom sg,tooth,ὁ ὀδοὺς μασᾶται,Chewing organ,380,Homer.Il Hippocrates
+τράχηλος,trachēlos,τράχηλος,noun masc nom sg,neck,ὁ τράχηλος στρέφεται,Head connector,340,Homer.Il Hippocrates
+βραχίων,brachiōn,βραχίων,noun masc nom sg,arm,ὁ βραχίων ἰσχυρός,Upper limb,420,Homer.Il Hippocrates
+χείρ,cheir,χείρ,noun fem nom sg,hand,ἡ χεὶρ λαμβάνει,Manual extremity,840,Homer.Il Hippocrates
+δάκτυλος,daktylos,δάκτυλος,noun masc nom sg,finger,ὁ δάκτυλος μικρός,Hand digit,380,Homer.Il Hippocrates
+στῆθος,stēthos,στῆθος,noun neut nom sg,chest/breast,τὸ στῆθος εὐρύ,Thoracic region,480,Homer.Il Hippocrates
+καρδία,kardia,καρδία,noun fem nom sg,heart,ἡ καρδία πάλλεται,Cardiac organ,560,Homer.Il Hippocrates
+πνεύμων,pneumōn,πνεύμων,noun masc nom sg,lung,ὁ πνεύμων ἀναπνεῖ,Respiratory organ,280,Hippocrates Aristotle
+ἧπαρ,hēpar,ἧπαρ,noun neut nom sg,liver,τὸ ἧπαρ μέγα,Digestive organ,320,Homer.Il Hippocrates
+σπλήν,splēn,σπλήν,noun masc nom sg,spleen,ὁ σπλὴν μέλας,Abdominal organ,180,Hippocrates Aristotle
+νεφρός,nephros,νεφρός,noun masc nom sg,kidney,ὁ νεφρὸς καθαίρει,Renal organ,240,Hippocrates Aristotle
+γαστήρ,gastēr,γαστήρ,noun fem nom sg,belly/stomach,ἡ γαστὴρ πέττει,Digestive cavity,480,Homer.Il Hippocrates
+σκέλος,skelos,σκέλος,noun neut nom sg,leg,τὸ σκέλος βαδίζει,Lower limb,420,Homer.Il Hippocrates
+ποῦς,pous,ποῦς,noun masc nom sg,foot,ὁ ποῦς βαίνει,Walking extremity,720,Homer.Il Hippocrates
+αἷμα,haima,αἷμα,noun neut nom sg,blood,τὸ αἷμα ῥεῖ,Life fluid,620,Homer.Il Hippocrates
+τεχνίτης,technitēs,τεχνίτης,noun masc nom sg,craftsman,ὁ τεχνίτης σοφός,Skilled artisan,420,Plato Xenophon
+δημιουργός,dēmiourgos,δημιουργός,noun masc nom sg,public worker/artisan,ὁ δημιουργὸς ἐργάζεται,Public craftsman,380,Homer.Il Plato
+χαλκεύς,chalkeus,χαλκεύς,noun masc nom sg,smith/metalworker,ὁ χαλκεὺς τύπτει,Metal craftsman,320,Homer.Il Herodotus
+τέκτων,tektōn,τέκτων,noun masc nom sg,carpenter/builder,ὁ τέκτων οἰκοδομεῖ,Wood worker,380,Homer.Il Plato
+κεραμεύς,kerameus,κεραμεύς,noun masc nom sg,potter,ὁ κεραμεὺς πλάττει,Clay worker,240,Herodotus Aristophanes
+σκυτεύς,skyteus,σκυτεύς,noun masc nom sg,cobbler,ὁ σκυτεὺς ῥάπτει,Leather worker,180,Aristophanes Plato
+οἰκοδόμος,oikodomos,οἰκοδόμος,noun masc nom sg,builder,ὁ οἰκοδόμος οἰκοδομεῖ,Construction worker,280,Thucydides Xenophon
+γεωργός,geōrgos,γεωργός,noun masc nom sg,farmer,ὁ γεωργὸς σπείρει,Agricultural worker,520,Xenophon Aristophanes
+βοτήρ,botēr,βοτήρ,noun masc nom sg,herder,ὁ βοτὴρ νέμει,Livestock tender,280,Homer.Il Theocritus
+ἁλιεύς,halieus,ἁλιεύς,noun masc nom sg,fisherman,ὁ ἁλιεὺς ἁγρεύει,Marine hunter,240,Homer.Il Aristophanes
+κυβερνήτης,kybernētēs,κυβερνήτης,noun masc nom sg,pilot/helmsman,ὁ κυβερνήτης κυβερνᾷ,Ship navigator,320,Homer.Od Plato
+ναύτης,nautēs,ναύτης,noun masc nom sg,sailor,ὁ ναύτης πλεῖ,Ship crew member,420,Homer.Od Herodotus
+ἔμπορος,emporos,ἔμπορος,noun masc nom sg,merchant,ὁ ἔμπορος πωλεῖ,Trade professional,480,Herodotus Plato
+κάπηλος,kapēlos,κάπηλος,noun masc nom sg,retailer,ὁ κάπηλος μετρεῖ,Small trader,240,Aristophanes Plato
+ἰατρός,iatros,ἰατρός,noun masc nom sg,physician,ὁ ἰατρὸς θεραπεύει,Medical professional,560,Homer.Il Hippocrates
+φάρμακον,pharmakon,φάρμακον,noun neut nom sg,medicine/drug,τὸ φάρμακον ἰᾶται,Therapeutic substance,420,Homer.Il Hippocrates
+μαῖα,maia,μαῖα,noun fem nom sg,midwife,ἡ μαῖα τίκτει,Birth attendant,180,Plato Aristophanes
+διδάσκαλος,didaskalos,διδάσκαλος,noun masc nom sg,teacher,ὁ διδάσκαλος διδάσκει,Educational professional,520,Plato Aristophanes
+παιδαγωγός,paidagōgos,παιδαγωγός,noun masc nom sg,tutor/guide,ὁ παιδαγωγὸς ἄγει,Child supervisor,320,Plato Aristophanes
+ῥήτωρ,rhētōr,ῥήτωρ,noun masc nom sg,orator,ὁ ῥήτωρ λέγει,Public speaker,480,Thucydides Plato
+κριτής,kritēs,κριτής,noun masc nom sg,judge,ὁ κριτὴς κρίνει,Legal arbiter,420,Herodotus Aristophanes
+δικαστής,dikastēs,δικαστής,noun masc nom sg,juror,ὁ δικαστὴς ψηφίζει,Court member,380,Aristophanes Thucydides
+συκοφάντης,sykophantēs,συκοφάντης,noun masc nom sg,informer,ὁ συκοφάντης κατηγορεῖ,Legal accuser,280,Aristophanes Plato
+μουσική,mousikē,μουσική,noun fem nom sg,music/art,ἡ μουσικὴ τέρπει,Creative art,620,Plato Aristotle
+ᾠδή,ōidē,ᾠδή,noun fem nom sg,song,ἡ ᾠδὴ μελῳδεῖ,Musical composition,480,Homer.Il Pindar
+μέλος,melos,μέλος,noun neut nom sg,melody,τὸ μέλος ἡδύ,Musical tune,420,Pindar Aristophanes
+ῥυθμός,rhythmos,ῥυθμός,noun masc nom sg,rhythm,ὁ ῥυθμὸς κινεῖ,Musical meter,380,Plato Aristotle
+ἁρμονία,harmonia,ἁρμονία,noun fem nom sg,harmony,ἡ ἁρμονία συμφωνεῖ,Musical concord,420,Plato Aristotle
+λύρα,lyra,λύρα,noun fem nom sg,lyre,ἡ λύρα ψάλλει,Stringed instrument,360,Homer.Il Pindar
+αὐλός,aulos,αὐλός,noun masc nom sg,flute/pipe,ὁ αὐλὸς φυσᾶται,Wind instrument,320,Homer.Il Aristophanes
+κίθαρα,kithara,κίθαρα,noun fem nom sg,cithara,ἡ κίθαρα κρούεται,Large lyre,280,Pindar Aristophanes
+χορός,choros,χορός,noun masc nom sg,chorus/dance,ὁ χορὸς ᾄδει,Group performance,580,Homer.Il Aristophanes
+χορεία,choreia,χορεία,noun fem nom sg,choral dance,ἡ χορεία κινεῖται,Dance performance,340,Plato Aristophanes
+ὄρχησις,orchēsis,ὄρχησις,noun fem nom sg,dancing,ἡ ὄρχησις καλή,Rhythmic movement,280,Plato Xenophon
+μίμησις,mimēsis,μίμησις,noun fem nom sg,imitation,ἡ μίμησις ἀληθής,Artistic representation,340,Plato Aristotle
+ποίησις,poiēsis,ποίησις,noun fem nom sg,poetry/creation,ἡ ποίησις καλή,Creative making,480,Plato Aristotle
+ἔπος,epos,ἔπος,noun neut nom sg,epic word,τὸ ἔπος μέγα,Heroic verse,420,Homer.Il Aristotle
+ἴαμβος,iambos,ἴαμβος,noun masc nom sg,iamb,ὁ ἴαμβος κωμῳδεῖ,Satirical verse,240,Aristotle Archilochus
+ἐλεγεῖον,elegeion,ἐλεγεῖον,noun neut nom sg,elegiac couplet,τὸ ἐλεγεῖον θρηνεῖ,Mournful verse,180,Aristotle
+τραγῳδία,tragōidia,τραγῳδία,noun fem nom sg,tragedy,ἡ τραγῳδία σπουδαία,Serious drama,420,Aristotle Aeschylus
+κωμῳδία,kōmōidia,κωμῳδία,noun fem nom sg,comedy,ἡ κωμῳδία γελοία,Humorous drama,380,Aristotle Aristophanes
+δρᾶμα,drama,δρᾶμα,noun neut nom sg,drama/action,τὸ δρᾶμα κινεῖται,Theatrical action,340,Aristotle Aeschylus
+ὑποκριτής,hypokritēs,ὑποκριτής,noun masc nom sg,actor,ὁ ὑποκριτὴς παίζει,Theatrical performer,320,Aristotle Demosthenes
+σκηνή,skēnē,σκηνή,noun fem nom sg,stage/tent,ἡ σκηνὴ καλή,Performance space,380,Aristophanes Aeschylus
+θέατρον,theatron,θέατρον,noun neut nom sg,theater,τὸ θέατρον μέγα,Viewing place,420,Aristophanes Plato
+κωμάστης,komastēs,κωμάστης,noun masc nom sg,reveler,ὁ κωμάστης γελᾷ,Festive participant,180,Aristophanes
+ἀριθμός,arithmos,ἀριθμός,noun masc nom sg,number,ὁ ἀριθμὸς μετρεῖ,Mathematical unit,520,Plato Euclid
+μονάς,monas,μονάς,noun fem nom sg,unit/monad,ἡ μονὰς ἁπλῆ,Single element,280,Plato Euclid
+δυάς,dyas,δυάς,noun fem nom sg,dyad/pair,ἡ δυὰς διπλῆ,Two-element unit,180,Plato Euclid
+τριάς,trias,τριάς,noun fem nom sg,triad,ἡ τριὰς τριπλῆ,Three-element unit,160,Plato
+τετράς,tetras,τετράς,noun fem nom sg,tetrad,ἡ τετρὰς τετραπλῆ,Four-element unit,140,Plato
+γεωμετρία,geōmetria,γεωμετρία,noun fem nom sg,geometry,ἡ γεωμετρία μετρεῖ,Earth measurement,320,Plato Euclid
+γραμμή,grammē,γραμμή,noun fem nom sg,line,ἡ γραμμὴ εὐθεῖα,Linear measure,380,Euclid Aristotle
+σημεῖον,sēmeion,σημεῖον,noun neut nom sg,point,τὸ σημεῖον μικρόν,Geometric position,340,Euclid Aristotle
+κύκλος,kyklos,κύκλος,noun masc nom sg,circle,ὁ κύκλος στρογγύλος,Round figure,420,Euclid Plato
+τρίγωνον,trigōnon,τρίγωνον,noun neut nom sg,triangle,τὸ τρίγωνον τρίγωνον,Three-sided figure,240,Euclid
+τετράγωνον,tetragōnon,τετράγωνον,noun neut nom sg,square,τὸ τετράγωνον ἴσον,Four-sided figure,220,Euclid
+κύβος,kybos,κύβος,noun masc nom sg,cube,ὁ κύβος στερεός,Six-faced solid,180,Euclid Plato
+σφαῖρα,sphaira,σφαῖρα,noun fem nom sg,sphere/ball,ἡ σφαῖρα στρογγύλη,Round solid,280,Euclid Aristotle
+διάμετρος,diametros,διάμετρος,noun fem nom sg,diameter,ἡ διάμετρος μακρά,Circle measure,180,Euclid
+περίμετρος,perimetros,περίμετros,noun fem nom sg,perimeter,ἡ περίμετρος κυκλεῖ,Boundary measure,120,Euclid
+ἀστρονομία,astronomia,ἀστρονομία,noun fem nom sg,astronomy,ἡ ἀστρονομία σκοπεῖ,Star study,240,Plato Aristotle
+ἀστήρ,astēr,ἀστήρ,noun masc nom sg,star,ὁ ἀστὴρ λάμπει,Celestial body,420,Homer.Il Aristotle
+πλανήτης,planētēs,πλανήτης,noun masc nom sg,planet,ὁ πλανήτης κινεῖται,Wandering star,160,Aristotle
+κόσμος,kosmos,κόσμος,noun masc nom sg,universe/order,ὁ κόσμος καλός,Ordered whole,580,Heraclitus Plato
+οὐρανός,ouranos,οὐρανός,noun masc nom sg,heaven/sky,ὁ οὐρανὸς ὑψηλός,Celestial sphere,620,Homer.Il Aristotle
+φύσις,physis,φύσις,noun fem nom sg,nature,ἡ φύσις γεννᾷ,Natural essence,720,Heraclitus Aristotle
+στοιχεῖον,stoicheion,στοιχεῖον,noun neut nom sg,element,τὸ στοιχεῖον ἁπλοῦν,Basic component,280,Plato Aristotle
+ὕλη,hylē,ὕλη,noun fem nom sg,matter/material,ἡ ὕλη παθητική,Substrate substance,380,Aristotle
+δημοκρατία,dēmokratia,δημοκρατία,noun fem nom sg,democracy,ἡ δημοκρατία ἐλευθέρα,People's rule,320,Herodotus Thucydides
+ἀριστοκρατία,aristokratia,ἀριστοκρατία,noun fem nom sg,aristocracy,ἡ ἀριστοκρατία καλή,Rule of best,240,Plato Aristotle
+τυραννίς,tyrannis,τυραννίς,noun fem nom sg,tyranny,ἡ τυραννὶς κακή,Autocratic rule,380,Herodotus Plato
+μοναρχία,monarchia,μοναρχία,noun fem nom sg,monarchy,ἡ μοναρχία μία,Single rule,180,Aristotle
+πολίτης,politēs,πολίτης,noun masc nom sg,citizen,ὁ πολίτης μετέχει,City member,520,Thucydides Plato
+ἄρχων,archōn,ἄρχων,noun masc nom sg,ruler/magistrate,ὁ ἄρχων ἄρχει,Government official,480,Herodotus Aristotle
+δικαστήριον,dikastērion,δικαστήριον,noun neut nom sg,law court,τὸ δικαστήριον κρίνει,Judicial venue,340,Aristophanes Thucydides
+ἐκκλησία,ekklēsia,ἐκκλησία,noun fem nom sg,assembly,ἡ ἐκκλησία βουλεύεται,Popular assembly,420,Thucydides Aristophanes
+βουλή,boulē,βουλή,noun fem nom sg,council,ἡ βουλὴ βουλεύεται,Advisory body,480,Herodotus Thucydides
+ἀγορά,agora,ἀγορά,noun fem nom sg,marketplace,ἡ ἀγορὰ πωλεῖ,Commercial center,580,Homer.Il Thucydides
+δῆμος,dēmos,δῆμος,noun masc nom sg,people/district,ὁ δῆμος κρατεῖ,Popular body,620,Herodotus Thucydides
+φυλή,phylē,φυλή,noun fem nom sg,tribe,ἡ φυλὴ συγγενής,Kinship group,420,Herodotus Thucydides
+δημότης,dēmotēs,δημότης,noun masc nom sg,tribesman,ὁ δημότης πολίτης,Tribe member,280,Aristophanes
+μέτοικος,metoikos,μέτοικος,noun masc nom sg,resident alien,ὁ μέτοικος οἰκεῖ,Foreign resident,240,Thucydides Aristophanes
+δοῦλος,doulos,δοῦλος,noun masc nom sg,slave,ὁ δοῦλος δουλεύει,Unfree person,580,Homer.Il Aristophanes
+ἐλεύθερος,eleutheros,ἐλεύθερος,adj masc nom sg,free,ἐλεύθερος ἀνήρ,Not enslaved,620,Homer.Il Thucydides
+δεσπότης,despotēs,despotēs,δεσπότης,noun masc nom sg,master,ὁ δεσπότης κυριεύει,Household head,420,Homer.Il Aristophanes
+οἰκοδεσπότης,oikodespotēs,οἰκοδεσπότης,noun masc nom sg,householder,ὁ οἰκοδεσπότης οἰκεῖ,House master,280,Aristophanes
+οἰκία,oikia,οἰκία,noun fem nom sg,house,ἡ οἰκία μεγάλη,Dwelling place,520,Homer.Il Thucydides
+γένος,genos,γένος,noun neut nom sg,race/family,τὸ γένος εὐγενές,Lineage group,580,Homer.Il Plato
+πάτριος,patrios,πάτριος,adj masc nom sg,ancestral,πάτριος νόμος,From ancestors,380,Herodotus Plato
+ξένος,xenos,ξένος,noun masc nom sg,stranger/guest,ὁ ξένος ἥκει,Foreign visitor,620,Homer.Il Herodotus
+φιλοξενία,philoxenia,φιλοξενία,noun fem nom sg,hospitality,ἡ φιλοξενία καλή,Guest friendship,280,Homer.Il Plato
+ἀργύριον,argyrion,ἀργύριον,noun neut nom sg,silver/money,τὸ ἀργύριον λευκόν,Precious metal currency,480,Herodotus Aristophanes
+χρυσός,chrysos,χρυσός,noun masc nom sg,gold,ὁ χρυσὸς λάμπει,Precious metal,520,Homer.Il Herodotus
+νόμισμα,nomisma,νόμισμα,noun neut nom sg,coin/currency,τὸ νόμισμα στρογγύλον,Monetary unit,320,Aristophanes Aristotle
+τιμή,timē,τιμή,noun fem nom sg,price/honor,ἡ τιμὴ μεγάλη,Value or esteem,680,Homer.Il Thucydides
+ὠνή,ōnē,ὠνή,noun fem nom sg,purchase,ἡ ὠνὴ καλή,Buying transaction,240,Aristophanes
+πρᾶσις,prasis,πρᾶσις,noun fem nom sg,sale,ἡ πρᾶσις ἀγαθή,Selling transaction,220,Aristophanes
+κέρδος,kerdos,κέρδος,noun neut nom sg,profit/gain,τὸ κέρδος μέγα,Financial benefit,380,Herodotus Aristophanes
+ζημία,zēmia,ζημία,noun fem nom sg,loss/penalty,ἡ ζημία κακή,Financial damage,320,Thucydides Aristophanes
+πλοῦτος,ploutos,πλοῦτος,noun masc nom sg,wealth,ὁ πλοῦτος πολύς,Material riches,520,Herodotus Aristophanes
+πενία,penia,πενία,noun fem nom sg,poverty,ἡ πενία χαλεπή,Material lack,380,Aristophanes Plato
+χρέος,chreos,χρέος,noun neut nom sg,debt,τὸ χρέος βαρύ,Financial obligation,340,Thucydides Aristophanes
+δάνειον,daneion,δάνειον,noun neut nom sg,loan,τὸ δάνειον χρήσιμον,Borrowed money,240,Aristophanes
+τόκος,tokos,τόκος,noun masc nom sg,interest/offspring,ὁ τόκος μέγας,Financial return,280,Aristophanes Aristotle
+ἐργασία,ergasia,ἐργασία,noun fem nom sg,work/labor,ἡ ἐργασία χαλεπή,Productive activity,420,Xenophon Plato
+μισθός,misthos,μισθός,noun masc nom sg,wage/pay,ὁ μισθὸς ἀρκεῖ,Work compensation,480,Thucydides Aristophanes
+ἐργάτης,ergatēs,ἐργάτης,noun masc nom sg,worker,ὁ ἐργάτης ἐργάζεται,Laboring person,340,Aristophanes Plato
+συμβόλαιον,symbolaion,συμβόλαιον,noun neut nom sg,contract,τὸ συμβόλαιον γράφεται,Legal agreement,180,Aristophanes
+ἐγγύη,eggyē,ἐγγύη,noun fem nom sg,pledge/surety,ἡ ἐγγύη ἀσφαλής,Security guarantee,240,Aristophanes
+κληρονομία,klēronomia,κληρονομία,noun fem nom sg,inheritance,ἡ κληρονομία πατρῴα,Inherited property,280,Aristophanes Plato
+διαθήκη,diathēkē,διαθήκη,noun fem nom sg,will/testament,ἡ διαθήκη γράφεται,Legal document,220,Aristophanes
+κτῆμα,ktēma,κτῆμα,noun neut nom sg,possession,τὸ κτῆμα ἴδιον,Owned property,380,Thucydides Plato
+γῆ,gē,γῆ,noun fem nom sg,earth/land,ἡ γῆ φέρει,Terrestrial domain,820,Homer.Il Herodotus
+ἀγρός,agros,ἀγρός,noun masc nom sg,field,ὁ ἀγρὸς καρποφόρος,Agricultural land,480,Homer.Il Xenophon
+ἀήρ,aēr,ἀήρ,noun masc nom sg,air,ὁ ἀὴρ καθαρός,Atmospheric element,420,Homer.Il Aristotle
+πνεῦμα,pneuma,πνεῦμα,noun neut nom sg,wind/breath,τὸ πνεῦμα φυσᾷ,Moving air,540,Homer.Il Aristotle
+ἄνεμος,anemos,ἄνεμος,noun masc nom sg,wind,ὁ ἄνεμος ἰσχυρός,Air current,520,Homer.Il Aristotle
+αὔρα,aura,αὔρα,noun fem nom sg,breeze,ἡ αὔρα ἡδεῖα,Gentle wind,280,Homer.Il Aristophanes
+νέφος,nephos,νέφος,noun neut nom sg,cloud,τὸ νέφος σκοτεινόν,Sky formation,380,Homer.Il Aristotle
+ὄμβρος,ombros,ὄμβρος,noun masc nom sg,rain,ὁ ὄμβρος πίπτει,Falling water,340,Homer.Il Aristotle
+ὕδωρ,hydōr,ὕδωρ,noun neut nom sg,water,τὸ ὕδωρ ῥεῖ,Liquid element,740,Homer.Il Aristotle
+ὑετός,hyetos,ὑετός,noun masc nom sg,rainfall,ὁ ὑετὸς πολύς,Seasonal precipitation,260,Hesiod Aristotle
+χιών,chiōn,χιών,noun fem nom sg,snow,ἡ χιὼν λευκή,Frozen precipitation,280,Homer.Il Aristotle
+κρύσταλλος,krystallos,κρύσταλλος,noun masc nom sg,ice/crystal,ὁ κρύσταλλος ψυχρός,Frozen water,180,Aristotle
+χάλαζα,chalaza,χάλαζα,noun fem nom sg,hail,ἡ χάλαζα βλάπτει,Frozen rain,160,Aristotle
+βροντή,brontē,βροντή,noun fem nom sg,thunder,ἡ βροντὴ φοβερά,Sky sound,280,Homer.Il Aristotle
+ἀστραπή,astrapē,ἀστραπή,noun fem nom sg,lightning,ἡ ἀστραπὴ λάμπει,Sky flash,260,Homer.Il Aristotle
+ἶρις,iris,ἶρις,noun fem nom sg,rainbow,ἡ ἶρις ποικίλη,Colorful arc,200,Homer.Il Aristotle
+ὁμίχλη,omichlē,ὁμίχλη,noun fem nom sg,mist/fog,ἡ ὁμίχλη καλύπτει,Thick vapor,180,Homer.Il Aristotle
+ἀχλύς,achlys,ἀχλύς,noun fem nom sg,mist/darkness,ἡ ἀχλὺς σκοτεινή,Obscuring vapor,220,Homer.Il
+καῦμα,kauma,καῦμα,noun neut nom sg,heat/burning,τὸ καῦμα ἰσχυρόν,Intense warmth,240,Herodotus Aristotle
+ψῦχος,psychos,ψῦχος,noun neut nom sg,cold,τὸ ψῦχος δυσχερές,Low temperature,320,Aristotle Xenophon
+κρύος,kryos,κρύος,noun neut nom sg,frost,τὸ κρύος παγετῶδες,Freezing cold,180,Aristotle
+ἡλιος,hēlios,ἥλιος,noun masc nom sg,sun,ὁ ἥλιος λάμπει,Solar body,620,Homer.Il Aristotle
+σελήνη,selēnē,σελήνη,noun fem nom sg,moon,ἡ σελήνη φαίνεται,Lunar body,380,Homer.Il Aristotle
+ἠώς,ēōs,ἠώς,noun fem nom sg,dawn,ἡ ἠὼς ῥοδοδάκτυλος,Morning light,420,Homer.Il
+ἑσπέρα,hespera,ἑσπέρα,noun fem nom sg,evening,ἡ ἑσπέρα ἡδεῖα,Evening time,320,Homer.Il Aristophanes
+σῖτος,sitos,σῖτος,noun masc nom sg,grain/food,ὁ σῖτος τρέφει,Cereal grain,580,Homer.Il Herodotus
+πυρός,pyros,πυρός,noun masc nom sg,wheat,ὁ πυρὸς καλός,Bread grain,380,Herodotus Theophrastus
+κριθή,krithē,κριθή,noun fem nom sg,barley,ἡ κριθὴ φέρει,Feed grain,340,Homer.Il Theophrastus
+ὄρυζα,oryza,ὄρυζα,noun fem nom sg,rice,ἡ ὄρυζα ἀσιατική,Asian grain,120,Theophrastus
+ἄρτος,artos,ἄρτος,noun masc nom sg,bread,ὁ ἄρτος νόστιμος,Baked food,480,Homer.Il Aristophanes
+μάζα,maza,μάζα,noun fem nom sg,barley cake,ἡ μάζα τραχεῖα,Simple bread,280,Aristophanes
+πλακοῦς,plakous,πλακοῦς,noun masc nom sg,flat cake,ὁ πλακοῦς γλυκύς,Sweet bread,180,Aristophanes
+μέλι,meli,μέλι,noun neut nom sg,honey,τὸ μέλι ἡδύ,Bee product,420,Homer.Il Aristophanes
+γάλα,gala,γάλα,noun neut nom sg,milk,τὸ γάλα λευκόν,Animal secretion,380,Homer.Il Aristotle
+τυρός,tyros,τυρός,noun masc nom sg,cheese,ὁ τυρὸς στερεός,Dairy product,320,Homer.Od Aristophanes
+βούτυρον,boutyron,βούτυρον,noun neut nom sg,butter,τὸ βούτυρον παχύ,Churned fat,160,Herodotus
+ἔλαιον,elaion,ἔλαιον,noun neut nom sg,olive oil,τὸ ἔλαιον χρήσιμον,Pressed oil,420,Homer.Il Aristophanes
+ἐλαία,elaia,ἐλαία,noun fem nom sg,olive tree,ἡ ἐλαία καρποφόρος,Oil-bearing tree,380,Homer.Il Theophrastus
+κρέας,kreas,κρέας,noun neut nom sg,meat,τὸ κρέας νόστιμον,Animal flesh,460,Homer.Il Aristophanes
+ἰχθύς,ichthys,ἰχθύς,noun masc nom sg,fish,ὁ ἰχθὺς νηκτός,Aquatic animal,420,Homer.Il Aristophanes
+ὄρνις,ornis,ὄρνις,noun masc nom sg,bird,ὁ ὄρνις πέτεται,Flying animal,380,Homer.Il Aristophanes
+ᾠόν,ōion,ᾠόν,noun neut nom sg,egg,τὸ ᾠὸν στρογγύλον,Bird product,280,Aristophanes Aristotle
+οἶνος,oinos,οἶνος,noun masc nom sg,wine,ὁ οἶνος ἡδύς,Fermented grape juice,680,Homer.Il Aristophanes
+ἄμπελος,ampelos,ἄμπελος,noun fem nom sg,vine,ἡ ἄμπελος καρποφόρος,Grape-bearing plant,340,Homer.Il Theophrastus
+βότρυς,botrys,βότρυς,noun masc nom sg,grape cluster,ὁ βότρυς γλυκύς,Grape bunch,240,Aristophanes
+σταφυλή,staphylē,σταφυλή,noun fem nom sg,grape,ἡ σταφυλὴ ὡραία,Individual grape,220,Theophrastus
+ζῦθος,zythos,ζῦθος,noun masc nom sg,beer,ὁ ζῦθος αἰγυπτιακός,Grain beverage,180,Herodotus
+μέθυ,methy,μέθυ,noun neut nom sg,strong drink,τὸ μέθυ κραιπαλῶδες,Intoxicating liquor,260,Homer.Il
+ἱμάτιον,himation,ἱμάτιον,noun neut nom sg,cloak,τὸ ἱμάτιον θερμαίνει,Outer garment,420,Homer.Il Aristophanes
+χιτών,chitōn,χιτών,noun masc nom sg,tunic,ὁ χιτὼν λεπτός,Inner garment,480,Homer.Il Aristophanes
+πέπλος,peplos,πέπλος,noun masc nom sg,robe,ὁ πέπλος καλός,Female garment,320,Homer.Il Euripides
+φᾶρος,pharos,φᾶρος,noun neut nom sg,mantle,τὸ φᾶρος βαρύ,Heavy cloak,240,Homer.Il
+χλαμύς,chlamys,χλαμύς,noun fem nom sg,military cloak,ἡ χλαμὺς στρατιωτική,Soldier's wrap,220,Xenophon
+ἐσθής,esthēs,ἐσθής,noun fem nom sg,clothing,ἡ ἐσθὴς καλή,General garment,380,Homer.Il Aristophanes
+ὑπόδημα,hypodēma,ὑπόδημα,noun neut nom sg,shoe,τὸ ὑπόδημα δερμάτινον,Foot covering,280,Aristophanes
+σανδάλιον,sandalion,σανδάλιον,noun neut nom sg,sandal,τὸ σανδάλιον λεπτόν,Light footwear,180,Aristophanes
+κόθορνος,kothornos,κόθορνος,noun masc nom sg,buskin,ὁ κόθορνος ὑψηλός,High boot,140,Aristophanes
+κρήδεμνον,krēdemnon,κρήδεμνον,noun neut nom sg,veil,τὸ κρήδεμνον λεπτόν,Head covering,180,Homer.Il
+στέφανος,stephanos,στέφανος,noun masc nom sg,crown/wreath,ὁ στέφανος καλός,Head ornament,340,Homer.Il Aristophanes
+δακτύλιος,daktylios,δακτύλιος,noun masc nom sg,ring,ὁ δακτύλιος χρυσοῦς,Finger ornament,240,Herodotus Aristophanes
+περιδέραιον,perideraion,περιδέραιον,noun neut nom sg,necklace,τὸ περιδέραιον καλόν,Neck ornament,140,Aristophanes
+ψέλιον,pselion,ψέλιον,noun neut nom sg,bracelet,τὸ ψέλιον χρυσοῦν,Arm ornament,120,Aristophanes
+ἐνώτιον,enōtion,ἐνώτιον,noun neut nom sg,earring,τὸ ἐνώτιον λάμπει,Ear ornament,100,Aristophanes
+λίνον,linon,λίνον,noun neut nom sg,linen/flax,τὸ λίνον λευκόν,Plant fiber,320,Homer.Il Herodotus
+μαλλός,mallos,μαλλός,noun masc nom sg,wool,ὁ μαλλὸς μαλακός,Animal fiber,280,Homer.Il Aristophanes
+ὕφασμα,hyphasma,ὕφασμα,noun neut nom sg,woven fabric,τὸ ὕφασμα λεπτόν,Textile material,240,Homer.Il
+ἱστός,histos,ἱστός,noun masc nom sg,loom,ὁ ἱστὸς ὑφαίνει,Weaving device,320,Homer.Il Aristophanes
+κερκίς,kerkis,κερκίς,noun fem nom sg,shuttle,ἡ κερκὶς τρέχει,Weaving tool,180,Homer.Il
+κλωστήρ,klōstēr,κλωστήρ,noun masc nom sg,spindle,ὁ κλωστὴρ στρέφεται,Spinning tool,160,Homer.Il
+ἠλακάτη,ēlakatē,ἠλακάτη,noun fem nom sg,distaff,ἡ ἠλακάτη φέρει,Spinning rod,140,Homer.Il
+βέλονη,belonē,βέλονη,noun fem nom sg,needle,ἡ βέλονη ὀξεῖα,Sewing tool,180,Aristophanes
+σφυρίον,sphyrion,σφυρίον,noun neut nom sg,hammer,τὸ σφυρίον βαρύ,Striking tool,240,Homer.Il Aristophanes
+ἄκμων,akmōn,ἄκμων,noun masc nom sg,anvil,ὁ ἄκμων στερεός,Metal-working surface,180,Homer.Il
+τύπανον,tympanon,τύπανον,noun neut nom sg,drum/hammer,τὸ τύπανον κρούει,Percussion tool,200,Aristophanes
+σκέπαρνον,skeparnon,σκέπαρνον,noun neut nom sg,adze,τὸ σκέπαρνον ξυαίνει,Woodworking tool,120,Homer.Il
+πέλεκυς,pelekys,πέλεκυς,noun masc nom sg,axe,ὁ πέλεκυς κόπτει,Cutting tool,280,Homer.Il Aristophanes
+δρέπανον,drepanon,δρέπανον,noun neut nom sg,sickle,τὸ δρέπανον θερίζει,Harvesting tool,240,Homer.Il Aristophanes
+ἅρπη,harpē,ἅρπη,noun fem nom sg,pruning hook,ἡ ἅρπη κλαδεύει,Pruning tool,180,Theophrastus
+σκαπάνη,skapanē,σκαπάνη,noun fem nom sg,hoe,ἡ σκαπάνη σκάπτει,Digging tool,200,Aristophanes
+δίκελλα,dikella,δίκελλα,noun fem nom sg,mattock,ἡ δίκελλα χαλκῆ,Two-pronged hoe,140,Theophrastus
+ἄροτρον,arotron,ἄροτρον,noun neut nom sg,plow,τὸ ἄροτρον ἀροῖ,Farming implement,320,Hesiod Aristophanes
+ὑνίς,hynis,ὑνίς,noun fem nom sg,plowshare,ἡ ὑνὶς ὀξεῖα,Plow blade,160,Hesiod
+κέντρον,kentron,κέντρον,noun neut nom sg,goad,τὸ κέντρον κεντεῖ,Driving stick,240,Homer.Il Aristophanes
+ζυγός,zygos,ζυγός,noun masc nom sg,yoke,ὁ ζυγὸς συνάπτει,Animal harness,360,Homer.Il Hesiod
+φορμός,phormos,φορμός,noun masc nom sg,basket,ὁ φορμὸς φέρει,Carrying container,280,Homer.Il Aristophanes
+κάλαθος,kalathos,κάλαθος,noun masc nom sg,work basket,ὁ κάλαθος εὔχρηστος,Weaving basket,220,Homer.Il Theocr
+κανοῦν,kanoun,κανοῦν,noun neut nom sg,basket,τὸ κανοῦν ἱερόν,Ritual basket,180,Aristophanes
+πίθος,pithos,πίθος,noun masc nom sg,storage jar,ὁ πίθος μέγας,Large vessel,320,Homer.Il Aristophanes
+ἀμφορεύς,amphoreus,ἀμφορεύς,noun masc nom sg,amphora,ὁ ἀμφορεὺς οἰνηρός,Two-handled jar,280,Aristophanes
+κάδος,kados,κάδος,noun masc nom sg,jar,ὁ κάδος ὑδρηλός,Water vessel,240,Homer.Il Aristophanes
+ὑδρία,hydria,ὑδρία,noun fem nom sg,water jar,ἡ ὑδρία πλήρης,Water container,260,Homer.Il Aristophanes
+κρατήρ,kratēr,κρατήρ,noun masc nom sg,mixing bowl,ὁ κρατὴρ οἰνηρός,Wine vessel,320,Homer.Il Aristophanes
+κύλιξ,kylix,κύλιξ,noun fem nom sg,cup,ἡ κύλιξ καλή,Drinking vessel,280,Homer.Il Aristophanes
+σκύφος,skyphos,σκύφος,noun masc nom sg,cup,ὁ σκύφος βαθύς,Deep cup,220,Homer.Il Aristophanes
+ναῦς,naus,ναῦς,noun fem nom sg,ship,ἡ ναῦς πλεῖ,Marine vessel,680,Homer.Il Thucydides
+πλοῖον,ploion,πλοῖον,noun neut nom sg,vessel,τὸ πλοῖον μέγα,Sailing craft,480,Homer.Od Thucydides
+ὁλκάς,holkas,ὁλκάς,noun fem nom sg,merchant ship,ἡ ὁλκὰς φορτηγός,Cargo vessel,240,Thucydides
+τριήρης,triērēs,τριήρης,noun fem nom sg,trireme,ἡ τριήρης ταχεῖα,War galley,320,Thucydides Xenophon
+πεντηκόντορος,pentēkontoros,πεντηκόντορος,noun fem nom sg,fifty-oared ship,ἡ πεντηκόντορος μακρά,Long galley,120,Homer.Il
+λέμβος,lembos,λέμβος,noun fem nom sg,light vessel,ἡ λέμβος κούφη,Fast boat,180,Homer.Il Xenophon
+ἄκατος,akatos,ἄκατος,noun fem nom sg,light ship,ἡ ἄκατος ταχεῖα,Small vessel,160,Homer.Il Herodotus
+σκάφη,skaphē,σκάφη,noun fem nom sg,skiff,ἡ σκάφη μικρά,Small boat,220,Homer.Il Aristophanes
+κέλης,kelēs,κέλης,noun masc nom sg,yacht,ὁ κέλης ταχύς,Fast ship,140,Thucydides
+ἱστίον,histion,ἱστίον,noun neut nom sg,sail,τὸ ἱστίον λευκόν,Wind catcher,340,Homer.Od Thucydides
+ἱστός,histos,ἱστός,noun masc nom sg,mast,ὁ ἱστὸς ὀρθός,Sail support,260,Homer.Od Thucydides
+κεραία,keraia,κεραία,noun fem nom sg,yard arm,ἡ κεραία στερεά,Sail beam,180,Homer.Od
+σχοινίον,schoinion,σχοινίον,noun neut nom sg,rope,τὸ σχοινίον ἰσχυρόν,Twisted cordage,240,Homer.Od Thucydides
+πεῖσμα,peisma,πεῖσμα,noun neut nom sg,cable,τὸ πεῖσμα παχύ,Mooring rope,160,Homer.Od
+εὐνή,eynē,εὐνή,noun fem nom sg,anchor cable,ἡ εὐνὴ ἰσχυρά,Ship's anchor line,120,Homer.Od
+ἄγκυρα,ankyra,ἄγκυρα,noun fem nom sg,anchor,ἡ ἄγκυρα βαρεῖα,Mooring weight,200,Herodotus Thucydides
+πηδάλιον,pēdalion,πηδάλιον,noun neut nom sg,rudder,τὸ πηδάλιον στρέφει,Steering oar,240,Homer.Od Plato
+κωπή,kōpē,κωπή,noun fem nom sg,oar,ἡ κωπὴ κρούει,Rowing blade,320,Homer.Il Thucydides
+πρῷρα,prōira,πρῷρα,noun fem nom sg,prow,ἡ πρῷρα ὀξεῖα,Ship's front,280,Homer.Il Thucydides
+πρύμνη,prymnē,πρύμνη,noun fem nom sg,stern,ἡ πρύμνη πλατεῖα,Ship's rear,240,Homer.Il Thucydides
+τρόπις,tropis,τρόπις,noun fem nom sg,keel,ἡ τρόπις στερεά,Ship's backbone,160,Homer.Il
+σελμάς,selmas,σελμάς,noun fem nom sg,deck plank,ἡ σελμὰς ξυλίνη,Ship flooring,120,Homer.Il
+κλίμαξ,klimax,κλίμαξ,noun fem nom sg,ladder,ἡ κλίμαξ ὀρθή,Climbing device,240,Homer.Od Xenophon
+λευκός,leukos,λευκός,adj masc nom sg,white,λευκὸς χιών,Bright color,580,Homer.Il Plato
+μέλας,melas,μέλας,adj masc nom sg,black/dark,μέλας κόραξ,Dark color,620,Homer.Il Aeschylus
+ἐρυθρός,erythros,ἐρυθρός,adj masc nom sg,red,ἐρυθρὸς οἶνος,Blood color,420,Homer.Il Herodotus
+ξανθός,xanthos,ξανθός,adj masc nom sg,yellow/blonde,ξανθὸς ἥλιος,Golden color,380,Homer.Il Pindar
+χλωρός,chlōros,χλωρός,adj masc nom sg,green/pale,χλωρὸν φύλλον,Plant color,340,Homer.Il Theophrastus
+κυάνεος,kyaneos,κυάνεος,adj masc nom sg,dark blue,κυάνεος οὐρανός,Sky color,280,Homer.Il
+πορφύρεος,porphyreos,πορφύρεος,adj masc nom sg,purple,πορφύρεος χιτών,Royal color,320,Homer.Il Aristophanes
+ἁλουργής,halouprgēs,ἁλουργής,adj masc nom sg,sea-purple,ἁλουργὴς ἐσθής,Deep purple,180,Aristophanes
+οἰνόπης,oinōpēs,οἰνόπης,adj masc nom sg,wine-dark,οἰνόπης πόντος,Wine-colored,240,Homer.Il
+ἀργύρεος,argyreos,ἀργύρεος,adj masc nom sg,silver,ἀργύρεος κρατήρ,Silver-colored,260,Homer.Il
+χρυσεός,chryseos,χρυσεός,adj masc nom sg,golden,χρυσεὸς στέφανος,Gold-colored,420,Homer.Il
+αἰγλήεις,aiglēeis,αἰγλήεις,adj masc nom sg,gleaming,αἰγλήεις ἥλιος,Shining bright,180,Homer.Il
+λαμπρός,lampros,λαμπρός,adj masc nom sg,bright/brilliant,λαμπρὸς ἀστήρ,Luminous quality,320,Homer.Il Plato
+σκοτεινός,skoteinos,σκοτεινός,adj masc nom sg,dark,σκοτεινὴ νύξ,Without light,280,Aeschylus Plato
+ἀμαυρός,amauros,ἀμαυρός,adj masc nom sg,dim,ἀμαυρὸς φῶς,Faint light,180,Homer.Il
+παμφαής,pamphaēs,παμφαής,adj masc nom sg,all-bright,παμφαὲς φῶς,Very bright,120,Homer.Il
+στίλβων,stilbōn,στιλβών,adj masc nom sg,glittering,στίλβων χαλκός,Gleaming metal,160,Homer.Il
+ποικίλος,poikilos,ποικίλος,adj masc nom sg,varied/dappled,ποικίλος ὄφις,Many-colored,380,Homer.Il Aeschylus
+αἰόλος,aiolos,αἰόλος,adj masc nom sg,quick-moving,αἰόλος ἵππος,Swift-changing,240,Homer.Il
+τρηχύς,trachys,τραχύς,adj masc nom sg,rough,τραχεῖα πέτρα,Uneven surface,320,Homer.Il Plato
+λεῖος,leios,λεῖος,adj masc nom sg,smooth,λεῖος λίθος,Even surface,280,Homer.Il Plato
+μαλακός,malakos,μαλακός,adj masc nom sg,soft,μαλακὸς μαλλός,Yielding texture,340,Homer.Il Aristophanes
+σκληρός,sklēros,σκληρός,adj masc nom sg,hard,σκληρὸς λίθος,Firm texture,300,Homer.Il Plato
+χαρά,chara,χαρά,noun fem nom sg,joy,ἡ χαρὰ μεγάλη,Happiness emotion,520,Homer.Il Aristophanes
+εὐφροσύνη,euphrosynē,εὐφροσύνη,noun fem nom sg,mirth,ἡ εὐφροσύνη ἡδεῖα,Cheerful feeling,280,Pindar Aristophanes
+ἡδονή,hēdonē,ἡδονή,noun fem nom sg,pleasure,ἡ ἡδονὴ τέρπει,Physical enjoyment,420,Plato Aristophanes
+τέρψις,terpsis,τέρψις,noun fem nom sg,delight,ἡ τέρψις καλή,Refined pleasure,240,Pindar Plato
+λύπη,lypē,λύπη,noun fem nom sg,pain/grief,ἡ λύπη βαρεῖα,Emotional suffering,460,Homer.Il Plato
+ὀδύνη,odynē,ὀδύνη,noun fem nom sg,pain,ἡ ὀδύνη ὀξεῖα,Physical suffering,320,Homer.Il Hippocrates
+ἄλγος,algos,ἄλγos,noun neut nom sg,pain,τὸ ἄλγος δεινόν,General suffering,380,Homer.Il Aeschylus
+πένθος,penthos,πένθος,noun neut nom sg,grief,τὸ πένθος βαρύ,Mourning sorrow,320,Homer.Il Sophocles
+θρῆνος,thrēnos,θρῆνος,noun masc nom sg,lament,ὁ θρῆνος μελῳδεῖ,Funeral song,240,Aeschylus Sophocles
+κλαυθμός,klauthmos,κλαυθμός,noun masc nom sg,weeping,ὁ κλαυθμὸς πικρός,Vocal grief,220,Homer.Il Euripides
+δάκρυον,dakryon,δάκρυον,noun neut nom sg,tear,τὸ δάκρυον ῥεῖ,Grief fluid,360,Homer.Il Euripides
+φόβος,phobos,φόβος,noun masc nom sg,fear,ὁ φόβος δείλός,Terror emotion,520,Homer.Il Plato
+δέος,deos,δέος,noun neut nom sg,fear/awe,τὸ δέος σέβας,Reverent fear,340,Homer.Il Aeschylus
+τρόμος,tromos,τρόμος,noun masc nom sg,trembling,ὁ τρόμος σείει,Physical fear,260,Homer.Il Hippocrates
+θάρσος,tharsos,θάρσος,noun neut nom sg,courage,τὸ θάρσος ἀνδρεῖον,Brave confidence,380,Homer.Il Thucydides
+ἀνδρεία,andreia,ἀνδρεία,noun fem nom sg,courage,ἡ ἀνδρεία καλή,Manly virtue,420,Plato Aristotle
+τόλμα,tolma,τόλμα,noun fem nom sg,daring,ἡ τόλμα θρασεῖα,Bold audacity,320,Thucydides Plato
+θυμός,thymos,θυμός,noun masc nom sg,spirit/anger,ὁ θυμὸς μένει,Emotional energy,680,Homer.Il Plato
+ὀργή,orgē,ὀργή,noun fem nom sg,anger,ἡ ὀργὴ χαλεπή,Violent emotion,420,Homer.Il Aristotle
+μῆνις,mēnis,μῆνις,noun fem nom sg,wrath,ἡ μῆνις θεία,Divine anger,280,Homer.Il Aeschylus
+κότος,kotos,κότος,noun masc nom sg,grudge,ὁ κότος μακρός,Lasting resentment,240,Homer.Il Aeschylus
+νέμεσις,nemesis,νέμεσις,noun fem nom sg,indignation,ἡ νέμεσις δικαία,Righteous anger,320,Hesiod Aeschylus
+φθόνος,phthonos,φθόνος,noun masc nom sg,envy,ὁ φθόνος κακός,Jealous resentment,280,Pindar Plato
+ἔρως,erōs,ἔρως,noun masc nom sg,love/desire,ὁ ἔρως καίει,Passionate love,520,Sappho Plato
+φιλία,philia,φιλία,noun fem nom sg,friendship,ἡ φιλία πιστή,Affectionate bond,480,Aristotle Plato
+στοργή,storgē,στοργή,noun fem nom sg,affection,ἡ στοργὴ οἰκεία,Family love,240,Aristotle
+ἀγάπη,agapē,ἀγάπη,noun fem nom sg,love,ἡ ἀγάπη ἀγαθή,Selfless love,320,NT Plato
+μίσος,misos,μίσος,noun neut nom sg,hatred,τὸ μίσος πικρόν,Hostile emotion,340,Homer.Il Thucydides
+ἔχθρα,echthra,ἔχθρα,noun fem nom sg,hostility,ἡ ἔχθρα πολεμία,Active enmity,380,Homer.Il Thucydides
+ζῆλος,zēlos,ζῆλος,noun masc nom sg,zeal/jealousy,ὁ ζῆλος σφοδρός,Intense emotion,280,Plato
+ἐλπίς,elpis,ἐλπίς,noun fem nom sg,hope,ἡ ἐλπὶς ἀγαθή,Future expectation,520,Hesiod Plato
+μνήμη,mnēmē,μνήμη,noun fem nom sg,memory,ἡ μνήμη μένει,Recollection faculty,420,Plato Aristotle
+λήθη,lēthē,λήθη,noun fem nom sg,forgetfulness,ἡ λήθη καλύπτει,Memory loss,320,Hesiod Plato
+σοφία,sophia,σοφία,noun fem nom sg,wisdom,ἡ σοφία θεία,Divine knowledge,680,Heraclitus Plato
+φρόνησις,phronēsis,φρόνησις,noun fem nom sg,practical wisdom,ἡ φρόνησις χρήσιμος,Sound judgment,380,Aristotle
+μωρία,mōria,μωρία,noun fem nom sg,folly,ἡ μωρία βλάπτει,Foolish ignorance,240,Aristophanes Plato
+ἄγνοια,agnoia,ἄγνοια,noun fem nom sg,ignorance,ἡ ἄγνοια σκοτεινή,Lack of knowledge,280,Plato
+ἐπιστήμη,epistēmē,ἐπιστήμη,noun fem nom sg,knowledge,ἡ ἐπιστήμη ἀληθής,Scientific knowledge,420,Plato Aristotle
+τέχνη,technē,τέχνη,noun fem nom sg,art/skill,ἡ τέχνη σοφή,Practical skill,580,Plato Aristotle
+ἐμπειρία,empeiria,ἐμπειρία,noun fem nom sg,experience,ἡ ἐμπειρία διδάσκει,Practical knowledge,320,Aristotle
+μάθησις,mathēsis,μάθησις,noun fem nom sg,learning,ἡ μάθησις ὠφέλιμος,Educational process,280,Plato
+διδασκαλία,didaskalia,διδασκαλία,noun fem nom sg,teaching,ἡ διδασκαλία παιδεύει,Educational instruction,320,Plato Aristotle
+παίδευσις,paideusis,παίδευσις,noun fem nom sg,education,ἡ παίδευσις καλή,Cultural formation,380,Plato
+γυμνασία,gymnasia,γυμνασία,noun fem nom sg,exercise,ἡ γυμνασία ἰσχυρά,Physical training,240,Plato Xenophon
+ἀσκησις,askēsis,ἄσκησις,noun fem nom sg,practice,ἡ ἄσκησις βελτιόω,Disciplined training,220,Plato
+πόνος,ponos,πόνος,noun masc nom sg,toil/labor,ὁ πόνος κοπιῶδης,Hard work,460,Hesiod Xenophon
+μέγας,megas,μέγας,adj masc nom sg,great/large,ἀνὴρ μέγας,Already included above,820,Homer.Il Herodotus
