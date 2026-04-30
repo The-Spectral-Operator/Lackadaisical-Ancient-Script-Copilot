@@ -71,7 +71,7 @@ Navigate to **http://127.0.0.1:7340** in any Chromium-based browser.
 
 ## Working with Scripts
 
-The system ships with **75 ancient and modern scripts** pre-loaded:
+The system ships with **76 ancient and modern scripts** pre-loaded:
 
 | Category | Scripts |
 |----------|---------|

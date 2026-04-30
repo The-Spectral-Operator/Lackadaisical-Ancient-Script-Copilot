@@ -10,7 +10,7 @@
 
 ✅ Server starts cleanly  
 ✅ Auth token generated on first run  
-✅ Datasets auto-imported (75 scripts, 75 lexicons, 312,149 entries)  
+✅ Datasets auto-imported (76 scripts, 76 lexicons, 312,231 entries)  
 ✅ Data directories created automatically  
 ✅ Migrations run successfully  
 ✅ Graceful shutdown handlers registered  
@@ -45,8 +45,8 @@
 
 | Endpoint | Method | Status | Notes |
 |----------|--------|--------|-------|
-| `/api/scripts` | GET | ✅ | Returns 75 scripts |
-| `/api/lexicons` | GET | ✅ | Returns 75 lexicons, 312,149 total entries |
+| `/api/scripts` | GET | ✅ | Returns 76 scripts |
+| `/api/lexicons` | GET | ✅ | Returns 76 lexicons, 312,231 total entries |
 | `/api/lexicons/:id/entries` | GET | ✅ | Returns full entry list (tested: Indus Valley 2,502, Maya 597) |
 | `/api/lexicons/:id/entries` | POST | ✅ | Upsert entries |
 | `/api/lexicons/:id/import` | POST | ✅ | Bulk import |
@@ -142,7 +142,7 @@
 | Sidebar visible | ✅ | Model picker, session list, nav buttons |
 | Chat area | ✅ | Welcome message, input area |
 | Model dropdown | ✅ | 9 models listed |
-| Script selector | ✅ | All 75 scripts |
+| Script selector | ✅ | All 76 scripts |
 | Thinking panel | ✅ | Hidden by default, expandable |
 | Settings panel | ✅ | All config fields present |
 | Lexicon panel | ✅ | Panel structure ready |
@@ -158,9 +158,9 @@
 | system.db created | ✅ | In `data/databases/` |
 | conversations.db created | ✅ | In `data/databases/` |
 | Migrations applied | ✅ | 4 migration files |
-| Scripts seeded | ✅ | 75 scripts |
-| Lexicons seeded | ✅ | 75 lexicons |
-| Entries seeded | ✅ | 312,149 entries |
+| Scripts seeded | ✅ | 76 scripts |
+| Lexicons seeded | ✅ | 76 lexicons |
+| Entries seeded | ✅ | 312,231 entries |
 | Session CRUD | ✅ | Create/read/update/delete |
 | WAL mode | ✅ | Configured in pragmas |
 
@@ -171,7 +171,7 @@
 | Metric | Value |
 |--------|-------|
 | Server startup | < 3 seconds |
-| Dataset import (75 scripts) | < 2 seconds |
+| Dataset import (76 scripts) | < 2 seconds |
 | Health endpoint | < 5ms |
 | Script listing | < 2ms |
 | Lexicon listing | < 5ms |
