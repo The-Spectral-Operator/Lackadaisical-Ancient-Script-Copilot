@@ -1,0 +1,2224 @@
+{
+  "metadata": {
+    "title": "Phoenician Lexicon",
+    "description": "Comprehensive authentic Phoenician vocabulary from historical inscriptions and scholarly reconstructions",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "2.0.0",
+    "original_created": "2025-07-30",
+    "original_file": "phoenician_lexicon.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 60,
+    "corpus_status": "expanded_seed_normalized_attestation_indexed",
+    "sources": [
+      "Phoenician and Punic inscriptions",
+      "Carthaginian texts",
+      "Historical dictionaries (Gibson, Naveh, Albright)",
+      "Proto-Canaanite reconstructions",
+      "Cross-referenced authentic sources",
+      "Maritime and commercial inscriptions",
+      "Religious and royal texts",
+      "The Unicode Consortium – Code Charts",
+      "Comprehensive Aramaic Lexicon"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "cal": {
+        "title": "Comprehensive Aramaic Lexicon",
+        "url": "https://cal.huc.edu/",
+        "type": "lexicon_text_corpus",
+        "scope": "Aramaic dialects including Syriac and Nabataean-related corpora"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "abjad",
+    "historical_significance": "Northwest Semitic alphabetic tradition foundational for many later Mediterranean scripts.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "phoenician_0001",
+      "script_symbol": "𐤌𐤋𐤊",
+      "transliteration": "melek",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {
+        "root": "MLK",
+        "notes": "Attested in multiple Phoenician inscriptions; cognate with Hebrew melekh"
+      },
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "MLK",
+      "attestations": [
+        "KAI inscriptions, Carthaginian texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "king",
+        "phoenician": "𐤌𐤋𐤊",
+        "transliteration": "melek",
+        "pos": "noun",
+        "root": "MLK",
+        "notes": "Attested in multiple Phoenician inscriptions; cognate with Hebrew melekh",
+        "source": "KAI inscriptions, Carthaginian texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0002",
+      "script_symbol": "𐤀𐤃𐤍",
+      "transliteration": "adon",
+      "translation": "lord",
+      "pos": "noun",
+      "morphology": {
+        "root": "ADN",
+        "notes": "Common title in Phoenician inscriptions; 'my lord' as 'adoni'"
+      },
+      "definitions": [
+        "lord"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ADN",
+      "attestations": [
+        "Phoenician royal inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "lord",
+        "phoenician": "𐤀𐤃𐤍",
+        "transliteration": "adon",
+        "pos": "noun",
+        "root": "ADN",
+        "notes": "Common title in Phoenician inscriptions; 'my lord' as 'adoni'",
+        "source": "Phoenician royal inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0003",
+      "script_symbol": "𐤀𐤋",
+      "transliteration": "el",
+      "translation": "god",
+      "pos": "noun",
+      "morphology": {
+        "root": "EL",
+        "notes": "Generic term for deity; also found in theophoric names"
+      },
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "EL",
+      "attestations": [
+        "Religious inscriptions, temple dedications"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "god",
+        "phoenician": "𐤀𐤋",
+        "transliteration": "el",
+        "pos": "noun",
+        "root": "EL",
+        "notes": "Generic term for deity; also found in theophoric names",
+        "source": "Religious inscriptions, temple dedications"
+      }
+    },
+    {
+      "entry_id": "phoenician_0004",
+      "script_symbol": "𐤁𐤍",
+      "transliteration": "ben",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {
+        "root": "BN",
+        "notes": "Extremely common in patronymic formulas; 'son of'"
+      },
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BN",
+      "attestations": [
+        "Genealogical inscriptions, tomb markers"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "son",
+        "phoenician": "𐤁𐤍",
+        "transliteration": "ben",
+        "pos": "noun",
+        "root": "BN",
+        "notes": "Extremely common in patronymic formulas; 'son of'",
+        "source": "Genealogical inscriptions, tomb markers"
+      }
+    },
+    {
+      "entry_id": "phoenician_0005",
+      "script_symbol": "𐤁𐤕",
+      "transliteration": "bet",
+      "translation": "house",
+      "pos": "noun",
+      "morphology": {
+        "root": "BT",
+        "notes": "Physical house or dynasty; cognate with Hebrew bayit; also means temple or tomb"
+      },
+      "definitions": [
+        "house"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BT",
+      "attestations": [
+        "Building inscriptions, dynastic texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "house",
+        "phoenician": "𐤁𐤕",
+        "transliteration": "bet",
+        "pos": "noun",
+        "root": "BT",
+        "notes": "Physical house or dynasty; cognate with Hebrew bayit; also means temple or tomb",
+        "source": "Building inscriptions, dynastic texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0006",
+      "script_symbol": "𐤏𐤌",
+      "transliteration": "am",
+      "translation": "people",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʿM",
+        "notes": "Nation or tribal group; common in royal proclamations"
+      },
+      "definitions": [
+        "people"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿM",
+      "attestations": [
+        "Royal decrees, civic inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "people",
+        "phoenician": "𐤏𐤌",
+        "transliteration": "am",
+        "pos": "noun",
+        "root": "ʿM",
+        "notes": "Nation or tribal group; common in royal proclamations",
+        "source": "Royal decrees, civic inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0007",
+      "script_symbol": "𐤀𐤓𐤑",
+      "transliteration": "ares",
+      "translation": "land",
+      "pos": "noun",
+      "morphology": {
+        "root": "ARṢ",
+        "notes": "Territory or country; geographical term"
+      },
+      "definitions": [
+        "land"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ARṢ",
+      "attestations": [
+        "Boundary markers, territorial claims"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "land",
+        "phoenician": "𐤀𐤓𐤑",
+        "transliteration": "ares",
+        "pos": "noun",
+        "root": "ARṢ",
+        "notes": "Territory or country; geographical term",
+        "source": "Boundary markers, territorial claims"
+      }
+    },
+    {
+      "entry_id": "phoenician_0008",
+      "script_symbol": "𐤒𐤓𐤕",
+      "transliteration": "qiryat",
+      "translation": "city",
+      "pos": "noun",
+      "morphology": {
+        "root": "QRT",
+        "notes": "Walled city or town; cf. Carthage (Qart-hadasht 'new city')"
+      },
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "QRT",
+      "attestations": [
+        "Urban foundation texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "city",
+        "phoenician": "𐤒𐤓𐤕",
+        "transliteration": "qiryat",
+        "pos": "noun",
+        "root": "QRT",
+        "notes": "Walled city or town; cf. Carthage (Qart-hadasht 'new city')",
+        "source": "Urban foundation texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0009",
+      "script_symbol": "𐤊𐤄𐤍",
+      "transliteration": "kohen",
+      "translation": "priest",
+      "pos": "noun",
+      "morphology": {
+        "root": "KHN",
+        "notes": "Religious functionary; temple official"
+      },
+      "definitions": [
+        "priest"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KHN",
+      "attestations": [
+        "Temple dedications, religious texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "priest",
+        "phoenician": "𐤊𐤄𐤍",
+        "transliteration": "kohen",
+        "pos": "noun",
+        "root": "KHN",
+        "notes": "Religious functionary; temple official",
+        "source": "Temple dedications, religious texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0010",
+      "script_symbol": "𐤔𐤌",
+      "transliteration": "shem",
+      "translation": "name",
+      "pos": "noun",
+      "morphology": {
+        "root": "ŠM",
+        "notes": "Personal name or reputation; very common in inscriptions"
+      },
+      "definitions": [
+        "name"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ŠM",
+      "attestations": [
+        "Memorial inscriptions, dedications"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "name",
+        "phoenician": "𐤔𐤌",
+        "transliteration": "shem",
+        "pos": "noun",
+        "root": "ŠM",
+        "notes": "Personal name or reputation; very common in inscriptions",
+        "source": "Memorial inscriptions, dedications"
+      }
+    },
+    {
+      "entry_id": "phoenician_0011",
+      "script_symbol": "𐤀𐤁",
+      "transliteration": "ab",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {
+        "root": "AB",
+        "notes": "Father or ancestor; fundamental kinship term"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AB",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "father",
+        "phoenician": "𐤀𐤁",
+        "transliteration": "ab",
+        "pos": "noun",
+        "root": "AB",
+        "notes": "Father or ancestor; fundamental kinship term",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0012",
+      "script_symbol": "𐤀𐤌",
+      "transliteration": "em",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {
+        "root": "EM",
+        "notes": "Mother (also 'mother-city'); maternal kinship term"
+      },
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "EM",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "mother",
+        "phoenician": "𐤀𐤌",
+        "transliteration": "em",
+        "pos": "noun",
+        "root": "EM",
+        "notes": "Mother (also 'mother-city'); maternal kinship term",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0013",
+      "script_symbol": "𐤁𐤕",
+      "transliteration": "bat",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {
+        "root": "BT",
+        "notes": "Daughter; feminine kinship term (same form as 'house')"
+      },
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BT",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "daughter",
+        "phoenician": "𐤁𐤕",
+        "transliteration": "bat",
+        "pos": "noun",
+        "root": "BT",
+        "notes": "Daughter; feminine kinship term (same form as 'house')",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0014",
+      "script_symbol": "𐤌𐤋𐤊𐤕",
+      "transliteration": "malkat",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {
+        "root": "MLK",
+        "notes": "Queen; feminine form of melek (king)"
+      },
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "MLK",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "queen",
+        "phoenician": "𐤌𐤋𐤊𐤕",
+        "transliteration": "malkat",
+        "pos": "noun",
+        "root": "MLK",
+        "notes": "Queen; feminine form of melek (king)",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0015",
+      "script_symbol": "𐤀𐤋𐤕",
+      "transliteration": "elat",
+      "translation": "goddess",
+      "pos": "noun",
+      "morphology": {
+        "root": "EL",
+        "notes": "Goddess; feminine form of el (god)"
+      },
+      "definitions": [
+        "goddess"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "EL",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "goddess",
+        "phoenician": "𐤀𐤋𐤕",
+        "transliteration": "elat",
+        "pos": "noun",
+        "root": "EL",
+        "notes": "Goddess; feminine form of el (god)",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0016",
+      "script_symbol": "𐤁𐤏𐤋",
+      "transliteration": "baal",
+      "translation": "baal",
+      "pos": "noun",
+      "morphology": {
+        "root": "BʿL",
+        "notes": "Lord, owner; divine title meaning 'master'"
+      },
+      "definitions": [
+        "baal"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BʿL",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "baal",
+        "phoenician": "𐤁𐤏𐤋",
+        "transliteration": "baal",
+        "pos": "noun",
+        "root": "BʿL",
+        "notes": "Lord, owner; divine title meaning 'master'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0017",
+      "script_symbol": "𐤊𐤎𐤐",
+      "transliteration": "kesep",
+      "translation": "silver",
+      "pos": "noun",
+      "morphology": {
+        "root": "KSP",
+        "notes": "Silver metal; also means 'money'"
+      },
+      "definitions": [
+        "silver"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KSP",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "silver",
+        "phoenician": "𐤊𐤎𐤐",
+        "transliteration": "kesep",
+        "pos": "noun",
+        "root": "KSP",
+        "notes": "Silver metal; also means 'money'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0018",
+      "script_symbol": "𐤇𐤓𐤑",
+      "transliteration": "harus",
+      "translation": "gold",
+      "pos": "noun",
+      "morphology": {
+        "root": "ḤRṢ",
+        "notes": "Gold metal; precious commodity in trade"
+      },
+      "definitions": [
+        "gold"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ḤRṢ",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "gold",
+        "phoenician": "𐤇𐤓𐤑",
+        "transliteration": "harus",
+        "pos": "noun",
+        "root": "ḤRṢ",
+        "notes": "Gold metal; precious commodity in trade",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0019",
+      "script_symbol": "𐤉𐤍",
+      "transliteration": "yayin",
+      "translation": "wine",
+      "pos": "noun",
+      "morphology": {
+        "root": "YN",
+        "notes": "Wine; fermented grape beverage"
+      },
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "YN",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "wine",
+        "phoenician": "𐤉𐤍",
+        "transliteration": "yayin",
+        "pos": "noun",
+        "root": "YN",
+        "notes": "Wine; fermented grape beverage",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0020",
+      "script_symbol": "𐤇𐤋𐤁",
+      "transliteration": "halab",
+      "translation": "milk",
+      "pos": "noun",
+      "morphology": {
+        "root": "ḤLB",
+        "notes": "Milk; dairy product"
+      },
+      "definitions": [
+        "milk"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ḤLB",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "milk",
+        "phoenician": "𐤇𐤋𐤁",
+        "transliteration": "halab",
+        "pos": "noun",
+        "root": "ḤLB",
+        "notes": "Milk; dairy product",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0021",
+      "script_symbol": "𐤊𐤍",
+      "transliteration": "kun",
+      "translation": "be",
+      "pos": "verb",
+      "morphology": {
+        "root": "KN",
+        "notes": "Copula verb 'to be, to exist'"
+      },
+      "definitions": [
+        "be"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KN",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "be",
+        "phoenician": "𐤊𐤍",
+        "transliteration": "kun",
+        "pos": "verb",
+        "root": "KN",
+        "notes": "Copula verb 'to be, to exist'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0022",
+      "script_symbol": "𐤐𐤏𐤋",
+      "transliteration": "paal",
+      "translation": "make",
+      "pos": "verb",
+      "morphology": {
+        "root": "PʿL",
+        "notes": "Verb 'to do, to make, to work'"
+      },
+      "definitions": [
+        "make"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "PʿL",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "make",
+        "phoenician": "𐤐𐤏𐤋",
+        "transliteration": "paal",
+        "pos": "verb",
+        "root": "PʿL",
+        "notes": "Verb 'to do, to make, to work'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0023",
+      "script_symbol": "𐤀𐤌𐤓",
+      "transliteration": "amar",
+      "translation": "say",
+      "pos": "verb",
+      "morphology": {
+        "root": "AMR",
+        "notes": "Verb 'to say, to speak, to declare'"
+      },
+      "definitions": [
+        "say"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AMR",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "say",
+        "phoenician": "𐤀𐤌𐤓",
+        "transliteration": "amar",
+        "pos": "verb",
+        "root": "AMR",
+        "notes": "Verb 'to say, to speak, to declare'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0024",
+      "script_symbol": "𐤊𐤕𐤁",
+      "transliteration": "katab",
+      "translation": "write",
+      "pos": "verb",
+      "morphology": {
+        "root": "KTB",
+        "notes": "Verb 'to write, to inscribe'"
+      },
+      "definitions": [
+        "write"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KTB",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "write",
+        "phoenician": "𐤊𐤕𐤁",
+        "transliteration": "katab",
+        "pos": "verb",
+        "root": "KTB",
+        "notes": "Verb 'to write, to inscribe'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0025",
+      "script_symbol": "𐤀𐤍𐤊",
+      "transliteration": "anoki",
+      "translation": "I",
+      "pos": "pronoun",
+      "morphology": {
+        "root": "ANK",
+        "notes": "First person singular pronoun"
+      },
+      "definitions": [
+        "I"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ANK",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "I",
+        "phoenician": "𐤀𐤍𐤊",
+        "transliteration": "anoki",
+        "pos": "pronoun",
+        "root": "ANK",
+        "notes": "First person singular pronoun",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0026",
+      "script_symbol": "𐤀𐤍𐤇𐤍",
+      "transliteration": "anahnu",
+      "translation": "we",
+      "pos": "pronoun",
+      "morphology": {
+        "root": "ANḤN",
+        "notes": "First person plural pronoun"
+      },
+      "definitions": [
+        "we"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ANḤN",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "we",
+        "phoenician": "𐤀𐤍𐤇𐤍",
+        "transliteration": "anahnu",
+        "pos": "pronoun",
+        "root": "ANḤN",
+        "notes": "First person plural pronoun",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0027",
+      "script_symbol": "𐤀𐤕",
+      "transliteration": "at",
+      "translation": "you",
+      "pos": "pronoun",
+      "morphology": {
+        "root": "AT",
+        "notes": "Second person singular pronoun (masc./fem.)"
+      },
+      "definitions": [
+        "you"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AT",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "you",
+        "phoenician": "𐤀𐤕",
+        "transliteration": "at",
+        "pos": "pronoun",
+        "root": "AT",
+        "notes": "Second person singular pronoun (masc./fem.)",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0028",
+      "script_symbol": "𐤀𐤐",
+      "transliteration": "ap",
+      "translation": "and",
+      "pos": "conjunction",
+      "morphology": {
+        "root": "AP",
+        "notes": "Conjunction meaning 'and, also, moreover'"
+      },
+      "definitions": [
+        "and"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AP",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "and",
+        "phoenician": "𐤀𐤐",
+        "transliteration": "ap",
+        "pos": "conjunction",
+        "root": "AP",
+        "notes": "Conjunction meaning 'and, also, moreover'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0029",
+      "script_symbol": "𐤀𐤋",
+      "transliteration": "al",
+      "translation": "not",
+      "pos": "particle",
+      "morphology": {
+        "root": "AL",
+        "notes": "Negative particle meaning 'not, no'"
+      },
+      "definitions": [
+        "not"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AL",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "not",
+        "phoenician": "𐤀𐤋",
+        "transliteration": "al",
+        "pos": "particle",
+        "root": "AL",
+        "notes": "Negative particle meaning 'not, no'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0030",
+      "script_symbol": "𐤀𐤋",
+      "transliteration": "el",
+      "translation": "to",
+      "pos": "preposition",
+      "morphology": {
+        "root": "EL",
+        "notes": "Preposition meaning 'to, toward, for'"
+      },
+      "definitions": [
+        "to"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "EL",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "to",
+        "phoenician": "𐤀𐤋",
+        "transliteration": "el",
+        "pos": "preposition",
+        "root": "EL",
+        "notes": "Preposition meaning 'to, toward, for'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0031",
+      "script_symbol": "𐤁",
+      "transliteration": "be",
+      "translation": "in",
+      "pos": "preposition",
+      "morphology": {
+        "root": "B",
+        "notes": "Preposition (prefix) meaning 'in, at, on'"
+      },
+      "definitions": [
+        "in"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "in",
+        "phoenician": "𐤁",
+        "transliteration": "be",
+        "pos": "preposition",
+        "root": "B",
+        "notes": "Preposition (prefix) meaning 'in, at, on'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0032",
+      "script_symbol": "𐤀𐤕",
+      "transliteration": "et",
+      "translation": "with",
+      "pos": "preposition",
+      "morphology": {
+        "root": "ET",
+        "notes": "Preposition meaning 'with' (also marks direct object)"
+      },
+      "definitions": [
+        "with"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ET",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "with",
+        "phoenician": "𐤀𐤕",
+        "transliteration": "et",
+        "pos": "preposition",
+        "root": "ET",
+        "notes": "Preposition meaning 'with' (also marks direct object)",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0033",
+      "script_symbol": "𐤇𐤃𐤔",
+      "transliteration": "hadash",
+      "translation": "new",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ḤDŠ",
+        "notes": "Adjective meaning 'new, fresh'"
+      },
+      "definitions": [
+        "new"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ḤDŠ",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "new",
+        "phoenician": "𐤇𐤃𐤔",
+        "transliteration": "hadash",
+        "pos": "adjective",
+        "root": "ḤDŠ",
+        "notes": "Adjective meaning 'new, fresh'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0034",
+      "script_symbol": "𐤀𐤃𐤓",
+      "transliteration": "adir",
+      "translation": "great",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ADR",
+        "notes": "Adjective meaning 'great, mighty, powerful'"
+      },
+      "definitions": [
+        "great"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ADR",
+      "attestations": [
+        "Cross-referenced authentic sources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "great",
+        "phoenician": "𐤀𐤃𐤓",
+        "transliteration": "adir",
+        "pos": "adjective",
+        "root": "ADR",
+        "notes": "Adjective meaning 'great, mighty, powerful'",
+        "source": "Cross-referenced authentic sources"
+      }
+    },
+    {
+      "entry_id": "phoenician_0035",
+      "script_symbol": "𐤊𐤄𐤍",
+      "transliteration": "kohen",
+      "translation": "priest",
+      "pos": "noun",
+      "morphology": {
+        "root": "KHN",
+        "notes": "Religious functionary; cognate with Hebrew kohen"
+      },
+      "definitions": [
+        "priest"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KHN",
+      "attestations": [
+        "Phoenician religious inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "priest",
+        "phoenician": "𐤊𐤄𐤍",
+        "transliteration": "kohen",
+        "pos": "noun",
+        "root": "KHN",
+        "notes": "Religious functionary; cognate with Hebrew kohen",
+        "source": "Phoenician religious inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0036",
+      "script_symbol": "𐤁𐤉𐤕",
+      "transliteration": "bet",
+      "translation": "temple",
+      "pos": "noun",
+      "morphology": {
+        "root": "BYT",
+        "notes": "House of god, sanctuary; 'bet elohim' = house of gods"
+      },
+      "definitions": [
+        "temple"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BYT",
+      "attestations": [
+        "Temple dedication inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "temple",
+        "phoenician": "𐤁𐤉𐤕",
+        "transliteration": "bet",
+        "pos": "noun",
+        "root": "BYT",
+        "notes": "House of god, sanctuary; 'bet elohim' = house of gods",
+        "source": "Temple dedication inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0037",
+      "script_symbol": "𐤉𐤌",
+      "transliteration": "yam",
+      "translation": "sea",
+      "pos": "noun",
+      "morphology": {
+        "root": "YM",
+        "notes": "Mediterranean Sea; western direction in Phoenician geography"
+      },
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "YM",
+      "attestations": [
+        "Geographic inscriptions, maritime references"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "sea",
+        "phoenician": "𐤉𐤌",
+        "transliteration": "yam",
+        "pos": "noun",
+        "root": "YM",
+        "notes": "Mediterranean Sea; western direction in Phoenician geography",
+        "source": "Geographic inscriptions, maritime references"
+      }
+    },
+    {
+      "entry_id": "phoenician_0038",
+      "script_symbol": "𐤀𐤉𐤓",
+      "transliteration": "ir",
+      "translation": "city",
+      "pos": "noun",
+      "morphology": {
+        "root": "QRY",
+        "notes": "Urban settlement; often in construct state 'qiryat'"
+      },
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "QRY",
+      "attestations": [
+        "Urban foundation inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "city",
+        "phoenician": "𐤀𐤉𐤓",
+        "transliteration": "ir",
+        "pos": "noun",
+        "root": "QRY",
+        "notes": "Urban settlement; often in construct state 'qiryat'",
+        "source": "Urban foundation inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0039",
+      "script_symbol": "𐤀𐤓𐤑",
+      "transliteration": "eretz",
+      "translation": "land",
+      "pos": "noun",
+      "morphology": {
+        "root": "ARṢ",
+        "notes": "Territory, country; cognate with Hebrew eretz"
+      },
+      "definitions": [
+        "land"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ARṢ",
+      "attestations": [
+        "Territorial boundary inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "land",
+        "phoenician": "𐤀𐤓𐤑",
+        "transliteration": "eretz",
+        "pos": "noun",
+        "root": "ARṢ",
+        "notes": "Territory, country; cognate with Hebrew eretz",
+        "source": "Territorial boundary inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0040",
+      "script_symbol": "𐤀𐤍𐤉𐤄",
+      "transliteration": "oniyyah",
+      "translation": "ship",
+      "pos": "noun",
+      "morphology": {
+        "root": "ANY",
+        "notes": "Maritime vessel; central to Phoenician commerce"
+      },
+      "definitions": [
+        "ship"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ANY",
+      "attestations": [
+        "Commercial and maritime inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "ship",
+        "phoenician": "𐤀𐤍𐤉𐤄",
+        "transliteration": "oniyyah",
+        "pos": "noun",
+        "root": "ANY",
+        "notes": "Maritime vessel; central to Phoenician commerce",
+        "source": "Commercial and maritime inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0041",
+      "script_symbol": "𐤊𐤎𐤐",
+      "transliteration": "kesep",
+      "translation": "silver",
+      "pos": "noun",
+      "morphology": {
+        "root": "KSP",
+        "notes": "Precious metal; medium of exchange"
+      },
+      "definitions": [
+        "silver"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "KSP",
+      "attestations": [
+        "Commercial inscriptions, trade records"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "silver",
+        "phoenician": "𐤊𐤎𐤐",
+        "transliteration": "kesep",
+        "pos": "noun",
+        "root": "KSP",
+        "notes": "Precious metal; medium of exchange",
+        "source": "Commercial inscriptions, trade records"
+      }
+    },
+    {
+      "entry_id": "phoenician_0042",
+      "script_symbol": "𐤟𐤄𐤁",
+      "transliteration": "zahab",
+      "translation": "gold",
+      "pos": "noun",
+      "morphology": {
+        "root": "ZHB",
+        "notes": "Precious metal; royal and divine associations"
+      },
+      "definitions": [
+        "gold"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ZHB",
+      "attestations": [
+        "Royal inscriptions, religious dedications"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "gold",
+        "phoenician": "𐤟𐤄𐤁",
+        "transliteration": "zahab",
+        "pos": "noun",
+        "root": "ZHB",
+        "notes": "Precious metal; royal and divine associations",
+        "source": "Royal inscriptions, religious dedications"
+      }
+    },
+    {
+      "entry_id": "phoenician_0043",
+      "script_symbol": "𐤀𐤓𐤂𐤌𐤍",
+      "transliteration": "argaman",
+      "translation": "purple",
+      "pos": "noun",
+      "morphology": {
+        "root": "RGM",
+        "notes": "Purple dye, famous Phoenician export; royal color"
+      },
+      "definitions": [
+        "purple"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "RGM",
+      "attestations": [
+        "Commercial texts, luxury goods references"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "purple",
+        "phoenician": "𐤀𐤓𐤂𐤌𐤍",
+        "transliteration": "argaman",
+        "pos": "noun",
+        "root": "RGM",
+        "notes": "Purple dye, famous Phoenician export; royal color",
+        "source": "Commercial texts, luxury goods references"
+      }
+    },
+    {
+      "entry_id": "phoenician_0044",
+      "script_symbol": "𐤎𐤇𐤓",
+      "transliteration": "sachar",
+      "translation": "trade",
+      "pos": "noun",
+      "morphology": {
+        "root": "SḤR",
+        "notes": "Commerce, trading activity"
+      },
+      "definitions": [
+        "trade"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "SḤR",
+      "attestations": [
+        "Commercial inscriptions, merchant records"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "trade",
+        "phoenician": "𐤎𐤇𐤓",
+        "transliteration": "sachar",
+        "pos": "noun",
+        "root": "SḤR",
+        "notes": "Commerce, trading activity",
+        "source": "Commercial inscriptions, merchant records"
+      }
+    },
+    {
+      "entry_id": "phoenician_0045",
+      "script_symbol": "𐤀𐤓𐤟",
+      "transliteration": "erez",
+      "translation": "cedar",
+      "pos": "noun",
+      "morphology": {
+        "root": "ARZ",
+        "notes": "Lebanon cedar; major export commodity"
+      },
+      "definitions": [
+        "cedar"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ARZ",
+      "attestations": [
+        "Trade records, construction inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "cedar",
+        "phoenician": "𐤀𐤓𐤟",
+        "transliteration": "erez",
+        "pos": "noun",
+        "root": "ARZ",
+        "notes": "Lebanon cedar; major export commodity",
+        "source": "Trade records, construction inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0046",
+      "script_symbol": "𐤇𐤊𐤌𐤄",
+      "transliteration": "chokmah",
+      "translation": "wisdom",
+      "pos": "noun",
+      "morphology": {
+        "root": "ḤKM",
+        "notes": "Knowledge, skill; often divine attribute"
+      },
+      "definitions": [
+        "wisdom"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ḤKM",
+      "attestations": [
+        "Wisdom literature, royal inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "wisdom",
+        "phoenician": "𐤇𐤊𐤌𐤄",
+        "transliteration": "chokmah",
+        "pos": "noun",
+        "root": "ḤKM",
+        "notes": "Knowledge, skill; often divine attribute",
+        "source": "Wisdom literature, royal inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0047",
+      "script_symbol": "𐤇𐤟𐤒",
+      "transliteration": "chazaq",
+      "translation": "strong",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ḤZQ",
+        "notes": "Mighty, powerful; royal epithet"
+      },
+      "definitions": [
+        "strong"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ḤZQ",
+      "attestations": [
+        "Royal titulature, military inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "strong",
+        "phoenician": "𐤇𐤟𐤒",
+        "transliteration": "chazaq",
+        "pos": "adjective",
+        "root": "ḤZQ",
+        "notes": "Mighty, powerful; royal epithet",
+        "source": "Royal titulature, military inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0048",
+      "script_symbol": "𐤔𐤋𐤌",
+      "transliteration": "shalom",
+      "translation": "peace",
+      "pos": "noun",
+      "morphology": {
+        "root": "ŠLM",
+        "notes": "Wholeness, well-being; greeting formula"
+      },
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ŠLM",
+      "attestations": [
+        "Correspondence, diplomatic texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "peace",
+        "phoenician": "𐤔𐤋𐤌",
+        "transliteration": "shalom",
+        "pos": "noun",
+        "root": "ŠLM",
+        "notes": "Wholeness, well-being; greeting formula",
+        "source": "Correspondence, diplomatic texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0049",
+      "script_symbol": "𐤀𐤇",
+      "transliteration": "ach",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {
+        "root": "AḤ",
+        "notes": "Male sibling; also used metaphorically for ally"
+      },
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AḤ",
+      "attestations": [
+        "Genealogical inscriptions, treaties"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "brother",
+        "phoenician": "𐤀𐤇",
+        "transliteration": "ach",
+        "pos": "noun",
+        "root": "AḤ",
+        "notes": "Male sibling; also used metaphorically for ally",
+        "source": "Genealogical inscriptions, treaties"
+      }
+    },
+    {
+      "entry_id": "phoenician_0050",
+      "script_symbol": "𐤀𐤇𐤕",
+      "transliteration": "achot",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {
+        "root": "AḤT",
+        "notes": "Female sibling; feminine of 'ach'"
+      },
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AḤT",
+      "attestations": [
+        "Family records, marriage contracts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "sister",
+        "phoenician": "𐤀𐤇𐤕",
+        "transliteration": "achot",
+        "pos": "noun",
+        "root": "AḤT",
+        "notes": "Female sibling; feminine of 'ach'",
+        "source": "Family records, marriage contracts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0051",
+      "script_symbol": "𐤀𐤌",
+      "transliteration": "em",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {
+        "root": "AM",
+        "notes": "Female parent; maternal lineage marker"
+      },
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AM",
+      "attestations": [
+        "Genealogical texts, family inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "mother",
+        "phoenician": "𐤀𐤌",
+        "transliteration": "em",
+        "pos": "noun",
+        "root": "AM",
+        "notes": "Female parent; maternal lineage marker",
+        "source": "Genealogical texts, family inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0052",
+      "script_symbol": "𐤀𐤁",
+      "transliteration": "ab",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {
+        "root": "AB",
+        "notes": "Male parent; patronymic base"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AB",
+      "attestations": [
+        "Patronymic formulas, genealogies"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "father",
+        "phoenician": "𐤀𐤁",
+        "transliteration": "ab",
+        "pos": "noun",
+        "root": "AB",
+        "notes": "Male parent; patronymic base",
+        "source": "Patronymic formulas, genealogies"
+      }
+    },
+    {
+      "entry_id": "phoenician_0053",
+      "script_symbol": "𐤁𐤕",
+      "transliteration": "bat",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {
+        "root": "BT",
+        "notes": "Female child; feminine of 'ben'"
+      },
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "BT",
+      "attestations": [
+        "Family records, genealogical texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "daughter",
+        "phoenician": "𐤁𐤕",
+        "transliteration": "bat",
+        "pos": "noun",
+        "root": "BT",
+        "notes": "Female child; feminine of 'ben'",
+        "source": "Family records, genealogical texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0054",
+      "script_symbol": "𐤄𐤓",
+      "transliteration": "har",
+      "translation": "mountain",
+      "pos": "noun",
+      "morphology": {
+        "root": "HRR",
+        "notes": "Elevated terrain; sacred high places"
+      },
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "HRR",
+      "attestations": [
+        "Geographic references, religious texts"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "mountain",
+        "phoenician": "𐤄𐤓",
+        "transliteration": "har",
+        "pos": "noun",
+        "root": "HRR",
+        "notes": "Elevated terrain; sacred high places",
+        "source": "Geographic references, religious texts"
+      }
+    },
+    {
+      "entry_id": "phoenician_0055",
+      "script_symbol": "𐤍𐤄𐤓",
+      "transliteration": "nahar",
+      "translation": "river",
+      "pos": "noun",
+      "morphology": {
+        "root": "NHR",
+        "notes": "Flowing water; boundary marker"
+      },
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "NHR",
+      "attestations": [
+        "Geographic inscriptions, territorial descriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "river",
+        "phoenician": "𐤍𐤄𐤓",
+        "transliteration": "nahar",
+        "pos": "noun",
+        "root": "NHR",
+        "notes": "Flowing water; boundary marker",
+        "source": "Geographic inscriptions, territorial descriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0056",
+      "script_symbol": "𐤀𐤁𐤍",
+      "transliteration": "eben",
+      "translation": "stone",
+      "pos": "noun",
+      "morphology": {
+        "root": "ABN",
+        "notes": "Building material; memorial stones"
+      },
+      "definitions": [
+        "stone"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ABN",
+      "attestations": [
+        "Construction inscriptions, monuments"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "stone",
+        "phoenician": "𐤀𐤁𐤍",
+        "transliteration": "eben",
+        "pos": "noun",
+        "root": "ABN",
+        "notes": "Building material; memorial stones",
+        "source": "Construction inscriptions, monuments"
+      }
+    },
+    {
+      "entry_id": "phoenician_0057",
+      "script_symbol": "𐤀𐤔",
+      "transliteration": "esh",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {
+        "root": "AŠ",
+        "notes": "Flame, burning; sacrificial fires"
+      },
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "AŠ",
+      "attestations": [
+        "Religious texts, ritual inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "fire",
+        "phoenician": "𐤀𐤔",
+        "transliteration": "esh",
+        "pos": "noun",
+        "root": "AŠ",
+        "notes": "Flame, burning; sacrificial fires",
+        "source": "Religious texts, ritual inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0058",
+      "script_symbol": "𐤌𐤉𐤌",
+      "transliteration": "mayim",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {
+        "root": "MYM",
+        "notes": "Liquid; essential for life and ritual"
+      },
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "MYM",
+      "attestations": [
+        "Religious texts, geographic references"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "water",
+        "phoenician": "𐤌𐤉𐤌",
+        "transliteration": "mayim",
+        "pos": "noun",
+        "root": "MYM",
+        "notes": "Liquid; essential for life and ritual",
+        "source": "Religious texts, geographic references"
+      }
+    },
+    {
+      "entry_id": "phoenician_0059",
+      "script_symbol": "𐤉𐤉𐤍",
+      "transliteration": "yayin",
+      "translation": "wine",
+      "pos": "noun",
+      "morphology": {
+        "root": "YYN",
+        "notes": "Fermented grape beverage; ritual and social use"
+      },
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "YYN",
+      "attestations": [
+        "Religious ceremonies, banquet inscriptions"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "wine",
+        "phoenician": "𐤉𐤉𐤍",
+        "transliteration": "yayin",
+        "pos": "noun",
+        "root": "YYN",
+        "notes": "Fermented grape beverage; ritual and social use",
+        "source": "Religious ceremonies, banquet inscriptions"
+      }
+    },
+    {
+      "entry_id": "phoenician_0060",
+      "script_symbol": "𐤎𐤇𐤓",
+      "transliteration": "socher",
+      "translation": "merchant",
+      "pos": "noun",
+      "morphology": {
+        "root": "SḤR",
+        "notes": "Trader, commercial agent; essential to Phoenician economy"
+      },
+      "definitions": [
+        "merchant"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "SḤR",
+      "attestations": [
+        "Commercial inscriptions, trade documents"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "phoenician_lexicon.json",
+      "original_record": {
+        "english": "merchant",
+        "phoenician": "𐤎𐤇𐤓",
+        "transliteration": "socher",
+        "pos": "noun",
+        "root": "SḤR",
+        "notes": "Trader, commercial agent; essential to Phoenician economy",
+        "source": "Commercial inscriptions, trade documents"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Phoenician entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

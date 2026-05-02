@@ -1,0 +1,5500 @@
+{
+  "metadata": {
+    "title": "Akkadian Lexicon",
+    "description": "Expanded and normalized Akkadian dataset derived from lexicon_akkadian.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": null,
+    "original_created": null,
+    "original_file": "lexicon_akkadian.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 151,
+    "corpus_status": "expanded_seed_normalized_attestation_indexed",
+    "sources": [
+      "The Unicode Consortium – Code Charts",
+      "Cuneiform Digital Library Initiative",
+      "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "cdli": {
+        "title": "Cuneiform Digital Library Initiative",
+        "url": "https://cdli.earth/",
+        "type": "primary_text_database",
+        "scope": "cuneiform tablet metadata, images, transliterations"
+      },
+      "oracc_dcclt": {
+        "title": "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts",
+        "url": "https://oracc.museum.upenn.edu/dcclt/",
+        "type": "lexical_corpus",
+        "scope": "cuneiform lexical and sign-list texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "cuneiform logosyllabic",
+    "historical_significance": "East Semitic cuneiform language with major Old Babylonian, Assyrian, and administrative/literary corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "akkadian_0001",
+      "script_symbol": "𒀀𒁍𒌝",
+      "transliteration": "abum",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾB",
+        "notes": "masculine noun (also 'ancestor')"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾB",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "father",
+        "akkadian": "abum",
+        "cuneiform": "𒀀𒁍𒌝",
+        "root": "ʾB",
+        "pos": "noun",
+        "notes": "masculine noun (also 'ancestor')"
+      }
+    },
+    {
+      "entry_id": "akkadian_0002",
+      "script_symbol": "𒁉𒄿𒌈",
+      "transliteration": "bîtum",
+      "translation": "house",
+      "pos": "noun",
+      "morphology": {
+        "root": "B-Y-T",
+        "notes": "feminine noun (household, building)"
+      },
+      "definitions": [
+        "house"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-Y-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "house",
+        "akkadian": "bîtum",
+        "cuneiform": "𒁉𒄿𒌈",
+        "root": "B-Y-T",
+        "pos": "noun",
+        "notes": "feminine noun (household, building)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0003",
+      "script_symbol": "𒊭𒊏𒌝",
+      "transliteration": "šarrum",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-R-R",
+        "notes": "masculine; title for a ruler (written with logogram LUGAL)"
+      },
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-R-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "king",
+        "akkadian": "šarrum",
+        "cuneiform": "𒊭𒊏𒌝",
+        "root": "Š-R-R",
+        "pos": "noun",
+        "notes": "masculine; title for a ruler (written with logogram LUGAL)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0004",
+      "script_symbol": "𒊭𒊏𒌈",
+      "transliteration": "šarratum",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-R-R",
+        "notes": "feminine of šarrum (often written with logogram MUNUS.LUGAL)"
+      },
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-R-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "queen",
+        "akkadian": "šarratum",
+        "cuneiform": "𒊭𒊏𒌈",
+        "root": "Š-R-R",
+        "pos": "noun",
+        "notes": "feminine of šarrum (often written with logogram MUNUS.LUGAL)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0005",
+      "script_symbol": "𒄿𒇻𒌝",
+      "transliteration": "ilum",
+      "translation": "god",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-L",
+        "notes": "masculine; deity (prefixed with 𒀭 determinative in texts)"
+      },
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "god",
+        "akkadian": "ilum",
+        "cuneiform": "𒄿𒇻𒌝",
+        "root": "ʾ-L",
+        "pos": "noun",
+        "notes": "masculine; deity (prefixed with 𒀭 determinative in texts)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0006",
+      "script_symbol": "𒀀𒇻𒌝",
+      "transliteration": "âlum",
+      "translation": "city",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʿ-L-M",
+        "notes": "city, town (feminine)"
+      },
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿ-L-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "city",
+        "akkadian": "âlum",
+        "cuneiform": "𒀀𒇻𒌝",
+        "root": "ʿ-L-M",
+        "pos": "noun",
+        "notes": "city, town (feminine)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0007",
+      "script_symbol": "𒀀𒅗𒇻𒌝",
+      "transliteration": "akalum",
+      "translation": "to eat",
+      "pos": "verb",
+      "morphology": {
+        "root": "ʾ-K-L",
+        "notes": "G-stem infinitive ('to eat')"
+      },
+      "definitions": [
+        "to eat"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-K-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to eat",
+        "akkadian": "akalum",
+        "cuneiform": "𒀀𒅗𒇻𒌝",
+        "root": "ʾ-K-L",
+        "pos": "verb",
+        "notes": "G-stem infinitive ('to eat')"
+      }
+    },
+    {
+      "entry_id": "akkadian_0008",
+      "script_symbol": "𒊏𒁍𒌝",
+      "transliteration": "rabûm",
+      "translation": "big",
+      "pos": "adjective",
+      "morphology": {
+        "root": "R-B-B",
+        "notes": "masculine; feminine rabītum"
+      },
+      "definitions": [
+        "big"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "R-B-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "big",
+        "akkadian": "rabûm",
+        "cuneiform": "𒊏𒁍𒌝",
+        "root": "R-B-B",
+        "pos": "adjective",
+        "notes": "masculine; feminine rabītum"
+      }
+    },
+    {
+      "entry_id": "akkadian_0009",
+      "script_symbol": "𒄿𒌝𒌝",
+      "transliteration": "ummum",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-M-M",
+        "notes": "feminine noun (also 'ancestress')"
+      },
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "mother",
+        "akkadian": "ummum",
+        "cuneiform": "𒄿𒌝𒌝",
+        "root": "ʾ-M-M",
+        "pos": "noun",
+        "notes": "feminine noun (also 'ancestress')"
+      }
+    },
+    {
+      "entry_id": "akkadian_0010",
+      "script_symbol": "𒈠𒊒𒌝",
+      "transliteration": "mârum",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-ʾ-R",
+        "notes": "masculine noun (often written DUMU)"
+      },
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-ʾ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "son",
+        "akkadian": "mârum",
+        "cuneiform": "𒈠𒊒𒌝",
+        "root": "M-ʾ-R",
+        "pos": "noun",
+        "notes": "masculine noun (often written DUMU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0011",
+      "script_symbol": "𒈠𒌓𒌈",
+      "transliteration": "mârtum",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-ʾ-R",
+        "notes": "feminine noun (often written DUMU.MUNUS)"
+      },
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-ʾ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "daughter",
+        "akkadian": "mârtum",
+        "cuneiform": "𒈠𒌓𒌈",
+        "root": "M-ʾ-R",
+        "pos": "noun",
+        "notes": "feminine noun (often written DUMU.MUNUS)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0012",
+      "script_symbol": "𒀀𒄩𒌝",
+      "transliteration": "aḫum",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Ḫ",
+        "notes": "masculine noun (also 'ally, friend')"
+      },
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Ḫ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "brother",
+        "akkadian": "aḫum",
+        "cuneiform": "𒀀𒄩𒌝",
+        "root": "ʾ-Ḫ",
+        "pos": "noun",
+        "notes": "masculine noun (also 'ally, friend')"
+      }
+    },
+    {
+      "entry_id": "akkadian_0013",
+      "script_symbol": "𒀀𒄩𒌈",
+      "transliteration": "aḫātum",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Ḫ-T",
+        "notes": "feminine noun"
+      },
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Ḫ-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sister",
+        "akkadian": "aḫātum",
+        "cuneiform": "𒀀𒄩𒌈",
+        "root": "ʾ-Ḫ-T",
+        "pos": "noun",
+        "notes": "feminine noun"
+      }
+    },
+    {
+      "entry_id": "akkadian_0014",
+      "script_symbol": "𒀀𒃾𒇻𒌝",
+      "transliteration": "awīlum",
+      "translation": "man",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-W-L",
+        "notes": "masculine; free man (social class)"
+      },
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-W-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "man",
+        "akkadian": "awīlum",
+        "cuneiform": "𒀀𒃾𒇻𒌝",
+        "root": "ʾ-W-L",
+        "pos": "noun",
+        "notes": "masculine; free man (social class)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0015",
+      "script_symbol": "𒊭𒈾𒌈",
+      "transliteration": "sinništum",
+      "translation": "woman",
+      "pos": "noun",
+      "morphology": {
+        "root": "S-N-Š",
+        "notes": "feminine; adult woman (written MUNUS)"
+      },
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "S-N-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "woman",
+        "akkadian": "sinništum",
+        "cuneiform": "𒊭𒈾𒌈",
+        "root": "S-N-Š",
+        "pos": "noun",
+        "notes": "feminine; adult woman (written MUNUS)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0016",
+      "script_symbol": "𒈬𒌝",
+      "transliteration": "mûm",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-Y",
+        "notes": "masculine; essential liquid"
+      },
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "water",
+        "akkadian": "mûm",
+        "cuneiform": "𒈬𒌝",
+        "root": "M-Y",
+        "pos": "noun",
+        "notes": "masculine; essential liquid"
+      }
+    },
+    {
+      "entry_id": "akkadian_0017",
+      "script_symbol": "𒈠𒌓𒌝",
+      "transliteration": "mātum",
+      "translation": "land",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-T-T",
+        "notes": "feminine; country or territory"
+      },
+      "definitions": [
+        "land"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-T-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "land",
+        "akkadian": "mātum",
+        "cuneiform": "𒈠𒌓𒌝",
+        "root": "M-T-T",
+        "pos": "noun",
+        "notes": "feminine; country or territory"
+      }
+    },
+    {
+      "entry_id": "akkadian_0018",
+      "script_symbol": "𒀀𒆷𒆪𒌝",
+      "transliteration": "alākum",
+      "translation": "to go",
+      "pos": "verb",
+      "morphology": {
+        "root": "ʾ-L-K",
+        "notes": "G-stem infinitive; basic motion verb"
+      },
+      "definitions": [
+        "to go"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-L-K",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to go",
+        "akkadian": "alākum",
+        "cuneiform": "𒀀𒆷𒆪𒌝",
+        "root": "ʾ-L-K",
+        "pos": "verb",
+        "notes": "G-stem infinitive; basic motion verb"
+      }
+    },
+    {
+      "entry_id": "akkadian_0019",
+      "script_symbol": "𒀀𒅗𒇻𒌝",
+      "transliteration": "aklum",
+      "translation": "bread",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-K-L",
+        "notes": "masculine; basic food (often written NINDA)"
+      },
+      "definitions": [
+        "bread"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-K-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "bread",
+        "akkadian": "aklum",
+        "cuneiform": "𒀀𒅗𒇻𒌝",
+        "root": "ʾ-K-L",
+        "pos": "noun",
+        "notes": "masculine; basic food (often written NINDA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0020",
+      "script_symbol": "𒂍𒅅𒇻𒌝",
+      "transliteration": "eqlum",
+      "translation": "field",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʿ-Q-L",
+        "notes": "masculine; agricultural land (written A.ŠÀ)"
+      },
+      "definitions": [
+        "field"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿ-Q-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "field",
+        "akkadian": "eqlum",
+        "cuneiform": "𒂍𒅅𒇻𒌝",
+        "root": "ʿ-Q-L",
+        "pos": "noun",
+        "notes": "masculine; agricultural land (written A.ŠÀ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0021",
+      "script_symbol": "𒋽𒁍𒌝",
+      "transliteration": "kaspum",
+      "translation": "silver",
+      "pos": "noun",
+      "morphology": {
+        "root": "K-S-P",
+        "notes": "masculine; precious metal, money (written KÙ.BABBAR)"
+      },
+      "definitions": [
+        "silver"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-S-P",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "silver",
+        "akkadian": "kaspum",
+        "cuneiform": "𒋽𒁍𒌝",
+        "root": "K-S-P",
+        "pos": "noun",
+        "notes": "masculine; precious metal, money (written KÙ.BABBAR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0022",
+      "script_symbol": "𒄣𒊏𒑳𒌝",
+      "transliteration": "ḫurāṣum",
+      "translation": "gold",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ḫ-R-Ṣ",
+        "notes": "masculine; precious metal (written KÙ.GI)"
+      },
+      "definitions": [
+        "gold"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-R-Ṣ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "gold",
+        "akkadian": "ḫurāṣum",
+        "cuneiform": "𒄣𒊏𒑳𒌝",
+        "root": "Ḫ-R-Ṣ",
+        "pos": "noun",
+        "notes": "masculine; precious metal (written KÙ.GI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0023",
+      "script_symbol": "𒁇𒉪𒌝",
+      "transliteration": "wardum",
+      "translation": "slave",
+      "pos": "noun",
+      "morphology": {
+        "root": "W-R-D",
+        "notes": "masculine; male slave (written ÌR)"
+      },
+      "definitions": [
+        "slave"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "W-R-D",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "slave",
+        "akkadian": "wardum",
+        "cuneiform": "𒁇𒉪𒌝",
+        "root": "W-R-D",
+        "pos": "noun",
+        "notes": "masculine; male slave (written ÌR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0024",
+      "script_symbol": "𒌓𒋢𒌝",
+      "transliteration": "šamšum",
+      "translation": "sun",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-M-Š",
+        "notes": "masculine; sun god Šamaš (written UD or UTU)"
+      },
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-M-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sun",
+        "akkadian": "šamšum",
+        "cuneiform": "𒌓𒋢𒌝",
+        "root": "Š-M-Š",
+        "pos": "noun",
+        "notes": "masculine; sun god Šamaš (written UD or UTU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0025",
+      "script_symbol": "𒃻𒈬𒌝",
+      "transliteration": "sînum",
+      "translation": "moon",
+      "pos": "noun",
+      "morphology": {
+        "root": "S-ʾ-N",
+        "notes": "masculine; also the god Sîn (written NANNA)"
+      },
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "S-ʾ-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "moon",
+        "akkadian": "sînum",
+        "cuneiform": "𒃻𒈬𒌝",
+        "root": "S-ʾ-N",
+        "pos": "noun",
+        "notes": "masculine; also the god Sîn (written NANNA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0026",
+      "script_symbol": "𒀭𒈬𒌝",
+      "transliteration": "šamûm",
+      "translation": "heaven",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-M-Y",
+        "notes": "masculine; sky, heavens (written AN)"
+      },
+      "definitions": [
+        "heaven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-M-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "heaven",
+        "akkadian": "šamûm",
+        "cuneiform": "𒀭𒈬𒌝",
+        "root": "Š-M-Y",
+        "pos": "noun",
+        "notes": "masculine; sky, heavens (written AN)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0027",
+      "script_symbol": "𒆠𒂊𒌈",
+      "transliteration": "erṣetum",
+      "translation": "earth",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-R-Ṣ",
+        "notes": "feminine; land, earth (written KI)"
+      },
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-Ṣ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "earth",
+        "akkadian": "erṣetum",
+        "cuneiform": "𒆠𒂊𒌈",
+        "root": "ʾ-R-Ṣ",
+        "pos": "noun",
+        "notes": "feminine; land, earth (written KI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0028",
+      "script_symbol": "𒈬𒌝",
+      "transliteration": "šumum",
+      "translation": "name",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-M",
+        "notes": "masculine; personal name (written MU)"
+      },
+      "definitions": [
+        "name"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "name",
+        "akkadian": "šumum",
+        "cuneiform": "𒈬𒌝",
+        "root": "Š-M",
+        "pos": "noun",
+        "notes": "masculine; personal name (written MU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0029",
+      "script_symbol": "𒀀𒉿𒌈",
+      "transliteration": "awātum",
+      "translation": "word",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-W-T",
+        "notes": "feminine; speech, matter (written INIM)"
+      },
+      "definitions": [
+        "word"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-W-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "word",
+        "akkadian": "awātum",
+        "cuneiform": "𒀀𒉿𒌈",
+        "root": "ʾ-W-T",
+        "pos": "noun",
+        "notes": "feminine; speech, matter (written INIM)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0030",
+      "script_symbol": "𒆷𒉈𒌝",
+      "transliteration": "libbum",
+      "translation": "heart",
+      "pos": "noun",
+      "morphology": {
+        "root": "L-B-B",
+        "notes": "masculine; heart, interior (written ŠÀ)"
+      },
+      "definitions": [
+        "heart"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "L-B-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "heart",
+        "akkadian": "libbum",
+        "cuneiform": "𒆷𒉈𒌝",
+        "root": "L-B-B",
+        "pos": "noun",
+        "notes": "masculine; heart, interior (written ŠÀ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0031",
+      "script_symbol": "𒋗𒌈",
+      "transliteration": "qātum",
+      "translation": "hand",
+      "pos": "noun",
+      "morphology": {
+        "root": "Q-Y-T",
+        "notes": "feminine; hand, power (written ŠU)"
+      },
+      "definitions": [
+        "hand"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Q-Y-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "hand",
+        "akkadian": "qātum",
+        "cuneiform": "𒋗𒌈",
+        "root": "Q-Y-T",
+        "pos": "noun",
+        "notes": "feminine; hand, power (written ŠU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0032",
+      "script_symbol": "𒄿𒈬𒌝",
+      "transliteration": "īnum",
+      "translation": "eye",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʿ-Y-N",
+        "notes": "masculine; eye, sight (written IGI)"
+      },
+      "definitions": [
+        "eye"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿ-Y-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "eye",
+        "akkadian": "īnum",
+        "cuneiform": "𒄿𒈬𒌝",
+        "root": "ʿ-Y-N",
+        "pos": "noun",
+        "notes": "masculine; eye, sight (written IGI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0033",
+      "script_symbol": "𒋚𒁍𒌝",
+      "transliteration": "šēpum",
+      "translation": "foot",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-ʾ-P",
+        "notes": "masculine; foot, base (written GÌR)"
+      },
+      "definitions": [
+        "foot"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-ʾ-P",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "foot",
+        "akkadian": "šēpum",
+        "cuneiform": "𒋚𒁍𒌝",
+        "root": "Š-ʾ-P",
+        "pos": "noun",
+        "notes": "masculine; foot, base (written GÌR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0034",
+      "script_symbol": "𒊕𒌝",
+      "transliteration": "rēšum",
+      "translation": "head",
+      "pos": "noun",
+      "morphology": {
+        "root": "R-ʾ-Š",
+        "notes": "masculine; head, top (written SAG)"
+      },
+      "definitions": [
+        "head"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "R-ʾ-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "head",
+        "akkadian": "rēšum",
+        "cuneiform": "𒊕𒌝",
+        "root": "R-ʾ-Š",
+        "pos": "noun",
+        "notes": "masculine; head, top (written SAG)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0035",
+      "script_symbol": "𒌓𒌝",
+      "transliteration": "ūmum",
+      "translation": "day",
+      "pos": "noun",
+      "morphology": {
+        "root": "Y-W-M",
+        "notes": "masculine; day, time (written UD)"
+      },
+      "definitions": [
+        "day"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Y-W-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "day",
+        "akkadian": "ūmum",
+        "cuneiform": "𒌓𒌝",
+        "root": "Y-W-M",
+        "pos": "noun",
+        "notes": "masculine; day, time (written UD)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0036",
+      "script_symbol": "𒈬𒍑𒌝",
+      "transliteration": "mūšum",
+      "translation": "night",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-W-Š",
+        "notes": "masculine; night (written GE₆)"
+      },
+      "definitions": [
+        "night"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-W-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "night",
+        "akkadian": "mūšum",
+        "cuneiform": "𒈬𒍑𒌝",
+        "root": "M-W-Š",
+        "pos": "noun",
+        "notes": "masculine; night (written GE₆)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0037",
+      "script_symbol": "𒊭𒌓𒌈",
+      "transliteration": "šattum",
+      "translation": "year",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-N-T",
+        "notes": "feminine; year (written MU)"
+      },
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-N-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "year",
+        "akkadian": "šattum",
+        "cuneiform": "𒊭𒌓𒌈",
+        "root": "Š-N-T",
+        "pos": "noun",
+        "notes": "feminine; year (written MU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0038",
+      "script_symbol": "𒌗𒄩𒌝",
+      "transliteration": "arḫum",
+      "translation": "month",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-R-Ḫ",
+        "notes": "masculine; month (written ITI)"
+      },
+      "definitions": [
+        "month"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-Ḫ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "month",
+        "akkadian": "arḫum",
+        "cuneiform": "𒌗𒄩𒌝",
+        "root": "ʾ-R-Ḫ",
+        "pos": "noun",
+        "notes": "masculine; month (written ITI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0039",
+      "script_symbol": "𒀀𒈠𒊒𒌝",
+      "transliteration": "amārum",
+      "translation": "to see",
+      "pos": "verb",
+      "morphology": {
+        "root": "ʾ-M-R",
+        "notes": "G-stem infinitive; to see, look"
+      },
+      "definitions": [
+        "to see"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to see",
+        "akkadian": "amārum",
+        "cuneiform": "𒀀𒈠𒊒𒌝",
+        "root": "ʾ-M-R",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to see, look"
+      }
+    },
+    {
+      "entry_id": "akkadian_0040",
+      "script_symbol": "𒊮𒈬𒌝",
+      "transliteration": "šemûm",
+      "translation": "to hear",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-M-ʿ",
+        "notes": "G-stem infinitive; to hear, obey"
+      },
+      "definitions": [
+        "to hear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-M-ʿ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to hear",
+        "akkadian": "šemûm",
+        "cuneiform": "𒊮𒈬𒌝",
+        "root": "Š-M-ʿ",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to hear, obey"
+      }
+    },
+    {
+      "entry_id": "akkadian_0041",
+      "script_symbol": "𒁕𒁀𒁍𒌝",
+      "transliteration": "dabābum",
+      "translation": "to speak",
+      "pos": "verb",
+      "morphology": {
+        "root": "D-B-B",
+        "notes": "G-stem infinitive; to speak, litigate"
+      },
+      "definitions": [
+        "to speak"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-B-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to speak",
+        "akkadian": "dabābum",
+        "cuneiform": "𒁕𒁀𒁍𒌝",
+        "root": "D-B-B",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to speak, litigate"
+      }
+    },
+    {
+      "entry_id": "akkadian_0042",
+      "script_symbol": "𒊭𒌓𒊏𒌝",
+      "transliteration": "šaṭārum",
+      "translation": "to write",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-Ṭ-R",
+        "notes": "G-stem infinitive; to write, inscribe"
+      },
+      "definitions": [
+        "to write"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-Ṭ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to write",
+        "akkadian": "šaṭārum",
+        "cuneiform": "𒊭𒌓𒊏𒌝",
+        "root": "Š-Ṭ-R",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to write, inscribe"
+      }
+    },
+    {
+      "entry_id": "akkadian_0043",
+      "script_symbol": "𒈾𒁕𒈾𒌝",
+      "transliteration": "nadānum",
+      "translation": "to give",
+      "pos": "verb",
+      "morphology": {
+        "root": "N-D-N",
+        "notes": "G-stem infinitive; to give, place"
+      },
+      "definitions": [
+        "to give"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-D-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to give",
+        "akkadian": "nadānum",
+        "cuneiform": "𒈾𒁕𒈾𒌝",
+        "root": "N-D-N",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to give, place"
+      }
+    },
+    {
+      "entry_id": "akkadian_0044",
+      "script_symbol": "𒇷𒆪𒌝",
+      "transliteration": "leqûm",
+      "translation": "to take",
+      "pos": "verb",
+      "morphology": {
+        "root": "L-Q-Ḫ",
+        "notes": "G-stem infinitive; to take, receive"
+      },
+      "definitions": [
+        "to take"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "L-Q-Ḫ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to take",
+        "akkadian": "leqûm",
+        "cuneiform": "𒇷𒆪𒌝",
+        "root": "L-Q-Ḫ",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to take, receive"
+      }
+    },
+    {
+      "entry_id": "akkadian_0045",
+      "script_symbol": "𒀀𒌓𒌝",
+      "transliteration": "atûm",
+      "translation": "to come",
+      "pos": "verb",
+      "morphology": {
+        "root": "ʾ-T-Y",
+        "notes": "G-stem infinitive; to come, arrive"
+      },
+      "definitions": [
+        "to come"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-T-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to come",
+        "akkadian": "atûm",
+        "cuneiform": "𒀀𒌓𒌝",
+        "root": "ʾ-T-Y",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to come, arrive"
+      }
+    },
+    {
+      "entry_id": "akkadian_0046",
+      "script_symbol": "𒄿𒁺𒌝",
+      "transliteration": "idûm",
+      "translation": "to know",
+      "pos": "verb",
+      "morphology": {
+        "root": "Y-D-ʿ",
+        "notes": "G-stem infinitive; to know, recognize"
+      },
+      "definitions": [
+        "to know"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Y-D-ʿ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to know",
+        "akkadian": "idûm",
+        "cuneiform": "𒄿𒁺𒌝",
+        "root": "Y-D-ʿ",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to know, recognize"
+      }
+    },
+    {
+      "entry_id": "akkadian_0047",
+      "script_symbol": "𒄑𒁁𒋢𒌝",
+      "transliteration": "epēšum",
+      "translation": "to make",
+      "pos": "verb",
+      "morphology": {
+        "root": "ʿ-P-Š",
+        "notes": "G-stem infinitive; to make, do"
+      },
+      "definitions": [
+        "to make"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿ-P-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to make",
+        "akkadian": "epēšum",
+        "cuneiform": "𒄑𒁁𒋢𒌝",
+        "root": "ʿ-P-Š",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to make, do"
+      }
+    },
+    {
+      "entry_id": "akkadian_0048",
+      "script_symbol": "𒊭𒉺𒊒𒌝",
+      "transliteration": "šapārum",
+      "translation": "to send",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-P-R",
+        "notes": "G-stem infinitive; to send, dispatch"
+      },
+      "definitions": [
+        "to send"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-P-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to send",
+        "akkadian": "šapārum",
+        "cuneiform": "𒊭𒉺𒊒𒌝",
+        "root": "Š-P-R",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to send, dispatch"
+      }
+    },
+    {
+      "entry_id": "akkadian_0049",
+      "script_symbol": "𒁕𒆪𒌝",
+      "transliteration": "dâkum",
+      "translation": "to kill",
+      "pos": "verb",
+      "morphology": {
+        "root": "D-W-K",
+        "notes": "G-stem infinitive; to kill, defeat"
+      },
+      "definitions": [
+        "to kill"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-W-K",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to kill",
+        "akkadian": "dâkum",
+        "cuneiform": "𒁕𒆪𒌝",
+        "root": "D-W-K",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to kill, defeat"
+      }
+    },
+    {
+      "entry_id": "akkadian_0050",
+      "script_symbol": "𒁄𒆷𒌓𒌝",
+      "transliteration": "balāṭum",
+      "translation": "to live",
+      "pos": "verb",
+      "morphology": {
+        "root": "B-L-Ṭ",
+        "notes": "G-stem infinitive; to live, be healthy"
+      },
+      "definitions": [
+        "to live"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-L-Ṭ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to live",
+        "akkadian": "balāṭum",
+        "cuneiform": "𒁄𒆷𒌓𒌝",
+        "root": "B-L-Ṭ",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to live, be healthy"
+      }
+    },
+    {
+      "entry_id": "akkadian_0051",
+      "script_symbol": "𒊭𒄠𒌝",
+      "transliteration": "šâmum",
+      "translation": "to buy",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-ʾ-M",
+        "notes": "G-stem infinitive; to buy, purchase"
+      },
+      "definitions": [
+        "to buy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-ʾ-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to buy",
+        "akkadian": "šâmum",
+        "cuneiform": "𒊭𒄠𒌝",
+        "root": "Š-ʾ-M",
+        "pos": "verb",
+        "notes": "G-stem infinitive; to buy, purchase"
+      }
+    },
+    {
+      "entry_id": "akkadian_0052",
+      "script_symbol": "𒈾𒁕𒈾𒌝",
+      "transliteration": "nadānum",
+      "translation": "to sell",
+      "pos": "verb",
+      "morphology": {
+        "root": "N-D-N",
+        "notes": "also 'to sell' (context dependent)"
+      },
+      "definitions": [
+        "to sell"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-D-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "to sell",
+        "akkadian": "nadānum",
+        "cuneiform": "𒈾𒁕𒈾𒌝",
+        "root": "N-D-N",
+        "pos": "verb",
+        "notes": "also 'to sell' (context dependent)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0053",
+      "script_symbol": "𒌓𒀊𒌝",
+      "transliteration": "ṭābum",
+      "translation": "good",
+      "pos": "adjective",
+      "morphology": {
+        "root": "Ṭ-ʾ-B",
+        "notes": "masculine; good, pleasant (fem. ṭābtum)"
+      },
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṭ-ʾ-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "good",
+        "akkadian": "ṭābum",
+        "cuneiform": "𒌓𒀊𒌝",
+        "root": "Ṭ-ʾ-B",
+        "pos": "adjective",
+        "notes": "masculine; good, pleasant (fem. ṭābtum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0054",
+      "script_symbol": "𒇷𒅎𒌝",
+      "transliteration": "lemnum",
+      "translation": "bad",
+      "pos": "adjective",
+      "morphology": {
+        "root": "L-M-N",
+        "notes": "masculine; bad, evil (fem. lemuttum)"
+      },
+      "definitions": [
+        "bad"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "L-M-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "bad",
+        "akkadian": "lemnum",
+        "cuneiform": "𒇷𒅎𒌝",
+        "root": "L-M-N",
+        "pos": "adjective",
+        "notes": "masculine; bad, evil (fem. lemuttum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0055",
+      "script_symbol": "𒊨𒄯𒌝",
+      "transliteration": "ṣeḫrum",
+      "translation": "small",
+      "pos": "adjective",
+      "morphology": {
+        "root": "Ṣ-Ḫ-R",
+        "notes": "masculine; small, young (fem. ṣeḫertum)"
+      },
+      "definitions": [
+        "small"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṣ-Ḫ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "small",
+        "akkadian": "ṣeḫrum",
+        "cuneiform": "𒊨𒄯𒌝",
+        "root": "Ṣ-Ḫ-R",
+        "pos": "adjective",
+        "notes": "masculine; small, young (fem. ṣeḫertum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0056",
+      "script_symbol": "𒋗𒁍𒌝",
+      "transliteration": "šībum",
+      "translation": "old",
+      "pos": "adjective",
+      "morphology": {
+        "root": "Š-Y-B",
+        "notes": "masculine; old, elderly (fem. šībtum)"
+      },
+      "definitions": [
+        "old"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-Y-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "old",
+        "akkadian": "šībum",
+        "cuneiform": "𒋗𒁍𒌝",
+        "root": "Š-Y-B",
+        "pos": "adjective",
+        "notes": "masculine; old, elderly (fem. šībtum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0057",
+      "script_symbol": "𒂊𒀸𒌝",
+      "transliteration": "eššum",
+      "translation": "new",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ʾ-Š-Š",
+        "notes": "masculine; new, fresh (fem. eššetum)"
+      },
+      "definitions": [
+        "new"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Š-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "new",
+        "akkadian": "eššum",
+        "cuneiform": "𒂊𒀸𒌝",
+        "root": "ʾ-Š-Š",
+        "pos": "adjective",
+        "notes": "masculine; new, fresh (fem. eššetum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0058",
+      "script_symbol": "𒆗𒌝",
+      "transliteration": "dannum",
+      "translation": "strong",
+      "pos": "adjective",
+      "morphology": {
+        "root": "D-N-N",
+        "notes": "masculine; strong, mighty (fem. dannat)"
+      },
+      "definitions": [
+        "strong"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-N-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "strong",
+        "akkadian": "dannum",
+        "cuneiform": "𒆗𒌝",
+        "root": "D-N-N",
+        "pos": "adjective",
+        "notes": "masculine; strong, mighty (fem. dannat)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0059",
+      "script_symbol": "𒂗𒋢𒌝",
+      "transliteration": "enšum",
+      "translation": "weak",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ʾ-N-Š",
+        "notes": "masculine; weak, feeble (fem. enšetum)"
+      },
+      "definitions": [
+        "weak"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-N-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "weak",
+        "akkadian": "enšum",
+        "cuneiform": "𒂗𒋢𒌝",
+        "root": "ʾ-N-Š",
+        "pos": "adjective",
+        "notes": "masculine; weak, feeble (fem. enšetum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0060",
+      "script_symbol": "𒁀𒈾𒌝",
+      "transliteration": "banûm",
+      "translation": "beautiful",
+      "pos": "adjective",
+      "morphology": {
+        "root": "B-N-Y",
+        "notes": "masculine; beautiful, good (fem. banītum)"
+      },
+      "definitions": [
+        "beautiful"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-N-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "beautiful",
+        "akkadian": "banûm",
+        "cuneiform": "𒁀𒈾𒌝",
+        "root": "B-N-Y",
+        "pos": "adjective",
+        "notes": "masculine; beautiful, good (fem. banītum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0061",
+      "script_symbol": "𒁕𒀠𒌈",
+      "transliteration": "daltum",
+      "translation": "door",
+      "pos": "noun",
+      "morphology": {
+        "root": "D-L-T",
+        "notes": "feminine; door, gate (written KÁ)"
+      },
+      "definitions": [
+        "door"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-L-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "door",
+        "akkadian": "daltum",
+        "cuneiform": "𒁕𒀠𒌈",
+        "root": "D-L-T",
+        "pos": "noun",
+        "notes": "feminine; door, gate (written KÁ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0062",
+      "script_symbol": "𒀠𒁍𒌝",
+      "transliteration": "alpum",
+      "translation": "ox",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-L-P",
+        "notes": "masculine; bull, ox (written GU₄)"
+      },
+      "definitions": [
+        "ox"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-L-P",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "ox",
+        "akkadian": "alpum",
+        "cuneiform": "𒀠𒁍𒌝",
+        "root": "ʾ-L-P",
+        "pos": "noun",
+        "notes": "masculine; bull, ox (written GU₄)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0063",
+      "script_symbol": "𒇇𒈨𒊒𒌝",
+      "transliteration": "immērum",
+      "translation": "sheep",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-M-R",
+        "notes": "masculine; male sheep (written UDU)"
+      },
+      "definitions": [
+        "sheep"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sheep",
+        "akkadian": "immērum",
+        "cuneiform": "𒇇𒈨𒊒𒌝",
+        "root": "ʾ-M-R",
+        "pos": "noun",
+        "notes": "masculine; male sheep (written UDU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0064",
+      "script_symbol": "𒊺𒌝",
+      "transliteration": "še'um",
+      "translation": "barley",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-ʿ-Y",
+        "notes": "masculine; grain, barley (written ŠE)"
+      },
+      "definitions": [
+        "barley"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-ʿ-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "barley",
+        "akkadian": "še'um",
+        "cuneiform": "𒊺𒌝",
+        "root": "Š-ʿ-Y",
+        "pos": "noun",
+        "notes": "masculine; grain, barley (written ŠE)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0065",
+      "script_symbol": "𒊭𒀀𒉌𒌝",
+      "transliteration": "šamnum",
+      "translation": "oil",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-M-N",
+        "notes": "masculine; oil, fat (written Ì)"
+      },
+      "definitions": [
+        "oil"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-M-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "oil",
+        "akkadian": "šamnum",
+        "cuneiform": "𒊭𒀀𒉌𒌝",
+        "root": "Š-M-N",
+        "pos": "noun",
+        "notes": "masculine; oil, fat (written Ì)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0066",
+      "script_symbol": "𒅆𒅗𒊒𒌝",
+      "transliteration": "šīkārum",
+      "translation": "wine",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-K-R",
+        "notes": "masculine; beer, alcoholic drink (written KAŠ)"
+      },
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-K-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "wine",
+        "akkadian": "šīkārum",
+        "cuneiform": "𒅆𒅗𒊒𒌝",
+        "root": "Š-K-R",
+        "pos": "noun",
+        "notes": "masculine; beer, alcoholic drink (written KAŠ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0067",
+      "script_symbol": "𒁕𒉡𒌝",
+      "transliteration": "dayyānum",
+      "translation": "judge",
+      "pos": "noun",
+      "morphology": {
+        "root": "D-Y-N",
+        "notes": "masculine; judge, arbiter (written DI.KUD)"
+      },
+      "definitions": [
+        "judge"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-Y-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "judge",
+        "akkadian": "dayyānum",
+        "cuneiform": "𒁕𒉡𒌝",
+        "root": "D-Y-N",
+        "pos": "noun",
+        "notes": "masculine; judge, arbiter (written DI.KUD)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0068",
+      "script_symbol": "𒋫𒀀𒅗𒊒𒌝",
+      "transliteration": "tamkārum",
+      "translation": "merchant",
+      "pos": "noun",
+      "morphology": {
+        "root": "T-M-K",
+        "notes": "masculine; trader, merchant (written DAM.GÀR)"
+      },
+      "definitions": [
+        "merchant"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "T-M-K",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "merchant",
+        "akkadian": "tamkārum",
+        "cuneiform": "𒋫𒀀𒅗𒊒𒌝",
+        "root": "T-M-K",
+        "pos": "noun",
+        "notes": "masculine; trader, merchant (written DAM.GÀR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0069",
+      "script_symbol": "𒊭𒉡𒌝",
+      "transliteration": "šangûm",
+      "translation": "priest",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-N-G",
+        "notes": "masculine; temple priest (written SANGA)"
+      },
+      "definitions": [
+        "priest"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-N-G",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "priest",
+        "akkadian": "šangûm",
+        "cuneiform": "𒊭𒉡𒌝",
+        "root": "Š-N-G",
+        "pos": "noun",
+        "notes": "masculine; temple priest (written SANGA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0070",
+      "script_symbol": "𒁾𒁹𒊬𒌝",
+      "transliteration": "ṭupšarrum",
+      "translation": "scribe",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ṭ-P-Š",
+        "notes": "masculine; tablet writer (written DUB.SAR)"
+      },
+      "definitions": [
+        "scribe"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṭ-P-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "scribe",
+        "akkadian": "ṭupšarrum",
+        "cuneiform": "𒁾𒁹𒊬𒌝",
+        "root": "Ṭ-P-Š",
+        "pos": "noun",
+        "notes": "masculine; tablet writer (written DUB.SAR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0071",
+      "script_symbol": "𒂍𒃲𒇻𒌝",
+      "transliteration": "ēkallum",
+      "translation": "palace",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-K-L",
+        "notes": "masculine; royal residence (written É.GAL)"
+      },
+      "definitions": [
+        "palace"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-K-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "palace",
+        "akkadian": "ēkallum",
+        "cuneiform": "𒂍𒃲𒇻𒌝",
+        "root": "ʾ-K-L",
+        "pos": "noun",
+        "notes": "masculine; royal residence (written É.GAL)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0072",
+      "script_symbol": "𒂍",
+      "transliteration": "bītum",
+      "translation": "temple",
+      "pos": "noun",
+      "morphology": {
+        "root": "B-Y-T",
+        "notes": "when referring to temple; house of god (written É)"
+      },
+      "definitions": [
+        "temple"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-Y-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "temple",
+        "akkadian": "bītum",
+        "cuneiform": "𒂍",
+        "root": "B-Y-T",
+        "pos": "noun",
+        "notes": "when referring to temple; house of god (written É)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0073",
+      "script_symbol": "𒁲𒈾𒌝",
+      "transliteration": "dīnum",
+      "translation": "law",
+      "pos": "noun",
+      "morphology": {
+        "root": "D-Y-N",
+        "notes": "masculine; legal case, judgment (written DI)"
+      },
+      "definitions": [
+        "law"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "D-Y-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "law",
+        "akkadian": "dīnum",
+        "cuneiform": "𒁲𒈾𒌝",
+        "root": "D-Y-N",
+        "pos": "noun",
+        "notes": "masculine; legal case, judgment (written DI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0074",
+      "script_symbol": "𒌨𒊏𒅗𒌝",
+      "transliteration": "riksum",
+      "translation": "contract",
+      "pos": "noun",
+      "morphology": {
+        "root": "R-K-S",
+        "notes": "masculine; binding agreement"
+      },
+      "definitions": [
+        "contract"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "R-K-S",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "contract",
+        "akkadian": "riksum",
+        "cuneiform": "𒌨𒊏𒅗𒌝",
+        "root": "R-K-S",
+        "pos": "noun",
+        "notes": "masculine; binding agreement"
+      }
+    },
+    {
+      "entry_id": "akkadian_0075",
+      "script_symbol": "𒄷𒁍𒌨𒇻𒌝",
+      "transliteration": "ḫubullum",
+      "translation": "debt",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ḫ-B-L",
+        "notes": "masculine; financial obligation"
+      },
+      "definitions": [
+        "debt"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-B-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "debt",
+        "akkadian": "ḫubullum",
+        "cuneiform": "𒄷𒁍𒌨𒇻𒌝",
+        "root": "Ḫ-B-L",
+        "pos": "noun",
+        "notes": "masculine; financial obligation"
+      }
+    },
+    {
+      "entry_id": "akkadian_0076",
+      "script_symbol": "𒉌𒈨𒆪𒌝",
+      "transliteration": "nēmēqum",
+      "translation": "wisdom",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-M-Q",
+        "notes": "masculine; wisdom, intelligence"
+      },
+      "definitions": [
+        "wisdom"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-M-Q",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "wisdom",
+        "akkadian": "nēmēqum",
+        "cuneiform": "𒉌𒈨𒆪𒌝",
+        "root": "N-M-Q",
+        "pos": "noun",
+        "notes": "masculine; wisdom, intelligence"
+      }
+    },
+    {
+      "entry_id": "akkadian_0077",
+      "script_symbol": "𒆠𒌅𒌝",
+      "transliteration": "kittum",
+      "translation": "truth",
+      "pos": "noun",
+      "morphology": {
+        "root": "K-Y-N",
+        "notes": "masculine; truth, reliability"
+      },
+      "definitions": [
+        "truth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-Y-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "truth",
+        "akkadian": "kittum",
+        "cuneiform": "𒆠𒌅𒌝",
+        "root": "K-Y-N",
+        "pos": "noun",
+        "notes": "masculine; truth, reliability"
+      }
+    },
+    {
+      "entry_id": "akkadian_0078",
+      "script_symbol": "𒂍𒁾𒉿𒅎",
+      "transliteration": "bīt ṭuppim",
+      "translation": "school",
+      "pos": "noun",
+      "morphology": {
+        "root": "B-Y-T Ṭ-P-P",
+        "notes": "masculine; house of tablets, school"
+      },
+      "definitions": [
+        "school"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-Y-T Ṭ-P-P",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "school",
+        "akkadian": "bīt ṭuppim",
+        "cuneiform": "𒂍𒁾𒉿𒅎",
+        "root": "B-Y-T Ṭ-P-P",
+        "pos": "noun",
+        "notes": "masculine; house of tablets, school"
+      }
+    },
+    {
+      "entry_id": "akkadian_0079",
+      "script_symbol": "𒁾𒁹𒊬𒄑𒊑𒌝𒄑𒄭𒊑𒌝",
+      "transliteration": "ṭupšarru ṣeḫrum",
+      "translation": "student",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ṭ-P-Š Ṣ-Ḫ-R",
+        "notes": "masculine; young scribe, student"
+      },
+      "definitions": [
+        "student"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṭ-P-Š Ṣ-Ḫ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "student",
+        "akkadian": "ṭupšarru ṣeḫrum",
+        "cuneiform": "𒁾𒁹𒊬𒄑𒊑𒌝𒄑𒄭𒊑𒌝",
+        "root": "Ṭ-P-Š Ṣ-Ḫ-R",
+        "pos": "noun",
+        "notes": "masculine; young scribe, student"
+      }
+    },
+    {
+      "entry_id": "akkadian_0080",
+      "script_symbol": "𒄿𒌝𒈠𒉡𒌑",
+      "transliteration": "ummânû",
+      "translation": "teacher",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-M-N",
+        "notes": "masculine; expert, master craftsman, teacher"
+      },
+      "definitions": [
+        "teacher"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "teacher",
+        "akkadian": "ummânû",
+        "cuneiform": "𒄿𒌝𒈠𒉡𒌑",
+        "root": "ʾ-M-N",
+        "pos": "noun",
+        "notes": "masculine; expert, master craftsman, teacher"
+      }
+    },
+    {
+      "entry_id": "akkadian_0081",
+      "script_symbol": "𒇴𒈠𒁺𒌝",
+      "transliteration": "lamādum",
+      "translation": "learning",
+      "pos": "verb",
+      "morphology": {
+        "root": "L-M-D",
+        "notes": "to learn, to know"
+      },
+      "definitions": [
+        "learning"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "L-M-D",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "learning",
+        "akkadian": "lamādum",
+        "cuneiform": "𒇴𒈠𒁺𒌝",
+        "root": "L-M-D",
+        "pos": "verb",
+        "notes": "to learn, to know"
+      }
+    },
+    {
+      "entry_id": "akkadian_0082",
+      "script_symbol": "𒊭𒋻𒊑𒌝",
+      "transliteration": "šaṭārum",
+      "translation": "writing",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-Ṭ-R",
+        "notes": "to write, to inscribe"
+      },
+      "definitions": [
+        "writing"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-Ṭ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "writing",
+        "akkadian": "šaṭārum",
+        "cuneiform": "𒊭𒋻𒊑𒌝",
+        "root": "Š-Ṭ-R",
+        "pos": "verb",
+        "notes": "to write, to inscribe"
+      }
+    },
+    {
+      "entry_id": "akkadian_0083",
+      "script_symbol": "𒊭𒋢𒌑𒌝",
+      "transliteration": "šasûm",
+      "translation": "reading",
+      "pos": "verb",
+      "morphology": {
+        "root": "Š-S-ʾ",
+        "notes": "to read, to recite"
+      },
+      "definitions": [
+        "reading"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-S-ʾ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "reading",
+        "akkadian": "šasûm",
+        "cuneiform": "𒊭𒋢𒌑𒌝",
+        "root": "Š-S-ʾ",
+        "pos": "verb",
+        "notes": "to read, to recite"
+      }
+    },
+    {
+      "entry_id": "akkadian_0084",
+      "script_symbol": "𒈬𒁺𒌑𒌈",
+      "transliteration": "mudûtum",
+      "translation": "knowledge",
+      "pos": "noun",
+      "morphology": {
+        "root": "Y-D-ʿ",
+        "notes": "feminine; knowledge, wisdom"
+      },
+      "definitions": [
+        "knowledge"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Y-D-ʿ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "knowledge",
+        "akkadian": "mudûtum",
+        "cuneiform": "𒈬𒁺𒌑𒌈",
+        "root": "Y-D-ʿ",
+        "pos": "noun",
+        "notes": "feminine; knowledge, wisdom"
+      }
+    },
+    {
+      "entry_id": "akkadian_0085",
+      "script_symbol": "𒄩𒊓𒋢𒌝",
+      "transliteration": "ḫasāsum",
+      "translation": "memory",
+      "pos": "verb",
+      "morphology": {
+        "root": "Ḫ-S-S",
+        "notes": "to remember, to be mindful"
+      },
+      "definitions": [
+        "memory"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-S-S",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "memory",
+        "akkadian": "ḫasāsum",
+        "cuneiform": "𒄩𒊓𒋢𒌝",
+        "root": "Ḫ-S-S",
+        "pos": "verb",
+        "notes": "to remember, to be mindful"
+      }
+    },
+    {
+      "entry_id": "akkadian_0086",
+      "script_symbol": "𒁄𒆷𒌓𒌝",
+      "transliteration": "balāṭum",
+      "translation": "life",
+      "pos": "noun",
+      "morphology": {
+        "root": "B-L-Ṭ",
+        "notes": "masculine; life, health"
+      },
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-L-Ṭ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "life",
+        "akkadian": "balāṭum",
+        "cuneiform": "𒁄𒆷𒌓𒌝",
+        "root": "B-L-Ṭ",
+        "pos": "noun",
+        "notes": "masculine; life, health"
+      }
+    },
+    {
+      "entry_id": "akkadian_0087",
+      "script_symbol": "𒈬𒌓𒌝",
+      "transliteration": "mūtum",
+      "translation": "death",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-W-T",
+        "notes": "masculine; death"
+      },
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-W-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "death",
+        "akkadian": "mūtum",
+        "cuneiform": "𒈬𒌓𒌝",
+        "root": "M-W-T",
+        "pos": "noun",
+        "notes": "masculine; death"
+      }
+    },
+    {
+      "entry_id": "akkadian_0088",
+      "script_symbol": "𒋗𒇻𒌝",
+      "transliteration": "šulûm",
+      "translation": "peace",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-L-M",
+        "notes": "masculine; peace, well-being"
+      },
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-L-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "peace",
+        "akkadian": "šulûm",
+        "cuneiform": "𒋗𒇻𒌝",
+        "root": "Š-L-M",
+        "pos": "noun",
+        "notes": "masculine; peace, well-being"
+      }
+    },
+    {
+      "entry_id": "akkadian_0089",
+      "script_symbol": "𒋡𒁍𒇻𒌝",
+      "transliteration": "qablum",
+      "translation": "war",
+      "pos": "noun",
+      "morphology": {
+        "root": "Q-B-L",
+        "notes": "masculine; battle, war"
+      },
+      "definitions": [
+        "war"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Q-B-L",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "war",
+        "akkadian": "qablum",
+        "cuneiform": "𒋡𒁍𒇻𒌝",
+        "root": "Q-B-L",
+        "pos": "noun",
+        "notes": "masculine; battle, war"
+      }
+    },
+    {
+      "entry_id": "akkadian_0090",
+      "script_symbol": "𒊏𒄠𒌝",
+      "transliteration": "râmum",
+      "translation": "love",
+      "pos": "noun",
+      "morphology": {
+        "root": "R-ʾ-M",
+        "notes": "masculine; love, mercy"
+      },
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "R-ʾ-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "love",
+        "akkadian": "râmum",
+        "cuneiform": "𒊏𒄠𒌝",
+        "root": "R-ʾ-M",
+        "pos": "noun",
+        "notes": "masculine; love, mercy"
+      }
+    },
+    {
+      "entry_id": "akkadian_0091",
+      "script_symbol": "𒀀𒄖𒌝",
+      "transliteration": "agūm",
+      "translation": "anger",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-G-W",
+        "notes": "masculine; anger, wrath"
+      },
+      "definitions": [
+        "anger"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-G-W",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "anger",
+        "akkadian": "agūm",
+        "cuneiform": "𒀀𒄖𒌝",
+        "root": "ʾ-G-W",
+        "pos": "noun",
+        "notes": "masculine; anger, wrath"
+      }
+    },
+    {
+      "entry_id": "akkadian_0092",
+      "script_symbol": "𒁍𒄰𒄩𒌝",
+      "transliteration": "pulḫum",
+      "translation": "fear",
+      "pos": "noun",
+      "morphology": {
+        "root": "P-L-Ḫ",
+        "notes": "masculine; fear, reverence"
+      },
+      "definitions": [
+        "fear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "P-L-Ḫ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "fear",
+        "akkadian": "pulḫum",
+        "cuneiform": "𒁍𒄰𒄩𒌝",
+        "root": "P-L-Ḫ",
+        "pos": "noun",
+        "notes": "masculine; fear, reverence"
+      }
+    },
+    {
+      "entry_id": "akkadian_0093",
+      "script_symbol": "𒄩𒁺𒌝",
+      "transliteration": "ḫadûm",
+      "translation": "joy",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ḫ-D-Y",
+        "notes": "masculine; joy, happiness"
+      },
+      "definitions": [
+        "joy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-D-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "joy",
+        "akkadian": "ḫadûm",
+        "cuneiform": "𒄩𒁺𒌝",
+        "root": "Ḫ-D-Y",
+        "pos": "noun",
+        "notes": "masculine; joy, happiness"
+      }
+    },
+    {
+      "entry_id": "akkadian_0094",
+      "script_symbol": "𒊨𒄯𒌝",
+      "transliteration": "ṣeḫrum",
+      "translation": "child",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ṣ-Ḫ-R",
+        "notes": "masculine; child, young person"
+      },
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṣ-Ḫ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "child",
+        "akkadian": "ṣeḫrum",
+        "cuneiform": "𒊨𒄯𒌝",
+        "root": "Ṣ-Ḫ-R",
+        "pos": "noun",
+        "notes": "masculine; child, young person"
+      }
+    },
+    {
+      "entry_id": "akkadian_0095",
+      "script_symbol": "𒋗𒁍𒌝",
+      "transliteration": "šībum",
+      "translation": "elder",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-Y-B",
+        "notes": "masculine; elder, old man"
+      },
+      "definitions": [
+        "elder"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-Y-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "elder",
+        "akkadian": "šībum",
+        "cuneiform": "𒋗𒁍𒌝",
+        "root": "Š-Y-B",
+        "pos": "noun",
+        "notes": "masculine; elder, old man"
+      }
+    },
+    {
+      "entry_id": "akkadian_0096",
+      "script_symbol": "𒀀𒋢𒌝",
+      "transliteration": "asûm",
+      "translation": "physician",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-S-Y",
+        "notes": "masculine; healer, doctor (written A.ZU)"
+      },
+      "definitions": [
+        "physician"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-S-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "physician",
+        "akkadian": "asûm",
+        "cuneiform": "𒀀𒋢𒌝",
+        "root": "ʾ-S-Y",
+        "pos": "noun",
+        "notes": "masculine; healer, doctor (written A.ZU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0097",
+      "script_symbol": "𒑳𒀊𒌝",
+      "transliteration": "ṣābum",
+      "translation": "soldier",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ṣ-B-ʾ",
+        "notes": "masculine; warrior, soldier"
+      },
+      "definitions": [
+        "soldier"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṣ-B-ʾ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "soldier",
+        "akkadian": "ṣābum",
+        "cuneiform": "𒑳𒀊𒌝",
+        "root": "Ṣ-B-ʾ",
+        "pos": "noun",
+        "notes": "masculine; warrior, soldier"
+      }
+    },
+    {
+      "entry_id": "akkadian_0098",
+      "script_symbol": "𒌨𒌝",
+      "transliteration": "rē'ûm",
+      "translation": "shepherd",
+      "pos": "noun",
+      "morphology": {
+        "root": "R-ʿ-Y",
+        "notes": "masculine; shepherd (written SIPA)"
+      },
+      "definitions": [
+        "shepherd"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "R-ʿ-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "shepherd",
+        "akkadian": "rē'ûm",
+        "cuneiform": "𒌨𒌝",
+        "root": "R-ʿ-Y",
+        "pos": "noun",
+        "notes": "masculine; shepherd (written SIPA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0099",
+      "script_symbol": "𒄿𒅗𒊏𒌝",
+      "transliteration": "ikkārum",
+      "translation": "farmer",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-K-R",
+        "notes": "masculine; field worker, farmer (written ENGAR)"
+      },
+      "definitions": [
+        "farmer"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-K-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "farmer",
+        "akkadian": "ikkārum",
+        "cuneiform": "𒄿𒅗𒊏𒌝",
+        "root": "ʾ-K-R",
+        "pos": "noun",
+        "notes": "masculine; field worker, farmer (written ENGAR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0100",
+      "script_symbol": "𒌝𒈠𒈾𒌝",
+      "transliteration": "ummânum",
+      "translation": "craftsman",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-M-N",
+        "notes": "masculine; artisan, skilled worker"
+      },
+      "definitions": [
+        "craftsman"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "craftsman",
+        "akkadian": "ummânum",
+        "cuneiform": "𒌝𒈠𒈾𒌝",
+        "root": "ʾ-M-N",
+        "pos": "noun",
+        "notes": "masculine; artisan, skilled worker"
+      }
+    },
+    {
+      "entry_id": "akkadian_0101",
+      "script_symbol": "𒁀𒈾𒌝",
+      "transliteration": "bānûm",
+      "translation": "builder",
+      "pos": "noun",
+      "morphology": {
+        "root": "B-N-Y",
+        "notes": "masculine; constructor, builder"
+      },
+      "definitions": [
+        "builder"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "B-N-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "builder",
+        "akkadian": "bānûm",
+        "cuneiform": "𒁀𒈾𒌝",
+        "root": "B-N-Y",
+        "pos": "noun",
+        "notes": "masculine; constructor, builder"
+      }
+    },
+    {
+      "entry_id": "akkadian_0102",
+      "script_symbol": "𒈾𒊒𒌝",
+      "transliteration": "nārûm",
+      "translation": "musician",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-ʾ-R",
+        "notes": "masculine; singer, musician (written NAR)"
+      },
+      "definitions": [
+        "musician"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-ʾ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "musician",
+        "akkadian": "nārûm",
+        "cuneiform": "𒈾𒊒𒌝",
+        "root": "N-ʾ-R",
+        "pos": "noun",
+        "notes": "masculine; singer, musician (written NAR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0103",
+      "script_symbol": "𒂍𒇷𒁍𒌝",
+      "transliteration": "eleppum",
+      "translation": "boat",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-L-P",
+        "notes": "feminine; ship, boat (written GIŠ.MÁ)"
+      },
+      "definitions": [
+        "boat"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-L-P",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "boat",
+        "akkadian": "eleppum",
+        "cuneiform": "𒂍𒇷𒁍𒌝",
+        "root": "ʾ-L-P",
+        "pos": "noun",
+        "notes": "feminine; ship, boat (written GIŠ.MÁ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0104",
+      "script_symbol": "𒋗𒋢𒌝",
+      "transliteration": "sīsûm",
+      "translation": "horse",
+      "pos": "noun",
+      "morphology": {
+        "root": "S-Y-S",
+        "notes": "masculine; horse (written ANŠE.KUR.RA)"
+      },
+      "definitions": [
+        "horse"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "S-Y-S",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "horse",
+        "akkadian": "sīsûm",
+        "cuneiform": "𒋗𒋢𒌝",
+        "root": "S-Y-S",
+        "pos": "noun",
+        "notes": "masculine; horse (written ANŠE.KUR.RA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0105",
+      "script_symbol": "𒇇𒈨𒊒𒌝",
+      "transliteration": "imērum",
+      "translation": "donkey",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-M-R",
+        "notes": "masculine; ass, donkey (written ANŠE)"
+      },
+      "definitions": [
+        "donkey"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "donkey",
+        "akkadian": "imērum",
+        "cuneiform": "𒇇𒈨𒊒𒌝",
+        "root": "ʾ-M-R",
+        "pos": "noun",
+        "notes": "masculine; ass, donkey (written ANŠE)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0106",
+      "script_symbol": "𒆗𒁍𒌝",
+      "transliteration": "kalbum",
+      "translation": "dog",
+      "pos": "noun",
+      "morphology": {
+        "root": "K-L-B",
+        "notes": "masculine; dog (written UR.GI₇)"
+      },
+      "definitions": [
+        "dog"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-L-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "dog",
+        "akkadian": "kalbum",
+        "cuneiform": "𒆗𒁍𒌝",
+        "root": "K-L-B",
+        "pos": "noun",
+        "notes": "masculine; dog (written UR.GI₇)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0107",
+      "script_symbol": "𒉌𒋢𒌝",
+      "transliteration": "nēšum",
+      "translation": "lion",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-Y-Š",
+        "notes": "masculine; lion (written UR.MAḪ)"
+      },
+      "definitions": [
+        "lion"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-Y-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "lion",
+        "akkadian": "nēšum",
+        "cuneiform": "𒉌𒋢𒌝",
+        "root": "N-Y-Š",
+        "pos": "noun",
+        "notes": "masculine; lion (written UR.MAḪ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0108",
+      "script_symbol": "𒄿𒑳𒉯𒊒𒌝",
+      "transliteration": "iṣṣūrum",
+      "translation": "bird",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Ṣ-R",
+        "notes": "masculine; bird (written MUŠEN)"
+      },
+      "definitions": [
+        "bird"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Ṣ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "bird",
+        "akkadian": "iṣṣūrum",
+        "cuneiform": "𒄿𒑳𒉯𒊒𒌝",
+        "root": "ʾ-Ṣ-R",
+        "pos": "noun",
+        "notes": "masculine; bird (written MUŠEN)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0109",
+      "script_symbol": "𒉣𒈾𒌝",
+      "transliteration": "nūnum",
+      "translation": "fish",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-W-N",
+        "notes": "masculine; fish (written KU₆)"
+      },
+      "definitions": [
+        "fish"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-W-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "fish",
+        "akkadian": "nūnum",
+        "cuneiform": "𒉣𒈾𒌝",
+        "root": "N-W-N",
+        "pos": "noun",
+        "notes": "masculine; fish (written KU₆)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0110",
+      "script_symbol": "𒄿𒑳𒌝",
+      "transliteration": "iṣum",
+      "translation": "tree",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Ṣ",
+        "notes": "masculine; tree, wood (written GIŠ)"
+      },
+      "definitions": [
+        "tree"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Ṣ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "tree",
+        "akkadian": "iṣum",
+        "cuneiform": "𒄿𒑳𒌝",
+        "root": "ʾ-Ṣ",
+        "pos": "noun",
+        "notes": "masculine; tree, wood (written GIŠ)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0111",
+      "script_symbol": "𒄿𒅔𒁍𒌝",
+      "transliteration": "inbum",
+      "translation": "fruit",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-N-B",
+        "notes": "masculine; fruit"
+      },
+      "definitions": [
+        "fruit"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-N-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "fruit",
+        "akkadian": "inbum",
+        "cuneiform": "𒄿𒅔𒁍𒌝",
+        "root": "ʾ-N-B",
+        "pos": "noun",
+        "notes": "masculine; fruit"
+      }
+    },
+    {
+      "entry_id": "akkadian_0112",
+      "script_symbol": "𒀸𒈾",
+      "transliteration": "ašnan",
+      "translation": "grain",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Š-N",
+        "notes": "feminine; grain goddess, cereals"
+      },
+      "definitions": [
+        "grain"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Š-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "grain",
+        "akkadian": "ašnan",
+        "cuneiform": "𒀸𒈾",
+        "root": "ʾ-Š-N",
+        "pos": "noun",
+        "notes": "feminine; grain goddess, cereals"
+      }
+    },
+    {
+      "entry_id": "akkadian_0113",
+      "script_symbol": "𒆠𒊒𒌝",
+      "transliteration": "kirûm",
+      "translation": "garden",
+      "pos": "noun",
+      "morphology": {
+        "root": "K-R-Y",
+        "notes": "masculine; orchard, garden (written GIŠ.KIRI₆)"
+      },
+      "definitions": [
+        "garden"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-R-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "garden",
+        "akkadian": "kirûm",
+        "cuneiform": "𒆠𒊒𒌝",
+        "root": "K-R-Y",
+        "pos": "noun",
+        "notes": "masculine; orchard, garden (written GIŠ.KIRI₆)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0114",
+      "script_symbol": "𒊭𒁺𒌝",
+      "transliteration": "šadûm",
+      "translation": "mountain",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-D-Y",
+        "notes": "masculine; mountain, hill (written KUR)"
+      },
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-D-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "mountain",
+        "akkadian": "šadûm",
+        "cuneiform": "𒊭𒁺𒌝",
+        "root": "Š-D-Y",
+        "pos": "noun",
+        "notes": "masculine; mountain, hill (written KUR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0115",
+      "script_symbol": "𒈾𒊒𒌝",
+      "transliteration": "nārum",
+      "translation": "river",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-ʾ-R",
+        "notes": "masculine; river, stream (written ÍD)"
+      },
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-ʾ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "river",
+        "akkadian": "nārum",
+        "cuneiform": "𒈾𒊒𒌝",
+        "root": "N-ʾ-R",
+        "pos": "noun",
+        "notes": "masculine; river, stream (written ÍD)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0116",
+      "script_symbol": "𒀀𒀊𒌈",
+      "transliteration": "tâmtum",
+      "translation": "sea",
+      "pos": "noun",
+      "morphology": {
+        "root": "T-ʾ-M",
+        "notes": "feminine; sea, ocean (written A.AB.BA)"
+      },
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "T-ʾ-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sea",
+        "akkadian": "tâmtum",
+        "cuneiform": "𒀀𒀊𒌈",
+        "root": "T-ʾ-M",
+        "pos": "noun",
+        "notes": "feminine; sea, ocean (written A.AB.BA)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0117",
+      "script_symbol": "𒊭𒊒𒌝",
+      "transliteration": "šārum",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-ʾ-R",
+        "notes": "masculine; wind, air"
+      },
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-ʾ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "wind",
+        "akkadian": "šārum",
+        "cuneiform": "𒊭𒊒𒌝",
+        "root": "Š-ʾ-R",
+        "pos": "noun",
+        "notes": "masculine; wind, air"
+      }
+    },
+    {
+      "entry_id": "akkadian_0118",
+      "script_symbol": "𒄿𒊭𒌈",
+      "transliteration": "išātum",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Š-T",
+        "notes": "feminine; fire (written IZI)"
+      },
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Š-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "fire",
+        "akkadian": "išātum",
+        "cuneiform": "𒄿𒊭𒌈",
+        "root": "ʾ-Š-T",
+        "pos": "noun",
+        "notes": "feminine; fire (written IZI)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0119",
+      "script_symbol": "𒀀𒌓𒈾𒌝",
+      "transliteration": "abnum",
+      "translation": "stone",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-B-N",
+        "notes": "masculine; stone, rock (written NA₄)"
+      },
+      "definitions": [
+        "stone"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-B-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "stone",
+        "akkadian": "abnum",
+        "cuneiform": "𒀀𒌓𒈾𒌝",
+        "root": "ʾ-B-N",
+        "pos": "noun",
+        "notes": "masculine; stone, rock (written NA₄)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0120",
+      "script_symbol": "𒋛𒉺𒌝",
+      "transliteration": "siparrum",
+      "translation": "metal",
+      "pos": "noun",
+      "morphology": {
+        "root": "S-P-R",
+        "notes": "masculine; bronze, metal"
+      },
+      "definitions": [
+        "metal"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "S-P-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "metal",
+        "akkadian": "siparrum",
+        "cuneiform": "𒋛𒉺𒌝",
+        "root": "S-P-R",
+        "pos": "noun",
+        "notes": "masculine; bronze, metal"
+      }
+    },
+    {
+      "entry_id": "akkadian_0121",
+      "script_symbol": "𒁆𒍣𒇻𒌝",
+      "transliteration": "parzillum",
+      "translation": "iron",
+      "pos": "noun",
+      "morphology": {
+        "root": "P-R-Z",
+        "notes": "masculine; iron (written AN.BAR)"
+      },
+      "definitions": [
+        "iron"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "P-R-Z",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "iron",
+        "akkadian": "parzillum",
+        "cuneiform": "𒁆𒍣𒇻𒌝",
+        "root": "P-R-Z",
+        "pos": "noun",
+        "notes": "masculine; iron (written AN.BAR)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0122",
+      "script_symbol": "𒂊𒊒𒌝",
+      "transliteration": "erûm",
+      "translation": "copper",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-R-Y",
+        "notes": "masculine; copper (written URUDU)"
+      },
+      "definitions": [
+        "copper"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "copper",
+        "akkadian": "erûm",
+        "cuneiform": "𒂊𒊒𒌝",
+        "root": "ʾ-R-Y",
+        "pos": "noun",
+        "notes": "masculine; copper (written URUDU)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0123",
+      "script_symbol": "𒋢𒁀𒌈",
+      "transliteration": "ṣubātum",
+      "translation": "clothing",
+      "pos": "noun",
+      "morphology": {
+        "root": "Ṣ-B-T",
+        "notes": "feminine; garment, clothing (written TÚG)"
+      },
+      "definitions": [
+        "clothing"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṣ-B-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "clothing",
+        "akkadian": "ṣubātum",
+        "cuneiform": "𒋢𒁀𒌈",
+        "root": "Ṣ-B-T",
+        "pos": "noun",
+        "notes": "feminine; garment, clothing (written TÚG)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0124",
+      "script_symbol": "𒋚𒈾𒌝",
+      "transliteration": "šēnum",
+      "translation": "shoe",
+      "pos": "noun",
+      "morphology": {
+        "root": "Š-ʾ-N",
+        "notes": "masculine; sandal, shoe"
+      },
+      "definitions": [
+        "shoe"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-ʾ-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "shoe",
+        "akkadian": "šēnum",
+        "cuneiform": "𒋚𒈾𒌝",
+        "root": "Š-ʾ-N",
+        "pos": "noun",
+        "notes": "masculine; sandal, shoe"
+      }
+    },
+    {
+      "entry_id": "akkadian_0125",
+      "script_symbol": "𒃊𒌝",
+      "transliteration": "kakkum",
+      "translation": "weapon",
+      "pos": "noun",
+      "morphology": {
+        "root": "K-K",
+        "notes": "masculine; weapon, tool (written GIŠ.TUKUL)"
+      },
+      "definitions": [
+        "weapon"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-K",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "weapon",
+        "akkadian": "kakkum",
+        "cuneiform": "𒃊𒌝",
+        "root": "K-K",
+        "pos": "noun",
+        "notes": "masculine; weapon, tool (written GIŠ.TUKUL)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0126",
+      "script_symbol": "𒉆𒑳𒊏𒌝",
+      "transliteration": "namṣārum",
+      "translation": "sword",
+      "pos": "noun",
+      "morphology": {
+        "root": "N-Ṣ-R",
+        "notes": "masculine; sword, blade"
+      },
+      "definitions": [
+        "sword"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-Ṣ-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sword",
+        "akkadian": "namṣārum",
+        "cuneiform": "𒉆𒑳𒊏𒌝",
+        "root": "N-Ṣ-R",
+        "pos": "noun",
+        "notes": "masculine; sword, blade"
+      }
+    },
+    {
+      "entry_id": "akkadian_0127",
+      "script_symbol": "𒋳𒋢𒌈",
+      "transliteration": "qašutum",
+      "translation": "bow",
+      "pos": "noun",
+      "morphology": {
+        "root": "Q-Š-T",
+        "notes": "feminine; bow, arch (written GIŠ.BAN)"
+      },
+      "definitions": [
+        "bow"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Q-Š-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "bow",
+        "akkadian": "qašutum",
+        "cuneiform": "𒋳𒋢𒌈",
+        "root": "Q-Š-T",
+        "pos": "noun",
+        "notes": "feminine; bow, arch (written GIŠ.BAN)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0128",
+      "script_symbol": "𒌑𒑳𒌝",
+      "transliteration": "uṣṣum",
+      "translation": "arrow",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-Ṣ-Ṣ",
+        "notes": "masculine; arrow (written GIŠ.GAG)"
+      },
+      "definitions": [
+        "arrow"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Ṣ-Ṣ",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "arrow",
+        "akkadian": "uṣṣum",
+        "cuneiform": "𒌑𒑳𒌝",
+        "root": "ʾ-Ṣ-Ṣ",
+        "pos": "noun",
+        "notes": "masculine; arrow (written GIŠ.GAG)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0129",
+      "script_symbol": "𒀀𒊑𒌈",
+      "transliteration": "arrītum",
+      "translation": "shield",
+      "pos": "noun",
+      "morphology": {
+        "root": "ʾ-R-Y",
+        "notes": "feminine; shield, protection"
+      },
+      "definitions": [
+        "shield"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "shield",
+        "akkadian": "arrītum",
+        "cuneiform": "𒀀𒊑𒌈",
+        "root": "ʾ-R-Y",
+        "pos": "noun",
+        "notes": "feminine; shield, protection"
+      }
+    },
+    {
+      "entry_id": "akkadian_0130",
+      "script_symbol": "𒈏𒌝",
+      "transliteration": "minûm",
+      "translation": "number",
+      "pos": "noun",
+      "morphology": {
+        "root": "M-N-Y",
+        "notes": "masculine; number, count"
+      },
+      "definitions": [
+        "number"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-N-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "number",
+        "akkadian": "minûm",
+        "cuneiform": "𒈏𒌝",
+        "root": "M-N-Y",
+        "pos": "noun",
+        "notes": "masculine; number, count"
+      }
+    },
+    {
+      "entry_id": "akkadian_0131",
+      "script_symbol": "𒀸𒁺",
+      "transliteration": "ištēn",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {
+        "root": "ʾ-Š-T",
+        "notes": "cardinal number 1 (masculine)"
+      },
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Š-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "one",
+        "akkadian": "ištēn",
+        "cuneiform": "𒀸𒁺",
+        "root": "ʾ-Š-T",
+        "pos": "numeral",
+        "notes": "cardinal number 1 (masculine)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0132",
+      "script_symbol": "𒌋𒈾",
+      "transliteration": "šinā",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {
+        "root": "Š-N",
+        "notes": "cardinal number 2"
+      },
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "two",
+        "akkadian": "šinā",
+        "cuneiform": "𒌋𒈾",
+        "root": "Š-N",
+        "pos": "numeral",
+        "notes": "cardinal number 2"
+      }
+    },
+    {
+      "entry_id": "akkadian_0133",
+      "script_symbol": "𒌍𒋢𒌝",
+      "transliteration": "šalāšum",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {
+        "root": "Š-L-Š",
+        "notes": "cardinal number 3"
+      },
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Š-L-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "three",
+        "akkadian": "šalāšum",
+        "cuneiform": "𒌍𒋢𒌝",
+        "root": "Š-L-Š",
+        "pos": "numeral",
+        "notes": "cardinal number 3"
+      }
+    },
+    {
+      "entry_id": "akkadian_0134",
+      "script_symbol": "𒐊𒁍𒌝",
+      "transliteration": "erbum",
+      "translation": "four",
+      "pos": "numeral",
+      "morphology": {
+        "root": "ʾ-R-B",
+        "notes": "cardinal number 4"
+      },
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-B",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "four",
+        "akkadian": "erbum",
+        "cuneiform": "𒐊𒁍𒌝",
+        "root": "ʾ-R-B",
+        "pos": "numeral",
+        "notes": "cardinal number 4"
+      }
+    },
+    {
+      "entry_id": "akkadian_0135",
+      "script_symbol": "𒄩𒄠𒋢𒌝",
+      "transliteration": "ḫamšum",
+      "translation": "five",
+      "pos": "numeral",
+      "morphology": {
+        "root": "Ḫ-M-Š",
+        "notes": "cardinal number 5"
+      },
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-M-Š",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "five",
+        "akkadian": "ḫamšum",
+        "cuneiform": "𒄩𒄠𒋢𒌝",
+        "root": "Ḫ-M-Š",
+        "pos": "numeral",
+        "notes": "cardinal number 5"
+      }
+    },
+    {
+      "entry_id": "akkadian_0136",
+      "script_symbol": "𒌋𒌓",
+      "transliteration": "ešrum",
+      "translation": "ten",
+      "pos": "numeral",
+      "morphology": {
+        "root": "ʿ-Š-R",
+        "notes": "cardinal number 10"
+      },
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʿ-Š-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "ten",
+        "akkadian": "ešrum",
+        "cuneiform": "𒌋𒌓",
+        "root": "ʿ-Š-R",
+        "pos": "numeral",
+        "notes": "cardinal number 10"
+      }
+    },
+    {
+      "entry_id": "akkadian_0137",
+      "script_symbol": "𒈨𒀜𒌝",
+      "transliteration": "me'atum",
+      "translation": "hundred",
+      "pos": "numeral",
+      "morphology": {
+        "root": "M-ʾ-T",
+        "notes": "cardinal number 100"
+      },
+      "definitions": [
+        "hundred"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-ʾ-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "hundred",
+        "akkadian": "me'atum",
+        "cuneiform": "𒈨𒀜𒌝",
+        "root": "M-ʾ-T",
+        "pos": "numeral",
+        "notes": "cardinal number 100"
+      }
+    },
+    {
+      "entry_id": "akkadian_0138",
+      "script_symbol": "𒅆𒌝",
+      "transliteration": "līmum",
+      "translation": "thousand",
+      "pos": "numeral",
+      "morphology": {
+        "root": "L-ʾ-M",
+        "notes": "cardinal number 1000"
+      },
+      "definitions": [
+        "thousand"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "L-ʾ-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "thousand",
+        "akkadian": "līmum",
+        "cuneiform": "𒅆𒌝",
+        "root": "L-ʾ-M",
+        "pos": "numeral",
+        "notes": "cardinal number 1000"
+      }
+    },
+    {
+      "entry_id": "akkadian_0139",
+      "script_symbol": "𒉺𒑳𒌝",
+      "transliteration": "peṣûm",
+      "translation": "white",
+      "pos": "adjective",
+      "morphology": {
+        "root": "P-Ṣ-Y",
+        "notes": "masculine; white, bright (fem. peṣītum)"
+      },
+      "definitions": [
+        "white"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "P-Ṣ-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "white",
+        "akkadian": "peṣûm",
+        "cuneiform": "𒉺𒑳𒌝",
+        "root": "P-Ṣ-Y",
+        "pos": "adjective",
+        "notes": "masculine; white, bright (fem. peṣītum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0140",
+      "script_symbol": "𒑳𒀠𒌝",
+      "transliteration": "ṣalmum",
+      "translation": "black",
+      "pos": "adjective",
+      "morphology": {
+        "root": "Ṣ-L-M",
+        "notes": "masculine; black, dark (fem. ṣalmum)"
+      },
+      "definitions": [
+        "black"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ṣ-L-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "black",
+        "akkadian": "ṣalmum",
+        "cuneiform": "𒑳𒀠𒌝",
+        "root": "Ṣ-L-M",
+        "pos": "adjective",
+        "notes": "masculine; black, dark (fem. ṣalmum)"
+      }
+    },
+    {
+      "entry_id": "akkadian_0141",
+      "script_symbol": "𒊓𒈬𒌝",
+      "transliteration": "sāmum",
+      "translation": "red",
+      "pos": "adjective",
+      "morphology": {
+        "root": "S-ʾ-M",
+        "notes": "masculine; red, reddish"
+      },
+      "definitions": [
+        "red"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "S-ʾ-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "red",
+        "akkadian": "sāmum",
+        "cuneiform": "𒊓𒈬𒌝",
+        "root": "S-ʾ-M",
+        "pos": "adjective",
+        "notes": "masculine; red, reddish"
+      }
+    },
+    {
+      "entry_id": "akkadian_0142",
+      "script_symbol": "𒌑𒆪𒈾𒌝",
+      "transliteration": "uqnûm",
+      "translation": "blue",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ʾ-Q-N",
+        "notes": "masculine; blue, lapis lazuli colored"
+      },
+      "definitions": [
+        "blue"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-Q-N",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "blue",
+        "akkadian": "uqnûm",
+        "cuneiform": "𒌑𒆪𒈾𒌝",
+        "root": "ʾ-Q-N",
+        "pos": "adjective",
+        "notes": "masculine; blue, lapis lazuli colored"
+      }
+    },
+    {
+      "entry_id": "akkadian_0143",
+      "script_symbol": "𒀀𒅈𒌝",
+      "transliteration": "arqum",
+      "translation": "green",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ʾ-R-Q",
+        "notes": "masculine; green, yellow-green"
+      },
+      "definitions": [
+        "green"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-R-Q",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "green",
+        "akkadian": "arqum",
+        "cuneiform": "𒀀𒅈𒌝",
+        "root": "ʾ-R-Q",
+        "pos": "adjective",
+        "notes": "masculine; green, yellow-green"
+      }
+    },
+    {
+      "entry_id": "akkadian_0144",
+      "script_symbol": "𒈦𒌓𒌝",
+      "transliteration": "maṭûm",
+      "translation": "sweet",
+      "pos": "adjective",
+      "morphology": {
+        "root": "M-Ṭ-Y",
+        "notes": "masculine; sweet, pleasant"
+      },
+      "definitions": [
+        "sweet"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-Ṭ-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sweet",
+        "akkadian": "maṭûm",
+        "cuneiform": "𒈦𒌓𒌝",
+        "root": "M-Ṭ-Y",
+        "pos": "adjective",
+        "notes": "masculine; sweet, pleasant"
+      }
+    },
+    {
+      "entry_id": "akkadian_0145",
+      "script_symbol": "𒈬𒌝",
+      "transliteration": "murrum",
+      "translation": "bitter",
+      "pos": "adjective",
+      "morphology": {
+        "root": "M-R-R",
+        "notes": "masculine; bitter, harsh"
+      },
+      "definitions": [
+        "bitter"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "M-R-R",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "bitter",
+        "akkadian": "murrum",
+        "cuneiform": "𒈬𒌝",
+        "root": "M-R-R",
+        "pos": "adjective",
+        "notes": "masculine; bitter, harsh"
+      }
+    },
+    {
+      "entry_id": "akkadian_0146",
+      "script_symbol": "𒄩𒁺𒌝",
+      "transliteration": "ḫaddūm",
+      "translation": "sharp",
+      "pos": "adjective",
+      "morphology": {
+        "root": "Ḫ-D-D",
+        "notes": "masculine; sharp, pointed"
+      },
+      "definitions": [
+        "sharp"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "Ḫ-D-D",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "sharp",
+        "akkadian": "ḫaddūm",
+        "cuneiform": "𒄩𒁺𒌝",
+        "root": "Ḫ-D-D",
+        "pos": "adjective",
+        "notes": "masculine; sharp, pointed"
+      }
+    },
+    {
+      "entry_id": "akkadian_0147",
+      "script_symbol": "𒁀𒋢𒌝",
+      "transliteration": "passūm",
+      "translation": "dull",
+      "pos": "adjective",
+      "morphology": {
+        "root": "P-S-S",
+        "notes": "masculine; blunt, dull"
+      },
+      "definitions": [
+        "dull"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "P-S-S",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "dull",
+        "akkadian": "passūm",
+        "cuneiform": "𒁀𒋢𒌝",
+        "root": "P-S-S",
+        "pos": "adjective",
+        "notes": "masculine; blunt, dull"
+      }
+    },
+    {
+      "entry_id": "akkadian_0148",
+      "script_symbol": "𒂊𒈬𒌝",
+      "transliteration": "emūm",
+      "translation": "hot",
+      "pos": "adjective",
+      "morphology": {
+        "root": "ʾ-M-M",
+        "notes": "masculine; hot, warm"
+      },
+      "definitions": [
+        "hot"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ʾ-M-M",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "hot",
+        "akkadian": "emūm",
+        "cuneiform": "𒂊𒈬𒌝",
+        "root": "ʾ-M-M",
+        "pos": "adjective",
+        "notes": "masculine; hot, warm"
+      }
+    },
+    {
+      "entry_id": "akkadian_0149",
+      "script_symbol": "𒋡𒑳𒌝",
+      "transliteration": "kaṣûm",
+      "translation": "cold",
+      "pos": "adjective",
+      "morphology": {
+        "root": "K-Ṣ-Y",
+        "notes": "masculine; cold, chilly"
+      },
+      "definitions": [
+        "cold"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-Ṣ-Y",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "cold",
+        "akkadian": "kaṣûm",
+        "cuneiform": "𒋡𒑳𒌝",
+        "root": "K-Ṣ-Y",
+        "pos": "adjective",
+        "notes": "masculine; cold, chilly"
+      }
+    },
+    {
+      "entry_id": "akkadian_0150",
+      "script_symbol": "𒋡𒌈",
+      "transliteration": "kabtum",
+      "translation": "hard",
+      "pos": "adjective",
+      "morphology": {
+        "root": "K-B-T",
+        "notes": "masculine; hard, difficult, heavy"
+      },
+      "definitions": [
+        "hard"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "K-B-T",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "hard",
+        "akkadian": "kabtum",
+        "cuneiform": "𒋡𒌈",
+        "root": "K-B-T",
+        "pos": "adjective",
+        "notes": "masculine; hard, difficult, heavy"
+      }
+    },
+    {
+      "entry_id": "akkadian_0151",
+      "script_symbol": "𒈾𒅈𒁀𒌝",
+      "transliteration": "narkabum",
+      "translation": "soft",
+      "pos": "adjective",
+      "morphology": {
+        "root": "N-R-K",
+        "notes": "masculine; soft, tender"
+      },
+      "definitions": [
+        "soft"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "N-R-K",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "lexicon_akkadian.json",
+      "original_record": {
+        "english": "soft",
+        "akkadian": "narkabum",
+        "cuneiform": "𒈾𒅈𒁀𒌝",
+        "root": "N-R-K",
+        "pos": "adjective",
+        "notes": "masculine; soft, tender"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Akkadian entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

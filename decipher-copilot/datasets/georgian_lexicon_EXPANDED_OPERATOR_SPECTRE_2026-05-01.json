@@ -1,0 +1,2039 @@
+{
+  "metadata": {
+    "title": "Georgian (Mkhedruli) Lexicon",
+    "description": "Expanded and normalized Georgian (Mkhedruli) dataset derived from georgian_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "georgian_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 60,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Aronson - Georgian: A Reading Grammar",
+      "Hewitt - Georgian: A Structural Reference Grammar",
+      "The Unicode Consortium – Code Charts",
+      "Georgian Language Corpus"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "georgian_corpus": {
+        "title": "Georgian Language Corpus",
+        "url": "https://oldcorpora.iliauni.edu.ge/",
+        "type": "text_corpus",
+        "scope": "Old, Middle, Modern Georgian corpus resources"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Alphabetic (unique, non-derived)",
+    "historical_significance": "Kartvelian alphabetic writing tradition with Old, Middle, and Modern Georgian corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "georgian_0001",
+      "script_symbol": "ა",
+      "transliteration": "ani",
+      "translation": "ani (a)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "a"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0001",
+        "token": "ა",
+        "gloss": "ani (a)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0002",
+      "script_symbol": "ბ",
+      "transliteration": "bani",
+      "translation": "bani (b)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "b"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0002",
+        "token": "ბ",
+        "gloss": "bani (b)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0003",
+      "script_symbol": "გ",
+      "transliteration": "gani",
+      "translation": "gani (g)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "g"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0003",
+        "token": "გ",
+        "gloss": "gani (g)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0004",
+      "script_symbol": "დ",
+      "transliteration": "doni",
+      "translation": "doni (d)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "d"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0004",
+        "token": "დ",
+        "gloss": "doni (d)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0005",
+      "script_symbol": "ე",
+      "transliteration": "eni",
+      "translation": "eni (e)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "e"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0005",
+        "token": "ე",
+        "gloss": "eni (e)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0006",
+      "script_symbol": "ვ",
+      "transliteration": "vini",
+      "translation": "vini (v)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "v"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0006",
+        "token": "ვ",
+        "gloss": "vini (v)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0007",
+      "script_symbol": "ზ",
+      "transliteration": "zeni",
+      "translation": "zeni (z)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "z"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0007",
+        "token": "ზ",
+        "gloss": "zeni (z)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0008",
+      "script_symbol": "თ",
+      "transliteration": "tani",
+      "translation": "tani (t aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "t aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0008",
+        "token": "თ",
+        "gloss": "tani (t aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0009",
+      "script_symbol": "ი",
+      "transliteration": "ini",
+      "translation": "ini (i)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "i"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0009",
+        "token": "ი",
+        "gloss": "ini (i)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0010",
+      "script_symbol": "კ",
+      "transliteration": "kani",
+      "translation": "kani (k ejective)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "k ejective"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0010",
+        "token": "კ",
+        "gloss": "kani (k ejective)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0011",
+      "script_symbol": "ლ",
+      "transliteration": "lasi",
+      "translation": "lasi (l)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "l"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0011",
+        "token": "ლ",
+        "gloss": "lasi (l)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0012",
+      "script_symbol": "მ",
+      "transliteration": "mani",
+      "translation": "mani (m)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "m"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0012",
+        "token": "მ",
+        "gloss": "mani (m)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0013",
+      "script_symbol": "ნ",
+      "transliteration": "nari",
+      "translation": "nari (n)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "n"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0013",
+        "token": "ნ",
+        "gloss": "nari (n)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0014",
+      "script_symbol": "ო",
+      "transliteration": "oni",
+      "translation": "oni (o)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "o"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0014",
+        "token": "ო",
+        "gloss": "oni (o)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0015",
+      "script_symbol": "პ",
+      "transliteration": "pari",
+      "translation": "pari (p ejective)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "p ejective"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0015",
+        "token": "პ",
+        "gloss": "pari (p ejective)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0016",
+      "script_symbol": "ჟ",
+      "transliteration": "zhani",
+      "translation": "zhani (zh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "zh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0016",
+        "token": "ჟ",
+        "gloss": "zhani (zh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0017",
+      "script_symbol": "რ",
+      "transliteration": "rae",
+      "translation": "rae (r)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "r"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0017",
+        "token": "რ",
+        "gloss": "rae (r)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0018",
+      "script_symbol": "ს",
+      "transliteration": "sani",
+      "translation": "sani (s)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0018",
+        "token": "ს",
+        "gloss": "sani (s)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0019",
+      "script_symbol": "ტ",
+      "transliteration": "tari",
+      "translation": "tari (t ejective)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "t ejective"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0019",
+        "token": "ტ",
+        "gloss": "tari (t ejective)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0020",
+      "script_symbol": "უ",
+      "transliteration": "uni",
+      "translation": "uni (u)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "u"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0020",
+        "token": "უ",
+        "gloss": "uni (u)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0021",
+      "script_symbol": "ფ",
+      "transliteration": "pari",
+      "translation": "pari (p aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "p aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0021",
+        "token": "ფ",
+        "gloss": "pari (p aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0022",
+      "script_symbol": "ქ",
+      "transliteration": "kani",
+      "translation": "kani (k aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "k aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0022",
+        "token": "ქ",
+        "gloss": "kani (k aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0023",
+      "script_symbol": "ღ",
+      "transliteration": "ghani",
+      "translation": "ghani (gh uvular)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "gh uvular"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0023",
+        "token": "ღ",
+        "gloss": "ghani (gh uvular)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0024",
+      "script_symbol": "ყ",
+      "transliteration": "qari",
+      "translation": "qari (q ejective uvular)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "q ejective uvular"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0024",
+        "token": "ყ",
+        "gloss": "qari (q ejective uvular)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0025",
+      "script_symbol": "შ",
+      "transliteration": "shini",
+      "translation": "shini (sh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "sh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0025",
+        "token": "შ",
+        "gloss": "shini (sh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0026",
+      "script_symbol": "ჩ",
+      "transliteration": "chini",
+      "translation": "chini (ch aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ch aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0026",
+        "token": "ჩ",
+        "gloss": "chini (ch aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0027",
+      "script_symbol": "ც",
+      "transliteration": "tsani",
+      "translation": "tsani (ts aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ts aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0027",
+        "token": "ც",
+        "gloss": "tsani (ts aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0028",
+      "script_symbol": "ძ",
+      "transliteration": "dzili",
+      "translation": "dzili (dz)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "dz"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0028",
+        "token": "ძ",
+        "gloss": "dzili (dz)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0029",
+      "script_symbol": "წ",
+      "transliteration": "tsili",
+      "translation": "tsili (ts ejective)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ts ejective"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0029",
+        "token": "წ",
+        "gloss": "tsili (ts ejective)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0030",
+      "script_symbol": "ჭ",
+      "transliteration": "chari",
+      "translation": "chari (ch ejective)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ch ejective"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0030",
+        "token": "ჭ",
+        "gloss": "chari (ch ejective)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0031",
+      "script_symbol": "ხ",
+      "transliteration": "khani",
+      "translation": "khani (kh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "kh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0031",
+        "token": "ხ",
+        "gloss": "khani (kh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0032",
+      "script_symbol": "ჯ",
+      "transliteration": "jani",
+      "translation": "jani (j)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "j"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0032",
+        "token": "ჯ",
+        "gloss": "jani (j)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0033",
+      "script_symbol": "ჰ",
+      "transliteration": "hae",
+      "translation": "hae (h)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "h"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0033",
+        "token": "ჰ",
+        "gloss": "hae (h)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0034",
+      "script_symbol": "საქართველო",
+      "transliteration": "sakartvelo",
+      "translation": "sakartvelo - Georgia (self-name)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Georgia (self-name)"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0034",
+        "token": "საქართველო",
+        "gloss": "sakartvelo - Georgia (self-name)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0035",
+      "script_symbol": "ღმერთი",
+      "transliteration": "ghmerti",
+      "translation": "ghmerti - God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0035",
+        "token": "ღმერთი",
+        "gloss": "ghmerti - God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0036",
+      "script_symbol": "მეფე",
+      "transliteration": "mepe",
+      "translation": "mepe - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0036",
+        "token": "მეფე",
+        "gloss": "mepe - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0037",
+      "script_symbol": "დედოფალი",
+      "transliteration": "dedopali",
+      "translation": "dedopali - queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0037",
+        "token": "დედოფალი",
+        "gloss": "dedopali - queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0038",
+      "script_symbol": "ქვეყანა",
+      "transliteration": "kveqana",
+      "translation": "kveqana - country, world",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "country, world"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0038",
+        "token": "ქვეყანა",
+        "gloss": "kveqana - country, world",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0039",
+      "script_symbol": "ადამიანი",
+      "transliteration": "adamiani",
+      "translation": "adamiani - human being",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "human being"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0039",
+        "token": "ადამიანი",
+        "gloss": "adamiani - human being",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0040",
+      "script_symbol": "კაცი",
+      "transliteration": "katsi",
+      "translation": "katsi - man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0040",
+        "token": "კაცი",
+        "gloss": "katsi - man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0041",
+      "script_symbol": "ქალი",
+      "transliteration": "kali",
+      "translation": "kali - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0041",
+        "token": "ქალი",
+        "gloss": "kali - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0042",
+      "script_symbol": "მამა",
+      "transliteration": "mama",
+      "translation": "mama - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0042",
+        "token": "მამა",
+        "gloss": "mama - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0043",
+      "script_symbol": "დედა",
+      "transliteration": "deda",
+      "translation": "deda - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0043",
+        "token": "დედა",
+        "gloss": "deda - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0044",
+      "script_symbol": "შვილი",
+      "transliteration": "shvili",
+      "translation": "shvili - child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0044",
+        "token": "შვილი",
+        "gloss": "shvili - child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0045",
+      "script_symbol": "ძმა",
+      "transliteration": "dzma",
+      "translation": "dzma - brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0045",
+        "token": "ძმა",
+        "gloss": "dzma - brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0046",
+      "script_symbol": "და",
+      "transliteration": "da",
+      "translation": "da - sister; and",
+      "pos": "noun/conjunction",
+      "morphology": {},
+      "definitions": [
+        "sister; and"
+      ],
+      "semantic_field": "kinship/connective",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0046",
+        "token": "და",
+        "gloss": "da - sister; and",
+        "pos": "noun/conjunction",
+        "semantic_field": "kinship/connective",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0047",
+      "script_symbol": "სიყვარული",
+      "transliteration": "siqvaruli",
+      "translation": "siqvaruli - love",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0047",
+        "token": "სიყვარული",
+        "gloss": "siqvaruli - love",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0048",
+      "script_symbol": "სიცოცხლე",
+      "transliteration": "sitsotskhle",
+      "translation": "sitsotskhle - life",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0048",
+        "token": "სიცოცხლე",
+        "gloss": "sitsotskhle - life",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0049",
+      "script_symbol": "სიკვდილი",
+      "transliteration": "sikvdili",
+      "translation": "sikvdili - death",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0049",
+        "token": "სიკვდილი",
+        "gloss": "sikvdili - death",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0050",
+      "script_symbol": "მზე",
+      "transliteration": "mze",
+      "translation": "mze - sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0050",
+        "token": "მზე",
+        "gloss": "mze - sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0051",
+      "script_symbol": "მთვარე",
+      "transliteration": "mtvare",
+      "translation": "mtvare - moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0051",
+        "token": "მთვარე",
+        "gloss": "mtvare - moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0052",
+      "script_symbol": "ვარსკვლავი",
+      "transliteration": "varskvlavi",
+      "translation": "varskvlavi - star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0052",
+        "token": "ვარსკვლავი",
+        "gloss": "varskvlavi - star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0053",
+      "script_symbol": "მთა",
+      "transliteration": "mta",
+      "translation": "mta - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0053",
+        "token": "მთა",
+        "gloss": "mta - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0054",
+      "script_symbol": "ზღვა",
+      "transliteration": "zghva",
+      "translation": "zghva - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0054",
+        "token": "ზღვა",
+        "gloss": "zghva - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0055",
+      "script_symbol": "მდინარე",
+      "transliteration": "mdinare",
+      "translation": "mdinare - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0055",
+        "token": "მდინარე",
+        "gloss": "mdinare - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0056",
+      "script_symbol": "წყალი",
+      "transliteration": "tsqali",
+      "translation": "tsqali - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0056",
+        "token": "წყალი",
+        "gloss": "tsqali - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0057",
+      "script_symbol": "ცეცხლი",
+      "transliteration": "tsetskhli",
+      "translation": "tsetskhli - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0057",
+        "token": "ცეცხლი",
+        "gloss": "tsetskhli - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0058",
+      "script_symbol": "ქარი",
+      "transliteration": "kari",
+      "translation": "kari - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0058",
+        "token": "ქარი",
+        "gloss": "kari - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0059",
+      "script_symbol": "ღვინო",
+      "transliteration": "ghvino",
+      "translation": "ghvino - wine",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "food/culture",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0059",
+        "token": "ღვინო",
+        "gloss": "ghvino - wine",
+        "pos": "noun",
+        "semantic_field": "food/culture",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    },
+    {
+      "entry_id": "georgian_0060",
+      "script_symbol": "პური",
+      "transliteration": "puri",
+      "translation": "puri - bread",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "bread"
+      ],
+      "semantic_field": "food",
+      "etymology": "",
+      "attestations": [
+        "Aronson - Georgian: A Reading Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "georgian_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "georgian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "georgian_0060",
+        "token": "პური",
+        "gloss": "puri - bread",
+        "pos": "noun",
+        "semantic_field": "food",
+        "confidence": 1.0,
+        "source": "Aronson - Georgian: A Reading Grammar"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Georgian (Mkhedruli) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

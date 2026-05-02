@@ -1,0 +1,2004 @@
+{
+  "metadata": {
+    "title": "Thai Lexicon",
+    "description": "Expanded and normalized Thai dataset derived from thai_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "thai_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 57,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Haas - Thai-English Student's Dictionary",
+      "Ram Khamhaeng Inscription (1283 CE)",
+      "The Unicode Consortium – Code Charts",
+      "SEAlang Thai Dictionaries",
+      "SEAlang Library"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "sealang_thai": {
+        "title": "SEAlang Thai Dictionaries",
+        "url": "https://sealang.net/dictionary/",
+        "type": "dictionary",
+        "scope": "Thai and historical Thai dictionary material"
+      },
+      "sealang_library": {
+        "title": "SEAlang Library",
+        "url": "https://sealang.net/library/",
+        "type": "language_reference_library",
+        "scope": "Southeast Asian dictionaries, corpora, and archival texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abugida (Indic-derived)",
+    "historical_significance": "Tai script tradition with historical links to Old Khmer and Indic-derived writing systems.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "thai_0001",
+      "script_symbol": "ก",
+      "transliteration": "ko kai",
+      "translation": "ko kai (k)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0001",
+        "token": "ก",
+        "gloss": "ko kai (k)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0002",
+      "script_symbol": "ข",
+      "transliteration": "kho khai",
+      "translation": "kho khai (kh)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "kh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0002",
+        "token": "ข",
+        "gloss": "kho khai (kh)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0003",
+      "script_symbol": "ค",
+      "transliteration": "kho khwai",
+      "translation": "kho khwai (kh)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "kh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0003",
+        "token": "ค",
+        "gloss": "kho khwai (kh)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0004",
+      "script_symbol": "ง",
+      "transliteration": "ngo ngu",
+      "translation": "ngo ngu (ng)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ng"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0004",
+        "token": "ง",
+        "gloss": "ngo ngu (ng)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0005",
+      "script_symbol": "จ",
+      "transliteration": "cho chan",
+      "translation": "cho chan (ch)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ch"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0005",
+        "token": "จ",
+        "gloss": "cho chan (ch)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0006",
+      "script_symbol": "ฉ",
+      "transliteration": "cho ching",
+      "translation": "cho ching (ch)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ch"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0006",
+        "token": "ฉ",
+        "gloss": "cho ching (ch)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0007",
+      "script_symbol": "ช",
+      "transliteration": "cho chang",
+      "translation": "cho chang (ch)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ch"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0007",
+        "token": "ช",
+        "gloss": "cho chang (ch)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0008",
+      "script_symbol": "ซ",
+      "transliteration": "so so",
+      "translation": "so so (s)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0008",
+        "token": "ซ",
+        "gloss": "so so (s)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0009",
+      "script_symbol": "ด",
+      "transliteration": "do chada",
+      "translation": "do chada (d)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "d"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0009",
+        "token": "ด",
+        "gloss": "do chada (d)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0010",
+      "script_symbol": "ต",
+      "transliteration": "to tao",
+      "translation": "to tao (t)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0010",
+        "token": "ต",
+        "gloss": "to tao (t)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0011",
+      "script_symbol": "ถ",
+      "transliteration": "tho thung",
+      "translation": "tho thung (th)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "th"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0011",
+        "token": "ถ",
+        "gloss": "tho thung (th)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0012",
+      "script_symbol": "ท",
+      "transliteration": "tho thahan",
+      "translation": "tho thahan (th)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "th"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0012",
+        "token": "ท",
+        "gloss": "tho thahan (th)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0013",
+      "script_symbol": "น",
+      "transliteration": "no nu",
+      "translation": "no nu (n)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "n"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0013",
+        "token": "น",
+        "gloss": "no nu (n)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0014",
+      "script_symbol": "บ",
+      "transliteration": "bo baimai",
+      "translation": "bo baimai (b)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "b"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0014",
+        "token": "บ",
+        "gloss": "bo baimai (b)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0015",
+      "script_symbol": "ป",
+      "transliteration": "po pla",
+      "translation": "po pla (p)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "p"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0015",
+        "token": "ป",
+        "gloss": "po pla (p)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0016",
+      "script_symbol": "ผ",
+      "transliteration": "pho phueng",
+      "translation": "pho phueng (ph)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0016",
+        "token": "ผ",
+        "gloss": "pho phueng (ph)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0017",
+      "script_symbol": "พ",
+      "transliteration": "pho phan",
+      "translation": "pho phan (ph)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0017",
+        "token": "พ",
+        "gloss": "pho phan (ph)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0018",
+      "script_symbol": "ฟ",
+      "transliteration": "fo fan",
+      "translation": "fo fan (f)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "f"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0018",
+        "token": "ฟ",
+        "gloss": "fo fan (f)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0019",
+      "script_symbol": "ม",
+      "transliteration": "mo ma",
+      "translation": "mo ma (m)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "m"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0019",
+        "token": "ม",
+        "gloss": "mo ma (m)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0020",
+      "script_symbol": "ย",
+      "transliteration": "yo yak",
+      "translation": "yo yak (y)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "y"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0020",
+        "token": "ย",
+        "gloss": "yo yak (y)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0021",
+      "script_symbol": "ร",
+      "transliteration": "ro ruea",
+      "translation": "ro ruea (r)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "r"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0021",
+        "token": "ร",
+        "gloss": "ro ruea (r)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0022",
+      "script_symbol": "ล",
+      "transliteration": "lo ling",
+      "translation": "lo ling (l)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "l"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0022",
+        "token": "ล",
+        "gloss": "lo ling (l)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0023",
+      "script_symbol": "ว",
+      "transliteration": "wo waen",
+      "translation": "wo waen (w)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "w"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0023",
+        "token": "ว",
+        "gloss": "wo waen (w)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0024",
+      "script_symbol": "ส",
+      "transliteration": "so suea",
+      "translation": "so suea (s)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0024",
+        "token": "ส",
+        "gloss": "so suea (s)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0025",
+      "script_symbol": "ห",
+      "transliteration": "ho hip",
+      "translation": "ho hip (h)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "h"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0025",
+        "token": "ห",
+        "gloss": "ho hip (h)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0026",
+      "script_symbol": "อ",
+      "transliteration": "o ang",
+      "translation": "o ang (glottal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "glottal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0026",
+        "token": "อ",
+        "gloss": "o ang (glottal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0027",
+      "script_symbol": "พระ",
+      "transliteration": "phra",
+      "translation": "phra - monk, holy, royal prefix",
+      "pos": "noun/prefix",
+      "morphology": {},
+      "definitions": [
+        "monk, holy, royal prefix"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0027",
+        "token": "พระ",
+        "gloss": "phra - monk, holy, royal prefix",
+        "pos": "noun/prefix",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0028",
+      "script_symbol": "ธรรม",
+      "transliteration": "tham",
+      "translation": "tham - dharma, teachings",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "dharma, teachings"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0028",
+        "token": "ธรรม",
+        "gloss": "tham - dharma, teachings",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0029",
+      "script_symbol": "พุทธ",
+      "transliteration": "phut",
+      "translation": "phut - Buddha",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Buddha"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0029",
+        "token": "พุทธ",
+        "gloss": "phut - Buddha",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0030",
+      "script_symbol": "วัด",
+      "transliteration": "wat",
+      "translation": "wat - temple, monastery",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "temple, monastery"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0030",
+        "token": "วัด",
+        "gloss": "wat - temple, monastery",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0031",
+      "script_symbol": "กษัตริย์",
+      "transliteration": "kasat",
+      "translation": "kasat - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0031",
+        "token": "กษัตริย์",
+        "gloss": "kasat - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0032",
+      "script_symbol": "เจ้า",
+      "transliteration": "chao",
+      "translation": "chao - lord, prince",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lord, prince"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0032",
+        "token": "เจ้า",
+        "gloss": "chao - lord, prince",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0033",
+      "script_symbol": "คน",
+      "transliteration": "khon",
+      "translation": "khon - person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0033",
+        "token": "คน",
+        "gloss": "khon - person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0034",
+      "script_symbol": "ผู้ชาย",
+      "transliteration": "phu chai",
+      "translation": "phu chai - man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0034",
+        "token": "ผู้ชาย",
+        "gloss": "phu chai - man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0035",
+      "script_symbol": "ผู้หญิง",
+      "transliteration": "phu ying",
+      "translation": "phu ying - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0035",
+        "token": "ผู้หญิง",
+        "gloss": "phu ying - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0036",
+      "script_symbol": "พ่อ",
+      "transliteration": "pho",
+      "translation": "pho - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0036",
+        "token": "พ่อ",
+        "gloss": "pho - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0037",
+      "script_symbol": "แม่",
+      "transliteration": "mae",
+      "translation": "mae - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0037",
+        "token": "แม่",
+        "gloss": "mae - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0038",
+      "script_symbol": "ลูก",
+      "transliteration": "luk",
+      "translation": "luk - child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0038",
+        "token": "ลูก",
+        "gloss": "luk - child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0039",
+      "script_symbol": "พี่",
+      "transliteration": "phi",
+      "translation": "phi - older sibling",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older sibling"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0039",
+        "token": "พี่",
+        "gloss": "phi - older sibling",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0040",
+      "script_symbol": "น้อง",
+      "transliteration": "nong",
+      "translation": "nong - younger sibling",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "younger sibling"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0040",
+        "token": "น้อง",
+        "gloss": "nong - younger sibling",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0041",
+      "script_symbol": "น้ำ",
+      "transliteration": "nam",
+      "translation": "nam - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0041",
+        "token": "น้ำ",
+        "gloss": "nam - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0042",
+      "script_symbol": "ไฟ",
+      "transliteration": "fai",
+      "translation": "fai - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0042",
+        "token": "ไฟ",
+        "gloss": "fai - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0043",
+      "script_symbol": "ลม",
+      "transliteration": "lom",
+      "translation": "lom - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0043",
+        "token": "ลม",
+        "gloss": "lom - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0044",
+      "script_symbol": "ดิน",
+      "transliteration": "din",
+      "translation": "din - earth, soil",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, soil"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0044",
+        "token": "ดิน",
+        "gloss": "din - earth, soil",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0045",
+      "script_symbol": "ฟ้า",
+      "transliteration": "fa",
+      "translation": "fa - sky",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sky"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0045",
+        "token": "ฟ้า",
+        "gloss": "fa - sky",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0046",
+      "script_symbol": "เขา",
+      "transliteration": "khao",
+      "translation": "khao - mountain; he/she",
+      "pos": "noun/pronoun",
+      "morphology": {},
+      "definitions": [
+        "mountain; he/she"
+      ],
+      "semantic_field": "geographic/personal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0046",
+        "token": "เขา",
+        "gloss": "khao - mountain; he/she",
+        "pos": "noun/pronoun",
+        "semantic_field": "geographic/personal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0047",
+      "script_symbol": "แม่น้ำ",
+      "transliteration": "maenam",
+      "translation": "maenam - river (mother of water)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river (mother of water)"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0047",
+        "token": "แม่น้ำ",
+        "gloss": "maenam - river (mother of water)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0048",
+      "script_symbol": "ทะเล",
+      "transliteration": "thale",
+      "translation": "thale - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0048",
+        "token": "ทะเล",
+        "gloss": "thale - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0049",
+      "script_symbol": "หนึ่ง",
+      "transliteration": "nueng",
+      "translation": "nueng - one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0049",
+        "token": "หนึ่ง",
+        "gloss": "nueng - one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0050",
+      "script_symbol": "สอง",
+      "transliteration": "song",
+      "translation": "song - two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0050",
+        "token": "สอง",
+        "gloss": "song - two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0051",
+      "script_symbol": "สาม",
+      "transliteration": "sam",
+      "translation": "sam - three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0051",
+        "token": "สาม",
+        "gloss": "sam - three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0052",
+      "script_symbol": "สี่",
+      "transliteration": "si",
+      "translation": "si - four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0052",
+        "token": "สี่",
+        "gloss": "si - four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0053",
+      "script_symbol": "ห้า",
+      "transliteration": "ha",
+      "translation": "ha - five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0053",
+        "token": "ห้า",
+        "gloss": "ha - five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0054",
+      "script_symbol": "รัก",
+      "transliteration": "rak",
+      "translation": "rak - love",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0054",
+        "token": "รัก",
+        "gloss": "rak - love",
+        "pos": "noun/verb",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0055",
+      "script_symbol": "ใจ",
+      "transliteration": "jai",
+      "translation": "jai - heart, mind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heart, mind"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0055",
+        "token": "ใจ",
+        "gloss": "jai - heart, mind",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0056",
+      "script_symbol": "สุข",
+      "transliteration": "suk",
+      "translation": "suk - happiness",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "happiness"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0056",
+        "token": "สุข",
+        "gloss": "suk - happiness",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    },
+    {
+      "entry_id": "thai_0057",
+      "script_symbol": "ทุกข์",
+      "transliteration": "thuk",
+      "translation": "thuk - suffering (dukkha)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "suffering (dukkha)"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Haas - Thai-English Student's Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_thai",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "thai_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "thai_0057",
+        "token": "ทุกข์",
+        "gloss": "thuk - suffering (dukkha)",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Haas - Thai-English Student's Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Thai entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

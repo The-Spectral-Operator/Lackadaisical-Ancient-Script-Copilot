@@ -1,0 +1,2336 @@
+{
+  "metadata": {
+    "title": "Tibetan Lexicon",
+    "description": "Expanded and normalized Tibetan dataset derived from tibetan_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 69,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Jäschke - Tibetan-English Dictionary",
+      "Goldstein - Tibetan-English Dictionary of Modern Tibetan",
+      "The Unicode Consortium – Code Charts",
+      "Tibetan and Himalayan Library – Tibetan Terms"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "tibetan_thl": {
+        "title": "Tibetan and Himalayan Library – Tibetan Terms",
+        "url": "https://thlib.org/terms/",
+        "type": "dictionary_reference",
+        "scope": "Tibetan definitions, pronunciation, related terms"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abugida (Indic-derived)",
+    "historical_significance": "Tibetic script tradition central to Buddhist, historical, and scholastic manuscript corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "tibetan_0001",
+      "script_symbol": "ཀ",
+      "transliteration": "ka",
+      "translation": "ka",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ka"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0001",
+        "token": "ཀ",
+        "gloss": "ka",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0002",
+      "script_symbol": "ཁ",
+      "transliteration": "kha",
+      "translation": "kha (aspirated)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0002",
+        "token": "ཁ",
+        "gloss": "kha (aspirated)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0003",
+      "script_symbol": "ག",
+      "transliteration": "ga",
+      "translation": "ga",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0003",
+        "token": "ག",
+        "gloss": "ga",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0004",
+      "script_symbol": "ང",
+      "transliteration": "nga",
+      "translation": "nga (velar nasal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "velar nasal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0004",
+        "token": "ང",
+        "gloss": "nga (velar nasal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0005",
+      "script_symbol": "ཅ",
+      "transliteration": "ca",
+      "translation": "ca",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ca"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0005",
+        "token": "ཅ",
+        "gloss": "ca",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0006",
+      "script_symbol": "ཆ",
+      "transliteration": "cha",
+      "translation": "cha (aspirated)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0006",
+        "token": "ཆ",
+        "gloss": "cha (aspirated)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0007",
+      "script_symbol": "ཇ",
+      "transliteration": "ja",
+      "translation": "ja",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ja"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0007",
+        "token": "ཇ",
+        "gloss": "ja",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0008",
+      "script_symbol": "ཉ",
+      "transliteration": "nya",
+      "translation": "nya (palatal nasal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "palatal nasal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0008",
+        "token": "ཉ",
+        "gloss": "nya (palatal nasal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0009",
+      "script_symbol": "ཏ",
+      "transliteration": "ta",
+      "translation": "ta",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ta"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0009",
+        "token": "ཏ",
+        "gloss": "ta",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0010",
+      "script_symbol": "ཐ",
+      "transliteration": "tha",
+      "translation": "tha (aspirated)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0010",
+        "token": "ཐ",
+        "gloss": "tha (aspirated)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0011",
+      "script_symbol": "ད",
+      "transliteration": "da",
+      "translation": "da",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "da"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0011",
+        "token": "ད",
+        "gloss": "da",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0012",
+      "script_symbol": "ན",
+      "transliteration": "na",
+      "translation": "na (dental nasal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "dental nasal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0012",
+        "token": "ན",
+        "gloss": "na (dental nasal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0013",
+      "script_symbol": "པ",
+      "transliteration": "pa",
+      "translation": "pa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "pa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0013",
+        "token": "པ",
+        "gloss": "pa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0014",
+      "script_symbol": "ཕ",
+      "transliteration": "pha",
+      "translation": "pha (aspirated)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0014",
+        "token": "ཕ",
+        "gloss": "pha (aspirated)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0015",
+      "script_symbol": "བ",
+      "transliteration": "ba",
+      "translation": "ba",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ba"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0015",
+        "token": "བ",
+        "gloss": "ba",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0016",
+      "script_symbol": "མ",
+      "transliteration": "ma",
+      "translation": "ma (bilabial nasal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "bilabial nasal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0016",
+        "token": "མ",
+        "gloss": "ma (bilabial nasal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0017",
+      "script_symbol": "ཙ",
+      "transliteration": "tsa",
+      "translation": "tsa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "tsa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0017",
+        "token": "ཙ",
+        "gloss": "tsa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0018",
+      "script_symbol": "ཚ",
+      "transliteration": "tsha",
+      "translation": "tsha (aspirated)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0018",
+        "token": "ཚ",
+        "gloss": "tsha (aspirated)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0019",
+      "script_symbol": "ཛ",
+      "transliteration": "dza",
+      "translation": "dza",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "dza"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0019",
+        "token": "ཛ",
+        "gloss": "dza",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0020",
+      "script_symbol": "ཝ",
+      "transliteration": "wa",
+      "translation": "wa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "wa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0020",
+        "token": "ཝ",
+        "gloss": "wa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0021",
+      "script_symbol": "ཞ",
+      "transliteration": "zha",
+      "translation": "zha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "zha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0021",
+        "token": "ཞ",
+        "gloss": "zha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0022",
+      "script_symbol": "ཟ",
+      "transliteration": "za",
+      "translation": "za",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "za"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0022",
+        "token": "ཟ",
+        "gloss": "za",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0023",
+      "script_symbol": "འ",
+      "transliteration": "'a",
+      "translation": "'a (glottal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "glottal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0023",
+        "token": "འ",
+        "gloss": "'a (glottal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0024",
+      "script_symbol": "ཡ",
+      "transliteration": "ya",
+      "translation": "ya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0024",
+        "token": "ཡ",
+        "gloss": "ya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0025",
+      "script_symbol": "ར",
+      "transliteration": "ra",
+      "translation": "ra",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ra"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0025",
+        "token": "ར",
+        "gloss": "ra",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0026",
+      "script_symbol": "ལ",
+      "transliteration": "la",
+      "translation": "la",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "la"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0026",
+        "token": "ལ",
+        "gloss": "la",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0027",
+      "script_symbol": "ཤ",
+      "transliteration": "sha",
+      "translation": "sha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "sha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0027",
+        "token": "ཤ",
+        "gloss": "sha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0028",
+      "script_symbol": "ས",
+      "transliteration": "sa",
+      "translation": "sa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "sa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0028",
+        "token": "ས",
+        "gloss": "sa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0029",
+      "script_symbol": "ཧ",
+      "transliteration": "ha",
+      "translation": "ha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0029",
+        "token": "ཧ",
+        "gloss": "ha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0030",
+      "script_symbol": "ཨ",
+      "transliteration": "a",
+      "translation": "a (vowel carrier)",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "vowel carrier"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0030",
+        "token": "ཨ",
+        "gloss": "a (vowel carrier)",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0031",
+      "script_symbol": "སངས་རྒྱས",
+      "transliteration": "sangs rgyas",
+      "translation": "sangs rgyas - Buddha (awakened one)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Buddha (awakened one)"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0031",
+        "token": "སངས་རྒྱས",
+        "gloss": "sangs rgyas - Buddha (awakened one)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0032",
+      "script_symbol": "ཆོས",
+      "transliteration": "chos",
+      "translation": "chos - dharma, teaching, truth",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "dharma, teaching, truth"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0032",
+        "token": "ཆོས",
+        "gloss": "chos - dharma, teaching, truth",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0033",
+      "script_symbol": "དགེ་འདུན",
+      "transliteration": "dge 'dun",
+      "translation": "dge 'dun - sangha, community",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sangha, community"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0033",
+        "token": "དགེ་འདུན",
+        "gloss": "dge 'dun - sangha, community",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0034",
+      "script_symbol": "བླ་མ",
+      "transliteration": "bla ma",
+      "translation": "bla ma - lama, guru",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lama, guru"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0034",
+        "token": "བླ་མ",
+        "gloss": "bla ma - lama, guru",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0035",
+      "script_symbol": "རིན་པོ་ཆེ",
+      "transliteration": "rin po che",
+      "translation": "rin po che - precious one (honorific)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "precious one (honorific)"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0035",
+        "token": "རིན་པོ་ཆེ",
+        "gloss": "rin po che - precious one (honorific)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0036",
+      "script_symbol": "སྤྱན་རས་གཟིགས",
+      "transliteration": "spyan ras gzigs",
+      "translation": "spyan ras gzigs - Avalokiteshvara (compassion)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Avalokiteshvara (compassion)"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0036",
+        "token": "སྤྱན་རས་གཟིགས",
+        "gloss": "spyan ras gzigs - Avalokiteshvara (compassion)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0037",
+      "script_symbol": "འཇམ་དཔལ",
+      "transliteration": "'jam dpal",
+      "translation": "'jam dpal - Manjushri (wisdom)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Manjushri (wisdom)"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0037",
+        "token": "འཇམ་དཔལ",
+        "gloss": "'jam dpal - Manjushri (wisdom)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0038",
+      "script_symbol": "སྒྲོལ་མ",
+      "transliteration": "sgrol ma",
+      "translation": "sgrol ma - Tara (savioress)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Tara (savioress)"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0038",
+        "token": "སྒྲོལ་མ",
+        "gloss": "sgrol ma - Tara (savioress)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0039",
+      "script_symbol": "བྱང་ཆུབ",
+      "transliteration": "byang chub",
+      "translation": "byang chub - bodhi, enlightenment",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "bodhi, enlightenment"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0039",
+        "token": "བྱང་ཆུབ",
+        "gloss": "byang chub - bodhi, enlightenment",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0040",
+      "script_symbol": "སྟོང་པ་ཉིད",
+      "transliteration": "stong pa nyid",
+      "translation": "stong pa nyid - emptiness (śūnyatā)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "emptiness (śūnyatā)"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0040",
+        "token": "སྟོང་པ་ཉིད",
+        "gloss": "stong pa nyid - emptiness (śūnyatā)",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0041",
+      "script_symbol": "སྙིང་རྗེ",
+      "transliteration": "snying rje",
+      "translation": "snying rje - compassion",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "compassion"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0041",
+        "token": "སྙིང་རྗེ",
+        "gloss": "snying rje - compassion",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0042",
+      "script_symbol": "ཤེས་རབ",
+      "transliteration": "shes rab",
+      "translation": "shes rab - wisdom (prajñā)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wisdom (prajñā)"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0042",
+        "token": "ཤེས་རབ",
+        "gloss": "shes rab - wisdom (prajñā)",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0043",
+      "script_symbol": "བསམ་གཏན",
+      "transliteration": "bsam gtan",
+      "translation": "bsam gtan - meditation (dhyāna)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "meditation (dhyāna)"
+      ],
+      "semantic_field": "practice",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0043",
+        "token": "བསམ་གཏན",
+        "gloss": "bsam gtan - meditation (dhyāna)",
+        "pos": "noun",
+        "semantic_field": "practice",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0044",
+      "script_symbol": "མཁའ",
+      "transliteration": "mkha'",
+      "translation": "mkha' - sky, space",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sky, space"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0044",
+        "token": "མཁའ",
+        "gloss": "mkha' - sky, space",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0045",
+      "script_symbol": "ས",
+      "transliteration": "sa",
+      "translation": "sa - earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0045",
+        "token": "ས",
+        "gloss": "sa - earth, ground",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0046",
+      "script_symbol": "མེ",
+      "transliteration": "me",
+      "translation": "me - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0046",
+        "token": "མེ",
+        "gloss": "me - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0047",
+      "script_symbol": "ཆུ",
+      "transliteration": "chu",
+      "translation": "chu - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0047",
+        "token": "ཆུ",
+        "gloss": "chu - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0048",
+      "script_symbol": "རླུང",
+      "transliteration": "rlung",
+      "translation": "rlung - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0048",
+        "token": "རླུང",
+        "gloss": "rlung - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0049",
+      "script_symbol": "རི",
+      "transliteration": "ri",
+      "translation": "ri - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0049",
+        "token": "རི",
+        "gloss": "ri - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0050",
+      "script_symbol": "མཚོ",
+      "transliteration": "mtsho",
+      "translation": "mtsho - lake",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lake"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0050",
+        "token": "མཚོ",
+        "gloss": "mtsho - lake",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0051",
+      "script_symbol": "ཀླུང",
+      "transliteration": "klung",
+      "translation": "klung - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0051",
+        "token": "ཀླུང",
+        "gloss": "klung - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0052",
+      "script_symbol": "རྒྱལ་པོ",
+      "transliteration": "rgyal po",
+      "translation": "rgyal po - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0052",
+        "token": "རྒྱལ་པོ",
+        "gloss": "rgyal po - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0053",
+      "script_symbol": "བཙུན་མོ",
+      "transliteration": "btsun mo",
+      "translation": "btsun mo - queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0053",
+        "token": "བཙུན་མོ",
+        "gloss": "btsun mo - queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0054",
+      "script_symbol": "དཔོན",
+      "transliteration": "dpon",
+      "translation": "dpon - chief, lord",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "chief, lord"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0054",
+        "token": "དཔོན",
+        "gloss": "dpon - chief, lord",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0055",
+      "script_symbol": "མི",
+      "transliteration": "mi",
+      "translation": "mi - person, human",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person, human"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0055",
+        "token": "མི",
+        "gloss": "mi - person, human",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0056",
+      "script_symbol": "ཕ",
+      "transliteration": "pha",
+      "translation": "pha - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0056",
+        "token": "ཕ",
+        "gloss": "pha - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0057",
+      "script_symbol": "མ",
+      "transliteration": "ma",
+      "translation": "ma - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0057",
+        "token": "མ",
+        "gloss": "ma - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0058",
+      "script_symbol": "བུ",
+      "transliteration": "bu",
+      "translation": "bu - son, child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son, child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0058",
+        "token": "བུ",
+        "gloss": "bu - son, child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0059",
+      "script_symbol": "བུ་མོ",
+      "transliteration": "bu mo",
+      "translation": "bu mo - daughter, girl",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter, girl"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0059",
+        "token": "བུ་མོ",
+        "gloss": "bu mo - daughter, girl",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0060",
+      "script_symbol": "གཅིག",
+      "transliteration": "gcig",
+      "translation": "gcig - one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0060",
+        "token": "གཅིག",
+        "gloss": "gcig - one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0061",
+      "script_symbol": "གཉིས",
+      "transliteration": "gnyis",
+      "translation": "gnyis - two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0061",
+        "token": "གཉིས",
+        "gloss": "gnyis - two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0062",
+      "script_symbol": "གསུམ",
+      "transliteration": "gsum",
+      "translation": "gsum - three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0062",
+        "token": "གསུམ",
+        "gloss": "gsum - three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0063",
+      "script_symbol": "བཞི",
+      "transliteration": "bzhi",
+      "translation": "bzhi - four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0063",
+        "token": "བཞི",
+        "gloss": "bzhi - four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0064",
+      "script_symbol": "ལྔ",
+      "transliteration": "lnga",
+      "translation": "lnga - five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0064",
+        "token": "ལྔ",
+        "gloss": "lnga - five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0065",
+      "script_symbol": "དྲུག",
+      "transliteration": "drug",
+      "translation": "drug - six",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "six"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0065",
+        "token": "དྲུག",
+        "gloss": "drug - six",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0066",
+      "script_symbol": "བདུན",
+      "transliteration": "bdun",
+      "translation": "bdun - seven",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "seven"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0066",
+        "token": "བདུན",
+        "gloss": "bdun - seven",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0067",
+      "script_symbol": "བརྒྱད",
+      "transliteration": "brgyad",
+      "translation": "brgyad - eight",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "eight"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0067",
+        "token": "བརྒྱད",
+        "gloss": "brgyad - eight",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0068",
+      "script_symbol": "དགུ",
+      "transliteration": "dgu",
+      "translation": "dgu - nine",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "nine"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0068",
+        "token": "དགུ",
+        "gloss": "dgu - nine",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "tibetan_0069",
+      "script_symbol": "བཅུ",
+      "transliteration": "bcu",
+      "translation": "bcu - ten",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Jäschke - Tibetan-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "tibetan_thl"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "tibetan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "tibetan_0069",
+        "token": "བཅུ",
+        "gloss": "bcu - ten",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Jäschke - Tibetan-English Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Tibetan entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

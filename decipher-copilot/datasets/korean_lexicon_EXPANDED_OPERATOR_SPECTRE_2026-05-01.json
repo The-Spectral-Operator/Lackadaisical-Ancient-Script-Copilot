@@ -1,0 +1,2378 @@
+{
+  "metadata": {
+    "title": "Korean (Hangul) Lexicon",
+    "description": "Expanded and normalized Korean (Hangul) dataset derived from korean_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "korean_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 68,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Samuel Martin - Reference Grammar of Korean",
+      "Sejong the Great - Hunminjeongeum Haerye (1446)",
+      "The Unicode Consortium – Code Charts",
+      "National Institute of Korean Language – Korean-English Learners' Dictionary",
+      "UNESCO Memory of the World – Hunminjeongeum Manuscript"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "nilk_korean": {
+        "title": "National Institute of Korean Language – Korean-English Learners' Dictionary",
+        "url": "https://krdict.korean.go.kr/eng",
+        "type": "official_dictionary",
+        "scope": "Korean dictionary from South Korea's official language institute"
+      },
+      "unesco_hunminjeongeum": {
+        "title": "UNESCO Memory of the World – Hunminjeongeum Manuscript",
+        "url": "https://www.unesco.org/en/memory-world/hunminjeongum-manuscript",
+        "type": "manuscript_record",
+        "scope": "historical source for Hangul/Hunminjeongeum"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Featural Alphabetic",
+    "historical_significance": "Deliberately designed Korean alphabet promulgated in the Hunminjeongeum tradition.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "korean_0001",
+      "script_symbol": "ㄱ",
+      "transliteration": "giyeok",
+      "translation": "giyeok (g/k)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "g/k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0001",
+        "token": "ㄱ",
+        "gloss": "giyeok (g/k)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0002",
+      "script_symbol": "ㄴ",
+      "transliteration": "nieun",
+      "translation": "nieun (n)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "n"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0002",
+        "token": "ㄴ",
+        "gloss": "nieun (n)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0003",
+      "script_symbol": "ㄷ",
+      "transliteration": "digeut",
+      "translation": "digeut (d/t)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "d/t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0003",
+        "token": "ㄷ",
+        "gloss": "digeut (d/t)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0004",
+      "script_symbol": "ㄹ",
+      "transliteration": "rieul",
+      "translation": "rieul (r/l)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "r/l"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0004",
+        "token": "ㄹ",
+        "gloss": "rieul (r/l)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0005",
+      "script_symbol": "ㅁ",
+      "transliteration": "mieum",
+      "translation": "mieum (m)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "m"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0005",
+        "token": "ㅁ",
+        "gloss": "mieum (m)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0006",
+      "script_symbol": "ㅂ",
+      "transliteration": "bieup",
+      "translation": "bieup (b/p)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "b/p"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0006",
+        "token": "ㅂ",
+        "gloss": "bieup (b/p)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0007",
+      "script_symbol": "ㅅ",
+      "transliteration": "siot",
+      "translation": "siot (s)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0007",
+        "token": "ㅅ",
+        "gloss": "siot (s)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0008",
+      "script_symbol": "ㅇ",
+      "transliteration": "ieung",
+      "translation": "ieung (ng/silent)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ng/silent"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0008",
+        "token": "ㅇ",
+        "gloss": "ieung (ng/silent)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0009",
+      "script_symbol": "ㅈ",
+      "transliteration": "jieut",
+      "translation": "jieut (j)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "j"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0009",
+        "token": "ㅈ",
+        "gloss": "jieut (j)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0010",
+      "script_symbol": "ㅊ",
+      "transliteration": "chieut",
+      "translation": "chieut (ch)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ch"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0010",
+        "token": "ㅊ",
+        "gloss": "chieut (ch)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0011",
+      "script_symbol": "ㅋ",
+      "transliteration": "kieuk",
+      "translation": "kieuk (k)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0011",
+        "token": "ㅋ",
+        "gloss": "kieuk (k)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0012",
+      "script_symbol": "ㅌ",
+      "transliteration": "tieut",
+      "translation": "tieut (t)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0012",
+        "token": "ㅌ",
+        "gloss": "tieut (t)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0013",
+      "script_symbol": "ㅍ",
+      "transliteration": "pieup",
+      "translation": "pieup (p)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "p"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0013",
+        "token": "ㅍ",
+        "gloss": "pieup (p)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0014",
+      "script_symbol": "ㅎ",
+      "transliteration": "hieut",
+      "translation": "hieut (h)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "h"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0014",
+        "token": "ㅎ",
+        "gloss": "hieut (h)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0015",
+      "script_symbol": "ㅏ",
+      "transliteration": "a",
+      "translation": "a",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "a"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0015",
+        "token": "ㅏ",
+        "gloss": "a",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0016",
+      "script_symbol": "ㅓ",
+      "transliteration": "eo",
+      "translation": "eo",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "eo"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0016",
+        "token": "ㅓ",
+        "gloss": "eo",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0017",
+      "script_symbol": "ㅗ",
+      "transliteration": "o",
+      "translation": "o",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "o"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0017",
+        "token": "ㅗ",
+        "gloss": "o",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0018",
+      "script_symbol": "ㅜ",
+      "transliteration": "u",
+      "translation": "u",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "u"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0018",
+        "token": "ㅜ",
+        "gloss": "u",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0019",
+      "script_symbol": "ㅡ",
+      "transliteration": "eu",
+      "translation": "eu",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "eu"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0019",
+        "token": "ㅡ",
+        "gloss": "eu",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0020",
+      "script_symbol": "ㅣ",
+      "transliteration": "i",
+      "translation": "i",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "i"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0020",
+        "token": "ㅣ",
+        "gloss": "i",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0021",
+      "script_symbol": "한글",
+      "transliteration": "hangul",
+      "translation": "hangul - Korean script",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Korean script"
+      ],
+      "semantic_field": "writing_system",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0021",
+        "token": "한글",
+        "gloss": "hangul - Korean script",
+        "pos": "noun",
+        "semantic_field": "writing_system",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0022",
+      "script_symbol": "훈민정음",
+      "transliteration": "hunminjeongeum",
+      "translation": "hunminjeongeum - correct sounds for instructing people",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "correct sounds for instructing people"
+      ],
+      "semantic_field": "writing_system",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0022",
+        "token": "훈민정음",
+        "gloss": "hunminjeongeum - correct sounds for instructing people",
+        "pos": "noun",
+        "semantic_field": "writing_system",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0023",
+      "script_symbol": "임금",
+      "transliteration": "imgeum",
+      "translation": "imgeum - king (native Korean)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king (native Korean)"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0023",
+        "token": "임금",
+        "gloss": "imgeum - king (native Korean)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0024",
+      "script_symbol": "왕",
+      "transliteration": "wang",
+      "translation": "wang - king (Sino-Korean)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king (Sino-Korean)"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0024",
+        "token": "왕",
+        "gloss": "wang - king (Sino-Korean)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0025",
+      "script_symbol": "나라",
+      "transliteration": "nara",
+      "translation": "nara - country",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "country"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0025",
+        "token": "나라",
+        "gloss": "nara - country",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0026",
+      "script_symbol": "백성",
+      "transliteration": "baekseong",
+      "translation": "baekseong - common people",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "common people"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0026",
+        "token": "백성",
+        "gloss": "baekseong - common people",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0027",
+      "script_symbol": "하늘",
+      "transliteration": "haneul",
+      "translation": "haneul - sky, heaven",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sky, heaven"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0027",
+        "token": "하늘",
+        "gloss": "haneul - sky, heaven",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0028",
+      "script_symbol": "땅",
+      "transliteration": "ttang",
+      "translation": "ttang - earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0028",
+        "token": "땅",
+        "gloss": "ttang - earth, ground",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0029",
+      "script_symbol": "물",
+      "transliteration": "mul",
+      "translation": "mul - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0029",
+        "token": "물",
+        "gloss": "mul - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0030",
+      "script_symbol": "불",
+      "transliteration": "bul",
+      "translation": "bul - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0030",
+        "token": "불",
+        "gloss": "bul - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0031",
+      "script_symbol": "바람",
+      "transliteration": "baram",
+      "translation": "baram - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0031",
+        "token": "바람",
+        "gloss": "baram - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0032",
+      "script_symbol": "해",
+      "transliteration": "hae",
+      "translation": "hae - sun, year",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun, year"
+      ],
+      "semantic_field": "celestial/temporal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0032",
+        "token": "해",
+        "gloss": "hae - sun, year",
+        "pos": "noun",
+        "semantic_field": "celestial/temporal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0033",
+      "script_symbol": "달",
+      "transliteration": "dal",
+      "translation": "dal - moon, month",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon, month"
+      ],
+      "semantic_field": "celestial/temporal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0033",
+        "token": "달",
+        "gloss": "dal - moon, month",
+        "pos": "noun",
+        "semantic_field": "celestial/temporal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0034",
+      "script_symbol": "별",
+      "transliteration": "byeol",
+      "translation": "byeol - star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0034",
+        "token": "별",
+        "gloss": "byeol - star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0035",
+      "script_symbol": "산",
+      "transliteration": "san",
+      "translation": "san - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0035",
+        "token": "산",
+        "gloss": "san - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0036",
+      "script_symbol": "바다",
+      "transliteration": "bada",
+      "translation": "bada - sea, ocean",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea, ocean"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0036",
+        "token": "바다",
+        "gloss": "bada - sea, ocean",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0037",
+      "script_symbol": "강",
+      "transliteration": "gang",
+      "translation": "gang - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0037",
+        "token": "강",
+        "gloss": "gang - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0038",
+      "script_symbol": "사람",
+      "transliteration": "saram",
+      "translation": "saram - person, human",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person, human"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0038",
+        "token": "사람",
+        "gloss": "saram - person, human",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0039",
+      "script_symbol": "남자",
+      "transliteration": "namja",
+      "translation": "namja - man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0039",
+        "token": "남자",
+        "gloss": "namja - man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0040",
+      "script_symbol": "여자",
+      "transliteration": "yeoja",
+      "translation": "yeoja - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0040",
+        "token": "여자",
+        "gloss": "yeoja - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0041",
+      "script_symbol": "아버지",
+      "transliteration": "abeoji",
+      "translation": "abeoji - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0041",
+        "token": "아버지",
+        "gloss": "abeoji - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0042",
+      "script_symbol": "어머니",
+      "transliteration": "eomeoni",
+      "translation": "eomeoni - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0042",
+        "token": "어머니",
+        "gloss": "eomeoni - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0043",
+      "script_symbol": "아들",
+      "transliteration": "adeul",
+      "translation": "adeul - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0043",
+        "token": "아들",
+        "gloss": "adeul - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0044",
+      "script_symbol": "딸",
+      "transliteration": "ttal",
+      "translation": "ttal - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0044",
+        "token": "딸",
+        "gloss": "ttal - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0045",
+      "script_symbol": "형",
+      "transliteration": "hyeong",
+      "translation": "hyeong - older brother (male speaking)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older brother (male speaking)"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0045",
+        "token": "형",
+        "gloss": "hyeong - older brother (male speaking)",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0046",
+      "script_symbol": "누나",
+      "transliteration": "nuna",
+      "translation": "nuna - older sister (male speaking)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older sister (male speaking)"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0046",
+        "token": "누나",
+        "gloss": "nuna - older sister (male speaking)",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0047",
+      "script_symbol": "오빠",
+      "transliteration": "oppa",
+      "translation": "oppa - older brother (female speaking)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older brother (female speaking)"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0047",
+        "token": "오빠",
+        "gloss": "oppa - older brother (female speaking)",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0048",
+      "script_symbol": "언니",
+      "transliteration": "eonni",
+      "translation": "eonni - older sister (female speaking)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older sister (female speaking)"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0048",
+        "token": "언니",
+        "gloss": "eonni - older sister (female speaking)",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0049",
+      "script_symbol": "하나",
+      "transliteration": "hana",
+      "translation": "hana - one (native)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one (native)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0049",
+        "token": "하나",
+        "gloss": "hana - one (native)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0050",
+      "script_symbol": "둘",
+      "transliteration": "dul",
+      "translation": "dul - two (native)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two (native)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0050",
+        "token": "둘",
+        "gloss": "dul - two (native)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0051",
+      "script_symbol": "셋",
+      "transliteration": "set",
+      "translation": "set - three (native)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three (native)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0051",
+        "token": "셋",
+        "gloss": "set - three (native)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0052",
+      "script_symbol": "넷",
+      "transliteration": "net",
+      "translation": "net - four (native)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four (native)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0052",
+        "token": "넷",
+        "gloss": "net - four (native)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0053",
+      "script_symbol": "다섯",
+      "transliteration": "daseot",
+      "translation": "daseot - five (native)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five (native)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0053",
+        "token": "다섯",
+        "gloss": "daseot - five (native)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0054",
+      "script_symbol": "일",
+      "transliteration": "il",
+      "translation": "il - one (Sino-Korean)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one (Sino-Korean)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0054",
+        "token": "일",
+        "gloss": "il - one (Sino-Korean)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0055",
+      "script_symbol": "이",
+      "transliteration": "i",
+      "translation": "i - two (Sino-Korean)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two (Sino-Korean)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0055",
+        "token": "이",
+        "gloss": "i - two (Sino-Korean)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0056",
+      "script_symbol": "삼",
+      "transliteration": "sam",
+      "translation": "sam - three (Sino-Korean)",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three (Sino-Korean)"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0056",
+        "token": "삼",
+        "gloss": "sam - three (Sino-Korean)",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0057",
+      "script_symbol": "마음",
+      "transliteration": "ma-eum",
+      "translation": "ma-eum - heart, mind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heart, mind"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0057",
+        "token": "마음",
+        "gloss": "ma-eum - heart, mind",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0058",
+      "script_symbol": "사랑",
+      "transliteration": "sarang",
+      "translation": "sarang - love",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0058",
+        "token": "사랑",
+        "gloss": "sarang - love",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0059",
+      "script_symbol": "정",
+      "transliteration": "jeong",
+      "translation": "jeong - affection, attachment",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "affection, attachment"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0059",
+        "token": "정",
+        "gloss": "jeong - affection, attachment",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0060",
+      "script_symbol": "효",
+      "transliteration": "hyo",
+      "translation": "hyo - filial piety",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "filial piety"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0060",
+        "token": "효",
+        "gloss": "hyo - filial piety",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0061",
+      "script_symbol": "충",
+      "transliteration": "chung",
+      "translation": "chung - loyalty",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "loyalty"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0061",
+        "token": "충",
+        "gloss": "chung - loyalty",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0062",
+      "script_symbol": "예",
+      "transliteration": "ye",
+      "translation": "ye - propriety, manners",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "propriety, manners"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0062",
+        "token": "예",
+        "gloss": "ye - propriety, manners",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0063",
+      "script_symbol": "글",
+      "transliteration": "geul",
+      "translation": "geul - writing, text",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "writing, text"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0063",
+        "token": "글",
+        "gloss": "geul - writing, text",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0064",
+      "script_symbol": "말",
+      "transliteration": "mal",
+      "translation": "mal - speech, language, horse",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "speech, language, horse"
+      ],
+      "semantic_field": "linguistic/animal",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0064",
+        "token": "말",
+        "gloss": "mal - speech, language, horse",
+        "pos": "noun",
+        "semantic_field": "linguistic/animal",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0065",
+      "script_symbol": "집",
+      "transliteration": "jip",
+      "translation": "jip - house, home",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "house, home"
+      ],
+      "semantic_field": "domestic",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0065",
+        "token": "집",
+        "gloss": "jip - house, home",
+        "pos": "noun",
+        "semantic_field": "domestic",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0066",
+      "script_symbol": "밥",
+      "transliteration": "bap",
+      "translation": "bap - cooked rice, meal",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "cooked rice, meal"
+      ],
+      "semantic_field": "food",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0066",
+        "token": "밥",
+        "gloss": "bap - cooked rice, meal",
+        "pos": "noun",
+        "semantic_field": "food",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0067",
+      "script_symbol": "김치",
+      "transliteration": "gimchi",
+      "translation": "gimchi - kimchi",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "kimchi"
+      ],
+      "semantic_field": "food/culture",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0067",
+        "token": "김치",
+        "gloss": "gimchi - kimchi",
+        "pos": "noun",
+        "semantic_field": "food/culture",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    },
+    {
+      "entry_id": "korean_0068",
+      "script_symbol": "차",
+      "transliteration": "cha",
+      "translation": "cha - tea, car",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "tea, car"
+      ],
+      "semantic_field": "food/transport",
+      "etymology": "",
+      "attestations": [
+        "Samuel Martin - Reference Grammar of Korean"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "nilk_korean",
+        "unesco_hunminjeongeum"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "korean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "korean_0068",
+        "token": "차",
+        "gloss": "cha - tea, car",
+        "pos": "noun",
+        "semantic_field": "food/transport",
+        "confidence": 1.0,
+        "source": "Samuel Martin - Reference Grammar of Korean"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Korean (Hangul) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,1492 @@
+{
+  "metadata": {
+    "title": "Amharic (Ethiopic Script) Lexicon",
+    "description": "Expanded and normalized Amharic (Ethiopic Script) dataset derived from amharic_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "amharic_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 45,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Kane - Amharic-English Dictionary",
+      "Leslau - Concise Amharic Dictionary",
+      "The Unicode Consortium – Code Charts"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abugida (Ge-ez derived)",
+    "historical_significance": "Ethiopic-derived abugida tradition used for Amharic and related Semitic languages of Ethiopia and Eritrea.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "amharic_0001",
+      "script_symbol": "ha",
+      "transliteration": "ha",
+      "translation": "ha (1st order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "1st order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0001",
+        "token": "ha",
+        "gloss": "ha (1st order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0002",
+      "script_symbol": "hu",
+      "transliteration": "hu",
+      "translation": "hu (2nd order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "2nd order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0002",
+        "token": "hu",
+        "gloss": "hu (2nd order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0003",
+      "script_symbol": "hi",
+      "transliteration": "hi",
+      "translation": "hi (3rd order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "3rd order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0003",
+        "token": "hi",
+        "gloss": "hi (3rd order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0004",
+      "script_symbol": "le",
+      "transliteration": "le",
+      "translation": "le (1st order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "1st order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0004",
+        "token": "le",
+        "gloss": "le (1st order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0005",
+      "script_symbol": "me",
+      "transliteration": "me",
+      "translation": "me (1st order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "1st order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0005",
+        "token": "me",
+        "gloss": "me (1st order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0006",
+      "script_symbol": "se",
+      "transliteration": "se",
+      "translation": "se (1st order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "1st order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0006",
+        "token": "se",
+        "gloss": "se (1st order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0007",
+      "script_symbol": "re",
+      "transliteration": "re",
+      "translation": "re (1st order)",
+      "pos": "syllable",
+      "morphology": {},
+      "definitions": [
+        "1st order"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0007",
+        "token": "re",
+        "gloss": "re (1st order)",
+        "pos": "syllable",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0008",
+      "script_symbol": "egziabher",
+      "transliteration": "God",
+      "translation": "God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0008",
+        "token": "egziabher",
+        "gloss": "God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0009",
+      "script_symbol": "negus",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0009",
+        "token": "negus",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0010",
+      "script_symbol": "nigist",
+      "transliteration": "queen",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0010",
+        "token": "nigist",
+        "gloss": "queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0011",
+      "script_symbol": "sew",
+      "transliteration": "person, human",
+      "translation": "person, human",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person, human"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0011",
+        "token": "sew",
+        "gloss": "person, human",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0012",
+      "script_symbol": "wend",
+      "transliteration": "man, male",
+      "translation": "man, male",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, male"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0012",
+        "token": "wend",
+        "gloss": "man, male",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0013",
+      "script_symbol": "set",
+      "transliteration": "woman, female",
+      "translation": "woman, female",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman, female"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0013",
+        "token": "set",
+        "gloss": "woman, female",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0014",
+      "script_symbol": "abbat",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0014",
+        "token": "abbat",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0015",
+      "script_symbol": "ennat",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0015",
+        "token": "ennat",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0016",
+      "script_symbol": "lij",
+      "transliteration": "child, prince",
+      "translation": "child, prince",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "child, prince"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0016",
+        "token": "lij",
+        "gloss": "child, prince",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0017",
+      "script_symbol": "wendim",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0017",
+        "token": "wendim",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0018",
+      "script_symbol": "ihit",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0018",
+        "token": "ihit",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0019",
+      "script_symbol": "wuha",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0019",
+        "token": "wuha",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0020",
+      "script_symbol": "isat",
+      "transliteration": "fire",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0020",
+        "token": "isat",
+        "gloss": "fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0021",
+      "script_symbol": "nifas",
+      "transliteration": "wind",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0021",
+        "token": "nifas",
+        "gloss": "wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0022",
+      "script_symbol": "meret",
+      "transliteration": "earth, land",
+      "translation": "earth, land",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, land"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0022",
+        "token": "meret",
+        "gloss": "earth, land",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0023",
+      "script_symbol": "tsehay",
+      "transliteration": "sun",
+      "translation": "sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0023",
+        "token": "tsehay",
+        "gloss": "sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0024",
+      "script_symbol": "chereka",
+      "transliteration": "moon",
+      "translation": "moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0024",
+        "token": "chereka",
+        "gloss": "moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0025",
+      "script_symbol": "kokeb",
+      "transliteration": "star",
+      "translation": "star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0025",
+        "token": "kokeb",
+        "gloss": "star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0026",
+      "script_symbol": "teraara",
+      "transliteration": "mountain",
+      "translation": "mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0026",
+        "token": "teraara",
+        "gloss": "mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0027",
+      "script_symbol": "wenz",
+      "transliteration": "river",
+      "translation": "river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0027",
+        "token": "wenz",
+        "gloss": "river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0028",
+      "script_symbol": "baher",
+      "transliteration": "sea, lake",
+      "translation": "sea, lake",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea, lake"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0028",
+        "token": "baher",
+        "gloss": "sea, lake",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0029",
+      "script_symbol": "and",
+      "transliteration": "one",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0029",
+        "token": "and",
+        "gloss": "one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0030",
+      "script_symbol": "hulet",
+      "transliteration": "two",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0030",
+        "token": "hulet",
+        "gloss": "two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0031",
+      "script_symbol": "sost",
+      "transliteration": "three",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0031",
+        "token": "sost",
+        "gloss": "three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0032",
+      "script_symbol": "arat",
+      "transliteration": "four",
+      "translation": "four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0032",
+        "token": "arat",
+        "gloss": "four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0033",
+      "script_symbol": "amist",
+      "transliteration": "five",
+      "translation": "five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0033",
+        "token": "amist",
+        "gloss": "five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0034",
+      "script_symbol": "asir",
+      "transliteration": "ten",
+      "translation": "ten",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0034",
+        "token": "asir",
+        "gloss": "ten",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0035",
+      "script_symbol": "meto",
+      "transliteration": "hundred",
+      "translation": "hundred",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "hundred"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0035",
+        "token": "meto",
+        "gloss": "hundred",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0036",
+      "script_symbol": "shi",
+      "transliteration": "thousand",
+      "translation": "thousand",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "thousand"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0036",
+        "token": "shi",
+        "gloss": "thousand",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0037",
+      "script_symbol": "feqir",
+      "transliteration": "love",
+      "translation": "love",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0037",
+        "token": "feqir",
+        "gloss": "love",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0038",
+      "script_symbol": "selam",
+      "transliteration": "peace",
+      "translation": "peace",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "social",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0038",
+        "token": "selam",
+        "gloss": "peace",
+        "pos": "noun",
+        "semantic_field": "social",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0039",
+      "script_symbol": "iqinet",
+      "transliteration": "justice",
+      "translation": "justice",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "justice"
+      ],
+      "semantic_field": "legal",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0039",
+        "token": "iqinet",
+        "gloss": "justice",
+        "pos": "noun",
+        "semantic_field": "legal",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0040",
+      "script_symbol": "timhirt",
+      "transliteration": "education, learning",
+      "translation": "education, learning",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "education, learning"
+      ],
+      "semantic_field": "education",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0040",
+        "token": "timhirt",
+        "gloss": "education, learning",
+        "pos": "noun",
+        "semantic_field": "education",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0041",
+      "script_symbol": "tarik",
+      "transliteration": "history, story",
+      "translation": "history, story",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "history, story"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0041",
+        "token": "tarik",
+        "gloss": "history, story",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0042",
+      "script_symbol": "fidel",
+      "transliteration": "letter, script",
+      "translation": "letter, script",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "letter, script"
+      ],
+      "semantic_field": "writing",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0042",
+        "token": "fidel",
+        "gloss": "letter, script",
+        "pos": "noun",
+        "semantic_field": "writing",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0043",
+      "script_symbol": "metsihaf",
+      "transliteration": "book",
+      "translation": "book",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0043",
+        "token": "metsihaf",
+        "gloss": "book",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0044",
+      "script_symbol": "hiwot",
+      "transliteration": "life",
+      "translation": "life",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0044",
+        "token": "hiwot",
+        "gloss": "life",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "amharic_0045",
+      "script_symbol": "mot",
+      "transliteration": "death",
+      "translation": "death",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Kane - Amharic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "amharic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "amharic_0045",
+        "token": "mot",
+        "gloss": "death",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Kane - Amharic-English Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Amharic (Ethiopic Script) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

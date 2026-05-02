@@ -1,0 +1,1248 @@
+{
+  "metadata": {
+    "title": "Kharoṣṭhī / Gāndhārī Lexicon",
+    "description": "Kharosthi is an ancient abugida script used in Gandhara and Central Asia. Derived from Aramaic, it was deciphered by James Prinsep and others in the 1830s. Used extensively for Buddhist texts and Kushan-era inscriptions.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": null,
+    "original_file": "kharosthi_lexicon.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 36,
+    "corpus_status": "deciphered",
+    "sources": [
+      "Salomon 1998 - Indian Epigraphy: A Guide to the Study of Inscriptions",
+      "Glass 2000 - A Preliminary Study of Kharoṣṭhī Manuscript Paleography",
+      "Baums & Glass 2002 - A Dictionary of Gāndhārī",
+      "The Unicode Consortium – Code Charts",
+      "A Dictionary of Gāndhārī"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "gandhari_dictionary": {
+        "title": "A Dictionary of Gāndhārī",
+        "url": "https://gandhari.org/dictionary",
+        "type": "dictionary_corpus",
+        "scope": "Gāndhārī/Kharosthi lexical database and manuscript context"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "right-to-left abugida",
+    "historical_significance": "Northwestern Indic script used for Gāndhārī Buddhist manuscripts and inscriptions.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "kharosthi_0001",
+      "script_symbol": "𐨀",
+      "transliteration": "a",
+      "translation": "a",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "a"
+      },
+      "definitions": [
+        "a"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨀",
+        "gloss": "a",
+        "phoneme": "a",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0002",
+      "script_symbol": "𐨁",
+      "transliteration": "i",
+      "translation": "i (vowel sign)",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "i"
+      },
+      "definitions": [
+        "vowel sign"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨁",
+        "gloss": "i (vowel sign)",
+        "phoneme": "i",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0003",
+      "script_symbol": "𐨂",
+      "transliteration": "u",
+      "translation": "u (vowel sign)",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "u"
+      },
+      "definitions": [
+        "vowel sign"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨂",
+        "gloss": "u (vowel sign)",
+        "phoneme": "u",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0004",
+      "script_symbol": "𐨃",
+      "transliteration": "e",
+      "translation": "e (vowel sign)",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "e"
+      },
+      "definitions": [
+        "vowel sign"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨃",
+        "gloss": "e (vowel sign)",
+        "phoneme": "e",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0005",
+      "script_symbol": "𐨅",
+      "transliteration": "o",
+      "translation": "o (vowel sign)",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "o"
+      },
+      "definitions": [
+        "vowel sign"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨅",
+        "gloss": "o (vowel sign)",
+        "phoneme": "o",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0006",
+      "script_symbol": "𐨐",
+      "transliteration": "ka",
+      "translation": "ka",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ka"
+      },
+      "definitions": [
+        "ka"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨐",
+        "gloss": "ka",
+        "phoneme": "ka",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0007",
+      "script_symbol": "𐨑",
+      "transliteration": "kʰa",
+      "translation": "kha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "kʰa"
+      },
+      "definitions": [
+        "kha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨑",
+        "gloss": "kha",
+        "phoneme": "kʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0008",
+      "script_symbol": "𐨒",
+      "transliteration": "ga",
+      "translation": "ga",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ga"
+      },
+      "definitions": [
+        "ga"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨒",
+        "gloss": "ga",
+        "phoneme": "ga",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0009",
+      "script_symbol": "𐨓",
+      "transliteration": "gʰa",
+      "translation": "gha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "gʰa"
+      },
+      "definitions": [
+        "gha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨓",
+        "gloss": "gha",
+        "phoneme": "gʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0010",
+      "script_symbol": "𐨕",
+      "transliteration": "tʃa",
+      "translation": "ca",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "tʃa"
+      },
+      "definitions": [
+        "ca"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨕",
+        "gloss": "ca",
+        "phoneme": "tʃa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0011",
+      "script_symbol": "𐨖",
+      "transliteration": "tʃʰa",
+      "translation": "cha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "tʃʰa"
+      },
+      "definitions": [
+        "cha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨖",
+        "gloss": "cha",
+        "phoneme": "tʃʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0012",
+      "script_symbol": "𐨗",
+      "transliteration": "dʒa",
+      "translation": "ja",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "dʒa"
+      },
+      "definitions": [
+        "ja"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨗",
+        "gloss": "ja",
+        "phoneme": "dʒa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0013",
+      "script_symbol": "𐨙",
+      "transliteration": "ɲa",
+      "translation": "ña",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ɲa"
+      },
+      "definitions": [
+        "ña"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨙",
+        "gloss": "ña",
+        "phoneme": "ɲa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0014",
+      "script_symbol": "𐨚",
+      "transliteration": "ʈa",
+      "translation": "ṭa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ʈa"
+      },
+      "definitions": [
+        "ṭa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨚",
+        "gloss": "ṭa",
+        "phoneme": "ʈa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0015",
+      "script_symbol": "𐨛",
+      "transliteration": "ʈʰa",
+      "translation": "ṭha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ʈʰa"
+      },
+      "definitions": [
+        "ṭha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨛",
+        "gloss": "ṭha",
+        "phoneme": "ʈʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0016",
+      "script_symbol": "𐨜",
+      "transliteration": "ɖa",
+      "translation": "ḍa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ɖa"
+      },
+      "definitions": [
+        "ḍa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨜",
+        "gloss": "ḍa",
+        "phoneme": "ɖa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0017",
+      "script_symbol": "𐨝",
+      "transliteration": "ɖʰa",
+      "translation": "ḍha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ɖʰa"
+      },
+      "definitions": [
+        "ḍha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨝",
+        "gloss": "ḍha",
+        "phoneme": "ɖʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0018",
+      "script_symbol": "𐨞",
+      "transliteration": "ɳa",
+      "translation": "ṇa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ɳa"
+      },
+      "definitions": [
+        "ṇa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨞",
+        "gloss": "ṇa",
+        "phoneme": "ɳa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0019",
+      "script_symbol": "𐨟",
+      "transliteration": "ta",
+      "translation": "ta",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ta"
+      },
+      "definitions": [
+        "ta"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨟",
+        "gloss": "ta",
+        "phoneme": "ta",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0020",
+      "script_symbol": "𐨠",
+      "transliteration": "tʰa",
+      "translation": "tha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "tʰa"
+      },
+      "definitions": [
+        "tha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨠",
+        "gloss": "tha",
+        "phoneme": "tʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0021",
+      "script_symbol": "𐨡",
+      "transliteration": "da",
+      "translation": "da",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "da"
+      },
+      "definitions": [
+        "da"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨡",
+        "gloss": "da",
+        "phoneme": "da",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0022",
+      "script_symbol": "𐨢",
+      "transliteration": "dʰa",
+      "translation": "dha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "dʰa"
+      },
+      "definitions": [
+        "dha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨢",
+        "gloss": "dha",
+        "phoneme": "dʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0023",
+      "script_symbol": "𐨣",
+      "transliteration": "na",
+      "translation": "na",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "na"
+      },
+      "definitions": [
+        "na"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨣",
+        "gloss": "na",
+        "phoneme": "na",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0024",
+      "script_symbol": "𐨤",
+      "transliteration": "pa",
+      "translation": "pa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "pa"
+      },
+      "definitions": [
+        "pa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨤",
+        "gloss": "pa",
+        "phoneme": "pa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0025",
+      "script_symbol": "𐨥",
+      "transliteration": "pʰa",
+      "translation": "pha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "pʰa"
+      },
+      "definitions": [
+        "pha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨥",
+        "gloss": "pha",
+        "phoneme": "pʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0026",
+      "script_symbol": "𐨦",
+      "transliteration": "ba",
+      "translation": "ba",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ba"
+      },
+      "definitions": [
+        "ba"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨦",
+        "gloss": "ba",
+        "phoneme": "ba",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0027",
+      "script_symbol": "𐨧",
+      "transliteration": "bʰa",
+      "translation": "bha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "bʰa"
+      },
+      "definitions": [
+        "bha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨧",
+        "gloss": "bha",
+        "phoneme": "bʰa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0028",
+      "script_symbol": "𐨨",
+      "transliteration": "ma",
+      "translation": "ma",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ma"
+      },
+      "definitions": [
+        "ma"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨨",
+        "gloss": "ma",
+        "phoneme": "ma",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0029",
+      "script_symbol": "𐨩",
+      "transliteration": "ja",
+      "translation": "ya",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ja"
+      },
+      "definitions": [
+        "ya"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨩",
+        "gloss": "ya",
+        "phoneme": "ja",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0030",
+      "script_symbol": "𐨪",
+      "transliteration": "ra",
+      "translation": "ra",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ra"
+      },
+      "definitions": [
+        "ra"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨪",
+        "gloss": "ra",
+        "phoneme": "ra",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0031",
+      "script_symbol": "𐨫",
+      "transliteration": "la",
+      "translation": "la",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "la"
+      },
+      "definitions": [
+        "la"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨫",
+        "gloss": "la",
+        "phoneme": "la",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0032",
+      "script_symbol": "𐨬",
+      "transliteration": "va",
+      "translation": "va",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "va"
+      },
+      "definitions": [
+        "va"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨬",
+        "gloss": "va",
+        "phoneme": "va",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0033",
+      "script_symbol": "𐨭",
+      "transliteration": "ʃa",
+      "translation": "śa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ʃa"
+      },
+      "definitions": [
+        "śa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨭",
+        "gloss": "śa",
+        "phoneme": "ʃa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0034",
+      "script_symbol": "𐨮",
+      "transliteration": "ʂa",
+      "translation": "ṣa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ʂa"
+      },
+      "definitions": [
+        "ṣa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨮",
+        "gloss": "ṣa",
+        "phoneme": "ʂa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0035",
+      "script_symbol": "𐨯",
+      "transliteration": "sa",
+      "translation": "sa",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "sa"
+      },
+      "definitions": [
+        "sa"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨯",
+        "gloss": "sa",
+        "phoneme": "sa",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    },
+    {
+      "entry_id": "kharosthi_0036",
+      "script_symbol": "𐨰",
+      "transliteration": "ha",
+      "translation": "ha",
+      "pos": "undetermined",
+      "morphology": {
+        "phoneme": "ha"
+      },
+      "definitions": [
+        "ha"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "Salomon 1998"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "gandhari_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "kharosthi_lexicon.json",
+      "original_record": {
+        "token": "𐨰",
+        "gloss": "ha",
+        "phoneme": "ha",
+        "confidence": 1.0,
+        "source": "Salomon 1998"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Kharoṣṭhī / Gāndhārī entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

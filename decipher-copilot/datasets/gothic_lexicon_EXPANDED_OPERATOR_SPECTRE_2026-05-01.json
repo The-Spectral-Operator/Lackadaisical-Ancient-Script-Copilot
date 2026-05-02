@@ -1,0 +1,3885 @@
+{
+  "metadata": {
+    "title": "Gothic Lexicon",
+    "description": "Expanded and normalized Gothic dataset derived from gothic_lexicon.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": null,
+    "original_created": null,
+    "original_file": "gothic_lexicon.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 116,
+    "corpus_status": "expanded_seed_normalized_attestation_indexed",
+    "sources": [
+      "The Unicode Consortium – Code Charts",
+      "Wulfila Project – Annotated Gothic Bible"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "wulfila": {
+        "title": "Wulfila Project – Annotated Gothic Bible",
+        "url": "https://www.wulfila.be/gothic/",
+        "type": "annotated_text_corpus",
+        "scope": "Gothic biblical text with lexical/morphological analyses"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "alphabet",
+    "historical_significance": "East Germanic language chiefly preserved through the Gothic Bible and related fragments.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "gothic_0001",
+      "script_symbol": "𐌾𐌰𐌷",
+      "transliteration": "jah",
+      "translation": "and",
+      "pos": "conjunction",
+      "morphology": {
+        "notes": "coordinating particle - extremely frequent"
+      },
+      "definitions": [
+        "and"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "and",
+        "gothic": "𐌾𐌰𐌷",
+        "translit": "jah",
+        "pos": "conjunction",
+        "notes": "coordinating particle - extremely frequent"
+      }
+    },
+    {
+      "entry_id": "gothic_0002",
+      "script_symbol": "𐌰𐌲𐌲𐌹𐌻𐌿𐍃",
+      "transliteration": "aggilus",
+      "translation": "angel",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; divine messenger - attested in Luke 1:11"
+      },
+      "definitions": [
+        "angel"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "angel",
+        "gothic": "𐌰𐌲𐌲𐌹𐌻𐌿𐍃",
+        "translit": "aggilus",
+        "pos": "noun",
+        "notes": "masc.; divine messenger - attested in Luke 1:11"
+      }
+    },
+    {
+      "entry_id": "gothic_0003",
+      "script_symbol": "𐌼𐍉𐌳𐌰𐌲𐍃",
+      "transliteration": "modags",
+      "translation": "anger",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "angry, wrathful - attested in Matthew 5:22"
+      },
+      "definitions": [
+        "anger"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "anger",
+        "gothic": "𐌼𐍉𐌳𐌰𐌲𐍃",
+        "translit": "modags",
+        "pos": "adjective",
+        "notes": "angry, wrathful - attested in Matthew 5:22"
+      }
+    },
+    {
+      "entry_id": "gothic_0004",
+      "script_symbol": "𐍃𐌹𐌾𐌰𐌽",
+      "transliteration": "sijan",
+      "translation": "be",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to be, exist - frequently attested throughout Gothic Bible"
+      },
+      "definitions": [
+        "be"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "be",
+        "gothic": "𐍃𐌹𐌾𐌰𐌽",
+        "translit": "sijan",
+        "pos": "verb",
+        "notes": "infinitive; to be, exist - frequently attested throughout Gothic Bible"
+      }
+    },
+    {
+      "entry_id": "gothic_0005",
+      "script_symbol": "𐍃𐍅𐌰𐍂𐍄𐍃",
+      "transliteration": "swarts",
+      "translation": "black",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "dark colored - attested in Matthew 5:36"
+      },
+      "definitions": [
+        "black"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "black",
+        "gothic": "𐍃𐍅𐌰𐍂𐍄𐍃",
+        "translit": "swarts",
+        "pos": "adjective",
+        "notes": "dark colored - attested in Matthew 5:36"
+      }
+    },
+    {
+      "entry_id": "gothic_0006",
+      "script_symbol": "𐌱𐌻𐍉𐌸",
+      "transliteration": "bloþ",
+      "translation": "blood",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; blood - attested in Matthew 26:28"
+      },
+      "definitions": [
+        "blood"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "blood",
+        "gothic": "𐌱𐌻𐍉𐌸",
+        "translit": "bloþ",
+        "pos": "noun",
+        "notes": "neut.; blood - attested in Matthew 26:28"
+      }
+    },
+    {
+      "entry_id": "gothic_0007",
+      "script_symbol": "𐌱𐍉𐌺𐍉𐍃",
+      "transliteration": "bokos",
+      "translation": "book",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; book, scroll - attested in Luke 4:17"
+      },
+      "definitions": [
+        "book"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "book",
+        "gothic": "𐌱𐍉𐌺𐍉𐍃",
+        "translit": "bokos",
+        "pos": "noun",
+        "notes": "fem.; book, scroll - attested in Luke 4:17"
+      }
+    },
+    {
+      "entry_id": "gothic_0008",
+      "script_symbol": "𐌷𐌻𐌰𐌹𐍆𐍃",
+      "transliteration": "hlaifs",
+      "translation": "bread",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; bread, loaf - attested in Matthew 6:11"
+      },
+      "definitions": [
+        "bread"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "bread",
+        "gothic": "𐌷𐌻𐌰𐌹𐍆𐍃",
+        "translit": "hlaifs",
+        "pos": "noun",
+        "notes": "masc.; bread, loaf - attested in Matthew 6:11"
+      }
+    },
+    {
+      "entry_id": "gothic_0009",
+      "script_symbol": "𐌱𐍂𐍉𐌸𐌰𐍂",
+      "transliteration": "broþar",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; sibling - attested in Matthew 4:18"
+      },
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "brother",
+        "gothic": "𐌱𐍂𐍉𐌸𐌰𐍂",
+        "translit": "broþar",
+        "pos": "noun",
+        "notes": "masc.; sibling - attested in Matthew 4:18"
+      }
+    },
+    {
+      "entry_id": "gothic_0010",
+      "script_symbol": "𐌷𐌰𐌹𐍄𐌰𐌽",
+      "transliteration": "haitan",
+      "translation": "call",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to call, name - attested in Matthew 1:21"
+      },
+      "definitions": [
+        "call"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "call",
+        "gothic": "𐌷𐌰𐌹𐍄𐌰𐌽",
+        "translit": "haitan",
+        "pos": "verb",
+        "notes": "infinitive; to call, name - attested in Matthew 1:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0011",
+      "script_symbol": "𐍇𐍂𐌹𐍃𐍄𐌿𐍃",
+      "transliteration": "xristus",
+      "translation": "christ",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; the anointed one - Greek loanword, frequently attested"
+      },
+      "definitions": [
+        "christ"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "christ",
+        "gothic": "𐍇𐍂𐌹𐍃𐍄𐌿𐍃",
+        "translit": "xristus",
+        "pos": "noun",
+        "notes": "masc.; the anointed one - Greek loanword, frequently attested"
+      }
+    },
+    {
+      "entry_id": "gothic_0012",
+      "script_symbol": "𐌰𐌹𐌺𐌺𐌻𐌴𐍃𐌾𐍉",
+      "transliteration": "aikklesjo",
+      "translation": "church",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; assembly, congregation - attested in Matthew 16:18"
+      },
+      "definitions": [
+        "church"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "church",
+        "gothic": "𐌰𐌹𐌺𐌺𐌻𐌴𐍃𐌾𐍉",
+        "translit": "aikklesjo",
+        "pos": "noun",
+        "notes": "fem.; assembly, congregation - attested in Matthew 16:18"
+      }
+    },
+    {
+      "entry_id": "gothic_0013",
+      "script_symbol": "𐌷𐍂𐌰𐌹𐌽𐍃",
+      "transliteration": "hrains",
+      "translation": "clean",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "pure, clean - attested in Matthew 23:26"
+      },
+      "definitions": [
+        "clean"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "clean",
+        "gothic": "𐌷𐍂𐌰𐌹𐌽𐍃",
+        "translit": "hrains",
+        "pos": "adjective",
+        "notes": "pure, clean - attested in Matthew 23:26"
+      }
+    },
+    {
+      "entry_id": "gothic_0014",
+      "script_symbol": "𐌵𐌹𐌼𐌰𐌽",
+      "transliteration": "qiman",
+      "translation": "come",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to come - attested in Matthew 3:11"
+      },
+      "definitions": [
+        "come"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "come",
+        "gothic": "𐌵𐌹𐌼𐌰𐌽",
+        "translit": "qiman",
+        "pos": "verb",
+        "notes": "infinitive; to come - attested in Matthew 3:11"
+      }
+    },
+    {
+      "entry_id": "gothic_0015",
+      "script_symbol": "𐍂𐌹𐌵𐌹𐍃",
+      "transliteration": "riqis",
+      "translation": "darkness",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; darkness - attested in John 1:5"
+      },
+      "definitions": [
+        "darkness"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "darkness",
+        "gothic": "𐍂𐌹𐌵𐌹𐍃",
+        "translit": "riqis",
+        "pos": "noun",
+        "notes": "neut.; darkness - attested in John 1:5"
+      }
+    },
+    {
+      "entry_id": "gothic_0016",
+      "script_symbol": "𐌳𐌰𐌲𐍃",
+      "transliteration": "dags",
+      "translation": "day",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; day - attested in Genesis 1:5"
+      },
+      "definitions": [
+        "day"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "day",
+        "gothic": "𐌳𐌰𐌲𐍃",
+        "translit": "dags",
+        "pos": "noun",
+        "notes": "masc.; day - attested in Genesis 1:5"
+      }
+    },
+    {
+      "entry_id": "gothic_0017",
+      "script_symbol": "𐌳𐌰𐌿𐌸𐍃",
+      "transliteration": "dauþs",
+      "translation": "dead",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "lifeless, dead - attested in Matthew 22:31"
+      },
+      "definitions": [
+        "dead"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "dead",
+        "gothic": "𐌳𐌰𐌿𐌸𐍃",
+        "translit": "dauþs",
+        "pos": "adjective",
+        "notes": "lifeless, dead - attested in Matthew 22:31"
+      }
+    },
+    {
+      "entry_id": "gothic_0018",
+      "script_symbol": "𐌳𐌰𐌿𐌸𐌿𐍃",
+      "transliteration": "dauþus",
+      "translation": "death",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; end of life - attested in Romans 6:23"
+      },
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "death",
+        "gothic": "𐌳𐌰𐌿𐌸𐌿𐍃",
+        "translit": "dauþus",
+        "pos": "noun",
+        "notes": "masc.; end of life - attested in Romans 6:23"
+      }
+    },
+    {
+      "entry_id": "gothic_0019",
+      "script_symbol": "𐍃𐌹𐍀𐍉𐌽𐌴𐌹𐍃",
+      "transliteration": "siponeis",
+      "translation": "disciple",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; student, follower - Greek loanword, attested in Matthew 10:1"
+      },
+      "definitions": [
+        "disciple"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "disciple",
+        "gothic": "𐍃𐌹𐍀𐍉𐌽𐌴𐌹𐍃",
+        "translit": "siponeis",
+        "pos": "noun",
+        "notes": "masc.; student, follower - Greek loanword, attested in Matthew 10:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0020",
+      "script_symbol": "𐍄𐌰𐌿𐌾𐌰𐌽",
+      "transliteration": "taujan",
+      "translation": "do",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to do, make - attested in Luke 3:10"
+      },
+      "definitions": [
+        "do"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "do",
+        "gothic": "𐍄𐌰𐌿𐌾𐌰𐌽",
+        "translit": "taujan",
+        "pos": "verb",
+        "notes": "infinitive; to do, make - attested in Luke 3:10"
+      }
+    },
+    {
+      "entry_id": "gothic_0021",
+      "script_symbol": "𐌰𐌿𐍃𐍉",
+      "transliteration": "auso",
+      "translation": "ear",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; ear - attested in Mark 7:33"
+      },
+      "definitions": [
+        "ear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "ear",
+        "gothic": "𐌰𐌿𐍃𐍉",
+        "translit": "auso",
+        "pos": "noun",
+        "notes": "neut.; ear - attested in Mark 7:33"
+      }
+    },
+    {
+      "entry_id": "gothic_0022",
+      "script_symbol": "𐌰𐌹𐍂𐌸𐌰",
+      "transliteration": "airþa",
+      "translation": "earth",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; earth, ground - attested in Genesis 1:1"
+      },
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "earth",
+        "gothic": "𐌰𐌹𐍂𐌸𐌰",
+        "translit": "airþa",
+        "pos": "noun",
+        "notes": "fem.; earth, ground - attested in Genesis 1:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0023",
+      "script_symbol": "𐌿𐌱𐌹𐌻𐍃",
+      "transliteration": "ubils",
+      "translation": "evil",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "bad, wicked - attested in Matthew 6:13"
+      },
+      "definitions": [
+        "evil"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "evil",
+        "gothic": "𐌿𐌱𐌹𐌻𐍃",
+        "translit": "ubils",
+        "pos": "adjective",
+        "notes": "bad, wicked - attested in Matthew 6:13"
+      }
+    },
+    {
+      "entry_id": "gothic_0024",
+      "script_symbol": "𐌰𐌿𐌲𐍉",
+      "transliteration": "augo",
+      "translation": "eye",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; organ of sight - attested in Matthew 6:22"
+      },
+      "definitions": [
+        "eye"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "eye",
+        "gothic": "𐌰𐌿𐌲𐍉",
+        "translit": "augo",
+        "pos": "noun",
+        "notes": "neut.; organ of sight - attested in Matthew 6:22"
+      }
+    },
+    {
+      "entry_id": "gothic_0025",
+      "script_symbol": "𐌰𐍄𐍄𐌰",
+      "transliteration": "atta",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; parent - attested in Luke 11:11 (Codex Argenteus)"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "father",
+        "gothic": "𐌰𐍄𐍄𐌰",
+        "translit": "atta",
+        "pos": "noun",
+        "notes": "masc.; parent - attested in Luke 11:11 (Codex Argenteus)"
+      }
+    },
+    {
+      "entry_id": "gothic_0026",
+      "script_symbol": "𐌰𐌲𐌹𐍃",
+      "transliteration": "agis",
+      "translation": "fear",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; fear, terror - attested in Luke 1:12"
+      },
+      "definitions": [
+        "fear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "fear",
+        "gothic": "𐌰𐌲𐌹𐍃",
+        "translit": "agis",
+        "pos": "noun",
+        "notes": "neut.; fear, terror - attested in Luke 1:12"
+      }
+    },
+    {
+      "entry_id": "gothic_0027",
+      "script_symbol": "𐌰𐌺𐍂𐍃",
+      "transliteration": "akrs",
+      "translation": "field",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; field, acre - attested in Matthew 13:24"
+      },
+      "definitions": [
+        "field"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "field",
+        "gothic": "𐌰𐌺𐍂𐍃",
+        "translit": "akrs",
+        "pos": "noun",
+        "notes": "masc.; field, acre - attested in Matthew 13:24"
+      }
+    },
+    {
+      "entry_id": "gothic_0028",
+      "script_symbol": "𐌱𐌹𐌲𐌹𐍄𐌰𐌽",
+      "transliteration": "bigitan",
+      "translation": "find",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to find, obtain - attested in Matthew 7:7"
+      },
+      "definitions": [
+        "find"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "find",
+        "gothic": "𐌱𐌹𐌲𐌹𐍄𐌰𐌽",
+        "translit": "bigitan",
+        "pos": "verb",
+        "notes": "infinitive; to find, obtain - attested in Matthew 7:7"
+      }
+    },
+    {
+      "entry_id": "gothic_0029",
+      "script_symbol": "𐍆𐍉𐌽",
+      "transliteration": "fon",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; flame - attested in Luke 12:49"
+      },
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "fire",
+        "gothic": "𐍆𐍉𐌽",
+        "translit": "fon",
+        "pos": "noun",
+        "notes": "neut.; flame - attested in Luke 12:49"
+      }
+    },
+    {
+      "entry_id": "gothic_0030",
+      "script_symbol": "𐍆𐌹𐍃𐌺𐍃",
+      "transliteration": "fisks",
+      "translation": "fish",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; aquatic animal - attested in Matthew 4:19"
+      },
+      "definitions": [
+        "fish"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "fish",
+        "gothic": "𐍆𐌹𐍃𐌺𐍃",
+        "translit": "fisks",
+        "pos": "noun",
+        "notes": "masc.; aquatic animal - attested in Matthew 4:19"
+      }
+    },
+    {
+      "entry_id": "gothic_0031",
+      "script_symbol": "𐍆𐌹𐌼𐍆",
+      "transliteration": "fimf",
+      "translation": "five",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Matthew 14:17"
+      },
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "five",
+        "gothic": "𐍆𐌹𐌼𐍆",
+        "translit": "fimf",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Matthew 14:17"
+      }
+    },
+    {
+      "entry_id": "gothic_0032",
+      "script_symbol": "𐍆𐍉𐍄𐌿𐍃",
+      "transliteration": "fotus",
+      "translation": "foot",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; extremity - attested in Luke 7:38"
+      },
+      "definitions": [
+        "foot"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "foot",
+        "gothic": "𐍆𐍉𐍄𐌿𐍃",
+        "translit": "fotus",
+        "pos": "noun",
+        "notes": "masc.; extremity - attested in Luke 7:38"
+      }
+    },
+    {
+      "entry_id": "gothic_0033",
+      "script_symbol": "𐍆𐌹𐌳𐍅𐍉𐍂",
+      "transliteration": "fidwor",
+      "translation": "four",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Mark 2:3"
+      },
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "four",
+        "gothic": "𐍆𐌹𐌳𐍅𐍉𐍂",
+        "translit": "fidwor",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Mark 2:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0034",
+      "script_symbol": "𐌲𐌰𐍅𐌰𐍃𐍃𐌹",
+      "transliteration": "gawassi",
+      "translation": "garment",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; clothing - attested in Matthew 9:16"
+      },
+      "definitions": [
+        "garment"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "garment",
+        "gothic": "𐌲𐌰𐍅𐌰𐍃𐍃𐌹",
+        "translit": "gawassi",
+        "pos": "noun",
+        "notes": "neut.; clothing - attested in Matthew 9:16"
+      }
+    },
+    {
+      "entry_id": "gothic_0035",
+      "script_symbol": "𐌲𐌹𐌱𐌰𐌽",
+      "transliteration": "giban",
+      "translation": "give",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to give - attested in Matthew 5:42"
+      },
+      "definitions": [
+        "give"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "give",
+        "gothic": "𐌲𐌹𐌱𐌰𐌽",
+        "translit": "giban",
+        "pos": "verb",
+        "notes": "infinitive; to give - attested in Matthew 5:42"
+      }
+    },
+    {
+      "entry_id": "gothic_0036",
+      "script_symbol": "𐌲𐌰𐌲𐌲𐌰𐌽",
+      "transliteration": "gaggan",
+      "translation": "go",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to go, walk - attested in Mark 16:15"
+      },
+      "definitions": [
+        "go"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "go",
+        "gothic": "𐌲𐌰𐌲𐌲𐌰𐌽",
+        "translit": "gaggan",
+        "pos": "verb",
+        "notes": "infinitive; to go, walk - attested in Mark 16:15"
+      }
+    },
+    {
+      "entry_id": "gothic_0037",
+      "script_symbol": "𐌲𐌿𐌸",
+      "transliteration": "guþ",
+      "translation": "god",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; deity - frequently attested throughout Wulfila's Bible"
+      },
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "god",
+        "gothic": "𐌲𐌿𐌸",
+        "translit": "guþ",
+        "pos": "noun",
+        "notes": "masc.; deity - frequently attested throughout Wulfila's Bible"
+      }
+    },
+    {
+      "entry_id": "gothic_0038",
+      "script_symbol": "𐌲𐌿𐌻𐌸",
+      "transliteration": "gulþ",
+      "translation": "gold",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; gold - attested in Matthew 2:11"
+      },
+      "definitions": [
+        "gold"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "gold",
+        "gothic": "𐌲𐌿𐌻𐌸",
+        "translit": "gulþ",
+        "pos": "noun",
+        "notes": "neut.; gold - attested in Matthew 2:11"
+      }
+    },
+    {
+      "entry_id": "gothic_0039",
+      "script_symbol": "𐌲𐍉𐌸𐍃",
+      "transliteration": "goþs",
+      "translation": "good",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "good, virtuous - attested in Mark 10:18"
+      },
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "good",
+        "gothic": "𐌲𐍉𐌸𐍃",
+        "translit": "goþs",
+        "pos": "adjective",
+        "notes": "good, virtuous - attested in Mark 10:18"
+      }
+    },
+    {
+      "entry_id": "gothic_0040",
+      "script_symbol": "𐌼𐌹𐌺𐌹𐌻𐍃",
+      "transliteration": "mikils",
+      "translation": "great",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "great, large - attested in Matthew 2:10"
+      },
+      "definitions": [
+        "great"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "great",
+        "gothic": "𐌼𐌹𐌺𐌹𐌻𐍃",
+        "translit": "mikils",
+        "pos": "adjective",
+        "notes": "great, large - attested in Matthew 2:10"
+      }
+    },
+    {
+      "entry_id": "gothic_0041",
+      "script_symbol": "𐌷𐌰𐌽𐌳𐌿𐍃",
+      "transliteration": "handus",
+      "translation": "hand",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; hand - attested in Mark 3:1"
+      },
+      "definitions": [
+        "hand"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "hand",
+        "gothic": "𐌷𐌰𐌽𐌳𐌿𐍃",
+        "translit": "handus",
+        "pos": "noun",
+        "notes": "fem.; hand - attested in Mark 3:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0042",
+      "script_symbol": "𐌷𐌰𐌱𐌰𐌽",
+      "transliteration": "haban",
+      "translation": "have",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to have, possess - attested in Matthew 19:22"
+      },
+      "definitions": [
+        "have"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "have",
+        "gothic": "𐌷𐌰𐌱𐌰𐌽",
+        "translit": "haban",
+        "pos": "verb",
+        "notes": "infinitive; to have, possess - attested in Matthew 19:22"
+      }
+    },
+    {
+      "entry_id": "gothic_0043",
+      "script_symbol": "𐌷𐌰𐌿𐌱𐌹𐌸",
+      "transliteration": "haubiþ",
+      "translation": "head",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; top part of body - attested in Matthew 14:8"
+      },
+      "definitions": [
+        "head"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "head",
+        "gothic": "𐌷𐌰𐌿𐌱𐌹𐌸",
+        "translit": "haubiþ",
+        "pos": "noun",
+        "notes": "neut.; top part of body - attested in Matthew 14:8"
+      }
+    },
+    {
+      "entry_id": "gothic_0044",
+      "script_symbol": "𐌷𐌰𐌿𐍃𐌾𐌰𐌽",
+      "transliteration": "hausjan",
+      "translation": "hear",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to hear, listen - attested in Matthew 11:15"
+      },
+      "definitions": [
+        "hear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "hear",
+        "gothic": "𐌷𐌰𐌿𐍃𐌾𐌰𐌽",
+        "translit": "hausjan",
+        "pos": "verb",
+        "notes": "infinitive; to hear, listen - attested in Matthew 11:15"
+      }
+    },
+    {
+      "entry_id": "gothic_0045",
+      "script_symbol": "𐌷𐌰𐌹𐍂𐍄𐍉",
+      "transliteration": "hairto",
+      "translation": "heart",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; heart - attested in Matthew 5:8"
+      },
+      "definitions": [
+        "heart"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "heart",
+        "gothic": "𐌷𐌰𐌹𐍂𐍄𐍉",
+        "translit": "hairto",
+        "pos": "noun",
+        "notes": "neut.; heart - attested in Matthew 5:8"
+      }
+    },
+    {
+      "entry_id": "gothic_0046",
+      "script_symbol": "𐌷𐌹𐌼𐌹𐌽𐍃",
+      "transliteration": "himins",
+      "translation": "heaven",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; heaven, sky - attested in Matthew 5:3"
+      },
+      "definitions": [
+        "heaven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "heaven",
+        "gothic": "𐌷𐌹𐌼𐌹𐌽𐍃",
+        "translit": "himins",
+        "pos": "noun",
+        "notes": "masc.; heaven, sky - attested in Matthew 5:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0047",
+      "script_symbol": "𐍅𐌴𐌹𐌷𐍃",
+      "transliteration": "weihs",
+      "translation": "holy",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "holy, sacred - attested in Matthew 1:18"
+      },
+      "definitions": [
+        "holy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "holy",
+        "gothic": "𐍅𐌴𐌹𐌷𐍃",
+        "translit": "weihs",
+        "pos": "adjective",
+        "notes": "holy, sacred - attested in Matthew 1:18"
+      }
+    },
+    {
+      "entry_id": "gothic_0048",
+      "script_symbol": "𐍅𐌴𐌽𐍃",
+      "transliteration": "wens",
+      "translation": "hope",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; expectation - attested in Romans 8:24"
+      },
+      "definitions": [
+        "hope"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "hope",
+        "gothic": "𐍅𐌴𐌽𐍃",
+        "translit": "wens",
+        "pos": "noun",
+        "notes": "fem.; expectation - attested in Romans 8:24"
+      }
+    },
+    {
+      "entry_id": "gothic_0049",
+      "script_symbol": "𐍈𐌴𐌹𐌻𐌰",
+      "transliteration": "hweila",
+      "translation": "hour",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; hour, time - attested in Matthew 20:12"
+      },
+      "definitions": [
+        "hour"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "hour",
+        "gothic": "𐍈𐌴𐌹𐌻𐌰",
+        "translit": "hweila",
+        "pos": "noun",
+        "notes": "fem.; hour, time - attested in Matthew 20:12"
+      }
+    },
+    {
+      "entry_id": "gothic_0050",
+      "script_symbol": "𐌲𐌰𐍂𐌳𐍃",
+      "transliteration": "gards",
+      "translation": "house",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; dwelling, house - attested in Matthew 7:25"
+      },
+      "definitions": [
+        "house"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "house",
+        "gothic": "𐌲𐌰𐍂𐌳𐍃",
+        "translit": "gards",
+        "pos": "noun",
+        "notes": "masc.; dwelling, house - attested in Matthew 7:25"
+      }
+    },
+    {
+      "entry_id": "gothic_0051",
+      "script_symbol": "𐌷𐌿𐌽𐌳",
+      "transliteration": "hund",
+      "translation": "hundred",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Matthew 13:8"
+      },
+      "definitions": [
+        "hundred"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "hundred",
+        "gothic": "𐌷𐌿𐌽𐌳",
+        "translit": "hund",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Matthew 13:8"
+      }
+    },
+    {
+      "entry_id": "gothic_0052",
+      "script_symbol": "𐌹𐌽",
+      "transliteration": "in",
+      "translation": "in",
+      "pos": "preposition",
+      "morphology": {
+        "notes": "location marker - extremely frequent throughout texts"
+      },
+      "definitions": [
+        "in"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "in",
+        "gothic": "𐌹𐌽",
+        "translit": "in",
+        "pos": "preposition",
+        "notes": "location marker - extremely frequent throughout texts"
+      }
+    },
+    {
+      "entry_id": "gothic_0053",
+      "script_symbol": "𐍆𐌰𐌷𐌴𐌸𐍃",
+      "transliteration": "faheþs",
+      "translation": "joy",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; happiness - attested in Luke 2:10"
+      },
+      "definitions": [
+        "joy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "joy",
+        "gothic": "𐍆𐌰𐌷𐌴𐌸𐍃",
+        "translit": "faheþs",
+        "pos": "noun",
+        "notes": "fem.; happiness - attested in Luke 2:10"
+      }
+    },
+    {
+      "entry_id": "gothic_0054",
+      "script_symbol": "𐌸𐌹𐌿𐌳𐌰𐌽𐍃",
+      "transliteration": "þiudans",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; ruler, king - attested in Mark 15:2"
+      },
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "king",
+        "gothic": "𐌸𐌹𐌿𐌳𐌰𐌽𐍃",
+        "translit": "þiudans",
+        "pos": "noun",
+        "notes": "masc.; ruler, king - attested in Mark 15:2"
+      }
+    },
+    {
+      "entry_id": "gothic_0055",
+      "script_symbol": "𐌸𐌹𐌿𐌳𐌰𐌽𐌲𐌰𐍂𐌳𐌹",
+      "transliteration": "þiudangardi",
+      "translation": "kingdom",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; realm, kingdom - compound of þiudan + gards, frequently attested"
+      },
+      "definitions": [
+        "kingdom"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "kingdom",
+        "gothic": "𐌸𐌹𐌿𐌳𐌰𐌽𐌲𐌰𐍂𐌳𐌹",
+        "translit": "þiudangardi",
+        "pos": "noun",
+        "notes": "fem.; realm, kingdom - compound of þiudan + gards, frequently attested"
+      }
+    },
+    {
+      "entry_id": "gothic_0056",
+      "script_symbol": "𐌺𐌿𐌽𐌽𐌰𐌽",
+      "transliteration": "kunnan",
+      "translation": "know",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to know, understand - attested in John 8:55"
+      },
+      "definitions": [
+        "know"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "know",
+        "gothic": "𐌺𐌿𐌽𐌽𐌰𐌽",
+        "translit": "kunnan",
+        "pos": "verb",
+        "notes": "infinitive; to know, understand - attested in John 8:55"
+      }
+    },
+    {
+      "entry_id": "gothic_0057",
+      "script_symbol": "𐌰𐌹𐍀𐌹𐍃𐍄𐌿𐌻𐌴",
+      "transliteration": "aipistule",
+      "translation": "letter",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; epistle, letter - Greek loanword"
+      },
+      "definitions": [
+        "letter"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "letter",
+        "gothic": "𐌰𐌹𐍀𐌹𐍃𐍄𐌿𐌻𐌴",
+        "translit": "aipistule",
+        "pos": "noun",
+        "notes": "fem.; epistle, letter - Greek loanword"
+      }
+    },
+    {
+      "entry_id": "gothic_0058",
+      "script_symbol": "𐌻𐌹𐌱𐌰𐌹𐌽𐍃",
+      "transliteration": "libains",
+      "translation": "life",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; life - attested in John 3:16"
+      },
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "life",
+        "gothic": "𐌻𐌹𐌱𐌰𐌹𐌽𐍃",
+        "translit": "libains",
+        "pos": "noun",
+        "notes": "fem.; life - attested in John 3:16"
+      }
+    },
+    {
+      "entry_id": "gothic_0059",
+      "script_symbol": "𐌻𐌹𐌿𐌷𐌰𐌸",
+      "transliteration": "liuhaþ",
+      "translation": "light",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; light, illumination - attested in John 1:4"
+      },
+      "definitions": [
+        "light"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "light",
+        "gothic": "𐌻𐌹𐌿𐌷𐌰𐌸",
+        "translit": "liuhaþ",
+        "pos": "noun",
+        "notes": "neut.; light, illumination - attested in John 1:4"
+      }
+    },
+    {
+      "entry_id": "gothic_0060",
+      "script_symbol": "𐍆𐍂𐌰𐌿𐌾𐌰",
+      "transliteration": "frauja",
+      "translation": "lord",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; master, lord - frequently attested as 'frauja' throughout Wulfila's Bible"
+      },
+      "definitions": [
+        "lord"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "lord",
+        "gothic": "𐍆𐍂𐌰𐌿𐌾𐌰",
+        "translit": "frauja",
+        "pos": "noun",
+        "notes": "masc.; master, lord - frequently attested as 'frauja' throughout Wulfila's Bible"
+      }
+    },
+    {
+      "entry_id": "gothic_0061",
+      "script_symbol": "𐍆𐍂𐌹𐌾𐍉𐌽",
+      "transliteration": "frijon",
+      "translation": "love",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to love - attested in John 3:16"
+      },
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "love",
+        "gothic": "𐍆𐍂𐌹𐌾𐍉𐌽",
+        "translit": "frijon",
+        "pos": "verb",
+        "notes": "infinitive; to love - attested in John 3:16"
+      }
+    },
+    {
+      "entry_id": "gothic_0062",
+      "script_symbol": "𐌼𐌰𐌽𐌽𐌰",
+      "transliteration": "manna",
+      "translation": "man",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; human being - well attested in biblical texts"
+      },
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "man",
+        "gothic": "𐌼𐌰𐌽𐌽𐌰",
+        "translit": "manna",
+        "pos": "noun",
+        "notes": "masc.; human being - well attested in biblical texts"
+      }
+    },
+    {
+      "entry_id": "gothic_0063",
+      "script_symbol": "𐌼𐌹𐌼𐌶",
+      "transliteration": "mimz",
+      "translation": "meat",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; meat, flesh - attested in Romans 14:21"
+      },
+      "definitions": [
+        "meat"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "meat",
+        "gothic": "𐌼𐌹𐌼𐌶",
+        "translit": "mimz",
+        "pos": "noun",
+        "notes": "neut.; meat, flesh - attested in Romans 14:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0064",
+      "script_symbol": "𐌰𐍂𐌼𐌰𐌷𐌰𐌹𐍂𐍄𐌴𐌹",
+      "transliteration": "armahairtei",
+      "translation": "mercy",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; compassion - compound word, attested in Matthew 9:13"
+      },
+      "definitions": [
+        "mercy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "mercy",
+        "gothic": "𐌰𐍂𐌼𐌰𐌷𐌰𐌹𐍂𐍄𐌴𐌹",
+        "translit": "armahairtei",
+        "pos": "noun",
+        "notes": "fem.; compassion - compound word, attested in Matthew 9:13"
+      }
+    },
+    {
+      "entry_id": "gothic_0065",
+      "script_symbol": "𐌼𐌴𐌽𐍉𐌸𐍃",
+      "transliteration": "menoþs",
+      "translation": "month",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; month - attested in Luke 1:24"
+      },
+      "definitions": [
+        "month"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "month",
+        "gothic": "𐌼𐌴𐌽𐍉𐌸𐍃",
+        "translit": "menoþs",
+        "pos": "noun",
+        "notes": "masc.; month - attested in Luke 1:24"
+      }
+    },
+    {
+      "entry_id": "gothic_0066",
+      "script_symbol": "𐌰𐌹𐌸𐌴𐌹",
+      "transliteration": "aiþei",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; parent - attested in Mark 3:31"
+      },
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "mother",
+        "gothic": "𐌰𐌹𐌸𐌴𐌹",
+        "translit": "aiþei",
+        "pos": "noun",
+        "notes": "fem.; parent - attested in Mark 3:31"
+      }
+    },
+    {
+      "entry_id": "gothic_0067",
+      "script_symbol": "𐍆𐌰𐌹𐍂𐌲𐌿𐌽𐌹",
+      "transliteration": "fairguni",
+      "translation": "mountain",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; mountain, hill - attested in Matthew 5:1"
+      },
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "mountain",
+        "gothic": "𐍆𐌰𐌹𐍂𐌲𐌿𐌽𐌹",
+        "translit": "fairguni",
+        "pos": "noun",
+        "notes": "neut.; mountain, hill - attested in Matthew 5:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0068",
+      "script_symbol": "𐌼𐌿𐌽𐌸𐍃",
+      "transliteration": "munþs",
+      "translation": "mouth",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; mouth, opening - attested in Matthew 15:11"
+      },
+      "definitions": [
+        "mouth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "mouth",
+        "gothic": "𐌼𐌿𐌽𐌸𐍃",
+        "translit": "munþs",
+        "pos": "noun",
+        "notes": "masc.; mouth, opening - attested in Matthew 15:11"
+      }
+    },
+    {
+      "entry_id": "gothic_0069",
+      "script_symbol": "𐌽𐌰𐌼𐍉",
+      "transliteration": "namo",
+      "translation": "name",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; name - attested in Matthew 1:21"
+      },
+      "definitions": [
+        "name"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "name",
+        "gothic": "𐌽𐌰𐌼𐍉",
+        "translit": "namo",
+        "pos": "noun",
+        "notes": "neut.; name - attested in Matthew 1:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0070",
+      "script_symbol": "𐌽𐌹𐌿𐌾𐌹𐍃",
+      "transliteration": "niujis",
+      "translation": "new",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "fresh, new - attested in Matthew 9:17"
+      },
+      "definitions": [
+        "new"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "new",
+        "gothic": "𐌽𐌹𐌿𐌾𐌹𐍃",
+        "translit": "niujis",
+        "pos": "adjective",
+        "notes": "fresh, new - attested in Matthew 9:17"
+      }
+    },
+    {
+      "entry_id": "gothic_0071",
+      "script_symbol": "𐌽𐌰𐌷𐍄𐍃",
+      "transliteration": "nahts",
+      "translation": "night",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; night - attested in Genesis 1:5"
+      },
+      "definitions": [
+        "night"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "night",
+        "gothic": "𐌽𐌰𐌷𐍄𐍃",
+        "translit": "nahts",
+        "pos": "noun",
+        "notes": "fem.; night - attested in Genesis 1:5"
+      }
+    },
+    {
+      "entry_id": "gothic_0072",
+      "script_symbol": "𐌰𐌻𐌴𐍅",
+      "transliteration": "alew",
+      "translation": "oil",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; olive oil - attested in Matthew 25:3"
+      },
+      "definitions": [
+        "oil"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "oil",
+        "gothic": "𐌰𐌻𐌴𐍅",
+        "translit": "alew",
+        "pos": "noun",
+        "notes": "neut.; olive oil - attested in Matthew 25:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0073",
+      "script_symbol": "𐌰𐌻𐌸𐌴𐌹𐍃",
+      "transliteration": "alþeis",
+      "translation": "old",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "aged, old - attested in Luke 5:36"
+      },
+      "definitions": [
+        "old"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "old",
+        "gothic": "𐌰𐌻𐌸𐌴𐌹𐍃",
+        "translit": "alþeis",
+        "pos": "adjective",
+        "notes": "aged, old - attested in Luke 5:36"
+      }
+    },
+    {
+      "entry_id": "gothic_0074",
+      "script_symbol": "𐌰𐌹𐌽𐍃",
+      "transliteration": "ains",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - frequently attested"
+      },
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "one",
+        "gothic": "𐌰𐌹𐌽𐍃",
+        "translit": "ains",
+        "pos": "numeral",
+        "notes": "cardinal number - frequently attested"
+      }
+    },
+    {
+      "entry_id": "gothic_0075",
+      "script_symbol": "𐌲𐌰𐍅𐌰𐌹𐍂𐌸𐌹",
+      "transliteration": "gawairþi",
+      "translation": "peace",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; tranquility - attested in Luke 2:14"
+      },
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "peace",
+        "gothic": "𐌲𐌰𐍅𐌰𐌹𐍂𐌸𐌹",
+        "translit": "gawairþi",
+        "pos": "noun",
+        "notes": "neut.; tranquility - attested in Luke 2:14"
+      }
+    },
+    {
+      "entry_id": "gothic_0076",
+      "script_symbol": "𐌸𐌹𐌿𐌳𐌰",
+      "transliteration": "þiuda",
+      "translation": "people",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; people, nation - attested in Matthew 1:21"
+      },
+      "definitions": [
+        "people"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "people",
+        "gothic": "𐌸𐌹𐌿𐌳𐌰",
+        "translit": "þiuda",
+        "pos": "noun",
+        "notes": "fem.; people, nation - attested in Matthew 1:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0077",
+      "script_symbol": "𐌲𐌿𐌳𐌾𐌰",
+      "transliteration": "gudja",
+      "translation": "priest",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; religious leader - attested in Luke 1:5"
+      },
+      "definitions": [
+        "priest"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "priest",
+        "gothic": "𐌲𐌿𐌳𐌾𐌰",
+        "translit": "gudja",
+        "pos": "noun",
+        "notes": "masc.; religious leader - attested in Luke 1:5"
+      }
+    },
+    {
+      "entry_id": "gothic_0078",
+      "script_symbol": "𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌴𐍃",
+      "transliteration": "praufetes",
+      "translation": "prophet",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; prophet - Greek loanword, attested in Matthew 1:22"
+      },
+      "definitions": [
+        "prophet"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "prophet",
+        "gothic": "𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌴𐍃",
+        "translit": "praufetes",
+        "pos": "noun",
+        "notes": "masc.; prophet - Greek loanword, attested in Matthew 1:22"
+      }
+    },
+    {
+      "entry_id": "gothic_0079",
+      "script_symbol": "𐌲𐌰𐍂𐌰𐌹𐌷𐍄𐌴𐌹",
+      "transliteration": "garaihtei",
+      "translation": "righteousness",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; justice, righteousness - attested in Matthew 5:6"
+      },
+      "definitions": [
+        "righteousness"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "righteousness",
+        "gothic": "𐌲𐌰𐍂𐌰𐌹𐌷𐍄𐌴𐌹",
+        "translit": "garaihtei",
+        "pos": "noun",
+        "notes": "fem.; justice, righteousness - attested in Matthew 5:6"
+      }
+    },
+    {
+      "entry_id": "gothic_0080",
+      "script_symbol": "𐌵𐌹𐌸𐌰𐌽",
+      "transliteration": "qiþan",
+      "translation": "say",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to say, speak - extremely frequent in Wulfila's Bible"
+      },
+      "definitions": [
+        "say"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "say",
+        "gothic": "𐌵𐌹𐌸𐌰𐌽",
+        "translit": "qiþan",
+        "pos": "verb",
+        "notes": "infinitive; to say, speak - extremely frequent in Wulfila's Bible"
+      }
+    },
+    {
+      "entry_id": "gothic_0081",
+      "script_symbol": "𐌼𐌰𐍂𐌴𐌹",
+      "transliteration": "marei",
+      "translation": "sea",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; sea, lake - attested in Mark 1:16"
+      },
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "sea",
+        "gothic": "𐌼𐌰𐍂𐌴𐌹",
+        "translit": "marei",
+        "pos": "noun",
+        "notes": "fem.; sea, lake - attested in Mark 1:16"
+      }
+    },
+    {
+      "entry_id": "gothic_0082",
+      "script_symbol": "𐍃𐌰𐌹𐍈𐌰𐌽",
+      "transliteration": "saihwan",
+      "translation": "see",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to see - attested in Matthew 5:8"
+      },
+      "definitions": [
+        "see"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "see",
+        "gothic": "𐍃𐌰𐌹𐍈𐌰𐌽",
+        "translit": "saihwan",
+        "pos": "verb",
+        "notes": "infinitive; to see - attested in Matthew 5:8"
+      }
+    },
+    {
+      "entry_id": "gothic_0083",
+      "script_symbol": "𐍆𐍂𐌰𐌹𐍅",
+      "transliteration": "fraiw",
+      "translation": "seed",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; seed - attested in Mark 4:31"
+      },
+      "definitions": [
+        "seed"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "seed",
+        "gothic": "𐍆𐍂𐌰𐌹𐍅",
+        "translit": "fraiw",
+        "pos": "noun",
+        "notes": "neut.; seed - attested in Mark 4:31"
+      }
+    },
+    {
+      "entry_id": "gothic_0084",
+      "script_symbol": "𐍃𐌹𐌱𐌿𐌽",
+      "transliteration": "sibun",
+      "translation": "seven",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Matthew 15:34"
+      },
+      "definitions": [
+        "seven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "seven",
+        "gothic": "𐍃𐌹𐌱𐌿𐌽",
+        "translit": "sibun",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Matthew 15:34"
+      }
+    },
+    {
+      "entry_id": "gothic_0085",
+      "script_symbol": "𐍃𐌹𐌻𐌿𐌱𐍂",
+      "transliteration": "silubr",
+      "translation": "silver",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; silver - attested in Matthew 10:9"
+      },
+      "definitions": [
+        "silver"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "silver",
+        "gothic": "𐍃𐌹𐌻𐌿𐌱𐍂",
+        "translit": "silubr",
+        "pos": "noun",
+        "notes": "neut.; silver - attested in Matthew 10:9"
+      }
+    },
+    {
+      "entry_id": "gothic_0086",
+      "script_symbol": "𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐍃",
+      "transliteration": "frawaurhts",
+      "translation": "sin",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; sin, transgression - attested in Matthew 1:21"
+      },
+      "definitions": [
+        "sin"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "sin",
+        "gothic": "𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐍃",
+        "translit": "frawaurhts",
+        "pos": "noun",
+        "notes": "fem.; sin, transgression - attested in Matthew 1:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0087",
+      "script_symbol": "𐍃𐍅𐌹𐍃𐍄𐌰𐍂",
+      "transliteration": "swistar",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; sibling - attested in Mark 3:32"
+      },
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "sister",
+        "gothic": "𐍃𐍅𐌹𐍃𐍄𐌰𐍂",
+        "translit": "swistar",
+        "pos": "noun",
+        "notes": "fem.; sibling - attested in Mark 3:32"
+      }
+    },
+    {
+      "entry_id": "gothic_0088",
+      "script_symbol": "𐍃𐌰𐌹𐌷𐍃",
+      "transliteration": "saihs",
+      "translation": "six",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in John 2:6"
+      },
+      "definitions": [
+        "six"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "six",
+        "gothic": "𐍃𐌰𐌹𐌷𐍃",
+        "translit": "saihs",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in John 2:6"
+      }
+    },
+    {
+      "entry_id": "gothic_0089",
+      "script_symbol": "𐌻𐌴𐌹𐍄𐌹𐌻𐍃",
+      "transliteration": "leitils",
+      "translation": "small",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "little, minor - attested in Luke 7:28"
+      },
+      "definitions": [
+        "small"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "small",
+        "gothic": "𐌻𐌴𐌹𐍄𐌹𐌻𐍃",
+        "translit": "leitils",
+        "pos": "adjective",
+        "notes": "little, minor - attested in Luke 7:28"
+      }
+    },
+    {
+      "entry_id": "gothic_0090",
+      "script_symbol": "𐍃𐌿𐌽𐌿𐍃",
+      "transliteration": "sunus",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; son - attested in Matthew 1:1"
+      },
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "son",
+        "gothic": "𐍃𐌿𐌽𐌿𐍃",
+        "translit": "sunus",
+        "pos": "noun",
+        "notes": "masc.; son - attested in Matthew 1:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0091",
+      "script_symbol": "𐍃𐌰𐌹𐍅𐌰𐌻𐌰",
+      "transliteration": "saiwala",
+      "translation": "soul",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; spirit - attested in Matthew 10:28"
+      },
+      "definitions": [
+        "soul"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "soul",
+        "gothic": "𐍃𐌰𐌹𐍅𐌰𐌻𐌰",
+        "translit": "saiwala",
+        "pos": "noun",
+        "notes": "fem.; spirit - attested in Matthew 10:28"
+      }
+    },
+    {
+      "entry_id": "gothic_0092",
+      "script_symbol": "𐍂𐍉𐌳𐌾𐌰𐌽",
+      "transliteration": "rodjan",
+      "translation": "speak",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to speak, talk - attested in Luke 24:14"
+      },
+      "definitions": [
+        "speak"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "speak",
+        "gothic": "𐍂𐍉𐌳𐌾𐌰𐌽",
+        "translit": "rodjan",
+        "pos": "verb",
+        "notes": "infinitive; to speak, talk - attested in Luke 24:14"
+      }
+    },
+    {
+      "entry_id": "gothic_0093",
+      "script_symbol": "𐌰𐌷𐌼𐌰",
+      "transliteration": "ahma",
+      "translation": "spirit",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; spirit, breath - attested in Matthew 3:16 'ahma gudis'"
+      },
+      "definitions": [
+        "spirit"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "spirit",
+        "gothic": "𐌰𐌷𐌼𐌰",
+        "translit": "ahma",
+        "pos": "noun",
+        "notes": "masc.; spirit, breath - attested in Matthew 3:16 'ahma gudis'"
+      }
+    },
+    {
+      "entry_id": "gothic_0094",
+      "script_symbol": "𐍃𐍄𐌰𐌹𐌽𐍃",
+      "transliteration": "stains",
+      "translation": "stone",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; rock - attested in Matthew 4:3"
+      },
+      "definitions": [
+        "stone"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "stone",
+        "gothic": "𐍃𐍄𐌰𐌹𐌽𐍃",
+        "translit": "stains",
+        "pos": "noun",
+        "notes": "masc.; rock - attested in Matthew 4:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0095",
+      "script_symbol": "𐍃𐍅𐌹𐌽𐌸𐍃",
+      "transliteration": "swinþs",
+      "translation": "strong",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "strong, mighty - attested in Luke 11:21"
+      },
+      "definitions": [
+        "strong"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "strong",
+        "gothic": "𐍃𐍅𐌹𐌽𐌸𐍃",
+        "translit": "swinþs",
+        "pos": "adjective",
+        "notes": "strong, mighty - attested in Luke 11:21"
+      }
+    },
+    {
+      "entry_id": "gothic_0096",
+      "script_symbol": "𐍃𐌿𐌽𐌽𐍉",
+      "transliteration": "sunno",
+      "translation": "sun",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; celestial body - attested in Matthew 13:43"
+      },
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "sun",
+        "gothic": "𐍃𐌿𐌽𐌽𐍉",
+        "translit": "sunno",
+        "pos": "noun",
+        "notes": "fem.; celestial body - attested in Matthew 13:43"
+      }
+    },
+    {
+      "entry_id": "gothic_0097",
+      "script_symbol": "𐌽𐌹𐌼𐌰𐌽",
+      "transliteration": "niman",
+      "translation": "take",
+      "pos": "verb",
+      "morphology": {
+        "notes": "infinitive; to take, receive - attested in Matthew 20:14"
+      },
+      "definitions": [
+        "take"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "take",
+        "gothic": "𐌽𐌹𐌼𐌰𐌽",
+        "translit": "niman",
+        "pos": "verb",
+        "notes": "infinitive; to take, receive - attested in Matthew 20:14"
+      }
+    },
+    {
+      "entry_id": "gothic_0098",
+      "script_symbol": "𐍄𐌰𐌹𐌷𐌿𐌽",
+      "transliteration": "taihun",
+      "translation": "ten",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Luke 15:8"
+      },
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "ten",
+        "gothic": "𐍄𐌰𐌹𐌷𐌿𐌽",
+        "translit": "taihun",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Luke 15:8"
+      }
+    },
+    {
+      "entry_id": "gothic_0099",
+      "script_symbol": "𐌸𐍂𐌴𐌹𐍃",
+      "transliteration": "þreis",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Matthew 12:40"
+      },
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "three",
+        "gothic": "𐌸𐍂𐌴𐌹𐍃",
+        "translit": "þreis",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Matthew 12:40"
+      }
+    },
+    {
+      "entry_id": "gothic_0100",
+      "script_symbol": "𐌼𐌴𐌻",
+      "transliteration": "mel",
+      "translation": "time",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; temporal duration - attested in Galatians 4:4"
+      },
+      "definitions": [
+        "time"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "time",
+        "gothic": "𐌼𐌴𐌻",
+        "translit": "mel",
+        "pos": "noun",
+        "notes": "neut.; temporal duration - attested in Galatians 4:4"
+      }
+    },
+    {
+      "entry_id": "gothic_0101",
+      "script_symbol": "𐌰𐌿𐍂",
+      "transliteration": "aur",
+      "translation": "tomorrow",
+      "pos": "adverb",
+      "morphology": {
+        "notes": "early, tomorrow - attested in Matthew 6:34"
+      },
+      "definitions": [
+        "tomorrow"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "tomorrow",
+        "gothic": "𐌰𐌿𐍂",
+        "translit": "aur",
+        "pos": "adverb",
+        "notes": "early, tomorrow - attested in Matthew 6:34"
+      }
+    },
+    {
+      "entry_id": "gothic_0102",
+      "script_symbol": "𐌱𐌰𐌲𐌼𐍃",
+      "transliteration": "bagms",
+      "translation": "tree",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; woody plant - attested in Luke 3:9"
+      },
+      "definitions": [
+        "tree"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "tree",
+        "gothic": "𐌱𐌰𐌲𐌼𐍃",
+        "translit": "bagms",
+        "pos": "noun",
+        "notes": "masc.; woody plant - attested in Luke 3:9"
+      }
+    },
+    {
+      "entry_id": "gothic_0103",
+      "script_symbol": "𐍃𐌿𐌽𐌾𐌰",
+      "transliteration": "sunja",
+      "translation": "truth",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; reality - attested in John 14:6"
+      },
+      "definitions": [
+        "truth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "truth",
+        "gothic": "𐍃𐌿𐌽𐌾𐌰",
+        "translit": "sunja",
+        "pos": "noun",
+        "notes": "fem.; reality - attested in John 14:6"
+      }
+    },
+    {
+      "entry_id": "gothic_0104",
+      "script_symbol": "𐍄𐍅𐌰𐌻𐌹𐍆",
+      "transliteration": "twalif",
+      "translation": "twelve",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - compound, attested in Matthew 10:1"
+      },
+      "definitions": [
+        "twelve"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "twelve",
+        "gothic": "𐍄𐍅𐌰𐌻𐌹𐍆",
+        "translit": "twalif",
+        "pos": "numeral",
+        "notes": "cardinal number - compound, attested in Matthew 10:1"
+      }
+    },
+    {
+      "entry_id": "gothic_0105",
+      "script_symbol": "𐍄𐍅𐌰𐌹",
+      "transliteration": "twai",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {
+        "notes": "cardinal number - attested in Mark 6:7"
+      },
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "two",
+        "gothic": "𐍄𐍅𐌰𐌹",
+        "translit": "twai",
+        "pos": "numeral",
+        "notes": "cardinal number - attested in Mark 6:7"
+      }
+    },
+    {
+      "entry_id": "gothic_0106",
+      "script_symbol": "𐍃𐍄𐌹𐌱𐌽𐌰",
+      "transliteration": "stibna",
+      "translation": "voice",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; voice, sound - attested in Matthew 3:3"
+      },
+      "definitions": [
+        "voice"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "voice",
+        "gothic": "𐍃𐍄𐌹𐌱𐌽𐌰",
+        "translit": "stibna",
+        "pos": "noun",
+        "notes": "fem.; voice, sound - attested in Matthew 3:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0107",
+      "script_symbol": "𐍅𐌰𐍄𐍉",
+      "transliteration": "wato",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; liquid - attested in John 2:7"
+      },
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "water",
+        "gothic": "𐍅𐌰𐍄𐍉",
+        "translit": "wato",
+        "pos": "noun",
+        "notes": "neut.; liquid - attested in John 2:7"
+      }
+    },
+    {
+      "entry_id": "gothic_0108",
+      "script_symbol": "𐌿𐌽𐌼𐌰𐌷𐍄𐌴𐌹𐌲𐍃",
+      "transliteration": "unmahteigs",
+      "translation": "weak",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "powerless, weak - compound word"
+      },
+      "definitions": [
+        "weak"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "weak",
+        "gothic": "𐌿𐌽𐌼𐌰𐌷𐍄𐌴𐌹𐌲𐍃",
+        "translit": "unmahteigs",
+        "pos": "adjective",
+        "notes": "powerless, weak - compound word"
+      }
+    },
+    {
+      "entry_id": "gothic_0109",
+      "script_symbol": "𐍈𐌴𐌹𐍄𐍃",
+      "transliteration": "hweits",
+      "translation": "white",
+      "pos": "adjective",
+      "morphology": {
+        "notes": "light colored - attested in Mark 9:3"
+      },
+      "definitions": [
+        "white"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "white",
+        "gothic": "𐍈𐌴𐌹𐍄𐍃",
+        "translit": "hweits",
+        "pos": "adjective",
+        "notes": "light colored - attested in Mark 9:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0110",
+      "script_symbol": "𐍅𐌹𐌽𐌳𐍃",
+      "transliteration": "winds",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {
+        "notes": "masc.; air movement - attested in Mark 4:37"
+      },
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "wind",
+        "gothic": "𐍅𐌹𐌽𐌳𐍃",
+        "translit": "winds",
+        "pos": "noun",
+        "notes": "masc.; air movement - attested in Mark 4:37"
+      }
+    },
+    {
+      "entry_id": "gothic_0111",
+      "script_symbol": "𐍅𐌴𐌹𐌽",
+      "transliteration": "wein",
+      "translation": "wine",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; wine - attested in John 2:3"
+      },
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "wine",
+        "gothic": "𐍅𐌴𐌹𐌽",
+        "translit": "wein",
+        "pos": "noun",
+        "notes": "neut.; wine - attested in John 2:3"
+      }
+    },
+    {
+      "entry_id": "gothic_0112",
+      "script_symbol": "𐌼𐌹𐌸",
+      "transliteration": "miþ",
+      "translation": "with",
+      "pos": "preposition",
+      "morphology": {
+        "notes": "accompaniment - attested in Mark 1:13"
+      },
+      "definitions": [
+        "with"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "with",
+        "gothic": "𐌼𐌹𐌸",
+        "translit": "miþ",
+        "pos": "preposition",
+        "notes": "accompaniment - attested in Mark 1:13"
+      }
+    },
+    {
+      "entry_id": "gothic_0113",
+      "script_symbol": "𐌵𐌹𐌽𐍉",
+      "transliteration": "qino",
+      "translation": "woman",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; adult female - attested in John 2:4"
+      },
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "woman",
+        "gothic": "𐌵𐌹𐌽𐍉",
+        "translit": "qino",
+        "pos": "noun",
+        "notes": "fem.; adult female - attested in John 2:4"
+      }
+    },
+    {
+      "entry_id": "gothic_0114",
+      "script_symbol": "𐍅𐌰𐌿𐍂𐌳",
+      "transliteration": "waurd",
+      "translation": "word",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; speech, utterance - attested in John 1:1 'In anastodeins was waurd'"
+      },
+      "definitions": [
+        "word"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "word",
+        "gothic": "𐍅𐌰𐌿𐍂𐌳",
+        "translit": "waurd",
+        "pos": "noun",
+        "notes": "neut.; speech, utterance - attested in John 1:1 'In anastodeins was waurd'"
+      }
+    },
+    {
+      "entry_id": "gothic_0115",
+      "script_symbol": "𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃",
+      "transliteration": "manaseþs",
+      "translation": "world",
+      "pos": "noun",
+      "morphology": {
+        "notes": "fem.; humanity, world - attested in John 3:16"
+      },
+      "definitions": [
+        "world"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "world",
+        "gothic": "𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃",
+        "translit": "manaseþs",
+        "pos": "noun",
+        "notes": "fem.; humanity, world - attested in John 3:16"
+      }
+    },
+    {
+      "entry_id": "gothic_0116",
+      "script_symbol": "𐌾𐌴𐍂",
+      "transliteration": "jer",
+      "translation": "year",
+      "pos": "noun",
+      "morphology": {
+        "notes": "neut.; year - attested in Luke 3:1"
+      },
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "wulfila"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "gothic_lexicon.json",
+      "original_record": {
+        "english": "year",
+        "gothic": "𐌾𐌴𐍂",
+        "translit": "jer",
+        "pos": "noun",
+        "notes": "neut.; year - attested in Luke 3:1"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Gothic entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

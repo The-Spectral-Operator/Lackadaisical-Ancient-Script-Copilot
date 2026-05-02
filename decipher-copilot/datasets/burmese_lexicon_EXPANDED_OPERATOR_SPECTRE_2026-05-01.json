@@ -1,0 +1,1766 @@
+{
+  "metadata": {
+    "title": "Burmese (Myanmar) Lexicon",
+    "description": "Expanded and normalized Burmese (Myanmar) dataset derived from burmese_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "burmese_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 50,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Myanmar-English Dictionary (MLC)",
+      "Okell - Burmese: An Introduction",
+      "The Unicode Consortium – Code Charts",
+      "SEAlang Burmese Dictionary",
+      "SEAlang Library"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "sealang_burmese": {
+        "title": "SEAlang Burmese Dictionary",
+        "url": "https://sealang.net/burmese/dictionary.htm",
+        "type": "dictionary",
+        "scope": "Burmese lexical entries including literary/archaic usage"
+      },
+      "sealang_library": {
+        "title": "SEAlang Library",
+        "url": "https://sealang.net/library/",
+        "type": "language_reference_library",
+        "scope": "Southeast Asian dictionaries, corpora, and archival texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abugida (Indic-derived, rounded forms)",
+    "historical_significance": "Brahmic-derived script tradition for Burmese with rich literary and inscriptional history.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "burmese_0001",
+      "script_symbol": "က",
+      "transliteration": "ka",
+      "translation": "ka",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ka"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0001",
+        "token": "က",
+        "gloss": "ka",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0002",
+      "script_symbol": "ခ",
+      "transliteration": "kha",
+      "translation": "kha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "kha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0002",
+        "token": "ခ",
+        "gloss": "kha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0003",
+      "script_symbol": "ဂ",
+      "transliteration": "ga",
+      "translation": "ga",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0003",
+        "token": "ဂ",
+        "gloss": "ga",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0004",
+      "script_symbol": "ဃ",
+      "transliteration": "gha",
+      "translation": "gha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "gha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0004",
+        "token": "ဃ",
+        "gloss": "gha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0005",
+      "script_symbol": "င",
+      "transliteration": "nga",
+      "translation": "nga",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "nga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0005",
+        "token": "င",
+        "gloss": "nga",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0006",
+      "script_symbol": "စ",
+      "transliteration": "sa",
+      "translation": "sa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "sa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0006",
+        "token": "စ",
+        "gloss": "sa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0007",
+      "script_symbol": "ဆ",
+      "transliteration": "hsa",
+      "translation": "hsa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "hsa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0007",
+        "token": "ဆ",
+        "gloss": "hsa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0008",
+      "script_symbol": "ဇ",
+      "transliteration": "za",
+      "translation": "za",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "za"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0008",
+        "token": "ဇ",
+        "gloss": "za",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0009",
+      "script_symbol": "ည",
+      "transliteration": "nya",
+      "translation": "nya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "nya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0009",
+        "token": "ည",
+        "gloss": "nya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0010",
+      "script_symbol": "ဋ",
+      "transliteration": "ta",
+      "translation": "ta (retroflex)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "retroflex"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0010",
+        "token": "ဋ",
+        "gloss": "ta (retroflex)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0011",
+      "script_symbol": "ဌ",
+      "transliteration": "hta",
+      "translation": "hta (retroflex)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "retroflex"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0011",
+        "token": "ဌ",
+        "gloss": "hta (retroflex)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0012",
+      "script_symbol": "တ",
+      "transliteration": "ta",
+      "translation": "ta",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ta"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0012",
+        "token": "တ",
+        "gloss": "ta",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0013",
+      "script_symbol": "ထ",
+      "transliteration": "hta",
+      "translation": "hta",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "hta"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0013",
+        "token": "ထ",
+        "gloss": "hta",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0014",
+      "script_symbol": "ဒ",
+      "transliteration": "da",
+      "translation": "da",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "da"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0014",
+        "token": "ဒ",
+        "gloss": "da",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0015",
+      "script_symbol": "န",
+      "transliteration": "na",
+      "translation": "na",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "na"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0015",
+        "token": "န",
+        "gloss": "na",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0016",
+      "script_symbol": "ပ",
+      "transliteration": "pa",
+      "translation": "pa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "pa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0016",
+        "token": "ပ",
+        "gloss": "pa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0017",
+      "script_symbol": "ဖ",
+      "transliteration": "hpa",
+      "translation": "hpa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "hpa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0017",
+        "token": "ဖ",
+        "gloss": "hpa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0018",
+      "script_symbol": "ဗ",
+      "transliteration": "ba",
+      "translation": "ba",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ba"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0018",
+        "token": "ဗ",
+        "gloss": "ba",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0019",
+      "script_symbol": "ဘ",
+      "transliteration": "bha",
+      "translation": "bha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "bha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0019",
+        "token": "ဘ",
+        "gloss": "bha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0020",
+      "script_symbol": "မ",
+      "transliteration": "ma",
+      "translation": "ma",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ma"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0020",
+        "token": "မ",
+        "gloss": "ma",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0021",
+      "script_symbol": "ယ",
+      "transliteration": "ya",
+      "translation": "ya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0021",
+        "token": "ယ",
+        "gloss": "ya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0022",
+      "script_symbol": "ရ",
+      "transliteration": "ra/ya",
+      "translation": "ra/ya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ra/ya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0022",
+        "token": "ရ",
+        "gloss": "ra/ya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0023",
+      "script_symbol": "လ",
+      "transliteration": "la",
+      "translation": "la",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "la"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0023",
+        "token": "လ",
+        "gloss": "la",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0024",
+      "script_symbol": "ဝ",
+      "transliteration": "wa",
+      "translation": "wa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "wa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0024",
+        "token": "ဝ",
+        "gloss": "wa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0025",
+      "script_symbol": "သ",
+      "transliteration": "tha/sa",
+      "translation": "tha/sa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "tha/sa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0025",
+        "token": "သ",
+        "gloss": "tha/sa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0026",
+      "script_symbol": "ဟ",
+      "transliteration": "ha",
+      "translation": "ha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0026",
+        "token": "ဟ",
+        "gloss": "ha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0027",
+      "script_symbol": "အ",
+      "transliteration": "a",
+      "translation": "a (glottal)",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "glottal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0027",
+        "token": "အ",
+        "gloss": "a (glottal)",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0028",
+      "script_symbol": "ဗုဒ္ဓ",
+      "transliteration": "buddha",
+      "translation": "buddha - the Buddha",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "the Buddha"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0028",
+        "token": "ဗုဒ္ဓ",
+        "gloss": "buddha - the Buddha",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0029",
+      "script_symbol": "ဓမ္မ",
+      "transliteration": "dhamma",
+      "translation": "dhamma - teachings, dharma",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "teachings, dharma"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0029",
+        "token": "ဓမ္မ",
+        "gloss": "dhamma - teachings, dharma",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0030",
+      "script_symbol": "ဘုရား",
+      "transliteration": "phaya",
+      "translation": "phaya - Buddha/god/king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Buddha/god/king"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0030",
+        "token": "ဘုရား",
+        "gloss": "phaya - Buddha/god/king",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0031",
+      "script_symbol": "ဘုန်းကြီး",
+      "transliteration": "hpongyi",
+      "translation": "hpongyi - monk",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "monk"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0031",
+        "token": "ဘုန်းကြီး",
+        "gloss": "hpongyi - monk",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0032",
+      "script_symbol": "ဘုရင်",
+      "transliteration": "bhuyin",
+      "translation": "bhuyin - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0032",
+        "token": "ဘုရင်",
+        "gloss": "bhuyin - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0033",
+      "script_symbol": "မင်းသား",
+      "transliteration": "min tha",
+      "translation": "min tha - prince",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "prince"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0033",
+        "token": "မင်းသား",
+        "gloss": "min tha - prince",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0034",
+      "script_symbol": "လူ",
+      "transliteration": "lu",
+      "translation": "lu - person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0034",
+        "token": "လူ",
+        "gloss": "lu - person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0035",
+      "script_symbol": "ယောက်ျား",
+      "transliteration": "yauk kya",
+      "translation": "yauk kya - man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0035",
+        "token": "ယောက်ျား",
+        "gloss": "yauk kya - man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0036",
+      "script_symbol": "မိန်းမ",
+      "transliteration": "mein ma",
+      "translation": "mein ma - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0036",
+        "token": "မိန်းမ",
+        "gloss": "mein ma - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0037",
+      "script_symbol": "အဖေ",
+      "transliteration": "a hpe",
+      "translation": "a hpe - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0037",
+        "token": "အဖေ",
+        "gloss": "a hpe - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0038",
+      "script_symbol": "အမေ",
+      "transliteration": "a me",
+      "translation": "a me - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0038",
+        "token": "အမေ",
+        "gloss": "a me - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0039",
+      "script_symbol": "သား",
+      "transliteration": "tha",
+      "translation": "tha - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0039",
+        "token": "သား",
+        "gloss": "tha - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0040",
+      "script_symbol": "သမီး",
+      "transliteration": "tha mi",
+      "translation": "tha mi - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0040",
+        "token": "သမီး",
+        "gloss": "tha mi - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0041",
+      "script_symbol": "ရေ",
+      "transliteration": "ye",
+      "translation": "ye - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0041",
+        "token": "ရေ",
+        "gloss": "ye - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0042",
+      "script_symbol": "မီး",
+      "transliteration": "mi",
+      "translation": "mi - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0042",
+        "token": "မီး",
+        "gloss": "mi - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0043",
+      "script_symbol": "လေ",
+      "transliteration": "le",
+      "translation": "le - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0043",
+        "token": "လေ",
+        "gloss": "le - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0044",
+      "script_symbol": "မြေ",
+      "transliteration": "mye",
+      "translation": "mye - earth",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0044",
+        "token": "မြေ",
+        "gloss": "mye - earth",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0045",
+      "script_symbol": "တောင်",
+      "transliteration": "taung",
+      "translation": "taung - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0045",
+        "token": "တောင်",
+        "gloss": "taung - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0046",
+      "script_symbol": "မြစ်",
+      "transliteration": "myit",
+      "translation": "myit - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0046",
+        "token": "မြစ်",
+        "gloss": "myit - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0047",
+      "script_symbol": "ပင်လယ်",
+      "transliteration": "pinle",
+      "translation": "pinle - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0047",
+        "token": "ပင်လယ်",
+        "gloss": "pinle - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0048",
+      "script_symbol": "တစ်",
+      "transliteration": "tit",
+      "translation": "tit - one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0048",
+        "token": "တစ်",
+        "gloss": "tit - one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0049",
+      "script_symbol": "နှစ်",
+      "transliteration": "hnit",
+      "translation": "hnit - two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0049",
+        "token": "နှစ်",
+        "gloss": "hnit - two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    },
+    {
+      "entry_id": "burmese_0050",
+      "script_symbol": "သုံး",
+      "transliteration": "thon",
+      "translation": "thon - three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Myanmar-English Dictionary (MLC)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_burmese",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "burmese_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "burmese_0050",
+        "token": "သုံး",
+        "gloss": "thon - three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Myanmar-English Dictionary (MLC)"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Burmese (Myanmar) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,2558 @@
+{
+  "metadata": {
+    "title": "Hittite Cuneiform Lexicon",
+    "description": "Expanded and normalized Hittite Cuneiform dataset derived from hittite_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "hittite_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 71,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Johannes Friedrich - Hethitisches Wörterbuch",
+      "Harry Hoffner & Craig Melchert - Grammar of the Hittite Language",
+      "Chicago Hittite Dictionary",
+      "The Unicode Consortium – Code Charts",
+      "Cuneiform Digital Library Initiative",
+      "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "chd": {
+        "title": "Chicago Hittite Dictionary",
+        "url": "https://isac.uchicago.edu/research/publications/chicago-hittite-dictionary",
+        "type": "dictionary",
+        "scope": "Hittite-English lexical and cultural documentation"
+      },
+      "cdli": {
+        "title": "Cuneiform Digital Library Initiative",
+        "url": "https://cdli.earth/",
+        "type": "primary_text_database",
+        "scope": "cuneiform tablet metadata, images, transliterations"
+      },
+      "oracc_dcclt": {
+        "title": "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts",
+        "url": "https://oracc.museum.upenn.edu/dcclt/",
+        "type": "lexical_corpus",
+        "scope": "cuneiform lexical and sign-list texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Cuneiform (Syllabic-Logographic)",
+    "historical_significance": "Earliest extensively attested Indo-European language, preserved primarily on Anatolian clay tablets.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "hittite_0001",
+      "script_symbol": "watar",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0001",
+        "token": "watar",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0002",
+      "script_symbol": "pahhur",
+      "transliteration": "fire",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0002",
+        "token": "pahhur",
+        "gloss": "fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0003",
+      "script_symbol": "tekan",
+      "transliteration": "earth, ground",
+      "translation": "earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0003",
+        "token": "tekan",
+        "gloss": "earth, ground",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0004",
+      "script_symbol": "nepis",
+      "transliteration": "sky, heaven",
+      "translation": "sky, heaven",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sky, heaven"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0004",
+        "token": "nepis",
+        "gloss": "sky, heaven",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0005",
+      "script_symbol": "hassu",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0005",
+        "token": "hassu",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0006",
+      "script_symbol": "hassussar",
+      "transliteration": "kingship",
+      "translation": "kingship",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "kingship"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0006",
+        "token": "hassussar",
+        "gloss": "kingship",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0007",
+      "script_symbol": "MUNUS.LUGAL",
+      "transliteration": "queen",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0007",
+        "token": "MUNUS.LUGAL",
+        "gloss": "queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0008",
+      "script_symbol": "antuhsas",
+      "transliteration": "human, person",
+      "translation": "human, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "human, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0008",
+        "token": "antuhsas",
+        "gloss": "human, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0009",
+      "script_symbol": "LÚ",
+      "transliteration": "man",
+      "translation": "man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0009",
+        "token": "LÚ",
+        "gloss": "man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0010",
+      "script_symbol": "SAL",
+      "transliteration": "woman",
+      "translation": "woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0010",
+        "token": "SAL",
+        "gloss": "woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0011",
+      "script_symbol": "attas",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0011",
+        "token": "attas",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0012",
+      "script_symbol": "annas",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0012",
+        "token": "annas",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0013",
+      "script_symbol": "DUMU",
+      "transliteration": "son, child",
+      "translation": "son, child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son, child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0013",
+        "token": "DUMU",
+        "gloss": "son, child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0014",
+      "script_symbol": "DUMU.SAL",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0014",
+        "token": "DUMU.SAL",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0015",
+      "script_symbol": "ses",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0015",
+        "token": "ses",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0016",
+      "script_symbol": "NIN",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0016",
+        "token": "NIN",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0017",
+      "script_symbol": "DAM",
+      "transliteration": "wife/spouse",
+      "translation": "wife/spouse",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wife/spouse"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0017",
+        "token": "DAM",
+        "gloss": "wife/spouse",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0018",
+      "script_symbol": "istanzana",
+      "transliteration": "soul, mind",
+      "translation": "soul, mind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul, mind"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0018",
+        "token": "istanzana",
+        "gloss": "soul, mind",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0019",
+      "script_symbol": "wassiya",
+      "transliteration": "to clothe",
+      "translation": "to clothe",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to clothe"
+      ],
+      "semantic_field": "material",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0019",
+        "token": "wassiya",
+        "gloss": "to clothe",
+        "pos": "verb",
+        "semantic_field": "material",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0020",
+      "script_symbol": "ed-/ad-",
+      "transliteration": "to eat",
+      "translation": "to eat",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to eat"
+      ],
+      "semantic_field": "sustenance",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0020",
+        "token": "ed-/ad-",
+        "gloss": "to eat",
+        "pos": "verb",
+        "semantic_field": "sustenance",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0021",
+      "script_symbol": "aku-",
+      "transliteration": "to drink",
+      "translation": "to drink",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to drink"
+      ],
+      "semantic_field": "sustenance",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0021",
+        "token": "aku-",
+        "gloss": "to drink",
+        "pos": "verb",
+        "semantic_field": "sustenance",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0022",
+      "script_symbol": "pahs-",
+      "transliteration": "to protect, guard",
+      "translation": "to protect, guard",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to protect, guard"
+      ],
+      "semantic_field": "authority",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0022",
+        "token": "pahs-",
+        "gloss": "to protect, guard",
+        "pos": "verb",
+        "semantic_field": "authority",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0023",
+      "script_symbol": "kuen-",
+      "transliteration": "to kill, strike",
+      "translation": "to kill, strike",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to kill, strike"
+      ],
+      "semantic_field": "violence",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0023",
+        "token": "kuen-",
+        "gloss": "to kill, strike",
+        "pos": "verb",
+        "semantic_field": "violence",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0024",
+      "script_symbol": "dai-",
+      "transliteration": "to put, place",
+      "translation": "to put, place",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to put, place"
+      ],
+      "semantic_field": "action",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0024",
+        "token": "dai-",
+        "gloss": "to put, place",
+        "pos": "verb",
+        "semantic_field": "action",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0025",
+      "script_symbol": "iya-",
+      "transliteration": "to do, make",
+      "translation": "to do, make",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to do, make"
+      ],
+      "semantic_field": "action",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0025",
+        "token": "iya-",
+        "gloss": "to do, make",
+        "pos": "verb",
+        "semantic_field": "action",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0026",
+      "script_symbol": "ep-/app-",
+      "transliteration": "to take, seize",
+      "translation": "to take, seize",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to take, seize"
+      ],
+      "semantic_field": "acquisition",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0026",
+        "token": "ep-/app-",
+        "gloss": "to take, seize",
+        "pos": "verb",
+        "semantic_field": "acquisition",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0027",
+      "script_symbol": "pai-",
+      "transliteration": "to go",
+      "translation": "to go",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to go"
+      ],
+      "semantic_field": "motion",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0027",
+        "token": "pai-",
+        "gloss": "to go",
+        "pos": "verb",
+        "semantic_field": "motion",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0028",
+      "script_symbol": "uwa-",
+      "transliteration": "to come",
+      "translation": "to come",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to come"
+      ],
+      "semantic_field": "motion",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0028",
+        "token": "uwa-",
+        "gloss": "to come",
+        "pos": "verb",
+        "semantic_field": "motion",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0029",
+      "script_symbol": "tiya-",
+      "transliteration": "to stand, step",
+      "translation": "to stand, step",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to stand, step"
+      ],
+      "semantic_field": "position",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0029",
+        "token": "tiya-",
+        "gloss": "to stand, step",
+        "pos": "verb",
+        "semantic_field": "position",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0030",
+      "script_symbol": "es-/as-",
+      "transliteration": "to be, sit",
+      "translation": "to be, sit",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to be, sit"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0030",
+        "token": "es-/as-",
+        "gloss": "to be, sit",
+        "pos": "verb",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0031",
+      "script_symbol": "hark-",
+      "transliteration": "to have, hold",
+      "translation": "to have, hold",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to have, hold"
+      ],
+      "semantic_field": "possession",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0031",
+        "token": "hark-",
+        "gloss": "to have, hold",
+        "pos": "verb",
+        "semantic_field": "possession",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0032",
+      "script_symbol": "tar-",
+      "transliteration": "to say, speak",
+      "translation": "to say, speak",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to say, speak"
+      ],
+      "semantic_field": "communication",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0032",
+        "token": "tar-",
+        "gloss": "to say, speak",
+        "pos": "verb",
+        "semantic_field": "communication",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0033",
+      "script_symbol": "sak-/sekk-",
+      "transliteration": "to know",
+      "translation": "to know",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to know"
+      ],
+      "semantic_field": "cognitive",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0033",
+        "token": "sak-/sekk-",
+        "gloss": "to know",
+        "pos": "verb",
+        "semantic_field": "cognitive",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0034",
+      "script_symbol": "nah-",
+      "transliteration": "to fear, respect",
+      "translation": "to fear, respect",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to fear, respect"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0034",
+        "token": "nah-",
+        "gloss": "to fear, respect",
+        "pos": "verb",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0035",
+      "script_symbol": "assu",
+      "transliteration": "good",
+      "translation": "good",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0035",
+        "token": "assu",
+        "gloss": "good",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0036",
+      "script_symbol": "idalu",
+      "transliteration": "bad, evil",
+      "translation": "bad, evil",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "bad, evil"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0036",
+        "token": "idalu",
+        "gloss": "bad, evil",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0037",
+      "script_symbol": "sallis",
+      "transliteration": "great, large",
+      "translation": "great, large",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "great, large"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0037",
+        "token": "sallis",
+        "gloss": "great, large",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0038",
+      "script_symbol": "suppis",
+      "transliteration": "pure, sacred",
+      "translation": "pure, sacred",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "pure, sacred"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0038",
+        "token": "suppis",
+        "gloss": "pure, sacred",
+        "pos": "adjective",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0039",
+      "script_symbol": "DINGIR",
+      "transliteration": "god, deity",
+      "translation": "god, deity",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god, deity"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0039",
+        "token": "DINGIR",
+        "gloss": "god, deity",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0040",
+      "script_symbol": "sius",
+      "transliteration": "god",
+      "translation": "god (Hittite native)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Hittite native"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0040",
+        "token": "sius",
+        "gloss": "god (Hittite native)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0041",
+      "script_symbol": "DINGIR.MEŠ",
+      "transliteration": "gods",
+      "translation": "gods (plural)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "plural"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0041",
+        "token": "DINGIR.MEŠ",
+        "gloss": "gods (plural)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0042",
+      "script_symbol": "Tarhunna",
+      "transliteration": "Storm God",
+      "translation": "Storm God (chief deity)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "chief deity"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0042",
+        "token": "Tarhunna",
+        "gloss": "Storm God (chief deity)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0043",
+      "script_symbol": "Arinna",
+      "transliteration": "Sun Goddess of Arinna",
+      "translation": "Sun Goddess of Arinna",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Sun Goddess of Arinna"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0043",
+        "token": "Arinna",
+        "gloss": "Sun Goddess of Arinna",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0044",
+      "script_symbol": "Telipinu",
+      "transliteration": "Telipinu",
+      "translation": "Telipinu (vegetation god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "vegetation god"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0044",
+        "token": "Telipinu",
+        "gloss": "Telipinu (vegetation god)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0045",
+      "script_symbol": "Kamrusepa",
+      "transliteration": "Kamrusepa",
+      "translation": "Kamrusepa (healing goddess)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "healing goddess"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0045",
+        "token": "Kamrusepa",
+        "gloss": "Kamrusepa (healing goddess)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0046",
+      "script_symbol": "EZEN",
+      "transliteration": "festival, feast",
+      "translation": "festival, feast",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "festival, feast"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0046",
+        "token": "EZEN",
+        "gloss": "festival, feast",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0047",
+      "script_symbol": "arkuwar",
+      "transliteration": "prayer, plea",
+      "translation": "prayer, plea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "prayer, plea"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0047",
+        "token": "arkuwar",
+        "gloss": "prayer, plea",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0048",
+      "script_symbol": "huwaši",
+      "transliteration": "sacred stele",
+      "translation": "sacred stele",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sacred stele"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0048",
+        "token": "huwaši",
+        "gloss": "sacred stele",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0049",
+      "script_symbol": "para handandatar",
+      "transliteration": "divine providence",
+      "translation": "divine providence",
+      "pos": "noun_phrase",
+      "morphology": {},
+      "definitions": [
+        "divine providence"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0049",
+        "token": "para handandatar",
+        "gloss": "divine providence",
+        "pos": "noun_phrase",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0050",
+      "script_symbol": "ishiul",
+      "transliteration": "treaty, bond, obligation",
+      "translation": "treaty, bond, obligation",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "treaty, bond, obligation"
+      ],
+      "semantic_field": "political/legal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0050",
+        "token": "ishiul",
+        "gloss": "treaty, bond, obligation",
+        "pos": "noun",
+        "semantic_field": "political/legal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0051",
+      "script_symbol": "hulla-",
+      "transliteration": "to defeat, destroy",
+      "translation": "to defeat, destroy",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "to defeat, destroy"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0051",
+        "token": "hulla-",
+        "gloss": "to defeat, destroy",
+        "pos": "verb",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0052",
+      "script_symbol": "sahhan",
+      "transliteration": "feudal obligation",
+      "translation": "feudal obligation",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "feudal obligation"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0052",
+        "token": "sahhan",
+        "gloss": "feudal obligation",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0053",
+      "script_symbol": "luzzi",
+      "transliteration": "corvée labor",
+      "translation": "corvée labor",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "corvée labor"
+      ],
+      "semantic_field": "political/economic",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0053",
+        "token": "luzzi",
+        "gloss": "corvée labor",
+        "pos": "noun",
+        "semantic_field": "political/economic",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0054",
+      "script_symbol": "pankus",
+      "transliteration": "assembly",
+      "translation": "assembly (of nobles)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "of nobles"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0054",
+        "token": "pankus",
+        "gloss": "assembly (of nobles)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0055",
+      "script_symbol": "É.GAL",
+      "transliteration": "palace",
+      "translation": "palace",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "palace"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0055",
+        "token": "É.GAL",
+        "gloss": "palace",
+        "pos": "noun",
+        "semantic_field": "architecture",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0056",
+      "script_symbol": "URU",
+      "transliteration": "city",
+      "translation": "city",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0056",
+        "token": "URU",
+        "gloss": "city",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0057",
+      "script_symbol": "KUR",
+      "transliteration": "land, country",
+      "translation": "land, country",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "land, country"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0057",
+        "token": "KUR",
+        "gloss": "land, country",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0058",
+      "script_symbol": "Hattusa",
+      "transliteration": "Hattusa",
+      "translation": "Hattusa (capital)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "capital"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0058",
+        "token": "Hattusa",
+        "gloss": "Hattusa (capital)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0059",
+      "script_symbol": "tuzzi",
+      "transliteration": "army, camp",
+      "translation": "army, camp",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "army, camp"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0059",
+        "token": "tuzzi",
+        "gloss": "army, camp",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0060",
+      "script_symbol": "GIŠ.TUKUL",
+      "transliteration": "weapon",
+      "translation": "weapon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "weapon"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0060",
+        "token": "GIŠ.TUKUL",
+        "gloss": "weapon",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0061",
+      "script_symbol": "ishā",
+      "transliteration": "lord, master",
+      "translation": "lord, master",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lord, master"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0061",
+        "token": "ishā",
+        "gloss": "lord, master",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0062",
+      "script_symbol": "arahzena",
+      "transliteration": "neighboring, bordering",
+      "translation": "neighboring, bordering",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "neighboring, bordering"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0062",
+        "token": "arahzena",
+        "gloss": "neighboring, bordering",
+        "pos": "adjective",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0063",
+      "script_symbol": "huitar",
+      "transliteration": "wildlife, animals",
+      "translation": "wildlife, animals",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wildlife, animals"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0063",
+        "token": "huitar",
+        "gloss": "wildlife, animals",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0064",
+      "script_symbol": "GU₄",
+      "transliteration": "ox",
+      "translation": "ox",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ox"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0064",
+        "token": "GU₄",
+        "gloss": "ox",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0065",
+      "script_symbol": "UDU",
+      "transliteration": "sheep",
+      "translation": "sheep",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sheep"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0065",
+        "token": "UDU",
+        "gloss": "sheep",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0066",
+      "script_symbol": "GIŠ",
+      "transliteration": "tree, wood",
+      "translation": "tree, wood",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "tree, wood"
+      ],
+      "semantic_field": "botanical",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0066",
+        "token": "GIŠ",
+        "gloss": "tree, wood",
+        "pos": "noun",
+        "semantic_field": "botanical",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0067",
+      "script_symbol": "halki",
+      "transliteration": "grain, barley",
+      "translation": "grain, barley",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "grain, barley"
+      ],
+      "semantic_field": "agricultural",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0067",
+        "token": "halki",
+        "gloss": "grain, barley",
+        "pos": "noun",
+        "semantic_field": "agricultural",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0068",
+      "script_symbol": "wiyana",
+      "transliteration": "wine",
+      "translation": "wine",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "food/culture",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0068",
+        "token": "wiyana",
+        "gloss": "wine",
+        "pos": "noun",
+        "semantic_field": "food/culture",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0069",
+      "script_symbol": "1-as",
+      "transliteration": "one",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0069",
+        "token": "1-as",
+        "gloss": "one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0070",
+      "script_symbol": "2-as",
+      "transliteration": "two",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0070",
+        "token": "2-as",
+        "gloss": "two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "hittite_0071",
+      "script_symbol": "3-as",
+      "transliteration": "three",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Johannes Friedrich - Hethitisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "chd",
+        "cdli",
+        "oracc_dcclt"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "hittite_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "hittite_0071",
+        "token": "3-as",
+        "gloss": "three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Johannes Friedrich - Hethitisches Wörterbuch"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Hittite Cuneiform entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,1841 @@
+{
+  "metadata": {
+    "title": "Syriac Lexicon",
+    "description": "Expanded and normalized Syriac dataset derived from syriac_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "syriac_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 54,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Payne Smith - Thesaurus Syriacus",
+      "Sokoloff - Syriac Lexicon",
+      "The Unicode Consortium – Code Charts",
+      "Comprehensive Aramaic Lexicon"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "cal": {
+        "title": "Comprehensive Aramaic Lexicon",
+        "url": "https://cal.huc.edu/",
+        "type": "lexicon_text_corpus",
+        "scope": "Aramaic dialects including Syriac and Nabataean-related corpora"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abjad (Aramaic-derived)",
+    "historical_significance": "Major Aramaic literary and liturgical tradition with extensive Christian textual corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "syriac_0001",
+      "script_symbol": "alap",
+      "transliteration": "aleph",
+      "translation": "aleph (glottal)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "glottal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0001",
+        "token": "alap",
+        "gloss": "aleph (glottal)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0002",
+      "script_symbol": "bet",
+      "transliteration": "b",
+      "translation": "b",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "b"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0002",
+        "token": "bet",
+        "gloss": "b",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0003",
+      "script_symbol": "gamal",
+      "transliteration": "g",
+      "translation": "g",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "g"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0003",
+        "token": "gamal",
+        "gloss": "g",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0004",
+      "script_symbol": "dalat",
+      "transliteration": "d",
+      "translation": "d",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "d"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0004",
+        "token": "dalat",
+        "gloss": "d",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0005",
+      "script_symbol": "he",
+      "transliteration": "h",
+      "translation": "h",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "h"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0005",
+        "token": "he",
+        "gloss": "h",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0006",
+      "script_symbol": "waw",
+      "transliteration": "w",
+      "translation": "w",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "w"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0006",
+        "token": "waw",
+        "gloss": "w",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0007",
+      "script_symbol": "zayn",
+      "transliteration": "z",
+      "translation": "z",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "z"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0007",
+        "token": "zayn",
+        "gloss": "z",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0008",
+      "script_symbol": "het",
+      "transliteration": "h",
+      "translation": "h (pharyngeal)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "pharyngeal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0008",
+        "token": "het",
+        "gloss": "h (pharyngeal)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0009",
+      "script_symbol": "tet",
+      "transliteration": "t",
+      "translation": "t (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0009",
+        "token": "tet",
+        "gloss": "t (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0010",
+      "script_symbol": "yod",
+      "transliteration": "y",
+      "translation": "y",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "y"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0010",
+        "token": "yod",
+        "gloss": "y",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0011",
+      "script_symbol": "kap",
+      "transliteration": "k",
+      "translation": "k",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0011",
+        "token": "kap",
+        "gloss": "k",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0012",
+      "script_symbol": "lamad",
+      "transliteration": "l",
+      "translation": "l",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "l"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0012",
+        "token": "lamad",
+        "gloss": "l",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0013",
+      "script_symbol": "mim",
+      "transliteration": "m",
+      "translation": "m",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "m"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0013",
+        "token": "mim",
+        "gloss": "m",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0014",
+      "script_symbol": "nun",
+      "transliteration": "n",
+      "translation": "n",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "n"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0014",
+        "token": "nun",
+        "gloss": "n",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0015",
+      "script_symbol": "semkat",
+      "transliteration": "s",
+      "translation": "s",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0015",
+        "token": "semkat",
+        "gloss": "s",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0016",
+      "script_symbol": "ayn",
+      "transliteration": "pharyngeal fricative",
+      "translation": "pharyngeal fricative",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "pharyngeal fricative"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0016",
+        "token": "ayn",
+        "gloss": "pharyngeal fricative",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0017",
+      "script_symbol": "pe",
+      "transliteration": "p",
+      "translation": "p",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "p"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0017",
+        "token": "pe",
+        "gloss": "p",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0018",
+      "script_symbol": "sade",
+      "transliteration": "ts",
+      "translation": "ts (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0018",
+        "token": "sade",
+        "gloss": "ts (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0019",
+      "script_symbol": "qop",
+      "transliteration": "q",
+      "translation": "q (uvular)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "uvular"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0019",
+        "token": "qop",
+        "gloss": "q (uvular)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0020",
+      "script_symbol": "resh",
+      "transliteration": "r",
+      "translation": "r",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "r"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0020",
+        "token": "resh",
+        "gloss": "r",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0021",
+      "script_symbol": "shin",
+      "transliteration": "sh",
+      "translation": "sh",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "sh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0021",
+        "token": "shin",
+        "gloss": "sh",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0022",
+      "script_symbol": "taw",
+      "transliteration": "t",
+      "translation": "t",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0022",
+        "token": "taw",
+        "gloss": "t",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0023",
+      "script_symbol": "alaha",
+      "transliteration": "God",
+      "translation": "God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0023",
+        "token": "alaha",
+        "gloss": "God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0024",
+      "script_symbol": "mshiha",
+      "transliteration": "Messiah, Christ",
+      "translation": "Messiah, Christ",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Messiah, Christ"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0024",
+        "token": "mshiha",
+        "gloss": "Messiah, Christ",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0025",
+      "script_symbol": "idta",
+      "transliteration": "church",
+      "translation": "church",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "church"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0025",
+        "token": "idta",
+        "gloss": "church",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0026",
+      "script_symbol": "qurbana",
+      "transliteration": "eucharist, offering",
+      "translation": "eucharist, offering",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "eucharist, offering"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0026",
+        "token": "qurbana",
+        "gloss": "eucharist, offering",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0027",
+      "script_symbol": "kashisha",
+      "transliteration": "priest, elder",
+      "translation": "priest, elder",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "priest, elder"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0027",
+        "token": "kashisha",
+        "gloss": "priest, elder",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0028",
+      "script_symbol": "episkopa",
+      "transliteration": "bishop",
+      "translation": "bishop",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "bishop"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0028",
+        "token": "episkopa",
+        "gloss": "bishop",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0029",
+      "script_symbol": "dayra",
+      "transliteration": "monastery",
+      "translation": "monastery",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "monastery"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0029",
+        "token": "dayra",
+        "gloss": "monastery",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0030",
+      "script_symbol": "malka",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0030",
+        "token": "malka",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0031",
+      "script_symbol": "malkta",
+      "transliteration": "queen",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0031",
+        "token": "malkta",
+        "gloss": "queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0032",
+      "script_symbol": "atra",
+      "transliteration": "land, country",
+      "translation": "land, country",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "land, country"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0032",
+        "token": "atra",
+        "gloss": "land, country",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0033",
+      "script_symbol": "mdita",
+      "transliteration": "city",
+      "translation": "city",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0033",
+        "token": "mdita",
+        "gloss": "city",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0034",
+      "script_symbol": "bayta",
+      "transliteration": "house",
+      "translation": "house",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "house"
+      ],
+      "semantic_field": "domestic",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0034",
+        "token": "bayta",
+        "gloss": "house",
+        "pos": "noun",
+        "semantic_field": "domestic",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0035",
+      "script_symbol": "nasha",
+      "transliteration": "man, person",
+      "translation": "man, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0035",
+        "token": "nasha",
+        "gloss": "man, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0036",
+      "script_symbol": "antta",
+      "transliteration": "woman",
+      "translation": "woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0036",
+        "token": "antta",
+        "gloss": "woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0037",
+      "script_symbol": "aba",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0037",
+        "token": "aba",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0038",
+      "script_symbol": "ema",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0038",
+        "token": "ema",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0039",
+      "script_symbol": "bra",
+      "transliteration": "son",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0039",
+        "token": "bra",
+        "gloss": "son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0040",
+      "script_symbol": "barta",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0040",
+        "token": "barta",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0041",
+      "script_symbol": "aha",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0041",
+        "token": "aha",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0042",
+      "script_symbol": "hata",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0042",
+        "token": "hata",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0043",
+      "script_symbol": "maya",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0043",
+        "token": "maya",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0044",
+      "script_symbol": "nura",
+      "transliteration": "fire, light",
+      "translation": "fire, light",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire, light"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0044",
+        "token": "nura",
+        "gloss": "fire, light",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0045",
+      "script_symbol": "shmaya",
+      "transliteration": "heaven, sky",
+      "translation": "heaven, sky",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heaven, sky"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0045",
+        "token": "shmaya",
+        "gloss": "heaven, sky",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0046",
+      "script_symbol": "ara",
+      "transliteration": "earth, ground",
+      "translation": "earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0046",
+        "token": "ara",
+        "gloss": "earth, ground",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0047",
+      "script_symbol": "ruha",
+      "transliteration": "spirit, wind",
+      "translation": "spirit, wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "spirit, wind"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0047",
+        "token": "ruha",
+        "gloss": "spirit, wind",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0048",
+      "script_symbol": "nafsha",
+      "transliteration": "soul, self",
+      "translation": "soul, self",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul, self"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0048",
+        "token": "nafsha",
+        "gloss": "soul, self",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0049",
+      "script_symbol": "leba",
+      "transliteration": "heart",
+      "translation": "heart",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heart"
+      ],
+      "semantic_field": "anatomical/emotional",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0049",
+        "token": "leba",
+        "gloss": "heart",
+        "pos": "noun",
+        "semantic_field": "anatomical/emotional",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0050",
+      "script_symbol": "hakmta",
+      "transliteration": "wisdom",
+      "translation": "wisdom",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wisdom"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0050",
+        "token": "hakmta",
+        "gloss": "wisdom",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0051",
+      "script_symbol": "ktaba",
+      "transliteration": "book, writing",
+      "translation": "book, writing",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book, writing"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0051",
+        "token": "ktaba",
+        "gloss": "book, writing",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0052",
+      "script_symbol": "had",
+      "transliteration": "one",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0052",
+        "token": "had",
+        "gloss": "one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0053",
+      "script_symbol": "tren",
+      "transliteration": "two",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0053",
+        "token": "tren",
+        "gloss": "two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    },
+    {
+      "entry_id": "syriac_0054",
+      "script_symbol": "tlata",
+      "transliteration": "three",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Payne Smith - Thesaurus Syriacus"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "syriac_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "syriac_0054",
+        "token": "tlata",
+        "gloss": "three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Payne Smith - Thesaurus Syriacus"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Syriac entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,2039 @@
+{
+  "metadata": {
+    "title": "Old English (Anglo-Saxon) Lexicon",
+    "description": "Expanded and normalized Old English (Anglo-Saxon) dataset derived from old_english_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "old_english_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 60,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Clark Hall - Concise Anglo-Saxon Dictionary",
+      "Bosworth-Toller Anglo-Saxon Dictionary",
+      "The Unicode Consortium – Code Charts",
+      "Bosworth–Toller Anglo-Saxon Dictionary"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "bosworth_toller": {
+        "title": "Bosworth–Toller Anglo-Saxon Dictionary",
+        "url": "https://bosworthtoller.com/",
+        "type": "dictionary",
+        "scope": "Old English lexical entries"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Runic (Futhorc) + Latin Alphabet",
+    "historical_significance": "Early West Germanic literary tradition of Anglo-Saxon England.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "old_english_0001",
+      "script_symbol": "ᚠ",
+      "transliteration": "feoh",
+      "translation": "feoh (wealth)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "wealth"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0001",
+        "token": "ᚠ",
+        "gloss": "feoh (wealth)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0002",
+      "script_symbol": "ᚢ",
+      "transliteration": "ūr",
+      "translation": "ūr (aurochs)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "aurochs"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0002",
+        "token": "ᚢ",
+        "gloss": "ūr (aurochs)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0003",
+      "script_symbol": "ᚦ",
+      "transliteration": "þorn",
+      "translation": "þorn (thorn)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "thorn"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0003",
+        "token": "ᚦ",
+        "gloss": "þorn (thorn)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0004",
+      "script_symbol": "ᚩ",
+      "transliteration": "ōs",
+      "translation": "ōs (god/mouth)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "god/mouth"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0004",
+        "token": "ᚩ",
+        "gloss": "ōs (god/mouth)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0005",
+      "script_symbol": "ᚱ",
+      "transliteration": "rād",
+      "translation": "rād (ride)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ride"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0005",
+        "token": "ᚱ",
+        "gloss": "rād (ride)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0006",
+      "script_symbol": "ᚳ",
+      "transliteration": "cēn",
+      "translation": "cēn (torch)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "torch"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0006",
+        "token": "ᚳ",
+        "gloss": "cēn (torch)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0007",
+      "script_symbol": "ᚷ",
+      "transliteration": "gyfu",
+      "translation": "gyfu (gift)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "gift"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0007",
+        "token": "ᚷ",
+        "gloss": "gyfu (gift)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0008",
+      "script_symbol": "ᚹ",
+      "transliteration": "wynn",
+      "translation": "wynn (joy)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "joy"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0008",
+        "token": "ᚹ",
+        "gloss": "wynn (joy)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0009",
+      "script_symbol": "cyning",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0009",
+        "token": "cyning",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0010",
+      "script_symbol": "ealdorman",
+      "transliteration": "alderman, chief",
+      "translation": "alderman, chief",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "alderman, chief"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0010",
+        "token": "ealdorman",
+        "gloss": "alderman, chief",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0011",
+      "script_symbol": "þegn",
+      "transliteration": "thane, retainer",
+      "translation": "thane, retainer",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "thane, retainer"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0011",
+        "token": "þegn",
+        "gloss": "thane, retainer",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0012",
+      "script_symbol": "ceorl",
+      "transliteration": "freeman, peasant",
+      "translation": "freeman, peasant",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "freeman, peasant"
+      ],
+      "semantic_field": "social",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0012",
+        "token": "ceorl",
+        "gloss": "freeman, peasant",
+        "pos": "noun",
+        "semantic_field": "social",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0013",
+      "script_symbol": "hlāford",
+      "transliteration": "lord",
+      "translation": "lord (loaf-ward)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "loaf-ward"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0013",
+        "token": "hlāford",
+        "gloss": "lord (loaf-ward)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0014",
+      "script_symbol": "hlǣfdige",
+      "transliteration": "lady",
+      "translation": "lady (loaf-kneader)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "loaf-kneader"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0014",
+        "token": "hlǣfdige",
+        "gloss": "lady (loaf-kneader)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0015",
+      "script_symbol": "wītan",
+      "transliteration": "wise men, council",
+      "translation": "wise men, council",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wise men, council"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0015",
+        "token": "wītan",
+        "gloss": "wise men, council",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0016",
+      "script_symbol": "dōm",
+      "transliteration": "judgment, glory, doom",
+      "translation": "judgment, glory, doom",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "judgment, glory, doom"
+      ],
+      "semantic_field": "legal/evaluative",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0016",
+        "token": "dōm",
+        "gloss": "judgment, glory, doom",
+        "pos": "noun",
+        "semantic_field": "legal/evaluative",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0017",
+      "script_symbol": "wyrd",
+      "transliteration": "fate, destiny",
+      "translation": "fate, destiny",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fate, destiny"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0017",
+        "token": "wyrd",
+        "gloss": "fate, destiny",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0018",
+      "script_symbol": "mōd",
+      "transliteration": "mind, spirit, courage",
+      "translation": "mind, spirit, courage",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mind, spirit, courage"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0018",
+        "token": "mōd",
+        "gloss": "mind, spirit, courage",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0019",
+      "script_symbol": "sāwol",
+      "transliteration": "soul",
+      "translation": "soul",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0019",
+        "token": "sāwol",
+        "gloss": "soul",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0020",
+      "script_symbol": "God",
+      "transliteration": "God",
+      "translation": "God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0020",
+        "token": "God",
+        "gloss": "God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0021",
+      "script_symbol": "heofen",
+      "transliteration": "heaven",
+      "translation": "heaven",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heaven"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0021",
+        "token": "heofen",
+        "gloss": "heaven",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0022",
+      "script_symbol": "hell",
+      "transliteration": "hell",
+      "translation": "hell",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "hell"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0022",
+        "token": "hell",
+        "gloss": "hell",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0023",
+      "script_symbol": "engel",
+      "transliteration": "angel",
+      "translation": "angel",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "angel"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0023",
+        "token": "engel",
+        "gloss": "angel",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0024",
+      "script_symbol": "dēofol",
+      "transliteration": "devil, demon",
+      "translation": "devil, demon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "devil, demon"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0024",
+        "token": "dēofol",
+        "gloss": "devil, demon",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0025",
+      "script_symbol": "sweord",
+      "transliteration": "sword",
+      "translation": "sword",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sword"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0025",
+        "token": "sweord",
+        "gloss": "sword",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0026",
+      "script_symbol": "scield",
+      "transliteration": "shield",
+      "translation": "shield",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "shield"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0026",
+        "token": "scield",
+        "gloss": "shield",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0027",
+      "script_symbol": "helm",
+      "transliteration": "helmet",
+      "translation": "helmet",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "helmet"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0027",
+        "token": "helm",
+        "gloss": "helmet",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0028",
+      "script_symbol": "here",
+      "transliteration": "army, host",
+      "translation": "army, host",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "army, host"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0028",
+        "token": "here",
+        "gloss": "army, host",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0029",
+      "script_symbol": "beorn",
+      "transliteration": "warrior, man",
+      "translation": "warrior, man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "warrior, man"
+      ],
+      "semantic_field": "military/social",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0029",
+        "token": "beorn",
+        "gloss": "warrior, man",
+        "pos": "noun",
+        "semantic_field": "military/social",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0030",
+      "script_symbol": "dryhten",
+      "transliteration": "lord, ruler",
+      "translation": "lord, ruler",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lord, ruler"
+      ],
+      "semantic_field": "political/religious",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0030",
+        "token": "dryhten",
+        "gloss": "lord, ruler",
+        "pos": "noun",
+        "semantic_field": "political/religious",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0031",
+      "script_symbol": "ēorl",
+      "transliteration": "earl, nobleman",
+      "translation": "earl, nobleman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earl, nobleman"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0031",
+        "token": "ēorl",
+        "gloss": "earl, nobleman",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0032",
+      "script_symbol": "mēad",
+      "transliteration": "mead",
+      "translation": "mead",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mead"
+      ],
+      "semantic_field": "food/culture",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0032",
+        "token": "mēad",
+        "gloss": "mead",
+        "pos": "noun",
+        "semantic_field": "food/culture",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0033",
+      "script_symbol": "heall",
+      "transliteration": "hall",
+      "translation": "hall",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "hall"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0033",
+        "token": "heall",
+        "gloss": "hall",
+        "pos": "noun",
+        "semantic_field": "architecture",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0034",
+      "script_symbol": "scip",
+      "transliteration": "ship",
+      "translation": "ship",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ship"
+      ],
+      "semantic_field": "maritime",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0034",
+        "token": "scip",
+        "gloss": "ship",
+        "pos": "noun",
+        "semantic_field": "maritime",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0035",
+      "script_symbol": "sǣ",
+      "transliteration": "sea",
+      "translation": "sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0035",
+        "token": "sǣ",
+        "gloss": "sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0036",
+      "script_symbol": "ēa",
+      "transliteration": "river",
+      "translation": "river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0036",
+        "token": "ēa",
+        "gloss": "river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0037",
+      "script_symbol": "feld",
+      "transliteration": "field",
+      "translation": "field",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "field"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0037",
+        "token": "feld",
+        "gloss": "field",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0038",
+      "script_symbol": "wudu",
+      "transliteration": "wood, forest",
+      "translation": "wood, forest",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wood, forest"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0038",
+        "token": "wudu",
+        "gloss": "wood, forest",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0039",
+      "script_symbol": "mann",
+      "transliteration": "man, person",
+      "translation": "man, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0039",
+        "token": "mann",
+        "gloss": "man, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0040",
+      "script_symbol": "wīf",
+      "transliteration": "woman, wife",
+      "translation": "woman, wife",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman, wife"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0040",
+        "token": "wīf",
+        "gloss": "woman, wife",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0041",
+      "script_symbol": "cild",
+      "transliteration": "child",
+      "translation": "child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0041",
+        "token": "cild",
+        "gloss": "child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0042",
+      "script_symbol": "fæder",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0042",
+        "token": "fæder",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0043",
+      "script_symbol": "mōdor",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0043",
+        "token": "mōdor",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0044",
+      "script_symbol": "sunu",
+      "transliteration": "son",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0044",
+        "token": "sunu",
+        "gloss": "son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0045",
+      "script_symbol": "dohtor",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0045",
+        "token": "dohtor",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0046",
+      "script_symbol": "brōþor",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0046",
+        "token": "brōþor",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0047",
+      "script_symbol": "sweostor",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0047",
+        "token": "sweostor",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0048",
+      "script_symbol": "lēof",
+      "transliteration": "dear, beloved",
+      "translation": "dear, beloved",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "dear, beloved"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0048",
+        "token": "lēof",
+        "gloss": "dear, beloved",
+        "pos": "adjective",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0049",
+      "script_symbol": "gōd",
+      "transliteration": "good",
+      "translation": "good",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0049",
+        "token": "gōd",
+        "gloss": "good",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0050",
+      "script_symbol": "yfel",
+      "transliteration": "evil, bad",
+      "translation": "evil, bad",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "evil, bad"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0050",
+        "token": "yfel",
+        "gloss": "evil, bad",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0051",
+      "script_symbol": "micel",
+      "transliteration": "great, large",
+      "translation": "great, large",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "great, large"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0051",
+        "token": "micel",
+        "gloss": "great, large",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0052",
+      "script_symbol": "lytel",
+      "transliteration": "little, small",
+      "translation": "little, small",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "little, small"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0052",
+        "token": "lytel",
+        "gloss": "little, small",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0053",
+      "script_symbol": "bōc",
+      "transliteration": "book",
+      "translation": "book",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0053",
+        "token": "bōc",
+        "gloss": "book",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0054",
+      "script_symbol": "rūn",
+      "transliteration": "rune, secret, mystery",
+      "translation": "rune, secret, mystery",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "rune, secret, mystery"
+      ],
+      "semantic_field": "writing/magical",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0054",
+        "token": "rūn",
+        "gloss": "rune, secret, mystery",
+        "pos": "noun",
+        "semantic_field": "writing/magical",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0055",
+      "script_symbol": "word",
+      "transliteration": "word",
+      "translation": "word",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "word"
+      ],
+      "semantic_field": "linguistic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0055",
+        "token": "word",
+        "gloss": "word",
+        "pos": "noun",
+        "semantic_field": "linguistic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0056",
+      "script_symbol": "spell",
+      "transliteration": "story, message",
+      "translation": "story, message",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "story, message"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0056",
+        "token": "spell",
+        "gloss": "story, message",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0057",
+      "script_symbol": "lēoð",
+      "transliteration": "poem, song",
+      "translation": "poem, song",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "poem, song"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0057",
+        "token": "lēoð",
+        "gloss": "poem, song",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0058",
+      "script_symbol": "wēalh",
+      "transliteration": "foreigner, Briton, slave",
+      "translation": "foreigner, Briton, slave",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "foreigner, Briton, slave"
+      ],
+      "semantic_field": "ethnic/social",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0058",
+        "token": "wēalh",
+        "gloss": "foreigner, Briton, slave",
+        "pos": "noun",
+        "semantic_field": "ethnic/social",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0059",
+      "script_symbol": "Engla",
+      "transliteration": "English, of the Angles",
+      "translation": "English, of the Angles",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "English, of the Angles"
+      ],
+      "semantic_field": "ethnic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0059",
+        "token": "Engla",
+        "gloss": "English, of the Angles",
+        "pos": "adjective",
+        "semantic_field": "ethnic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    },
+    {
+      "entry_id": "old_english_0060",
+      "script_symbol": "Seaxe",
+      "transliteration": "Saxons",
+      "translation": "Saxons",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Saxons"
+      ],
+      "semantic_field": "ethnic",
+      "etymology": "",
+      "attestations": [
+        "Clark Hall - Concise Anglo-Saxon Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "bosworth_toller"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_english_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_english_0060",
+        "token": "Seaxe",
+        "gloss": "Saxons",
+        "pos": "noun",
+        "semantic_field": "ethnic",
+        "confidence": 1.0,
+        "source": "Clark Hall - Concise Anglo-Saxon Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Old English (Anglo-Saxon) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

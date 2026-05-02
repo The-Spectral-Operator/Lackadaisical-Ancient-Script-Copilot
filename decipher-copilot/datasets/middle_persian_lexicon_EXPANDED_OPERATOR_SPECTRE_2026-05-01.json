@@ -1,0 +1,1544 @@
+{
+  "metadata": {
+    "title": "Middle Persian (Pahlavi) Lexicon",
+    "description": "Expanded and normalized Middle Persian (Pahlavi) dataset derived from middle_persian_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 45,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "MacKenzie - Concise Pahlavi Dictionary",
+      "Nyberg - Manual of Pahlavi",
+      "The Unicode Consortium – Code Charts",
+      "TITUS – Middle Persian Corpus"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "titus_middle_persian": {
+        "title": "TITUS – Middle Persian Corpus",
+        "url": "https://titus.uni-frankfurt.de/texte/etcs/iran/miran/mpers/",
+        "type": "text_corpus",
+        "scope": "Middle Persian/Pahlavi corpus resources"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abjad (Pahlavi script, Aramaic-derived)",
+    "historical_significance": "Middle Iranian language and script tradition central to Sasanian and Zoroastrian textual transmission.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "middle_persian_0001",
+      "script_symbol": "Y",
+      "transliteration": "yazd/yazdān",
+      "translation": "yazd/yazdān - god(s)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god(s)"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0001",
+        "token": "Y",
+        "gloss": "yazd/yazdān - god(s)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0002",
+      "script_symbol": "'whrmazd",
+      "transliteration": "Ohrmazd",
+      "translation": "Ohrmazd - Ahura Mazda",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ahura Mazda"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0002",
+        "token": "'whrmazd",
+        "gloss": "Ohrmazd - Ahura Mazda",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0003",
+      "script_symbol": "'hlmn",
+      "transliteration": "Ahreman",
+      "translation": "Ahreman - Ahriman (evil spirit)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ahriman (evil spirit)"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0003",
+        "token": "'hlmn",
+        "gloss": "Ahreman - Ahriman (evil spirit)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0004",
+      "script_symbol": "MNW",
+      "transliteration": "kē",
+      "translation": "kē - who, which (huzvarishn)",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "who, which (huzvarishn)"
+      ],
+      "semantic_field": "relative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0004",
+        "token": "MNW",
+        "gloss": "kē - who, which (huzvarishn)",
+        "pos": "pronoun",
+        "semantic_field": "relative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0005",
+      "script_symbol": "YMRRWN",
+      "transliteration": "gōwēd",
+      "translation": "gōwēd - says (huzvarishn)",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "says (huzvarishn)"
+      ],
+      "semantic_field": "communication",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0005",
+        "token": "YMRRWN",
+        "gloss": "gōwēd - says (huzvarishn)",
+        "pos": "verb",
+        "semantic_field": "communication",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0006",
+      "script_symbol": "OD",
+      "transliteration": "tā",
+      "translation": "tā - until (huzvarishn)",
+      "pos": "conjunction",
+      "morphology": {},
+      "definitions": [
+        "until (huzvarishn)"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0006",
+        "token": "OD",
+        "gloss": "tā - until (huzvarishn)",
+        "pos": "conjunction",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0007",
+      "script_symbol": "MLK'",
+      "transliteration": "šāh",
+      "translation": "šāh - king (huzvarishn)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king (huzvarishn)"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0007",
+        "token": "MLK'",
+        "gloss": "šāh - king (huzvarishn)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0008",
+      "script_symbol": "šāh",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0008",
+        "token": "šāh",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0009",
+      "script_symbol": "šāhān šāh",
+      "transliteration": "king of kings",
+      "translation": "king of kings",
+      "pos": "noun_phrase",
+      "morphology": {},
+      "definitions": [
+        "king of kings"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0009",
+        "token": "šāhān šāh",
+        "gloss": "king of kings",
+        "pos": "noun_phrase",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0010",
+      "script_symbol": "bānbišn",
+      "transliteration": "queen",
+      "translation": "queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0010",
+        "token": "bānbišn",
+        "gloss": "queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0011",
+      "script_symbol": "wuzurg",
+      "transliteration": "great, noble",
+      "translation": "great, noble",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "great, noble"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0011",
+        "token": "wuzurg",
+        "gloss": "great, noble",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0012",
+      "script_symbol": "dahišn",
+      "transliteration": "creation",
+      "translation": "creation",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "creation"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0012",
+        "token": "dahišn",
+        "gloss": "creation",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0013",
+      "script_symbol": "gyān",
+      "transliteration": "life, soul",
+      "translation": "life, soul",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life, soul"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0013",
+        "token": "gyān",
+        "gloss": "life, soul",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0014",
+      "script_symbol": "tan",
+      "transliteration": "body",
+      "translation": "body",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "body"
+      ],
+      "semantic_field": "anatomical",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0014",
+        "token": "tan",
+        "gloss": "body",
+        "pos": "noun",
+        "semantic_field": "anatomical",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0015",
+      "script_symbol": "ruwān",
+      "transliteration": "soul",
+      "translation": "soul",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0015",
+        "token": "ruwān",
+        "gloss": "soul",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0016",
+      "script_symbol": "mēnōg",
+      "transliteration": "spiritual",
+      "translation": "spiritual (world)",
+      "pos": "noun/adjective",
+      "morphology": {},
+      "definitions": [
+        "world"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0016",
+        "token": "mēnōg",
+        "gloss": "spiritual (world)",
+        "pos": "noun/adjective",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0017",
+      "script_symbol": "gētīg",
+      "transliteration": "material",
+      "translation": "material (world)",
+      "pos": "noun/adjective",
+      "morphology": {},
+      "definitions": [
+        "world"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0017",
+        "token": "gētīg",
+        "gloss": "material (world)",
+        "pos": "noun/adjective",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0018",
+      "script_symbol": "dēn",
+      "transliteration": "religion, conscience",
+      "translation": "religion, conscience",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "religion, conscience"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0018",
+        "token": "dēn",
+        "gloss": "religion, conscience",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0019",
+      "script_symbol": "ātaxš",
+      "transliteration": "fire",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "religious/natural",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0019",
+        "token": "ātaxš",
+        "gloss": "fire",
+        "pos": "noun",
+        "semantic_field": "religious/natural",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0020",
+      "script_symbol": "āb",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0020",
+        "token": "āb",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0021",
+      "script_symbol": "zamīg",
+      "transliteration": "earth",
+      "translation": "earth",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0021",
+        "token": "zamīg",
+        "gloss": "earth",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0022",
+      "script_symbol": "wād",
+      "transliteration": "wind",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0022",
+        "token": "wād",
+        "gloss": "wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0023",
+      "script_symbol": "xwaršēd",
+      "transliteration": "sun",
+      "translation": "sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0023",
+        "token": "xwaršēd",
+        "gloss": "sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0024",
+      "script_symbol": "māh",
+      "transliteration": "moon",
+      "translation": "moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0024",
+        "token": "māh",
+        "gloss": "moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0025",
+      "script_symbol": "star",
+      "transliteration": "star",
+      "translation": "star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0025",
+        "token": "star",
+        "gloss": "star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0026",
+      "script_symbol": "mard",
+      "transliteration": "man",
+      "translation": "man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0026",
+        "token": "mard",
+        "gloss": "man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0027",
+      "script_symbol": "zan",
+      "transliteration": "woman, wife",
+      "translation": "woman, wife",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman, wife"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0027",
+        "token": "zan",
+        "gloss": "woman, wife",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0028",
+      "script_symbol": "pidar",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0028",
+        "token": "pidar",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0029",
+      "script_symbol": "mād",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0029",
+        "token": "mād",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0030",
+      "script_symbol": "pus",
+      "transliteration": "son",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0030",
+        "token": "pus",
+        "gloss": "son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0031",
+      "script_symbol": "duxt",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0031",
+        "token": "duxt",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0032",
+      "script_symbol": "brād",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0032",
+        "token": "brād",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0033",
+      "script_symbol": "xwāhar",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0033",
+        "token": "xwāhar",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0034",
+      "script_symbol": "nēk",
+      "transliteration": "good",
+      "translation": "good",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0034",
+        "token": "nēk",
+        "gloss": "good",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0035",
+      "script_symbol": "wad",
+      "transliteration": "bad, evil",
+      "translation": "bad, evil",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "bad, evil"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0035",
+        "token": "wad",
+        "gloss": "bad, evil",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0036",
+      "script_symbol": "rāst",
+      "transliteration": "true, right",
+      "translation": "true, right",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "true, right"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0036",
+        "token": "rāst",
+        "gloss": "true, right",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0037",
+      "script_symbol": "drōzan",
+      "transliteration": "liar, false",
+      "translation": "liar, false",
+      "pos": "noun/adjective",
+      "morphology": {},
+      "definitions": [
+        "liar, false"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0037",
+        "token": "drōzan",
+        "gloss": "liar, false",
+        "pos": "noun/adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0038",
+      "script_symbol": "ērānšahr",
+      "transliteration": "Iran, realm of Aryans",
+      "translation": "Iran, realm of Aryans",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Iran, realm of Aryans"
+      ],
+      "semantic_field": "geographic/political",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0038",
+        "token": "ērānšahr",
+        "gloss": "Iran, realm of Aryans",
+        "pos": "noun",
+        "semantic_field": "geographic/political",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0039",
+      "script_symbol": "dādestān",
+      "transliteration": "judgment, court",
+      "translation": "judgment, court",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "judgment, court"
+      ],
+      "semantic_field": "legal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0039",
+        "token": "dādestān",
+        "gloss": "judgment, court",
+        "pos": "noun",
+        "semantic_field": "legal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0040",
+      "script_symbol": "xrad",
+      "transliteration": "wisdom, reason",
+      "translation": "wisdom, reason",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wisdom, reason"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0040",
+        "token": "xrad",
+        "gloss": "wisdom, reason",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0041",
+      "script_symbol": "nāmag",
+      "transliteration": "book, letter",
+      "translation": "book, letter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book, letter"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0041",
+        "token": "nāmag",
+        "gloss": "book, letter",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0042",
+      "script_symbol": "fradom",
+      "transliteration": "first",
+      "translation": "first",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "first"
+      ],
+      "semantic_field": "ordinal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0042",
+        "token": "fradom",
+        "gloss": "first",
+        "pos": "adjective",
+        "semantic_field": "ordinal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0043",
+      "script_symbol": "ēk",
+      "transliteration": "one",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0043",
+        "token": "ēk",
+        "gloss": "one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0044",
+      "script_symbol": "dō",
+      "transliteration": "two",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0044",
+        "token": "dō",
+        "gloss": "two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    },
+    {
+      "entry_id": "middle_persian_0045",
+      "script_symbol": "sē",
+      "transliteration": "three",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "MacKenzie - Concise Pahlavi Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_middle_persian"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "middle_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "middle_persian_0045",
+        "token": "sē",
+        "gloss": "three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "MacKenzie - Concise Pahlavi Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Middle Persian (Pahlavi) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

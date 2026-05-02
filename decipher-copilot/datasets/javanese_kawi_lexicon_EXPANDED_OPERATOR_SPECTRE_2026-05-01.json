@@ -1,0 +1,1800 @@
+{
+  "metadata": {
+    "title": "Javanese (Kawi/Old Javanese) Lexicon",
+    "description": "Expanded and normalized Javanese (Kawi/Old Javanese) dataset derived from javanese_kawi_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 51,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Zoetmulder - Old Javanese-English Dictionary",
+      "Robson - Javanese-English Dictionary",
+      "The Unicode Consortium – Code Charts",
+      "SEAlang Old Javanese-English Dictionary",
+      "SEAlang Library"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "sealang_ojed": {
+        "title": "SEAlang Old Javanese-English Dictionary",
+        "url": "https://sealang.net/ojed/",
+        "type": "dictionary",
+        "scope": "Old Javanese / Kawi lexical material"
+      },
+      "sealang_library": {
+        "title": "SEAlang Library",
+        "url": "https://sealang.net/library/",
+        "type": "language_reference_library",
+        "scope": "Southeast Asian dictionaries, corpora, and archival texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abugida (Indic-derived)",
+    "historical_significance": "Old Javanese literary and inscriptional tradition across Java and Bali.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "javanese_kawi_0001",
+      "script_symbol": "ꦲ",
+      "transliteration": "ha",
+      "translation": "ha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0001",
+        "token": "ꦲ",
+        "gloss": "ha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0002",
+      "script_symbol": "ꦤ",
+      "transliteration": "na",
+      "translation": "na",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "na"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0002",
+        "token": "ꦤ",
+        "gloss": "na",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0003",
+      "script_symbol": "ꦕ",
+      "transliteration": "ca",
+      "translation": "ca",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ca"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0003",
+        "token": "ꦕ",
+        "gloss": "ca",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0004",
+      "script_symbol": "ꦫ",
+      "transliteration": "ra",
+      "translation": "ra",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ra"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0004",
+        "token": "ꦫ",
+        "gloss": "ra",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0005",
+      "script_symbol": "ꦏ",
+      "transliteration": "ka",
+      "translation": "ka",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ka"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0005",
+        "token": "ꦏ",
+        "gloss": "ka",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0006",
+      "script_symbol": "ꦢ",
+      "transliteration": "da",
+      "translation": "da",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "da"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0006",
+        "token": "ꦢ",
+        "gloss": "da",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0007",
+      "script_symbol": "ꦠ",
+      "transliteration": "ta",
+      "translation": "ta",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ta"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0007",
+        "token": "ꦠ",
+        "gloss": "ta",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0008",
+      "script_symbol": "ꦱ",
+      "transliteration": "sa",
+      "translation": "sa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "sa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0008",
+        "token": "ꦱ",
+        "gloss": "sa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0009",
+      "script_symbol": "ꦮ",
+      "transliteration": "wa",
+      "translation": "wa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "wa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0009",
+        "token": "ꦮ",
+        "gloss": "wa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0010",
+      "script_symbol": "ꦭ",
+      "transliteration": "la",
+      "translation": "la",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "la"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0010",
+        "token": "ꦭ",
+        "gloss": "la",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0011",
+      "script_symbol": "ꦥ",
+      "transliteration": "pa",
+      "translation": "pa",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "pa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0011",
+        "token": "ꦥ",
+        "gloss": "pa",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0012",
+      "script_symbol": "ꦝ",
+      "transliteration": "dha",
+      "translation": "dha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "dha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0012",
+        "token": "ꦝ",
+        "gloss": "dha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0013",
+      "script_symbol": "ꦗ",
+      "transliteration": "ja",
+      "translation": "ja",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ja"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0013",
+        "token": "ꦗ",
+        "gloss": "ja",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0014",
+      "script_symbol": "ꦪ",
+      "transliteration": "ya",
+      "translation": "ya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0014",
+        "token": "ꦪ",
+        "gloss": "ya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0015",
+      "script_symbol": "ꦚ",
+      "transliteration": "nya",
+      "translation": "nya",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "nya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0015",
+        "token": "ꦚ",
+        "gloss": "nya",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0016",
+      "script_symbol": "ꦩ",
+      "transliteration": "ma",
+      "translation": "ma",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ma"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0016",
+        "token": "ꦩ",
+        "gloss": "ma",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0017",
+      "script_symbol": "ꦒ",
+      "transliteration": "ga",
+      "translation": "ga",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0017",
+        "token": "ꦒ",
+        "gloss": "ga",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0018",
+      "script_symbol": "ꦧ",
+      "transliteration": "ba",
+      "translation": "ba",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ba"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0018",
+        "token": "ꦧ",
+        "gloss": "ba",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0019",
+      "script_symbol": "ꦛ",
+      "transliteration": "tha",
+      "translation": "tha",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "tha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0019",
+        "token": "ꦛ",
+        "gloss": "tha",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0020",
+      "script_symbol": "ꦔ",
+      "transliteration": "nga",
+      "translation": "nga",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "nga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0020",
+        "token": "ꦔ",
+        "gloss": "nga",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0021",
+      "script_symbol": "ratu",
+      "transliteration": "ruler, king/queen",
+      "translation": "ruler, king/queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ruler, king/queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0021",
+        "token": "ratu",
+        "gloss": "ruler, king/queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0022",
+      "script_symbol": "prabu",
+      "transliteration": "king",
+      "translation": "king (Sanskrit-derived)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Sanskrit-derived"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0022",
+        "token": "prabu",
+        "gloss": "king (Sanskrit-derived)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0023",
+      "script_symbol": "dewa",
+      "transliteration": "god, deity",
+      "translation": "god, deity",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god, deity"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0023",
+        "token": "dewa",
+        "gloss": "god, deity",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0024",
+      "script_symbol": "dewi",
+      "transliteration": "goddess",
+      "translation": "goddess",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "goddess"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0024",
+        "token": "dewi",
+        "gloss": "goddess",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0025",
+      "script_symbol": "candi",
+      "transliteration": "temple",
+      "translation": "temple",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "temple"
+      ],
+      "semantic_field": "religious/architecture",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0025",
+        "token": "candi",
+        "gloss": "temple",
+        "pos": "noun",
+        "semantic_field": "religious/architecture",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0026",
+      "script_symbol": "karma",
+      "transliteration": "action, fate",
+      "translation": "action, fate",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "action, fate"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0026",
+        "token": "karma",
+        "gloss": "action, fate",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0027",
+      "script_symbol": "dharma",
+      "transliteration": "duty, law, religion",
+      "translation": "duty, law, religion",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "duty, law, religion"
+      ],
+      "semantic_field": "philosophical/religious",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0027",
+        "token": "dharma",
+        "gloss": "duty, law, religion",
+        "pos": "noun",
+        "semantic_field": "philosophical/religious",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0028",
+      "script_symbol": "guru",
+      "transliteration": "teacher",
+      "translation": "teacher",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "teacher"
+      ],
+      "semantic_field": "education",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0028",
+        "token": "guru",
+        "gloss": "teacher",
+        "pos": "noun",
+        "semantic_field": "education",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0029",
+      "script_symbol": "wong",
+      "transliteration": "person, people",
+      "translation": "person, people",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person, people"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0029",
+        "token": "wong",
+        "gloss": "person, people",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0030",
+      "script_symbol": "lanang",
+      "transliteration": "male, man",
+      "translation": "male, man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "male, man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0030",
+        "token": "lanang",
+        "gloss": "male, man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0031",
+      "script_symbol": "wadon",
+      "transliteration": "female, woman",
+      "translation": "female, woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "female, woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0031",
+        "token": "wadon",
+        "gloss": "female, woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0032",
+      "script_symbol": "bapak",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0032",
+        "token": "bapak",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0033",
+      "script_symbol": "ibu",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0033",
+        "token": "ibu",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0034",
+      "script_symbol": "anak",
+      "transliteration": "child",
+      "translation": "child",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0034",
+        "token": "anak",
+        "gloss": "child",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0035",
+      "script_symbol": "kakang",
+      "transliteration": "older brother",
+      "translation": "older brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "older brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0035",
+        "token": "kakang",
+        "gloss": "older brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0036",
+      "script_symbol": "banyu",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0036",
+        "token": "banyu",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0037",
+      "script_symbol": "geni",
+      "transliteration": "fire",
+      "translation": "fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0037",
+        "token": "geni",
+        "gloss": "fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0038",
+      "script_symbol": "angin",
+      "transliteration": "wind",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0038",
+        "token": "angin",
+        "gloss": "wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0039",
+      "script_symbol": "lemah",
+      "transliteration": "earth, ground",
+      "translation": "earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0039",
+        "token": "lemah",
+        "gloss": "earth, ground",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0040",
+      "script_symbol": "gunung",
+      "transliteration": "mountain",
+      "translation": "mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0040",
+        "token": "gunung",
+        "gloss": "mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0041",
+      "script_symbol": "kali",
+      "transliteration": "river",
+      "translation": "river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0041",
+        "token": "kali",
+        "gloss": "river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0042",
+      "script_symbol": "segara",
+      "transliteration": "sea, ocean",
+      "translation": "sea, ocean",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea, ocean"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0042",
+        "token": "segara",
+        "gloss": "sea, ocean",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0043",
+      "script_symbol": "siji",
+      "transliteration": "one",
+      "translation": "one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0043",
+        "token": "siji",
+        "gloss": "one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0044",
+      "script_symbol": "loro",
+      "transliteration": "two",
+      "translation": "two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0044",
+        "token": "loro",
+        "gloss": "two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0045",
+      "script_symbol": "telu",
+      "transliteration": "three",
+      "translation": "three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0045",
+        "token": "telu",
+        "gloss": "three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0046",
+      "script_symbol": "papat",
+      "transliteration": "four",
+      "translation": "four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0046",
+        "token": "papat",
+        "gloss": "four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0047",
+      "script_symbol": "lima",
+      "transliteration": "five",
+      "translation": "five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0047",
+        "token": "lima",
+        "gloss": "five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0048",
+      "script_symbol": "wayang",
+      "transliteration": "shadow puppet, performance",
+      "translation": "shadow puppet, performance",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "shadow puppet, performance"
+      ],
+      "semantic_field": "artistic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0048",
+        "token": "wayang",
+        "gloss": "shadow puppet, performance",
+        "pos": "noun",
+        "semantic_field": "artistic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0049",
+      "script_symbol": "gamelan",
+      "transliteration": "traditional orchestra",
+      "translation": "traditional orchestra",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "traditional orchestra"
+      ],
+      "semantic_field": "artistic",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0049",
+        "token": "gamelan",
+        "gloss": "traditional orchestra",
+        "pos": "noun",
+        "semantic_field": "artistic",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0050",
+      "script_symbol": "kraton",
+      "transliteration": "palace",
+      "translation": "palace",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "palace"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0050",
+        "token": "kraton",
+        "gloss": "palace",
+        "pos": "noun",
+        "semantic_field": "architecture",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "javanese_kawi_0051",
+      "script_symbol": "keris",
+      "transliteration": "dagger",
+      "translation": "dagger (sacred weapon)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sacred weapon"
+      ],
+      "semantic_field": "material_culture",
+      "etymology": "",
+      "attestations": [
+        "Zoetmulder - Old Javanese-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "sealang_ojed",
+        "sealang_library"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "javanese_kawi_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "javanese_kawi_0051",
+        "token": "keris",
+        "gloss": "dagger (sacred weapon)",
+        "pos": "noun",
+        "semantic_field": "material_culture",
+        "confidence": 1.0,
+        "source": "Zoetmulder - Old Javanese-English Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Javanese (Kawi/Old Javanese) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

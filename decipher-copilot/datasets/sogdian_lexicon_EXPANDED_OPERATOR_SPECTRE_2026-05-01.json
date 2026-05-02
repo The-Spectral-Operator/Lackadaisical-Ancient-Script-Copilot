@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "title": "Sogdian Lexicon",
+    "description": "Expanded and normalized Sogdian dataset derived from sogdian_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 36,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Gharib - Sogdian Dictionary",
+      "Sims-Williams - Sogdian and other Iranian inscriptions",
+      "The Unicode Consortium – Code Charts"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abjad (Aramaic-derived)",
+    "historical_significance": "Middle Iranian Silk Road language preserved in Buddhist, Manichaean, Christian, and commercial texts.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "sogdian_0001",
+      "script_symbol": "'",
+      "transliteration": "aleph",
+      "translation": "aleph",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "aleph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0001",
+        "token": "'",
+        "gloss": "aleph",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0002",
+      "script_symbol": "β",
+      "transliteration": "beth",
+      "translation": "beth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "beth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0002",
+        "token": "β",
+        "gloss": "beth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0003",
+      "script_symbol": "γ",
+      "transliteration": "gimel",
+      "translation": "gimel",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "gimel"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0003",
+        "token": "γ",
+        "gloss": "gimel",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0004",
+      "script_symbol": "δ",
+      "transliteration": "daleth",
+      "translation": "daleth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "daleth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0004",
+        "token": "δ",
+        "gloss": "daleth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0005",
+      "script_symbol": "'xšywn'k",
+      "transliteration": "axšēwanāk",
+      "translation": "axšēwanāk - king, ruler",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king, ruler"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0005",
+        "token": "'xšywn'k",
+        "gloss": "axšēwanāk - king, ruler",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0006",
+      "script_symbol": "MLK'",
+      "transliteration": "xšēd",
+      "translation": "xšēd (Aramaic ideogram for king)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Aramaic ideogram for king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0006",
+        "token": "MLK'",
+        "gloss": "xšēd (Aramaic ideogram for king)",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0007",
+      "script_symbol": "βγ",
+      "transliteration": "bagh",
+      "translation": "bagh - god",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0007",
+        "token": "βγ",
+        "gloss": "bagh - god",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0008",
+      "script_symbol": "'δwrmzt",
+      "transliteration": "Adhurmazd",
+      "translation": "Adhurmazd - Ahura Mazda",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ahura Mazda"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0008",
+        "token": "'δwrmzt",
+        "gloss": "Adhurmazd - Ahura Mazda",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0009",
+      "script_symbol": "mtrk",
+      "transliteration": "Mitrak",
+      "translation": "Mitrak - Mithra",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Mithra"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0009",
+        "token": "mtrk",
+        "gloss": "Mitrak - Mithra",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0010",
+      "script_symbol": "nnyδ",
+      "transliteration": "Nanai",
+      "translation": "Nanai - goddess Nanaia",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "goddess Nanaia"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0010",
+        "token": "nnyδ",
+        "gloss": "Nanai - goddess Nanaia",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0011",
+      "script_symbol": "ZY",
+      "transliteration": "of",
+      "translation": "of (Aramaic ideogram)",
+      "pos": "particle",
+      "morphology": {},
+      "definitions": [
+        "Aramaic ideogram"
+      ],
+      "semantic_field": "grammatical",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0011",
+        "token": "ZY",
+        "gloss": "of (Aramaic ideogram)",
+        "pos": "particle",
+        "semantic_field": "grammatical",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0012",
+      "script_symbol": "MN",
+      "transliteration": "from",
+      "translation": "from (Aramaic ideogram)",
+      "pos": "particle",
+      "morphology": {},
+      "definitions": [
+        "Aramaic ideogram"
+      ],
+      "semantic_field": "grammatical",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0012",
+        "token": "MN",
+        "gloss": "from (Aramaic ideogram)",
+        "pos": "particle",
+        "semantic_field": "grammatical",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0013",
+      "script_symbol": "'nk",
+      "transliteration": "I",
+      "translation": "I",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "I"
+      ],
+      "semantic_field": "personal",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0013",
+        "token": "'nk",
+        "gloss": "I",
+        "pos": "pronoun",
+        "semantic_field": "personal",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0014",
+      "script_symbol": "xw",
+      "transliteration": "self",
+      "translation": "self",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "self"
+      ],
+      "semantic_field": "reflexive",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0014",
+        "token": "xw",
+        "gloss": "self",
+        "pos": "pronoun",
+        "semantic_field": "reflexive",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0015",
+      "script_symbol": "pr-",
+      "transliteration": "to, toward",
+      "translation": "to, toward",
+      "pos": "preposition",
+      "morphology": {},
+      "definitions": [
+        "to, toward"
+      ],
+      "semantic_field": "spatial",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0015",
+        "token": "pr-",
+        "gloss": "to, toward",
+        "pos": "preposition",
+        "semantic_field": "spatial",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0016",
+      "script_symbol": "'p-",
+      "transliteration": "from",
+      "translation": "from",
+      "pos": "preposition",
+      "morphology": {},
+      "definitions": [
+        "from"
+      ],
+      "semantic_field": "spatial",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0016",
+        "token": "'p-",
+        "gloss": "from",
+        "pos": "preposition",
+        "semantic_field": "spatial",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0017",
+      "script_symbol": "mrt",
+      "transliteration": "mard",
+      "translation": "mard - man, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0017",
+        "token": "mrt",
+        "gloss": "mard - man, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0018",
+      "script_symbol": "žn",
+      "transliteration": "zan",
+      "translation": "zan - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0018",
+        "token": "žn",
+        "gloss": "zan - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0019",
+      "script_symbol": "pt'r",
+      "transliteration": "pidar",
+      "translation": "pidar - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0019",
+        "token": "pt'r",
+        "gloss": "pidar - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0020",
+      "script_symbol": "m't",
+      "transliteration": "mād",
+      "translation": "mād - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0020",
+        "token": "m't",
+        "gloss": "mād - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0021",
+      "script_symbol": "psr",
+      "transliteration": "pusar",
+      "translation": "pusar - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0021",
+        "token": "psr",
+        "gloss": "pusar - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0022",
+      "script_symbol": "δwγt",
+      "transliteration": "dukht",
+      "translation": "dukht - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0022",
+        "token": "δwγt",
+        "gloss": "dukht - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0023",
+      "script_symbol": "'δw",
+      "transliteration": "adhu",
+      "translation": "adhu - soul, self",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul, self"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0023",
+        "token": "'δw",
+        "gloss": "adhu - soul, self",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0024",
+      "script_symbol": "nm'k",
+      "transliteration": "namāk",
+      "translation": "namāk - book, letter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book, letter"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0024",
+        "token": "nm'k",
+        "gloss": "namāk - book, letter",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0025",
+      "script_symbol": "δyn",
+      "transliteration": "dēn",
+      "translation": "dēn - religion, faith",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "religion, faith"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0025",
+        "token": "δyn",
+        "gloss": "dēn - religion, faith",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0026",
+      "script_symbol": "s'rt",
+      "transliteration": "sārd",
+      "translation": "sārd - caravan",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "caravan"
+      ],
+      "semantic_field": "economic/travel",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0026",
+        "token": "s'rt",
+        "gloss": "sārd - caravan",
+        "pos": "noun",
+        "semantic_field": "economic/travel",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0027",
+      "script_symbol": "smrqnδ",
+      "transliteration": "Samarqand",
+      "translation": "Samarqand - Samarkand",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Samarkand"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0027",
+        "token": "smrqnδ",
+        "gloss": "Samarqand - Samarkand",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0028",
+      "script_symbol": "xwtw",
+      "transliteration": "khutau",
+      "translation": "khutau - lord, master",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lord, master"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0028",
+        "token": "xwtw",
+        "gloss": "khutau - lord, master",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0029",
+      "script_symbol": "pr'mn",
+      "transliteration": "farmān",
+      "translation": "farmān - command",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "command"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0029",
+        "token": "pr'mn",
+        "gloss": "farmān - command",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0030",
+      "script_symbol": "nβ'nt",
+      "transliteration": "navānd",
+      "translation": "navānd - hope",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "hope"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0030",
+        "token": "nβ'nt",
+        "gloss": "navānd - hope",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0031",
+      "script_symbol": "''β",
+      "transliteration": "āb",
+      "translation": "āb - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0031",
+        "token": "''β",
+        "gloss": "āb - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0032",
+      "script_symbol": "'tš",
+      "transliteration": "ātash",
+      "translation": "ātash - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0032",
+        "token": "'tš",
+        "gloss": "ātash - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0033",
+      "script_symbol": "zmyk",
+      "transliteration": "zamīk",
+      "translation": "zamīk - earth",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0033",
+        "token": "zmyk",
+        "gloss": "zamīk - earth",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0034",
+      "script_symbol": "w'δ",
+      "transliteration": "wād",
+      "translation": "wād - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0034",
+        "token": "w'δ",
+        "gloss": "wād - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0035",
+      "script_symbol": "rwnšn",
+      "transliteration": "rōshn",
+      "translation": "rōshn - light",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "light"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0035",
+        "token": "rwnšn",
+        "gloss": "rōshn - light",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    },
+    {
+      "entry_id": "sogdian_0036",
+      "script_symbol": "t'ryk",
+      "transliteration": "tārīk",
+      "translation": "tārīk - dark",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "dark"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Gharib - Sogdian Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sogdian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "sogdian_0036",
+        "token": "t'ryk",
+        "gloss": "tārīk - dark",
+        "pos": "adjective",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Gharib - Sogdian Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Sogdian entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

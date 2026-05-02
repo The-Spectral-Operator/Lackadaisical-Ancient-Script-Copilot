@@ -1,0 +1,1478 @@
+{
+  "metadata": {
+    "title": "Nabataean Lexicon",
+    "description": "Expanded and normalized Nabataean dataset derived from nabataean_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 43,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Cantineau - Le Nabatéen",
+      "Healey - The Religion of the Nabataeans",
+      "The Unicode Consortium – Code Charts",
+      "Comprehensive Aramaic Lexicon"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "cal": {
+        "title": "Comprehensive Aramaic Lexicon",
+        "url": "https://cal.huc.edu/",
+        "type": "lexicon_text_corpus",
+        "scope": "Aramaic dialects including Syriac and Nabataean-related corpora"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abjad (Proto-Arabic ancestor)",
+    "historical_significance": "North Arabian Aramaic-derived inscriptional tradition important for later Arabic script development.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "nabataean_0001",
+      "script_symbol": "𐢀",
+      "transliteration": "aleph",
+      "translation": "aleph",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "aleph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0001",
+        "token": "𐢀",
+        "gloss": "aleph",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0002",
+      "script_symbol": "𐢁",
+      "transliteration": "beth",
+      "translation": "beth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "beth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0002",
+        "token": "𐢁",
+        "gloss": "beth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0003",
+      "script_symbol": "𐢂",
+      "transliteration": "gimel",
+      "translation": "gimel",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "gimel"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0003",
+        "token": "𐢂",
+        "gloss": "gimel",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0004",
+      "script_symbol": "𐢃",
+      "transliteration": "daleth",
+      "translation": "daleth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "daleth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0004",
+        "token": "𐢃",
+        "gloss": "daleth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0005",
+      "script_symbol": "𐢄",
+      "transliteration": "he",
+      "translation": "he",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "he"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0005",
+        "token": "𐢄",
+        "gloss": "he",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0006",
+      "script_symbol": "𐢅",
+      "transliteration": "waw",
+      "translation": "waw",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "waw"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0006",
+        "token": "𐢅",
+        "gloss": "waw",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0007",
+      "script_symbol": "𐢆",
+      "transliteration": "zayin",
+      "translation": "zayin",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "zayin"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0007",
+        "token": "𐢆",
+        "gloss": "zayin",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0008",
+      "script_symbol": "𐢇",
+      "transliteration": "heth",
+      "translation": "heth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "heth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0008",
+        "token": "𐢇",
+        "gloss": "heth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0009",
+      "script_symbol": "𐢈",
+      "transliteration": "teth",
+      "translation": "teth",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "teth"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0009",
+        "token": "𐢈",
+        "gloss": "teth",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0010",
+      "script_symbol": "𐢉",
+      "transliteration": "yodh",
+      "translation": "yodh",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "yodh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0010",
+        "token": "𐢉",
+        "gloss": "yodh",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0011",
+      "script_symbol": "𐢊",
+      "transliteration": "kaph",
+      "translation": "kaph",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "kaph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0011",
+        "token": "𐢊",
+        "gloss": "kaph",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0012",
+      "script_symbol": "𐢋",
+      "transliteration": "lamedh",
+      "translation": "lamedh",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "lamedh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0012",
+        "token": "𐢋",
+        "gloss": "lamedh",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0013",
+      "script_symbol": "𐢌",
+      "transliteration": "mem",
+      "translation": "mem",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "mem"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0013",
+        "token": "𐢌",
+        "gloss": "mem",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0014",
+      "script_symbol": "𐢍",
+      "transliteration": "nun",
+      "translation": "nun",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "nun"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0014",
+        "token": "𐢍",
+        "gloss": "nun",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0015",
+      "script_symbol": "𐢎",
+      "transliteration": "samekh",
+      "translation": "samekh",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "samekh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0015",
+        "token": "𐢎",
+        "gloss": "samekh",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0016",
+      "script_symbol": "𐢏",
+      "transliteration": "ayin",
+      "translation": "ayin",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ayin"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0016",
+        "token": "𐢏",
+        "gloss": "ayin",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0017",
+      "script_symbol": "𐢐",
+      "transliteration": "pe",
+      "translation": "pe",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "pe"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0017",
+        "token": "𐢐",
+        "gloss": "pe",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0018",
+      "script_symbol": "𐢑",
+      "transliteration": "tsade",
+      "translation": "tsade",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "tsade"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0018",
+        "token": "𐢑",
+        "gloss": "tsade",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0019",
+      "script_symbol": "𐢒",
+      "transliteration": "qoph",
+      "translation": "qoph",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "qoph"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0019",
+        "token": "𐢒",
+        "gloss": "qoph",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0020",
+      "script_symbol": "𐢓",
+      "transliteration": "resh",
+      "translation": "resh",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "resh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0020",
+        "token": "𐢓",
+        "gloss": "resh",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0021",
+      "script_symbol": "𐢔",
+      "transliteration": "shin",
+      "translation": "shin",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "shin"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0021",
+        "token": "𐢔",
+        "gloss": "shin",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0022",
+      "script_symbol": "𐢕",
+      "transliteration": "taw",
+      "translation": "taw",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "taw"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0022",
+        "token": "𐢕",
+        "gloss": "taw",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0023",
+      "script_symbol": "mlk",
+      "transliteration": "malik",
+      "translation": "malik - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0023",
+        "token": "mlk",
+        "gloss": "malik - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0024",
+      "script_symbol": "mlkt",
+      "transliteration": "malkat",
+      "translation": "malkat - queen",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "queen"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0024",
+        "token": "mlkt",
+        "gloss": "malkat - queen",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0025",
+      "script_symbol": "rb",
+      "transliteration": "rab",
+      "translation": "rab - chief, great",
+      "pos": "noun/adjective",
+      "morphology": {},
+      "definitions": [
+        "chief, great"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0025",
+        "token": "rb",
+        "gloss": "rab - chief, great",
+        "pos": "noun/adjective",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0026",
+      "script_symbol": "'lh",
+      "transliteration": "ilāh",
+      "translation": "ilāh - god",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0026",
+        "token": "'lh",
+        "gloss": "ilāh - god",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0027",
+      "script_symbol": "dšr'",
+      "transliteration": "Dushara",
+      "translation": "Dushara - chief deity of Nabataeans",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "chief deity of Nabataeans"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0027",
+        "token": "dšr'",
+        "gloss": "Dushara - chief deity of Nabataeans",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0028",
+      "script_symbol": "'lt",
+      "transliteration": "Allat",
+      "translation": "Allat - goddess",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "goddess"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0028",
+        "token": "'lt",
+        "gloss": "Allat - goddess",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0029",
+      "script_symbol": "'lʿz'",
+      "transliteration": "al-ʿUzzā",
+      "translation": "al-ʿUzzā - goddess of power",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "goddess of power"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0029",
+        "token": "'lʿz'",
+        "gloss": "al-ʿUzzā - goddess of power",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0030",
+      "script_symbol": "mnt",
+      "transliteration": "Manat",
+      "translation": "Manat - goddess of fate",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "goddess of fate"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0030",
+        "token": "mnt",
+        "gloss": "Manat - goddess of fate",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0031",
+      "script_symbol": "br",
+      "transliteration": "bar",
+      "translation": "bar - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0031",
+        "token": "br",
+        "gloss": "bar - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0032",
+      "script_symbol": "brt",
+      "transliteration": "barat",
+      "translation": "barat - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0032",
+        "token": "brt",
+        "gloss": "barat - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0033",
+      "script_symbol": "'b",
+      "transliteration": "ab",
+      "translation": "ab - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0033",
+        "token": "'b",
+        "gloss": "ab - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0034",
+      "script_symbol": "'m",
+      "transliteration": "em",
+      "translation": "em - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0034",
+        "token": "'m",
+        "gloss": "em - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0035",
+      "script_symbol": "nps",
+      "transliteration": "nafs",
+      "translation": "nafs - soul, memorial stele",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul, memorial stele"
+      ],
+      "semantic_field": "funerary",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0035",
+        "token": "nps",
+        "gloss": "nafs - soul, memorial stele",
+        "pos": "noun",
+        "semantic_field": "funerary",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0036",
+      "script_symbol": "qbr",
+      "transliteration": "qabr",
+      "translation": "qabr - grave, tomb",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "grave, tomb"
+      ],
+      "semantic_field": "funerary",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0036",
+        "token": "qbr",
+        "gloss": "qabr - grave, tomb",
+        "pos": "noun",
+        "semantic_field": "funerary",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0037",
+      "script_symbol": "šlm",
+      "transliteration": "shalam",
+      "translation": "shalam - peace; completion",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "peace; completion"
+      ],
+      "semantic_field": "social",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0037",
+        "token": "šlm",
+        "gloss": "shalam - peace; completion",
+        "pos": "noun",
+        "semantic_field": "social",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0038",
+      "script_symbol": "byt",
+      "transliteration": "bayt",
+      "translation": "bayt - house, temple",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "house, temple"
+      ],
+      "semantic_field": "domestic/religious",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0038",
+        "token": "byt",
+        "gloss": "bayt - house, temple",
+        "pos": "noun",
+        "semantic_field": "domestic/religious",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0039",
+      "script_symbol": "my'",
+      "transliteration": "mayya",
+      "translation": "mayya - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0039",
+        "token": "my'",
+        "gloss": "mayya - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0040",
+      "script_symbol": "šnt",
+      "transliteration": "shanat",
+      "translation": "shanat - year",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0040",
+        "token": "šnt",
+        "gloss": "shanat - year",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0041",
+      "script_symbol": "yrh",
+      "transliteration": "yarah",
+      "translation": "yarah - month",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "month"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0041",
+        "token": "yrh",
+        "gloss": "yarah - month",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0042",
+      "script_symbol": "'rq'",
+      "transliteration": "Arqa",
+      "translation": "Arqa (Petra region)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Petra region"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0042",
+        "token": "'rq'",
+        "gloss": "Arqa (Petra region)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    },
+    {
+      "entry_id": "nabataean_0043",
+      "script_symbol": "rqm",
+      "transliteration": "Raqmu",
+      "translation": "Raqmu - Petra (the carved city)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Petra (the carved city)"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Cantineau - Le Nabatéen"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "cal"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "nabataean_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "nabataean_0043",
+        "token": "rqm",
+        "gloss": "Raqmu - Petra (the carved city)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Cantineau - Le Nabatéen"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Nabataean entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

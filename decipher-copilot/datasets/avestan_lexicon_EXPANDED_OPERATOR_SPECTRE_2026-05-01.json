@@ -1,0 +1,2204 @@
+{
+  "metadata": {
+    "title": "Avestan Lexicon",
+    "description": "Expanded and normalized Avestan dataset derived from avestan_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "avestan_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 65,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Bartholomae - Altiranisches Wörterbuch",
+      "Kellens & Pirart - Les textes vieil-avestiques",
+      "The Unicode Consortium – Code Charts",
+      "Avestan Digital Archive"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "ada": {
+        "title": "Avestan Digital Archive",
+        "url": "https://ada.geschkult.fu-berlin.de/",
+        "type": "manuscript_archive",
+        "scope": "Avestan manuscripts and Zoroastrian liturgical texts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Alphabetic (Avestan script from Pahlavi)",
+    "historical_significance": "Iranian liturgical language preserved in Zoroastrian manuscript traditions.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "avestan_0001",
+      "script_symbol": "𐬀",
+      "transliteration": "a",
+      "translation": "a",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "a"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0001",
+        "token": "𐬀",
+        "gloss": "a",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0002",
+      "script_symbol": "𐬁",
+      "transliteration": "ā",
+      "translation": "ā",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ā"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0002",
+        "token": "𐬁",
+        "gloss": "ā",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0003",
+      "script_symbol": "𐬂",
+      "transliteration": "å",
+      "translation": "å",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "å"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0003",
+        "token": "𐬂",
+        "gloss": "å",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0004",
+      "script_symbol": "𐬃",
+      "transliteration": "ā̊",
+      "translation": "ā̊",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ā̊"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0004",
+        "token": "𐬃",
+        "gloss": "ā̊",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0005",
+      "script_symbol": "𐬄",
+      "transliteration": "ą",
+      "translation": "ą",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ą"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0005",
+        "token": "𐬄",
+        "gloss": "ą",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0006",
+      "script_symbol": "𐬅",
+      "transliteration": "ą̇",
+      "translation": "ą̇",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ą̇"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0006",
+        "token": "𐬅",
+        "gloss": "ą̇",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0007",
+      "script_symbol": "𐬆",
+      "transliteration": "ə",
+      "translation": "ə",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ə"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0007",
+        "token": "𐬆",
+        "gloss": "ə",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0008",
+      "script_symbol": "𐬇",
+      "transliteration": "ə̄",
+      "translation": "ə̄",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ə̄"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0008",
+        "token": "𐬇",
+        "gloss": "ə̄",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0009",
+      "script_symbol": "𐬈",
+      "transliteration": "e",
+      "translation": "e",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "e"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0009",
+        "token": "𐬈",
+        "gloss": "e",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0010",
+      "script_symbol": "𐬉",
+      "transliteration": "ē",
+      "translation": "ē",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ē"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0010",
+        "token": "𐬉",
+        "gloss": "ē",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0011",
+      "script_symbol": "𐬊",
+      "transliteration": "o",
+      "translation": "o",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "o"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0011",
+        "token": "𐬊",
+        "gloss": "o",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0012",
+      "script_symbol": "𐬋",
+      "transliteration": "ō",
+      "translation": "ō",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ō"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0012",
+        "token": "𐬋",
+        "gloss": "ō",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0013",
+      "script_symbol": "𐬌",
+      "transliteration": "i",
+      "translation": "i",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "i"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0013",
+        "token": "𐬌",
+        "gloss": "i",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0014",
+      "script_symbol": "𐬍",
+      "transliteration": "ī",
+      "translation": "ī",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ī"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0014",
+        "token": "𐬍",
+        "gloss": "ī",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0015",
+      "script_symbol": "𐬎",
+      "transliteration": "u",
+      "translation": "u",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "u"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0015",
+        "token": "𐬎",
+        "gloss": "u",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0016",
+      "script_symbol": "𐬏",
+      "transliteration": "ū",
+      "translation": "ū",
+      "pos": "vowel",
+      "morphology": {},
+      "definitions": [
+        "ū"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0016",
+        "token": "𐬏",
+        "gloss": "ū",
+        "pos": "vowel",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0017",
+      "script_symbol": "𐬐",
+      "transliteration": "k",
+      "translation": "k",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0017",
+        "token": "𐬐",
+        "gloss": "k",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0018",
+      "script_symbol": "𐬑",
+      "transliteration": "x",
+      "translation": "x",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "x"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0018",
+        "token": "𐬑",
+        "gloss": "x",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0019",
+      "script_symbol": "𐬒",
+      "transliteration": "x́",
+      "translation": "x́",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "x́"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0019",
+        "token": "𐬒",
+        "gloss": "x́",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0020",
+      "script_symbol": "𐬓",
+      "transliteration": "xᵛ",
+      "translation": "xᵛ",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "xᵛ"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0020",
+        "token": "𐬓",
+        "gloss": "xᵛ",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0021",
+      "script_symbol": "𐬔",
+      "transliteration": "g",
+      "translation": "g",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "g"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0021",
+        "token": "𐬔",
+        "gloss": "g",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0022",
+      "script_symbol": "𐬕",
+      "transliteration": "ġ",
+      "translation": "ġ",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ġ"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0022",
+        "token": "𐬕",
+        "gloss": "ġ",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0023",
+      "script_symbol": "𐬖",
+      "transliteration": "γ",
+      "translation": "γ",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "γ"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0023",
+        "token": "𐬖",
+        "gloss": "γ",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0024",
+      "script_symbol": "𐬗",
+      "transliteration": "c",
+      "translation": "c",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "c"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0024",
+        "token": "𐬗",
+        "gloss": "c",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0025",
+      "script_symbol": "𐬘",
+      "transliteration": "j",
+      "translation": "j",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "j"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0025",
+        "token": "𐬘",
+        "gloss": "j",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0026",
+      "script_symbol": "𐬙",
+      "transliteration": "t",
+      "translation": "t",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0026",
+        "token": "𐬙",
+        "gloss": "t",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0027",
+      "script_symbol": "𐬚",
+      "transliteration": "ϑ",
+      "translation": "ϑ",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "ϑ"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0027",
+        "token": "𐬚",
+        "gloss": "ϑ",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0028",
+      "script_symbol": "𐬛",
+      "transliteration": "d",
+      "translation": "d",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "d"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0028",
+        "token": "𐬛",
+        "gloss": "d",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0029",
+      "script_symbol": "𐬜",
+      "transliteration": "δ",
+      "translation": "δ",
+      "pos": "consonant",
+      "morphology": {},
+      "definitions": [
+        "δ"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0029",
+        "token": "𐬜",
+        "gloss": "δ",
+        "pos": "consonant",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0030",
+      "script_symbol": "ahura",
+      "transliteration": "lord, divine being",
+      "translation": "lord, divine being",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lord, divine being"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0030",
+        "token": "ahura",
+        "gloss": "lord, divine being",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0031",
+      "script_symbol": "mazdā",
+      "transliteration": "wisdom",
+      "translation": "wisdom (Ahura Mazda)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ahura Mazda"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0031",
+        "token": "mazdā",
+        "gloss": "wisdom (Ahura Mazda)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0032",
+      "script_symbol": "Ahura Mazdā",
+      "transliteration": "Wise Lord",
+      "translation": "Wise Lord (supreme deity)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "supreme deity"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0032",
+        "token": "Ahura Mazdā",
+        "gloss": "Wise Lord (supreme deity)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0033",
+      "script_symbol": "Zaraθuštra",
+      "transliteration": "Zarathustra",
+      "translation": "Zarathustra (prophet)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "prophet"
+      ],
+      "semantic_field": "personal_name",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0033",
+        "token": "Zaraθuštra",
+        "gloss": "Zarathustra (prophet)",
+        "pos": "noun",
+        "semantic_field": "personal_name",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0034",
+      "script_symbol": "aṣ̌a",
+      "transliteration": "truth, cosmic order",
+      "translation": "truth, cosmic order (Asha)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Asha"
+      ],
+      "semantic_field": "philosophical/religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0034",
+        "token": "aṣ̌a",
+        "gloss": "truth, cosmic order (Asha)",
+        "pos": "noun",
+        "semantic_field": "philosophical/religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0035",
+      "script_symbol": "druj",
+      "transliteration": "lie, falsehood, chaos",
+      "translation": "lie, falsehood, chaos",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lie, falsehood, chaos"
+      ],
+      "semantic_field": "philosophical/religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0035",
+        "token": "druj",
+        "gloss": "lie, falsehood, chaos",
+        "pos": "noun",
+        "semantic_field": "philosophical/religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0036",
+      "script_symbol": "vohu manah",
+      "transliteration": "good mind/thought",
+      "translation": "good mind/thought",
+      "pos": "noun_phrase",
+      "morphology": {},
+      "definitions": [
+        "good mind/thought"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0036",
+        "token": "vohu manah",
+        "gloss": "good mind/thought",
+        "pos": "noun_phrase",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0037",
+      "script_symbol": "xšaθra",
+      "transliteration": "power, kingdom, dominion",
+      "translation": "power, kingdom, dominion",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "power, kingdom, dominion"
+      ],
+      "semantic_field": "political/religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0037",
+        "token": "xšaθra",
+        "gloss": "power, kingdom, dominion",
+        "pos": "noun",
+        "semantic_field": "political/religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0038",
+      "script_symbol": "spənta",
+      "transliteration": "holy, bounteous, increasing",
+      "translation": "holy, bounteous, increasing",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "holy, bounteous, increasing"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0038",
+        "token": "spənta",
+        "gloss": "holy, bounteous, increasing",
+        "pos": "adjective",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0039",
+      "script_symbol": "mainyu",
+      "transliteration": "spirit, mentality",
+      "translation": "spirit, mentality",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "spirit, mentality"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0039",
+        "token": "mainyu",
+        "gloss": "spirit, mentality",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0040",
+      "script_symbol": "Angra Mainyu",
+      "transliteration": "destructive spirit",
+      "translation": "destructive spirit (Ahriman)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ahriman"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0040",
+        "token": "Angra Mainyu",
+        "gloss": "destructive spirit (Ahriman)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0041",
+      "script_symbol": "Spənta Mainyu",
+      "transliteration": "holy/bounteous spirit",
+      "translation": "holy/bounteous spirit",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "holy/bounteous spirit"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0041",
+        "token": "Spənta Mainyu",
+        "gloss": "holy/bounteous spirit",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0042",
+      "script_symbol": "ameṣ̌a spənta",
+      "transliteration": "immortal holy ones",
+      "translation": "immortal holy ones (archangels)",
+      "pos": "noun_phrase",
+      "morphology": {},
+      "definitions": [
+        "archangels"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0042",
+        "token": "ameṣ̌a spənta",
+        "gloss": "immortal holy ones (archangels)",
+        "pos": "noun_phrase",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0043",
+      "script_symbol": "yazata",
+      "transliteration": "worthy of worship",
+      "translation": "worthy of worship (angel)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "angel"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0043",
+        "token": "yazata",
+        "gloss": "worthy of worship (angel)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0044",
+      "script_symbol": "daēva",
+      "transliteration": "demon",
+      "translation": "demon (false god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "false god"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0044",
+        "token": "daēva",
+        "gloss": "demon (false god)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0045",
+      "script_symbol": "gāθā",
+      "transliteration": "hymn, song",
+      "translation": "hymn, song (Gathas of Zarathustra)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Gathas of Zarathustra"
+      ],
+      "semantic_field": "literary/religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0045",
+        "token": "gāθā",
+        "gloss": "hymn, song (Gathas of Zarathustra)",
+        "pos": "noun",
+        "semantic_field": "literary/religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0046",
+      "script_symbol": "yasna",
+      "transliteration": "worship, sacrifice",
+      "translation": "worship, sacrifice (liturgy)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "liturgy"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0046",
+        "token": "yasna",
+        "gloss": "worship, sacrifice (liturgy)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0047",
+      "script_symbol": "haoma",
+      "transliteration": "sacred plant/ritual drink",
+      "translation": "sacred plant/ritual drink",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sacred plant/ritual drink"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0047",
+        "token": "haoma",
+        "gloss": "sacred plant/ritual drink",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0048",
+      "script_symbol": "ātar",
+      "transliteration": "fire",
+      "translation": "fire (sacred)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sacred"
+      ],
+      "semantic_field": "religious/natural",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0048",
+        "token": "ātar",
+        "gloss": "fire (sacred)",
+        "pos": "noun",
+        "semantic_field": "religious/natural",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0049",
+      "script_symbol": "ap",
+      "transliteration": "water",
+      "translation": "water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0049",
+        "token": "ap",
+        "gloss": "water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0050",
+      "script_symbol": "zam",
+      "transliteration": "earth",
+      "translation": "earth",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0050",
+        "token": "zam",
+        "gloss": "earth",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0051",
+      "script_symbol": "vāta",
+      "transliteration": "wind",
+      "translation": "wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0051",
+        "token": "vāta",
+        "gloss": "wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0052",
+      "script_symbol": "hvar",
+      "transliteration": "sun",
+      "translation": "sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0052",
+        "token": "hvar",
+        "gloss": "sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0053",
+      "script_symbol": "māh",
+      "transliteration": "moon",
+      "translation": "moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0053",
+        "token": "māh",
+        "gloss": "moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0054",
+      "script_symbol": "star",
+      "transliteration": "star",
+      "translation": "star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0054",
+        "token": "star",
+        "gloss": "star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0055",
+      "script_symbol": "nar",
+      "transliteration": "man, hero",
+      "translation": "man, hero",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, hero"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0055",
+        "token": "nar",
+        "gloss": "man, hero",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0056",
+      "script_symbol": "gənā",
+      "transliteration": "woman",
+      "translation": "woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0056",
+        "token": "gənā",
+        "gloss": "woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0057",
+      "script_symbol": "pitar",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0057",
+        "token": "pitar",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0058",
+      "script_symbol": "mātar",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0058",
+        "token": "mātar",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0059",
+      "script_symbol": "puθra",
+      "transliteration": "son",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0059",
+        "token": "puθra",
+        "gloss": "son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0060",
+      "script_symbol": "duγδar",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0060",
+        "token": "duγδar",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0061",
+      "script_symbol": "brātar",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0061",
+        "token": "brātar",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0062",
+      "script_symbol": "uruuan",
+      "transliteration": "soul",
+      "translation": "soul",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "soul"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0062",
+        "token": "uruuan",
+        "gloss": "soul",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0063",
+      "script_symbol": "cinuuant",
+      "transliteration": "bridge (of judgment",
+      "translation": "bridge (of judgment - Chinvat)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Chinvat)"
+      ],
+      "semantic_field": "eschatological",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0063",
+        "token": "cinuuant",
+        "gloss": "bridge (of judgment - Chinvat)",
+        "pos": "noun",
+        "semantic_field": "eschatological",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0064",
+      "script_symbol": "frashokereti",
+      "transliteration": "final renovation",
+      "translation": "final renovation (end times)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "end times"
+      ],
+      "semantic_field": "eschatological",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0064",
+        "token": "frashokereti",
+        "gloss": "final renovation (end times)",
+        "pos": "noun",
+        "semantic_field": "eschatological",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    },
+    {
+      "entry_id": "avestan_0065",
+      "script_symbol": "ušta",
+      "transliteration": "happiness, bliss",
+      "translation": "happiness, bliss",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "happiness, bliss"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Bartholomae - Altiranisches Wörterbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ada"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "avestan_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "avestan_0065",
+        "token": "ušta",
+        "gloss": "happiness, bliss",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Bartholomae - Altiranisches Wörterbuch"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Avestan entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

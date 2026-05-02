@@ -1,0 +1,3671 @@
+{
+  "metadata": {
+    "title": "Chinese (Classical/Oracle Bone to Literary) Lexicon",
+    "description": "Expanded and normalized Chinese (Classical/Oracle Bone to Literary) dataset derived from chinese_classical_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 106,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Shuowen Jiezi (Xu Shen, 100 CE)",
+      "Kangxi Dictionary",
+      "Mathews Chinese-English Dictionary",
+      "The Unicode Consortium – Code Charts",
+      "Chinese Text Project",
+      "Chinese Text Project Dictionary"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "ctext": {
+        "title": "Chinese Text Project",
+        "url": "https://ctext.org/",
+        "type": "pre-modern_text_corpus",
+        "scope": "Classical Chinese text corpus and dictionary"
+      },
+      "ctext_dictionary": {
+        "title": "Chinese Text Project Dictionary",
+        "url": "https://ctext.org/dictionary.pl?if=en",
+        "type": "dictionary",
+        "scope": "Classical Chinese character and word usage lookup"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Logographic",
+    "historical_significance": "Long-duration classical textual tradition from oracle-bone/bronze roots through transmitted literary corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "chinese_classical_0001",
+      "script_symbol": "甲骨文",
+      "transliteration": "jiǎgǔwén",
+      "translation": "jiǎgǔwén - oracle bone script",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "oracle bone script"
+      ],
+      "semantic_field": "writing_system",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0001",
+        "token": "甲骨文",
+        "gloss": "jiǎgǔwén - oracle bone script",
+        "pos": "noun",
+        "semantic_field": "writing_system",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0002",
+      "script_symbol": "卜",
+      "transliteration": "bǔ",
+      "translation": "bǔ - to divine, divination",
+      "pos": "verb/noun",
+      "morphology": {},
+      "definitions": [
+        "to divine, divination"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0002",
+        "token": "卜",
+        "gloss": "bǔ - to divine, divination",
+        "pos": "verb/noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0003",
+      "script_symbol": "吉",
+      "transliteration": "jí",
+      "translation": "jí - auspicious, good fortune",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "auspicious, good fortune"
+      ],
+      "semantic_field": "divination",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0003",
+        "token": "吉",
+        "gloss": "jí - auspicious, good fortune",
+        "pos": "adjective",
+        "semantic_field": "divination",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0004",
+      "script_symbol": "凶",
+      "transliteration": "xiōng",
+      "translation": "xiōng - inauspicious, bad fortune",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "inauspicious, bad fortune"
+      ],
+      "semantic_field": "divination",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0004",
+        "token": "凶",
+        "gloss": "xiōng - inauspicious, bad fortune",
+        "pos": "adjective",
+        "semantic_field": "divination",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0005",
+      "script_symbol": "王",
+      "transliteration": "wáng",
+      "translation": "wáng - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0005",
+        "token": "王",
+        "gloss": "wáng - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0006",
+      "script_symbol": "帝",
+      "transliteration": "dì",
+      "translation": "dì - supreme deity, emperor",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "supreme deity, emperor"
+      ],
+      "semantic_field": "political/religious",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0006",
+        "token": "帝",
+        "gloss": "dì - supreme deity, emperor",
+        "pos": "noun",
+        "semantic_field": "political/religious",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0007",
+      "script_symbol": "天",
+      "transliteration": "tiān",
+      "translation": "tiān - heaven, sky",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heaven, sky"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0007",
+        "token": "天",
+        "gloss": "tiān - heaven, sky",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0008",
+      "script_symbol": "地",
+      "transliteration": "dì",
+      "translation": "dì - earth, ground",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, ground"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0008",
+        "token": "地",
+        "gloss": "dì - earth, ground",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0009",
+      "script_symbol": "日",
+      "transliteration": "rì",
+      "translation": "rì - sun, day",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun, day"
+      ],
+      "semantic_field": "celestial/temporal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0009",
+        "token": "日",
+        "gloss": "rì - sun, day",
+        "pos": "noun",
+        "semantic_field": "celestial/temporal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0010",
+      "script_symbol": "月",
+      "transliteration": "yuè",
+      "translation": "yuè - moon, month",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon, month"
+      ],
+      "semantic_field": "celestial/temporal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0010",
+        "token": "月",
+        "gloss": "yuè - moon, month",
+        "pos": "noun",
+        "semantic_field": "celestial/temporal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0011",
+      "script_symbol": "星",
+      "transliteration": "xīng",
+      "translation": "xīng - star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0011",
+        "token": "星",
+        "gloss": "xīng - star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0012",
+      "script_symbol": "山",
+      "transliteration": "shān",
+      "translation": "shān - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0012",
+        "token": "山",
+        "gloss": "shān - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0013",
+      "script_symbol": "水",
+      "transliteration": "shuǐ",
+      "translation": "shuǐ - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0013",
+        "token": "水",
+        "gloss": "shuǐ - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0014",
+      "script_symbol": "火",
+      "transliteration": "huǒ",
+      "translation": "huǒ - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0014",
+        "token": "火",
+        "gloss": "huǒ - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0015",
+      "script_symbol": "木",
+      "transliteration": "mù",
+      "translation": "mù - tree, wood",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "tree, wood"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0015",
+        "token": "木",
+        "gloss": "mù - tree, wood",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0016",
+      "script_symbol": "金",
+      "transliteration": "jīn",
+      "translation": "jīn - gold, metal",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "gold, metal"
+      ],
+      "semantic_field": "material",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0016",
+        "token": "金",
+        "gloss": "jīn - gold, metal",
+        "pos": "noun",
+        "semantic_field": "material",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0017",
+      "script_symbol": "土",
+      "transliteration": "tǔ",
+      "translation": "tǔ - earth, soil",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, soil"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0017",
+        "token": "土",
+        "gloss": "tǔ - earth, soil",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0018",
+      "script_symbol": "人",
+      "transliteration": "rén",
+      "translation": "rén - person, human",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "person, human"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0018",
+        "token": "人",
+        "gloss": "rén - person, human",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0019",
+      "script_symbol": "大",
+      "transliteration": "dà",
+      "translation": "dà - big, great",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "big, great"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0019",
+        "token": "大",
+        "gloss": "dà - big, great",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0020",
+      "script_symbol": "小",
+      "transliteration": "xiǎo",
+      "translation": "xiǎo - small",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "small"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0020",
+        "token": "小",
+        "gloss": "xiǎo - small",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0021",
+      "script_symbol": "上",
+      "transliteration": "shàng",
+      "translation": "shàng - above, up",
+      "pos": "positional",
+      "morphology": {},
+      "definitions": [
+        "above, up"
+      ],
+      "semantic_field": "spatial",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0021",
+        "token": "上",
+        "gloss": "shàng - above, up",
+        "pos": "positional",
+        "semantic_field": "spatial",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0022",
+      "script_symbol": "下",
+      "transliteration": "xià",
+      "translation": "xià - below, down",
+      "pos": "positional",
+      "morphology": {},
+      "definitions": [
+        "below, down"
+      ],
+      "semantic_field": "spatial",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0022",
+        "token": "下",
+        "gloss": "xià - below, down",
+        "pos": "positional",
+        "semantic_field": "spatial",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0023",
+      "script_symbol": "中",
+      "transliteration": "zhōng",
+      "translation": "zhōng - middle, center, China",
+      "pos": "positional/noun",
+      "morphology": {},
+      "definitions": [
+        "middle, center, China"
+      ],
+      "semantic_field": "spatial/geographic",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0023",
+        "token": "中",
+        "gloss": "zhōng - middle, center, China",
+        "pos": "positional/noun",
+        "semantic_field": "spatial/geographic",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0024",
+      "script_symbol": "一",
+      "transliteration": "yī",
+      "translation": "yī - one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0024",
+        "token": "一",
+        "gloss": "yī - one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0025",
+      "script_symbol": "二",
+      "transliteration": "èr",
+      "translation": "èr - two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0025",
+        "token": "二",
+        "gloss": "èr - two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0026",
+      "script_symbol": "三",
+      "transliteration": "sān",
+      "translation": "sān - three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0026",
+        "token": "三",
+        "gloss": "sān - three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0027",
+      "script_symbol": "四",
+      "transliteration": "sì",
+      "translation": "sì - four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0027",
+        "token": "四",
+        "gloss": "sì - four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0028",
+      "script_symbol": "五",
+      "transliteration": "wǔ",
+      "translation": "wǔ - five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0028",
+        "token": "五",
+        "gloss": "wǔ - five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0029",
+      "script_symbol": "六",
+      "transliteration": "liù",
+      "translation": "liù - six",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "six"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0029",
+        "token": "六",
+        "gloss": "liù - six",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0030",
+      "script_symbol": "七",
+      "transliteration": "qī",
+      "translation": "qī - seven",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "seven"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0030",
+        "token": "七",
+        "gloss": "qī - seven",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0031",
+      "script_symbol": "八",
+      "transliteration": "bā",
+      "translation": "bā - eight",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "eight"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0031",
+        "token": "八",
+        "gloss": "bā - eight",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0032",
+      "script_symbol": "九",
+      "transliteration": "jiǔ",
+      "translation": "jiǔ - nine",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "nine"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0032",
+        "token": "九",
+        "gloss": "jiǔ - nine",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0033",
+      "script_symbol": "十",
+      "transliteration": "shí",
+      "translation": "shí - ten",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0033",
+        "token": "十",
+        "gloss": "shí - ten",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0034",
+      "script_symbol": "百",
+      "transliteration": "bǎi",
+      "translation": "bǎi - hundred",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "hundred"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0034",
+        "token": "百",
+        "gloss": "bǎi - hundred",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0035",
+      "script_symbol": "千",
+      "transliteration": "qiān",
+      "translation": "qiān - thousand",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "thousand"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0035",
+        "token": "千",
+        "gloss": "qiān - thousand",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0036",
+      "script_symbol": "萬",
+      "transliteration": "wàn",
+      "translation": "wàn - ten thousand, myriad",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "ten thousand, myriad"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0036",
+        "token": "萬",
+        "gloss": "wàn - ten thousand, myriad",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0037",
+      "script_symbol": "龍",
+      "transliteration": "lóng",
+      "translation": "lóng - dragon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "dragon"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0037",
+        "token": "龍",
+        "gloss": "lóng - dragon",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0038",
+      "script_symbol": "鳳",
+      "transliteration": "fèng",
+      "translation": "fèng - phoenix",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "phoenix"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0038",
+        "token": "鳳",
+        "gloss": "fèng - phoenix",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0039",
+      "script_symbol": "龜",
+      "transliteration": "guī",
+      "translation": "guī - turtle (used in divination)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "turtle (used in divination)"
+      ],
+      "semantic_field": "animal/religious",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0039",
+        "token": "龜",
+        "gloss": "guī - turtle (used in divination)",
+        "pos": "noun",
+        "semantic_field": "animal/religious",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0040",
+      "script_symbol": "馬",
+      "transliteration": "mǎ",
+      "translation": "mǎ - horse",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "horse"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0040",
+        "token": "馬",
+        "gloss": "mǎ - horse",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0041",
+      "script_symbol": "牛",
+      "transliteration": "niú",
+      "translation": "niú - ox, cow",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ox, cow"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0041",
+        "token": "牛",
+        "gloss": "niú - ox, cow",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0042",
+      "script_symbol": "羊",
+      "transliteration": "yáng",
+      "translation": "yáng - sheep, goat",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sheep, goat"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0042",
+        "token": "羊",
+        "gloss": "yáng - sheep, goat",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0043",
+      "script_symbol": "犬",
+      "transliteration": "quǎn",
+      "translation": "quǎn - dog",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "dog"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0043",
+        "token": "犬",
+        "gloss": "quǎn - dog",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0044",
+      "script_symbol": "鳥",
+      "transliteration": "niǎo",
+      "translation": "niǎo - bird",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "bird"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0044",
+        "token": "鳥",
+        "gloss": "niǎo - bird",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0045",
+      "script_symbol": "魚",
+      "transliteration": "yú",
+      "translation": "yú - fish",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fish"
+      ],
+      "semantic_field": "animal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0045",
+        "token": "魚",
+        "gloss": "yú - fish",
+        "pos": "noun",
+        "semantic_field": "animal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0046",
+      "script_symbol": "父",
+      "transliteration": "fù",
+      "translation": "fù - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0046",
+        "token": "父",
+        "gloss": "fù - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0047",
+      "script_symbol": "母",
+      "transliteration": "mǔ",
+      "translation": "mǔ - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0047",
+        "token": "母",
+        "gloss": "mǔ - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0048",
+      "script_symbol": "子",
+      "transliteration": "zǐ",
+      "translation": "zǐ - son, child, master (honorific)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son, child, master (honorific)"
+      ],
+      "semantic_field": "kinship/honorific",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0048",
+        "token": "子",
+        "gloss": "zǐ - son, child, master (honorific)",
+        "pos": "noun",
+        "semantic_field": "kinship/honorific",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0049",
+      "script_symbol": "女",
+      "transliteration": "nǚ",
+      "translation": "nǚ - woman, daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman, daughter"
+      ],
+      "semantic_field": "anthropological/kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0049",
+        "token": "女",
+        "gloss": "nǚ - woman, daughter",
+        "pos": "noun",
+        "semantic_field": "anthropological/kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0050",
+      "script_symbol": "兄",
+      "transliteration": "xiōng",
+      "translation": "xiōng - elder brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "elder brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0050",
+        "token": "兄",
+        "gloss": "xiōng - elder brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0051",
+      "script_symbol": "弟",
+      "transliteration": "dì",
+      "translation": "dì - younger brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "younger brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0051",
+        "token": "弟",
+        "gloss": "dì - younger brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0052",
+      "script_symbol": "夫",
+      "transliteration": "fū",
+      "translation": "fū - husband, man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "husband, man"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0052",
+        "token": "夫",
+        "gloss": "fū - husband, man",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0053",
+      "script_symbol": "妻",
+      "transliteration": "qī",
+      "translation": "qī - wife",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wife"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0053",
+        "token": "妻",
+        "gloss": "qī - wife",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0054",
+      "script_symbol": "祖",
+      "transliteration": "zǔ",
+      "translation": "zǔ - ancestor, grandfather",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ancestor, grandfather"
+      ],
+      "semantic_field": "kinship/religious",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0054",
+        "token": "祖",
+        "gloss": "zǔ - ancestor, grandfather",
+        "pos": "noun",
+        "semantic_field": "kinship/religious",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0055",
+      "script_symbol": "道",
+      "transliteration": "dào",
+      "translation": "dào - way, path, Tao",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "way, path, Tao"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0055",
+        "token": "道",
+        "gloss": "dào - way, path, Tao",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0056",
+      "script_symbol": "德",
+      "transliteration": "dé",
+      "translation": "dé - virtue, power",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "virtue, power"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0056",
+        "token": "德",
+        "gloss": "dé - virtue, power",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0057",
+      "script_symbol": "仁",
+      "transliteration": "rén",
+      "translation": "rén - benevolence, humaneness",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "benevolence, humaneness"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0057",
+        "token": "仁",
+        "gloss": "rén - benevolence, humaneness",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0058",
+      "script_symbol": "義",
+      "transliteration": "yì",
+      "translation": "yì - righteousness, justice",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "righteousness, justice"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0058",
+        "token": "義",
+        "gloss": "yì - righteousness, justice",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0059",
+      "script_symbol": "禮",
+      "transliteration": "lǐ",
+      "translation": "lǐ - ritual, propriety",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ritual, propriety"
+      ],
+      "semantic_field": "philosophical/religious",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0059",
+        "token": "禮",
+        "gloss": "lǐ - ritual, propriety",
+        "pos": "noun",
+        "semantic_field": "philosophical/religious",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0060",
+      "script_symbol": "智",
+      "transliteration": "zhì",
+      "translation": "zhì - wisdom",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wisdom"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0060",
+        "token": "智",
+        "gloss": "zhì - wisdom",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0061",
+      "script_symbol": "信",
+      "transliteration": "xìn",
+      "translation": "xìn - trust, faith",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "trust, faith"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0061",
+        "token": "信",
+        "gloss": "xìn - trust, faith",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0062",
+      "script_symbol": "忠",
+      "transliteration": "zhōng",
+      "translation": "zhōng - loyalty",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "loyalty"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0062",
+        "token": "忠",
+        "gloss": "zhōng - loyalty",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0063",
+      "script_symbol": "孝",
+      "transliteration": "xiào",
+      "translation": "xiào - filial piety",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "filial piety"
+      ],
+      "semantic_field": "moral/kinship",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0063",
+        "token": "孝",
+        "gloss": "xiào - filial piety",
+        "pos": "noun",
+        "semantic_field": "moral/kinship",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0064",
+      "script_symbol": "氣",
+      "transliteration": "qì",
+      "translation": "qì - breath, vital energy, spirit",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "breath, vital energy, spirit"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0064",
+        "token": "氣",
+        "gloss": "qì - breath, vital energy, spirit",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0065",
+      "script_symbol": "陰",
+      "transliteration": "yīn",
+      "translation": "yīn - yin (dark, feminine, passive)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "yin (dark, feminine, passive)"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0065",
+        "token": "陰",
+        "gloss": "yīn - yin (dark, feminine, passive)",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0066",
+      "script_symbol": "陽",
+      "transliteration": "yáng",
+      "translation": "yáng - yang (light, masculine, active)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "yang (light, masculine, active)"
+      ],
+      "semantic_field": "cosmological",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0066",
+        "token": "陽",
+        "gloss": "yáng - yang (light, masculine, active)",
+        "pos": "noun",
+        "semantic_field": "cosmological",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0067",
+      "script_symbol": "命",
+      "transliteration": "mìng",
+      "translation": "mìng - fate, life, mandate",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fate, life, mandate"
+      ],
+      "semantic_field": "philosophical/political",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0067",
+        "token": "命",
+        "gloss": "mìng - fate, life, mandate",
+        "pos": "noun",
+        "semantic_field": "philosophical/political",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0068",
+      "script_symbol": "心",
+      "transliteration": "xīn",
+      "translation": "xīn - heart, mind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heart, mind"
+      ],
+      "semantic_field": "anatomical/philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0068",
+        "token": "心",
+        "gloss": "xīn - heart, mind",
+        "pos": "noun",
+        "semantic_field": "anatomical/philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0069",
+      "script_symbol": "言",
+      "transliteration": "yán",
+      "translation": "yán - speech, word",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "speech, word"
+      ],
+      "semantic_field": "linguistic",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0069",
+        "token": "言",
+        "gloss": "yán - speech, word",
+        "pos": "noun",
+        "semantic_field": "linguistic",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0070",
+      "script_symbol": "文",
+      "transliteration": "wén",
+      "translation": "wén - writing, culture, pattern",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "writing, culture, pattern"
+      ],
+      "semantic_field": "literary/cultural",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0070",
+        "token": "文",
+        "gloss": "wén - writing, culture, pattern",
+        "pos": "noun",
+        "semantic_field": "literary/cultural",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0071",
+      "script_symbol": "書",
+      "transliteration": "shū",
+      "translation": "shū - book, to write",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "book, to write"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0071",
+        "token": "書",
+        "gloss": "shū - book, to write",
+        "pos": "noun/verb",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0072",
+      "script_symbol": "學",
+      "transliteration": "xué",
+      "translation": "xué - to study, learning",
+      "pos": "verb/noun",
+      "morphology": {},
+      "definitions": [
+        "to study, learning"
+      ],
+      "semantic_field": "education",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0072",
+        "token": "學",
+        "gloss": "xué - to study, learning",
+        "pos": "verb/noun",
+        "semantic_field": "education",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0073",
+      "script_symbol": "國",
+      "transliteration": "guó",
+      "translation": "guó - country, state",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "country, state"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0073",
+        "token": "國",
+        "gloss": "guó - country, state",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0074",
+      "script_symbol": "民",
+      "transliteration": "mín",
+      "translation": "mín - people, citizens",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "people, citizens"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0074",
+        "token": "民",
+        "gloss": "mín - people, citizens",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0075",
+      "script_symbol": "軍",
+      "transliteration": "jūn",
+      "translation": "jūn - army",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "army"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0075",
+        "token": "軍",
+        "gloss": "jūn - army",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0076",
+      "script_symbol": "戰",
+      "transliteration": "zhàn",
+      "translation": "zhàn - war, battle",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "war, battle"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0076",
+        "token": "戰",
+        "gloss": "zhàn - war, battle",
+        "pos": "noun/verb",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0077",
+      "script_symbol": "法",
+      "transliteration": "fǎ",
+      "translation": "fǎ - law, method, dharma",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "law, method, dharma"
+      ],
+      "semantic_field": "legal/philosophical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0077",
+        "token": "法",
+        "gloss": "fǎ - law, method, dharma",
+        "pos": "noun",
+        "semantic_field": "legal/philosophical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0078",
+      "script_symbol": "刑",
+      "transliteration": "xíng",
+      "translation": "xíng - punishment",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "punishment"
+      ],
+      "semantic_field": "legal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0078",
+        "token": "刑",
+        "gloss": "xíng - punishment",
+        "pos": "noun",
+        "semantic_field": "legal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0079",
+      "script_symbol": "年",
+      "transliteration": "nián",
+      "translation": "nián - year",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0079",
+        "token": "年",
+        "gloss": "nián - year",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0080",
+      "script_symbol": "春",
+      "transliteration": "chūn",
+      "translation": "chūn - spring",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "spring"
+      ],
+      "semantic_field": "seasonal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0080",
+        "token": "春",
+        "gloss": "chūn - spring",
+        "pos": "noun",
+        "semantic_field": "seasonal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0081",
+      "script_symbol": "夏",
+      "transliteration": "xià",
+      "translation": "xià - summer; Xia dynasty",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "summer; Xia dynasty"
+      ],
+      "semantic_field": "seasonal/historical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0081",
+        "token": "夏",
+        "gloss": "xià - summer; Xia dynasty",
+        "pos": "noun",
+        "semantic_field": "seasonal/historical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0082",
+      "script_symbol": "秋",
+      "transliteration": "qiū",
+      "translation": "qiū - autumn",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "autumn"
+      ],
+      "semantic_field": "seasonal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0082",
+        "token": "秋",
+        "gloss": "qiū - autumn",
+        "pos": "noun",
+        "semantic_field": "seasonal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0083",
+      "script_symbol": "冬",
+      "transliteration": "dōng",
+      "translation": "dōng - winter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "winter"
+      ],
+      "semantic_field": "seasonal",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0083",
+        "token": "冬",
+        "gloss": "dōng - winter",
+        "pos": "noun",
+        "semantic_field": "seasonal",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0084",
+      "script_symbol": "生",
+      "transliteration": "shēng",
+      "translation": "shēng - life, to be born, to grow",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "life, to be born, to grow"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0084",
+        "token": "生",
+        "gloss": "shēng - life, to be born, to grow",
+        "pos": "noun/verb",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0085",
+      "script_symbol": "死",
+      "transliteration": "sǐ",
+      "translation": "sǐ - death, to die",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "death, to die"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0085",
+        "token": "死",
+        "gloss": "sǐ - death, to die",
+        "pos": "noun/verb",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0086",
+      "script_symbol": "食",
+      "transliteration": "shí",
+      "translation": "shí - food, to eat",
+      "pos": "noun/verb",
+      "morphology": {},
+      "definitions": [
+        "food, to eat"
+      ],
+      "semantic_field": "sustenance",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0086",
+        "token": "食",
+        "gloss": "shí - food, to eat",
+        "pos": "noun/verb",
+        "semantic_field": "sustenance",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0087",
+      "script_symbol": "酒",
+      "transliteration": "jiǔ",
+      "translation": "jiǔ - wine, alcohol",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wine, alcohol"
+      ],
+      "semantic_field": "food/culture",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0087",
+        "token": "酒",
+        "gloss": "jiǔ - wine, alcohol",
+        "pos": "noun",
+        "semantic_field": "food/culture",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0088",
+      "script_symbol": "田",
+      "transliteration": "tián",
+      "translation": "tián - field",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "field"
+      ],
+      "semantic_field": "agricultural",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0088",
+        "token": "田",
+        "gloss": "tián - field",
+        "pos": "noun",
+        "semantic_field": "agricultural",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0089",
+      "script_symbol": "禾",
+      "transliteration": "hé",
+      "translation": "hé - grain, cereal",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "grain, cereal"
+      ],
+      "semantic_field": "agricultural",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0089",
+        "token": "禾",
+        "gloss": "hé - grain, cereal",
+        "pos": "noun",
+        "semantic_field": "agricultural",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0090",
+      "script_symbol": "車",
+      "transliteration": "chē",
+      "translation": "chē - chariot, vehicle",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "chariot, vehicle"
+      ],
+      "semantic_field": "military/transport",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0090",
+        "token": "車",
+        "gloss": "chē - chariot, vehicle",
+        "pos": "noun",
+        "semantic_field": "military/transport",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0091",
+      "script_symbol": "弓",
+      "transliteration": "gōng",
+      "translation": "gōng - bow (weapon)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "bow (weapon)"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0091",
+        "token": "弓",
+        "gloss": "gōng - bow (weapon)",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0092",
+      "script_symbol": "劍",
+      "transliteration": "jiàn",
+      "translation": "jiàn - sword",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sword"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0092",
+        "token": "劍",
+        "gloss": "jiàn - sword",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0093",
+      "script_symbol": "玉",
+      "transliteration": "yù",
+      "translation": "yù - jade",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "jade"
+      ],
+      "semantic_field": "material/cultural",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0093",
+        "token": "玉",
+        "gloss": "yù - jade",
+        "pos": "noun",
+        "semantic_field": "material/cultural",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0094",
+      "script_symbol": "鼎",
+      "transliteration": "dǐng",
+      "translation": "dǐng - tripod cauldron (ritual vessel)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "tripod cauldron (ritual vessel)"
+      ],
+      "semantic_field": "religious/material",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0094",
+        "token": "鼎",
+        "gloss": "dǐng - tripod cauldron (ritual vessel)",
+        "pos": "noun",
+        "semantic_field": "religious/material",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0095",
+      "script_symbol": "樂",
+      "transliteration": "yuè/lè",
+      "translation": "yuè/lè - music/joy",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "music/joy"
+      ],
+      "semantic_field": "artistic/emotional",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0095",
+        "token": "樂",
+        "gloss": "yuè/lè - music/joy",
+        "pos": "noun",
+        "semantic_field": "artistic/emotional",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0096",
+      "script_symbol": "詩",
+      "transliteration": "shī",
+      "translation": "shī - poetry",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "poetry"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0096",
+        "token": "詩",
+        "gloss": "shī - poetry",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0097",
+      "script_symbol": "河",
+      "transliteration": "hé",
+      "translation": "hé - river (Yellow River)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river (Yellow River)"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0097",
+        "token": "河",
+        "gloss": "hé - river (Yellow River)",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0098",
+      "script_symbol": "海",
+      "transliteration": "hǎi",
+      "translation": "hǎi - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0098",
+        "token": "海",
+        "gloss": "hǎi - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0099",
+      "script_symbol": "風",
+      "transliteration": "fēng",
+      "translation": "fēng - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0099",
+        "token": "風",
+        "gloss": "fēng - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0100",
+      "script_symbol": "雨",
+      "transliteration": "yǔ",
+      "translation": "yǔ - rain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "rain"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0100",
+        "token": "雨",
+        "gloss": "yǔ - rain",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0101",
+      "script_symbol": "雪",
+      "transliteration": "xuě",
+      "translation": "xuě - snow",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "snow"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0101",
+        "token": "雪",
+        "gloss": "xuě - snow",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0102",
+      "script_symbol": "花",
+      "transliteration": "huā",
+      "translation": "huā - flower",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "flower"
+      ],
+      "semantic_field": "botanical",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0102",
+        "token": "花",
+        "gloss": "huā - flower",
+        "pos": "noun",
+        "semantic_field": "botanical",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0103",
+      "script_symbol": "白",
+      "transliteration": "bái",
+      "translation": "bái - white",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "white"
+      ],
+      "semantic_field": "color",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0103",
+        "token": "白",
+        "gloss": "bái - white",
+        "pos": "adjective",
+        "semantic_field": "color",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0104",
+      "script_symbol": "黑",
+      "transliteration": "hēi",
+      "translation": "hēi - black",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "black"
+      ],
+      "semantic_field": "color",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0104",
+        "token": "黑",
+        "gloss": "hēi - black",
+        "pos": "adjective",
+        "semantic_field": "color",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0105",
+      "script_symbol": "紅",
+      "transliteration": "hóng",
+      "translation": "hóng - red",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "red"
+      ],
+      "semantic_field": "color",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0105",
+        "token": "紅",
+        "gloss": "hóng - red",
+        "pos": "adjective",
+        "semantic_field": "color",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    },
+    {
+      "entry_id": "chinese_classical_0106",
+      "script_symbol": "黃",
+      "transliteration": "huáng",
+      "translation": "huáng - yellow (imperial color)",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "yellow (imperial color)"
+      ],
+      "semantic_field": "color",
+      "etymology": "",
+      "attestations": [
+        "Shuowen Jiezi (Xu Shen, 100 CE)"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "ctext",
+        "ctext_dictionary"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "chinese_classical_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "chinese_classical_0106",
+        "token": "黃",
+        "gloss": "huáng - yellow (imperial color)",
+        "pos": "adjective",
+        "semantic_field": "color",
+        "confidence": 1.0,
+        "source": "Shuowen Jiezi (Xu Shen, 100 CE)"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Chinese (Classical/Oracle Bone to Literary) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

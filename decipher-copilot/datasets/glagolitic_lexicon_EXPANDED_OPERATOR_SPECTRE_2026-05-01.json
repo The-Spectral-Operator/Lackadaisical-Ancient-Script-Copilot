@@ -1,0 +1,3367 @@
+{
+  "metadata": {
+    "title": "Glagolitic / Old Church Slavonic Lexicon",
+    "description": "Expanded and normalized Glagolitic / Old Church Slavonic dataset derived from glagolitic_lexicon.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": null,
+    "original_created": null,
+    "original_file": "glagolitic_lexicon.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 107,
+    "corpus_status": "expanded_seed_normalized_attestation_indexed",
+    "sources": [
+      "The Unicode Consortium – Code Charts"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "alphabet",
+    "historical_significance": "Earliest Slavic alphabetic tradition used for Old Church Slavonic liturgical texts.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "glagolitic_0001",
+      "script_symbol": "ⰱⱁⰳⱏ",
+      "transliteration": "bogŭ",
+      "translation": "god",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Attested in Codex Zographensis; from Proto-Slavic *bogъ"
+      },
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "god",
+        "glagolitic": "ⰱⱁⰳⱏ",
+        "translit": "bogŭ",
+        "notes": "Attested in Codex Zographensis; from Proto-Slavic *bogъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0002",
+      "script_symbol": "ⰳⱁⱄⱂⱁⰴⱏ",
+      "transliteration": "gospodĭ",
+      "translation": "lord",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Master, lord; from gospod- 'master'"
+      },
+      "definitions": [
+        "lord"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "lord",
+        "glagolitic": "ⰳⱁⱄⱂⱁⰴⱏ",
+        "translit": "gospodĭ",
+        "notes": "Master, lord; from gospod- 'master'"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0003",
+      "script_symbol": "ⱄⰾⱁⰲⱁ",
+      "transliteration": "slovo",
+      "translation": "word",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Word, speech; root of Slavic language names"
+      },
+      "definitions": [
+        "word"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "word",
+        "glagolitic": "ⱄⰾⱁⰲⱁ",
+        "translit": "slovo",
+        "notes": "Word, speech; root of Slavic language names"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0004",
+      "script_symbol": "ⱈⱃⰻⱄⱅⱁⱄⱏ",
+      "transliteration": "xristosŭ",
+      "translation": "christ",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Christ, the anointed one; Greek loanword"
+      },
+      "definitions": [
+        "christ"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "christ",
+        "glagolitic": "ⱈⱃⰻⱄⱅⱁⱄⱏ",
+        "translit": "xristosŭ",
+        "notes": "Christ, the anointed one; Greek loanword"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0005",
+      "script_symbol": "ⰻⰹⱄⱆⱄⱏ",
+      "transliteration": "iisusŭ",
+      "translation": "jesus",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Jesus; Greek/Hebrew loanword via Greek"
+      },
+      "definitions": [
+        "jesus"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "jesus",
+        "glagolitic": "ⰻⰹⱄⱆⱄⱏ",
+        "translit": "iisusŭ",
+        "notes": "Jesus; Greek/Hebrew loanword via Greek"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0006",
+      "script_symbol": "ⱁⱅⱏⱌⱏ",
+      "transliteration": "otĭčĭ",
+      "translation": "father",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Father; from Proto-Slavic *otьcь"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "father",
+        "glagolitic": "ⱁⱅⱏⱌⱏ",
+        "translit": "otĭčĭ",
+        "notes": "Father; from Proto-Slavic *otьcь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0007",
+      "script_symbol": "ⱄⱏⱀⱏ",
+      "transliteration": "synŭ",
+      "translation": "son",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Son; from Proto-Slavic *synъ"
+      },
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "son",
+        "glagolitic": "ⱄⱏⱀⱏ",
+        "translit": "synŭ",
+        "notes": "Son; from Proto-Slavic *synъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0008",
+      "script_symbol": "ⰴⱆⱈⱏ",
+      "transliteration": "duxŭ",
+      "translation": "spirit",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Spirit, breath; from Proto-Slavic *duxъ"
+      },
+      "definitions": [
+        "spirit"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "spirit",
+        "glagolitic": "ⰴⱆⱈⱏ",
+        "translit": "duxŭ",
+        "notes": "Spirit, breath; from Proto-Slavic *duxъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0009",
+      "script_symbol": "ⱄⰲⱑⱅⱏ",
+      "transliteration": "svętŭ",
+      "translation": "holy",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Holy, sacred; from Proto-Slavic *svętъ"
+      },
+      "definitions": [
+        "holy"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "holy",
+        "glagolitic": "ⱄⰲⱑⱅⱏ",
+        "translit": "svętŭ",
+        "notes": "Holy, sacred; from Proto-Slavic *svętъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0010",
+      "script_symbol": "ⱌⱃⱏⰽⱏⰲⱏ",
+      "transliteration": "črĭky",
+      "translation": "church",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Church; from Greek κυριακόν"
+      },
+      "definitions": [
+        "church"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "church",
+        "glagolitic": "ⱌⱃⱏⰽⱏⰲⱏ",
+        "translit": "črĭky",
+        "notes": "Church; from Greek κυριακόν"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0011",
+      "script_symbol": "ⰽⱓⰴⰻⰵ",
+      "transliteration": "ljudie",
+      "translation": "people",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "People, folk; from Proto-Slavic *ljudьje"
+      },
+      "definitions": [
+        "people"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "people",
+        "glagolitic": "ⰽⱓⰴⰻⰵ",
+        "translit": "ljudie",
+        "notes": "People, folk; from Proto-Slavic *ljudьje"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0012",
+      "script_symbol": "ⰰⰴⰰⰿⱏ",
+      "transliteration": "adamŭ",
+      "translation": "man",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Adam, first man; Hebrew loanword"
+      },
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "man",
+        "glagolitic": "ⰰⰴⰰⰿⱏ",
+        "translit": "adamŭ",
+        "notes": "Adam, first man; Hebrew loanword"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0013",
+      "script_symbol": "ⰶⰵⰿⰰ",
+      "transliteration": "žena",
+      "translation": "woman",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Woman, wife; from Proto-Slavic *žena"
+      },
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "woman",
+        "glagolitic": "ⰶⰵⰿⰰ",
+        "translit": "žena",
+        "notes": "Woman, wife; from Proto-Slavic *žena"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0014",
+      "script_symbol": "ⰸⰵⰿⰾⱓ",
+      "transliteration": "zemlja",
+      "translation": "earth",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Earth, land; from Proto-Slavic *zemlja"
+      },
+      "definitions": [
+        "earth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "earth",
+        "glagolitic": "ⰸⰵⰿⰾⱓ",
+        "translit": "zemlja",
+        "notes": "Earth, land; from Proto-Slavic *zemlja"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0015",
+      "script_symbol": "ⰿⰵⰱⱁ",
+      "transliteration": "nebo",
+      "translation": "heaven",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Heaven, sky; from Proto-Slavic *nebo"
+      },
+      "definitions": [
+        "heaven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "heaven",
+        "glagolitic": "ⰿⰵⰱⱁ",
+        "translit": "nebo",
+        "notes": "Heaven, sky; from Proto-Slavic *nebo"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0016",
+      "script_symbol": "ⰲⱁⰴⰰ",
+      "transliteration": "voda",
+      "translation": "water",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Water; from Proto-Slavic *voda"
+      },
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "water",
+        "glagolitic": "ⰲⱁⰴⰰ",
+        "translit": "voda",
+        "notes": "Water; from Proto-Slavic *voda"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0017",
+      "script_symbol": "ⱁⰳⱏⱀⱏ",
+      "transliteration": "ognĭ",
+      "translation": "fire",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Fire; from Proto-Slavic *ognь"
+      },
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "fire",
+        "glagolitic": "ⱁⰳⱏⱀⱏ",
+        "translit": "ognĭ",
+        "notes": "Fire; from Proto-Slavic *ognь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0018",
+      "script_symbol": "ⱄⰲⱑⱅⱏ",
+      "transliteration": "světŭ",
+      "translation": "light",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Light; from Proto-Slavic *světъ"
+      },
+      "definitions": [
+        "light"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "light",
+        "glagolitic": "ⱄⰲⱑⱅⱏ",
+        "translit": "světŭ",
+        "notes": "Light; from Proto-Slavic *světъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0019",
+      "script_symbol": "ⱅⱏⰿⰰ",
+      "transliteration": "tĭma",
+      "translation": "darkness",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Darkness; from Proto-Slavic *tьma"
+      },
+      "definitions": [
+        "darkness"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "darkness",
+        "glagolitic": "ⱅⱏⰿⰰ",
+        "translit": "tĭma",
+        "notes": "Darkness; from Proto-Slavic *tьma"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0020",
+      "script_symbol": "ⰶⰻⰲⱁⱅⱏ",
+      "transliteration": "životŭ",
+      "translation": "life",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Life; from Proto-Slavic *životъ"
+      },
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "life",
+        "glagolitic": "ⰶⰻⰲⱁⱅⱏ",
+        "translit": "životŭ",
+        "notes": "Life; from Proto-Slavic *životъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0021",
+      "script_symbol": "ⱄⱏⰿⱃⱏⱅⱏ",
+      "transliteration": "sĭmrĭtĭ",
+      "translation": "death",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Death; from Proto-Slavic *sъmьrtь"
+      },
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "death",
+        "glagolitic": "ⱄⱏⰿⱃⱏⱅⱏ",
+        "translit": "sĭmrĭtĭ",
+        "notes": "Death; from Proto-Slavic *sъmьrtь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0022",
+      "script_symbol": "ⰻⱄⱅⰻⰿⰰ",
+      "transliteration": "istina",
+      "translation": "truth",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Truth; from Proto-Slavic *istina"
+      },
+      "definitions": [
+        "truth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "truth",
+        "glagolitic": "ⰻⱄⱅⰻⰿⰰ",
+        "translit": "istina",
+        "notes": "Truth; from Proto-Slavic *istina"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0023",
+      "script_symbol": "ⰾⱓⰱⱏⰲⱏ",
+      "transliteration": "ljuby",
+      "translation": "love",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Love; from Proto-Slavic *ljubъ"
+      },
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "love",
+        "glagolitic": "ⰾⱓⰱⱏⰲⱏ",
+        "translit": "ljuby",
+        "notes": "Love; from Proto-Slavic *ljubъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0024",
+      "script_symbol": "ⰼⰻⱃⱏ",
+      "transliteration": "mirŭ",
+      "translation": "peace",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Peace, world; from Proto-Slavic *mirъ"
+      },
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "peace",
+        "glagolitic": "ⰼⰻⱃⱏ",
+        "translit": "mirŭ",
+        "notes": "Peace, world; from Proto-Slavic *mirъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0025",
+      "script_symbol": "ⱌⱑⱄⰰⱃⱏ",
+      "transliteration": "cěsarĭ",
+      "translation": "king",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Emperor, caesar; from Latin caesar"
+      },
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "king",
+        "glagolitic": "ⱌⱑⱄⰰⱃⱏ",
+        "translit": "cěsarĭ",
+        "notes": "Emperor, caesar; from Latin caesar"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0026",
+      "script_symbol": "ⰴⱁⰿⱏ",
+      "transliteration": "domŭ",
+      "translation": "house",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "House, home; from Proto-Slavic *domъ"
+      },
+      "definitions": [
+        "house"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "house",
+        "glagolitic": "ⰴⱁⰿⱏ",
+        "translit": "domŭ",
+        "notes": "House, home; from Proto-Slavic *domъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0027",
+      "script_symbol": "ⱈⰾⱑⰱⱏ",
+      "transliteration": "xlěbŭ",
+      "translation": "bread",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Bread; from Proto-Slavic *xlěbъ"
+      },
+      "definitions": [
+        "bread"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "bread",
+        "glagolitic": "ⱈⰾⱑⰱⱏ",
+        "translit": "xlěbŭ",
+        "notes": "Bread; from Proto-Slavic *xlěbъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0028",
+      "script_symbol": "ⰲⰻⰿⱁ",
+      "transliteration": "vino",
+      "translation": "wine",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Wine; from Proto-Slavic *vino"
+      },
+      "definitions": [
+        "wine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "wine",
+        "glagolitic": "ⰲⰻⰿⱁ",
+        "translit": "vino",
+        "notes": "Wine; from Proto-Slavic *vino"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0029",
+      "script_symbol": "ⰱⱆⰽⱏⰲⱏ",
+      "transliteration": "buky",
+      "translation": "book",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Book, letters; from Proto-Slavic *buky"
+      },
+      "definitions": [
+        "book"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "book",
+        "glagolitic": "ⰱⱆⰽⱏⰲⱏ",
+        "translit": "buky",
+        "notes": "Book, letters; from Proto-Slavic *buky"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0030",
+      "script_symbol": "ⰱⱏⱅⰻ",
+      "transliteration": "byti",
+      "translation": "to be",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To be, exist; infinitive from Proto-Slavic *byti"
+      },
+      "definitions": [
+        "to be"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to be",
+        "glagolitic": "ⰱⱏⱅⰻ",
+        "translit": "byti",
+        "notes": "To be, exist; infinitive from Proto-Slavic *byti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0031",
+      "script_symbol": "ⰻⰿⱑⱅⰻ",
+      "transliteration": "iměti",
+      "translation": "to have",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To have, possess; from Proto-Slavic *jьměti"
+      },
+      "definitions": [
+        "to have"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to have",
+        "glagolitic": "ⰻⰿⱑⱅⰻ",
+        "translit": "iměti",
+        "notes": "To have, possess; from Proto-Slavic *jьměti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0032",
+      "script_symbol": "ⰴⰰⱅⰻ",
+      "transliteration": "dati",
+      "translation": "to give",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To give; from Proto-Slavic *dati"
+      },
+      "definitions": [
+        "to give"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to give",
+        "glagolitic": "ⰴⰰⱅⰻ",
+        "translit": "dati",
+        "notes": "To give; from Proto-Slavic *dati"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0033",
+      "script_symbol": "ⰻⰿⰰⱅⰻ",
+      "transliteration": "imati",
+      "translation": "to take",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To take, seize; from Proto-Slavic *jьmati"
+      },
+      "definitions": [
+        "to take"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to take",
+        "glagolitic": "ⰻⰿⰰⱅⰻ",
+        "translit": "imati",
+        "notes": "To take, seize; from Proto-Slavic *jьmati"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0034",
+      "script_symbol": "ⰲⱑⰴⱑⱅⰻ",
+      "transliteration": "věděti",
+      "translation": "to know",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To know; from Proto-Slavic *věděti"
+      },
+      "definitions": [
+        "to know"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to know",
+        "glagolitic": "ⰲⱑⰴⱑⱅⰻ",
+        "translit": "věděti",
+        "notes": "To know; from Proto-Slavic *věděti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0035",
+      "script_symbol": "ⰲⰻⰴⱑⱅⰻ",
+      "transliteration": "viděti",
+      "translation": "to see",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To see; from Proto-Slavic *viděti"
+      },
+      "definitions": [
+        "to see"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to see",
+        "glagolitic": "ⰲⰻⰴⱑⱅⰻ",
+        "translit": "viděti",
+        "notes": "To see; from Proto-Slavic *viděti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0036",
+      "script_symbol": "ⱄⰾⱏⱈⰰⱅⰻ",
+      "transliteration": "slyšati",
+      "translation": "to hear",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To hear; from Proto-Slavic *slyšati"
+      },
+      "definitions": [
+        "to hear"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to hear",
+        "glagolitic": "ⱄⰾⱏⱈⰰⱅⰻ",
+        "translit": "slyšati",
+        "notes": "To hear; from Proto-Slavic *slyšati"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0037",
+      "script_symbol": "ⰳⰾⰰⰳⱁⰾⰰⱅⰻ",
+      "transliteration": "glagolati",
+      "translation": "to speak",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To speak; from Proto-Slavic *golgolati"
+      },
+      "definitions": [
+        "to speak"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to speak",
+        "glagolitic": "ⰳⰾⰰⰳⱁⰾⰰⱅⰻ",
+        "translit": "glagolati",
+        "notes": "To speak; from Proto-Slavic *golgolati"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0038",
+      "script_symbol": "ⰻⱅⰻ",
+      "transliteration": "iti",
+      "translation": "to go",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To go; from Proto-Slavic *jьti"
+      },
+      "definitions": [
+        "to go"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to go",
+        "glagolitic": "ⰻⱅⰻ",
+        "translit": "iti",
+        "notes": "To go; from Proto-Slavic *jьti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0039",
+      "script_symbol": "ⱂⱃⰻⱅⰻ",
+      "transliteration": "priti",
+      "translation": "to come",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "To come; from *pri- + *jьti"
+      },
+      "definitions": [
+        "to come"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "to come",
+        "glagolitic": "ⱂⱃⰻⱅⰻ",
+        "translit": "priti",
+        "notes": "To come; from *pri- + *jьti"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0040",
+      "script_symbol": "ⰴⱁⰱⱃⱏ",
+      "transliteration": "dobrŭ",
+      "translation": "good",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Good; from Proto-Slavic *dobrъ"
+      },
+      "definitions": [
+        "good"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "good",
+        "glagolitic": "ⰴⱁⰱⱃⱏ",
+        "translit": "dobrŭ",
+        "notes": "Good; from Proto-Slavic *dobrъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0041",
+      "script_symbol": "ⰸⰾⱏ",
+      "transliteration": "zĭlŭ",
+      "translation": "bad",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Bad, evil; from Proto-Slavic *zъlъ"
+      },
+      "definitions": [
+        "bad"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "bad",
+        "glagolitic": "ⰸⰾⱏ",
+        "translit": "zĭlŭ",
+        "notes": "Bad, evil; from Proto-Slavic *zъlъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0042",
+      "script_symbol": "ⰲⰵⰾⰻⰺⱏ",
+      "transliteration": "velikŭ",
+      "translation": "great",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Great, large; from Proto-Slavic *velikъ"
+      },
+      "definitions": [
+        "great"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "great",
+        "glagolitic": "ⰲⰵⰾⰻⰺⱏ",
+        "translit": "velikŭ",
+        "notes": "Great, large; from Proto-Slavic *velikъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0043",
+      "script_symbol": "ⰼⰰⰾⱏ",
+      "transliteration": "malŭ",
+      "translation": "small",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Small; from Proto-Slavic *malъ"
+      },
+      "definitions": [
+        "small"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "small",
+        "glagolitic": "ⰼⰰⰾⱏ",
+        "translit": "malŭ",
+        "notes": "Small; from Proto-Slavic *malъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0044",
+      "script_symbol": "ⰿⱁⰲⱏ",
+      "transliteration": "novŭ",
+      "translation": "new",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "New; from Proto-Slavic *novъ"
+      },
+      "definitions": [
+        "new"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "new",
+        "glagolitic": "ⰿⱁⰲⱏ",
+        "translit": "novŭ",
+        "notes": "New; from Proto-Slavic *novъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0045",
+      "script_symbol": "ⱄⱅⰰⱃⱏ",
+      "transliteration": "starŭ",
+      "translation": "old",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Old; from Proto-Slavic *starъ"
+      },
+      "definitions": [
+        "old"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "old",
+        "glagolitic": "ⱄⱅⰰⱃⱏ",
+        "translit": "starŭ",
+        "notes": "Old; from Proto-Slavic *starъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0046",
+      "script_symbol": "ⰱⱑⰾⱏ",
+      "transliteration": "bělŭ",
+      "translation": "white",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "White; from Proto-Slavic *bělъ"
+      },
+      "definitions": [
+        "white"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "white",
+        "glagolitic": "ⰱⱑⰾⱏ",
+        "translit": "bělŭ",
+        "notes": "White; from Proto-Slavic *bělъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0047",
+      "script_symbol": "ⱍⱃⱏⰿⱏ",
+      "transliteration": "črĭnŭ",
+      "translation": "black",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Black; from Proto-Slavic *čьrnъ"
+      },
+      "definitions": [
+        "black"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "black",
+        "glagolitic": "ⱍⱃⱏⰿⱏ",
+        "translit": "črĭnŭ",
+        "notes": "Black; from Proto-Slavic *čьrnъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0048",
+      "script_symbol": "ⰵⰴⰻⰿⱏ",
+      "transliteration": "jedinŭ",
+      "translation": "one",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "One; from Proto-Slavic *edinъ"
+      },
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "one",
+        "glagolitic": "ⰵⰴⰻⰿⱏ",
+        "translit": "jedinŭ",
+        "notes": "One; from Proto-Slavic *edinъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0049",
+      "script_symbol": "ⰴⱏⰲⰰ",
+      "transliteration": "dŭva",
+      "translation": "two",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Two; from Proto-Slavic *dъva"
+      },
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "two",
+        "glagolitic": "ⰴⱏⰲⰰ",
+        "translit": "dŭva",
+        "notes": "Two; from Proto-Slavic *dъva"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0050",
+      "script_symbol": "ⱅⱃⰻⰵ",
+      "transliteration": "trie",
+      "translation": "three",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Three; from Proto-Slavic *trьje"
+      },
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "three",
+        "glagolitic": "ⱅⱃⰻⰵ",
+        "translit": "trie",
+        "notes": "Three; from Proto-Slavic *trьje"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0051",
+      "script_symbol": "ⱍⰵⱅⱏⱃⰻ",
+      "transliteration": "četyri",
+      "translation": "four",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Four; from Proto-Slavic *četyre"
+      },
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "four",
+        "glagolitic": "ⱍⰵⱅⱏⱃⰻ",
+        "translit": "četyri",
+        "notes": "Four; from Proto-Slavic *četyre"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0052",
+      "script_symbol": "ⱂⱑⱅⱏ",
+      "transliteration": "pętĭ",
+      "translation": "five",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Five; from Proto-Slavic *pętь"
+      },
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "five",
+        "glagolitic": "ⱂⱑⱅⱏ",
+        "translit": "pętĭ",
+        "notes": "Five; from Proto-Slavic *pętь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0053",
+      "script_symbol": "ⱎⰵⱄⱅⱏ",
+      "transliteration": "šestĭ",
+      "translation": "six",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Six; from Proto-Slavic *šestь"
+      },
+      "definitions": [
+        "six"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "six",
+        "glagolitic": "ⱎⰵⱄⱅⱏ",
+        "translit": "šestĭ",
+        "notes": "Six; from Proto-Slavic *šestь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0054",
+      "script_symbol": "ⱄⰵⰴⰿⱏ",
+      "transliteration": "sedmĭ",
+      "translation": "seven",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Seven; from Proto-Slavic *sedmь"
+      },
+      "definitions": [
+        "seven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "seven",
+        "glagolitic": "ⱄⰵⰴⰿⱏ",
+        "translit": "sedmĭ",
+        "notes": "Seven; from Proto-Slavic *sedmь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0055",
+      "script_symbol": "ⱁⱄⰿⱏ",
+      "transliteration": "osmĭ",
+      "translation": "eight",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Eight; from Proto-Slavic *osmь"
+      },
+      "definitions": [
+        "eight"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "eight",
+        "glagolitic": "ⱁⱄⰿⱏ",
+        "translit": "osmĭ",
+        "notes": "Eight; from Proto-Slavic *osmь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0056",
+      "script_symbol": "ⰴⰵⰲⱑⱅⱏ",
+      "transliteration": "devętĭ",
+      "translation": "nine",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Nine; from Proto-Slavic *devętь"
+      },
+      "definitions": [
+        "nine"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "nine",
+        "glagolitic": "ⰴⰵⰲⱑⱅⱏ",
+        "translit": "devętĭ",
+        "notes": "Nine; from Proto-Slavic *devętь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0057",
+      "script_symbol": "ⰴⰵⱄⱑⱅⱏ",
+      "transliteration": "desętĭ",
+      "translation": "ten",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Ten; from Proto-Slavic *desętь"
+      },
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "ten",
+        "glagolitic": "ⰴⰵⱄⱑⱅⱏ",
+        "translit": "desętĭ",
+        "notes": "Ten; from Proto-Slavic *desętь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0058",
+      "script_symbol": "ⰴⱏⰿⱏⱄⱏ",
+      "transliteration": "dĭnĭsĭ",
+      "translation": "today",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Today; from *dĭnь + *sь"
+      },
+      "definitions": [
+        "today"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "today",
+        "glagolitic": "ⰴⱏⰿⱏⱄⱏ",
+        "translit": "dĭnĭsĭ",
+        "notes": "Today; from *dĭnь + *sь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0059",
+      "script_symbol": "ⱆⱅⱃⱁ",
+      "transliteration": "jutro",
+      "translation": "tomorrow",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Tomorrow, morning; from Proto-Slavic *jutro"
+      },
+      "definitions": [
+        "tomorrow"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "tomorrow",
+        "glagolitic": "ⱆⱅⱃⱁ",
+        "translit": "jutro",
+        "notes": "Tomorrow, morning; from Proto-Slavic *jutro"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0060",
+      "script_symbol": "ⰲⱍⰵⱃⰰ",
+      "transliteration": "včera",
+      "translation": "yesterday",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Yesterday; from Proto-Slavic *včera"
+      },
+      "definitions": [
+        "yesterday"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "yesterday",
+        "glagolitic": "ⰲⱍⰵⱃⰰ",
+        "translit": "včera",
+        "notes": "Yesterday; from Proto-Slavic *včera"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0061",
+      "script_symbol": "ⰿⱁⱍⱏ",
+      "transliteration": "noštĭ",
+      "translation": "night",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Night; from Proto-Slavic *noktь"
+      },
+      "definitions": [
+        "night"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "night",
+        "glagolitic": "ⰿⱁⱍⱏ",
+        "translit": "noštĭ",
+        "notes": "Night; from Proto-Slavic *noktь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0062",
+      "script_symbol": "ⰴⱏⰿⱏ",
+      "transliteration": "dĭnĭ",
+      "translation": "day",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Day; from Proto-Slavic *dьnь"
+      },
+      "definitions": [
+        "day"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "day",
+        "glagolitic": "ⰴⱏⰿⱏ",
+        "translit": "dĭnĭ",
+        "notes": "Day; from Proto-Slavic *dьnь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0063",
+      "script_symbol": "ⰾⱑⱅⱁ",
+      "transliteration": "lěto",
+      "translation": "year",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Year, summer; from Proto-Slavic *lěto"
+      },
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "year",
+        "glagolitic": "ⰾⱑⱅⱁ",
+        "translit": "lěto",
+        "notes": "Year, summer; from Proto-Slavic *lěto"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0064",
+      "script_symbol": "ⰲⱃⱑⰿⱑ",
+      "transliteration": "vrěmę",
+      "translation": "time",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Time; from Proto-Slavic *vermę"
+      },
+      "definitions": [
+        "time"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "time",
+        "glagolitic": "ⰲⱃⱑⰿⱑ",
+        "translit": "vrěmę",
+        "notes": "Time; from Proto-Slavic *vermę"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0065",
+      "script_symbol": "ⱃⱆⰽⰰ",
+      "transliteration": "rǫka",
+      "translation": "hand",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Hand, arm; from Proto-Slavic *rǫka"
+      },
+      "definitions": [
+        "hand"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "hand",
+        "glagolitic": "ⱃⱆⰽⰰ",
+        "translit": "rǫka",
+        "notes": "Hand, arm; from Proto-Slavic *rǫka"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0066",
+      "script_symbol": "ⰿⱁⰳⰰ",
+      "transliteration": "noga",
+      "translation": "foot",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Foot, leg; from Proto-Slavic *noga"
+      },
+      "definitions": [
+        "foot"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "foot",
+        "glagolitic": "ⰿⱁⰳⰰ",
+        "translit": "noga",
+        "notes": "Foot, leg; from Proto-Slavic *noga"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0067",
+      "script_symbol": "ⰳⰾⰰⰲⰰ",
+      "transliteration": "glava",
+      "translation": "head",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Head; from Proto-Slavic *golva"
+      },
+      "definitions": [
+        "head"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "head",
+        "glagolitic": "ⰳⰾⰰⰲⰰ",
+        "translit": "glava",
+        "notes": "Head; from Proto-Slavic *golva"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0068",
+      "script_symbol": "ⱄⱃⱏⰴⱌⰵ",
+      "transliteration": "srĭdce",
+      "translation": "heart",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Heart; from Proto-Slavic *sьrdьce"
+      },
+      "definitions": [
+        "heart"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "heart",
+        "glagolitic": "ⱄⱃⱏⰴⱌⰵ",
+        "translit": "srĭdce",
+        "notes": "Heart; from Proto-Slavic *sьrdьce"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0069",
+      "script_symbol": "ⰴⱆⱎⰰ",
+      "transliteration": "duša",
+      "translation": "soul",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Soul; from Proto-Slavic *duša"
+      },
+      "definitions": [
+        "soul"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "soul",
+        "glagolitic": "ⰴⱆⱎⰰ",
+        "translit": "duša",
+        "notes": "Soul; from Proto-Slavic *duša"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0070",
+      "script_symbol": "ⱅⱑⰾⱁ",
+      "transliteration": "tělo",
+      "translation": "body",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Body; from Proto-Slavic *tělo"
+      },
+      "definitions": [
+        "body"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "body",
+        "glagolitic": "ⱅⱑⰾⱁ",
+        "translit": "tělo",
+        "notes": "Body; from Proto-Slavic *tělo"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0071",
+      "script_symbol": "ⱁⰽⱁ",
+      "transliteration": "oko",
+      "translation": "eye",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Eye; from Proto-Slavic *oko"
+      },
+      "definitions": [
+        "eye"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "eye",
+        "glagolitic": "ⱁⰽⱁ",
+        "translit": "oko",
+        "notes": "Eye; from Proto-Slavic *oko"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0072",
+      "script_symbol": "ⱆⱄⱅⰰ",
+      "transliteration": "usta",
+      "translation": "mouth",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Mouth, lips; from Proto-Slavic *usta"
+      },
+      "definitions": [
+        "mouth"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "mouth",
+        "glagolitic": "ⱆⱄⱅⰰ",
+        "translit": "usta",
+        "notes": "Mouth, lips; from Proto-Slavic *usta"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0073",
+      "script_symbol": "ⰼⱁⰾⰻⱅⰲⰰ",
+      "transliteration": "molitva",
+      "translation": "prayer",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Prayer; from moliti + -tva"
+      },
+      "definitions": [
+        "prayer"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "prayer",
+        "glagolitic": "ⰼⱁⰾⰻⱅⰲⰰ",
+        "translit": "molitva",
+        "notes": "Prayer; from moliti + -tva"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0074",
+      "script_symbol": "ⰰⰳⰳⰵⰾⱏ",
+      "transliteration": "aggelŭ",
+      "translation": "angel",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Angel; Greek loanword ἄγγελος"
+      },
+      "definitions": [
+        "angel"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "angel",
+        "glagolitic": "ⰰⰳⰳⰵⰾⱏ",
+        "translit": "aggelŭ",
+        "notes": "Angel; Greek loanword ἄγγελος"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0075",
+      "script_symbol": "ⰴⰻⰰⰲⱁⰾⱏ",
+      "transliteration": "diavolŭ",
+      "translation": "devil",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Devil; Greek loanword διάβολος"
+      },
+      "definitions": [
+        "devil"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "devil",
+        "glagolitic": "ⰴⰻⰰⰲⱁⰾⱏ",
+        "translit": "diavolŭ",
+        "notes": "Devil; Greek loanword διάβολος"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0076",
+      "script_symbol": "ⰳⱃⱑⱈⱏ",
+      "transliteration": "grěxŭ",
+      "translation": "sin",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Sin; from Proto-Slavic *grěxъ"
+      },
+      "definitions": [
+        "sin"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "sin",
+        "glagolitic": "ⰳⱃⱑⱈⱏ",
+        "translit": "grěxŭ",
+        "notes": "Sin; from Proto-Slavic *grěxъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0077",
+      "script_symbol": "ⱄⱂⰰⱄⰵⰿⰻⰵ",
+      "transliteration": "spasenie",
+      "translation": "salvation",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Salvation; from spasiti + -enie"
+      },
+      "definitions": [
+        "salvation"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "salvation",
+        "glagolitic": "ⱄⱂⰰⱄⰵⰿⰻⰵ",
+        "translit": "spasenie",
+        "notes": "Salvation; from spasiti + -enie"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0078",
+      "script_symbol": "ⰰⱂⱁⱄⱅⱁⰾⱏ",
+      "transliteration": "apostolŭ",
+      "translation": "apostle",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Apostle; Greek loanword ἀπόστολος"
+      },
+      "definitions": [
+        "apostle"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "apostle",
+        "glagolitic": "ⰰⱂⱁⱄⱅⱁⰾⱏ",
+        "translit": "apostolŭ",
+        "notes": "Apostle; Greek loanword ἀπόστολος"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0079",
+      "script_symbol": "ⱂⱃⱁⱃⱁⰽⱏ",
+      "transliteration": "prorokŭ",
+      "translation": "prophet",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Prophet; Greek loanword προφήτης"
+      },
+      "definitions": [
+        "prophet"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "prophet",
+        "glagolitic": "ⱂⱃⱁⱃⱁⰽⱏ",
+        "translit": "prorokŭ",
+        "notes": "Prophet; Greek loanword προφήτης"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0080",
+      "script_symbol": "ⱑⱂⰻⱄⰽⱆⱂⱏ",
+      "transliteration": "episkopu",
+      "translation": "bishop",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Bishop; Greek loanword ἐπίσκοπος"
+      },
+      "definitions": [
+        "bishop"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "bishop",
+        "glagolitic": "ⱑⱂⰻⱄⰽⱆⱂⱏ",
+        "translit": "episkopu",
+        "notes": "Bishop; Greek loanword ἐπίσκοπος"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0081",
+      "script_symbol": "ⱂⱁⱂⱏ",
+      "transliteration": "popŭ",
+      "translation": "priest",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Priest; from Greek πάππας"
+      },
+      "definitions": [
+        "priest"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "priest",
+        "glagolitic": "ⱂⱁⱂⱏ",
+        "translit": "popŭ",
+        "notes": "Priest; from Greek πάππας"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0082",
+      "script_symbol": "ⰿⰰⱅⰻ",
+      "transliteration": "mati",
+      "translation": "mother",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Mother; from Proto-Slavic *mati"
+      },
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "mother",
+        "glagolitic": "ⰿⰰⱅⰻ",
+        "translit": "mati",
+        "notes": "Mother; from Proto-Slavic *mati"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0083",
+      "script_symbol": "ⰱⱃⰰⱅⱃⱏ",
+      "transliteration": "bratrŭ",
+      "translation": "brother",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Brother; from Proto-Slavic *bratrъ"
+      },
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "brother",
+        "glagolitic": "ⰱⱃⰰⱅⱃⱏ",
+        "translit": "bratrŭ",
+        "notes": "Brother; from Proto-Slavic *bratrъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0084",
+      "script_symbol": "ⱄⰵⱄⱅⱃⰰ",
+      "transliteration": "sestra",
+      "translation": "sister",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Sister; from Proto-Slavic *sestra"
+      },
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "sister",
+        "glagolitic": "ⱄⰵⱄⱅⱃⰰ",
+        "translit": "sestra",
+        "notes": "Sister; from Proto-Slavic *sestra"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0085",
+      "script_symbol": "ⰴⰻⱅⱑ",
+      "transliteration": "ditę",
+      "translation": "child",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Child; from Proto-Slavic *dětę"
+      },
+      "definitions": [
+        "child"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "child",
+        "glagolitic": "ⰴⰻⱅⱑ",
+        "translit": "ditę",
+        "notes": "Child; from Proto-Slavic *dětę"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0086",
+      "script_symbol": "ⰰⰸⱏ",
+      "transliteration": "azŭ",
+      "translation": "I",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "I, first person pronoun; from Proto-Slavic *azъ"
+      },
+      "definitions": [
+        "I"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "I",
+        "glagolitic": "ⰰⰸⱏ",
+        "translit": "azŭ",
+        "notes": "I, first person pronoun; from Proto-Slavic *azъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0087",
+      "script_symbol": "ⱅⱏ",
+      "transliteration": "ty",
+      "translation": "you",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "You (singular); from Proto-Slavic *ty"
+      },
+      "definitions": [
+        "you"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "you",
+        "glagolitic": "ⱅⱏ",
+        "translit": "ty",
+        "notes": "You (singular); from Proto-Slavic *ty"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0088",
+      "script_symbol": "ⱁⰿⱏ",
+      "transliteration": "onŭ",
+      "translation": "he",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "He; from Proto-Slavic *onъ"
+      },
+      "definitions": [
+        "he"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "he",
+        "glagolitic": "ⱁⰿⱏ",
+        "translit": "onŭ",
+        "notes": "He; from Proto-Slavic *onъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0089",
+      "script_symbol": "ⱁⰿⰰ",
+      "transliteration": "ona",
+      "translation": "she",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "She; from Proto-Slavic *ona"
+      },
+      "definitions": [
+        "she"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "she",
+        "glagolitic": "ⱁⰿⰰ",
+        "translit": "ona",
+        "notes": "She; from Proto-Slavic *ona"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0090",
+      "script_symbol": "ⰿⱏ",
+      "transliteration": "my",
+      "translation": "we",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "We; from Proto-Slavic *my"
+      },
+      "definitions": [
+        "we"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "we",
+        "glagolitic": "ⰿⱏ",
+        "translit": "my",
+        "notes": "We; from Proto-Slavic *my"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0091",
+      "script_symbol": "ⰻ",
+      "transliteration": "i",
+      "translation": "and",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "And; from Proto-Slavic *i"
+      },
+      "definitions": [
+        "and"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "and",
+        "glagolitic": "ⰻ",
+        "translit": "i",
+        "notes": "And; from Proto-Slavic *i"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0092",
+      "script_symbol": "ⰰ",
+      "transliteration": "a",
+      "translation": "but",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "But; from Proto-Slavic *a"
+      },
+      "definitions": [
+        "but"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "but",
+        "glagolitic": "ⰰ",
+        "translit": "a",
+        "notes": "But; from Proto-Slavic *a"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0093",
+      "script_symbol": "ⰿⰵ",
+      "transliteration": "ne",
+      "translation": "not",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Not; negation particle from Proto-Slavic *ne"
+      },
+      "definitions": [
+        "not"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "not",
+        "glagolitic": "ⰿⰵ",
+        "translit": "ne",
+        "notes": "Not; negation particle from Proto-Slavic *ne"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0094",
+      "script_symbol": "ⰲⱏ",
+      "transliteration": "vŭ",
+      "translation": "in",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "In, into; preposition from Proto-Slavic *vъ"
+      },
+      "definitions": [
+        "in"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "in",
+        "glagolitic": "ⰲⱏ",
+        "translit": "vŭ",
+        "notes": "In, into; preposition from Proto-Slavic *vъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0095",
+      "script_symbol": "ⰿⰰ",
+      "transliteration": "na",
+      "translation": "on",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "On, onto; preposition from Proto-Slavic *na"
+      },
+      "definitions": [
+        "on"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "on",
+        "glagolitic": "ⰿⰰ",
+        "translit": "na",
+        "notes": "On, onto; preposition from Proto-Slavic *na"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0096",
+      "script_symbol": "ⱁⱅⱏ",
+      "transliteration": "otŭ",
+      "translation": "from",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "From; preposition from Proto-Slavic *otъ"
+      },
+      "definitions": [
+        "from"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "from",
+        "glagolitic": "ⱁⱅⱏ",
+        "translit": "otŭ",
+        "notes": "From; preposition from Proto-Slavic *otъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0097",
+      "script_symbol": "ⱄⱏ",
+      "transliteration": "sŭ",
+      "translation": "with",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "With; preposition from Proto-Slavic *sъ"
+      },
+      "definitions": [
+        "with"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "with",
+        "glagolitic": "ⱄⱏ",
+        "translit": "sŭ",
+        "notes": "With; preposition from Proto-Slavic *sъ"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0098",
+      "script_symbol": "ⰸⰰ",
+      "transliteration": "za",
+      "translation": "for",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "For, behind; preposition from Proto-Slavic *za"
+      },
+      "definitions": [
+        "for"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "for",
+        "glagolitic": "ⰸⰰ",
+        "translit": "za",
+        "notes": "For, behind; preposition from Proto-Slavic *za"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0099",
+      "script_symbol": "ⰲⱄⰵ",
+      "transliteration": "vĭse",
+      "translation": "all",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "All; from Proto-Slavic *vьsь"
+      },
+      "definitions": [
+        "all"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "all",
+        "glagolitic": "ⰲⱄⰵ",
+        "translit": "vĭse",
+        "notes": "All; from Proto-Slavic *vьsь"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0100",
+      "script_symbol": "ⱄⰵ",
+      "transliteration": "se",
+      "translation": "this",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "This; demonstrative pronoun"
+      },
+      "definitions": [
+        "this"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "this",
+        "glagolitic": "ⱄⰵ",
+        "translit": "se",
+        "notes": "This; demonstrative pronoun"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0101",
+      "script_symbol": "ⱅⱁ",
+      "transliteration": "to",
+      "translation": "that",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "That; demonstrative pronoun"
+      },
+      "definitions": [
+        "that"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "that",
+        "glagolitic": "ⱅⱁ",
+        "translit": "to",
+        "notes": "That; demonstrative pronoun"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0102",
+      "script_symbol": "ⰽⱏⱅⱁ",
+      "transliteration": "kŭto",
+      "translation": "who",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Who; interrogative pronoun"
+      },
+      "definitions": [
+        "who"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "who",
+        "glagolitic": "ⰽⱏⱅⱁ",
+        "translit": "kŭto",
+        "notes": "Who; interrogative pronoun"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0103",
+      "script_symbol": "ⱍⱏⱅⱁ",
+      "transliteration": "čĭto",
+      "translation": "what",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "What; interrogative pronoun"
+      },
+      "definitions": [
+        "what"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "what",
+        "glagolitic": "ⱍⱏⱅⱁ",
+        "translit": "čĭto",
+        "notes": "What; interrogative pronoun"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0104",
+      "script_symbol": "ⰽⱆⰴⰵ",
+      "transliteration": "kŭde",
+      "translation": "where",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Where; interrogative adverb"
+      },
+      "definitions": [
+        "where"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "where",
+        "glagolitic": "ⰽⱆⰴⰵ",
+        "translit": "kŭde",
+        "notes": "Where; interrogative adverb"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0105",
+      "script_symbol": "ⰽⱏⰳⰴⰰ",
+      "transliteration": "kŭgda",
+      "translation": "when",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "When; interrogative adverb"
+      },
+      "definitions": [
+        "when"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "when",
+        "glagolitic": "ⰽⱏⰳⰴⰰ",
+        "translit": "kŭgda",
+        "notes": "When; interrogative adverb"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0106",
+      "script_symbol": "ⰽⰰⰽⱁ",
+      "transliteration": "kako",
+      "translation": "how",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "How; interrogative adverb"
+      },
+      "definitions": [
+        "how"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "how",
+        "glagolitic": "ⰽⰰⰽⱁ",
+        "translit": "kako",
+        "notes": "How; interrogative adverb"
+      }
+    },
+    {
+      "entry_id": "glagolitic_0107",
+      "script_symbol": "ⱂⱁⱍⱏⱅⱁ",
+      "transliteration": "počĭto",
+      "translation": "why",
+      "pos": "undetermined",
+      "morphology": {
+        "notes": "Why; interrogative adverb"
+      },
+      "definitions": [
+        "why"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "",
+      "attestations": [
+        "entry-specific attestation not present in seed file; verify against metadata.attested_resources"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "glagolitic_lexicon.json",
+      "original_record": {
+        "english": "why",
+        "glagolitic": "ⱂⱁⱍⱏⱅⱁ",
+        "translit": "počĭto",
+        "notes": "Why; interrogative adverb"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Glagolitic / Old Church Slavonic entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,2664 @@
+{
+  "metadata": {
+    "title": "Old Norse / Elder Futhark Lexicon",
+    "description": "Expanded and normalized Old Norse / Elder Futhark dataset derived from old_norse_runic_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 74,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "R.I. Page - Runes",
+      "Ralph Elliott - Runes: An Introduction",
+      "Orchard - Dictionary of Norse Myth and Legend",
+      "The Unicode Consortium – Code Charts",
+      "Runor – Swedish National Heritage Board",
+      "Scandinavian Runic-text Database",
+      "Cleasby–Vigfusson Old Norse Dictionary"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "runor": {
+        "title": "Runor – Swedish National Heritage Board",
+        "url": "https://www.raa.se/in-english/digital-services/about-runor/",
+        "type": "inscription_database",
+        "scope": "runic inscriptions, reports, images"
+      },
+      "srd": {
+        "title": "Scandinavian Runic-text Database",
+        "url": "https://www.uu.se/en/department/scandinavian-languages/research/research-projects/scandinavian-runic-text-database",
+        "type": "inscription_database",
+        "scope": "digitally collected Scandinavian runic inscriptions"
+      },
+      "cleasby_vigfusson": {
+        "title": "Cleasby–Vigfusson Old Norse Dictionary",
+        "url": "https://old-norse.net/",
+        "type": "dictionary",
+        "scope": "Old Norse / Old Icelandic lexical entries"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Runic (Alphabetic)",
+    "historical_significance": "North Germanic runic inscriptional tradition and Old Norse lexicon.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "old_norse_runic_0001",
+      "script_symbol": "ᚠ",
+      "transliteration": "f",
+      "translation": "f - fehu (wealth, cattle)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "fehu (wealth, cattle)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0001",
+        "token": "ᚠ",
+        "gloss": "f - fehu (wealth, cattle)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0002",
+      "script_symbol": "ᚢ",
+      "transliteration": "u",
+      "translation": "u - ūruz (aurochs, strength)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ūruz (aurochs, strength)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0002",
+        "token": "ᚢ",
+        "gloss": "u - ūruz (aurochs, strength)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0003",
+      "script_symbol": "ᚦ",
+      "transliteration": "þ",
+      "translation": "þ - þurisaz (giant, thorn)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "þurisaz (giant, thorn)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0003",
+        "token": "ᚦ",
+        "gloss": "þ - þurisaz (giant, thorn)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0004",
+      "script_symbol": "ᚨ",
+      "transliteration": "a",
+      "translation": "a - ansuz (god, Odin)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ansuz (god, Odin)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0004",
+        "token": "ᚨ",
+        "gloss": "a - ansuz (god, Odin)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0005",
+      "script_symbol": "ᚱ",
+      "transliteration": "r",
+      "translation": "r - raidō (ride, journey)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "raidō (ride, journey)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0005",
+        "token": "ᚱ",
+        "gloss": "r - raidō (ride, journey)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0006",
+      "script_symbol": "ᚲ",
+      "transliteration": "k",
+      "translation": "k - kaunan (ulcer/torch)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "kaunan (ulcer/torch)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0006",
+        "token": "ᚲ",
+        "gloss": "k - kaunan (ulcer/torch)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0007",
+      "script_symbol": "ᚷ",
+      "transliteration": "g",
+      "translation": "g - gebō (gift)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "gebō (gift)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0007",
+        "token": "ᚷ",
+        "gloss": "g - gebō (gift)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0008",
+      "script_symbol": "ᚹ",
+      "transliteration": "w",
+      "translation": "w - wunjō (joy)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "wunjō (joy)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0008",
+        "token": "ᚹ",
+        "gloss": "w - wunjō (joy)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0009",
+      "script_symbol": "ᚺ",
+      "transliteration": "h",
+      "translation": "h - hagalaz (hail)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "hagalaz (hail)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0009",
+        "token": "ᚺ",
+        "gloss": "h - hagalaz (hail)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0010",
+      "script_symbol": "ᚾ",
+      "transliteration": "n",
+      "translation": "n - naudiz (need, distress)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "naudiz (need, distress)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0010",
+        "token": "ᚾ",
+        "gloss": "n - naudiz (need, distress)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0011",
+      "script_symbol": "ᛁ",
+      "transliteration": "i",
+      "translation": "i - īsaz (ice)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "īsaz (ice)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0011",
+        "token": "ᛁ",
+        "gloss": "i - īsaz (ice)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0012",
+      "script_symbol": "ᛃ",
+      "transliteration": "j",
+      "translation": "j - jēra (year, harvest)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "jēra (year, harvest)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0012",
+        "token": "ᛃ",
+        "gloss": "j - jēra (year, harvest)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0013",
+      "script_symbol": "ᛇ",
+      "transliteration": "ï/ei",
+      "translation": "ï/ei - eihwaz (yew tree)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "eihwaz (yew tree)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0013",
+        "token": "ᛇ",
+        "gloss": "ï/ei - eihwaz (yew tree)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0014",
+      "script_symbol": "ᛈ",
+      "transliteration": "p",
+      "translation": "p - perþō (fate/lot)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "perþō (fate/lot)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0014",
+        "token": "ᛈ",
+        "gloss": "p - perþō (fate/lot)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0015",
+      "script_symbol": "ᛉ",
+      "transliteration": "z",
+      "translation": "z - algiz (elk, protection)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "algiz (elk, protection)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0015",
+        "token": "ᛉ",
+        "gloss": "z - algiz (elk, protection)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0016",
+      "script_symbol": "ᛊ",
+      "transliteration": "s",
+      "translation": "s - sōwilō (sun)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "sōwilō (sun)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0016",
+        "token": "ᛊ",
+        "gloss": "s - sōwilō (sun)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0017",
+      "script_symbol": "ᛏ",
+      "transliteration": "t",
+      "translation": "t - tīwaz (Tyr, god)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "tīwaz (Tyr, god)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0017",
+        "token": "ᛏ",
+        "gloss": "t - tīwaz (Tyr, god)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0018",
+      "script_symbol": "ᛒ",
+      "transliteration": "b",
+      "translation": "b - berkanan (birch)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "berkanan (birch)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0018",
+        "token": "ᛒ",
+        "gloss": "b - berkanan (birch)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0019",
+      "script_symbol": "ᛖ",
+      "transliteration": "e",
+      "translation": "e - ehwaz (horse)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ehwaz (horse)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0019",
+        "token": "ᛖ",
+        "gloss": "e - ehwaz (horse)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0020",
+      "script_symbol": "ᛗ",
+      "transliteration": "m",
+      "translation": "m - mannaz (man)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "mannaz (man)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0020",
+        "token": "ᛗ",
+        "gloss": "m - mannaz (man)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0021",
+      "script_symbol": "ᛚ",
+      "transliteration": "l",
+      "translation": "l - laguz (water, lake)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "laguz (water, lake)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0021",
+        "token": "ᛚ",
+        "gloss": "l - laguz (water, lake)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0022",
+      "script_symbol": "ᛜ",
+      "transliteration": "ŋ",
+      "translation": "ŋ - ingwaz (Ing, fertility god)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ingwaz (Ing, fertility god)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0022",
+        "token": "ᛜ",
+        "gloss": "ŋ - ingwaz (Ing, fertility god)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0023",
+      "script_symbol": "ᛞ",
+      "transliteration": "d",
+      "translation": "d - dagaz (day)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "dagaz (day)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0023",
+        "token": "ᛞ",
+        "gloss": "d - dagaz (day)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0024",
+      "script_symbol": "ᛟ",
+      "transliteration": "o",
+      "translation": "o - ōþila (heritage, estate)",
+      "pos": "rune",
+      "morphology": {},
+      "definitions": [
+        "ōþila (heritage, estate)"
+      ],
+      "semantic_field": "phonetic/semantic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0024",
+        "token": "ᛟ",
+        "gloss": "o - ōþila (heritage, estate)",
+        "pos": "rune",
+        "semantic_field": "phonetic/semantic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0025",
+      "script_symbol": "Óðinn",
+      "transliteration": "Odin",
+      "translation": "Odin (All-Father)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "All-Father"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0025",
+        "token": "Óðinn",
+        "gloss": "Odin (All-Father)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0026",
+      "script_symbol": "Þórr",
+      "transliteration": "Thor",
+      "translation": "Thor (thunder god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "thunder god"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0026",
+        "token": "Þórr",
+        "gloss": "Thor (thunder god)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0027",
+      "script_symbol": "Freyr",
+      "transliteration": "Freyr",
+      "translation": "Freyr (fertility god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fertility god"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0027",
+        "token": "Freyr",
+        "gloss": "Freyr (fertility god)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0028",
+      "script_symbol": "Freyja",
+      "transliteration": "Freyja",
+      "translation": "Freyja (love/war goddess)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love/war goddess"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0028",
+        "token": "Freyja",
+        "gloss": "Freyja (love/war goddess)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0029",
+      "script_symbol": "Loki",
+      "transliteration": "Loki",
+      "translation": "Loki (trickster)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "trickster"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0029",
+        "token": "Loki",
+        "gloss": "Loki (trickster)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0030",
+      "script_symbol": "Baldr",
+      "transliteration": "Baldr",
+      "translation": "Baldr (god of light)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god of light"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0030",
+        "token": "Baldr",
+        "gloss": "Baldr (god of light)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0031",
+      "script_symbol": "Heimdallr",
+      "transliteration": "Heimdallr",
+      "translation": "Heimdallr (watchman god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "watchman god"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0031",
+        "token": "Heimdallr",
+        "gloss": "Heimdallr (watchman god)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0032",
+      "script_symbol": "Týr",
+      "transliteration": "Tyr",
+      "translation": "Tyr (war/justice god)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "war/justice god"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0032",
+        "token": "Týr",
+        "gloss": "Tyr (war/justice god)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0033",
+      "script_symbol": "Valhǫll",
+      "transliteration": "Valhalla",
+      "translation": "Valhalla (hall of the slain)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "hall of the slain"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0033",
+        "token": "Valhǫll",
+        "gloss": "Valhalla (hall of the slain)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0034",
+      "script_symbol": "Ásgarðr",
+      "transliteration": "Asgard",
+      "translation": "Asgard (realm of gods)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "realm of gods"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0034",
+        "token": "Ásgarðr",
+        "gloss": "Asgard (realm of gods)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0035",
+      "script_symbol": "Miðgarðr",
+      "transliteration": "Midgard",
+      "translation": "Midgard (human realm)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "human realm"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0035",
+        "token": "Miðgarðr",
+        "gloss": "Midgard (human realm)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0036",
+      "script_symbol": "Yggdrasill",
+      "transliteration": "Yggdrasil",
+      "translation": "Yggdrasil (world tree)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "world tree"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0036",
+        "token": "Yggdrasill",
+        "gloss": "Yggdrasil (world tree)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0037",
+      "script_symbol": "Ragnarǫk",
+      "transliteration": "Ragnarök",
+      "translation": "Ragnarök (end of world)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "end of world"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0037",
+        "token": "Ragnarǫk",
+        "gloss": "Ragnarök (end of world)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0038",
+      "script_symbol": "jarl",
+      "transliteration": "earl, nobleman",
+      "translation": "earl, nobleman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earl, nobleman"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0038",
+        "token": "jarl",
+        "gloss": "earl, nobleman",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0039",
+      "script_symbol": "konungr",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0039",
+        "token": "konungr",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0040",
+      "script_symbol": "karl",
+      "transliteration": "free man, farmer",
+      "translation": "free man, farmer",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "free man, farmer"
+      ],
+      "semantic_field": "social",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0040",
+        "token": "karl",
+        "gloss": "free man, farmer",
+        "pos": "noun",
+        "semantic_field": "social",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0041",
+      "script_symbol": "þræll",
+      "transliteration": "thrall, slave",
+      "translation": "thrall, slave",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "thrall, slave"
+      ],
+      "semantic_field": "social",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0041",
+        "token": "þræll",
+        "gloss": "thrall, slave",
+        "pos": "noun",
+        "semantic_field": "social",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0042",
+      "script_symbol": "víkingr",
+      "transliteration": "viking",
+      "translation": "viking (raider/seafarer)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "raider/seafarer"
+      ],
+      "semantic_field": "social/military",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0042",
+        "token": "víkingr",
+        "gloss": "viking (raider/seafarer)",
+        "pos": "noun",
+        "semantic_field": "social/military",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0043",
+      "script_symbol": "skáld",
+      "transliteration": "poet, bard",
+      "translation": "poet, bard",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "poet, bard"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0043",
+        "token": "skáld",
+        "gloss": "poet, bard",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0044",
+      "script_symbol": "blót",
+      "transliteration": "sacrifice, offering",
+      "translation": "sacrifice, offering",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sacrifice, offering"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0044",
+        "token": "blót",
+        "gloss": "sacrifice, offering",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0045",
+      "script_symbol": "rúnar",
+      "transliteration": "runes, secrets, mysteries",
+      "translation": "runes, secrets, mysteries",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "runes, secrets, mysteries"
+      ],
+      "semantic_field": "writing/magical",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0045",
+        "token": "rúnar",
+        "gloss": "runes, secrets, mysteries",
+        "pos": "noun",
+        "semantic_field": "writing/magical",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0046",
+      "script_symbol": "galdr",
+      "transliteration": "magic chant, spell",
+      "translation": "magic chant, spell",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "magic chant, spell"
+      ],
+      "semantic_field": "magical",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0046",
+        "token": "galdr",
+        "gloss": "magic chant, spell",
+        "pos": "noun",
+        "semantic_field": "magical",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0047",
+      "script_symbol": "seiðr",
+      "transliteration": "sorcery, shamanism",
+      "translation": "sorcery, shamanism",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sorcery, shamanism"
+      ],
+      "semantic_field": "magical",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0047",
+        "token": "seiðr",
+        "gloss": "sorcery, shamanism",
+        "pos": "noun",
+        "semantic_field": "magical",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0048",
+      "script_symbol": "einherjar",
+      "transliteration": "warriors of Valhalla",
+      "translation": "warriors of Valhalla",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "warriors of Valhalla"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0048",
+        "token": "einherjar",
+        "gloss": "warriors of Valhalla",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0049",
+      "script_symbol": "draugr",
+      "transliteration": "undead, revenant",
+      "translation": "undead, revenant",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "undead, revenant"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0049",
+        "token": "draugr",
+        "gloss": "undead, revenant",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0050",
+      "script_symbol": "norns",
+      "transliteration": "Norns",
+      "translation": "Norns (fate goddesses)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fate goddesses"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0050",
+        "token": "norns",
+        "gloss": "Norns (fate goddesses)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0051",
+      "script_symbol": "valkyrie",
+      "transliteration": "Valkyrie",
+      "translation": "Valkyrie (chooser of slain)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "chooser of slain"
+      ],
+      "semantic_field": "mythological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0051",
+        "token": "valkyrie",
+        "gloss": "Valkyrie (chooser of slain)",
+        "pos": "noun",
+        "semantic_field": "mythological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0052",
+      "script_symbol": "skip",
+      "transliteration": "ship",
+      "translation": "ship",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "ship"
+      ],
+      "semantic_field": "maritime",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0052",
+        "token": "skip",
+        "gloss": "ship",
+        "pos": "noun",
+        "semantic_field": "maritime",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0053",
+      "script_symbol": "sverð",
+      "transliteration": "sword",
+      "translation": "sword",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sword"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0053",
+        "token": "sverð",
+        "gloss": "sword",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0054",
+      "script_symbol": "skjǫldr",
+      "transliteration": "shield",
+      "translation": "shield",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "shield"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0054",
+        "token": "skjǫldr",
+        "gloss": "shield",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0055",
+      "script_symbol": "øx",
+      "transliteration": "axe",
+      "translation": "axe",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "axe"
+      ],
+      "semantic_field": "military/tool",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0055",
+        "token": "øx",
+        "gloss": "axe",
+        "pos": "noun",
+        "semantic_field": "military/tool",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0056",
+      "script_symbol": "holmganga",
+      "transliteration": "duel",
+      "translation": "duel (island-going)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "island-going"
+      ],
+      "semantic_field": "legal/military",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0056",
+        "token": "holmganga",
+        "gloss": "duel (island-going)",
+        "pos": "noun",
+        "semantic_field": "legal/military",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0057",
+      "script_symbol": "þing",
+      "transliteration": "assembly, parliament",
+      "translation": "assembly, parliament",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "assembly, parliament"
+      ],
+      "semantic_field": "political/legal",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0057",
+        "token": "þing",
+        "gloss": "assembly, parliament",
+        "pos": "noun",
+        "semantic_field": "political/legal",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0058",
+      "script_symbol": "lǫg",
+      "transliteration": "law",
+      "translation": "law",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "law"
+      ],
+      "semantic_field": "legal",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0058",
+        "token": "lǫg",
+        "gloss": "law",
+        "pos": "noun",
+        "semantic_field": "legal",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0059",
+      "script_symbol": "saga",
+      "transliteration": "story, history, saga",
+      "translation": "story, history, saga",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "story, history, saga"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0059",
+        "token": "saga",
+        "gloss": "story, history, saga",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0060",
+      "script_symbol": "edda",
+      "transliteration": "great-grandmother; Edda",
+      "translation": "great-grandmother; Edda (texts)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "texts"
+      ],
+      "semantic_field": "literary/kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0060",
+        "token": "edda",
+        "gloss": "great-grandmother; Edda (texts)",
+        "pos": "noun",
+        "semantic_field": "literary/kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0061",
+      "script_symbol": "kenning",
+      "transliteration": "kenning",
+      "translation": "kenning (poetic metaphor)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "poetic metaphor"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0061",
+        "token": "kenning",
+        "gloss": "kenning (poetic metaphor)",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0062",
+      "script_symbol": "hǫll",
+      "transliteration": "hall, great house",
+      "translation": "hall, great house",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "hall, great house"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0062",
+        "token": "hǫll",
+        "gloss": "hall, great house",
+        "pos": "noun",
+        "semantic_field": "architecture",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0063",
+      "script_symbol": "fjǫrðr",
+      "transliteration": "fjord",
+      "translation": "fjord",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fjord"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0063",
+        "token": "fjǫrðr",
+        "gloss": "fjord",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0064",
+      "script_symbol": "ey",
+      "transliteration": "island",
+      "translation": "island",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "island"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0064",
+        "token": "ey",
+        "gloss": "island",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0065",
+      "script_symbol": "heim",
+      "transliteration": "home, world",
+      "translation": "home, world",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "home, world"
+      ],
+      "semantic_field": "domestic/cosmological",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0065",
+        "token": "heim",
+        "gloss": "home, world",
+        "pos": "noun",
+        "semantic_field": "domestic/cosmological",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0066",
+      "script_symbol": "dauði",
+      "transliteration": "death",
+      "translation": "death",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0066",
+        "token": "dauði",
+        "gloss": "death",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0067",
+      "script_symbol": "líf",
+      "transliteration": "life",
+      "translation": "life",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0067",
+        "token": "líf",
+        "gloss": "life",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0068",
+      "script_symbol": "ek",
+      "transliteration": "I",
+      "translation": "I",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "I"
+      ],
+      "semantic_field": "personal",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0068",
+        "token": "ek",
+        "gloss": "I",
+        "pos": "pronoun",
+        "semantic_field": "personal",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0069",
+      "script_symbol": "fáðir",
+      "transliteration": "father",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0069",
+        "token": "fáðir",
+        "gloss": "father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0070",
+      "script_symbol": "móðir",
+      "transliteration": "mother",
+      "translation": "mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0070",
+        "token": "móðir",
+        "gloss": "mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0071",
+      "script_symbol": "sonr",
+      "transliteration": "son",
+      "translation": "son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0071",
+        "token": "sonr",
+        "gloss": "son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0072",
+      "script_symbol": "dóttir",
+      "transliteration": "daughter",
+      "translation": "daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0072",
+        "token": "dóttir",
+        "gloss": "daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0073",
+      "script_symbol": "bróðir",
+      "transliteration": "brother",
+      "translation": "brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0073",
+        "token": "bróðir",
+        "gloss": "brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    },
+    {
+      "entry_id": "old_norse_runic_0074",
+      "script_symbol": "systir",
+      "transliteration": "sister",
+      "translation": "sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "R.I. Page - Runes"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "runor",
+        "srd",
+        "cleasby_vigfusson"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_norse_runic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_norse_runic_0074",
+        "token": "systir",
+        "gloss": "sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "R.I. Page - Runes"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Old Norse / Elder Futhark entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "title": "Attested Resource Catalog for Expanded Lexicon Datasets",
+    "created": "2026-05-01",
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "scope": "Resource-level provenance catalog used by the expanded datasets."
+  },
+  "resources": {
+    "unicode_code_charts": {
+      "title": "The Unicode Consortium – Code Charts",
+      "url": "https://www.unicode.org/charts/",
+      "type": "encoding_standard",
+      "scope": "script sign/codepoint verification across encoded scripts"
+    },
+    "oracc_epsd2": {
+      "title": "ORACC ePSD2 – Electronic Pennsylvania Sumerian Dictionary",
+      "url": "https://oracc.museum.upenn.edu/epsd2/",
+      "type": "lexical_corpus",
+      "scope": "Sumerian lemmas, attestations, periods, forms"
+    },
+    "oracc_dcclt": {
+      "title": "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts",
+      "url": "https://oracc.museum.upenn.edu/dcclt/",
+      "type": "lexical_corpus",
+      "scope": "cuneiform lexical and sign-list texts"
+    },
+    "cdli": {
+      "title": "Cuneiform Digital Library Initiative",
+      "url": "https://cdli.earth/",
+      "type": "primary_text_database",
+      "scope": "cuneiform tablet metadata, images, transliterations"
+    },
+    "tla": {
+      "title": "Thesaurus Linguae Aegyptiae",
+      "url": "https://thesaurus-linguae-aegyptiae.de/",
+      "type": "lemmatized_text_corpus",
+      "scope": "ancient Egyptian lemmata, citations, hieroglyphic/hieratic/Demotic texts"
+    },
+    "perseus_lsj": {
+      "title": "Perseus / LSJ Greek-English Lexicon",
+      "url": "https://perseus.uchicago.edu/",
+      "type": "lexicon_text_corpus",
+      "scope": "Greek lemmas and classical source attestations"
+    },
+    "tlg_lsj": {
+      "title": "Thesaurus Linguae Graecae – LSJ",
+      "url": "https://stephanus.tlg.uci.edu/lsj/",
+      "type": "lexicon",
+      "scope": "Greek-English lexical lookup"
+    },
+    "cal": {
+      "title": "Comprehensive Aramaic Lexicon",
+      "url": "https://cal.huc.edu/",
+      "type": "lexicon_text_corpus",
+      "scope": "Aramaic dialects including Syriac and Nabataean-related corpora"
+    },
+    "sefaria_bdb": {
+      "title": "Sefaria – Brown-Driver-Briggs Hebrew and English Lexicon",
+      "url": "https://www.sefaria.org/BDB",
+      "type": "lexicon",
+      "scope": "Biblical Hebrew/Aramaic lemmas and source usage"
+    },
+    "wulfila": {
+      "title": "Wulfila Project – Annotated Gothic Bible",
+      "url": "https://www.wulfila.be/gothic/",
+      "type": "annotated_text_corpus",
+      "scope": "Gothic biblical text with lexical/morphological analyses"
+    },
+    "ada": {
+      "title": "Avestan Digital Archive",
+      "url": "https://ada.geschkult.fu-berlin.de/",
+      "type": "manuscript_archive",
+      "scope": "Avestan manuscripts and Zoroastrian liturgical texts"
+    },
+    "chd": {
+      "title": "Chicago Hittite Dictionary",
+      "url": "https://isac.uchicago.edu/research/publications/chicago-hittite-dictionary",
+      "type": "dictionary",
+      "scope": "Hittite-English lexical and cultural documentation"
+    },
+    "titus_old_persian": {
+      "title": "TITUS – Old Persian Corpus",
+      "url": "https://titus.uni-frankfurt.de/texte/etcs/iran/airan/apers/apers.htm",
+      "type": "text_corpus",
+      "scope": "Old Persian inscriptions corpus"
+    },
+    "titus_middle_persian": {
+      "title": "TITUS – Middle Persian Corpus",
+      "url": "https://titus.uni-frankfurt.de/texte/etcs/iran/miran/mpers/",
+      "type": "text_corpus",
+      "scope": "Middle Persian/Pahlavi corpus resources"
+    },
+    "cetom": {
+      "title": "CEToM – Comprehensive Edition of Tocharian Manuscripts",
+      "url": "https://cetom.univie.ac.at/",
+      "type": "manuscript_corpus",
+      "scope": "Tocharian manuscripts with transcriptions, translations, commentary"
+    },
+    "gandhari_dictionary": {
+      "title": "A Dictionary of Gāndhārī",
+      "url": "https://gandhari.org/dictionary",
+      "type": "dictionary_corpus",
+      "scope": "Gāndhārī/Kharosthi lexical database and manuscript context"
+    },
+    "damos": {
+      "title": "DĀMOS – Database of Mycenaean at Oslo",
+      "url": "https://damos.hf.uio.no/",
+      "type": "annotated_text_corpus",
+      "scope": "published Mycenaean Greek Linear B texts"
+    },
+    "ctext": {
+      "title": "Chinese Text Project",
+      "url": "https://ctext.org/",
+      "type": "pre-modern_text_corpus",
+      "scope": "Classical Chinese text corpus and dictionary"
+    },
+    "ctext_dictionary": {
+      "title": "Chinese Text Project Dictionary",
+      "url": "https://ctext.org/dictionary.pl?if=en",
+      "type": "dictionary",
+      "scope": "Classical Chinese character and word usage lookup"
+    },
+    "sealang_library": {
+      "title": "SEAlang Library",
+      "url": "https://sealang.net/library/",
+      "type": "language_reference_library",
+      "scope": "Southeast Asian dictionaries, corpora, and archival texts"
+    },
+    "sealang_burmese": {
+      "title": "SEAlang Burmese Dictionary",
+      "url": "https://sealang.net/burmese/dictionary.htm",
+      "type": "dictionary",
+      "scope": "Burmese lexical entries including literary/archaic usage"
+    },
+    "sealang_khmer": {
+      "title": "SEAlang Khmer Dictionary",
+      "url": "https://sealang.net/khmer/dictionary-top.htm",
+      "type": "dictionary",
+      "scope": "Khmer lexical material"
+    },
+    "sealang_thai": {
+      "title": "SEAlang Thai Dictionaries",
+      "url": "https://sealang.net/dictionary/",
+      "type": "dictionary",
+      "scope": "Thai and historical Thai dictionary material"
+    },
+    "sealang_ojed": {
+      "title": "SEAlang Old Javanese-English Dictionary",
+      "url": "https://sealang.net/ojed/",
+      "type": "dictionary",
+      "scope": "Old Javanese / Kawi lexical material"
+    },
+    "dsal": {
+      "title": "Digital Dictionaries of South Asia",
+      "url": "https://dsal.uchicago.edu/dictionaries/",
+      "type": "dictionary_library",
+      "scope": "South Asian dictionaries including Dravidian languages"
+    },
+    "dedr": {
+      "title": "Dravidian Etymological Dictionary / DEDR via DSAL",
+      "url": "https://dsal.uchicago.edu/dictionaries/burrow/",
+      "type": "etymological_dictionary",
+      "scope": "comparative Dravidian etymological roots"
+    },
+    "bosworth_toller": {
+      "title": "Bosworth–Toller Anglo-Saxon Dictionary",
+      "url": "https://bosworthtoller.com/",
+      "type": "dictionary",
+      "scope": "Old English lexical entries"
+    },
+    "runor": {
+      "title": "Runor – Swedish National Heritage Board",
+      "url": "https://www.raa.se/in-english/digital-services/about-runor/",
+      "type": "inscription_database",
+      "scope": "runic inscriptions, reports, images"
+    },
+    "srd": {
+      "title": "Scandinavian Runic-text Database",
+      "url": "https://www.uu.se/en/department/scandinavian-languages/research/research-projects/scandinavian-runic-text-database",
+      "type": "inscription_database",
+      "scope": "digitally collected Scandinavian runic inscriptions"
+    },
+    "cleasby_vigfusson": {
+      "title": "Cleasby–Vigfusson Old Norse Dictionary",
+      "url": "https://old-norse.net/",
+      "type": "dictionary",
+      "scope": "Old Norse / Old Icelandic lexical entries"
+    },
+    "georgian_corpus": {
+      "title": "Georgian Language Corpus",
+      "url": "https://oldcorpora.iliauni.edu.ge/",
+      "type": "text_corpus",
+      "scope": "Old, Middle, Modern Georgian corpus resources"
+    },
+    "classical_armenian_lrc": {
+      "title": "Classical Armenian Online – University of Texas Linguistics Research Center",
+      "url": "https://lrc.la.utexas.edu/eieol_base_form_dictionary/armol/9",
+      "type": "dictionary_course_resource",
+      "scope": "Classical Armenian base-form dictionary"
+    },
+    "krapar": {
+      "title": "Krapar / Grabar Classical Armenian Resources",
+      "url": "https://krapar.org/resources.html",
+      "type": "grammar_reference",
+      "scope": "Classical Armenian grammar and alphabet resources"
+    },
+    "tibetan_thl": {
+      "title": "Tibetan and Himalayan Library – Tibetan Terms",
+      "url": "https://thlib.org/terms/",
+      "type": "dictionary_reference",
+      "scope": "Tibetan definitions, pronunciation, related terms"
+    },
+    "quranic_arabic_corpus": {
+      "title": "Quranic Arabic Corpus",
+      "url": "https://corpus.quran.com/",
+      "type": "annotated_text_corpus",
+      "scope": "Quranic Arabic morphology, syntax, ontology, word-by-word grammar"
+    },
+    "nilk_korean": {
+      "title": "National Institute of Korean Language – Korean-English Learners' Dictionary",
+      "url": "https://krdict.korean.go.kr/eng",
+      "type": "official_dictionary",
+      "scope": "Korean dictionary from South Korea's official language institute"
+    },
+    "unesco_hunminjeongeum": {
+      "title": "UNESCO Memory of the World – Hunminjeongeum Manuscript",
+      "url": "https://www.unesco.org/en/memory-world/hunminjeongum-manuscript",
+      "type": "manuscript_record",
+      "scope": "historical source for Hangul/Hunminjeongeum"
+    }
+  }
+}

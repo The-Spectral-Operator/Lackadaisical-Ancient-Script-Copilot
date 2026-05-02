@@ -1,0 +1,2106 @@
+{
+  "metadata": {
+    "title": "Armenian (Grabar/Classical) Lexicon",
+    "description": "Expanded and normalized Armenian (Grabar/Classical) dataset derived from armenian_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "armenian_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 60,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Meillet - Altarmenisches Elementarbuch",
+      "Thomson - Introduction to Classical Armenian",
+      "The Unicode Consortium – Code Charts",
+      "Classical Armenian Online – University of Texas Linguistics Research Center",
+      "Krapar / Grabar Classical Armenian Resources"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "classical_armenian_lrc": {
+        "title": "Classical Armenian Online – University of Texas Linguistics Research Center",
+        "url": "https://lrc.la.utexas.edu/eieol_base_form_dictionary/armol/9",
+        "type": "dictionary_course_resource",
+        "scope": "Classical Armenian base-form dictionary"
+      },
+      "krapar": {
+        "title": "Krapar / Grabar Classical Armenian Resources",
+        "url": "https://krapar.org/resources.html",
+        "type": "grammar_reference",
+        "scope": "Classical Armenian grammar and alphabet resources"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Alphabetic (invented by Mesrop Mashtots, 405 CE)",
+    "historical_significance": "Alphabetic literary tradition associated with Mesrop Mashtots and early Armenian Christian textual transmission.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "armenian_0001",
+      "script_symbol": "Ա",
+      "transliteration": "ayb",
+      "translation": "ayb (a)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "a"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0001",
+        "token": "Ա",
+        "gloss": "ayb (a)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0002",
+      "script_symbol": "Բ",
+      "transliteration": "ben",
+      "translation": "ben (b)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "b"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0002",
+        "token": "Բ",
+        "gloss": "ben (b)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0003",
+      "script_symbol": "Գ",
+      "transliteration": "gim",
+      "translation": "gim (g)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "g"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0003",
+        "token": "Գ",
+        "gloss": "gim (g)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0004",
+      "script_symbol": "Դ",
+      "transliteration": "da",
+      "translation": "da (d)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "d"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0004",
+        "token": "Դ",
+        "gloss": "da (d)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0005",
+      "script_symbol": "Ե",
+      "transliteration": "yech",
+      "translation": "yech (ye/e)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ye/e"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0005",
+        "token": "Ե",
+        "gloss": "yech (ye/e)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0006",
+      "script_symbol": "Զ",
+      "transliteration": "za",
+      "translation": "za (z)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "z"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0006",
+        "token": "Զ",
+        "gloss": "za (z)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0007",
+      "script_symbol": "Է",
+      "transliteration": "ē",
+      "translation": "ē (ē)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ē"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0007",
+        "token": "Է",
+        "gloss": "ē (ē)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0008",
+      "script_symbol": "Ը",
+      "transliteration": "ět'",
+      "translation": "ět' (ə)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ə"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0008",
+        "token": "Ը",
+        "gloss": "ět' (ə)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0009",
+      "script_symbol": "Թ",
+      "transliteration": "t'o",
+      "translation": "t'o (t' aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "t' aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0009",
+        "token": "Թ",
+        "gloss": "t'o (t' aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0010",
+      "script_symbol": "Ժ",
+      "transliteration": "zhē",
+      "translation": "zhē (zh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "zh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0010",
+        "token": "Ժ",
+        "gloss": "zhē (zh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0011",
+      "script_symbol": "Ի",
+      "transliteration": "ini",
+      "translation": "ini (i)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "i"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0011",
+        "token": "Ի",
+        "gloss": "ini (i)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0012",
+      "script_symbol": "Լ",
+      "transliteration": "liwn",
+      "translation": "liwn (l)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "l"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0012",
+        "token": "Լ",
+        "gloss": "liwn (l)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0013",
+      "script_symbol": "Խ",
+      "transliteration": "xē",
+      "translation": "xē (x/kh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "x/kh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0013",
+        "token": "Խ",
+        "gloss": "xē (x/kh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0014",
+      "script_symbol": "Ծ",
+      "transliteration": "ca",
+      "translation": "ca (ts)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ts"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0014",
+        "token": "Ծ",
+        "gloss": "ca (ts)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0015",
+      "script_symbol": "Կ",
+      "transliteration": "ken",
+      "translation": "ken (k)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "k"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0015",
+        "token": "Կ",
+        "gloss": "ken (k)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0016",
+      "script_symbol": "Հ",
+      "transliteration": "ho",
+      "translation": "ho (h)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "h"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0016",
+        "token": "Հ",
+        "gloss": "ho (h)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0017",
+      "script_symbol": "Ձ",
+      "transliteration": "ja",
+      "translation": "ja (dz)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "dz"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0017",
+        "token": "Ձ",
+        "gloss": "ja (dz)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0018",
+      "script_symbol": "Ղ",
+      "transliteration": "ghat",
+      "translation": "ghat (gh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "gh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0018",
+        "token": "Ղ",
+        "gloss": "ghat (gh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0019",
+      "script_symbol": "Ճ",
+      "transliteration": "chē",
+      "translation": "chē (ch)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ch"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0019",
+        "token": "Ճ",
+        "gloss": "chē (ch)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0020",
+      "script_symbol": "Մ",
+      "transliteration": "men",
+      "translation": "men (m)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "m"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0020",
+        "token": "Մ",
+        "gloss": "men (m)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0021",
+      "script_symbol": "Յ",
+      "transliteration": "yi",
+      "translation": "yi (y)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "y"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0021",
+        "token": "Յ",
+        "gloss": "yi (y)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0022",
+      "script_symbol": "Ն",
+      "transliteration": "now",
+      "translation": "now (n)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "n"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0022",
+        "token": "Ն",
+        "gloss": "now (n)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0023",
+      "script_symbol": "Շ",
+      "transliteration": "sha",
+      "translation": "sha (sh)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "sh"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0023",
+        "token": "Շ",
+        "gloss": "sha (sh)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0024",
+      "script_symbol": "Ո",
+      "transliteration": "vo",
+      "translation": "vo (vo/o)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "vo/o"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0024",
+        "token": "Ո",
+        "gloss": "vo (vo/o)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0025",
+      "script_symbol": "Չ",
+      "transliteration": "ch'a",
+      "translation": "ch'a (ch' aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ch' aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0025",
+        "token": "Չ",
+        "gloss": "ch'a (ch' aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0026",
+      "script_symbol": "Պ",
+      "transliteration": "pē",
+      "translation": "pē (p)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "p"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0026",
+        "token": "Պ",
+        "gloss": "pē (p)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0027",
+      "script_symbol": "Ջ",
+      "transliteration": "jhē",
+      "translation": "jhē (j)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "j"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0027",
+        "token": "Ջ",
+        "gloss": "jhē (j)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0028",
+      "script_symbol": "Ռ",
+      "transliteration": "ra",
+      "translation": "ra (r trilled)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "r trilled"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0028",
+        "token": "Ռ",
+        "gloss": "ra (r trilled)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0029",
+      "script_symbol": "Ս",
+      "transliteration": "sē",
+      "translation": "sē (s)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "s"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0029",
+        "token": "Ս",
+        "gloss": "sē (s)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0030",
+      "script_symbol": "Վ",
+      "transliteration": "vew",
+      "translation": "vew (v)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "v"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0030",
+        "token": "Վ",
+        "gloss": "vew (v)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0031",
+      "script_symbol": "Տ",
+      "transliteration": "tiwn",
+      "translation": "tiwn (t)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "t"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0031",
+        "token": "Տ",
+        "gloss": "tiwn (t)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0032",
+      "script_symbol": "Ր",
+      "transliteration": "rē",
+      "translation": "rē (r flapped)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "r flapped"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0032",
+        "token": "Ր",
+        "gloss": "rē (r flapped)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0033",
+      "script_symbol": "Ց",
+      "transliteration": "c'o",
+      "translation": "c'o (ts')",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ts'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0033",
+        "token": "Ց",
+        "gloss": "c'o (ts')",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0034",
+      "script_symbol": "Ու",
+      "transliteration": "u",
+      "translation": "u (u)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "u"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0034",
+        "token": "Ու",
+        "gloss": "u (u)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0035",
+      "script_symbol": "Փ",
+      "transliteration": "p'iwr",
+      "translation": "p'iwr (p' aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "p' aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0035",
+        "token": "Փ",
+        "gloss": "p'iwr (p' aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0036",
+      "script_symbol": "Ք",
+      "transliteration": "k'ē",
+      "translation": "k'ē (k' aspirated)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "k' aspirated"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0036",
+        "token": "Ք",
+        "gloss": "k'ē (k' aspirated)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0037",
+      "script_symbol": "Օ",
+      "transliteration": "ō",
+      "translation": "ō (ō)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ō"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0037",
+        "token": "Օ",
+        "gloss": "ō (ō)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0038",
+      "script_symbol": "Ֆ",
+      "transliteration": "fē",
+      "translation": "fē (f)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "f"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0038",
+        "token": "Ֆ",
+        "gloss": "fē (f)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0039",
+      "script_symbol": "Աdelays",
+      "transliteration": "Astvats",
+      "translation": "Astvats - God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0039",
+        "token": "Աdelays",
+        "gloss": "Astvats - God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0040",
+      "script_symbol": "Հdelays",
+      "transliteration": "Hayastan",
+      "translation": "Hayastan - Armenia",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Armenia"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0040",
+        "token": "Հdelays",
+        "gloss": "Hayastan - Armenia",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0041",
+      "script_symbol": "թagavor",
+      "transliteration": "t'agavor",
+      "translation": "t'agavor - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0041",
+        "token": "թagavor",
+        "gloss": "t'agavor - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0042",
+      "script_symbol": "մardelays",
+      "transliteration": "mard",
+      "translation": "mard - man, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0042",
+        "token": "մardelays",
+        "gloss": "mard - man, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0043",
+      "script_symbol": "կ delays",
+      "transliteration": "kin",
+      "translation": "kin - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0043",
+        "token": "կ delays",
+        "gloss": "kin - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0044",
+      "script_symbol": "հ delays",
+      "transliteration": "hayr",
+      "translation": "hayr - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0044",
+        "token": "հ delays",
+        "gloss": "hayr - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0045",
+      "script_symbol": "մ delays",
+      "transliteration": "mayr",
+      "translation": "mayr - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0045",
+        "token": "մ delays",
+        "gloss": "mayr - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0046",
+      "script_symbol": "որ delays",
+      "transliteration": "vordi",
+      "translation": "vordi - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0046",
+        "token": "որ delays",
+        "gloss": "vordi - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0047",
+      "script_symbol": " delays",
+      "transliteration": "dustr",
+      "translation": "dustr - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0047",
+        "token": " delays",
+        "gloss": "dustr - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0048",
+      "script_symbol": "delays",
+      "transliteration": "yeghbayr",
+      "translation": "yeghbayr - brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0048",
+        "token": "delays",
+        "gloss": "yeghbayr - brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0049",
+      "script_symbol": "ե delays",
+      "transliteration": "k'uyr",
+      "translation": "k'uyr - sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0049",
+        "token": "ե delays",
+        "gloss": "k'uyr - sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0050",
+      "script_symbol": "sēr",
+      "transliteration": "ser",
+      "translation": "ser - love",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0050",
+        "token": "sēr",
+        "gloss": "ser - love",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0051",
+      "script_symbol": "keank'",
+      "transliteration": "keank'",
+      "translation": "keank' - life",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0051",
+        "token": "keank'",
+        "gloss": "keank' - life",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0052",
+      "script_symbol": "mah",
+      "transliteration": "mah",
+      "translation": "mah - death",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0052",
+        "token": "mah",
+        "gloss": "mah - death",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0053",
+      "script_symbol": "arev",
+      "transliteration": "arev",
+      "translation": "arev - sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0053",
+        "token": "arev",
+        "gloss": "arev - sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0054",
+      "script_symbol": "lusin",
+      "transliteration": "lusin",
+      "translation": "lusin - moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0054",
+        "token": "lusin",
+        "gloss": "lusin - moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0055",
+      "script_symbol": "astgh",
+      "transliteration": "astgh",
+      "translation": "astgh - star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0055",
+        "token": "astgh",
+        "gloss": "astgh - star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0056",
+      "script_symbol": "sar",
+      "transliteration": "sar",
+      "translation": "sar - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0056",
+        "token": "sar",
+        "gloss": "sar - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0057",
+      "script_symbol": "tsov",
+      "transliteration": "tsov",
+      "translation": "tsov - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0057",
+        "token": "tsov",
+        "gloss": "tsov - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0058",
+      "script_symbol": "get",
+      "transliteration": "get",
+      "translation": "get - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0058",
+        "token": "get",
+        "gloss": "get - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0059",
+      "script_symbol": "jur",
+      "transliteration": "jur",
+      "translation": "jur - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0059",
+        "token": "jur",
+        "gloss": "jur - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    },
+    {
+      "entry_id": "armenian_0060",
+      "script_symbol": "krak",
+      "transliteration": "krak",
+      "translation": "krak - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Meillet - Altarmenisches Elementarbuch"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "classical_armenian_lrc",
+        "krapar"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "armenian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "armenian_0060",
+        "token": "krak",
+        "gloss": "krak - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Meillet - Altarmenisches Elementarbuch"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Armenian (Grabar/Classical) entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

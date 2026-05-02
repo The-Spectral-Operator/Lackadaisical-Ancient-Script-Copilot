@@ -1,0 +1,3624 @@
+{
+  "metadata": {
+    "title": "Arabic Lexicon",
+    "description": "Expanded and normalized Arabic dataset derived from arabic_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "arabic_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 108,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Hans Wehr - Arabic-English Dictionary",
+      "Lane - Arabic-English Lexicon",
+      "Cowan - Modern Literary Arabic",
+      "The Unicode Consortium – Code Charts",
+      "Quranic Arabic Corpus"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "quranic_arabic_corpus": {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/",
+        "type": "annotated_text_corpus",
+        "scope": "Quranic Arabic morphology, syntax, ontology, word-by-word grammar"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Abjad (consonantal alphabet)",
+    "historical_significance": "Major Semitic script and language tradition with extensive Qurʾānic, literary, administrative, and scientific corpora.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "arabic_0001",
+      "script_symbol": "ا",
+      "transliteration": "alif",
+      "translation": "alif (glottal stop/long ā)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "glottal stop/long ā"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0001",
+        "token": "ا",
+        "gloss": "alif (glottal stop/long ā)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0002",
+      "script_symbol": "ب",
+      "transliteration": "bā'",
+      "translation": "bā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "bā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0002",
+        "token": "ب",
+        "gloss": "bā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0003",
+      "script_symbol": "ت",
+      "transliteration": "tā'",
+      "translation": "tā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "tā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0003",
+        "token": "ت",
+        "gloss": "tā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0004",
+      "script_symbol": "ث",
+      "transliteration": "thā'",
+      "translation": "thā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "thā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0004",
+        "token": "ث",
+        "gloss": "thā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0005",
+      "script_symbol": "ج",
+      "transliteration": "jīm",
+      "translation": "jīm",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "jīm"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0005",
+        "token": "ج",
+        "gloss": "jīm",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0006",
+      "script_symbol": "ح",
+      "transliteration": "ḥā'",
+      "translation": "ḥā' (pharyngeal)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "pharyngeal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0006",
+        "token": "ح",
+        "gloss": "ḥā' (pharyngeal)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0007",
+      "script_symbol": "خ",
+      "transliteration": "khā'",
+      "translation": "khā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "khā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0007",
+        "token": "خ",
+        "gloss": "khā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0008",
+      "script_symbol": "د",
+      "transliteration": "dāl",
+      "translation": "dāl",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "dāl"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0008",
+        "token": "د",
+        "gloss": "dāl",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0009",
+      "script_symbol": "ذ",
+      "transliteration": "dhāl",
+      "translation": "dhāl",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "dhāl"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0009",
+        "token": "ذ",
+        "gloss": "dhāl",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0010",
+      "script_symbol": "ر",
+      "transliteration": "rā'",
+      "translation": "rā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "rā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0010",
+        "token": "ر",
+        "gloss": "rā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0011",
+      "script_symbol": "ز",
+      "transliteration": "zāy",
+      "translation": "zāy",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "zāy"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0011",
+        "token": "ز",
+        "gloss": "zāy",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0012",
+      "script_symbol": "س",
+      "transliteration": "sīn",
+      "translation": "sīn",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "sīn"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0012",
+        "token": "س",
+        "gloss": "sīn",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0013",
+      "script_symbol": "ش",
+      "transliteration": "shīn",
+      "translation": "shīn",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "shīn"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0013",
+        "token": "ش",
+        "gloss": "shīn",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0014",
+      "script_symbol": "ص",
+      "transliteration": "ṣād",
+      "translation": "ṣād (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0014",
+        "token": "ص",
+        "gloss": "ṣād (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0015",
+      "script_symbol": "ض",
+      "transliteration": "ḍād",
+      "translation": "ḍād (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0015",
+        "token": "ض",
+        "gloss": "ḍād (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0016",
+      "script_symbol": "ط",
+      "transliteration": "ṭā'",
+      "translation": "ṭā' (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0016",
+        "token": "ط",
+        "gloss": "ṭā' (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0017",
+      "script_symbol": "ظ",
+      "transliteration": "ẓā'",
+      "translation": "ẓā' (emphatic)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "emphatic"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0017",
+        "token": "ظ",
+        "gloss": "ẓā' (emphatic)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0018",
+      "script_symbol": "ع",
+      "transliteration": "'ayn",
+      "translation": "'ayn (pharyngeal)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "pharyngeal"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0018",
+        "token": "ع",
+        "gloss": "'ayn (pharyngeal)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0019",
+      "script_symbol": "غ",
+      "transliteration": "ghayn",
+      "translation": "ghayn",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "ghayn"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0019",
+        "token": "غ",
+        "gloss": "ghayn",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0020",
+      "script_symbol": "ف",
+      "transliteration": "fā'",
+      "translation": "fā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "fā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0020",
+        "token": "ف",
+        "gloss": "fā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0021",
+      "script_symbol": "ق",
+      "transliteration": "qāf",
+      "translation": "qāf (uvular)",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "uvular"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0021",
+        "token": "ق",
+        "gloss": "qāf (uvular)",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0022",
+      "script_symbol": "ك",
+      "transliteration": "kāf",
+      "translation": "kāf",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "kāf"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0022",
+        "token": "ك",
+        "gloss": "kāf",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0023",
+      "script_symbol": "ل",
+      "transliteration": "lām",
+      "translation": "lām",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "lām"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0023",
+        "token": "ل",
+        "gloss": "lām",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0024",
+      "script_symbol": "م",
+      "transliteration": "mīm",
+      "translation": "mīm",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "mīm"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0024",
+        "token": "م",
+        "gloss": "mīm",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0025",
+      "script_symbol": "ن",
+      "transliteration": "nūn",
+      "translation": "nūn",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "nūn"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0025",
+        "token": "ن",
+        "gloss": "nūn",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0026",
+      "script_symbol": "ه",
+      "transliteration": "hā'",
+      "translation": "hā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "hā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0026",
+        "token": "ه",
+        "gloss": "hā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0027",
+      "script_symbol": "و",
+      "transliteration": "wāw",
+      "translation": "wāw",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "wāw"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0027",
+        "token": "و",
+        "gloss": "wāw",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0028",
+      "script_symbol": "ي",
+      "transliteration": "yā'",
+      "translation": "yā'",
+      "pos": "letter",
+      "morphology": {},
+      "definitions": [
+        "yā'"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0028",
+        "token": "ي",
+        "gloss": "yā'",
+        "pos": "letter",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0029",
+      "script_symbol": "الله",
+      "transliteration": "Allāh",
+      "translation": "Allāh - God",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "God"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0029",
+        "token": "الله",
+        "gloss": "Allāh - God",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0030",
+      "script_symbol": "رسول",
+      "transliteration": "rasūl",
+      "translation": "rasūl - messenger, prophet",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "messenger, prophet"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0030",
+        "token": "رسول",
+        "gloss": "rasūl - messenger, prophet",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0031",
+      "script_symbol": "قرآن",
+      "transliteration": "qur'ān",
+      "translation": "qur'ān - recitation, the Quran",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "recitation, the Quran"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0031",
+        "token": "قرآن",
+        "gloss": "qur'ān - recitation, the Quran",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0032",
+      "script_symbol": "إسلام",
+      "transliteration": "islām",
+      "translation": "islām - submission (to God)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "submission (to God)"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0032",
+        "token": "إسلام",
+        "gloss": "islām - submission (to God)",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0033",
+      "script_symbol": "إيمان",
+      "transliteration": "īmān",
+      "translation": "īmān - faith, belief",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "faith, belief"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0033",
+        "token": "إيمان",
+        "gloss": "īmān - faith, belief",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0034",
+      "script_symbol": "صلاة",
+      "transliteration": "ṣalāt",
+      "translation": "ṣalāt - prayer",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "prayer"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0034",
+        "token": "صلاة",
+        "gloss": "ṣalāt - prayer",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0035",
+      "script_symbol": "زكاة",
+      "transliteration": "zakāt",
+      "translation": "zakāt - alms, charity",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "alms, charity"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0035",
+        "token": "زكاة",
+        "gloss": "zakāt - alms, charity",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0036",
+      "script_symbol": "صوم",
+      "transliteration": "ṣawm",
+      "translation": "ṣawm - fasting",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fasting"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0036",
+        "token": "صوم",
+        "gloss": "ṣawm - fasting",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0037",
+      "script_symbol": "حج",
+      "transliteration": "ḥajj",
+      "translation": "ḥajj - pilgrimage",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "pilgrimage"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0037",
+        "token": "حج",
+        "gloss": "ḥajj - pilgrimage",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0038",
+      "script_symbol": "مسجد",
+      "transliteration": "masjid",
+      "translation": "masjid - mosque (place of prostration)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mosque (place of prostration)"
+      ],
+      "semantic_field": "religious/architecture",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0038",
+        "token": "مسجد",
+        "gloss": "masjid - mosque (place of prostration)",
+        "pos": "noun",
+        "semantic_field": "religious/architecture",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0039",
+      "script_symbol": "كتاب",
+      "transliteration": "kitāb",
+      "translation": "kitāb - book",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "book"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0039",
+        "token": "كتاب",
+        "gloss": "kitāb - book",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0040",
+      "script_symbol": "علم",
+      "transliteration": "'ilm",
+      "translation": "'ilm - knowledge, science",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "knowledge, science"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0040",
+        "token": "علم",
+        "gloss": "'ilm - knowledge, science",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0041",
+      "script_symbol": "حكمة",
+      "transliteration": "ḥikma",
+      "translation": "ḥikma - wisdom",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wisdom"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0041",
+        "token": "حكمة",
+        "gloss": "ḥikma - wisdom",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0042",
+      "script_symbol": "قلم",
+      "transliteration": "qalam",
+      "translation": "qalam - pen, reed",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "pen, reed"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0042",
+        "token": "قلم",
+        "gloss": "qalam - pen, reed",
+        "pos": "noun",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0043",
+      "script_symbol": "كلمة",
+      "transliteration": "kalima",
+      "translation": "kalima - word",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "word"
+      ],
+      "semantic_field": "linguistic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0043",
+        "token": "كلمة",
+        "gloss": "kalima - word",
+        "pos": "noun",
+        "semantic_field": "linguistic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0044",
+      "script_symbol": "لغة",
+      "transliteration": "lugha",
+      "translation": "lugha - language",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "language"
+      ],
+      "semantic_field": "linguistic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0044",
+        "token": "لغة",
+        "gloss": "lugha - language",
+        "pos": "noun",
+        "semantic_field": "linguistic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0045",
+      "script_symbol": "حقّ",
+      "transliteration": "ḥaqq",
+      "translation": "ḥaqq - truth, right, reality",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "truth, right, reality"
+      ],
+      "semantic_field": "philosophical/legal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0045",
+        "token": "حقّ",
+        "gloss": "ḥaqq - truth, right, reality",
+        "pos": "noun",
+        "semantic_field": "philosophical/legal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0046",
+      "script_symbol": "عدل",
+      "transliteration": "'adl",
+      "translation": "'adl - justice",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "justice"
+      ],
+      "semantic_field": "legal/moral",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0046",
+        "token": "عدل",
+        "gloss": "'adl - justice",
+        "pos": "noun",
+        "semantic_field": "legal/moral",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0047",
+      "script_symbol": "سلام",
+      "transliteration": "salām",
+      "translation": "salām - peace",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "peace"
+      ],
+      "semantic_field": "social/greeting",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0047",
+        "token": "سلام",
+        "gloss": "salām - peace",
+        "pos": "noun",
+        "semantic_field": "social/greeting",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0048",
+      "script_symbol": "حبّ",
+      "transliteration": "ḥubb",
+      "translation": "ḥubb - love",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "love"
+      ],
+      "semantic_field": "emotional",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0048",
+        "token": "حبّ",
+        "gloss": "ḥubb - love",
+        "pos": "noun",
+        "semantic_field": "emotional",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0049",
+      "script_symbol": "قلب",
+      "transliteration": "qalb",
+      "translation": "qalb - heart",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "heart"
+      ],
+      "semantic_field": "anatomical/emotional",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0049",
+        "token": "قلب",
+        "gloss": "qalb - heart",
+        "pos": "noun",
+        "semantic_field": "anatomical/emotional",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0050",
+      "script_symbol": "روح",
+      "transliteration": "rūḥ",
+      "translation": "rūḥ - spirit, soul",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "spirit, soul"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0050",
+        "token": "روح",
+        "gloss": "rūḥ - spirit, soul",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0051",
+      "script_symbol": "عقل",
+      "transliteration": "'aql",
+      "translation": "'aql - reason, intellect",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "reason, intellect"
+      ],
+      "semantic_field": "intellectual",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0051",
+        "token": "عقل",
+        "gloss": "'aql - reason, intellect",
+        "pos": "noun",
+        "semantic_field": "intellectual",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0052",
+      "script_symbol": "نفس",
+      "transliteration": "nafs",
+      "translation": "nafs - self, soul, breath",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "self, soul, breath"
+      ],
+      "semantic_field": "philosophical",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0052",
+        "token": "نفس",
+        "gloss": "nafs - self, soul, breath",
+        "pos": "noun",
+        "semantic_field": "philosophical",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0053",
+      "script_symbol": "حياة",
+      "transliteration": "ḥayāt",
+      "translation": "ḥayāt - life",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "life"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0053",
+        "token": "حياة",
+        "gloss": "ḥayāt - life",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0054",
+      "script_symbol": "موت",
+      "transliteration": "mawt",
+      "translation": "mawt - death",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "death"
+      ],
+      "semantic_field": "existential",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0054",
+        "token": "موت",
+        "gloss": "mawt - death",
+        "pos": "noun",
+        "semantic_field": "existential",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0055",
+      "script_symbol": "ملك",
+      "transliteration": "malik",
+      "translation": "malik - king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0055",
+        "token": "ملك",
+        "gloss": "malik - king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0056",
+      "script_symbol": "سلطان",
+      "transliteration": "sulṭān",
+      "translation": "sulṭān - sultan, authority",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sultan, authority"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0056",
+        "token": "سلطان",
+        "gloss": "sulṭān - sultan, authority",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0057",
+      "script_symbol": "خليفة",
+      "transliteration": "khalīfa",
+      "translation": "khalīfa - caliph, successor",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "caliph, successor"
+      ],
+      "semantic_field": "political/religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0057",
+        "token": "خليفة",
+        "gloss": "khalīfa - caliph, successor",
+        "pos": "noun",
+        "semantic_field": "political/religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0058",
+      "script_symbol": "أمير",
+      "transliteration": "amīr",
+      "translation": "amīr - commander, prince",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "commander, prince"
+      ],
+      "semantic_field": "political/military",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0058",
+        "token": "أمير",
+        "gloss": "amīr - commander, prince",
+        "pos": "noun",
+        "semantic_field": "political/military",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0059",
+      "script_symbol": "وزير",
+      "transliteration": "wazīr",
+      "translation": "wazīr - vizier, minister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "vizier, minister"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0059",
+        "token": "وزير",
+        "gloss": "wazīr - vizier, minister",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0060",
+      "script_symbol": "قاضي",
+      "transliteration": "qāḍī",
+      "translation": "qāḍī - judge",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "judge"
+      ],
+      "semantic_field": "legal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0060",
+        "token": "قاضي",
+        "gloss": "qāḍī - judge",
+        "pos": "noun",
+        "semantic_field": "legal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0061",
+      "script_symbol": "شريعة",
+      "transliteration": "sharī'a",
+      "translation": "sharī'a - Islamic law, path",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Islamic law, path"
+      ],
+      "semantic_field": "legal/religious",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0061",
+        "token": "شريعة",
+        "gloss": "sharī'a - Islamic law, path",
+        "pos": "noun",
+        "semantic_field": "legal/religious",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0062",
+      "script_symbol": "أب",
+      "transliteration": "ab",
+      "translation": "ab - father",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0062",
+        "token": "أب",
+        "gloss": "ab - father",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0063",
+      "script_symbol": "أم",
+      "transliteration": "umm",
+      "translation": "umm - mother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0063",
+        "token": "أم",
+        "gloss": "umm - mother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0064",
+      "script_symbol": "ابن",
+      "transliteration": "ibn",
+      "translation": "ibn - son",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "son"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0064",
+        "token": "ابن",
+        "gloss": "ibn - son",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0065",
+      "script_symbol": "بنت",
+      "transliteration": "bint",
+      "translation": "bint - daughter",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "daughter"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0065",
+        "token": "بنت",
+        "gloss": "bint - daughter",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0066",
+      "script_symbol": "أخ",
+      "transliteration": "akh",
+      "translation": "akh - brother",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "brother"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0066",
+        "token": "أخ",
+        "gloss": "akh - brother",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0067",
+      "script_symbol": "أخت",
+      "transliteration": "ukht",
+      "translation": "ukht - sister",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sister"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0067",
+        "token": "أخت",
+        "gloss": "ukht - sister",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0068",
+      "script_symbol": "رجل",
+      "transliteration": "rajul",
+      "translation": "rajul - man",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0068",
+        "token": "رجل",
+        "gloss": "rajul - man",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0069",
+      "script_symbol": "امرأة",
+      "transliteration": "imra'a",
+      "translation": "imra'a - woman",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "woman"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0069",
+        "token": "امرأة",
+        "gloss": "imra'a - woman",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0070",
+      "script_symbol": "بيت",
+      "transliteration": "bayt",
+      "translation": "bayt - house, family",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "house, family"
+      ],
+      "semantic_field": "domestic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0070",
+        "token": "بيت",
+        "gloss": "bayt - house, family",
+        "pos": "noun",
+        "semantic_field": "domestic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0071",
+      "script_symbol": "مدينة",
+      "transliteration": "madīna",
+      "translation": "madīna - city",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "city"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0071",
+        "token": "مدينة",
+        "gloss": "madīna - city",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0072",
+      "script_symbol": "بحر",
+      "transliteration": "baḥr",
+      "translation": "baḥr - sea",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sea"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0072",
+        "token": "بحر",
+        "gloss": "baḥr - sea",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0073",
+      "script_symbol": "جبل",
+      "transliteration": "jabal",
+      "translation": "jabal - mountain",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "mountain"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0073",
+        "token": "جبل",
+        "gloss": "jabal - mountain",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0074",
+      "script_symbol": "نهر",
+      "transliteration": "nahr",
+      "translation": "nahr - river",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "river"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0074",
+        "token": "نهر",
+        "gloss": "nahr - river",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0075",
+      "script_symbol": "صحراء",
+      "transliteration": "ṣaḥrā'",
+      "translation": "ṣaḥrā' - desert",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "desert"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0075",
+        "token": "صحراء",
+        "gloss": "ṣaḥrā' - desert",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0076",
+      "script_symbol": "شمس",
+      "transliteration": "shams",
+      "translation": "shams - sun",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sun"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0076",
+        "token": "شمس",
+        "gloss": "shams - sun",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0077",
+      "script_symbol": "قمر",
+      "transliteration": "qamar",
+      "translation": "qamar - moon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "moon"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0077",
+        "token": "قمر",
+        "gloss": "qamar - moon",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0078",
+      "script_symbol": "نجم",
+      "transliteration": "najm",
+      "translation": "najm - star",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "star"
+      ],
+      "semantic_field": "celestial",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0078",
+        "token": "نجم",
+        "gloss": "najm - star",
+        "pos": "noun",
+        "semantic_field": "celestial",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0079",
+      "script_symbol": "ماء",
+      "transliteration": "mā'",
+      "translation": "mā' - water",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "water"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0079",
+        "token": "ماء",
+        "gloss": "mā' - water",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0080",
+      "script_symbol": "نار",
+      "transliteration": "nār",
+      "translation": "nār - fire",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "fire"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0080",
+        "token": "نار",
+        "gloss": "nār - fire",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0081",
+      "script_symbol": "أرض",
+      "transliteration": "arḍ",
+      "translation": "arḍ - earth, land",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "earth, land"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0081",
+        "token": "أرض",
+        "gloss": "arḍ - earth, land",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0082",
+      "script_symbol": "سماء",
+      "transliteration": "samā'",
+      "translation": "samā' - sky, heaven",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "sky, heaven"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0082",
+        "token": "سماء",
+        "gloss": "samā' - sky, heaven",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0083",
+      "script_symbol": "ريح",
+      "transliteration": "rīḥ",
+      "translation": "rīḥ - wind",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "wind"
+      ],
+      "semantic_field": "natural_world",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0083",
+        "token": "ريح",
+        "gloss": "rīḥ - wind",
+        "pos": "noun",
+        "semantic_field": "natural_world",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0084",
+      "script_symbol": "يوم",
+      "transliteration": "yawm",
+      "translation": "yawm - day",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "day"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0084",
+        "token": "يوم",
+        "gloss": "yawm - day",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0085",
+      "script_symbol": "ليل",
+      "transliteration": "layl",
+      "translation": "layl - night",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "night"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0085",
+        "token": "ليل",
+        "gloss": "layl - night",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0086",
+      "script_symbol": "سنة",
+      "transliteration": "sana",
+      "translation": "sana - year",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "year"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0086",
+        "token": "سنة",
+        "gloss": "sana - year",
+        "pos": "noun",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0087",
+      "script_symbol": "واحد",
+      "transliteration": "wāḥid",
+      "translation": "wāḥid - one",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "one"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0087",
+        "token": "واحد",
+        "gloss": "wāḥid - one",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0088",
+      "script_symbol": "اثنان",
+      "transliteration": "ithnān",
+      "translation": "ithnān - two",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "two"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0088",
+        "token": "اثنان",
+        "gloss": "ithnān - two",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0089",
+      "script_symbol": "ثلاثة",
+      "transliteration": "thalātha",
+      "translation": "thalātha - three",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "three"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0089",
+        "token": "ثلاثة",
+        "gloss": "thalātha - three",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0090",
+      "script_symbol": "أربعة",
+      "transliteration": "arba'a",
+      "translation": "arba'a - four",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "four"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0090",
+        "token": "أربعة",
+        "gloss": "arba'a - four",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0091",
+      "script_symbol": "خمسة",
+      "transliteration": "khamsa",
+      "translation": "khamsa - five",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "five"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0091",
+        "token": "خمسة",
+        "gloss": "khamsa - five",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0092",
+      "script_symbol": "عشرة",
+      "transliteration": "'ashara",
+      "translation": "'ashara - ten",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "ten"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0092",
+        "token": "عشرة",
+        "gloss": "'ashara - ten",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0093",
+      "script_symbol": "مئة",
+      "transliteration": "mi'a",
+      "translation": "mi'a - hundred",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "hundred"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0093",
+        "token": "مئة",
+        "gloss": "mi'a - hundred",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0094",
+      "script_symbol": "ألف",
+      "transliteration": "alf",
+      "translation": "alf - thousand",
+      "pos": "numeral",
+      "morphology": {},
+      "definitions": [
+        "thousand"
+      ],
+      "semantic_field": "cardinal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0094",
+        "token": "ألف",
+        "gloss": "alf - thousand",
+        "pos": "numeral",
+        "semantic_field": "cardinal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0095",
+      "script_symbol": "كتب",
+      "transliteration": "kataba",
+      "translation": "kataba - he wrote",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he wrote"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0095",
+        "token": "كتب",
+        "gloss": "kataba - he wrote",
+        "pos": "verb",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0096",
+      "script_symbol": "قرأ",
+      "transliteration": "qara'a",
+      "translation": "qara'a - he read/recited",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he read/recited"
+      ],
+      "semantic_field": "literary",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0096",
+        "token": "قرأ",
+        "gloss": "qara'a - he read/recited",
+        "pos": "verb",
+        "semantic_field": "literary",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0097",
+      "script_symbol": "علم",
+      "transliteration": "'alima",
+      "translation": "'alima - he knew",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he knew"
+      ],
+      "semantic_field": "cognitive",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0097",
+        "token": "علم",
+        "gloss": "'alima - he knew",
+        "pos": "verb",
+        "semantic_field": "cognitive",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0098",
+      "script_symbol": "قال",
+      "transliteration": "qāla",
+      "translation": "qāla - he said",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he said"
+      ],
+      "semantic_field": "communication",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0098",
+        "token": "قال",
+        "gloss": "qāla - he said",
+        "pos": "verb",
+        "semantic_field": "communication",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0099",
+      "script_symbol": "ذهب",
+      "transliteration": "dhahaba",
+      "translation": "dhahaba - he went",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he went"
+      ],
+      "semantic_field": "motion",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0099",
+        "token": "ذهب",
+        "gloss": "dhahaba - he went",
+        "pos": "verb",
+        "semantic_field": "motion",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0100",
+      "script_symbol": "جاء",
+      "transliteration": "jā'a",
+      "translation": "jā'a - he came",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he came"
+      ],
+      "semantic_field": "motion",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0100",
+        "token": "جاء",
+        "gloss": "jā'a - he came",
+        "pos": "verb",
+        "semantic_field": "motion",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0101",
+      "script_symbol": "أكل",
+      "transliteration": "akala",
+      "translation": "akala - he ate",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he ate"
+      ],
+      "semantic_field": "sustenance",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0101",
+        "token": "أكل",
+        "gloss": "akala - he ate",
+        "pos": "verb",
+        "semantic_field": "sustenance",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0102",
+      "script_symbol": "شرب",
+      "transliteration": "shariba",
+      "translation": "shariba - he drank",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he drank"
+      ],
+      "semantic_field": "sustenance",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0102",
+        "token": "شرب",
+        "gloss": "shariba - he drank",
+        "pos": "verb",
+        "semantic_field": "sustenance",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0103",
+      "script_symbol": "كبير",
+      "transliteration": "kabīr",
+      "translation": "kabīr - big, great",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "big, great"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0103",
+        "token": "كبير",
+        "gloss": "kabīr - big, great",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0104",
+      "script_symbol": "صغير",
+      "transliteration": "ṣaghīr",
+      "translation": "ṣaghīr - small",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "small"
+      ],
+      "semantic_field": "dimensional",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0104",
+        "token": "صغير",
+        "gloss": "ṣaghīr - small",
+        "pos": "adjective",
+        "semantic_field": "dimensional",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0105",
+      "script_symbol": "جديد",
+      "transliteration": "jadīd",
+      "translation": "jadīd - new",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "new"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0105",
+        "token": "جديد",
+        "gloss": "jadīd - new",
+        "pos": "adjective",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0106",
+      "script_symbol": "قديم",
+      "transliteration": "qadīm",
+      "translation": "qadīm - old, ancient",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "old, ancient"
+      ],
+      "semantic_field": "temporal",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0106",
+        "token": "قديم",
+        "gloss": "qadīm - old, ancient",
+        "pos": "adjective",
+        "semantic_field": "temporal",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0107",
+      "script_symbol": "جميل",
+      "transliteration": "jamīl",
+      "translation": "jamīl - beautiful",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "beautiful"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0107",
+        "token": "جميل",
+        "gloss": "jamīl - beautiful",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    },
+    {
+      "entry_id": "arabic_0108",
+      "script_symbol": "صحيح",
+      "transliteration": "ṣaḥīḥ",
+      "translation": "ṣaḥīḥ - correct, authentic",
+      "pos": "adjective",
+      "morphology": {},
+      "definitions": [
+        "correct, authentic"
+      ],
+      "semantic_field": "evaluative",
+      "etymology": "",
+      "attestations": [
+        "Hans Wehr - Arabic-English Dictionary"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "quranic_arabic_corpus"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "arabic_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "arabic_0108",
+        "token": "صحيح",
+        "gloss": "ṣaḥīḥ - correct, authentic",
+        "pos": "adjective",
+        "semantic_field": "evaluative",
+        "confidence": 1.0,
+        "source": "Hans Wehr - Arabic-English Dictionary"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Arabic entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

@@ -1,0 +1,2446 @@
+{
+  "metadata": {
+    "title": "Old Persian Cuneiform Lexicon",
+    "description": "Expanded and normalized Old Persian Cuneiform dataset derived from old_persian_lexicon_MASTER_2026-04-29.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2026-04-29T00:00:00Z",
+    "original_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 70,
+    "corpus_status": "Fully Deciphered",
+    "sources": [
+      "Roland Kent - Old Persian Grammar",
+      "Rüdiger Schmitt - Old Persian Inscriptions",
+      "The Unicode Consortium – Code Charts",
+      "TITUS – Old Persian Corpus",
+      "Cuneiform Digital Library Initiative"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "titus_old_persian": {
+        "title": "TITUS – Old Persian Corpus",
+        "url": "https://titus.uni-frankfurt.de/texte/etcs/iran/airan/apers/apers.htm",
+        "type": "text_corpus",
+        "scope": "Old Persian inscriptions corpus"
+      },
+      "cdli": {
+        "title": "Cuneiform Digital Library Initiative",
+        "url": "https://cdli.earth/",
+        "type": "primary_text_database",
+        "scope": "cuneiform tablet metadata, images, transliterations"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "Syllabic-Logographic",
+    "historical_significance": "Achaemenid royal inscriptional script and key early decipherment corpus.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "old_persian_0001",
+      "script_symbol": "𐎠",
+      "transliteration": "a",
+      "translation": "a (vowel)",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "vowel"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0001",
+        "token": "𐎠",
+        "gloss": "a (vowel)",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0002",
+      "script_symbol": "𐎡",
+      "transliteration": "i",
+      "translation": "i (vowel)",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "vowel"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0002",
+        "token": "𐎡",
+        "gloss": "i (vowel)",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0003",
+      "script_symbol": "𐎢",
+      "transliteration": "u",
+      "translation": "u (vowel)",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "vowel"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0003",
+        "token": "𐎢",
+        "gloss": "u (vowel)",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0004",
+      "script_symbol": "𐎣",
+      "transliteration": "ka",
+      "translation": "ka",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ka"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0004",
+        "token": "𐎣",
+        "gloss": "ka",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0005",
+      "script_symbol": "𐎤",
+      "transliteration": "ku",
+      "translation": "ku",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ku"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0005",
+        "token": "𐎤",
+        "gloss": "ku",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0006",
+      "script_symbol": "𐎥",
+      "transliteration": "ga",
+      "translation": "ga",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ga"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0006",
+        "token": "𐎥",
+        "gloss": "ga",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0007",
+      "script_symbol": "𐎦",
+      "transliteration": "gu",
+      "translation": "gu",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "gu"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0007",
+        "token": "𐎦",
+        "gloss": "gu",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0008",
+      "script_symbol": "𐎧",
+      "transliteration": "xa",
+      "translation": "xa",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "xa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0008",
+        "token": "𐎧",
+        "gloss": "xa",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0009",
+      "script_symbol": "𐎨",
+      "transliteration": "ca",
+      "translation": "ca",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ca"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0009",
+        "token": "𐎨",
+        "gloss": "ca",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0010",
+      "script_symbol": "𐎩",
+      "transliteration": "ja",
+      "translation": "ja",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ja"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0010",
+        "token": "𐎩",
+        "gloss": "ja",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0011",
+      "script_symbol": "𐎪",
+      "transliteration": "ji",
+      "translation": "ji",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ji"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0011",
+        "token": "𐎪",
+        "gloss": "ji",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0012",
+      "script_symbol": "𐎫",
+      "transliteration": "ta",
+      "translation": "ta",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ta"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0012",
+        "token": "𐎫",
+        "gloss": "ta",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0013",
+      "script_symbol": "𐎬",
+      "transliteration": "tu",
+      "translation": "tu",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "tu"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0013",
+        "token": "𐎬",
+        "gloss": "tu",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0014",
+      "script_symbol": "𐎭",
+      "transliteration": "da",
+      "translation": "da",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "da"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0014",
+        "token": "𐎭",
+        "gloss": "da",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0015",
+      "script_symbol": "𐎮",
+      "transliteration": "di",
+      "translation": "di",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "di"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0015",
+        "token": "𐎮",
+        "gloss": "di",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0016",
+      "script_symbol": "𐎯",
+      "transliteration": "du",
+      "translation": "du",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "du"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0016",
+        "token": "𐎯",
+        "gloss": "du",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0017",
+      "script_symbol": "𐎰",
+      "transliteration": "θa",
+      "translation": "θa (tha)",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "tha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0017",
+        "token": "𐎰",
+        "gloss": "θa (tha)",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0018",
+      "script_symbol": "𐎱",
+      "transliteration": "pa",
+      "translation": "pa",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "pa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0018",
+        "token": "𐎱",
+        "gloss": "pa",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0019",
+      "script_symbol": "𐎲",
+      "transliteration": "ba",
+      "translation": "ba",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ba"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0019",
+        "token": "𐎲",
+        "gloss": "ba",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0020",
+      "script_symbol": "𐎳",
+      "transliteration": "fa",
+      "translation": "fa",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "fa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0020",
+        "token": "𐎳",
+        "gloss": "fa",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0021",
+      "script_symbol": "𐎴",
+      "transliteration": "na",
+      "translation": "na",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "na"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0021",
+        "token": "𐎴",
+        "gloss": "na",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0022",
+      "script_symbol": "𐎵",
+      "transliteration": "nu",
+      "translation": "nu",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "nu"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0022",
+        "token": "𐎵",
+        "gloss": "nu",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0023",
+      "script_symbol": "𐎶",
+      "transliteration": "ma",
+      "translation": "ma",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ma"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0023",
+        "token": "𐎶",
+        "gloss": "ma",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0024",
+      "script_symbol": "𐎷",
+      "transliteration": "mi",
+      "translation": "mi",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "mi"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0024",
+        "token": "𐎷",
+        "gloss": "mi",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0025",
+      "script_symbol": "𐎸",
+      "transliteration": "mu",
+      "translation": "mu",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "mu"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0025",
+        "token": "𐎸",
+        "gloss": "mu",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0026",
+      "script_symbol": "𐎹",
+      "transliteration": "ya",
+      "translation": "ya",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ya"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0026",
+        "token": "𐎹",
+        "gloss": "ya",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0027",
+      "script_symbol": "𐎺",
+      "transliteration": "va",
+      "translation": "va",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "va"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0027",
+        "token": "𐎺",
+        "gloss": "va",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0028",
+      "script_symbol": "𐎻",
+      "transliteration": "vi",
+      "translation": "vi",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "vi"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0028",
+        "token": "𐎻",
+        "gloss": "vi",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0029",
+      "script_symbol": "𐎼",
+      "transliteration": "ra",
+      "translation": "ra",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ra"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0029",
+        "token": "𐎼",
+        "gloss": "ra",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0030",
+      "script_symbol": "𐎽",
+      "transliteration": "ru",
+      "translation": "ru",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ru"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0030",
+        "token": "𐎽",
+        "gloss": "ru",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0031",
+      "script_symbol": "𐎾",
+      "transliteration": "la",
+      "translation": "la",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "la"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0031",
+        "token": "𐎾",
+        "gloss": "la",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0032",
+      "script_symbol": "𐎿",
+      "transliteration": "sa",
+      "translation": "sa",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "sa"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0032",
+        "token": "𐎿",
+        "gloss": "sa",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0033",
+      "script_symbol": "𐏀",
+      "transliteration": "za",
+      "translation": "za",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "za"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0033",
+        "token": "𐏀",
+        "gloss": "za",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0034",
+      "script_symbol": "𐏁",
+      "transliteration": "ša",
+      "translation": "ša",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ša"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0034",
+        "token": "𐏁",
+        "gloss": "ša",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0035",
+      "script_symbol": "𐏂",
+      "transliteration": "ha",
+      "translation": "ha",
+      "pos": "syllabogram",
+      "morphology": {},
+      "definitions": [
+        "ha"
+      ],
+      "semantic_field": "phonetic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0035",
+        "token": "𐏂",
+        "gloss": "ha",
+        "pos": "syllabogram",
+        "semantic_field": "phonetic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0036",
+      "script_symbol": "𐏃",
+      "transliteration": "Ahuramazda",
+      "translation": "Ahuramazda (logogram)",
+      "pos": "logogram",
+      "morphology": {},
+      "definitions": [
+        "logogram"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0036",
+        "token": "𐏃",
+        "gloss": "Ahuramazda (logogram)",
+        "pos": "logogram",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0037",
+      "script_symbol": "𐏈",
+      "transliteration": "king",
+      "translation": "king (XŠ)",
+      "pos": "logogram",
+      "morphology": {},
+      "definitions": [
+        "XŠ"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0037",
+        "token": "𐏈",
+        "gloss": "king (XŠ)",
+        "pos": "logogram",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0038",
+      "script_symbol": "𐏋",
+      "transliteration": "earth",
+      "translation": "earth (BU)",
+      "pos": "logogram",
+      "morphology": {},
+      "definitions": [
+        "BU"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0038",
+        "token": "𐏋",
+        "gloss": "earth (BU)",
+        "pos": "logogram",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0039",
+      "script_symbol": "𐏌",
+      "transliteration": "land/country",
+      "translation": "land/country (DH)",
+      "pos": "logogram",
+      "morphology": {},
+      "definitions": [
+        "DH"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0039",
+        "token": "𐏌",
+        "gloss": "land/country (DH)",
+        "pos": "logogram",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0040",
+      "script_symbol": "𐏍",
+      "transliteration": "word divider",
+      "translation": "word divider",
+      "pos": "punctuation",
+      "morphology": {},
+      "definitions": [
+        "word divider"
+      ],
+      "semantic_field": "structural",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0040",
+        "token": "𐏍",
+        "gloss": "word divider",
+        "pos": "punctuation",
+        "semantic_field": "structural",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0041",
+      "script_symbol": "xšāyaθiya",
+      "transliteration": "king",
+      "translation": "king",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "king"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0041",
+        "token": "xšāyaθiya",
+        "gloss": "king",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0042",
+      "script_symbol": "xšāyaθiya xšāyaθiyānām",
+      "transliteration": "king of kings",
+      "translation": "king of kings",
+      "pos": "noun_phrase",
+      "morphology": {},
+      "definitions": [
+        "king of kings"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0042",
+        "token": "xšāyaθiya xšāyaθiyānām",
+        "gloss": "king of kings",
+        "pos": "noun_phrase",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0043",
+      "script_symbol": "dahyāuš",
+      "transliteration": "land, country, people",
+      "translation": "land, country, people",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "land, country, people"
+      ],
+      "semantic_field": "geographic/political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0043",
+        "token": "dahyāuš",
+        "gloss": "land, country, people",
+        "pos": "noun",
+        "semantic_field": "geographic/political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0044",
+      "script_symbol": "baga",
+      "transliteration": "god",
+      "translation": "god",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "god"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0044",
+        "token": "baga",
+        "gloss": "god",
+        "pos": "noun",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0045",
+      "script_symbol": "Auramazdā",
+      "transliteration": "Ahura Mazda",
+      "translation": "Ahura Mazda (supreme deity)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "supreme deity"
+      ],
+      "semantic_field": "deity",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0045",
+        "token": "Auramazdā",
+        "gloss": "Ahura Mazda (supreme deity)",
+        "pos": "noun",
+        "semantic_field": "deity",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0046",
+      "script_symbol": "martiya",
+      "transliteration": "man, person",
+      "translation": "man, person",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "man, person"
+      ],
+      "semantic_field": "anthropological",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0046",
+        "token": "martiya",
+        "gloss": "man, person",
+        "pos": "noun",
+        "semantic_field": "anthropological",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0047",
+      "script_symbol": "vašna",
+      "transliteration": "by the will/grace of",
+      "translation": "by the will/grace of",
+      "pos": "postposition",
+      "morphology": {},
+      "definitions": [
+        "by the will/grace of"
+      ],
+      "semantic_field": "religious",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0047",
+        "token": "vašna",
+        "gloss": "by the will/grace of",
+        "pos": "postposition",
+        "semantic_field": "religious",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0048",
+      "script_symbol": "adam",
+      "transliteration": "I",
+      "translation": "I (first person)",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "first person"
+      ],
+      "semantic_field": "personal",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0048",
+        "token": "adam",
+        "gloss": "I (first person)",
+        "pos": "pronoun",
+        "semantic_field": "personal",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0049",
+      "script_symbol": "ima",
+      "transliteration": "this",
+      "translation": "this",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "this"
+      ],
+      "semantic_field": "demonstrative",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0049",
+        "token": "ima",
+        "gloss": "this",
+        "pos": "pronoun",
+        "semantic_field": "demonstrative",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0050",
+      "script_symbol": "ava",
+      "transliteration": "that",
+      "translation": "that",
+      "pos": "pronoun",
+      "morphology": {},
+      "definitions": [
+        "that"
+      ],
+      "semantic_field": "demonstrative",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0050",
+        "token": "ava",
+        "gloss": "that",
+        "pos": "pronoun",
+        "semantic_field": "demonstrative",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0051",
+      "script_symbol": "akunauš",
+      "transliteration": "he made/did",
+      "translation": "he made/did",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "he made/did"
+      ],
+      "semantic_field": "action",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0051",
+        "token": "akunauš",
+        "gloss": "he made/did",
+        "pos": "verb",
+        "semantic_field": "action",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0052",
+      "script_symbol": "θātiy",
+      "transliteration": "says, declares",
+      "translation": "says, declares",
+      "pos": "verb",
+      "morphology": {},
+      "definitions": [
+        "says, declares"
+      ],
+      "semantic_field": "communication",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0052",
+        "token": "θātiy",
+        "gloss": "says, declares",
+        "pos": "verb",
+        "semantic_field": "communication",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0053",
+      "script_symbol": "Dārayavauš",
+      "transliteration": "Darius",
+      "translation": "Darius (proper name)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "proper name"
+      ],
+      "semantic_field": "personal_name",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0053",
+        "token": "Dārayavauš",
+        "gloss": "Darius (proper name)",
+        "pos": "noun",
+        "semantic_field": "personal_name",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0054",
+      "script_symbol": "Xšayāršā",
+      "transliteration": "Xerxes",
+      "translation": "Xerxes (proper name)",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "proper name"
+      ],
+      "semantic_field": "personal_name",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0054",
+        "token": "Xšayāršā",
+        "gloss": "Xerxes (proper name)",
+        "pos": "noun",
+        "semantic_field": "personal_name",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0055",
+      "script_symbol": "Pārsa",
+      "transliteration": "Persia, Persian",
+      "translation": "Persia, Persian",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Persia, Persian"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0055",
+        "token": "Pārsa",
+        "gloss": "Persia, Persian",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0056",
+      "script_symbol": "Bābiru",
+      "transliteration": "Babylon",
+      "translation": "Babylon",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Babylon"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0056",
+        "token": "Bābiru",
+        "gloss": "Babylon",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0057",
+      "script_symbol": "Mudrāya",
+      "transliteration": "Egypt",
+      "translation": "Egypt",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Egypt"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0057",
+        "token": "Mudrāya",
+        "gloss": "Egypt",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0058",
+      "script_symbol": "Sparda",
+      "transliteration": "Sardis/Lydia",
+      "translation": "Sardis/Lydia",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Sardis/Lydia"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0058",
+        "token": "Sparda",
+        "gloss": "Sardis/Lydia",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0059",
+      "script_symbol": "Yauna",
+      "transliteration": "Ionia/Greeks",
+      "translation": "Ionia/Greeks",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ionia/Greeks"
+      ],
+      "semantic_field": "geographic/ethnic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0059",
+        "token": "Yauna",
+        "gloss": "Ionia/Greeks",
+        "pos": "noun",
+        "semantic_field": "geographic/ethnic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0060",
+      "script_symbol": "Hagmatāna",
+      "transliteration": "Ecbatana",
+      "translation": "Ecbatana",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "Ecbatana"
+      ],
+      "semantic_field": "geographic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0060",
+        "token": "Hagmatāna",
+        "gloss": "Ecbatana",
+        "pos": "noun",
+        "semantic_field": "geographic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0061",
+      "script_symbol": "hamarana",
+      "transliteration": "battle",
+      "translation": "battle",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "battle"
+      ],
+      "semantic_field": "military",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0061",
+        "token": "hamarana",
+        "gloss": "battle",
+        "pos": "noun",
+        "semantic_field": "military",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0062",
+      "script_symbol": "kāra",
+      "transliteration": "army, people",
+      "translation": "army, people",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "army, people"
+      ],
+      "semantic_field": "military/political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0062",
+        "token": "kāra",
+        "gloss": "army, people",
+        "pos": "noun",
+        "semantic_field": "military/political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0063",
+      "script_symbol": "drauga",
+      "transliteration": "lie, falsehood",
+      "translation": "lie, falsehood",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "lie, falsehood"
+      ],
+      "semantic_field": "moral",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0063",
+        "token": "drauga",
+        "gloss": "lie, falsehood",
+        "pos": "noun",
+        "semantic_field": "moral",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0064",
+      "script_symbol": "arta",
+      "transliteration": "truth, cosmic order",
+      "translation": "truth, cosmic order",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "truth, cosmic order"
+      ],
+      "semantic_field": "moral/religious",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0064",
+        "token": "arta",
+        "gloss": "truth, cosmic order",
+        "pos": "noun",
+        "semantic_field": "moral/religious",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0065",
+      "script_symbol": "bandaka",
+      "transliteration": "servant, subject",
+      "translation": "servant, subject",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "servant, subject"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0065",
+        "token": "bandaka",
+        "gloss": "servant, subject",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0066",
+      "script_symbol": "framānā",
+      "transliteration": "command, decree",
+      "translation": "command, decree",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "command, decree"
+      ],
+      "semantic_field": "political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0066",
+        "token": "framānā",
+        "gloss": "command, decree",
+        "pos": "noun",
+        "semantic_field": "political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0067",
+      "script_symbol": "taumā",
+      "transliteration": "clan, family",
+      "translation": "clan, family",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "clan, family"
+      ],
+      "semantic_field": "kinship",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0067",
+        "token": "taumā",
+        "gloss": "clan, family",
+        "pos": "noun",
+        "semantic_field": "kinship",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0068",
+      "script_symbol": "viθ",
+      "transliteration": "house, clan",
+      "translation": "house, clan",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "house, clan"
+      ],
+      "semantic_field": "kinship/domestic",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0068",
+        "token": "viθ",
+        "gloss": "house, clan",
+        "pos": "noun",
+        "semantic_field": "kinship/domestic",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0069",
+      "script_symbol": "gāθu",
+      "transliteration": "place, throne",
+      "translation": "place, throne",
+      "pos": "noun",
+      "morphology": {},
+      "definitions": [
+        "place, throne"
+      ],
+      "semantic_field": "spatial/political",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0069",
+        "token": "gāθu",
+        "gloss": "place, throne",
+        "pos": "noun",
+        "semantic_field": "spatial/political",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    },
+    {
+      "entry_id": "old_persian_0070",
+      "script_symbol": "duvitāparanam",
+      "transliteration": "far and wide",
+      "translation": "far and wide",
+      "pos": "adverb",
+      "morphology": {},
+      "definitions": [
+        "far and wide"
+      ],
+      "semantic_field": "spatial",
+      "etymology": "",
+      "attestations": [
+        "Roland Kent - Old Persian Grammar"
+      ],
+      "frequency": "undetermined",
+      "confidence_score": 1.0,
+      "source_refs": [
+        "unicode_code_charts",
+        "titus_old_persian",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "old_persian_lexicon_MASTER_2026-04-29.json",
+      "original_record": {
+        "entry_id": "old_persian_0070",
+        "token": "duvitāparanam",
+        "gloss": "far and wide",
+        "pos": "adverb",
+        "semantic_field": "spatial",
+        "confidence": 1.0,
+        "source": "Roland Kent - Old Persian Grammar"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Old Persian Cuneiform entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}

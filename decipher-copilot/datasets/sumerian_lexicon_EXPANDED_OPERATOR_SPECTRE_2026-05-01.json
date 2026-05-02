@@ -1,0 +1,3287 @@
+{
+  "metadata": {
+    "title": "Sumerian Lexicon",
+    "description": "Expanded and normalized Sumerian dataset derived from sumerian_lexicon.json; preserves original records while adding source-indexed attestation resources and unified lexical fields.",
+    "version": "1.1.0-expanded",
+    "created": "2026-05-01",
+    "original_version": "1.0.0",
+    "original_created": "2025-07-29",
+    "original_file": "sumerian_lexicon.json",
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+    "total_entries": 60,
+    "corpus_status": "Core vocabulary - Old Babylonian Standard Literary",
+    "sources": [
+      "Pennsylvania Sumerian Dictionary (PSD)",
+      "Borger Mesopotamisches Zeichenlexikon (MZL)",
+      "Electronic Text Corpus of Sumerian Literature (ETCSL)",
+      "Cuneiform Digital Library Initiative (CDLI)",
+      "The Unicode Consortium – Code Charts",
+      "ORACC ePSD2 – Electronic Pennsylvania Sumerian Dictionary",
+      "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts",
+      "Cuneiform Digital Library Initiative"
+    ],
+    "attested_resources": {
+      "unicode_code_charts": {
+        "title": "The Unicode Consortium – Code Charts",
+        "url": "https://www.unicode.org/charts/",
+        "type": "encoding_standard",
+        "scope": "script sign/codepoint verification across encoded scripts"
+      },
+      "oracc_epsd2": {
+        "title": "ORACC ePSD2 – Electronic Pennsylvania Sumerian Dictionary",
+        "url": "https://oracc.museum.upenn.edu/epsd2/",
+        "type": "lexical_corpus",
+        "scope": "Sumerian lemmas, attestations, periods, forms"
+      },
+      "oracc_dcclt": {
+        "title": "ORACC DCCLT – Digital Corpus of Cuneiform Lexical Texts",
+        "url": "https://oracc.museum.upenn.edu/dcclt/",
+        "type": "lexical_corpus",
+        "scope": "cuneiform lexical and sign-list texts"
+      },
+      "cdli": {
+        "title": "Cuneiform Digital Library Initiative",
+        "url": "https://cdli.earth/",
+        "type": "primary_text_database",
+        "scope": "cuneiform tablet metadata, images, transliterations"
+      }
+    },
+    "linguistic_principles": {
+      "normalization": "Original fields are preserved under original_record; normalized fields are added for common programmatic access.",
+      "attestation_policy": "Specific attestations are retained when present in the seed file. Where entry-level attestations are absent, entries are linked to reputable resource indexes for manual verification rather than inventing inscriptional claims.",
+      "confidence_policy": "Seed confidence values are preserved when present. Default confidence 0.80 indicates normalized-but-not-entry-verified.",
+      "polysemy_policy": "Definitions are arrays to permit multiple meanings, semantic drift, and context-dependent collapse."
+    },
+    "script_type": "cuneiform logosyllabic",
+    "historical_significance": "One of the earliest written languages, foundational to Mesopotamian lexical and literary traditions.",
+    "notes": {
+      "compiler_line": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000",
+      "resource_expansion_scope": "metadata/resource-level enrichment plus per-entry source_refs; not a substitute for manual line-by-line philological collation.",
+      "normalization_timestamp": "2026-05-01"
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "sum_001",
+      "script_symbol": "𒀭",
+      "transliteration": "an",
+      "translation": "god, deity, sky, heaven",
+      "pos": "noun",
+      "morphology": {
+        "root": "an",
+        "phonetic_value": [
+          "an"
+        ],
+        "logographic_value": [
+          "DINGIR",
+          "AN"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "religious",
+          "cosmological",
+          "onomastic"
+        ],
+        "notes": "Determinative for divine names when written before god names"
+      },
+      "definitions": [
+        "god, deity, sky, heaven"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "an",
+      "attestations": [
+        "PSD-A"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_001",
+        "cuneiform": "𒀭",
+        "transliteration": "an",
+        "translation": "god, deity, sky, heaven",
+        "pos": "noun",
+        "root": "an",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-A",
+        "frequency": "very_high",
+        "borger_code": "013",
+        "sign_type": "logogram",
+        "notes": "Determinative for divine names when written before god names",
+        "phonetic_value": [
+          "an"
+        ],
+        "logographic_value": [
+          "DINGIR",
+          "AN"
+        ],
+        "contexts": [
+          "religious",
+          "cosmological",
+          "onomastic"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_002",
+      "script_symbol": "𒈗",
+      "transliteration": "lugal",
+      "translation": "king, ruler",
+      "pos": "noun",
+      "morphology": {
+        "root": "lugal",
+        "phonetic_value": [
+          "lu",
+          "gal"
+        ],
+        "logographic_value": [
+          "LUGAL"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "political",
+          "administrative",
+          "royal"
+        ],
+        "notes": "Literally 'big man' (lu₂ + gal)"
+      },
+      "definitions": [
+        "king, ruler"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "lugal",
+      "attestations": [
+        "PSD-L"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_002",
+        "cuneiform": "𒈗",
+        "transliteration": "lugal",
+        "translation": "king, ruler",
+        "pos": "noun",
+        "root": "lugal",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-L",
+        "frequency": "very_high",
+        "borger_code": "151",
+        "sign_type": "logogram",
+        "notes": "Literally 'big man' (lu₂ + gal)",
+        "phonetic_value": [
+          "lu",
+          "gal"
+        ],
+        "logographic_value": [
+          "LUGAL"
+        ],
+        "contexts": [
+          "political",
+          "administrative",
+          "royal"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_003",
+      "script_symbol": "𒌌",
+      "transliteration": "utu",
+      "translation": "sun, sun god Utu/Shamash",
+      "pos": "noun",
+      "morphology": {
+        "root": "utu",
+        "phonetic_value": [
+          "utu",
+          "ud",
+          "babbar"
+        ],
+        "logographic_value": [
+          "UTU",
+          "UD"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "religious",
+          "temporal",
+          "judicial"
+        ],
+        "notes": "Solar deity, god of justice"
+      },
+      "definitions": [
+        "sun, sun god Utu/Shamash"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "utu",
+      "attestations": [
+        "PSD-U"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_003",
+        "cuneiform": "𒌌",
+        "transliteration": "utu",
+        "translation": "sun, sun god Utu/Shamash",
+        "pos": "noun",
+        "root": "utu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-U",
+        "frequency": "high",
+        "borger_code": "312",
+        "sign_type": "logogram",
+        "notes": "Solar deity, god of justice",
+        "phonetic_value": [
+          "utu",
+          "ud",
+          "babbar"
+        ],
+        "logographic_value": [
+          "UTU",
+          "UD"
+        ],
+        "contexts": [
+          "religious",
+          "temporal",
+          "judicial"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_004",
+      "script_symbol": "𒂗",
+      "transliteration": "en",
+      "translation": "lord, priest, ruler",
+      "pos": "noun",
+      "morphology": {
+        "root": "en",
+        "phonetic_value": [
+          "en"
+        ],
+        "logographic_value": [
+          "EN"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "religious",
+          "political",
+          "administrative"
+        ],
+        "notes": "High priestly title, also secular ruler"
+      },
+      "definitions": [
+        "lord, priest, ruler"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "en",
+      "attestations": [
+        "PSD-E"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_004",
+        "cuneiform": "𒂗",
+        "transliteration": "en",
+        "translation": "lord, priest, ruler",
+        "pos": "noun",
+        "root": "en",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-E",
+        "frequency": "very_high",
+        "borger_code": "099",
+        "sign_type": "logogram",
+        "notes": "High priestly title, also secular ruler",
+        "phonetic_value": [
+          "en"
+        ],
+        "logographic_value": [
+          "EN"
+        ],
+        "contexts": [
+          "religious",
+          "political",
+          "administrative"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_005",
+      "script_symbol": "𒈾",
+      "transliteration": "na",
+      "translation": "stone, person",
+      "pos": "noun",
+      "morphology": {
+        "root": "na",
+        "phonetic_value": [
+          "na"
+        ],
+        "logographic_value": [
+          "NA"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "material",
+          "personal"
+        ],
+        "notes": "Polysemous: stone/person depending on context"
+      },
+      "definitions": [
+        "stone, person"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "na",
+      "attestations": [
+        "PSD-N"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_005",
+        "cuneiform": "𒈾",
+        "transliteration": "na",
+        "translation": "stone, person",
+        "pos": "noun",
+        "root": "na",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-N",
+        "frequency": "high",
+        "borger_code": "240",
+        "sign_type": "logogram",
+        "notes": "Polysemous: stone/person depending on context",
+        "phonetic_value": [
+          "na"
+        ],
+        "logographic_value": [
+          "NA"
+        ],
+        "contexts": [
+          "material",
+          "personal"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_006",
+      "script_symbol": "𒀀",
+      "transliteration": "a",
+      "translation": "water, watercourse",
+      "pos": "noun",
+      "morphology": {
+        "root": "a",
+        "phonetic_value": [
+          "a"
+        ],
+        "logographic_value": [
+          "A"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "natural",
+          "cosmological",
+          "ritual"
+        ],
+        "notes": "Basic element, also phonetic 'a'"
+      },
+      "definitions": [
+        "water, watercourse"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "a",
+      "attestations": [
+        "PSD-A"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_006",
+        "cuneiform": "𒀀",
+        "transliteration": "a",
+        "translation": "water, watercourse",
+        "pos": "noun",
+        "root": "a",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-A",
+        "frequency": "very_high",
+        "borger_code": "001",
+        "sign_type": "logogram",
+        "notes": "Basic element, also phonetic 'a'",
+        "phonetic_value": [
+          "a"
+        ],
+        "logographic_value": [
+          "A"
+        ],
+        "contexts": [
+          "natural",
+          "cosmological",
+          "ritual"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_007",
+      "script_symbol": "𒆠",
+      "transliteration": "ki",
+      "translation": "earth, place, land",
+      "pos": "noun",
+      "morphology": {
+        "root": "ki",
+        "phonetic_value": [
+          "ki"
+        ],
+        "logographic_value": [
+          "KI"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "geographical",
+          "cosmological"
+        ],
+        "notes": "Determinative for place names"
+      },
+      "definitions": [
+        "earth, place, land"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ki",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_007",
+        "cuneiform": "𒆠",
+        "transliteration": "ki",
+        "translation": "earth, place, land",
+        "pos": "noun",
+        "root": "ki",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "very_high",
+        "borger_code": "737",
+        "sign_type": "logogram",
+        "notes": "Determinative for place names",
+        "phonetic_value": [
+          "ki"
+        ],
+        "logographic_value": [
+          "KI"
+        ],
+        "contexts": [
+          "geographical",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_008",
+      "script_symbol": "𒇽",
+      "transliteration": "lu₂",
+      "translation": "person, man, human being",
+      "pos": "noun",
+      "morphology": {
+        "root": "lu",
+        "phonetic_value": [
+          "lu"
+        ],
+        "logographic_value": [
+          "LU₂"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "social",
+          "personal",
+          "legal"
+        ],
+        "notes": "Generic term for human being"
+      },
+      "definitions": [
+        "person, man, human being"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "lu",
+      "attestations": [
+        "PSD-L"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_008",
+        "cuneiform": "𒇽",
+        "transliteration": "lu₂",
+        "translation": "person, man, human being",
+        "pos": "noun",
+        "root": "lu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-L",
+        "frequency": "very_high",
+        "borger_code": "514",
+        "sign_type": "logogram",
+        "notes": "Generic term for human being",
+        "phonetic_value": [
+          "lu"
+        ],
+        "logographic_value": [
+          "LU₂"
+        ],
+        "contexts": [
+          "social",
+          "personal",
+          "legal"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_009",
+      "script_symbol": "𒈬",
+      "transliteration": "mu",
+      "translation": "year, name",
+      "pos": "noun",
+      "morphology": {
+        "root": "mu",
+        "phonetic_value": [
+          "mu"
+        ],
+        "logographic_value": [
+          "MU"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "temporal",
+          "onomastic",
+          "administrative"
+        ],
+        "notes": "Polysemous: year/name depending on context"
+      },
+      "definitions": [
+        "year, name"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "mu",
+      "attestations": [
+        "PSD-M"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_009",
+        "cuneiform": "𒈬",
+        "transliteration": "mu",
+        "translation": "year, name",
+        "pos": "noun",
+        "root": "mu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-M",
+        "frequency": "very_high",
+        "borger_code": "098",
+        "sign_type": "logogram",
+        "notes": "Polysemous: year/name depending on context",
+        "phonetic_value": [
+          "mu"
+        ],
+        "logographic_value": [
+          "MU"
+        ],
+        "contexts": [
+          "temporal",
+          "onomastic",
+          "administrative"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_010",
+      "script_symbol": "𒌅",
+      "transliteration": "u₄",
+      "translation": "day, sun, time, when",
+      "pos": "noun",
+      "morphology": {
+        "root": "ud",
+        "phonetic_value": [
+          "ud",
+          "u₄"
+        ],
+        "logographic_value": [
+          "UD"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "temporal",
+          "astronomical"
+        ],
+        "notes": "Basic temporal unit"
+      },
+      "definitions": [
+        "day, sun, time, when"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ud",
+      "attestations": [
+        "PSD-U"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_010",
+        "cuneiform": "𒌅",
+        "transliteration": "u₄",
+        "translation": "day, sun, time, when",
+        "pos": "noun",
+        "root": "ud",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-U",
+        "frequency": "very_high",
+        "borger_code": "382",
+        "sign_type": "logogram",
+        "notes": "Basic temporal unit",
+        "phonetic_value": [
+          "ud",
+          "u₄"
+        ],
+        "logographic_value": [
+          "UD"
+        ],
+        "contexts": [
+          "temporal",
+          "astronomical"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_011",
+      "script_symbol": "𒃻",
+      "transliteration": "dumu",
+      "translation": "child, son, descendant",
+      "pos": "noun",
+      "morphology": {
+        "root": "dumu",
+        "phonetic_value": [
+          "dumu"
+        ],
+        "logographic_value": [
+          "DUMU"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "familial",
+          "genealogical",
+          "legal"
+        ],
+        "notes": "Family relationship term"
+      },
+      "definitions": [
+        "child, son, descendant"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "dumu",
+      "attestations": [
+        "PSD-D"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_011",
+        "cuneiform": "𒃻",
+        "transliteration": "dumu",
+        "translation": "child, son, descendant",
+        "pos": "noun",
+        "root": "dumu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-D",
+        "frequency": "high",
+        "borger_code": "208",
+        "sign_type": "logogram",
+        "notes": "Family relationship term",
+        "phonetic_value": [
+          "dumu"
+        ],
+        "logographic_value": [
+          "DUMU"
+        ],
+        "contexts": [
+          "familial",
+          "genealogical",
+          "legal"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_012",
+      "script_symbol": "𒂊",
+      "transliteration": "e₂",
+      "translation": "house, temple, household",
+      "pos": "noun",
+      "morphology": {
+        "root": "e",
+        "phonetic_value": [
+          "e"
+        ],
+        "logographic_value": [
+          "E₂"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "architectural",
+          "institutional",
+          "domestic"
+        ],
+        "notes": "Architectural and institutional term"
+      },
+      "definitions": [
+        "house, temple, household"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "e",
+      "attestations": [
+        "PSD-E"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_012",
+        "cuneiform": "𒂊",
+        "transliteration": "e₂",
+        "translation": "house, temple, household",
+        "pos": "noun",
+        "root": "e",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-E",
+        "frequency": "very_high",
+        "borger_code": "097",
+        "sign_type": "logogram",
+        "notes": "Architectural and institutional term",
+        "phonetic_value": [
+          "e"
+        ],
+        "logographic_value": [
+          "E₂"
+        ],
+        "contexts": [
+          "architectural",
+          "institutional",
+          "domestic"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_013",
+      "script_symbol": "𒄀",
+      "transliteration": "gal",
+      "translation": "big, great, chief",
+      "pos": "adjective",
+      "morphology": {
+        "root": "gal",
+        "phonetic_value": [
+          "gal"
+        ],
+        "logographic_value": [
+          "GAL"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "descriptive",
+          "hierarchical"
+        ],
+        "notes": "Size and status adjective"
+      },
+      "definitions": [
+        "big, great, chief"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "gal",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_013",
+        "cuneiform": "𒄀",
+        "transliteration": "gal",
+        "translation": "big, great, chief",
+        "pos": "adjective",
+        "root": "gal",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "very_high",
+        "borger_code": "553",
+        "sign_type": "logogram",
+        "notes": "Size and status adjective",
+        "phonetic_value": [
+          "gal"
+        ],
+        "logographic_value": [
+          "GAL"
+        ],
+        "contexts": [
+          "descriptive",
+          "hierarchical"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_014",
+      "script_symbol": "𒌋",
+      "transliteration": "tur",
+      "translation": "small, young, child",
+      "pos": "adjective",
+      "morphology": {
+        "root": "tur",
+        "phonetic_value": [
+          "tur"
+        ],
+        "logographic_value": [
+          "TUR"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "descriptive",
+          "familial"
+        ],
+        "notes": "Size and age adjective"
+      },
+      "definitions": [
+        "small, young, child"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "tur",
+      "attestations": [
+        "PSD-T"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_014",
+        "cuneiform": "𒌋",
+        "transliteration": "tur",
+        "translation": "small, young, child",
+        "pos": "adjective",
+        "root": "tur",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-T",
+        "frequency": "high",
+        "borger_code": "164",
+        "sign_type": "logogram",
+        "notes": "Size and age adjective",
+        "phonetic_value": [
+          "tur"
+        ],
+        "logographic_value": [
+          "TUR"
+        ],
+        "contexts": [
+          "descriptive",
+          "familial"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_015",
+      "script_symbol": "𒀭",
+      "transliteration": "dingir",
+      "translation": "god, deity",
+      "pos": "noun",
+      "morphology": {
+        "root": "dingir",
+        "phonetic_value": [
+          "an"
+        ],
+        "logographic_value": [
+          "DINGIR"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "religious",
+          "divine"
+        ],
+        "notes": "Divine being, also determinative"
+      },
+      "definitions": [
+        "god, deity"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "dingir",
+      "attestations": [
+        "PSD-D"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_015",
+        "cuneiform": "𒀭",
+        "transliteration": "dingir",
+        "translation": "god, deity",
+        "pos": "noun",
+        "root": "dingir",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-D",
+        "frequency": "very_high",
+        "borger_code": "013",
+        "sign_type": "logogram",
+        "notes": "Divine being, also determinative",
+        "phonetic_value": [
+          "an"
+        ],
+        "logographic_value": [
+          "DINGIR"
+        ],
+        "contexts": [
+          "religious",
+          "divine"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_016",
+      "script_symbol": "𒊩",
+      "transliteration": "munus",
+      "translation": "woman, female",
+      "pos": "noun",
+      "morphology": {
+        "root": "munus",
+        "phonetic_value": [
+          "munus"
+        ],
+        "logographic_value": [
+          "MUNUS"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "social",
+          "gender"
+        ],
+        "notes": "Gender marker and noun"
+      },
+      "definitions": [
+        "woman, female"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "munus",
+      "attestations": [
+        "PSD-M"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_016",
+        "cuneiform": "𒊩",
+        "transliteration": "munus",
+        "translation": "woman, female",
+        "pos": "noun",
+        "root": "munus",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-M",
+        "frequency": "high",
+        "borger_code": "883",
+        "sign_type": "logogram",
+        "notes": "Gender marker and noun",
+        "phonetic_value": [
+          "munus"
+        ],
+        "logographic_value": [
+          "MUNUS"
+        ],
+        "contexts": [
+          "social",
+          "gender"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_017",
+      "script_symbol": "𒉌",
+      "transliteration": "nin",
+      "translation": "lady, queen, sister",
+      "pos": "noun",
+      "morphology": {
+        "root": "nin",
+        "phonetic_value": [
+          "nin"
+        ],
+        "logographic_value": [
+          "NIN"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "social",
+          "familial",
+          "royal"
+        ],
+        "notes": "Female title and kinship term"
+      },
+      "definitions": [
+        "lady, queen, sister"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "nin",
+      "attestations": [
+        "PSD-N"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_017",
+        "cuneiform": "𒉌",
+        "transliteration": "nin",
+        "translation": "lady, queen, sister",
+        "pos": "noun",
+        "root": "nin",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-N",
+        "frequency": "high",
+        "borger_code": "524",
+        "sign_type": "logogram",
+        "notes": "Female title and kinship term",
+        "phonetic_value": [
+          "nin"
+        ],
+        "logographic_value": [
+          "NIN"
+        ],
+        "contexts": [
+          "social",
+          "familial",
+          "royal"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_018",
+      "script_symbol": "𒍮",
+      "transliteration": "zu",
+      "translation": "to know, wise",
+      "pos": "verb",
+      "morphology": {
+        "root": "zu",
+        "phonetic_value": [
+          "zu"
+        ],
+        "logographic_value": [
+          "ZU"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "cognitive",
+          "wisdom"
+        ],
+        "notes": "Knowledge and wisdom verb"
+      },
+      "definitions": [
+        "to know, wise"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "zu",
+      "attestations": [
+        "PSD-Z"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_018",
+        "cuneiform": "𒍮",
+        "transliteration": "zu",
+        "translation": "to know, wise",
+        "pos": "verb",
+        "root": "zu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-Z",
+        "frequency": "high",
+        "borger_code": "388",
+        "sign_type": "logogram",
+        "notes": "Knowledge and wisdom verb",
+        "phonetic_value": [
+          "zu"
+        ],
+        "logographic_value": [
+          "ZU"
+        ],
+        "contexts": [
+          "cognitive",
+          "wisdom"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_019",
+      "script_symbol": "𒀀",
+      "transliteration": "a-a",
+      "translation": "father",
+      "pos": "noun",
+      "morphology": {
+        "root": "ab",
+        "phonetic_value": [
+          "ab",
+          "a-a"
+        ],
+        "logographic_value": [
+          "AB"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "familial"
+        ],
+        "notes": "Kinship term, reduplication of A"
+      },
+      "definitions": [
+        "father"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ab",
+      "attestations": [
+        "PSD-A"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_019",
+        "cuneiform": "𒀀",
+        "transliteration": "a-a",
+        "translation": "father",
+        "pos": "noun",
+        "root": "ab",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-A",
+        "frequency": "high",
+        "borger_code": "001",
+        "sign_type": "logogram",
+        "notes": "Kinship term, reduplication of A",
+        "phonetic_value": [
+          "ab",
+          "a-a"
+        ],
+        "logographic_value": [
+          "AB"
+        ],
+        "contexts": [
+          "familial"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_020",
+      "script_symbol": "𒈠",
+      "transliteration": "ma",
+      "translation": "to go, leave",
+      "pos": "verb",
+      "morphology": {
+        "root": "ĝen",
+        "phonetic_value": [
+          "ma"
+        ],
+        "logographic_value": [
+          "DU"
+        ],
+        "sign_type": "syllabogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "motion",
+          "action"
+        ],
+        "notes": "Motion verb, alternative to ĝen"
+      },
+      "definitions": [
+        "to go, leave"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ĝen",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_020",
+        "cuneiform": "𒈠",
+        "transliteration": "ma",
+        "translation": "to go, leave",
+        "pos": "verb",
+        "root": "ĝen",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "very_high",
+        "borger_code": "449",
+        "sign_type": "syllabogram",
+        "notes": "Motion verb, alternative to ĝen",
+        "phonetic_value": [
+          "ma"
+        ],
+        "logographic_value": [
+          "DU"
+        ],
+        "contexts": [
+          "motion",
+          "action"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_021",
+      "script_symbol": "𒃰",
+      "transliteration": "dug₄",
+      "translation": "to speak, say, tell",
+      "pos": "verb",
+      "morphology": {
+        "root": "dug",
+        "phonetic_value": [
+          "dug"
+        ],
+        "logographic_value": [
+          "DUG₄"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "communication",
+          "speech"
+        ],
+        "notes": "Communication verb"
+      },
+      "definitions": [
+        "to speak, say, tell"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "dug",
+      "attestations": [
+        "PSD-D"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_021",
+        "cuneiform": "𒃰",
+        "transliteration": "dug₄",
+        "translation": "to speak, say, tell",
+        "pos": "verb",
+        "root": "dug",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-D",
+        "frequency": "very_high",
+        "borger_code": "729",
+        "sign_type": "logogram",
+        "notes": "Communication verb",
+        "phonetic_value": [
+          "dug"
+        ],
+        "logographic_value": [
+          "DUG₄"
+        ],
+        "contexts": [
+          "communication",
+          "speech"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_022",
+      "script_symbol": "𒄑",
+      "transliteration": "ĝiš",
+      "translation": "wood, tree",
+      "pos": "noun",
+      "morphology": {
+        "root": "ĝiš",
+        "phonetic_value": [
+          "ĝiš"
+        ],
+        "logographic_value": [
+          "GIŠ"
+        ],
+        "sign_type": "determinative",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "material",
+          "botanical"
+        ],
+        "notes": "Determinative for wooden objects"
+      },
+      "definitions": [
+        "wood, tree"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ĝiš",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_022",
+        "cuneiform": "𒄑",
+        "transliteration": "ĝiš",
+        "translation": "wood, tree",
+        "pos": "noun",
+        "root": "ĝiš",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "high",
+        "borger_code": "469",
+        "sign_type": "determinative",
+        "notes": "Determinative for wooden objects",
+        "phonetic_value": [
+          "ĝiš"
+        ],
+        "logographic_value": [
+          "GIŠ"
+        ],
+        "contexts": [
+          "material",
+          "botanical"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_023",
+      "script_symbol": "𒅗",
+      "transliteration": "kur",
+      "translation": "mountain, land, country",
+      "pos": "noun",
+      "morphology": {
+        "root": "kur",
+        "phonetic_value": [
+          "kur"
+        ],
+        "logographic_value": [
+          "KUR"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "geographic",
+          "political"
+        ],
+        "notes": "Geographic and political term"
+      },
+      "definitions": [
+        "mountain, land, country"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "kur",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_023",
+        "cuneiform": "𒅗",
+        "transliteration": "kur",
+        "translation": "mountain, land, country",
+        "pos": "noun",
+        "root": "kur",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "very_high",
+        "borger_code": "578",
+        "sign_type": "logogram",
+        "notes": "Geographic and political term",
+        "phonetic_value": [
+          "kur"
+        ],
+        "logographic_value": [
+          "KUR"
+        ],
+        "contexts": [
+          "geographic",
+          "political"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_024",
+      "script_symbol": "𒋙",
+      "transliteration": "sum",
+      "translation": "to give",
+      "pos": "verb",
+      "morphology": {
+        "root": "sum",
+        "phonetic_value": [
+          "sum"
+        ],
+        "logographic_value": [
+          "SUM"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "transactional",
+          "giving"
+        ],
+        "notes": "Basic transitive verb"
+      },
+      "definitions": [
+        "to give"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "sum",
+      "attestations": [
+        "PSD-S"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_024",
+        "cuneiform": "𒋙",
+        "transliteration": "sum",
+        "translation": "to give",
+        "pos": "verb",
+        "root": "sum",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-S",
+        "frequency": "very_high",
+        "borger_code": "292",
+        "sign_type": "logogram",
+        "notes": "Basic transitive verb",
+        "phonetic_value": [
+          "sum"
+        ],
+        "logographic_value": [
+          "SUM"
+        ],
+        "contexts": [
+          "transactional",
+          "giving"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_025",
+      "script_symbol": "𒉈",
+      "transliteration": "ne",
+      "translation": "this, that",
+      "pos": "pronoun",
+      "morphology": {
+        "root": "ne",
+        "phonetic_value": [
+          "ne"
+        ],
+        "logographic_value": [
+          "NE"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "deictic",
+          "referential"
+        ],
+        "notes": "Demonstrative pronoun"
+      },
+      "definitions": [
+        "this, that"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "ne",
+      "attestations": [
+        "PSD-N"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_025",
+        "cuneiform": "𒉈",
+        "transliteration": "ne",
+        "translation": "this, that",
+        "pos": "pronoun",
+        "root": "ne",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-N",
+        "frequency": "high",
+        "borger_code": "496",
+        "sign_type": "logogram",
+        "notes": "Demonstrative pronoun",
+        "phonetic_value": [
+          "ne"
+        ],
+        "logographic_value": [
+          "NE"
+        ],
+        "contexts": [
+          "deictic",
+          "referential"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_026",
+      "script_symbol": "𒌓",
+      "transliteration": "babbar",
+      "translation": "white, bright, silver",
+      "pos": "adjective",
+      "morphology": {
+        "root": "babbar",
+        "phonetic_value": [
+          "babbar"
+        ],
+        "logographic_value": [
+          "BABBAR"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "descriptive",
+          "color"
+        ],
+        "notes": "Color and brightness adjective"
+      },
+      "definitions": [
+        "white, bright, silver"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "babbar",
+      "attestations": [
+        "PSD-B"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_026",
+        "cuneiform": "𒌓",
+        "transliteration": "babbar",
+        "translation": "white, bright, silver",
+        "pos": "adjective",
+        "root": "babbar",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-B",
+        "frequency": "high",
+        "borger_code": "313",
+        "sign_type": "logogram",
+        "notes": "Color and brightness adjective",
+        "phonetic_value": [
+          "babbar"
+        ],
+        "logographic_value": [
+          "BABBAR"
+        ],
+        "contexts": [
+          "descriptive",
+          "color"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_027",
+      "script_symbol": "𒌓",
+      "transliteration": "sig₇",
+      "translation": "yellow, green",
+      "pos": "adjective",
+      "morphology": {
+        "root": "sig",
+        "phonetic_value": [
+          "sig"
+        ],
+        "logographic_value": [
+          "SIG₇"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "descriptive",
+          "color"
+        ],
+        "notes": "Color adjective"
+      },
+      "definitions": [
+        "yellow, green"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "sig",
+      "attestations": [
+        "PSD-S"
+      ],
+      "frequency": "medium",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_027",
+        "cuneiform": "𒌓",
+        "transliteration": "sig₇",
+        "translation": "yellow, green",
+        "pos": "adjective",
+        "root": "sig",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-S",
+        "frequency": "medium",
+        "borger_code": "157",
+        "sign_type": "logogram",
+        "notes": "Color adjective",
+        "phonetic_value": [
+          "sig"
+        ],
+        "logographic_value": [
+          "SIG₇"
+        ],
+        "contexts": [
+          "descriptive",
+          "color"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_028",
+      "script_symbol": "𒊩",
+      "transliteration": "sal",
+      "translation": "woman, female, vulva",
+      "pos": "noun",
+      "morphology": {
+        "root": "sal",
+        "phonetic_value": [
+          "sal"
+        ],
+        "logographic_value": [
+          "SAL"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "gender",
+          "anatomical"
+        ],
+        "notes": "Gender term and body part"
+      },
+      "definitions": [
+        "woman, female, vulva"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "sal",
+      "attestations": [
+        "PSD-S"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_028",
+        "cuneiform": "𒊩",
+        "transliteration": "sal",
+        "translation": "woman, female, vulva",
+        "pos": "noun",
+        "root": "sal",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-S",
+        "frequency": "high",
+        "borger_code": "883",
+        "sign_type": "logogram",
+        "notes": "Gender term and body part",
+        "phonetic_value": [
+          "sal"
+        ],
+        "logographic_value": [
+          "SAL"
+        ],
+        "contexts": [
+          "gender",
+          "anatomical"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_029",
+      "script_symbol": "𒃲",
+      "transliteration": "du₃",
+      "translation": "to build, make",
+      "pos": "verb",
+      "morphology": {
+        "root": "du",
+        "phonetic_value": [
+          "du"
+        ],
+        "logographic_value": [
+          "DU₃"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "construction",
+          "creation"
+        ],
+        "notes": "Construction and creation verb"
+      },
+      "definitions": [
+        "to build, make"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "du",
+      "attestations": [
+        "PSD-D"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_029",
+        "cuneiform": "𒃲",
+        "transliteration": "du₃",
+        "translation": "to build, make",
+        "pos": "verb",
+        "root": "du",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-D",
+        "frequency": "very_high",
+        "borger_code": "207",
+        "sign_type": "logogram",
+        "notes": "Construction and creation verb",
+        "phonetic_value": [
+          "du"
+        ],
+        "logographic_value": [
+          "DU₃"
+        ],
+        "contexts": [
+          "construction",
+          "creation"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_030",
+      "script_symbol": "𒅆",
+      "transliteration": "igi",
+      "translation": "eye, face, front",
+      "pos": "noun",
+      "morphology": {
+        "root": "igi",
+        "phonetic_value": [
+          "igi"
+        ],
+        "logographic_value": [
+          "IGI"
+        ],
+        "sign_type": "logogram",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "contexts": [
+          "anatomical",
+          "spatial"
+        ],
+        "notes": "Body part and spatial term"
+      },
+      "definitions": [
+        "eye, face, front"
+      ],
+      "semantic_field": "unclassified",
+      "etymology": "igi",
+      "attestations": [
+        "PSD-I"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_030",
+        "cuneiform": "𒅆",
+        "transliteration": "igi",
+        "translation": "eye, face, front",
+        "pos": "noun",
+        "root": "igi",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-I",
+        "frequency": "very_high",
+        "borger_code": "449",
+        "sign_type": "logogram",
+        "notes": "Body part and spatial term",
+        "phonetic_value": [
+          "igi"
+        ],
+        "logographic_value": [
+          "IGI"
+        ],
+        "contexts": [
+          "anatomical",
+          "spatial"
+        ]
+      }
+    },
+    {
+      "entry_id": "sum_031",
+      "script_symbol": "𒈗",
+      "transliteration": "lugal",
+      "translation": "king, master, lord",
+      "pos": "noun",
+      "morphology": {
+        "root": "lugal",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "king, master, lord"
+      ],
+      "semantic_field": "royalty/authority",
+      "etymology": "lugal",
+      "attestations": [
+        "PSD-L"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_031",
+        "cuneiform": "𒈗",
+        "transliteration": "lugal",
+        "translation": "king, master, lord",
+        "pos": "noun",
+        "root": "lugal",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-L",
+        "frequency": "very_high",
+        "semantic_field": "royalty/authority"
+      }
+    },
+    {
+      "entry_id": "sum_032",
+      "script_symbol": "𒂍",
+      "transliteration": "e₂",
+      "translation": "house, temple, estate",
+      "pos": "noun",
+      "morphology": {
+        "root": "e",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "house, temple, estate"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "e",
+      "attestations": [
+        "PSD-E"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_032",
+        "cuneiform": "𒂍",
+        "transliteration": "e₂",
+        "translation": "house, temple, estate",
+        "pos": "noun",
+        "root": "e",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-E",
+        "frequency": "very_high",
+        "semantic_field": "architecture"
+      }
+    },
+    {
+      "entry_id": "sum_033",
+      "script_symbol": "𒆠",
+      "transliteration": "ki",
+      "translation": "earth, place, ground",
+      "pos": "noun",
+      "morphology": {
+        "root": "ki",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "earth, place, ground"
+      ],
+      "semantic_field": "geography",
+      "etymology": "ki",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_033",
+        "cuneiform": "𒆠",
+        "transliteration": "ki",
+        "translation": "earth, place, ground",
+        "pos": "noun",
+        "root": "ki",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "very_high",
+        "semantic_field": "geography"
+      }
+    },
+    {
+      "entry_id": "sum_034",
+      "script_symbol": "𒌓",
+      "transliteration": "utu",
+      "translation": "sun, sun god (Utu/Shamash)",
+      "pos": "noun",
+      "morphology": {
+        "root": "utu",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "sun, sun god (Utu/Shamash)"
+      ],
+      "semantic_field": "celestial/divine",
+      "etymology": "utu",
+      "attestations": [
+        "PSD-U"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_034",
+        "cuneiform": "𒌓",
+        "transliteration": "utu",
+        "translation": "sun, sun god (Utu/Shamash)",
+        "pos": "noun",
+        "root": "utu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-U",
+        "frequency": "very_high",
+        "semantic_field": "celestial/divine"
+      }
+    },
+    {
+      "entry_id": "sum_035",
+      "script_symbol": "𒀭𒈹",
+      "transliteration": "d-inanna",
+      "translation": "Inanna (goddess of love and war)",
+      "pos": "proper noun",
+      "morphology": {
+        "root": "inanna",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "Inanna (goddess of love and war)"
+      ],
+      "semantic_field": "divine",
+      "etymology": "inanna",
+      "attestations": [
+        "PSD-I"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_035",
+        "cuneiform": "𒀭𒈹",
+        "transliteration": "d-inanna",
+        "translation": "Inanna (goddess of love and war)",
+        "pos": "proper noun",
+        "root": "inanna",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-I",
+        "frequency": "very_high",
+        "semantic_field": "divine"
+      }
+    },
+    {
+      "entry_id": "sum_036",
+      "script_symbol": "𒇲",
+      "transliteration": "kur",
+      "translation": "mountain, foreign land, netherworld",
+      "pos": "noun",
+      "morphology": {
+        "root": "kur",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "mountain, foreign land, netherworld"
+      ],
+      "semantic_field": "geography/cosmology",
+      "etymology": "kur",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_036",
+        "cuneiform": "𒇲",
+        "transliteration": "kur",
+        "translation": "mountain, foreign land, netherworld",
+        "pos": "noun",
+        "root": "kur",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "very_high",
+        "semantic_field": "geography/cosmology"
+      }
+    },
+    {
+      "entry_id": "sum_037",
+      "script_symbol": "𒃲",
+      "transliteration": "gal",
+      "translation": "great, big",
+      "pos": "adjective",
+      "morphology": {
+        "root": "gal",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "great, big"
+      ],
+      "semantic_field": "descriptor",
+      "etymology": "gal",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_037",
+        "cuneiform": "𒃲",
+        "transliteration": "gal",
+        "translation": "great, big",
+        "pos": "adjective",
+        "root": "gal",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "very_high",
+        "semantic_field": "descriptor"
+      }
+    },
+    {
+      "entry_id": "sum_038",
+      "script_symbol": "𒈬",
+      "transliteration": "mu",
+      "translation": "name, year",
+      "pos": "noun",
+      "morphology": {
+        "root": "mu",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "name, year"
+      ],
+      "semantic_field": "time/identity",
+      "etymology": "mu",
+      "attestations": [
+        "PSD-M"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_038",
+        "cuneiform": "𒈬",
+        "transliteration": "mu",
+        "translation": "name, year",
+        "pos": "noun",
+        "root": "mu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-M",
+        "frequency": "very_high",
+        "semantic_field": "time/identity"
+      }
+    },
+    {
+      "entry_id": "sum_039",
+      "script_symbol": "𒄑",
+      "transliteration": "giš",
+      "translation": "tree, wood (determinative)",
+      "pos": "noun/determinative",
+      "morphology": {
+        "root": "giš",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "tree, wood (determinative)"
+      ],
+      "semantic_field": "material",
+      "etymology": "giš",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_039",
+        "cuneiform": "𒄑",
+        "transliteration": "giš",
+        "translation": "tree, wood (determinative)",
+        "pos": "noun/determinative",
+        "root": "giš",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "very_high",
+        "semantic_field": "material"
+      }
+    },
+    {
+      "entry_id": "sum_040",
+      "script_symbol": "𒌋",
+      "transliteration": "u₃",
+      "translation": "and, also; sleep",
+      "pos": "conjunction/verb",
+      "morphology": {
+        "root": "u",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "and, also; sleep"
+      ],
+      "semantic_field": "grammar",
+      "etymology": "u",
+      "attestations": [
+        "PSD-U"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_040",
+        "cuneiform": "𒌋",
+        "transliteration": "u₃",
+        "translation": "and, also; sleep",
+        "pos": "conjunction/verb",
+        "root": "u",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-U",
+        "frequency": "very_high",
+        "semantic_field": "grammar"
+      }
+    },
+    {
+      "entry_id": "sum_041",
+      "script_symbol": "𒉈",
+      "transliteration": "ne",
+      "translation": "fire, embers",
+      "pos": "noun",
+      "morphology": {
+        "root": "ne",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "fire, embers"
+      ],
+      "semantic_field": "elements",
+      "etymology": "ne",
+      "attestations": [
+        "PSD-N"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_041",
+        "cuneiform": "𒉈",
+        "transliteration": "ne",
+        "translation": "fire, embers",
+        "pos": "noun",
+        "root": "ne",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-N",
+        "frequency": "high",
+        "semantic_field": "elements"
+      }
+    },
+    {
+      "entry_id": "sum_042",
+      "script_symbol": "𒋗",
+      "transliteration": "šu",
+      "translation": "hand",
+      "pos": "noun",
+      "morphology": {
+        "root": "šu",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "hand"
+      ],
+      "semantic_field": "body",
+      "etymology": "šu",
+      "attestations": [
+        "PSD-Š"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_042",
+        "cuneiform": "𒋗",
+        "transliteration": "šu",
+        "translation": "hand",
+        "pos": "noun",
+        "root": "šu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-Š",
+        "frequency": "very_high",
+        "semantic_field": "body"
+      }
+    },
+    {
+      "entry_id": "sum_043",
+      "script_symbol": "𒅆",
+      "transliteration": "igi",
+      "translation": "eye, face, front",
+      "pos": "noun",
+      "morphology": {
+        "root": "igi",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "eye, face, front"
+      ],
+      "semantic_field": "body",
+      "etymology": "igi",
+      "attestations": [
+        "PSD-I"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_043",
+        "cuneiform": "𒅆",
+        "transliteration": "igi",
+        "translation": "eye, face, front",
+        "pos": "noun",
+        "root": "igi",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-I",
+        "frequency": "very_high",
+        "semantic_field": "body"
+      }
+    },
+    {
+      "entry_id": "sum_044",
+      "script_symbol": "𒁀",
+      "transliteration": "ba",
+      "translation": "to give, distribute",
+      "pos": "verb",
+      "morphology": {
+        "root": "ba",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "to give, distribute"
+      ],
+      "semantic_field": "action",
+      "etymology": "ba",
+      "attestations": [
+        "PSD-B"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_044",
+        "cuneiform": "𒁀",
+        "transliteration": "ba",
+        "translation": "to give, distribute",
+        "pos": "verb",
+        "root": "ba",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-B",
+        "frequency": "very_high",
+        "semantic_field": "action"
+      }
+    },
+    {
+      "entry_id": "sum_045",
+      "script_symbol": "𒆕",
+      "transliteration": "kalam",
+      "translation": "the land (Sumer)",
+      "pos": "noun",
+      "morphology": {
+        "root": "kalam",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "the land (Sumer)"
+      ],
+      "semantic_field": "geography",
+      "etymology": "kalam",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_045",
+        "cuneiform": "𒆕",
+        "transliteration": "kalam",
+        "translation": "the land (Sumer)",
+        "pos": "noun",
+        "root": "kalam",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "high",
+        "semantic_field": "geography"
+      }
+    },
+    {
+      "entry_id": "sum_046",
+      "script_symbol": "𒁲",
+      "transliteration": "bad₃",
+      "translation": "wall, fortress",
+      "pos": "noun",
+      "morphology": {
+        "root": "bad",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "wall, fortress"
+      ],
+      "semantic_field": "architecture",
+      "etymology": "bad",
+      "attestations": [
+        "PSD-B"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_046",
+        "cuneiform": "𒁲",
+        "transliteration": "bad₃",
+        "translation": "wall, fortress",
+        "pos": "noun",
+        "root": "bad",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-B",
+        "frequency": "high",
+        "semantic_field": "architecture"
+      }
+    },
+    {
+      "entry_id": "sum_047",
+      "script_symbol": "𒄷",
+      "transliteration": "ḫa",
+      "translation": "fish",
+      "pos": "noun",
+      "morphology": {
+        "root": "ḫa",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "fish"
+      ],
+      "semantic_field": "fauna",
+      "etymology": "ḫa",
+      "attestations": [
+        "PSD-Ḫ"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_047",
+        "cuneiform": "𒄷",
+        "transliteration": "ḫa",
+        "translation": "fish",
+        "pos": "noun",
+        "root": "ḫa",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-Ḫ",
+        "frequency": "high",
+        "semantic_field": "fauna"
+      }
+    },
+    {
+      "entry_id": "sum_048",
+      "script_symbol": "𒊺",
+      "transliteration": "še",
+      "translation": "barley, grain",
+      "pos": "noun",
+      "morphology": {
+        "root": "še",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "barley, grain"
+      ],
+      "semantic_field": "agriculture",
+      "etymology": "še",
+      "attestations": [
+        "PSD-Š"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_048",
+        "cuneiform": "𒊺",
+        "transliteration": "še",
+        "translation": "barley, grain",
+        "pos": "noun",
+        "root": "še",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-Š",
+        "frequency": "very_high",
+        "semantic_field": "agriculture"
+      }
+    },
+    {
+      "entry_id": "sum_049",
+      "script_symbol": "𒄀",
+      "transliteration": "gi",
+      "translation": "reed",
+      "pos": "noun",
+      "morphology": {
+        "root": "gi",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "reed"
+      ],
+      "semantic_field": "flora",
+      "etymology": "gi",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_049",
+        "cuneiform": "𒄀",
+        "transliteration": "gi",
+        "translation": "reed",
+        "pos": "noun",
+        "root": "gi",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "high",
+        "semantic_field": "flora"
+      }
+    },
+    {
+      "entry_id": "sum_050",
+      "script_symbol": "𒊩",
+      "transliteration": "munus",
+      "translation": "woman, female",
+      "pos": "noun",
+      "morphology": {
+        "root": "munus",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "woman, female"
+      ],
+      "semantic_field": "person",
+      "etymology": "munus",
+      "attestations": [
+        "PSD-M"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_050",
+        "cuneiform": "𒊩",
+        "transliteration": "munus",
+        "translation": "woman, female",
+        "pos": "noun",
+        "root": "munus",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-M",
+        "frequency": "very_high",
+        "semantic_field": "person"
+      }
+    },
+    {
+      "entry_id": "sum_051",
+      "script_symbol": "𒌑",
+      "transliteration": "u₄",
+      "translation": "day, sun, storm",
+      "pos": "noun",
+      "morphology": {
+        "root": "u",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "day, sun, storm"
+      ],
+      "semantic_field": "time/celestial",
+      "etymology": "u",
+      "attestations": [
+        "PSD-U"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_051",
+        "cuneiform": "𒌑",
+        "transliteration": "u₄",
+        "translation": "day, sun, storm",
+        "pos": "noun",
+        "root": "u",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-U",
+        "frequency": "very_high",
+        "semantic_field": "time/celestial"
+      }
+    },
+    {
+      "entry_id": "sum_052",
+      "script_symbol": "𒅎",
+      "transliteration": "im",
+      "translation": "wind, clay, tablet",
+      "pos": "noun",
+      "morphology": {
+        "root": "im",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "wind, clay, tablet"
+      ],
+      "semantic_field": "elements/material",
+      "etymology": "im",
+      "attestations": [
+        "PSD-I"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_052",
+        "cuneiform": "𒅎",
+        "transliteration": "im",
+        "translation": "wind, clay, tablet",
+        "pos": "noun",
+        "root": "im",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-I",
+        "frequency": "very_high",
+        "semantic_field": "elements/material"
+      }
+    },
+    {
+      "entry_id": "sum_053",
+      "script_symbol": "𒊏",
+      "transliteration": "ra",
+      "translation": "to strike, flood",
+      "pos": "verb",
+      "morphology": {
+        "root": "ra",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "to strike, flood"
+      ],
+      "semantic_field": "action",
+      "etymology": "ra",
+      "attestations": [
+        "PSD-R"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_053",
+        "cuneiform": "𒊏",
+        "transliteration": "ra",
+        "translation": "to strike, flood",
+        "pos": "verb",
+        "root": "ra",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-R",
+        "frequency": "high",
+        "semantic_field": "action"
+      }
+    },
+    {
+      "entry_id": "sum_054",
+      "script_symbol": "𒃻",
+      "transliteration": "gar",
+      "translation": "to place, establish",
+      "pos": "verb",
+      "morphology": {
+        "root": "gar",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "to place, establish"
+      ],
+      "semantic_field": "action",
+      "etymology": "gar",
+      "attestations": [
+        "PSD-G"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_054",
+        "cuneiform": "𒃻",
+        "transliteration": "gar",
+        "translation": "to place, establish",
+        "pos": "verb",
+        "root": "gar",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-G",
+        "frequency": "very_high",
+        "semantic_field": "action"
+      }
+    },
+    {
+      "entry_id": "sum_055",
+      "script_symbol": "𒅗",
+      "transliteration": "ka",
+      "translation": "mouth, speech, gate",
+      "pos": "noun",
+      "morphology": {
+        "root": "ka",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "mouth, speech, gate"
+      ],
+      "semantic_field": "body/architecture",
+      "etymology": "ka",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_055",
+        "cuneiform": "𒅗",
+        "transliteration": "ka",
+        "translation": "mouth, speech, gate",
+        "pos": "noun",
+        "root": "ka",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "very_high",
+        "semantic_field": "body/architecture"
+      }
+    },
+    {
+      "entry_id": "sum_056",
+      "script_symbol": "𒈾",
+      "transliteration": "na",
+      "translation": "stone, pestle; person (3rd)",
+      "pos": "noun/pronoun",
+      "morphology": {
+        "root": "na",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "stone, pestle; person (3rd)"
+      ],
+      "semantic_field": "material/grammar",
+      "etymology": "na",
+      "attestations": [
+        "PSD-N"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_056",
+        "cuneiform": "𒈾",
+        "transliteration": "na",
+        "translation": "stone, pestle; person (3rd)",
+        "pos": "noun/pronoun",
+        "root": "na",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-N",
+        "frequency": "very_high",
+        "semantic_field": "material/grammar"
+      }
+    },
+    {
+      "entry_id": "sum_057",
+      "script_symbol": "𒆳",
+      "transliteration": "kur₂",
+      "translation": "strange, hostile, enemy",
+      "pos": "adjective",
+      "morphology": {
+        "root": "kur",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "strange, hostile, enemy"
+      ],
+      "semantic_field": "descriptor",
+      "etymology": "kur",
+      "attestations": [
+        "PSD-K"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_057",
+        "cuneiform": "𒆳",
+        "transliteration": "kur₂",
+        "translation": "strange, hostile, enemy",
+        "pos": "adjective",
+        "root": "kur",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-K",
+        "frequency": "high",
+        "semantic_field": "descriptor"
+      }
+    },
+    {
+      "entry_id": "sum_058",
+      "script_symbol": "𒁍",
+      "transliteration": "bu",
+      "translation": "to tear, pull out",
+      "pos": "verb",
+      "morphology": {
+        "root": "bu",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "to tear, pull out"
+      ],
+      "semantic_field": "action",
+      "etymology": "bu",
+      "attestations": [
+        "PSD-B"
+      ],
+      "frequency": "moderate",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_058",
+        "cuneiform": "𒁍",
+        "transliteration": "bu",
+        "translation": "to tear, pull out",
+        "pos": "verb",
+        "root": "bu",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-B",
+        "frequency": "moderate",
+        "semantic_field": "action"
+      }
+    },
+    {
+      "entry_id": "sum_059",
+      "script_symbol": "𒂗",
+      "transliteration": "en",
+      "translation": "lord, high priest",
+      "pos": "noun",
+      "morphology": {
+        "root": "en",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "lord, high priest"
+      ],
+      "semantic_field": "authority/divine",
+      "etymology": "en",
+      "attestations": [
+        "PSD-E"
+      ],
+      "frequency": "very_high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_059",
+        "cuneiform": "𒂗",
+        "transliteration": "en",
+        "translation": "lord, high priest",
+        "pos": "noun",
+        "root": "en",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-E",
+        "frequency": "very_high",
+        "semantic_field": "authority/divine"
+      }
+    },
+    {
+      "entry_id": "sum_060",
+      "script_symbol": "𒉺",
+      "transliteration": "pa",
+      "translation": "branch, wing, to find",
+      "pos": "noun/verb",
+      "morphology": {
+        "root": "pa",
+        "period": "Early Dynastic–Neo-Babylonian"
+      },
+      "definitions": [
+        "branch, wing, to find"
+      ],
+      "semantic_field": "flora/action",
+      "etymology": "pa",
+      "attestations": [
+        "PSD-P"
+      ],
+      "frequency": "high",
+      "confidence_score": 0.8,
+      "source_refs": [
+        "unicode_code_charts",
+        "oracc_epsd2",
+        "oracc_dcclt",
+        "cdli"
+      ],
+      "attestation_status": "entry-specific if explicit in seed; otherwise resource-indexed pending manual verification",
+      "original_source_file": "sumerian_lexicon.json",
+      "original_record": {
+        "id": "sum_060",
+        "cuneiform": "𒉺",
+        "transliteration": "pa",
+        "translation": "branch, wing, to find",
+        "pos": "noun/verb",
+        "root": "pa",
+        "period": "Early Dynastic–Neo-Babylonian",
+        "source": "PSD-P",
+        "frequency": "high",
+        "semantic_field": "flora/action"
+      }
+    }
+  ],
+  "cultural_context": {
+    "context_note": "Sumerian entries are intended for comparative script/lexicon work. Use source_refs and attested_resources for entry-level audit trails.",
+    "recommended_review": "For publication-grade datasets, run a second pass that checks each lemma/sign against cited corpora and records exact inscription/manuscript identifiers."
+  }
+}
