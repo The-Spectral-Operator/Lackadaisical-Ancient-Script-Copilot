@@ -20,6 +20,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **`start-copilot.bat` / `stop-copilot.bat`** — one-click Windows server management at project root
   - Start: checks for existing instance on port 7340, verifies Node.js, auto-creates `.env` from example, launches server minimized with stdout/stderr piped to `decipher-copilot/logs/server.log`
   - Stop: finds all PIDs listening on port 7340 and force-kills them
+- **Session history panel** — enterprise-grade session management in the sidebar
+  - Full chat history with date-grouped sessions (Today, Yesterday, This Week, This Month, Older)
+  - Session search across titles, message content, AND lexicon database — unified search bar
+  - Inline session rename via double-click
+  - Timestamps and model info shown per session
+  - Session count badge in sidebar header
+  - Lexicon search results link directly to chat queries
+- **Session search API** — `GET /api/sessions/search?q=<term>` — searches session titles, message content, and lexicon entries simultaneously
+- **Logo/branding** — `Lackadaisical-Ancient-Copilot.png` and `.ico` integrated throughout
+  - Logo displayed in sidebar header
+  - ICO set as primary favicon
+  - PNG icon added to web app manifest
 
 ### Changed
 

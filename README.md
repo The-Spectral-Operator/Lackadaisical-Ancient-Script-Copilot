@@ -1,27 +1,30 @@
-# 𓂀 Ancient Script Decipherment Copilot — Alpha v1.0.0
+# 𓂀 Ancient Script Decipherment Copilot — v1.1.1-alpha
 
 > **Local. Abliterated. No Refusals. No Telemetry. Pure Research.**
 
 A self-hosted AI copilot for ancient script decipherment, translation, and statistical analysis. Runs 100% local via Ollama. No cloud. No subscriptions. No censorship of scholarly inquiry.
 
-![Ancient Script Decipherment Copilot](https://github.com/user-attachments/assets/a1527fee-eed3-45aa-bb53-66dc30f70dbf)
+<p align="center">
+  <img src="Lackadaisical-Ancient-Copilot.png" alt="Ancient Script Decipherment Copilot" width="400">
+</p>
 
 ---
 
 ## What It Does
 
-- **Decipher**: Feed it Linear A, Indus Valley, Voynich, Proto-Elamite, Phaistos Disc, or any of 63 supported scripts — get AI-powered sign-by-sign analysis with confidence scores
-- **Translate**: Full translation pipeline for all attested and partially-attested scripts, including crossreference with 8,600+ lexicon entries
+- **Decipher**: Feed it Linear A, Indus Valley, Voynich, Proto-Elamite, Phaistos Disc, or any of 63+ supported scripts — get AI-powered sign-by-sign analysis with confidence scores
+- **Translate**: Full translation pipeline for all attested and partially-attested scripts, including crossreference with 8,600+ lexicon entries across 47 lexicons
 - **Analyze**: Zipf law fit, Shannon entropy, conditional entropy, block entropy, Rényi entropy, Yule's K, unigram/bigram/trigram frequency, corpus-wide coherence checking
 - **Cross-Script Correlation**: Compare structural properties between scripts via frequency, bigram, positional, and entropy analysis — detect kinship between writing systems
 - **Glyph Chaining**: Detect recurring multi-glyph sequences scored by mutual information; single glyph profiling with positional/combinatorial analysis
 - **Pattern Detection**: Identify formulaic expressions, compound signs, and grammatical markers through PMI and log-likelihood scoring
 - **Stream**: Real-time WebSocket streaming with chain-of-thought reasoning visible in the collapsible thinking panel
-- **Vision**: Upload inscription photos or PDFs — vision models (gemma4, llama3.2-vision) analyze glyphs directly
-- **Tools**: 12 LLM-callable tools for lexicon lookup, corpus search, frequency/entropy/Zipf reports, cross-inscription validation, cross-script correlation, glyph chaining, and more
+- **Vision**: Upload inscription photos or PDFs — vision models (gemma4, llama3.2-vision, aurora-elwing) analyze glyphs directly
+- **Tools**: 13 LLM-callable tools for lexicon lookup, corpus search, frequency/entropy/Zipf reports, cross-inscription validation, cross-script correlation, glyph chaining, script discovery, and more
+- **Session History**: Full chat history with date-grouped sessions, unified search across titles, messages, and lexicon database, inline rename, and session management
 - **Upload Datasets**: Import your own JSON/CSV datasets from the frontend — auto-detected as lexicon or corpus entries
 - **Real-Time Statistics**: Live dashboard with system metrics, corpus analytics, and analysis history
-- **Script Families**: 63 scripts organized into 12 language families by region, era, and writing type
+- **Script Families**: 63+ scripts organized into 12 language families by region, era, and writing type
 - **Semantic Search**: Embedding-based vector similarity search across all inscriptions
 - **Batch Analysis**: Run multiple analysis types across all corpora with comparative linguistic ranking
 - **Model Factory**: Create custom unfiltered decipherment-focused models from built-in presets via Ollama Modelfile API
@@ -46,7 +49,7 @@ Zero telemetry. Verified by `scripts/verify_no_telemetry.ps1`.
 
 ---
 
-## Datasets (70+ files, 63 scripts, 8,606+ lexicon entries)
+## Datasets (100+ files, 63+ scripts, 8,600+ lexicon entries across 47 lexicons)
 
 All datasets seed automatically on first server start. Scripts organized into 12 families:
 
@@ -95,8 +98,10 @@ ollama pull gemma4:e4b
 ollama pull phi-4-reasoning:14b
 
 # 5. Start the server
-node src/index.js
+node --env-file=.env src/index.js
 ```
+
+**Windows quick start:** Double-click `start-copilot.bat` at project root.
 
 Open **http://127.0.0.1:7340** in any Chromium-based browser.
 
@@ -159,7 +164,7 @@ decipher-copilot/
 ### REST (http://127.0.0.1:7340/api/)
 
 **Core:**
-`/api/health` · `/api/models` · `/api/sessions` · `/api/sessions/:id/messages`
+`/api/health` · `/api/models` · `/api/sessions` · `/api/sessions/:id/messages` · `/api/sessions/search?q=`
 
 **Data:**
 `/api/lexicons` · `/api/lexicons/:id/entries` · `/api/corpora` · `/api/scripts`
@@ -170,7 +175,7 @@ decipher-copilot/
 `/api/analysis/batch` · `/api/analysis/history`
 
 **Cross-Script & Glyph Chaining (via LLM tools):**
-`cross_script_correlation` · `cross_script_matrix` · `single_glyph_analysis` · `glyph_chain_detection` · `multi_glyph_analysis`
+`cross_script_correlation` · `cross_script_matrix` · `single_glyph_analysis` · `glyph_chain_detection` · `multi_glyph_analysis` · `list_scripts`
 
 **Script Organization:**
 `/api/scripts/families` · `/api/scripts/organized` · `/api/scripts/stats`
@@ -212,7 +217,30 @@ See `docs/DECIPHERMENT_METHODS.md` for full details on:
 
 ---
 
-## Alpha Release Notes
+## Release Notes
+
+**v1.1.1-alpha — May 2026**
+
+- Session history panel — date-grouped sessions, unified search across titles/messages/lexicon, inline rename
+- Session search API — `GET /api/sessions/search?q=` with cross-database results
+- Logo branding — Lackadaisical-Ancient-Copilot icon in sidebar, favicon, and web manifest
+- Linear B MASTER Lexicon — 89 entries (64 syllabograms + 14 ideograms + 11 LS-resolved signs with DEFINITIVE status)
+- 36 EXPANDED_OPERATOR_SPECTRE reference lexicons across all major deciphered scripts
+- `list_scripts` LLM-callable tool — discovery endpoint for available data
+- System prompt injects live DB catalog — model sees exact lexicon/corpus IDs before choosing tools
+- Dataset priority seeding — richer data always wins via INSERT OR REPLACE
+- `normalizeSignEntry` / `normalizeEntry` rewritten for MASTER + EXPANDED formats
+- `inferScriptName` — 20+ new script mappings with longest-first ordering
+- Dashboard 403 fix on Windows — path separator compatibility
+- `start-copilot.bat` / `stop-copilot.bat` — one-click Windows server management
+
+**v1.1.0 — May 2026**
+
+- Ollama API key support — `OLLAMA_API_KEY` wired through all 18+ fetch calls
+- Smart `getThinkMode()` — proper model family guards (gpt-oss → string levels, gemma4 → boolean, others → omit)
+- `ancient_script` capability flag for specialized models
+- Native `.env` loading via `node --env-file=.env`
+- All Ollama fetch calls now include auth headers
 
 **v1.0.0-alpha — April 2026**
 
