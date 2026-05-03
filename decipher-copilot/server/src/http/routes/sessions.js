@@ -24,7 +24,7 @@ export function createSessionsRoute(db, config, logger) {
       const query = (url.searchParams.get('q') || '').trim();
 
       if (!query || query.length < 2) {
-        res.writeHead(200);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ results: [], query }));
         return;
       }
@@ -83,7 +83,7 @@ export function createSessionsRoute(db, config, logger) {
           }
         }
 
-        res.writeHead(200);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({
           query,
           sessions: [...sessionMap.values()],
@@ -92,7 +92,7 @@ export function createSessionsRoute(db, config, logger) {
         }));
       } catch (err) {
         logger.error({ err: err.message }, 'session search error');
-        res.writeHead(200);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ results: [], query, error: err.message }));
       }
     },
