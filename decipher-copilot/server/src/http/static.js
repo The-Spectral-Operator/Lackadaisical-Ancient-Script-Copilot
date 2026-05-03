@@ -1,5 +1,5 @@
 import { readFileSync, existsSync, statSync, createReadStream } from 'node:fs';
-import { join, extname, resolve, dirname } from 'node:path';
+import { join, extname, resolve, dirname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 // Resolve webui dir reliably: server/src/http/static.js → ../../../webui
@@ -47,9 +47,9 @@ export function serveStatic(req, res, config, logger) {
   const url = new URL(req.url, `http://${req.headers.host}`);
   let filePath = url.pathname === '/' ? '/index.html' : url.pathname;
 
-  // Security: prevent path traversal
+  // Security: prevent path traversal (use platform separator for Windows compat)
   const fullPath = resolve(join(webuiDir, filePath));
-  if (!fullPath.startsWith(webuiDir + '/') && fullPath !== webuiDir) {
+  if (!fullPath.startsWith(webuiDir + sep) && fullPath !== webuiDir) {
     res.writeHead(403);
     res.end('Forbidden');
     return;

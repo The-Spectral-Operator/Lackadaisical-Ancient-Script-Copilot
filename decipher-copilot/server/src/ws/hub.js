@@ -17,7 +17,7 @@ import { crossInscriptionCheck } from '../tools/crossInscriptionCheck.js';
 import { crossScriptCorrelation, crossScriptMatrix } from '../tools/crossScriptCorrelation.js';
 import { singleGlyphAnalysis, glyphChainDetection, multiGlyphAnalysis } from '../tools/glyphChaining.js';
 
-const SERVER_VERSION = '1.0.0';
+const SERVER_VERSION = '1.1.1-alpha';
 const IDLE_TIMEOUT_MS = 60_000;
 
 export function createWsHub(server, db, config, logger) {

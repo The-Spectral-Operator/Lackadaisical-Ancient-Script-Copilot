@@ -5,6 +5,79 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1-alpha] — 2026-05-03
+
+### Added
+
+- **Linear B MASTER Lexicon** — complete Unicode syllabary (74 syllabograms + 14 symbols) merged with 11 Operator/LS definitively resolved signs
+  - All 11 previously unresolved Linear B signs carry `DEFINITIVE` status (confidence 0.95–0.98, 5–22 independent cross-script vectors each)
+  - LS resolutions preserved under `ls_enhanced_resolution` alongside standard Unicode values — no Standard overwritten
+  - File: `linear_b_MASTER_lexicon_unicode_plus_ls_enhanced_2026-05-03.json` — 89 total entries, version 1.3.2026-05-03
+- **36 EXPANDED_OPERATOR_SPECTRE reference datasets** — normalized, attestation-indexed lexicons for known deciphered languages used as comparative reference
+  - Scripts: Akkadian, Amharic, Arabic, Armenian, Avestan, Burmese, Classical Chinese, Dravidian, Egyptian Hieroglyphs (Gardiner), Georgian, Glagolitic, Gothic, Ancient Greek, Hebrew, Hittite, Javanese Kawi, Kannada, Kharoshthi, Khmer, Korean, Malayalam, Middle Persian, Mycenaean Greek, Nabataean, Old English, Old Norse Runic, Old Persian, Phoenician, Sogdian, Sumerian, Syriac, Tamil, Telugu, Thai, Tibetan, Tocharian
+  - Each entry source-indexed against attested resources (Unicode Consortium, CDLI, ORACC, Perseus/LSJ, etc.)
+- **`list_scripts` tool** — LLM-callable discovery endpoint; returns all loaded scripts, lexicons with entry counts, and corpora with inscription counts — eliminates tool-call dead-ends caused by unknown IDs
+- **`start-copilot.bat` / `stop-copilot.bat`** — one-click Windows server management at project root
+  - Start: checks for existing instance on port 7340, verifies Node.js, auto-creates `.env` from example, launches server minimized with stdout/stderr piped to `decipher-copilot/logs/server.log`
+  - Stop: finds all PIDs listening on port 7340 and force-kills them
+
+### Changed
+
+- **System prompt injects live DB catalog** — `buildSystemPrompt` now accepts `db` and queries available lexicons and corpora on every request; model sees exact `lexicon_id`/`corpus_id` values with entry/inscription counts before choosing tool arguments
+- **Tool usage guidance tightened** — system prompt explicitly instructs: call `lexicon_lookup` without `lexicon_id` to search all scripts at once; call `list_scripts` if corpus ID is unknown; no hedging permitted
+- **Dataset priority seeding** — `importAllDatasets` sorts files before seeding so richer data always wins via `INSERT OR REPLACE`
+  - Priority 1 (seeds first): basic/legacy files
+  - Priority 2: files with `MASTER` or `ls_enhanced` in name — Operator decipherment work
+  - Priority 3 (wins last): `EXPANDED_OPERATOR_SPECTRE` files — richest attested reference data
+- **`normalizeSignEntry` rewritten** — handles the rich Linear B MASTER format
+  - Standard syllabograms: `standard_transliteration` → gloss + transliteration field
+  - LS-enhanced signs: `ls_enhanced_resolution.function` → gloss; `.phonetic_value` → transliteration; `.confidence` carried through; notes prefixed `[DEFINITIVE]`; source prefixed `LS:`
+  - `sign_type` replaces hardcoded `'sign'` for pos; Unicode object unwrapped to human-readable name/codepoint string
+- **`normalizeEntry` extended** — additional field fallbacks for EXPANDED and MASTER formats
+  - Token fallbacks added: `e.akkadian`, `e.cuneiform`
+  - Gloss fallbacks added: `e.function`, `e.definitions[0]`, `e.interpretation.primary`
+  - Pos fallbacks added: `e.semantic_category`
+- **`inferScriptName` — 20+ new mappings** — amharic, arabic, armenian, avestan, burmese, classical Chinese, elder futhark, etruscan, georgian, hittite, javanese, kharoshthi, khmer, korean, luwian, middle Persian, mycenaean, nabataean, ogham, old English, old Norse, old Persian, rongorongo, Sanskrit, sogdian, Syriac, Thai, Tibetan, Tocharian; ordering fixed so longer/specific keys match before shorter substrings
+- Seeder skip list: `manifest.json` and `attested_resource_catalog.json` excluded (metadata catalog files, not lexicons)
+- `buildSystemPrompt` signature updated in both `ws/hub.js` and `http/routes/chat.js`
+
+### Fixed
+
+- **Dashboard 403 Forbidden on Windows** — `static.js` path traversal check hardcoded `'/'` separator; `path.resolve` on Windows returns backslash paths so `fullPath.startsWith(webuiDir + '/')` always failed, returning 403 for every static file request. Fixed by importing `sep` from `node:path`
+- **`lexicon_akkadian.json` all entries silently skipped** — original file uses `akkadian`/`cuneiform` field names not present in the `normalizeEntry` token fallback chain; every entry was discarded at seeding. Fixed by adding both fields to the token fallback list
+
+---
+
+## [1.1.0] — 2026-05-01
+
+### Added
+
+- **Ollama API key support** — `OLLAMA_API_KEY` env var wired through all Ollama fetch calls via `Authorization: Bearer` header
+  - All 18 direct `fetch()` calls to Ollama across 8 route files now include the auth header
+  - `ollamaFetch(baseUrl, apiKey)` factory updated — API key bound at construction time, propagated to all methods (chat, stream, generate, embed, version, tags, show)
+  - `config.ollamaAuthHeaders` pre-computed object — single source of truth used by every route
+- **Native `.env` loading** — server start script uses `node --env-file=.env` (Node 20.6+ built-in, no dotenv dependency)
+- **Smart thinking-mode detection** — `getThinkMode()` rewritten to guard all model families
+  - `gpt-oss` family (includes `spectre-origin`, `commander-core`, `elessar`, `cirdan` variants) → returns `"low"|"medium"|"high"` string levels
+  - `gemma4`, `phi-4-reasoning`, `deepseek-r1`, `qwen3`, `cogito` → returns boolean `true`/`false`
+  - All other models (gemma3, llama, phi3, aurora-elwing, stonedrift-ancient, etc.) → returns `undefined` — `think` field omitted from request entirely
+  - Same guard applied to `routes/chat.js` REST fallback path
+- **`ancient_script` capability flag** — model list endpoint (`GET /api/models`) now returns `capabilities.ancient_script: true` for stonedrift, aurora-elwing, and spectre-origin models
+- **Expanded recommended models** — spectre-origin variants, aurora-elwing-v2, commander-core variants added to `config.recommendedModels`
+
+### Changed
+
+- Default vision model changed to `aurora-elwing-v2:latest`
+- `server/package.json` start script: `node src/index.js` → `node --env-file=.env src/index.js`
+- Model capability detection in `GET /api/models` now recognises `aurora-elwing`, `stonedrift`, `spectre-origin`, and `commander-core` families for vision/thinking flags
+
+### Fixed
+
+- All Ollama-facing `fetch()` calls previously sent no `Authorization` header — fixed across `hub.js`, `health.js`, `models.js`, `analysis.js`, `chat.js`, `embedSearch.js`, `modelFactory.js`, `signCluster.js`
+- `thinking` field erroneously sent as `true` to models that reject it (gemma3, llama, phi3 base, aurora-elwing) — now safely omitted via `getThinkMode()` guard
+
+---
+
 ## [1.0.0-alpha] — 2026-04-29
 
 ### Added

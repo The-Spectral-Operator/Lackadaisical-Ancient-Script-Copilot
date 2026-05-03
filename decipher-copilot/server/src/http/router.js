@@ -73,7 +73,7 @@ export function createRouter(db, config, logger) {
 
         if (path === '/api/health' && method === 'GET') return routes.health(req, res);
         if (path === '/api/version' && method === 'GET') {
-          res.end(JSON.stringify({ version: '1.0.0', model: config.defaultModel }));
+          res.end(JSON.stringify({ version: '1.1.1-alpha', model: config.defaultModel }));
           return;
         }
 
