@@ -88,6 +88,26 @@ async function init() {
     document.getElementById('tools-toggle').style.opacity = enabled ? '1' : '0.45';
   });
   document.getElementById('new-session-btn').addEventListener('click', newSession);
+
+  // Session search
+  const searchInput = document.getElementById('session-search');
+  let searchDebounce = null;
+  searchInput?.addEventListener('input', () => {
+    clearTimeout(searchDebounce);
+    const query = searchInput.value.trim();
+    if (!query || query.length < 2) {
+      document.getElementById('search-results')?.classList.add('hidden');
+      return;
+    }
+    searchDebounce = setTimeout(() => performSessionSearch(query), 300);
+  });
+  searchInput?.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      document.getElementById('search-results')?.classList.add('hidden');
+    }
+  });
+
   document.getElementById('settings-btn').addEventListener('click', () => togglePanel('settings-panel'));
   document.getElementById('lexicon-btn').addEventListener('click', async () => {
     togglePanel('lexicon-panel');
@@ -226,35 +246,145 @@ async function loadSessions() {
   } catch { /* offline */ }
 }
 
+/**
+ * Group sessions by date category (Today, Yesterday, This Week, This Month, Older)
+ */
+function groupSessionsByDate(sessions) {
+  const now = Date.now();
+  const oneDay = 86400000;
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayMs = today.getTime();
+  const yesterdayMs = todayMs - oneDay;
+  const weekMs = todayMs - (6 * oneDay);
+  const monthMs = todayMs - (29 * oneDay);
+
+  const groups = { 'Today': [], 'Yesterday': [], 'This Week': [], 'This Month': [], 'Older': [] };
+
+  for (const s of sessions) {
+    const t = s.updated_at || s.created_at || 0;
+    if (t >= todayMs) groups['Today'].push(s);
+    else if (t >= yesterdayMs) groups['Yesterday'].push(s);
+    else if (t >= weekMs) groups['This Week'].push(s);
+    else if (t >= monthMs) groups['This Month'].push(s);
+    else groups['Older'].push(s);
+  }
+
+  return groups;
+}
+
+function formatSessionTime(ts) {
+  if (!ts) return '';
+  const d = new Date(ts);
+  const now = new Date();
+  if (d.toDateString() === now.toDateString()) {
+    return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  }
+  return d.toLocaleDateString([], { month: 'short', day: 'numeric' });
+}
+
 function renderSessionList(sessions) {
   const nav = document.getElementById('session-list');
   if (!nav) return;
   nav.innerHTML = '';
-  for (const s of sessions) {
-    const item = document.createElement('div');
-    item.className = 'session-item' + (s.id === store.get().sessionId ? ' active' : '');
-    item.dataset.sessionId = s.id;
 
-    const titleSpan = document.createElement('span');
-    titleSpan.className = 'session-title';
-    titleSpan.textContent = s.title || 'Session';
+  // Update session count
+  const countEl = document.getElementById('session-count');
+  if (countEl) countEl.textContent = sessions.length;
 
-    const delBtn = document.createElement('button');
-    delBtn.className = 'session-del btn btn-icon';
-    delBtn.textContent = '✕';
-    delBtn.title = 'Delete session';
-    delBtn.addEventListener('click', async (e) => {
-      e.stopPropagation();
-      await api.del(`/api/sessions/${s.id}`);
-      loadSessions();
-      if (store.get().sessionId === s.id) newSession();
-    });
+  const groups = groupSessionsByDate(sessions);
 
-    item.appendChild(titleSpan);
-    item.appendChild(delBtn);
-    item.addEventListener('click', () => loadSession(s.id));
-    nav.appendChild(item);
+  for (const [groupName, groupSessions] of Object.entries(groups)) {
+    if (groupSessions.length === 0) continue;
+
+    const groupLabel = document.createElement('div');
+    groupLabel.className = 'session-date-group';
+    groupLabel.textContent = groupName;
+    nav.appendChild(groupLabel);
+
+    for (const s of groupSessions) {
+      const item = document.createElement('div');
+      item.className = 'session-item' + (s.id === store.get().sessionId ? ' active' : '');
+      item.dataset.sessionId = s.id;
+
+      const info = document.createElement('div');
+      info.className = 'session-info';
+
+      const titleSpan = document.createElement('span');
+      titleSpan.className = 'session-title';
+      titleSpan.textContent = s.title || 'Session';
+
+      const metaSpan = document.createElement('span');
+      metaSpan.className = 'session-meta';
+      metaSpan.textContent = formatSessionTime(s.updated_at || s.created_at);
+      if (s.model) metaSpan.textContent += ` · ${s.model.split(':')[0]}`;
+
+      info.appendChild(titleSpan);
+      info.appendChild(metaSpan);
+
+      const delBtn = document.createElement('button');
+      delBtn.className = 'session-del btn btn-icon';
+      delBtn.textContent = '✕';
+      delBtn.title = 'Delete session';
+      delBtn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        await api.del(`/api/sessions/${s.id}`);
+        loadSessions();
+        if (store.get().sessionId === s.id) newSession();
+      });
+
+      item.appendChild(info);
+      item.appendChild(delBtn);
+
+      // Click to load session
+      item.addEventListener('click', () => loadSession(s.id));
+
+      // Double-click to rename
+      item.addEventListener('dblclick', (e) => {
+        e.preventDefault();
+        startRenameSession(item, s.id, s.title || 'Session');
+      });
+
+      nav.appendChild(item);
+    }
   }
+}
+
+/**
+ * Inline rename: replaces title span with input, saves on Enter/blur
+ */
+function startRenameSession(itemEl, sessionId, currentTitle) {
+  const info = itemEl.querySelector('.session-info');
+  if (!info) return;
+  const titleSpan = info.querySelector('.session-title');
+  if (!titleSpan) return;
+
+  const input = document.createElement('input');
+  input.className = 'session-rename-input';
+  input.type = 'text';
+  input.value = currentTitle;
+  input.maxLength = 100;
+
+  titleSpan.replaceWith(input);
+  input.focus();
+  input.select();
+
+  const save = async () => {
+    const newTitle = input.value.trim() || currentTitle;
+    try {
+      await api.patch(`/api/sessions/${sessionId}`, { title: newTitle });
+    } catch { /* ok */ }
+    const span = document.createElement('span');
+    span.className = 'session-title';
+    span.textContent = newTitle;
+    input.replaceWith(span);
+    loadSessions();
+  };
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); save(); }
+    if (e.key === 'Escape') { e.preventDefault(); input.replaceWith(titleSpan); }
+  });
+  input.addEventListener('blur', save);
 }
 
 async function loadSession(id) {
@@ -376,7 +506,7 @@ async function sendMessage() {
     model: s.model,
     think: s.thinkEnabled,
     tools: s.toolsEnabled
-      ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report', 'add_lexicon_entry', 'cross_inscription_check', 'cross_script_correlation', 'cross_script_matrix', 'single_glyph_analysis', 'glyph_chain_detection', 'multi_glyph_analysis']
+      ? ['lexicon_lookup', 'corpus_search', 'frequency_report', 'entropy_report', 'zipf_report', 'add_lexicon_entry', 'cross_inscription_check', 'cross_script_correlation', 'cross_script_matrix', 'single_glyph_analysis', 'glyph_chain_detection', 'multi_glyph_analysis', 'list_scripts']
       : [],
     history,
     script: s.activeScript || undefined,
@@ -437,6 +567,70 @@ function renderAttachmentPreview(files) {
 function clearAttachmentPreview() {
   const preview = document.getElementById('attachment-preview');
   if (preview) { preview.classList.add('hidden'); preview.innerHTML = ''; }
+}
+
+// ─── Session search ───────────────────────────────────────────────────────────
+async function performSessionSearch(query) {
+  const resultsEl = document.getElementById('search-results');
+  if (!resultsEl) return;
+
+  try {
+    const data = await api.get(`/api/sessions/search?q=${encodeURIComponent(query)}`);
+    resultsEl.innerHTML = '';
+    resultsEl.classList.remove('hidden');
+
+    if ((!data.sessions || data.sessions.length === 0) && (!data.lexicon_entries || data.lexicon_entries.length === 0)) {
+      resultsEl.innerHTML = '<div class="search-no-results">No results found</div>';
+      return;
+    }
+
+    // Session results
+    if (data.sessions && data.sessions.length > 0) {
+      const label = document.createElement('div');
+      label.className = 'search-section-label';
+      label.textContent = `Sessions (${data.sessions.length})`;
+      resultsEl.appendChild(label);
+
+      for (const s of data.sessions) {
+        const item = document.createElement('div');
+        item.className = 'search-result-item';
+        item.innerHTML = `<div class="search-result-title">${esc(s.title || 'Session')}</div>
+          <div class="search-result-snippet">${esc(s.snippet || '')}</div>`;
+        item.addEventListener('click', () => {
+          loadSession(s.id);
+          document.getElementById('session-search').value = '';
+          resultsEl.classList.add('hidden');
+        });
+        resultsEl.appendChild(item);
+      }
+    }
+
+    // Lexicon results
+    if (data.lexicon_entries && data.lexicon_entries.length > 0) {
+      const label = document.createElement('div');
+      label.className = 'search-section-label';
+      label.textContent = `Lexicon (${data.lexicon_entries.length})`;
+      resultsEl.appendChild(label);
+
+      for (const e of data.lexicon_entries.slice(0, 10)) {
+        const item = document.createElement('div');
+        item.className = 'search-result-item search-result-lexicon';
+        item.innerHTML = `<div class="search-result-title">${esc(e.token)} → ${esc(e.gloss)}</div>
+          <div class="search-result-snippet">${esc(e.lexicon_name || '')} · ${esc(e.pos || '')} · conf: ${(e.confidence || 0).toFixed(2)}</div>`;
+        item.addEventListener('click', () => {
+          // Insert the lexicon entry into the chat input
+          document.getElementById('chat-input').value = `Look up the sign "${e.token}" (${e.gloss}) in the ${e.script_id || 'unknown'} script. What is its full analysis?`;
+          document.getElementById('chat-input').focus();
+          document.getElementById('session-search').value = '';
+          resultsEl.classList.add('hidden');
+        });
+        resultsEl.appendChild(item);
+      }
+    }
+  } catch {
+    resultsEl.innerHTML = '<div class="search-no-results">Search unavailable</div>';
+    resultsEl.classList.remove('hidden');
+  }
 }
 
 // ─── UI helpers ───────────────────────────────────────────────────────────────

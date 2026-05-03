@@ -84,6 +84,7 @@ export function createRouter(db, config, logger) {
         if (path.match(/^\/api\/models\/[^/]+$/) && method === 'DELETE') return routes.models.remove(req, res, path);
 
         // Sessions
+        if (path === '/api/sessions/search' && method === 'GET') return routes.sessions.search(req, res);
         if (path === '/api/sessions' && method === 'GET') return routes.sessions.list(req, res);
         if (path === '/api/sessions' && method === 'POST') return routes.sessions.create(req, res);
         if (path.match(/^\/api\/sessions\/[^/]+$/) && method === 'GET') return routes.sessions.get(req, res, path);

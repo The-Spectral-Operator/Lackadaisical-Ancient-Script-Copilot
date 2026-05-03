@@ -29,10 +29,28 @@ body {
   margin-bottom: 1rem;
 }
 
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.logo-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .logo {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--color-accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .model-picker {
@@ -71,9 +89,160 @@ body {
   font-size: 0.85rem;
   color: var(--color-text-dim);
   transition: background var(--transition);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.25rem;
 }
 .session-item:hover { background: var(--color-surface-2); color: var(--color-text); }
 .session-item.active { background: var(--color-primary); color: white; }
+
+.session-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.session-meta {
+  font-size: 0.65rem;
+  color: var(--color-text-dim);
+  margin-top: 0.15rem;
+  white-space: nowrap;
+}
+.session-item.active .session-meta { color: rgba(255,255,255,0.7); }
+
+.session-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.session-del {
+  opacity: 0;
+  transition: opacity var(--transition);
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  padding: 0.2rem;
+}
+.session-item:hover .session-del { opacity: 0.6; }
+.session-item:hover .session-del:hover { opacity: 1; color: var(--color-danger); }
+.session-item.active .session-del { opacity: 0.8; color: rgba(255,255,255,0.8); }
+
+/* Session actions (rename) */
+.session-rename-input {
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  width: 100%;
+  outline: none;
+}
+
+/* Session search */
+.session-search-box {
+  margin-bottom: 0.5rem;
+}
+.session-search-box input {
+  width: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+}
+.session-search-box input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+.session-search-box input::placeholder {
+  color: var(--color-text-dim);
+}
+
+/* Search results dropdown */
+.search-results {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.search-section-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-dim);
+  padding: 0.4rem 0.6rem 0.2rem;
+  font-weight: 600;
+}
+.search-result-item {
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--transition);
+}
+.search-result-item:last-child { border-bottom: none; }
+.search-result-item:hover { background: var(--color-surface); }
+.search-result-title { font-weight: 600; color: var(--color-text); }
+.search-result-snippet {
+  font-size: 0.7rem;
+  color: var(--color-text-dim);
+  margin-top: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-result-lexicon {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+.search-no-results {
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-text-dim);
+}
+
+/* Session history header */
+.session-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+}
+.session-history-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-dim);
+  font-weight: 600;
+}
+.session-count {
+  font-size: 0.65rem;
+  background: var(--color-surface-2);
+  color: var(--color-text-dim);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+}
+
+/* Session date groups */
+.session-date-group {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-dim);
+  padding: 0.5rem 0.5rem 0.2rem;
+  font-weight: 600;
+}
 
 .sidebar-footer {
   display: flex;
