@@ -17,7 +17,7 @@ import { crossInscriptionCheck } from '../tools/crossInscriptionCheck.js';
 import { crossScriptCorrelation, crossScriptMatrix } from '../tools/crossScriptCorrelation.js';
 import { singleGlyphAnalysis, glyphChainDetection, multiGlyphAnalysis } from '../tools/glyphChaining.js';
 
-const SERVER_VERSION = '1.0.0';
+const SERVER_VERSION = '1.1.1-alpha';
 const IDLE_TIMEOUT_MS = 60_000;
 
 export function createWsHub(server, db, config, logger) {
@@ -33,7 +33,7 @@ export function createWsHub(server, db, config, logger) {
 
   // Get Ollama version for ready frame
   let ollamaVersion = 'unknown';
-  fetch(`${config.ollamaHost}/api/version`, { signal: AbortSignal.timeout(3000) })
+  fetch(`${config.ollamaHost}/api/version`, { signal: AbortSignal.timeout(3000), headers: { ...config.ollamaAuthHeaders } })
     .then(r => r.json()).then(d => { ollamaVersion = d.version || 'unknown'; }).catch(() => {});
 
   wss.on('connection', (ws, req) => {
@@ -109,7 +109,7 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
   const controller = new AbortController();
   activeStreams.set(session_id, controller);
 
-  const systemPrompt = buildSystemPrompt(config, script, corpus, lexicon);
+  const systemPrompt = buildSystemPrompt(config, script, corpus, lexicon, db.system);
   const messages = [{ role: 'system', content: systemPrompt }];
   if (Array.isArray(history) && history.length > 0) messages.push(...history.slice(-30));
   messages.push({ role: 'user', content });
@@ -139,7 +139,7 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
       const pendingToolCalls = [];
       let roundContent = '';
 
-      for await (const chunk of ollamaChatStream({ baseUrl: config.ollamaHost, model, messages: currentMessages, tools: tools.length > 0 ? tools : undefined, think: thinkMode, options: { ...config.modelOptions, ...(options || {}) }, keepAlive: config.hotswap.keepAlive, signal: controller.signal })) {
+      for await (const chunk of ollamaChatStream({ baseUrl: config.ollamaHost, model, messages: currentMessages, tools: tools.length > 0 ? tools : undefined, think: thinkMode, options: { ...config.modelOptions, ...(options || {}) }, keepAlive: config.hotswap.keepAlive, signal: controller.signal, authHeaders: config.ollamaAuthHeaders })) {
         const parsed = thinkParser.processChunk(chunk);
         if (parsed.thinking) { fullThinking += parsed.thinking; if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.thinkingDelta(messageId, parsed.thinking))); }
         if (parsed.content) { roundContent += parsed.content; fullContent += parsed.content; if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.contentDelta(messageId, parsed.content))); }
@@ -192,6 +192,7 @@ function dispatchTool(name, args, db, config, logger) {
       case 'single_glyph_analysis': return singleGlyphAnalysis(db, args);
       case 'glyph_chain_detection': return glyphChainDetection(db, args);
       case 'multi_glyph_analysis': return multiGlyphAnalysis(db, args);
+      case 'list_scripts': return listScripts(db);
       case 'add_lexicon_entry': {
         const { lexicon_id, token, gloss, confidence = 0.5, source = '' } = args;
         if (!token || !gloss) return { error: 'token and gloss required' };
@@ -212,7 +213,7 @@ function dispatchTool(name, args, db, config, logger) {
 async function handlePullStart(frame, ws, config, logger) {
   const { model } = frame;
   try {
-    const res = await fetch(`${config.ollamaHost}/api/pull`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ name: model, stream: true }) });
+    const res = await fetch(`${config.ollamaHost}/api/pull`, { method: 'POST', headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders }, body: JSON.stringify({ name: model, stream: true }) });
     if (!res.ok || !res.body) { ws.send(JSON.stringify(Frames.error('PULL_FAILED', `HTTP ${res.status}`))); return; }
     const decoder = new TextDecoder(); let buf = '';
     for await (const chunk of res.body) {
@@ -224,4 +225,26 @@ async function handlePullStart(frame, ws, config, logger) {
       }
     }
   } catch (err) { logger.error({ err: err.message, model }, 'pull error'); ws.send(JSON.stringify(Frames.error('PULL_FAILED', err.message))); }
+}
+
+/**
+ * list_scripts tool — returns all loaded scripts, lexicons with entry counts, and corpora with inscription counts.
+ */
+function listScripts(db) {
+  try {
+    const scripts = db.system.prepare('SELECT id, display, era, region FROM scripts ORDER BY display').all();
+    const lexicons = db.system.prepare(`
+      SELECT l.id, l.script_id, l.name, COUNT(le.id) AS entry_count
+      FROM lexicons l LEFT JOIN lexicon_entries le ON le.lexicon_id = l.id
+      GROUP BY l.id ORDER BY entry_count DESC
+    `).all();
+    const corpora = db.system.prepare(`
+      SELECT c.id, c.script_id, c.name, COUNT(i.id) AS inscription_count
+      FROM corpora c LEFT JOIN inscriptions i ON i.corpus_id = c.id
+      GROUP BY c.id ORDER BY inscription_count DESC
+    `).all();
+    return { scripts, lexicons, corpora };
+  } catch (err) {
+    return { error: err.message };
+  }
 }

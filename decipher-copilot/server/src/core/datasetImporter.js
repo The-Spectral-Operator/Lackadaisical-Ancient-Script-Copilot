@@ -27,7 +27,18 @@ export function importAllDatasets(datasetsDir) {
     }
   }
 
-  const files = readdirSync(datasetsDir).filter(f => f !== '.gitkeep');
+  // Skip list: metadata/catalog files that are not lexicons
+  const SKIP_FILES = new Set(['.gitkeep', 'manifest.json', 'attested_resource_catalog.json']);
+
+  // Priority-sorted file list: basic first, then MASTER/ls_enhanced, then EXPANDED_OPERATOR_SPECTRE last (richest wins via INSERT OR REPLACE)
+  const files = readdirSync(datasetsDir)
+    .filter(f => !SKIP_FILES.has(f))
+    .sort((a, b) => {
+      const prioA = getFilePriority(a);
+      const prioB = getFilePriority(b);
+      return prioA - prioB;
+    });
+
   const results = [];
 
   for (const file of files) {
@@ -65,6 +76,20 @@ export function importAllDatasets(datasetsDir) {
   }
 
   return results;
+}
+
+/**
+ * Determine seeding priority for a dataset file.
+ * Lower number = seeds first (basic/legacy). Higher = seeds last (wins via INSERT OR REPLACE).
+ * Priority 1: basic/legacy files
+ * Priority 2: MASTER or ls_enhanced files — Operator decipherment work
+ * Priority 3: EXPANDED_OPERATOR_SPECTRE files — richest attested reference data
+ */
+function getFilePriority(filename) {
+  const lower = filename.toLowerCase();
+  if (lower.includes('expanded_operator_spectre')) return 3;
+  if (lower.includes('master') || lower.includes('ls_enhanced')) return 2;
+  return 1;
 }
 
 /**
@@ -363,13 +388,16 @@ function normalizeEntry(e, source) {
     token: e.token || e.latin_form || e.form || e.lemma || e.sign_id || e.glyph_id ||
            e.unicode || e.aramaic_unicode || e.phoenician || e.transliteration ||
            e.sign || e.symbol || e.linear_elamite_symbol || e.script_symbol ||
-           e.canonical_form || e.id || '',
+           e.canonical_form || e.akkadian || e.cuneiform || e.id || '',
     gloss: e.gloss || e.translation || e.english_gloss || e.english || e.meaning ||
-           e.definition || e.value || e.primary_value ||
+           e.definition || e.value || e.primary_value || e.function ||
+           (Array.isArray(e.definitions) && e.definitions.length > 0 ? e.definitions[0] : '') ||
+           (e.interpretation && e.interpretation.primary ? e.interpretation.primary : '') ||
            (Array.isArray(e.english_meanings) ? e.english_meanings.join('; ') : (e.english_meanings || '')) ||
            (Array.isArray(e.senses) && e.senses.length > 0 ? (e.senses[0].gloss || e.senses[0].meaning || e.senses[0].definition || JSON.stringify(e.senses[0])) : '') ||
            '',
-    pos: e.pos || e.part_of_speech || e.category || e.type || e.sign_type || '',
+    pos: e.pos || e.part_of_speech || e.category || e.type || e.sign_type ||
+         e.semantic_category || '',
     confidence: e.confidence || e.confidence_score || e.authenticity_score ||
                e.final_confidence || e.certainty || 0.7,
     source: e.source || e.provenance || e.attested_source || e.attestation ||
@@ -402,15 +430,51 @@ function normalizeObjectEntry(key, value, source) {
 }
 
 function normalizeSignEntry(e, source) {
+  // Handle Linear B MASTER format with LS-enhanced resolution
+  if (e.ls_enhanced_resolution) {
+    const lsr = e.ls_enhanced_resolution;
+    const unicodeStr = e.unicode && typeof e.unicode === 'object'
+      ? `${e.unicode.name || ''} (${e.unicode.codepoint || ''})` : (e.unicode || '');
+    return {
+      token: e.id || e.sign_id || e.glyph_id || '',
+      gloss: lsr.function || e.name || e.label || e.meaning || '',
+      pos: e.sign_type || 'sign',
+      confidence: lsr.confidence || e.confidence || 0.8,
+      source: `LS:${source}`,
+      notes: `[DEFINITIVE] ${lsr.notes || e.notes || ''} vectors=${lsr.cross_script_vectors || ''}`.trim(),
+      transliteration: lsr.phonetic_value || e.phonetic_value || e.reading || '',
+      unicode: unicodeStr,
+    };
+  }
+
+  // Standard syllabogram format
+  if (e.standard_transliteration || e.transliteration_standard) {
+    const unicodeStr = e.unicode && typeof e.unicode === 'object'
+      ? `${e.unicode.name || ''} (${e.unicode.codepoint || ''})` : (e.unicode || e.glyph_pua || '');
+    return {
+      token: e.id || e.sign_id || e.glyph_id || '',
+      gloss: e.name || e.label || e.meaning || e.gloss || '',
+      pos: e.sign_type || 'sign',
+      confidence: e.confidence || 0.8,
+      source: source,
+      notes: e.notes || '',
+      transliteration: e.standard_transliteration || e.transliteration_standard || e.phonetic_value || e.reading || '',
+      unicode: unicodeStr,
+    };
+  }
+
+  // Fallback: basic sign entry
+  const unicodeStr = e.unicode && typeof e.unicode === 'object'
+    ? `${e.unicode.name || ''} (${e.unicode.codepoint || ''})` : (e.unicode || e.glyph_pua || '');
   return {
     token: e.id || e.sign_id || e.glyph_id || '',
     gloss: e.name || e.label || e.meaning || '',
-    pos: 'sign',
+    pos: e.sign_type || 'sign',
     confidence: e.confidence || 0.8,
     source: source,
     notes: e.notes || '',
     transliteration: e.phonetic_value || e.reading || '',
-    unicode: e.unicode || e.glyph_pua || '',
+    unicode: unicodeStr,
   };
 }
 
@@ -459,47 +523,85 @@ function extractGrammarEntries(data, source) {
 
 function inferScriptName(filename) {
   const name = basename(filename, extname(filename)).toLowerCase();
-  const mappings = {
-    'aramaic': 'Imperial Aramaic',
-    'brahmi': 'Brahmi',
-    'coptic': 'Coptic',
-    'demotic': 'Demotic Egyptian',
-    'gardiner': 'Egyptian Hieroglyphs',
-    'geez': "Ge'ez",
-    'glagolitic': 'Glagolitic',
-    'gothic': 'Gothic',
-    'greek': 'Ancient Greek',
-    'hieratic': 'Hieratic',
-    'indus': 'Indus Valley',
-    'japanese': 'Japanese',
-    'kannada': 'Kannada',
-    'akkadian': 'Akkadian',
-    'linear_a': 'Linear A',
-    'linear_b': 'Linear B',
-    'linear_elamite': 'Linear Elamite',
-    'malayalam': 'Malayalam',
-    'maya': 'Maya',
-    'meroitic': 'Meroitic',
-    'musnad': 'Musnad (Ancient South Arabian)',
-    'paleo_hebrew': 'Paleo-Hebrew',
-    'phaistos': 'Phaistos Disc',
-    'phoenician': 'Phoenician',
-    'proto_elamite': 'Proto-Elamite',
-    'proto_sinaitic': 'Proto-Sinaitic',
-    'sumerian': 'Sumerian',
-    'tamil': 'Tamil',
-    'tartaria': 'Tartaria',
-    'telugu': 'Telugu',
-    'ugaritic': 'Ugaritic',
-    'voynich': 'Voynich Manuscript',
-    'byblos': 'Byblos Syllabary',
-    'vinca': 'Vinča',
-    'cretan': 'Cretan Hieroglyphs',
-    'cypro_minoan': 'Cypro-Minoan',
-    'dravidian': 'Dravidian',
-  };
 
-  for (const [key, value] of Object.entries(mappings)) {
+  // Ordered longest/most-specific keys first to avoid substring collisions
+  const mappings = [
+    ['chinese_classical', 'Classical Chinese'],
+    ['classical_chinese', 'Classical Chinese'],
+    ['cypro_minoan', 'Cypro-Minoan'],
+    ['cretan_hieroglyphs', 'Cretan Hieroglyphs'],
+    ['elder_futhark', 'Elder Futhark'],
+    ['indus_valley', 'Indus Valley'],
+    ['javanese_kawi', 'Javanese Kawi'],
+    ['linear_elamite', 'Linear Elamite'],
+    ['linear_a', 'Linear A'],
+    ['linear_b', 'Linear B'],
+    ['luwian_hieroglyphs', 'Luwian Hieroglyphs'],
+    ['middle_persian', 'Middle Persian'],
+    ['mycenaean_greek', 'Mycenaean Greek'],
+    ['old_english', 'Old English'],
+    ['old_norse_runic', 'Old Norse Runic'],
+    ['old_norse', 'Old Norse Runic'],
+    ['old_persian', 'Old Persian'],
+    ['paleo_hebrew', 'Paleo-Hebrew'],
+    ['proto_elamite', 'Proto-Elamite'],
+    ['proto_sinaitic', 'Proto-Sinaitic'],
+    ['rongorongo', 'Rongorongo'],
+    ['akkadian', 'Akkadian'],
+    ['amharic', 'Amharic'],
+    ['arabic', 'Arabic'],
+    ['aramaic', 'Imperial Aramaic'],
+    ['armenian', 'Armenian'],
+    ['avestan', 'Avestan'],
+    ['brahmi', 'Brahmi'],
+    ['burmese', 'Burmese'],
+    ['byblos', 'Byblos Syllabary'],
+    ['coptic', 'Coptic'],
+    ['demotic', 'Demotic Egyptian'],
+    ['dravidian', 'Dravidian'],
+    ['elamite', 'Elamite'],
+    ['etruscan', 'Etruscan'],
+    ['gardiner', 'Egyptian Hieroglyphs'],
+    ['geez', "Ge'ez"],
+    ['georgian', 'Georgian'],
+    ['glagolitic', 'Glagolitic'],
+    ['gothic', 'Gothic'],
+    ['greek', 'Ancient Greek'],
+    ['hebrew', 'Hebrew'],
+    ['hieratic', 'Hieratic'],
+    ['hittite', 'Hittite'],
+    ['indus', 'Indus Valley'],
+    ['japanese', 'Japanese'],
+    ['javanese', 'Javanese Kawi'],
+    ['kannada', 'Kannada'],
+    ['kharosthi', 'Kharoshthi'],
+    ['khmer', 'Khmer'],
+    ['korean', 'Korean'],
+    ['luwian', 'Luwian Hieroglyphs'],
+    ['malayalam', 'Malayalam'],
+    ['maya', 'Maya'],
+    ['meroitic', 'Meroitic'],
+    ['musnad', 'Musnad (Ancient South Arabian)'],
+    ['nabataean', 'Nabataean'],
+    ['ogham', 'Ogham'],
+    ['phaistos', 'Phaistos Disc'],
+    ['phoenician', 'Phoenician'],
+    ['sanskrit', 'Sanskrit'],
+    ['sogdian', 'Sogdian'],
+    ['sumerian', 'Sumerian'],
+    ['syriac', 'Syriac'],
+    ['tamil', 'Tamil'],
+    ['tartaria', 'Tartaria'],
+    ['telugu', 'Telugu'],
+    ['thai', 'Thai'],
+    ['tibetan', 'Tibetan'],
+    ['tocharian', 'Tocharian'],
+    ['ugaritic', 'Ugaritic'],
+    ['vinca', 'Vinča'],
+    ['voynich', 'Voynich Manuscript'],
+  ];
+
+  for (const [key, value] of mappings) {
     if (name.includes(key)) return value;
   }
   return name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
@@ -571,8 +673,9 @@ export function seedDatasetsToDb(db, datasetsDir, logger) {
     } catch { /* ok */ }
 
     // Bulk-insert entries using a transaction for speed
+    // INSERT OR REPLACE ensures higher-priority files (seeded later) overwrite lower-priority data
     const stmt = db.system.prepare(`
-      INSERT OR IGNORE INTO lexicon_entries
+      INSERT OR REPLACE INTO lexicon_entries
         (id, lexicon_id, token, gloss, pos, confidence, source, notes, created_at, updated_at)
       VALUES (?,?,?,?,?,?,?,?,?,?)
     `);

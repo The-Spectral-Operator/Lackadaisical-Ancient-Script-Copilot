@@ -114,7 +114,7 @@ PARAMETER num_predict 16384`,
       try {
         const ollamaRes = await fetch(`${config.ollamaHost}/api/create`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ name, modelfile, stream: true }),
           signal: AbortSignal.timeout(300000), // 5 min timeout for large model creation
         });
@@ -180,7 +180,7 @@ PARAMETER num_predict 16384`,
       try {
         const ollamaRes = await fetch(`${config.ollamaHost}/api/copy`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ source, destination }),
           signal: AbortSignal.timeout(30000),
         });

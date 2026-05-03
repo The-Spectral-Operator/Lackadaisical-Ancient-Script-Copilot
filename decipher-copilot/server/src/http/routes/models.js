@@ -7,8 +7,8 @@ export function createModelsRoute(db, config, logger) {
       try {
         // Get models from Ollama
         const [tagsRes, psRes] = await Promise.all([
-          fetch(`${config.ollamaHost}/api/tags`, { signal: AbortSignal.timeout(5000) }),
-          fetch(`${config.ollamaHost}/api/ps`, { signal: AbortSignal.timeout(5000) }),
+          fetch(`${config.ollamaHost}/api/tags`, { signal: AbortSignal.timeout(5000), headers: { ...config.ollamaAuthHeaders } }),
+          fetch(`${config.ollamaHost}/api/ps`, { signal: AbortSignal.timeout(5000), headers: { ...config.ollamaAuthHeaders } }),
         ]);
 
         let models = [];
@@ -39,10 +39,11 @@ export function createModelsRoute(db, config, logger) {
           is_default: m.name === config.defaultModel,
           is_recommended: config.recommendedModels.includes(m.name),
           capabilities: {
-            vision: m.name.includes('vision') || m.name.includes('vl') || m.name.includes('gemma4') || m.name.includes('gemma3'),
-            thinking: m.name.includes('reasoning') || m.name.includes('gpt-oss') || m.name.includes('gemma4'),
+            vision: m.name.includes('vision') || m.name.includes('vl') || m.name.includes('gemma4') || m.name.includes('gemma3') || m.name.includes('aurora-elwing'),
+            thinking: m.name.includes('reasoning') || m.name.includes('gpt-oss') || m.name.includes('gemma4') || m.name.includes('spectre-origin') || m.name.includes('commander-core'),
             tools: true, // most modern models support tools
             audio: m.name.includes('gemma4'), // gemma4 supports audio input
+            ancient_script: m.name.includes('stonedrift') || m.name.includes('aurora-elwing') || m.name.includes('spectre-origin'),
           },
         }));
 
@@ -75,7 +76,7 @@ export function createModelsRoute(db, config, logger) {
       try {
         const r = await fetch(`${config.ollamaHost}/api/show`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ name }),
           signal: AbortSignal.timeout(5000),
         });
@@ -88,16 +89,17 @@ export function createModelsRoute(db, config, logger) {
 
         // Detect capabilities for hotswap UI
         const capabilities = {
-          vision: !!(data.capabilities?.includes?.('vision') || name.includes('vl') || name.includes('vision') || name.includes('gemma4') || name.includes('gemma3')),
-          thinking: !!(data.capabilities?.includes?.('thinking') || name.includes('reasoning') || name.includes('gpt-oss') || name.includes('gemma4')),
+          vision: !!(data.capabilities?.includes?.('vision') || name.includes('vl') || name.includes('vision') || name.includes('gemma4') || name.includes('gemma3') || name.includes('aurora-elwing')),
+          thinking: !!(data.capabilities?.includes?.('thinking') || name.includes('reasoning') || name.includes('gpt-oss') || name.includes('gemma4') || name.includes('spectre-origin') || name.includes('commander-core')),
           tools: !!(data.capabilities?.includes?.('tools') || true),
           audio: !!(data.capabilities?.includes?.('audio') || name.includes('gemma4')),
           embedding: !!(data.capabilities?.includes?.('embedding') || name.includes('embed')),
           cloud: name.includes('-cloud'),
+          ancient_script: !!(name.includes('stonedrift') || name.includes('aurora-elwing') || name.includes('spectre-origin')),
         };
 
-        // Detect think mode: gpt-oss uses string levels, gemma4/others use boolean
-        const thinkMode = name.includes('gpt-oss') ? 'levels' : 'boolean';
+        // Detect think mode: gpt-oss/spectre-origin/commander-core use string levels, gemma4/others use boolean
+        const thinkMode = (name.includes('gpt-oss') || name.includes('spectre-origin') || name.includes('commander-core')) ? 'levels' : 'boolean';
 
         res.writeHead(200);
         res.end(JSON.stringify({
@@ -125,7 +127,7 @@ export function createModelsRoute(db, config, logger) {
       try {
         const r = await fetch(`${config.ollamaHost}/api/pull`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ name, stream: false }),
         });
         const data = await r.json();
@@ -143,7 +145,7 @@ export function createModelsRoute(db, config, logger) {
       try {
         const r = await fetch(`${config.ollamaHost}/api/delete`, {
           method: 'DELETE',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ name }),
         });
         res.writeHead(r.ok ? 200 : r.status);

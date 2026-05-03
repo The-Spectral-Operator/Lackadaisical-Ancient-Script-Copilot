@@ -218,7 +218,7 @@ export function createAnalysisRoute(db, config, logger) {
       try {
         const r = await fetch(`${config.ollamaHost}/api/embed`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({ model: model || config.embedModel, input }),
           signal: AbortSignal.timeout(30000),
         });

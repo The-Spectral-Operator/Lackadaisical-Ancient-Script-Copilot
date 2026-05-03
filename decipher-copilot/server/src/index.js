@@ -13,7 +13,7 @@ import { seedDatasetsToDb } from './core/datasetImporter.js';
 const logger = createLogger();
 
 async function main() {
-  logger.info({ version: '1.0.0' }, 'decipher-server starting');
+  logger.info({ version: '1.1.1-alpha' }, 'decipher-server starting');
 
   // Ensure data directories exist
   for (const d of ['databases', 'attachments', 'corpora', 'lexicons']) {
@@ -76,7 +76,7 @@ async function main() {
     console.log(`
   ╔══════════════════════════════════════════╗
   ║  Ancient Script Decipherment Copilot     ║
-  ║  Alpha Release v1.0.0                    ║
+  ║  v1.1.1-alpha                    ║
   ╠══════════════════════════════════════════╣
   ║  UI:     http://${config.host}:${config.port}          ║
   ║  WS:     ws://${config.host}:${config.port}/ws         ║

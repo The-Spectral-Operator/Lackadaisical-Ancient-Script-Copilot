@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ancient Script Decipherment Copilot</title>
+  <link rel="icon" href="/Lackadaisical-Ancient-Copilot.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/css/reset.css">
@@ -20,7 +21,10 @@
 <div id="app">
   <aside id="sidebar">
     <div class="sidebar-header">
-      <h1 class="logo">𓂀 Decipher Copilot</h1>
+      <div class="sidebar-logo">
+        <img src="/Lackadaisical-Ancient-Copilot.png" alt="Decipher Copilot" class="logo-img" width="28" height="28">
+        <h1 class="logo">Decipher Copilot</h1>
+      </div>
       <button id="new-session-btn" class="btn btn-primary" title="New Session">+ New</button>
     </div>
 
@@ -40,6 +44,17 @@
       <span id="model-status" class="model-status" title="Ollama status">⏳</span>
     </div>
 
+    <!-- Session search -->
+    <div class="session-search-box">
+      <input id="session-search" type="text" placeholder="🔍 Search sessions & lexicon..." spellcheck="false" autocomplete="off" aria-label="Search sessions">
+    </div>
+    <div id="search-results" class="search-results hidden" role="listbox" aria-label="Search results"></div>
+
+    <!-- Session history -->
+    <div class="session-history-header">
+      <span class="session-history-label">Chat History</span>
+      <span id="session-count" class="session-count">0</span>
+    </div>
     <nav id="session-list" class="session-list" aria-label="Chat sessions"></nav>
 
     <div class="sidebar-footer">
