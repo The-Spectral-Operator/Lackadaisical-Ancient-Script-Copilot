@@ -7,7 +7,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node --env-file=.env src/index.js",
     "test": "node --test test/",
     "lint": "eslint src test"
   },

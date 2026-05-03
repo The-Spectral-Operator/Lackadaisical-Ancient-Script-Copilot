@@ -35,7 +35,7 @@ export function createEmbedSearchRoute(db, config, logger) {
     const embedModel = model || config.embedModel;
     const res = await fetch(`${config.ollamaHost}/api/embed`, {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
       body: JSON.stringify({ model: embedModel, input: text }),
       signal: AbortSignal.timeout(30000),
     });
@@ -51,7 +51,7 @@ export function createEmbedSearchRoute(db, config, logger) {
     const embedModel = model || config.embedModel;
     const res = await fetch(`${config.ollamaHost}/api/embed`, {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
       body: JSON.stringify({ model: embedModel, input: texts }),
       signal: AbortSignal.timeout(120000),
     });

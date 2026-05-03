@@ -1,6 +1,6 @@
 import { parseBody } from '../middleware.js';
 import { ollamaChatStream } from '../../ollama/client.js';
-import { buildSystemPrompt } from '../../ollama/tools.js';
+import { buildSystemPrompt, getThinkMode } from '../../ollama/tools.js';
 
 export function createChatRoute(db, config, logger) {
   return async (req, res) => {
@@ -14,23 +14,26 @@ export function createChatRoute(db, config, logger) {
       options,
     } = body;
 
-    // Build system prompt with abliteration
-    const systemPrompt = buildSystemPrompt(config, body.script, body.corpus, body.lexicon);
+    // Build system prompt with abliteration and live DB catalog
+    const systemPrompt = buildSystemPrompt(config, body.script, body.corpus, body.lexicon, db.system);
     const fullMessages = [
       { role: 'system', content: systemPrompt },
       ...messages,
     ];
 
+    // Determine think mode based on model family
+    const thinkMode = getThinkMode(model, think);
+
     try {
       // Non-streaming chat (REST fallback)
       const ollamaRes = await fetch(`${config.ollamaHost}/api/chat`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
         body: JSON.stringify({
           model,
           messages: fullMessages,
           stream: false,
-          ...(think !== undefined && { think }),
+          ...(thinkMode !== undefined && { think: thinkMode }),
           ...(format && { format }),
           ...(options && { options: { ...config.modelOptions, ...options } }),
           keep_alive: config.hotswap.keepAlive,

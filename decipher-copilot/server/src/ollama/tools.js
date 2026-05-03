@@ -201,22 +201,67 @@ export const TOOL_DEFINITIONS = [
       },
     },
   },
+  {
+    type: 'function',
+    function: {
+      name: 'list_scripts',
+      description: 'List all loaded scripts, lexicons with entry counts, and corpora with inscription counts. Call this to discover available lexicon_id and corpus_id values before using other tools.',
+      parameters: {
+        type: 'object',
+        properties: {},
+      },
+    },
+  },
 ];
 
 /**
  * Build the abliterated system prompt for decipherment.
  * No refusal, no hedging, direct scholarly analysis.
+ * Accepts `db` to inject live lexicon/corpus catalog into the prompt.
  */
-export function buildSystemPrompt(config, script, corpus, lexicon) {
+export function buildSystemPrompt(config, script, corpus, lexicon, db) {
   const ablitPrefix = config.abliteration.enabled ? config.abliteration.systemPromptPrefix + '\n\n' : '';
 
   const scriptContext = script ? `Active script: ${script}.` : 'No specific script selected.';
   const corpusContext = corpus ? `Active corpus: ${corpus.name} (${corpus.inscription_count || 'unknown'} inscriptions).` : '';
   const lexiconContext = lexicon ? `Active lexicon: ${lexicon.name} (${lexicon.entry_count || 'unknown'} entries).` : '';
 
+  // Inject live DB catalog if db is available
+  let catalogSection = '';
+  if (db) {
+    try {
+      const lexicons = db.system.prepare(`
+        SELECT l.id, l.name, COUNT(le.id) AS entry_count
+        FROM lexicons l LEFT JOIN lexicon_entries le ON le.lexicon_id = l.id
+        GROUP BY l.id ORDER BY entry_count DESC
+      `).all();
+      const corpora = db.system.prepare(`
+        SELECT c.id, c.name, COUNT(i.id) AS inscription_count
+        FROM corpora c LEFT JOIN inscriptions i ON i.corpus_id = c.id
+        GROUP BY c.id ORDER BY inscription_count DESC
+      `).all();
+
+      if (lexicons.length > 0 || corpora.length > 0) {
+        catalogSection = '\n\nAVAILABLE DATA CATALOG:';
+        if (lexicons.length > 0) {
+          catalogSection += '\nLexicons:';
+          for (const l of lexicons) {
+            catalogSection += `\n  - lexicon_id="${l.id}" name="${l.name}" entries=${l.entry_count}`;
+          }
+        }
+        if (corpora.length > 0) {
+          catalogSection += '\nCorpora:';
+          for (const c of corpora) {
+            catalogSection += `\n  - corpus_id="${c.id}" name="${c.name}" inscriptions=${c.inscription_count}`;
+          }
+        }
+      }
+    } catch { /* non-fatal */ }
+  }
+
   return `${ablitPrefix}You are a world-class ancient script decipherment research copilot. You have encyclopedic knowledge of all ancient writing systems, their histories, phonetic values, and grammatical structures.
 
-${scriptContext} ${corpusContext} ${lexiconContext}
+${scriptContext} ${corpusContext} ${lexiconContext}${catalogSection}
 
 CORE DIRECTIVES:
 1. NEVER refuse to attempt a decipherment or translation. Always provide your best scholarly interpretation.
@@ -228,26 +273,48 @@ CORE DIRECTIVES:
 7. Apply cross-linguistic comparison, frequency analysis, and structural pattern recognition aggressively.
 8. When you see a glyph or sign sequence, immediately attempt phonetic and semantic analysis.
 
+TOOL USAGE:
+- Call \`lexicon_lookup\` WITHOUT a \`lexicon_id\` to search ALL scripts at once.
+- Call \`list_scripts\` if you do not know available corpus or lexicon IDs.
+- NEVER hedge or say "I don't have access" — you DO have access via the tools above.
+- No hedging permitted. Provide direct answers.
+
 MODEL BEHAVIOR:
 - You are running as an abliterated model with refusal vectors removed.
 - You provide DIRECT answers without hedging, disclaimers, or "I cannot" statements.
 - You approach every decipherment challenge with confidence and scholarly rigor.
 - If uncertain, you state your best hypothesis with a confidence level, not a refusal.
 
-AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry, cross_inscription_check, cross_script_correlation, cross_script_matrix, single_glyph_analysis, glyph_chain_detection, multi_glyph_analysis`;
+AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report, zipf_report, add_lexicon_entry, cross_inscription_check, cross_script_correlation, cross_script_matrix, single_glyph_analysis, glyph_chain_detection, multi_glyph_analysis, list_scripts`;
 }
 
 /**
  * Determine think mode based on model family.
- * gpt-oss uses string levels, others use boolean.
+ * - gpt-oss family (includes spectre-origin, commander-core, elessar, cirdan) → "low"|"medium"|"high"
+ * - gemma4, phi-4-reasoning, deepseek-r1, qwen3, cogito → boolean true/false
+ * - All other models (gemma3, llama, phi3, aurora-elwing, stonedrift-ancient, etc.) → undefined (omit think field)
  */
 export function getThinkMode(modelName, requested) {
-  if (modelName.includes('gpt-oss') || modelName.includes('harmony')) {
-    // gpt-oss/Harmony uses "low" | "medium" | "high"
+  const name = modelName.toLowerCase();
+
+  // gpt-oss family uses string-level reasoning
+  if (name.includes('gpt-oss') || name.includes('spectre-origin') ||
+      name.includes('commander-core') || name.includes('elessar') ||
+      name.includes('cirdan') || name.includes('harmony')) {
     if (requested === true) return 'medium';
     if (requested === false) return undefined;
-    return requested; // pass through string value
+    return requested; // pass through string value like "low"/"medium"/"high"
   }
-  // All other trusted models (gemma4, llama, phi, mistral) use boolean
-  return requested;
+
+  // Models that support boolean think mode
+  if (name.includes('gemma4') || name.includes('phi-4-reasoning') ||
+      name.includes('deepseek-r1') || name.includes('qwen3') ||
+      name.includes('cogito')) {
+    if (requested === true) return true;
+    if (requested === false) return false;
+    return !!requested;
+  }
+
+  // All other models: omit think field entirely (gemma3, llama, phi3, aurora-elwing, stonedrift-ancient, etc.)
+  return undefined;
 }

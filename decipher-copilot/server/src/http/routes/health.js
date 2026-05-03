@@ -2,7 +2,7 @@ export function createHealthRoute(db, config, logger) {
   return async (_req, res) => {
     let ollamaStatus = { reachable: false, version: null };
     try {
-      const r = await fetch(`${config.ollamaHost}/api/version`, { signal: AbortSignal.timeout(3000) });
+      const r = await fetch(`${config.ollamaHost}/api/version`, { signal: AbortSignal.timeout(3000), headers: { ...config.ollamaAuthHeaders } });
       if (r.ok) {
         const data = await r.json();
         ollamaStatus = { reachable: true, version: data.version };

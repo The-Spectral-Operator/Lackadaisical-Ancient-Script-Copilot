@@ -4,7 +4,7 @@
  */
 
 export async function* ollamaChatStream({
-  baseUrl, model, messages, tools, format, think, options, keepAlive, signal,
+  baseUrl, model, messages, tools, format, think, options, keepAlive, signal, authHeaders = {},
 }) {
   const body = {
     model,
@@ -19,7 +19,7 @@ export async function* ollamaChatStream({
 
   const res = await fetchWithRetry(`${baseUrl}/api/chat`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...authHeaders },
     body: JSON.stringify(body),
     signal,
   });
@@ -44,7 +44,7 @@ export async function* ollamaChatStream({
   if (buf.trim()) yield JSON.parse(buf);
 }
 
-export async function ollamaChat({ baseUrl, model, messages, tools, format, think, options, keepAlive }) {
+export async function ollamaChat({ baseUrl, model, messages, tools, format, think, options, keepAlive, authHeaders = {} }) {
   const body = {
     model,
     messages,
@@ -58,7 +58,7 @@ export async function ollamaChat({ baseUrl, model, messages, tools, format, thin
 
   const res = await fetchWithRetry(`${baseUrl}/api/chat`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...authHeaders },
     body: JSON.stringify(body),
   });
 
@@ -69,7 +69,7 @@ export async function ollamaChat({ baseUrl, model, messages, tools, format, thin
   return res.json();
 }
 
-export async function ollamaGenerate({ baseUrl, model, prompt, system, format, think, options, images }) {
+export async function ollamaGenerate({ baseUrl, model, prompt, system, format, think, options, images, authHeaders = {} }) {
   const body = {
     model,
     prompt,
@@ -83,7 +83,7 @@ export async function ollamaGenerate({ baseUrl, model, prompt, system, format, t
 
   const res = await fetchWithRetry(`${baseUrl}/api/generate`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...authHeaders },
     body: JSON.stringify(body),
   });
 
@@ -94,32 +94,32 @@ export async function ollamaGenerate({ baseUrl, model, prompt, system, format, t
   return res.json();
 }
 
-export async function ollamaEmbed({ baseUrl, model, input }) {
+export async function ollamaEmbed({ baseUrl, model, input, authHeaders = {} }) {
   const res = await fetchWithRetry(`${baseUrl}/api/embed`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...authHeaders },
     body: JSON.stringify({ model, input }),
   });
   if (!res.ok) throw new Error(`ollama embed ${res.status}`);
   return res.json();
 }
 
-export async function ollamaVersion(baseUrl) {
-  const res = await fetch(`${baseUrl}/api/version`, { signal: AbortSignal.timeout(3000) });
+export async function ollamaVersion(baseUrl, authHeaders = {}) {
+  const res = await fetch(`${baseUrl}/api/version`, { signal: AbortSignal.timeout(3000), headers: { ...authHeaders } });
   if (!res.ok) throw new Error('ollama unreachable');
   return res.json();
 }
 
-export async function ollamaTags(baseUrl) {
-  const res = await fetch(`${baseUrl}/api/tags`, { signal: AbortSignal.timeout(5000) });
+export async function ollamaTags(baseUrl, authHeaders = {}) {
+  const res = await fetch(`${baseUrl}/api/tags`, { signal: AbortSignal.timeout(5000), headers: { ...authHeaders } });
   if (!res.ok) throw new Error('ollama tags failed');
   return res.json();
 }
 
-export async function ollamaShow(baseUrl, model) {
+export async function ollamaShow(baseUrl, model, authHeaders = {}) {
   const res = await fetch(`${baseUrl}/api/show`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...authHeaders },
     body: JSON.stringify({ name: model }),
     signal: AbortSignal.timeout(5000),
   });
@@ -141,14 +141,15 @@ async function fetchWithRetry(url, opts, maxRetries = 6) {
   return fetch(url, opts);
 }
 
-export function ollamaFetch(baseUrl) {
+export function ollamaFetch(baseUrl, apiKey) {
+  const authHeaders = apiKey ? { 'Authorization': `Bearer ${apiKey}` } : {};
   return {
-    chatStream: (opts) => ollamaChatStream({ baseUrl, ...opts }),
-    chat: (opts) => ollamaChat({ baseUrl, ...opts }),
-    generate: (opts) => ollamaGenerate({ baseUrl, ...opts }),
-    embed: (opts) => ollamaEmbed({ baseUrl, ...opts }),
-    version: () => ollamaVersion(baseUrl),
-    tags: () => ollamaTags(baseUrl),
-    show: (model) => ollamaShow(baseUrl, model),
+    chatStream: (opts) => ollamaChatStream({ baseUrl, authHeaders, ...opts }),
+    chat: (opts) => ollamaChat({ baseUrl, authHeaders, ...opts }),
+    generate: (opts) => ollamaGenerate({ baseUrl, authHeaders, ...opts }),
+    embed: (opts) => ollamaEmbed({ baseUrl, authHeaders, ...opts }),
+    version: () => ollamaVersion(baseUrl, authHeaders),
+    tags: () => ollamaTags(baseUrl, authHeaders),
+    show: (model) => ollamaShow(baseUrl, model, authHeaders),
   };
 }

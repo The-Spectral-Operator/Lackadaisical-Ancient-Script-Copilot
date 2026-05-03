@@ -13,11 +13,25 @@ export const config = {
   port: parseInt(env.DECIPHER_PORT || '7340', 10),
   wsPort: parseInt(env.DECIPHER_WS_PORT || '7340', 10),
   ollamaHost: env.OLLAMA_HOST || 'http://127.0.0.1:11434',
+  ollamaApiKey: env.OLLAMA_API_KEY || '',
+  // Pre-computed auth headers for Ollama — single source of truth
+  get ollamaAuthHeaders() {
+    if (!this.ollamaApiKey) return {};
+    return { 'Authorization': `Bearer ${this.ollamaApiKey}` };
+  },
   defaultModel: env.DECIPHER_MODEL || 'gemma4:e4b',
-  visionModel: env.DECIPHER_VISION_MODEL || 'gemma4:e4b',
+  visionModel: env.DECIPHER_VISION_MODEL || 'aurora-elwing-v2:latest',
   embedModel: env.DECIPHER_EMBED_MODEL || 'nomic-embed-text',
   // All supported models for hotswap - security-vetted, no Chinese-origin models
   recommendedModels: [
+    'lackadaisical/stonedrift-ancient:v3',
+    'stonedrift-ancient-sentinel:v3',
+    'spectre-origin:20b',
+    'spectre-origin:120b',
+    'spectre-origin:120b-cloud',
+    'aurora-elwing-v2:latest',
+    'commander-core:20b',
+    'commander-core:120b',
     'gemma4:e4b',
     'gemma4:e2b',
     'gemma4:e12b',

@@ -127,7 +127,7 @@ export function createSignClusterRoute(db, config, logger) {
       try {
         const ollamaRes = await fetch(`${config.ollamaHost}/api/chat`, {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
           body: JSON.stringify({
             model: visionModel,
             messages: [{
@@ -290,7 +290,7 @@ async function clusterByVision(signs, config, visionModel, logger) {
       const imgBase64 = readFileSync(imgPath).toString('base64');
       const ollamaRes = await fetch(`${config.ollamaHost}/api/chat`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
         body: JSON.stringify({
           model: visionModel,
           messages: [{ role: 'user', content: 'Describe this glyph shape concisely (strokes, orientation, complexity).', images: [imgBase64] }],
@@ -363,7 +363,7 @@ async function clusterByEmbedding(signs, config, embedModel, logger) {
   try {
     const ollamaRes = await fetch(`${config.ollamaHost}/api/embed`, {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: { 'content-type': 'application/json', ...config.ollamaAuthHeaders },
       body: JSON.stringify({ model: embedModel, input: texts }),
       signal: AbortSignal.timeout(60000),
     });
