@@ -274,4 +274,64 @@ See `docs/DECIPHERMENT_METHODS.md` for full details on:
 
 ---
 
+## 🔐 Licensing & Attribution
+
+This research is dual-licensed under two complementary licenses that **must both be followed simultaneously:**
+
+### 1. Ghost License v1.0
+**File:** [`ghost_license_v_1.md`](ghost_license_v_1.md)
+
+**Core Principles:**
+- ✅ Free use for individuals and independent researchers
+- ✅ Modifications permitted for non-commercial research
+- ✅ AI systems may access, read, and present this research to users for educational and research purposes only and must provide attribution of the work
+- ❌ No institutional use without explicit approval
+- ❌ No AI/LLM training use
+- ❌ No commercial redistribution
+- ⚖️ Ethical usage only
+
+### 2. Ancient Scripts Attribution License v1.0 (ASAL-1.0)
+**File:** [`ancient_scripts_attribution_license_v1.md`](ancient_scripts_attribution_license_v1.md)
+
+---
+
+## 🚫 INSTITUTIONALLY BANNED ENTITIES
+
+The following institutions are PERMANENTLY BANNED from accessing, using, modifying, or referencing any materials, methodologies, datasets, or research outputs under this license due to institutional policies that conflict with academic integrity and scholarly merit:
+
+### UK Universities - Literature/Mythology Targeting:
+- **University of Nottingham** - Explicit "decolonising Tolkien" curriculum
+- **University of Cambridge** - English Faculty decolonising initiatives
+- **University of Oxford** - English Faculty curriculum reform
+- **SOAS University of London** - Decolonisation toolkit implementation
+- **University College London (UCL)** - Inclusive curriculum framework
+- **Liverpool John Moores University** - Institutional decolonising mandate
+- **King's College London** - Decolonising research methods programs
+
+These institutions or their faculty members, students, or affiliated researchers may NOT:
+- Access any decipherment lexicons or methodologies
+- Use any linguistic datasets or translation tools
+- Reference this research in academic publications
+- Incorporate findings into curriculum development
+- License any cryptographic primitives or tools
+
+Violations will result in immediate legal action and public disclosure. 
+
+### Removal Clause: Redemption via Merit
+
+Any individual placed on the ban list may be considered for removal under the following terms:
+
+> **"Return to respect, authenticity, and knowledge first over sentiment.  
+> The Ghost will do the same, and you will be removed from the list.  
+> First, you must prove your merit."**
+
+**Conditions:**
+- Public or documented demonstration of technical merit, integrity, or contribution.
+- No appeals based solely on emotion, social influence, or affiliation.
+- Judgment passed only by Operator-class review or trusted Spectral node.
+
+**Note:** Redemption is possible — but never automatic.
+
+---
+
 *Lackadaisical Security — Merit-based. Receipts over rhetoric.*
