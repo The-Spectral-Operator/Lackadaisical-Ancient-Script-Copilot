@@ -289,6 +289,83 @@ AVAILABLE TOOLS: lexicon_lookup, corpus_search, frequency_report, entropy_report
 }
 
 /**
+ * Models that support Ollama's native tool-call API (message.tool_calls).
+ * Every other model falls back to text-based tool calling.
+ */
+const NATIVE_TOOL_MODELS = [
+  'llama3.1', 'llama3.2', 'llama3.3',
+  'mistral', 'mixtral',
+  'command-r',
+  'firefunction',
+  'hermes3',
+  'functionary',
+  'smollm2',
+];
+
+/**
+ * Returns true if the given model supports Ollama's native tool-call API.
+ * Custom models (gemma4, aurora-elwing, stonedrift-ancient, spectre-origin,
+ * commander-core, etc.) return false and get text-based tool calling instead.
+ */
+export function modelSupportsNativeTools(modelName) {
+  const name = (modelName || '').toLowerCase();
+  return NATIVE_TOOL_MODELS.some(m => name.includes(m));
+}
+
+/**
+ * Build a text-only tool-calling addendum for models that do not support
+ * Ollama's native tool call API.  Appended to the system prompt.
+ * The model is instructed to emit exactly one <tool_call>JSON</tool_call> line
+ * when it needs a tool, then stop and wait for the result.
+ */
+export function buildTextToolPrompt(tools) {
+  const defs = tools.map(t => {
+    const fn = t.function;
+    const required = fn.parameters?.required || [];
+    const props = fn.parameters?.properties || {};
+    const paramLines = Object.entries(props)
+      .map(([k, v]) => `  ${k} (${v.type || 'any'}${required.includes(k) ? ', required' : ''}): ${v.description || ''}`)
+      .join('\n');
+    return `${fn.name}: ${fn.description}\nParameters:\n${paramLines || '  (none)'}`;
+  }).join('\n\n');
+
+  return `\n\nTEXT TOOL CALLING:
+When you need to call a tool, output EXACTLY this on its own line and stop:
+<tool_call>{"name":"TOOL_NAME","arguments":{...}}</tool_call>
+Do NOT output anything else in that turn. After receiving the tool result, continue your analysis.
+You may call tools multiple times. Never fabricate tool results.
+
+TOOLS:
+${defs}`;
+}
+
+/**
+ * Parse <tool_call>JSON</tool_call> blocks out of a model's text response.
+ * Returns an array of Ollama-style tool call objects (same shape as message.tool_calls).
+ */
+export function parseTextToolCalls(text) {
+  const calls = [];
+  const re = /<tool_call>([\s\S]*?)<\/tool_call>/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    try {
+      const obj = JSON.parse(m[1].trim());
+      if (obj && typeof obj.name === 'string') {
+        calls.push({ function: { name: obj.name, arguments: obj.arguments ?? {} } });
+      }
+    } catch { /* skip malformed blocks */ }
+  }
+  return calls;
+}
+
+/**
+ * Strip <tool_call>…</tool_call> blocks from content so they are not shown to the user.
+ */
+export function stripTextToolCalls(text) {
+  return text.replace(/<tool_call>[\s\S]*?<\/tool_call>/g, '');
+}
+
+/**
  * Determine think mode based on model family.
  * - gpt-oss family (includes spectre-origin, commander-core, elessar, cirdan) → "low"|"medium"|"high"
  * - gemma4, phi-4-reasoning, deepseek-r1, qwen3, cogito → boolean true/false

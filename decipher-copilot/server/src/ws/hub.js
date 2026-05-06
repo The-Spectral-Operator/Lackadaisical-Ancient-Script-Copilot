@@ -5,7 +5,7 @@
 import { WebSocketServer } from 'ws';
 import { ollamaChatStream } from '../ollama/client.js';
 import { ThinkParser } from '../ollama/thinkParser.js';
-import { buildSystemPrompt, TOOL_DEFINITIONS, getThinkMode } from '../ollama/tools.js';
+import { buildSystemPrompt, TOOL_DEFINITIONS, getThinkMode, modelSupportsNativeTools, buildTextToolPrompt, parseTextToolCalls, stripTextToolCalls } from '../ollama/tools.js';
 import { parseFrame, Frames } from './protocol.js';
 import { ulid } from '../util/ids.js';
 import { lexiconLookup } from '../tools/lexiconLookup.js';
@@ -130,21 +130,70 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
   const tools = TOOL_DEFINITIONS.filter(t => enabledToolNames.includes(t.function.name));
   const thinkMode = getThinkMode(model, think !== undefined ? think : true);
 
+  // Determine whether this model supports Ollama's native tool-call API.
+  // Models without native support (gemma3/4, aurora-elwing, stonedrift-ancient,
+  // spectre-origin, commander-core, etc.) use text-based tool calling instead.
+  const useNativeTools = modelSupportsNativeTools(model);
+
   let fullContent = '', fullThinking = '', finalStats = null;
 
   try {
     const currentMessages = [...messages];
+
+    // For text-mode models, inject tool definitions into the system prompt
+    // so the model knows how to call tools via <tool_call>JSON</tool_call> blocks.
+    if (!useNativeTools && tools.length > 0) {
+      currentMessages[0] = {
+        ...currentMessages[0],
+        content: currentMessages[0].content + buildTextToolPrompt(tools),
+      };
+    }
+
     for (let round = 0; round < 6; round++) {
       const thinkParser = new ThinkParser();
       const pendingToolCalls = [];
       let roundContent = '';
 
-      for await (const chunk of ollamaChatStream({ baseUrl: config.ollamaHost, model, messages: currentMessages, tools: tools.length > 0 ? tools : undefined, think: thinkMode, options: { ...config.modelOptions, ...(options || {}) }, keepAlive: config.hotswap.keepAlive, signal: controller.signal, authHeaders: config.ollamaAuthHeaders })) {
+      for await (const chunk of ollamaChatStream({
+        baseUrl: config.ollamaHost,
+        model,
+        messages: currentMessages,
+        // Only pass tools to Ollama when the model supports the native API.
+        tools: useNativeTools && tools.length > 0 ? tools : undefined,
+        think: thinkMode,
+        options: { ...config.modelOptions, ...(options || {}) },
+        keepAlive: config.hotswap.keepAlive,
+        signal: controller.signal,
+        authHeaders: config.ollamaAuthHeaders,
+      })) {
         const parsed = thinkParser.processChunk(chunk);
-        if (parsed.thinking) { fullThinking += parsed.thinking; if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.thinkingDelta(messageId, parsed.thinking))); }
-        if (parsed.content) { roundContent += parsed.content; fullContent += parsed.content; if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.contentDelta(messageId, parsed.content))); }
+        if (parsed.thinking) {
+          fullThinking += parsed.thinking;
+          if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.thinkingDelta(messageId, parsed.thinking)));
+        }
+        if (parsed.content) {
+          roundContent += parsed.content;
+          // For text-based tool calling, strip <tool_call> tags before sending
+          // content deltas to the client so users never see raw XML.
+          const visibleDelta = useNativeTools ? parsed.content : stripTextToolCalls(parsed.content);
+          if (visibleDelta && ws.readyState === ws.OPEN) {
+            ws.send(JSON.stringify(Frames.contentDelta(messageId, visibleDelta)));
+          }
+        }
         if (parsed.toolCalls) pendingToolCalls.push(...parsed.toolCalls);
         if (parsed.done) finalStats = parsed.stats;
+      }
+
+      // Accumulate fullContent after the round is complete so the strip logic
+      // (text mode) and the native accumulation are handled in one place.
+      if (useNativeTools) {
+        fullContent += roundContent;
+      } else {
+        // For text-based models, extract tool calls from the raw text output.
+        const textCalls = parseTextToolCalls(roundContent);
+        if (textCalls.length > 0) pendingToolCalls.push(...textCalls);
+        // Strip tool call tags from accumulated visible content.
+        fullContent += stripTextToolCalls(roundContent);
       }
 
       if (pendingToolCalls.length === 0) break;
@@ -156,9 +205,33 @@ async function handleChatStart(frame, ws, db, config, logger, activeStreams) {
         if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.toolCall(messageId, name, args)));
         const result = dispatchTool(name, args, db, config, logger);
         if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(Frames.toolResult(messageId, name, result)));
-        toolResultMessages.push({ role: 'tool', tool_name: name, content: JSON.stringify(result) });
+
+        if (useNativeTools) {
+          // Native tool calling: Ollama expects role:'tool' with only content.
+          toolResultMessages.push({ role: 'tool', content: JSON.stringify(result) });
+        } else {
+          // Text-based tool calling: inject result as a user turn the model can read.
+          toolResultMessages.push({
+            role: 'user',
+            content: `<tool_result name="${name}">\n${JSON.stringify(result, null, 2)}\n</tool_result>`,
+          });
+        }
       }
-      currentMessages.push({ role: 'assistant', content: roundContent }, ...toolResultMessages);
+
+      if (useNativeTools) {
+        // Include tool_calls in the assistant message so the model has full context
+        // for the next round (required by the Ollama multi-turn tool spec).
+        currentMessages.push(
+          { role: 'assistant', content: roundContent || '', tool_calls: pendingToolCalls },
+          ...toolResultMessages,
+        );
+      } else {
+        // Text-based: the model's raw output (including <tool_call> tags) plus results.
+        currentMessages.push(
+          { role: 'assistant', content: roundContent },
+          ...toolResultMessages,
+        );
+      }
     }
 
     const finishedAt = Date.now();
